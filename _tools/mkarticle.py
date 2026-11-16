@@ -26,13 +26,26 @@ src=d.get('sources','')
 if src and src!='—': out.append(f'<p><em>Źródła: {html.escape(src)}</em></p>')
 out.append('<p><strong>Sol y Sól</strong> – codzienne wiadomości z Costa del Sol po polsku. Obserwuj nas na <a href="https://www.instagram.com/solysol.pl/">Instagramie</a> i Facebooku.</p>')
 tag=d.get('tag','')
+def mkhero():
+    ph=d.get('photo','')
+    if not ph or ph=='invoice.jpg' or not os.path.exists(f'_photos/{ph}'): return ''
+    from PIL import Image, ImageEnhance
+    im=Image.open(f'_photos/{ph}').convert('RGB')
+    try:
+        px,py=[float(x.strip('%'))/100 for x in d.get('pos','50% 50%').split()[:2]]
+    except Exception: px,py=.5,.5
+    W,H=1600,900; r=max(W/im.width,H/im.height); im=im.resize((round(im.width*r),round(im.height*r)),Image.LANCZOS)
+    x=int((im.width-W)*px); y=int((im.height-H)*py); im=im.crop((x,y,x+W,y+H))
+    im=ImageEnhance.Contrast(im).enhance(1.05)
+    os.makedirs(pid,exist_ok=True); im.save(f'{pid}/hero.jpg',quality=86,optimize=True)
+    return f'{pid}/hero.jpg'
 cat='Wiadomości'
 for k,v in [('Kryminal','Kryminalne'),('Costa bez filtra','Costa bez filtra'),('Nieruchom','Nieruchomości'),('firm','Biznes'),('Podatk','Biznes'),('Wybrzeże','Wybrzeże'),('Czy wiesz','Ciekawostki'),('Pytasz','Pytasz – odpowiadamy'),('Kalendarz','Kalendarz')]:
     if k.lower() in tag.lower(): cat=v;break
 place=[t.strip() for t in tag.split('·')[1:]]
 excerpt=re.sub(r'\s+',' ',' '.join(re.sub('<[^>]+>','',x) for x in out[:1]))[:240]
-img=f'{pid}/fb.jpg' if os.path.exists(f'{pid}/fb.jpg') else (f'{pid}/ig-1.jpg' if os.path.exists(f'{pid}/ig-1.jpg') else (f'{pid}/okladka.jpg' if os.path.exists(f'{pid}/okladka.jpg') else ''))
-art={'id':pid,'title':d['title'],'category':cat,'tags':['Costa del Sol']+place,'excerpt':excerpt,'html':'\n'.join(out),'image':img}
+img=hero if (hero:=mkhero()) else f'{pid}/fb.jpg' if os.path.exists(f'{pid}/fb.jpg') else (f'{pid}/ig-1.jpg' if os.path.exists(f'{pid}/ig-1.jpg') else (f'{pid}/okladka.jpg' if os.path.exists(f'{pid}/okladka.jpg') else ''))
+art={'rev':2,'id':pid,'title':d['title'],'category':cat,'tags':['Costa del Sol']+place,'excerpt':excerpt,'html':'\n'.join(out),'image':img}
 os.makedirs('articles',exist_ok=True)
 json.dump(art,open(f'articles/{pid}.json','w'),ensure_ascii=False,indent=1)
 idx=json.load(open('articles/index.json')) if os.path.exists('articles/index.json') else []

@@ -21,6 +21,14 @@ function ssf_term($name,$tax){
   if(!$t) $t = wp_insert_term($name,$tax);
   return is_wp_error($t)?0:(int)(is_array($t)?$t['term_id']:$t);
 }
+function ssf_thumb($pid,$a,$id){
+  if(empty($a['image'])) return false;
+  $tmp = download_url(SSF_BASE.ltrim($a['image'],'/').'?t='.time());
+  if(is_wp_error($tmp)) return false;
+  $mid = media_handle_sideload(['name'=>$id.'-'.time().'.jpg','tmp_name'=>$tmp],$pid,$a['title']);
+  if(is_wp_error($mid)){ @unlink($tmp); return false; }
+  set_post_thumbnail($pid,$mid); return true;
+}
 function ssf_sync(){
   $idx = json_decode(ssf_get('articles/index.json') ?: '[]', true);
   if(!is_array($idx)) return 'no index';
@@ -32,8 +40,17 @@ function ssf_sync(){
     $id = preg_replace('/[^a-z0-9\-]/','',strtolower($id));
     if(!$id) continue;
     $ex = get_posts(['post_type'=>'post','post_status'=>'any','meta_key'=>'ssf_id','meta_value'=>$id,'numberposts'=>1,'fields'=>'ids']);
-    if($ex){ continue; }
     $a = json_decode(ssf_get("articles/$id.json") ?: 'null', true);
+    if($ex){
+      $pid=$ex[0]; $rev=(int)($a['rev'] ?? 1);
+      if($a && $rev > (int)get_post_meta($pid,'ssf_rev',true)){
+        wp_update_post(['ID'=>$pid,'post_content'=>wp_kses_post($a['html']),'post_excerpt'=>wp_strip_all_tags($a['excerpt'] ?? '')]);
+        $old=get_post_thumbnail_id($pid);
+        if(ssf_thumb($pid,$a,$id)){ if($old) wp_delete_attachment($old,true); }
+        update_post_meta($pid,'ssf_rev',$rev); $out[]="$id: updated";
+      }
+      continue;
+    }
     if(!$a || empty($a['title']) || empty($a['html'])) { $out[]="$id: bad"; continue; }
     $cat = ssf_term($a['category'] ?? 'Wiadomości','category');
     $pid = wp_insert_post([
@@ -47,14 +64,8 @@ function ssf_sync(){
     ], true);
     if(is_wp_error($pid)){ $out[]="$id: ".$pid->get_error_message(); continue; }
     update_post_meta($pid,'ssf_id',$id);
-    if(!empty($a['image'])){
-      $tmp = download_url(SSF_BASE.ltrim($a['image'],'/'));
-      if(!is_wp_error($tmp)){
-        $fa = ['name'=>$id.'.jpg','tmp_name'=>$tmp];
-        $mid = media_handle_sideload($fa,$pid,$a['title']);
-        if(!is_wp_error($mid)) set_post_thumbnail($pid,$mid); else @unlink($tmp);
-      }
-    }
+    update_post_meta($pid,'ssf_rev',(int)($a['rev'] ?? 1));
+    ssf_thumb($pid,$a,$id);
     $out[]="$id: ok ".get_permalink($pid);
   }
   return implode("\n",$out) ?: 'nothing new';
