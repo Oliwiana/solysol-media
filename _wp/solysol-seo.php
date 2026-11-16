@@ -111,3 +111,14 @@ add_filter('the_content', function($c){
   foreach($q as $p) $h .= '<li style="margin:0 0 10px"><a href="'.esc_url(get_permalink($p)).'" style="font-size:19px;line-height:1.3;text-decoration:none">'.esc_html(get_the_title($p)).'</a></li>';
   return $c.$h.'</ul></aside>';
 }, 20);
+
+/* 7. Nagłówek stron miast: „Marbella – wiadomości po polsku” zamiast „Tag: Marbella” */
+add_filter('get_the_archive_title', function($t){
+  if (is_tag()) return single_tag_title('', false).' – wiadomości po polsku';
+  if (is_category()) return single_cat_title('', false);
+  return $t;
+});
+add_filter('document_title_parts', function($p){
+  if (is_tag()) $p['title'] = single_tag_title('', false).' – wiadomości po polsku';
+  return $p;
+});
