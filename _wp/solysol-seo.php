@@ -77,11 +77,18 @@ add_action('wp_head', function(){
   echo '<meta name="twitter:title" content="'.esc_attr($title).'">'."\n";
   if ($desc) echo '<meta name="twitter:description" content="'.esc_attr(wp_trim_words($desc,40)).'">'."\n";
   if ($img) echo '<meta name="twitter:image" content="'.esc_url($img).'">'."\n";
-  if ((is_tag() || is_category()) && $desc && !is_paged()) echo '<meta name="description" content="'.esc_attr($desc).'">'."\n";
 }, 2);
 
 /* 5. Strona główna: lepszy opis i nagłówek H1 */
 add_action('template_redirect', function(){
+  if ((is_tag() || is_category()) && !is_paged()) {
+    $d = wp_strip_all_tags(term_description());
+    if ($d) ob_start(function($html) use ($d){
+      $html = preg_replace('#(<meta\s+name="description"\s+content=")[^"]*(")#i', '$1'.esc_attr($d).'$2', $html, 1);
+      return preg_replace('#(<meta\s+property="og:description"\s+content=")[^"]*(")#i', '$1'.esc_attr($d).'$2', $html, 1);
+    });
+    return;
+  }
   if (!(is_front_page() || is_home()) || is_paged()) return;
   ob_start(function($html){
     $html = preg_replace('#(<meta\s+name="description"\s+content=")[^"]*(")#i', '$1'.esc_attr(SSEO_HOME_DESC).'$2', $html, 1);
