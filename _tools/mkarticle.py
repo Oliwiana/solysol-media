@@ -11,8 +11,10 @@ for i,l in enumerate(lines):
     if i==0: continue
     if s.startswith('#') or s.lower().startswith('więcej') or 'solysol.pl' in s.lower() and len(s)<80: continue
     if s.lower().startswith('źródło'): continue
+    if any(t in s.lower() for t in ['komentarz','👇','przesuń','zapisz ten post','udostępnij','oznacz kogoś']): continue
     body.append(s)
 out=[];ul=[]
+READY=d.get('articleHtml')
 def flush():
     global ul
     if ul: out.append('<ul>'+''.join(f'<li>{x}</li>' for x in ul)+'</ul>'); ul=[]
@@ -22,8 +24,30 @@ for s in body:
     flush()
     if s: out.append(f'<p>{html.escape(s)}</p>')
 flush()
+if READY: out=[READY]
+else:
+    # nagłówek przed pierwszą listą
+    for k,x in enumerate(out):
+        if x.startswith('<ul>'):
+            prev=out[k-1] if k else ''
+            if prev.startswith('<p>') and prev.rstrip().endswith(':</p>') and len(prev)<90:
+                out[k-1]='<h2>'+prev[3:-5].rstrip(':')+'</h2>'
+            else:
+                out.insert(k,'<h2>Najważniejsze informacje</h2>')
+            break
+CITY={'Marbell':'marbella','Malag':'malaga','Málag':'malaga','Maladze':'malaga','Fuengirol':'fuengirola','Estepon':'estepona','Mijas':'mijas','Benalmáden':'benalmadena','Torremolinos':'torremolinos','Nerj':'nerja','Benahav':'benahavis','Manilv':'manilva'}
+used=set()
+def linkcity(h):
+    for k,slug in CITY.items():
+        if slug in used: continue
+        m=re.search(r'(?<![\w/>-])('+k+r'\w*)',h)
+        if m and '<a ' not in h[max(0,m.start()-60):m.start()]:
+            h=h[:m.start()]+f'<a href="https://solysol.pl/tag/{slug}/">{m.group(1)}</a>'+h[m.end():]; used.add(slug)
+    return h
+if not READY:
+    out=[linkcity(x) if x.startswith('<p>') else x for x in out]
 src=d.get('sources','')
-if src and src!='—': out.append(f'<p><em>Źródła: {html.escape(src)}</em></p>')
+if src and src!='—' and not READY: out.append(f'<h2>Źródła</h2><p><em>{html.escape(src)}</em></p>')
 out.append('<p><strong>Sol y Sól</strong> – codzienne wiadomości z Costa del Sol po polsku. Obserwuj nas na <a href="https://www.instagram.com/solysol.pl/">Instagramie</a> i Facebooku.</p>')
 tag=d.get('tag','')
 def mkhero():
@@ -45,7 +69,7 @@ for k,v in [('Kryminal','Kryminalne'),('Costa bez filtra','Costa bez filtra'),('
 place=[t.strip() for t in tag.split('·')[1:]]
 excerpt=re.sub(r'\s+',' ',' '.join(re.sub('<[^>]+>','',x) for x in out[:1]))[:240]
 img=hero if (hero:=mkhero()) else f'{pid}/fb.jpg' if os.path.exists(f'{pid}/fb.jpg') else (f'{pid}/ig-1.jpg' if os.path.exists(f'{pid}/ig-1.jpg') else (f'{pid}/okladka.jpg' if os.path.exists(f'{pid}/okladka.jpg') else ''))
-art={'rev':2,'id':pid,'title':d['title'],'category':cat,'tags':['Costa del Sol']+place,'excerpt':excerpt,'html':'\n'.join(out),'image':img}
+art={'rev':3,'id':pid,'title':d['title'],'category':cat,'tags':['Costa del Sol']+place,'excerpt':excerpt,'html':'\n'.join(out),'image':img}
 os.makedirs('articles',exist_ok=True)
 json.dump(art,open(f'articles/{pid}.json','w'),ensure_ascii=False,indent=1)
 idx=json.load(open('articles/index.json')) if os.path.exists('articles/index.json') else []
