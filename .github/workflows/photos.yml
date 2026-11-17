@@ -1,0 +1,23 @@
+name: Zdjęcia – Wikimedia Commons
+on:
+  workflow_dispatch:
+    inputs:
+      query: { description: "Czego szukać", required: true }
+      count: { description: "Ile zdjęć", required: false, default: "8" }
+permissions:
+  contents: write
+concurrency: photos
+jobs:
+  photos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 1 }
+      - run: python3 _tools/commons.py "${{ github.event.inputs.query }}" "${{ github.event.inputs.count }}"
+      - run: |
+          git config user.name Oliwiana; git config user.email noreply@solysol.pl
+          git add _photos/commons
+          git diff --cached --quiet && exit 0
+          git commit -qm "zdjęcia: ${{ github.event.inputs.query }}"
+          for i in 1 2 3; do git pull --rebase -q origin main && git push -q origin HEAD:main && break; sleep 5; done
