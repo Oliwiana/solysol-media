@@ -1,12 +1,12 @@
 {
- "checked": "2026-11-17T20:44:48Z",
+ "checked": "2026-11-17T21:14:57Z",
  "sources": [
   {
    "name": "The Spanish Eye",
    "ok": true,
    "feed": "https://www.thespanisheye.com/feed/",
    "count": 20,
-   "newest": "2026-11-17T20:35:23Z",
+   "newest": "2026-11-17T21:04:34Z",
    "error": null
   },
   {
@@ -22,7 +22,7 @@
    "ok": true,
    "feed": "https://www.laopiniondemalaga.es/rss/",
    "count": 20,
-   "newest": "2026-11-17T20:39:59Z",
+   "newest": "2026-11-17T20:46:11Z",
    "error": null
   },
   {
@@ -30,7 +30,7 @@
    "ok": true,
    "feed": "https://www.malagahoy.es/rss/",
    "count": 128,
-   "newest": "2026-11-17T20:33:08Z",
+   "newest": "2026-11-17T20:58:31Z",
    "error": null
   },
   {
@@ -47,14 +47,14 @@
    "feed": null,
    "count": 0,
    "newest": null,
-   "error": "https://www.areacostadelsol.com/feed/: RemoteDisconnected Remote end closed connection without response"
+   "error": "https://www.areacostadelsol.com/feed/: ParseError mismatched tag: line 1, column 167"
   },
   {
    "name": "Marbella Directo",
    "ok": true,
    "feed": "https://marbelladirecto.com/feed/",
    "count": 10,
-   "newest": "2026-11-17T19:01:07Z",
+   "newest": "2026-11-17T21:02:56Z",
    "error": null
   },
   {
@@ -70,7 +70,7 @@
    "ok": true,
    "feed": "https://alsoldelacosta.com/feed/",
    "count": 4,
-   "newest": "2026-11-17T20:28:18Z",
+   "newest": "2026-11-17T20:51:53Z",
    "error": null
   },
   {
@@ -94,7 +94,7 @@
    "ok": true,
    "feed": "https://www.diariosur.es/rss/2.0/?section=axarquia",
    "count": 100,
-   "newest": "2026-11-17T19:33:51Z",
+   "newest": "2026-11-17T21:11:22Z",
    "error": null
   },
   {
@@ -133,8 +133,8 @@
    "name": "Policía Nacional / Guardia Civil Málaga",
    "ok": true,
    "feed": "https://news.google.com/rss/search?q=(%22Polic%C3%ADa+Nacional%22+OR+%22Guardia+Civil%22)+M%C3%A1laga+when:1d&hl=es&gl=ES&ceid=ES:es",
-   "count": 25,
-   "newest": "2026-11-17T19:02:55Z",
+   "count": 23,
+   "newest": "2026-11-17T19:02:00Z",
    "error": null
   },
   {
@@ -164,11 +164,81 @@
  ],
  "items": [
   {
+   "title": "Torrox saca a concurso más de 306.000 euros para dos áreas infantiles nuevas y otros seis parques",
+   "link": "https://www.diariosur.es/axarquia/torrox-saca-concurso-306000-euros-dos-areas-20261116221122-nt.html",
+   "summary": "El Ayuntamiento actuará en Polín y Torrox-Park y actualizará equipamientos en Almedina, Protegidas, Ferrara, Generación del 27 y El Morche",
+   "source": "Diario Sur – Axarquía",
+   "time": "2026-11-17T21:11:22Z"
+  },
+  {
+   "title": "Man found dead with gunshot wounds in Malaga car park",
+   "link": "https://www.thespanisheye.com/2026/11/17/man-found-dead-with-gunshot-wounds-in-malaga-car-park/",
+   "summary": "The Policia Nacional attended alongside 061 paramedics, who could only confirm his death.",
+   "source": "The Spanish Eye",
+   "time": "2026-11-17T21:04:34Z"
+  },
+  {
+   "title": "CIT Marbella y la UMA firman un convenio para impulsar la formación y la investigación turística",
+   "link": "https://marbelladirecto.com/cit-marbella-y-la-uma-firman-un-convenio-para-impulsar-la-formacion-y-la-investigacion-turistica/",
+   "summary": "El Ayuntamiento respalda el acuerdo, que prevé cursos, asesoramiento técnico y proyectos conjuntos entre la Facultad de Turismo y las empresas del sector. Marbella, 17 de noviembre de 2026. El CIT Marbella y la Facultad de Turismo de la Universidad de Málaga (UMA) firmaron este martes un convenio d",
+   "source": "Marbella Directo",
+   "time": "2026-11-17T21:02:56Z"
+  },
+  {
+   "title": "Hospital Regional Universitario de Málaga",
+   "link": "https://www.malagahoy.es/malaga/mujer-denuncia-tuvo-operada-tragarse_0_2008529995.html",
+   "summary": "La afectada sufrió fuertes dolores abdominales, vómitos con sangre y hematuria después de ingerir accidentalmente las piezas\nRosario, tras 16 meses de espera para operarse el pie, ya tiene fecha",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T20:58:31Z"
+  },
+  {
+   "title": "Ryanair confirms €500m Sevilla engine repair centre creating 600 jobs",
+   "link": "https://www.thespanisheye.com/2026/11/17/ryanair-confirms-e500m-sevilla-engine-repair-centre-creating-600-jobs/",
+   "summary": "Ryanair will begin building a €500million aircraft engine repair centre in Sevilla in January, it has been confirmed. The facility will be built in the Port of Sevilla’s free trade zone, with its first repaired engine set to leave the site in mid-2029. Speaking at Tuesday’s presentation, Ryanair CE",
+   "source": "The Spanish Eye",
+   "time": "2026-11-17T20:58:15Z"
+  },
+  {
+   "title": "Estreno de El Gran Gatsby-El Show con danza, música y  voz en directo en el Teatro del Soho CaixaBank",
+   "link": "https://alsoldelacosta.com/estreno-de-el-gran-gatsby-el-show-con-danza-musica-y-voz-en-directo-en-el-teatro-del-soho-caixabank/",
+   "summary": "Hoy el Teatro del Soho CaixaBank acoge el estreno de El Gran Gatsby-El Show que estará en Málaga hasta el 22 de noviembre. Esta mañana, la compañía internacional Enrique Gasa Valga Dance Company ha presentado ante los medios un avance de su adaptación del clásico de F. Scott Fitzgerald, a través de",
+   "source": "Al Sol de la Costa",
+   "time": "2026-11-17T20:51:53Z"
+  },
+  {
+   "title": "Declaraciones de Ayuso sobre Andalucía",
+   "link": "https://www.malagahoy.es/andalucia/video-declaraciones-ayuso-andalucia_8_2008529944.html",
+   "summary": "",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T20:47:25Z"
+  },
+  {
+   "title": "Sánchez acusa a Abascal de tener mala memoria por llamar \"paguita\" al ingreso mínimo vital mientras su familia cobra el bono social térmico",
+   "link": "https://www.laopiniondemalaga.es/videos/nacional/2026/11/17/sanchez-acusa-abascal-mala-memoria-136558519.html",
+   "summary": "Con tan solo pronunciar su nombre, el de Santiago Abascal, Pedro Sánchez consigue que los cientos de asistentes a su mitin en Albacete, abucheen al líder de extrema derecha. En su intervención, el presidente del Gobierno ha afirmado que Abascal tiene \"mala memoria\", al calificar de “paguita” el ingr",
+   "source": "La Opinión de Málaga",
+   "time": "2026-11-17T20:46:11Z"
+  },
+  {
+   "title": "Drinking water unsafe in Malaga village since excessive chlorate levels detected a week ago",
+   "link": "https://www.thespanisheye.com/2026/11/17/drinking-water-unsafe-in-malaga-village-since-excessive-chlorate-levels-detected-a-week-ago/",
+   "summary": "Residents have been unable to drink or cook with tap water since November 10.",
+   "source": "The Spanish Eye",
+   "time": "2026-11-17T20:46:09Z"
+  },
+  {
    "title": "Sorteo Bonoloto del martes 17 de noviembre de 2026",
    "link": "https://www.laopiniondemalaga.es/sociedad/2026/11/17/sorteo-bonoloto-martes-17-noviembre-136558417.html",
    "summary": "El resultado de la Bonoloto del martes 17 de noviembre de 2026 es: 16, 18, 22, 28, 29 y 34, siendo el número complementario el 11 y el reintegro el 0. Si después de comprobar tu boleto no has tenido suerte, puedes volver a intentarlo el miércoles 18 de noviembre, ya que Loterías y Apuestas del Estad",
    "source": "La Opinión de Málaga",
    "time": "2026-11-17T20:39:59Z"
+  },
+  {
+   "title": "Los Pecos anuncian conciertos",
+   "link": "https://www.malagahoy.es/andalucia/pecos-anuncian-concierto-despedida-definitiva_0_2008529838.html",
+   "summary": "El dúo confirma las primeras fechas del tour, previsto para 2027 y 2028, y anuncia el lanzamiento de Dos Voces Y Una Historia en Directo, el álbum grabado durante su exitoso reencuentro con el público",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T20:39:42Z"
   },
   {
    "title": "El controvertido testamento escrito de su puño y letra en el hospital: el Supremo avala que la pareja pueda heredar tras 12 años de litigio",
@@ -192,7 +262,7 @@
    "time": "2026-11-17T20:33:35Z"
   },
   {
-   "title": "Isabel Díaz Ayuso.",
+   "title": "Declaraciones de Ayuso sobre Andalucía",
    "link": "https://www.malagahoy.es/andalucia/polemica-ayuso-llamar-garrapateros-andaluces-pp-a-defender_0_2008529796.html",
    "summary": "El PSOE-A y Por Andalucía exigen a Moreno que desautorice a la presidenta madrileña por sus palabras sobre los 40 años de gobiernos socialistas \nRepullo resta importancia a la controversia y sostiene que Ayuso se refería al PSOE y no a los andaluces",
    "source": "Málaga Hoy",
@@ -269,6 +339,13 @@
    "time": "2026-11-17T20:02:08Z"
   },
   {
+   "title": "Botellas de Carbonell en la planta de Córdoba",
+   "link": "https://www.elconciso.es/agricultura/dcoop-acesur-reparten-deoleo-carbonell_0_2008529340.html",
+   "summary": "Las compañías confirman la división de las marcas; Acesur retendrá la italiana para elevar su peso exterior hasta el 80% de sus ventas\nRyanair protagoniza en Sevilla el salto industrial de mantener los motores de sus aviones",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T20:00:20Z"
+  },
+  {
    "title": "Pablo Iglesias, Cayetano Martínez de Irujo, Begoña Villacís se sientan con Gonzalo Miró en 'La cena de los idiotas' para debatir sin filtros sobre el dinero",
    "link": "https://www.laopiniondemalaga.es/ocio/tv/2026/11/17/cena-idiotas-pablo-iglesias-cayetano-martinez-irujo-begona-villacis-gonzalo-miro-136557522.html",
    "summary": "‘La cena de los idiotas’ vuelve esta semana a La 1 con una segunda entrega cargada de contraste. Tras debutar por todo lo alto como líder de audiencia e igualar en cuota el mejor estreno de entretenimiento del año, el programa conducido por Gonzalo Miró reúne en esta ocasión a Pablo Iglesias, Cayeta",
@@ -283,9 +360,9 @@
    "time": "2026-11-17T19:54:44Z"
   },
   {
-   "title": "Sánchez, sin Page en su tierra, insta a Feijóo a \"aceptar el resultado electoral\" el 29N",
+   "title": "Pedro Sánchez, sin Page en su tierra, insta a Feijóo a \"aceptar el resultado electoral\" el 29N",
    "link": "https://www.laopiniondemalaga.es/nacional/2026/11/17/sanchez-page-tierra-insta-feijoo-136557238.html",
-   "summary": "Pedro Sánchez ha hecho este martes parada en Castilla-La Mancha ante el plantón del presidente regional y secretario general del PSOE castellano-manchego, Emiliano García-Page. El también presidente del Gobierno ha arremetido contra Alberto Núñez Feijóo y la presidenta madrileña, Isabel Díaz Ayuso.",
+   "summary": "Pedro Sánchez ha hecho este martes parada en Castilla-La Mancha pese al plantón del presidente regional y secretario general del PSOE castellano-manchego, Emiliano García-Page. El también presidente del Gobierno ha arremetido contra Alberto Núñez Feijóo y la presidenta madrileña, Isabel Díaz Ayuso.",
    "source": "La Opinión de Málaga",
    "time": "2026-11-17T19:51:40Z"
   },
@@ -416,13 +493,6 @@
    "time": "2026-11-17T19:02:55Z"
   },
   {
-   "title": "Investigan dos incendios en restaurantes de Marbella en menos de dos horas durante la madrugada - La Opinión de Málaga",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQmdwazhrTEhaWGI0Sy05OTByYW1VZU1ZMzJldWoyNGRXSmxPYnRSSy1MbnpNelpFVEs0dUlid0VJakhfNWduQzBTd3JsdGxJY2g1MnkyV2RaYW5YUl9ZNWtnRzNJR3ZxQmFLRGJmUTg4N1QtR1ZUOVp5bWJaeDRnTDhJVDhwMGFONlZDdkxTYkIzTVFORE9EX24xaGYyUm5fcmRtbDdIWDZDZW92ckZVUnVzU1JpUdIBuwFBVV95cUxPLUlybEM3bXV2eWFWM3E2cWRvUlEya2l4M3d5bmJMQWo5SlhZRldFbXlTR1p5SnhremdFb0ZkWjgxenM3MkhxS253eTJGZGJLTzhjeW5sZnBKbDVGMS1yT2ducHFMNExLOVB5WW9GWHFDNFpNSXZ5clEtU1Izc0hwTHltTnpPZ2VOYnl2RGwxTVUtV3JCRHNaRmJ1OHBoa0VweXRudkJveXFZbjFIV2N3bzBQUkMzYTJEU3Fv?oc=5",
-   "summary": "Investigan dos incendios en restaurantes de Marbella en menos de dos horas durante la madrugada    La Opinión de Málaga",
-   "source": "Policía Nacional / Guardia Civil Málaga",
-   "time": "2026-11-17T19:02:55Z"
-  },
-  {
    "title": "Investigan los incendios de dos restaurante en Marbella (Málaga) en menos de dos horas - Infobae",
    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPSmFxYVVBUjRxcVY2aVVVQ1RKNFN1b2RMRHlxREJfZVdJazZPSmdJaUVOandrbEJ4Tk13Z1VzSE1ZRURkNHA1QnhTdTR5YzlpYVBVQk5nQXdPai1Ka2dsZWpFM1NXZ0x0djd6Tzk0UGJnclJkalFZTGQ0ZzhkQVZoQW15Y3JLbXBsLXlZU0l2WFhvV1k4d3J4SVJvVmV0RWZYNzlsQXhqOWpwZjQ0RGFUbjRtMEl2MnBsWGhkdlRzaGliaXRjMUM3TDF3Sk5ORXM2RUHSAewBQVVfeXFMTmtpU21fUW9Nb3RIVWdVbktEUmFfUWpLNEV4Qm9LenhrbnVZZVV4SU1mbjBjdnZGWXNYVURhRUFFYXFlLVFzU1dTVVlpTDkwTXB2SnpvZ1pIdGUxRm5ZV0drSDBoeV9qWkJpNkQzNjJiNEx1QzNGUEhYT0lvN2YyelN3QmJkU3VzOG9XcnlVZkx1VFlGcS1WRngyV3hyNzVsVXZ1WmRKS1BIX05VOG9BWTB1ZUU4aUxudV9tNlprV1REY3FvMER5TG0yN2p0Y0VOLTdQX2RzX0xicFg1dnYxMGN6bWNNX3pZSjRNUUM?oc=5",
    "summary": "Investigan los incendios de dos restaurante en Marbella (Málaga) en menos de dos horas    Infobae",
@@ -528,13 +598,6 @@
    "time": "2026-11-17T18:53:21Z"
   },
   {
-   "title": "Vox achaca a la «gestión de Sánchez el deterioro del Cercanías Málaga-Fuengirola»",
-   "link": "https://alsoldelacosta.com/vox-achaca-a-la-gestion-de-sanchez-el-deterioro-del-cercanias-malaga-fuengirola/",
-   "summary": "El candidato de Vox número 3 al Congreso por la provincia de Málaga, Jesús Ruiz Ballesteros, ha criticado este martes 17 en el municipio malacitano de Fuengirola el «deterioro de la línea de Cercanías que une el municipio con Málaga». De este modo, ha reprochado al Gobierno del presidente de España,",
-   "source": "Al Sol de la Costa",
-   "time": "2026-11-17T18:48:57Z"
-  },
-  {
    "title": "Herido grave un policía nacional apuñalado en comisaría de Valladolid",
    "link": "https://www.laopiniondemalaga.es/sucesos/2026/11/17/herido-grave-policia-nacional-apunalado-medina-campo-valladolid-136555174.html",
    "summary": "Un policía nacional ha resultado herido por arma blanca en la comisaría del municipio vallisoletano de Medina del Campo por un hombre que ha sido detenido, según han confirmado a EFE fuentes de la Policía Nacional.",
@@ -582,13 +645,6 @@
    "summary": "Buenas noticias para el mundo del fútbol andaluz. El histórico Pepe Mel ha dado un paso importante en su recuperación, pues el exentrenador del Real Betis, Málaga CF o Almería ha salido de la UCI y ya se encuentra en planta en el Hospital Universitario Virgen del Rocío de Sevilla, según ha adelanta",
    "source": "101TV Málaga",
    "time": "2026-11-17T18:31:28Z"
-  },
-  {
-   "title": "Un gran ataque informático compromete las webs de Zoom, Ikea y HSBC para robar criptomonedas, datos personales e infectar dispositivos iPhone",
-   "link": "https://www.laopiniondemalaga.es/economia/2026/11/17/ataque-informatico-compromete-webs-grandes-empresas-europeas-136554713.html",
-   "summary": "Casi 200 webs de relevancia, incluidas las la BBC, el banco HSBC, Air France e IKEA, fueron este martes blanco de un ataque informático malicioso con el objetivo de robar información información financiera. El ciberataque también ha infectado con virus maliciosos dispositivos Apple, según medios esp",
-   "source": "La Opinión de Málaga",
-   "time": "2026-11-17T18:30:12Z"
   },
   {
    "title": "A night of fires in Marbella: two restaurants and a car in less than two hours",
@@ -934,6 +990,13 @@
    "time": "2026-11-17T16:37:46Z"
   },
   {
+   "title": "Nagły komunikat przed meczem Polski. \"Trudno zrozumieć decyzje podejmowane przez PZPN\" - Meczyki.pl",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNRG44T0ZZYUdRR1ZQa2pJQVd5d2dWSUJNY3lRbl9jSHFMSjJXVEp3b0dtYzROSEk2NDBvY244RklGZkxBZ3luSjZVM1F6YndKUExQU202X01DWXhwMXJ0ckdCV19XSEtCemI0cE1ZREtlNkhWamFKaExHSWMtZ1h2ZmYwNGJhRHA2TWZGSVJiWnR3Y0dCSnZOQTc0MWNOVF9MbkNJa1d1OXlXZXNCX1dYbDJ2MGtNQXB1RmlfdE45YlE5NjVvQ0JsNXo0aw?oc=5",
+   "summary": "Nagły komunikat przed meczem Polski. \"Trudno zrozumieć decyzje podejmowane przez PZPN\"    Meczyki.pl",
+   "source": "Polskie media – Polacy w Hiszpanii",
+   "time": "2026-11-17T16:36:24Z"
+  },
+  {
    "title": "Energetic Mijas residents raise over 18,000 euros for two animal charities during 100-kilometre hike",
    "link": "https://www.surinenglish.com/malaga/mijas-fuengirola/energetic-mijas-residents-raise-over-18000-euros-20261117115830-nt.html",
    "summary": "",
@@ -1044,6 +1107,13 @@
    "summary": "Ir acompañados o no sacar grandes cantidades : ¿Cómo evitar robos a personas mayores en cajeros?    RTVE.es",
    "source": "Policía Nacional / Guardia Civil Málaga",
    "time": "2026-11-17T15:40:31Z"
+  },
+  {
+   "title": "Hiszpania i Kanada osłabione przed finałami Pucharu Davisa - Tenis NET",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQYlRBT2FHSlFxQkg5YTdiRWltSzVvakhyZDNkS3VZWUxPUzZYNk1pek5EcWI1VkVfSkx5OEc1bjU0T2tMUlg1VjZTdlk5SnFFSlhNZ2NUVkxRdjBreF9QcUJkYlgtYkpDbVNJVDlYY00tdXlpc1cwTFBIZ2NLQ3c1YUZJakI1NS01blVuOFNDRFFTOFI50gGUAUFVX3lxTFBiVEFPYUdKUXFCSDlhN2JFaW1LNW9qSHJkM2RLdVlZTE9TNlg2TWl6TkRxYjVWRV9KTHk4RzVuNTRPa0xSWDVWNlN2WTlKcUVKWE1nY1RWTFF2MGt4X1BxQmRiWC1iSkNtU0lUOVhjTS11eWlzVzBMUEhnY0tDdzVhRklqQjU1LTVuVW44U0NEUVM4Ujk?oc=5",
+   "summary": "Hiszpania i Kanada osłabione przed finałami Pucharu Davisa    Tenis NET",
+   "source": "Polskie media – Hiszpania",
+   "time": "2026-11-17T15:37:05Z"
   },
   {
    "title": "El copiloto del coche, Marc Solá, el presidente de la Junta de Andalucía, Juanma Moreno, el CEO de Santana Motors, Eduardo Blanco y la alcaldesa de Linares, Auxi del Olmo, destapan el coche que competirá en el Dakar.",
@@ -1389,13 +1459,6 @@
    "time": "2026-11-17T13:23:35Z"
   },
   {
-   "title": "Rescatan a un niño de 11 años tras caer a un pozo en Cebolla (Toledo) - The Objective",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSjcwSTJDUnJRcWo4RGQydGdYTTI4bGs5RHByUElaTEh2aWpDeDV0YU80SnFra3l3d3Rwb21icGp4QkZDVXNCTW9zdVFsZkpuS1FaYUhJWks2YmJPdG40R3ZJZjdhSzRMZGo5NDJTQWU3UVl4NTUzcGRSWTlTM3I3cEU4YWQzTnhKSjVlUHJHbnplbzVq0gGUAUFVX3lxTE9KNzBJMkNSclFxajhEZDJ0Z1hNMjhsazlEcHJQSVpMSHZpakN4NXRhTzRKcWtreXd3dHBvbWJwanhCRkNVc0JNb3N1UWxmSm5LUVphSElaSzZiYk90bjRHdklmN2FLNExkajk0MlNBZTdRWXg1NTNwZFJZOVMzcjdwRThhZDNOeEpKNWVQckduemVvNWo?oc=5",
-   "summary": "Rescatan a un niño de 11 años tras caer a un pozo en Cebolla (Toledo)    The Objective",
-   "source": "Policía Nacional / Guardia Civil Málaga",
-   "time": "2026-11-17T13:22:52Z"
-  },
-  {
    "title": "La Previa Blanquilla: Previa Histórica del Don Benito- Marbella",
    "link": "https://marbelladirecto.com/la-previa-blanquilla-previa-historica-del-don-benito-marbella/",
    "summary": "El Marbella FC visita el próximo domingo a las 12:00 de la mañana al CD Don Benito, el segundo clasificado del Grupo 4 de Segunda Federación, en el partido correspondiente a la jornada 12 de dicho grupo Será la sexta vez que ambos equipos se enfrenten en competición oficial jugando el conjunto extr",
@@ -1464,13 +1527,6 @@
    "summary": "El presidente de Estados Unidos asegura que se toman \"muy en serio\" las informaciones de inteligencia porque los líderes de la República Islámica \"están locos\"\nXi, Trump y Putin se reunirán el jueves en China con el arsenal nuclear sobre la mesa",
    "source": "Málaga Hoy",
    "time": "2026-11-17T12:52:22Z"
-  },
-  {
-   "title": "Personal de limpieza trabaja en un edificio público",
-   "link": "https://www.elconciso.es/coyuntura/gobierno-aprueba-subida-salario-minimo-funcionarios_0_2008526541.html",
-   "summary": "El incremento del SMI beneficiará a 550.000 trabajadores en Andalucía, mientras que más de tres millones de empleados públicos a nivel nacional verán incrementadas sus nóminas\nEl Gobierno aprobará una subida del 5,3% del salario mínimo hasta 1.286 eu",
-   "source": "Málaga Hoy",
-   "time": "2026-11-17T12:51:38Z"
   },
   {
    "title": "Fuengirola swimmer wins double gold at Spanish short-course swimming championships",
@@ -1571,13 +1627,6 @@
    "time": "2026-11-17T12:25:19Z"
   },
   {
-   "title": "El ex presidente José Luis Rodríguez Zapatero.",
-   "link": "https://www.malagahoy.es/espana/zapatero-encarga-nueva-tasacion-joyas_0_2008526375.html",
-   "summary": "La defensa propone a dos peritos para una tercera pericial sobre las piezas y pide al juez Calama los informes ya elaborados\nEl juez rechaza investigar a Zapatero por malversación",
-   "source": "Málaga Hoy",
-   "time": "2026-11-17T12:20:50Z"
-  },
-  {
    "title": "Marlaska asciende al hermano del mando del 'Delcygate' y mano derecha de la directora de la Guardia Civil - Vozpopuli",
    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOTDFmel9yTWZ3eE9UTDF4OG9qOFo0TS1KYjJUczdkNHF5WUVFR3I2N3JZNkFPUHV4VjcyeERsSTJaT1dCWVlxNl93b3hpWjFVb1FESjlkc25vTEE3eVNBb3JEM1haSzEzczBzdTg3TkJfMW40UjZqVVlKdzhVbXBiVGg3ZTV0bGtORjJ3UU9hNnZaNTZKTW15OTNBa2o3TW1LVU1hWjNRT0hpcmVDX1ByVDVtVjR1YU5VOTcyNzYyX3N2SEN3eldERlRJRzZfZWlBSFpYUE9BUzLSAd4BQVVfeXFMTmRWZVBBZXFhUUtmN2NnR051NHdnY0o5bHdrcXUtSDB0N1pvMVFvU2VDX3JjdnoxQ1dVVmxaQkZOV3M1czRYVF9FaGxvamNtcVdUQ0VOaWl4VjViWlMtSTJRZ1lHUFhOb05XRm4taHhpd3BoNEN2TS1GYjZ4RE5TSktCZEN0LURtQjlza2ZaSmYtLThTeV9GNWhTbzVxVUJTYW9abFh1ZUR4U0x5SnlvU2pia1JXc1JXUUk5NVUzYkEweTJib0RVa2pUUzhBdjAwWTZZNjRiZGdhOUdQb0pn?oc=5",
    "summary": "Marlaska asciende al hermano del mando del 'Delcygate' y mano derecha de la directora de la Guardia Civil    Vozpopuli",
@@ -1662,20 +1711,6 @@
    "time": "2026-11-17T12:08:00Z"
   },
   {
-   "title": "Polska Zbrojna - Polska Zbrojna",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOb1J3aG45bUdlQTRNZUFWLUlxU3Z6Q251NU1rWGFhVjlrU0tYT1ZLVGdxX3RzRll4aHliV3hlbWxPYm94bUZNMVBKWm1KOFVQbnJlZGtGS0kyUVNxY1dNOHJQRWV3em1ZN3ZlX0JveXZQT1FoVHRYLTNUek9JYXc1MXdnc0JRVUhsWEpFQll4SFR6Ym5MLXc?oc=5",
-   "summary": "Polska Zbrojna    Polska Zbrojna",
-   "source": "Polskie media – Polacy w Hiszpanii",
-   "time": "2026-11-17T12:04:19Z"
-  },
-  {
-   "title": "El papa León XIV, en el avión de regreso a Roma.",
-   "link": "https://www.malagahoy.es/sociedad/leon-xiv-descarta-ahora-ordenar_0_2008526108.html",
-   "summary": "El Papa asegura, en el avión de regreso a Roma tras su viaje a Latinoamérica, que es una cuestión que provoca \"divisiones\" en la Iglesia\nLeón XIV reclama \"la economía al servicio de las personas\" en la Argentina de la 'motosierra' de Javier Milei",
-   "source": "Málaga Hoy",
-   "time": "2026-11-17T12:00:27Z"
-  },
-  {
    "title": "El escrito que ha recibido uno de los pacientes afectados por la huelga de médicos.",
    "link": "https://www.malagahoy.es/malaga/huelga-medicos-sorprende-pacientes-malaga_0_2008525574.html",
    "summary": "El paro está convocado por el nuevo Sindicato Médicos Unidos (SMU), entre el 16 y el 28 de noviembre\nCancelaciones, retrasos y viajeros transportados en bus por la huelga de trenes en Málaga",
@@ -1730,13 +1765,6 @@
    "summary": "Expertos del sector prevén 123.179 matriculaciones en 2026, un 11,7% más interanual frente al 5,8% de España, mientras la edad media de los turismos andaluces alcanza los 15,2 años\nAndalucía agrava su déficit comercial hasta los 2.549 millones pese a",
    "source": "Málaga Hoy",
    "time": "2026-11-17T11:36:50Z"
-  },
-  {
-   "title": "Representantes de la Junta y de la Autoridad Portuaria.",
-   "link": "https://www.malagahoy.es/malaga/reunion-junta-puerto-conectar-malaga_0_2008525834.html",
-   "summary": "Encuentro de trabajo entre la Consejería de Fomento y la Autoridad Portuaria para analizar la viabilidad de una conexión entre ambas ciudades\nLa Fiscalía pide tres años de cárcel para el ex gerente de los aparcamientos de Málaga",
-   "source": "Málaga Hoy",
-   "time": "2026-11-17T11:36:01Z"
   },
   {
    "title": "Récord exportador de Andalucía hasta septiembre: 32.547 millones y crecimiento del 7,9%, el doble que la media nacional",
@@ -2075,18 +2103,18 @@
    "time": "2026-11-17T08:33:22Z"
   },
   {
+   "title": "Polak grał w Anglii sześć lat. Teraz trafił na zaplecze Ekstraklasy - Meczyki.pl",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWC1DZzV4RU5SVXl4MmxvSEwzQVcwbUMxVkFxTlpIcDVDQUg2c2tTUWJxeTh2ZFBiUmVnczl6c0czajhwSlFnMWhNVENZVm5BYXJtNFBJYlEtUU9JREdpQ2FibjBvaGhVSFdQbnp3dTFZRXNiR0Z6QUhTdzQza01zUjUtd2FMYXhwZ2hVQUZ2OUtqQ0J6aWRYaS1TNkMyazh3MFBfM0lNUDNMeFN1dEdFbThfODA?oc=5",
+   "summary": "Polak grał w Anglii sześć lat. Teraz trafił na zaplecze Ekstraklasy    Meczyki.pl",
+   "source": "Polskie media – Polacy w Hiszpanii",
+   "time": "2026-11-17T08:24:14Z"
+  },
+  {
    "title": "Pasajeros esperando el tren, este martes",
    "link": "https://www.malagahoy.es/malaga/cancelaciones-retrasos-viajeros-transportados-bus-huelga-trenes-malaga_0_2008524412.html",
    "summary": "Pasajeros de un par de servicios entre Santa Justa y María Zambrano han tenido que ser transportados por carretera y la paralización es \"total\" en los talleres de Los Prados y en trabajos de mantenimiento\nLos Cercanías de Málaga acumulan retrasos de",
    "source": "Málaga Hoy",
    "time": "2026-11-17T08:22:54Z"
-  },
-  {
-   "title": "Ukraińcy planują wynieść się z polskiego miasta. Nieudany eksperyment - Przegląd Sportowy",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZ0pZWWZNWDRDMUFabEJYQ0FLUGJNOXN4N0FGUWVfZnlXNU5ieTNSWjZwNWtwdTB6NWY2SVRYRzY3NWp5UW9QMnFDOTFwY3hXZHZ4U0oxZDgwOHlZdDJ1OXFrOU5CMDhWbFltV0JQeDBNR3VRd29OS21nMENvTldpSVQ3Tk1xRTcta0J3cmZWQXl1U09aTmFLS3I1ZUdJVWpKOVZuWi1EYjBhVVBxWHZxakJoZUJLSWFyVnFUN3VVMl9PNUJ0eV93?oc=5",
-   "summary": "Ukraińcy planują wynieść się z polskiego miasta. Nieudany eksperyment    Przegląd Sportowy",
-   "source": "Polskie media – Polacy w Hiszpanii",
-   "time": "2026-11-17T08:15:13Z"
   },
   {
    "title": "Nace una plataforma digital para mejorar la gestión de las aguas subterráneas andaluzas",
@@ -2530,13 +2558,6 @@
    "time": "2026-11-17T00:00:00Z"
   },
   {
-   "title": "Las oficinas de Correos de Marbella registran una notable afluencia de ciudadanos a dos días del cierre de solicitudes del voto por correo",
-   "link": "https://marbelladirecto.com/las-oficinas-de-correos-de-marbella-registran-una-notable-afluencia-de-ciudadanos-a-dos-dias-del-cierre-de-solicitudes-del-voto-por-correo/",
-   "summary": "El 19 de noviembre finaliza el plazo indicado para solicitar el voto por correo. La imagen de una oficina concurrida refleja una elevada actividad, aunque todavía no existen cifras oficiales que permitan confirmar un aumento de solicitudes en Marbella. Marbella, 17 de noviembre 2026. Las oficinas d",
-   "source": "Marbella Directo",
-   "time": "2026-11-16T23:22:35Z"
-  },
-  {
    "title": "Precio de la luz: ¿A qué hora es más barata?",
    "link": "https://www.diariosur.es/economia/mibolsillo/precio-luz-martes-17-noviembre-2026-mas-barato-20261116000000-nt.html",
    "summary": "",
@@ -2584,13 +2605,6 @@
    "summary": "Policía Nacional detiene a seis magrebíes por abandonar a sus hijos en España bajo la apariencia de MENAS con el fin de estafar el sistema español de protección del menor    h50 Digital Policial",
    "source": "Policía Nacional / Guardia Civil Málaga",
    "time": "2026-11-16T21:40:52Z"
-  },
-  {
-   "title": "Tak mieszka Blanka Lipińska. Wyremontowała willę w Hiszpanii w 16 dni i to za ułamek ceny - Gazeta Krakowska",
-   "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOc3JRa2xhYi1ub1UwT2E3WVFRRHBkc1dfZkItbHNNWHFXcElseXpaMW4yalpZN0lnM3dMc1pNN2VMM19hQWRFWmNIZm8yT0JqczJyMDBkd2diNFp0YV9POGVsUVBUQzNWclQ1eEZKUXdRYTVOZUgxU2pKMjQ0eEhLS0RrRWJZWjBObVVFaUgtTERyaDBKckR0QzNLWXBrNjN1Y2EwOGhaOVc2SkZCczU4Z183YW4xZVNLaEZVWkpfR2JfWnh0TUp1aFoyVTJZQ2dLenVURUpxbE1XRXg1OTJhdnAxb1VPcXBXVXlveDlETFhkanZjanc?oc=5",
-   "summary": "Tak mieszka Blanka Lipińska. Wyremontowała willę w Hiszpanii w 16 dni i to za ułamek ceny    Gazeta Krakowska",
-   "source": "Polskie media – Hiszpania",
-   "time": "2026-11-16T20:48:27Z"
   },
   {
    "title": "De Cerezo a Mandarino: la pedanía veleña de Triana estrena azulejos únicos para identificar sus 14 calles",
@@ -2999,13 +3013,6 @@
    "time": "2026-11-16T09:50:00Z"
   },
   {
-   "title": "PSOE promises €200 dental aid and free psychological care within 30 days",
-   "link": "https://www.thespanisheye.com/2026/11/16/psoe-promises-e200-dental-aid-and-free-psychological-care-within-30-days/",
-   "summary": "The proposals are among 20 healthcare measures unveiled on Sunday",
-   "source": "The Spanish Eye",
-   "time": "2026-11-16T09:39:58Z"
-  },
-  {
    "title": "Record 1,500 people take part in Malaga's Carrera de la Prensa",
    "link": "https://www.surinenglish.com/sport/record-1500-people-take-part-malagas-carrera-20261116103745-nt.html",
    "summary": "",
@@ -3027,25 +3034,11 @@
    "time": "2026-11-16T09:30:47Z"
   },
   {
-   "title": "Andalucia opens 541 walk-in flu and Covid vaccination points",
-   "link": "https://www.thespanisheye.com/2026/11/16/andalucia-opens-541-walk-in-flu-and-covid-vaccination-points/",
-   "summary": "The programme includes 107 vaccination points in Malaga province",
-   "source": "The Spanish Eye",
-   "time": "2026-11-16T09:24:24Z"
-  },
-  {
    "title": "Malaga woman undergoes colon surgery after swallowing two coins 'hidden inside kebab'",
    "link": "https://www.surinenglish.com/malaga/malaga-city/young-woman-from-20261116000500-nt.html",
    "summary": "",
    "source": "Sur in English",
    "time": "2026-11-16T09:22:00Z"
-  },
-  {
-   "title": "Do you have prominent hand veins? Malaga cardiologist explains when to be concerned",
-   "link": "https://www.thespanisheye.com/2026/11/16/do-you-have-prominent-hand-veins-malaga-cardiologist-explains-when-to-be-concerned/",
-   "summary": "People with less fat beneath their skin often have more noticeable veins, including those with a lean physique.",
-   "source": "The Spanish Eye",
-   "time": "2026-11-16T09:19:14Z"
   },
   {
    "title": "Chester & Punk suma su quinta estrella consecutiva",
