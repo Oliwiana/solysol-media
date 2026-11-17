@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-17T19:57:59Z",
+ "checked": "2026-11-17T20:14:16Z",
  "sources": [
   {
    "name": "The Spanish Eye",
@@ -14,7 +14,7 @@
    "ok": true,
    "feed": "https://www.diariosur.es/rss/2.0/portada",
    "count": 76,
-   "newest": "2026-11-17T18:57:54Z",
+   "newest": "2026-11-17T20:08:48Z",
    "error": null
   },
   {
@@ -22,7 +22,7 @@
    "ok": true,
    "feed": "https://www.laopiniondemalaga.es/rss/",
    "count": 20,
-   "newest": "2026-11-17T19:54:44Z",
+   "newest": "2026-11-17T20:02:08Z",
    "error": null
   },
   {
@@ -47,7 +47,7 @@
    "feed": null,
    "count": 0,
    "newest": null,
-   "error": "https://www.areacostadelsol.com/feed/: RemoteDisconnected Remote end closed connection without response"
+   "error": "https://www.areacostadelsol.com/feed/: ParseError mismatched tag: line 1, column 165"
   },
   {
    "name": "Marbella Directo",
@@ -70,7 +70,7 @@
    "ok": true,
    "feed": "https://alsoldelacosta.com/feed/",
    "count": 4,
-   "newest": "2026-11-17T18:48:57Z",
+   "newest": "2026-11-17T20:06:27Z",
    "error": null
   },
   {
@@ -133,15 +133,15 @@
    "name": "Policía Nacional / Guardia Civil Málaga",
    "ok": true,
    "feed": "https://news.google.com/rss/search?q=(%22Polic%C3%ADa+Nacional%22+OR+%22Guardia+Civil%22)+M%C3%A1laga+when:1d&hl=es&gl=ES&ceid=ES:es",
-   "count": 25,
-   "newest": "2026-11-17T19:02:00Z",
+   "count": 26,
+   "newest": "2026-11-17T19:02:55Z",
    "error": null
   },
   {
    "name": "Polskie media – Hiszpania",
    "ok": true,
    "feed": "https://news.google.com/rss/search?q=(Hiszpania+OR+Hiszpanii+OR+Malaga+OR+Maladze+OR+Marbella+OR+Marbelli+OR+%22Costa+del+Sol%22+OR+Andaluzja+OR+Andaluzji)+when:1d&hl=pl&gl=PL&ceid=PL:pl",
-   "count": 42,
+   "count": 41,
    "newest": "2026-11-17T18:57:51Z",
    "error": null
   },
@@ -163,6 +163,34 @@
   }
  ],
  "items": [
+  {
+   "title": "El terror africano hace historia en el Fancine al ganar por primera vez con 'Hen'",
+   "link": "https://www.diariosur.es/culturas/terror-africano-historia-fancine-ganar-primera-vez-20261117210848-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-17T20:08:48Z"
+  },
+  {
+   "title": "Vicente Gallego obtiene el V Premio Internacional de Poesía ‘Marpoética’ con la obra ‘Abril del limonero’",
+   "link": "https://alsoldelacosta.com/vicente-gallego-obtiene-el-v-premio-internacional-de-poesia-marpoetica-con-la-obra-abril-del-limonero/",
+   "summary": "El escritor valenciano Vicente Gallego ha ganado, con su obra ‘Abril del Limonero’, la cuarta edición del Premio Internacional de Poesía Marpoética, convocado por el Ayuntamiento y dotado de 26.000 euros, además de la publicación en una de las editoriales más señeras en el ámbito de la lengua españo",
+   "source": "Al Sol de la Costa",
+   "time": "2026-11-17T20:06:27Z"
+  },
+  {
+   "title": "El terror incómodo y en blanco y negro de «Hen» gana en Fancine",
+   "link": "https://www.laopiniondemalaga.es/cultura-espectaculos/2026/11/17/terror-incomodo-blanco-negro-hen-136536665.html",
+   "summary": "La trigésimo sexta edición de Fancine ya tiene palmarés. El festival de cine fantástico de la Universidad de Málaga celebró anoche su gala de clausura en la sala 1 del Cine Albéniz, donde se dio a conocer a sus ganadores. Este año, el Jurado Oficial se ha centrado exclusivamente en elegir la mejor p",
+   "source": "La Opinión de Málaga",
+   "time": "2026-11-17T20:02:08Z"
+  },
+  {
+   "title": "Pablo Iglesias, Cayetano Martínez de Irujo, Begoña Villacís se sientan con Gonzalo Miró en 'La cena de los idiotas' para debatir sin filtros sobre el dinero",
+   "link": "https://www.laopiniondemalaga.es/ocio/tv/2026/11/17/cena-idiotas-pablo-iglesias-cayetano-martinez-irujo-begona-villacis-gonzalo-miro-136557522.html",
+   "summary": "‘La cena de los idiotas’ vuelve esta semana a La 1 con una segunda entrega cargada de contraste. Tras debutar por todo lo alto como líder de audiencia e igualar en cuota el mejor estreno de entretenimiento del año, el programa conducido por Gonzalo Miró reúne en esta ocasión a Pablo Iglesias, Cayeta",
+   "source": "La Opinión de Málaga",
+   "time": "2026-11-17T19:59:19Z"
+  },
   {
    "title": "Anthropic planea superar el precio previsto de sus acciones a las puertas de su esperada salida a Bolsa",
    "link": "https://www.laopiniondemalaga.es/economia/2026/11/17/anthropic-planea-superar-precio-previsto-136557286.html",
@@ -301,6 +329,13 @@
    "link": "https://www.laopiniondemalaga.es/sucesos/2026/11/17/investigan-incendios-restaurantes-marbella-horas-136555494.html",
    "summary": "Dos restaurantes de Marbella han sufrido sendos incendios durante la madrugada de este martes 17 de noviembre, con menos de dos horas de diferencia entre ambos sucesos. Los establecimientos se encontraban cerrados en el momento en el que se declararon los fuegos, por lo que no se han producido daños",
    "source": "La Opinión de Málaga",
+   "time": "2026-11-17T19:02:55Z"
+  },
+  {
+   "title": "Investigan dos incendios en restaurantes de Marbella en menos de dos horas durante la madrugada - La Opinión de Málaga",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPLUlybEM3bXV2eWFWM3E2cWRvUlEya2l4M3d5bmJMQWo5SlhZRldFbXlTR1p5SnhremdFb0ZkWjgxenM3MkhxS253eTJGZGJLTzhjeW5sZnBKbDVGMS1yT2ducHFMNExLOVB5WW9GWHFDNFpNSXZ5clEtU1Izc0hwTHltTnpPZ2VOYnl2RGwxTVUtV3JCRHNaRmJ1OHBoa0VweXRudkJveXFZbjFIV2N3bzBQUkMzYTJEU3Fv0gG7AUFVX3lxTE8tSXJsQzdtdXZ5YVYzcTZxZG9SUTJraXgzd3luYkxBajlKWFlGV0VteVNHWnlKeGt6Z0VvRmRaODF6czcySHFLbnd5MkZkYktPOGN5bmxmcEpsNUYxLXJPZ25wcUw0TEs5UHlZb0ZYcUM0Wk1JdnlyUS1TUjNzSHBMeW1Oek9nZU5ieXZEbDFNVS1XckJEc1pGYnU4cGhrRXB5dG52Qm95cVluMUhXY3dvMFBSQzNhMkRTcW8?oc=5",
+   "summary": "Investigan dos incendios en restaurantes de Marbella en menos de dos horas durante la madrugada    La Opinión de Málaga",
+   "source": "Policía Nacional / Guardia Civil Málaga",
    "time": "2026-11-17T19:02:55Z"
   },
   {
@@ -507,25 +542,11 @@
    "time": "2026-11-17T18:26:56Z"
   },
   {
-   "title": "El Sadar, un estadio de gratos recuerdos para el Málaga CF: solo una derrota en sus visitas al Osasuna en Primera",
-   "link": "https://www.laopiniondemalaga.es/malagacf/2026/11/17/sadar-estadio-gratos-recuerdos-malaga-136550953.html",
-   "summary": "El Málaga CF tiene estadios malditos y otros que no se le han dado tan mal a lo largo de su historia. Y El Sadar, campo que visita este próximo domingo (18.30 horas), es de esos de los que ha conseguido salir airoso, o al menos con algún punto, en múltiples ocasiones. El conjunto blanquiazul se enfr",
-   "source": "La Opinión de Málaga",
-   "time": "2026-11-17T18:25:47Z"
-  },
-  {
    "title": "Aranguren en el juicio del caso Líbero: «Una condena al Granada CF sería su fin»",
    "link": "https://www.101tv.es/granadacf/aranguren-en-el-juicio-del-caso-libero-una-condena-al-granada-cf-supondria-su-fin/",
    "summary": "Javier Aranguren, representante del Granada CF en el juicio del caso ‘Líbero’, ha usado su derecho a la última palabra en la última sesión y cierre del mismo con una declaración institucional en la que ha indicado que las consecuencias de una condena para el Granada CF supondrían «irremediablemente",
    "source": "101TV Málaga",
    "time": "2026-11-17T18:23:00Z"
-  },
-  {
-   "title": "Esto costarán los cafés, menús y bocadillos del Hospital Costa del Sol con la nueva adjudicación de las cafeterías",
-   "link": "https://www.laopiniondemalaga.es/marbella/2026/11/17/costaran-cafes-menus-bocadillos-hospital-136554178.html",
-   "summary": "Tomar un café, desayunar o comer en las cafeterías del Hospital Universitario Costa del Sol de Marbella tendrá nuevas tarifas con la adjudicación del servicio a Serunion. El Servicio Andaluz de Salud (SAS) ha concedido a esta empresa la gestión de las cafeterías, las máquinas expendedoras y la alime",
-   "source": "La Opinión de Málaga",
-   "time": "2026-11-17T18:22:27Z"
   },
   {
    "title": "Salado advierte de que el producto local no puede depender de «mercados exteriores como el de Marruecos»",
@@ -885,13 +906,6 @@
    "time": "2026-11-17T16:31:06Z"
   },
   {
-   "title": "Cuándo conviene dividir parejas en blackjack: principios matemáticos del Split y reglas del casino",
-   "link": "https://alsoldelacosta.com/cuando-conviene-dividir-parejas-en-blackjack-principios-matematicos-del-split-y-reglas-del-casino/",
-   "summary": "Dividir parejas es una de las decisiones que más influyen en el resultado de una partida de blackjack. Esta opción, conocida como Split, permite transformar una mano inicial de dos cartas del mismo valor en dos manos independientes. Aunque puede generar oportunidades de ganar, también exige aumentar",
-   "source": "Al Sol de la Costa",
-   "time": "2026-11-17T16:22:05Z"
-  },
-  {
    "title": "Niños jugando en un parque.",
    "link": "https://www.malagahoy.es/andalucia/criar-hijo-andalucia-cuesta-828_0_2008528237.html",
    "summary": "La alimentación y la vivienda son las mayores partidas, que incrementan con la edad del niño\nLos colegios de Sevilla amplían sus servicios para las familias y encarecen el precio del aula matinal",
@@ -1002,13 +1016,6 @@
    "summary": "Strajki kolejarzy we Francji i Hiszpanii. Odwołane pociągi, komunikacja zastępcza i utrudnienia dla pasażerów    InfoBus.pl",
    "source": "Polskie media – Hiszpania",
    "time": "2026-11-17T15:30:00Z"
-  },
-  {
-   "title": "Reactivan el proyecto para acondicionar una finca de Pinares de San Antón para eventos",
-   "link": "https://www.diariosur.es/malaga-capital/reactivan-proyecto-acondicionar-finca-pinares-san-anton-20261116162646-nt.html",
-   "summary": "",
-   "source": "Diario Sur",
-   "time": "2026-11-17T15:26:46Z"
   },
   {
    "title": "Cuatro investigados por edificaciones ilegales en Cajiz - El Confidencial",
@@ -1135,13 +1142,6 @@
    "summary": "",
    "source": "Diario Sur",
    "time": "2026-11-17T14:32:17Z"
-  },
-  {
-   "title": "Lista kandydatów na nowe władze EBC. Rosną szanse Berlina i Madrytu - Wiadomości Onet",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONXBlVGtPWEgwSncxaGNxMEJPTXZnXzFwWFgtMEQwTHRGWnZhelJrZFBTMlVUNjB3cTVNdTYxa1VEUV9sb2N2Z0x5Y29pTjNyaG9BbkdnT2lYd1NZZTNUSlo4SzhTNzJHNkJQelBiUkxKem1vaEpURjJhd2M5YnBYcXJyUFhsUVhxbE1UeDdtYmZDa0dMd2w0ZnBJaG01NnBzdnVJ?oc=5",
-   "summary": "Lista kandydatów na nowe władze EBC. Rosną szanse Berlina i Madrytu    Wiadomości Onet",
-   "source": "Polskie media – Polacy w Hiszpanii",
-   "time": "2026-11-17T14:23:13Z"
   },
   {
    "title": "Javier Collado, cirujano plástico de Vithas Málaga",
@@ -1489,7 +1489,7 @@
   {
    "title": "Montero critica que Moreno \"se calle\" y no salga a \"corregir\" a Ayuso tras hablar de \"garrapateros\" en Andalucía",
    "link": "https://www.europapress.es/andalucia/cadiz-00351/noticia-montero-critica-moreno-calle-no-salga-corregir-ayuso-hablar-garrapateros-andalucia-20261117133116.html",
-   "summary": "La secretaria general del PSOE-A, María Jesús Montero, ha criticado este martes que el presidente de la Junta y del PP-A, Juanma Moreno, \"se calle\" y no salga a \"corregir\" a su compañera de partido y presidenta de la Comunidad y del PP de Madrid, Isabel Díaz Ayuso, después de que la dirigente 'po",
+   "summary": "JEREZ DE LA FRONTERA (CÁDIZ), 17 (EUROPA PRESS)\n\n   La secretaria general del PSOE-A, María Jesús Montero, ha criticado este martes que el presidente de la Junta y del PP-A, Juanma Moreno, \"se calle\" y no salga a \"corregir\" a su compañera de partido y presidenta de la Comunidad y del PP de Madrid, I",
    "source": "Europa Press Andalucía",
    "time": "2026-11-17T12:31:16Z"
   },
@@ -2040,13 +2040,6 @@
    "time": "2026-11-17T08:33:22Z"
   },
   {
-   "title": "Polak grał w Anglii sześć lat. Teraz trafił na zaplecze Ekstraklasy - Meczyki.pl",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWC1DZzV4RU5SVXl4MmxvSEwzQVcwbUMxVkFxTlpIcDVDQUg2c2tTUWJxeTh2ZFBiUmVnczl6c0czajhwSlFnMWhNVENZVm5BYXJtNFBJYlEtUU9JREdpQ2FibjBvaGhVSFdQbnp3dTFZRXNiR0Z6QUhTdzQza01zUjUtd2FMYXhwZ2hVQUZ2OUtqQ0J6aWRYaS1TNkMyazh3MFBfM0lNUDNMeFN1dEdFbThfODA?oc=5",
-   "summary": "Polak grał w Anglii sześć lat. Teraz trafił na zaplecze Ekstraklasy    Meczyki.pl",
-   "source": "Polskie media – Polacy w Hiszpanii",
-   "time": "2026-11-17T08:24:14Z"
-  },
-  {
    "title": "Pasajeros esperando el tren, este martes",
    "link": "https://www.malagahoy.es/malaga/cancelaciones-retrasos-viajeros-transportados-bus-huelga-trenes-malaga_0_2008524412.html",
    "summary": "Pasajeros de un par de servicios entre Santa Justa y María Zambrano han tenido que ser transportados por carretera y la paralización es \"total\" en los talleres de Los Prados y en trabajos de mantenimiento\nLos Cercanías de Málaga acumulan retrasos de",
@@ -2565,6 +2558,13 @@
    "time": "2026-11-16T20:48:27Z"
   },
   {
+   "title": "Tak mistrz olimpijski nazwał Kacpra Tomasiaka. Poszło w świat - Przegląd Sportowy",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNY2VUNGJwWmdOd1FYNGY4bzBMdUc5QTNIOW1ZeGRUS0N3eWVJSjhMYkMzY2hPUUZSSXlmMThPU3hNTTh4Ym1SVUI3eXZPOUJ4Y01jbGI1ZGtodm80RjB6RUYxQnNKcEpUNHNoUnAtM0xybWxFVWprZ0NlWlgtbmZ1RVhwZ1lkNDQwcFQzQUVZbTR3QzZWUW1zY1R0NkRLbm5ZVTl3Zzc5VUZnZTNaRG5jT3BJUFBXYjFfX2gtZnBkUEo3TWlTbldnRkplZWdxdw?oc=5",
+   "summary": "Tak mistrz olimpijski nazwał Kacpra Tomasiaka. Poszło w świat    Przegląd Sportowy",
+   "source": "Polskie media – Polacy w Hiszpanii",
+   "time": "2026-11-16T20:37:12Z"
+  },
+  {
    "title": "Un vecino de Vélez-Málaga, hospitalizado tras enfrentarse a unos ladrones en su vivienda rural - Diario Sur",
    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPQ1NtNnBrVzQ3RkZfaDNFa3otbUpfREN1UDRhOTlXMWdWWmhMdXZabEhDRDhlQ0k2djBBUnNyMEotY0Vya0d0bUxGNGlaT0Iyb2Zpc0VMS0FOMHhuekR0YWI4S3FRdnJTUFptQV9NQ3FkMDBxMGhZczFmN0Q3RzkxYUdlaUpiTmhLZ0o0d3JUelBmN0dnb2hVM1FLUUJ6Y19Ebi1mcEZkNmpxZ3hjT0NCZ2MySGUxZTlOUUR4VVFHQzNuOEw2RUHSAcsBQVVfeXFMTmRCX2d2em5QQTJMSHJSSzZydWtsdjdYS1BaMzY3YWZmZDgxdTJRWnhWbzVBRDh2V1VrTkM4UWpLRVVNSWZ1VHQyV3VwVmpJc3kxbUFQeXBTVTJVNG1jWWlzdkVvUjM0LTM0ZkxxWFpBNGpPQjBRNW5VSVI0emJzeHNyLW5ibUtJVWp6Q19SU0VTSEhQZ0pwdjZfaEs1Y1kwQ19UcEVaR2RqSi1nWWdxSmFyYWJhYnFTWFBTTExPWlp1WGNnaFZ3MFFMUms?oc=5",
    "summary": "Un vecino de Vélez-Málaga, hospitalizado tras enfrentarse a unos ladrones en su vivienda rural    Diario Sur",
@@ -2591,13 +2591,6 @@
    "summary": "El creador de la página Corazón de la Axarquía cuenta con el artista Pepe Gálvez para decorar las fachadas con nombres de frutas",
    "source": "Diario Sur – Axarquía",
    "time": "2026-11-16T20:14:38Z"
-  },
-  {
-   "title": "Załamanie pogody w Hiszpanii. Wezbrana rzeka zerwała most. \"Nie wiadomo, czy jutro dotrze do nas chleb\" - TVN24",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQc1N0UmNydl9LM1FSUElHRnd1ZHo5Q3NzNE1iVnFaY1NqYkdQZ0lQZ3RqX1FmZ3JZMjN4XzlIMDZtVXhWeFNMa1k3NERlb2lScVhHZTVRSDAyYmN5NlFyaURjN3Y0UG9hdWhaZGo2cVRGU3ExWTNCTEwxY05OSnBJcjMzckk4TjN4dGpFQnBESWY4c09kbF96NVRRS0tiQ1A5dDFZSElXUEtwQzRXQnp4NHp3SGtxY1pvT0dsZHctc1hqa0gwR1VsdjBub2xjTzls?oc=5",
-   "summary": "Załamanie pogody w Hiszpanii. Wezbrana rzeka zerwała most. \"Nie wiadomo, czy jutro dotrze do nas chleb\"    TVN24",
-   "source": "Polskie media – Hiszpania",
-   "time": "2026-11-16T20:12:46Z"
   },
   {
    "title": "Surowe zasady w hiszpańskim mieście. Turyści już nie mogą liczyć na ulgę - Podróże Wprost",
@@ -2927,6 +2920,13 @@
    "summary": "",
    "source": "Sur in English",
    "time": "2026-11-16T12:06:09Z"
+  },
+  {
+   "title": "Aktualny ranking FIFA. Miejsce reprezentacji Polski - Gotowi na Sport",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5MR1NxVjNRWFlGNDRucm91V2s5U3h0TlpleTBSYk1QTW1vdzZadEYya25wVE1YTDdnYVp5a09DaG5TanZGbHl5R0JGN3VHVVJNdjJSWjh4dGs5M3JjcDlOSUFLeTduSEFxV2NfSlBKLWs?oc=5",
+   "summary": "Aktualny ranking FIFA. Miejsce reprezentacji Polski    Gotowi na Sport",
+   "source": "Polskie media – Polacy w Hiszpanii",
+   "time": "2026-11-16T12:05:07Z"
   },
   {
    "title": "Spanish police and CNI intelligence service clash over Moroccan responsibility for Ceuta border surge",
