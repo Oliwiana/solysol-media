@@ -51,14 +51,15 @@ def parse(b):
 now = time.time(); res = {"checked": dt.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"), "sources": [], "items": []}
 for name, home, cands in SOURCES:
     st = {"name": name, "ok": False, "feed": None, "count": 0, "newest": None, "error": None}
-    for u in cands + discover(home):
+    for u in [c for c in cands for _ in (0, 1)] + discover(home):
         try:
             code, b = get(u); items = parse(b)
             if not items: raise ValueError("pusty kanał")
             st.update(ok=True, feed=u, count=len(items), error=None)
             ts = [i["ts"] for i in items if i["ts"]]
             if ts: st["newest"] = dt.datetime.utcfromtimestamp(max(ts)).strftime("%Y-%m-%dT%H:%M:%SZ")
-            for i in items:
+            for n_, i in enumerate(items):
+                if i['ts'] is None and n_ >= 15: continue
                 if i["ts"] is None or now - i["ts"] < 48 * 3600:
                     i["source"] = name
                     if i["ts"]: i["time"] = dt.datetime.utcfromtimestamp(i["ts"]).strftime("%Y-%m-%dT%H:%M:%SZ")
