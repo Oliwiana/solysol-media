@@ -2,21 +2,22 @@
 """Pobiera RSS źródeł Sol y Sól i zapisuje _feeds/latest.json (status + artykuły z 48 h)."""
 import json, re, time, datetime as dt, urllib.request, email.utils, html
 from xml.etree import ElementTree as ET
-UA = {"User-Agent": "Mozilla/5.0 (SolySol feed monitor; +https://solysol.pl)"}
+UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36", "Accept": "application/rss+xml, application/xml;q=0.9, */*;q=0.8", "Accept-Language": "es-ES,es;q=0.9,en;q=0.8"}
 SOURCES = [
  ("The Spanish Eye", "https://www.thespanisheye.com/", ["https://www.thespanisheye.com/feed/", "https://www.thespanisheye.com/rss", "https://www.thespanisheye.com/feed"]),
  ("Diario Sur", "https://www.diariosur.es/", ["https://www.diariosur.es/rss/2.0/portada", "https://www.diariosur.es/rss/2.0/?section=malaga"]),
- ("La Opinión de Málaga", "https://www.laopiniondemalaga.es/", ["https://www.laopiniondemalaga.es/rss/", "https://www.laopiniondemalaga.es/rss/section/1"]),
+ ("La Opinión de Málaga", "https://www.laopiniondemalaga.es/", ["https://www.laopiniondemalaga.es/rss/", "https://www.laopiniondemalaga.es/rss/section/1", "https://news.google.com/rss/search?q=site:laopiniondemalaga.es+when:1d&hl=es&gl=ES&ceid=ES:es"]),
  ("Málaga Hoy", "https://www.malagahoy.es/", ["https://www.malagahoy.es/rss/", "https://www.malagahoy.es/rss/malaga/"]),
- ("Marbella24horas", "https://www.marbella24horas.es/", ["https://www.marbella24horas.es/feed/", "https://www.marbella24horas.es/rss/"]),
+ ("Marbella24horas", "https://www.marbella24horas.es/", ["https://www.marbella24horas.es/feed/", "https://www.marbella24horas.es/rss/", "https://news.google.com/rss/search?q=site:marbella24horas.es+when:1d&hl=es&gl=ES&ceid=ES:es"]),
  ("Área Costa del Sol", "https://www.areacostadelsol.com/", ["https://www.areacostadelsol.com/feed/"]),
  ("Sur in English", "https://www.surinenglish.com/", ["https://www.surinenglish.com/rss/2.0/portada"]),
- ("Euro Weekly News", "https://weeklynews.co.uk/", ["https://weeklynews.co.uk/feed/"]),
+ ("Euro Weekly News", "https://weeklynews.co.uk/", ["https://weeklynews.co.uk/feed/", "https://weeklynews.co.uk/news/costa-del-sol/feed/", "https://news.google.com/rss/search?q=site:weeklynews.co.uk+when:1d&hl=en-GB&gl=GB&ceid=GB:en"]),
  ("Olive Press", "https://www.theolivepress.es/", ["https://www.theolivepress.es/feed/"]),
  ("101TV Málaga", "https://www.101tv.es/", ["https://www.101tv.es/rss/", "https://www.101tv.es/feed/"]),
+ ("Policía Nacional / Guardia Civil Málaga", "https://news.google.com/", ["https://news.google.com/rss/search?q=(%22Polic%C3%ADa+Nacional%22+OR+%22Guardia+Civil%22)+M%C3%A1laga+when:1d&hl=es&gl=ES&ceid=ES:es"]),
  ("Europa Press Andalucía", "https://www.europapress.es/andalucia/", ["https://www.europapress.es/rss/rss.aspx?ch=00279"]),
 ]
-def get(url, t=25):
+def get(url, t=45):
     r = urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=t)
     return r.status, r.read()
 def discover(home):
@@ -28,7 +29,11 @@ def discover(home):
     except Exception:
         return []
 def parse(b):
-    root = ET.fromstring(b)
+    t = b.decode("utf-8", "ignore").lstrip("\ufeff \r\n\t")
+    m = re.search(r"</(rss|feed|rdf:RDF)>", t)
+    if m: t = t[:m.end()]
+    t = re.sub(r"&(?!#?\w+;)", "&amp;", t)
+    root = ET.fromstring(t.encode("utf-8"))
     out = []
     for it in root.iter():
         tag = it.tag.split("}")[-1]
