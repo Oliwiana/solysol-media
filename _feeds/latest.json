@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-17T11:25:29Z",
+ "checked": "2026-11-17T12:18:02Z",
  "sources": [
   {
    "name": "The Spanish Eye",
@@ -13,8 +13,8 @@
    "name": "Diario Sur",
    "ok": true,
    "feed": "https://www.diariosur.es/rss/2.0/portada",
-   "count": 78,
-   "newest": "2026-11-17T11:15:10Z",
+   "count": 79,
+   "newest": "2026-11-17T11:48:01Z",
    "error": null
   },
   {
@@ -22,15 +22,15 @@
    "ok": true,
    "feed": "https://www.laopiniondemalaga.es/rss/",
    "count": 20,
-   "newest": "2026-11-17T11:11:20Z",
+   "newest": "2026-11-17T11:55:38Z",
    "error": null
   },
   {
    "name": "Málaga Hoy",
    "ok": true,
    "feed": "https://www.malagahoy.es/rss/",
-   "count": 128,
-   "newest": "2026-11-17T11:12:02Z",
+   "count": 126,
+   "newest": "2026-11-17T12:00:27Z",
    "error": null
   },
   {
@@ -70,7 +70,7 @@
    "ok": true,
    "feed": "https://www.theolivepress.es/feed/",
    "count": 20,
-   "newest": "2026-11-17T11:23:12Z",
+   "newest": "2026-11-17T12:15:00Z",
    "error": null
   },
   {
@@ -78,14 +78,14 @@
    "ok": true,
    "feed": "https://www.101tv.es/rss/",
    "count": 10,
-   "newest": "2026-11-17T11:23:01Z",
+   "newest": "2026-11-17T12:16:26Z",
    "error": null
   },
   {
    "name": "Policía Nacional / Guardia Civil Málaga",
    "ok": true,
    "feed": "https://news.google.com/rss/search?q=(%22Polic%C3%ADa+Nacional%22+OR+%22Guardia+Civil%22)+M%C3%A1laga+when:1d&hl=es&gl=ES&ceid=ES:es",
-   "count": 24,
+   "count": 23,
    "newest": "2026-11-17T09:41:54Z",
    "error": null
   },
@@ -94,11 +94,235 @@
    "ok": true,
    "feed": "https://www.europapress.es/rss/rss.aspx?ch=00279",
    "count": 10,
-   "newest": "2026-11-17T11:09:49Z",
+   "newest": "2026-11-17T11:35:02Z",
    "error": null
   }
  ],
  "items": [
+  {
+   "title": "Golpe al narcotráfico de drogas en Marbella: desarticuladas tres redes y 1.135 kilos de estupefacientes intervenidos",
+   "link": "https://www.101tv.es/malaga-provincia/golpe-al-narcotrafico-de-drogas-en-marbella-desarticuladas-tres-redes-y-1-135-kilos-de-estupefacientes-intervenidos/",
+   "summary": "Han caído tres organizaciones internacionales dedicadas al tráfico de drogas en una operación de la Guardia di Finanza de Roma. La operación se ha saldado con un total de 27 detenciones y la incautación de 1.135 kilos de estupefacientes. Esta investigación de las autoridades italianas tiene relació",
+   "source": "101TV Málaga",
+   "time": "2026-11-17T12:16:26Z"
+  },
+  {
+   "title": "IN PICS: This corner of northern Spain could be mistaken for the Grand Canyon as late autumn turns its river gorges red and gold",
+   "link": "https://www.theolivepress.es/spain-news/2026/11/17/ribeira-sacra-autumn-galicia-grand-canyon/",
+   "summary": "Galicia's Ribeira Sacra glows ochre, copper and crimson in autumn as morning mist pools in the deep canyons carved by the River Sil.",
+   "source": "Olive Press",
+   "time": "2026-11-17T12:15:00Z"
+  },
+  {
+   "title": "Un aficionado es condenado a once meses de prisión por insultos racistas a Kylian Mbappe",
+   "link": "https://www.101tv.es/deportes/un-aficionado-es-condenado-a-once-meses-de-prision-por-insultos-racistas-a-kylian-mbappe/",
+   "summary": "El Real Madrid ha emitido un comunicado este martes 17 de noviembre en el que informa de que la Sección Segunda de la Audiencia Provincial de Asturias ha condenado al aficionado que profirió insultos racistas al jugador merengue Kylian Mbappe a once meses de prisión, diversas penas de inhabilitació",
+   "source": "101TV Málaga",
+   "time": "2026-11-17T12:13:13Z"
+  },
+  {
+   "title": "Piden más de tres años de cárcel para el joven que provocó un incendio y destrozos en la iglesia de El Pozuelo de Albuñol",
+   "link": "https://www.101tv.es/granada-provincia/piden-mas-de-tres-anos-de-carcel-para-el-joven-que-provoco-un-incendio-y-destrozos-en-la-iglesia-de-el-pozuelo-de-albunol/",
+   "summary": "La Fiscalía pide más de tres años de cárcel para el joven que provocó un incendio y destrozos en la iglesia de El Pozuelo, pedanía del municipio granadino de Albuñol, en agosto de 2025. El joven, de 22 años y nacionalidad marroquí, está acusado de un delito de daños agravados y otro de profanación",
+   "source": "101TV Málaga",
+   "time": "2026-11-17T12:09:24Z"
+  },
+  {
+   "title": "Zaldívar relata ante el juez cómo se protegió a la expareja de Ábalos: «Solo pasé el recado»",
+   "link": "https://www.101tv.es/espana/zaldivar-relata-ante-el-juez-como-se-protegio-a-la-expareja-de-abalos-solo-pase-el-recado/",
+   "summary": "Ignacio Zaldívar, que ocupó un puesto de responsabilidad en Adif, ha comparecido este martes 17 de noviembre, como investigado ante Ismael Moreno, el juez de la Audiencia Nacional que instruye el ‘caso Koldo’. Su relato sitúa el origen de la protección a Jéssica Rodríguez, expareja del exministro d",
+   "source": "101TV Málaga",
+   "time": "2026-11-17T12:08:46Z"
+  },
+  {
+   "title": "El sector ferroviario se manifiesta en Santa Justa por la seguridad de infraestructuras, maquinistas y viajeros",
+   "link": "https://www.101tv.es/andalucia/el-sector-ferroviario-se-manifiesta-en-santa-justa-por-la-seguridad-de-infraestructuras-maquinistas-y-viajeros/",
+   "summary": "Las estaciones de tren de toda España han amanecido este martes 17 de noviembre con otra huelga de maquinistas en defensa de la seguridad ferroviaria tras el reciente accidente por alcance de dos trenes de Alta Velocidad (un Iryo y un AVE) en la localidad de Urda, Toledo. Santa Justa o María Zambra",
+   "source": "101TV Málaga",
+   "time": "2026-11-17T12:03:23Z"
+  },
+  {
+   "title": "Fofana apaga las alarmas en el Sevilla y Ceballos las enciende en el Betis a cuatro días del derbi",
+   "link": "https://www.101tv.es/sevillafc/fofana-apaga-las-alarmas-en-el-sevilla-y-ceballos-las-enciende-en-el-betis-a-cuatro-dias-del-derbi/",
+   "summary": "Youssouf Fofana ha protagonizado este martes la buena noticia del día en Nervión mientras que Dani Ceballos ha encendido todas las alarmas en el barrio de Heliópolis. El galo ha vuelto a trabajar con el grupo y el utrerano no ha entrenado con el resto de sus compañeros a cuatro días del derbi. La r",
+   "source": "101TV Málaga",
+   "time": "2026-11-17T12:03:00Z"
+  },
+  {
+   "title": "El papa León XIV, en el avión de regreso a Roma.",
+   "link": "https://www.malagahoy.es/sociedad/leon-xiv-descarta-ahora-ordenar_0_2008526108.html",
+   "summary": "El Papa asegura, en el avión de regreso a Roma tras su viaje a Latinoamérica, que es una cuestión que provoca \"divisiones\" en la Iglesia\nLeón XIV reclama \"la economía al servicio de las personas\" en la Argentina de la 'motosierra' de Javier Milei",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T12:00:27Z"
+  },
+  {
+   "title": "El escrito que ha recibido uno de los pacientes afectados por la huelga de médicos.",
+   "link": "https://www.malagahoy.es/malaga/huelga-medicos-sorprende-pacientes-malaga_0_2008525574.html",
+   "summary": "El paro está convocado por el nuevo Sindicato Médicos Unidos (SMU), entre el 16 y el 28 de noviembre\nCancelaciones, retrasos y viajeros transportados en bus por la huelga de trenes en Málaga",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T11:59:38Z"
+  },
+  {
+   "title": "La Junta evalúa conectar Ceuta y el puerto de Málaga a través de una línea de ferry directa",
+   "link": "https://www.laopiniondemalaga.es/malaga/2026/11/17/junta-evalua-conectar-ceuta-puerto-136534093.html",
+   "summary": "El presidente de la Junta de Andalucía, Juanma Moreno, se comprometió tras la crisis migratoria de Ceuta a estudiar una serie de iniciativas de colaboración entre ambos territorios para echar una mano a la economía de la ciudad autónoma. Moreno le trasladó entonces su intención de promover una conex",
+   "source": "La Opinión de Málaga",
+   "time": "2026-11-17T11:55:38Z"
+  },
+  {
+   "title": "Abel Bretones en un entrenamiento de Osasuna",
+   "link": "https://www.malagahoy.es/malaga_cf/osasuna-queda-laterales-izquierdos-recibir_0_2008525801.html",
+   "summary": "El conjunto navarro suma una nueva baja a menos de una semana de enfrentarse al conjunto blanquiazul\nEl necesario paso adelante de los fichajes del Málaga CF",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T11:54:17Z"
+  },
+  {
+   "title": "Warning for travellers heading to Malaga airport as nationwide rail strike hits Costa del Sol trains today",
+   "link": "https://www.theolivepress.es/spain-news/2026/11/17/malaga-train-strike-airport-line-today/",
+   "summary": "Only three in four commuter trains will run at peak times as rail workers across Spain walk out over safety after the Toledo train disaster",
+   "source": "Olive Press",
+   "time": "2026-11-17T11:53:16Z"
+  },
+  {
+   "title": "El consejero de Presidencia, Sanidad y Emergencias, Antonio Sanz, en el Foro de Enfermedades Raras en el Hospital Virgen del Rocío.",
+   "link": "https://www.malagahoy.es/andalucia/andalucia-tercera-comunidad-espana-centros-referencia-enfermedades-raras_0_2008526032.html",
+   "summary": "Amplía a 29 las unidades especializadas en estas patologías dentro de una red autonómica de 58 centros de referencia y diez a nivel europeo\nEl Hospital Virgen del Rocío estrena la primera consulta multidisciplinar de Ataxia Telangiectasia de la comun",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T11:52:48Z"
+  },
+  {
+   "title": "Pecos se despide de los escenarios con un concierto en Fuengirola: fecha de su última gira",
+   "link": "https://www.laopiniondemalaga.es/cultura-espectaculos/2026/11/17/pecos-concierto-despedida-marenostrum-fuengirola-2027-136534530.html",
+   "summary": "Los seguidores de Pecos tendrán una nueva oportunidad de disfrutar de sus canciones en directo en la Costa del Sol. El dúo formado por los hermanos Pedro y Javier Herrero regresará a Marenostrum Fuengirola el próximo 7 de agosto de 2027, dentro de su gira ‘Concierto para una despedida’, con la que p",
+   "source": "La Opinión de Málaga",
+   "time": "2026-11-17T11:52:19Z"
+  },
+  {
+   "title": "Carlos Santos, de La Jacinta (Córdoba), se proclama ganador del V Concurso de Tiraje de Cerveza de Andalucía de Victoria",
+   "link": "https://www.laopiniondemalaga.es/economia/empresas-malaga/2026/11/17/carlos-santos-jacinta-cordoba-proclama-136534486.html",
+   "summary": "La Fábrica Victoria ha acogido este mediodía la gran final del V Concurso de Tiraje de Cerveza de Andalucía, una iniciativa organizada por la marca para reconocer la profesionalidad del sector hostelero, fomentar el buen servicio de la cerveza y promover la cultura cervecera en Andalucía.",
+   "source": "La Opinión de Málaga",
+   "time": "2026-11-17T11:50:05Z"
+  },
+  {
+   "title": "Pedro Acosta: \"Había soñado tanto con la victoria que cuando la conseguí, es como si ya lo hubiese vivido\"",
+   "link": "https://www.laopiniondemalaga.es/motogp/2026/11/17/pedro-acosta-habia-sonado-victoria-136534790.html",
+   "summary": "El piloto español de MotoGP Pedro Acosta (KTM) reconoció que su primera victoria en la categoría reina, conseguida esta temporada, le supo \"a poco\" después de haberla imaginado tantas veces. El murciano, que afrontará en Portugal y Valencia sus dos últimos Grandes Premios con la fábrica austriaca an",
+   "source": "La Opinión de Málaga",
+   "time": "2026-11-17T11:48:28Z"
+  },
+  {
+   "title": "Hoteleros de la Costa del Sol alzan la voz para exigir infraestructuras acordes al crecimiento de la provincia",
+   "link": "https://www.diariosur.es/turismo/hoteleros-costa-sol-alzan-voz-exigir-infraestructuras-provincia-20261117124801-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-17T11:48:01Z"
+  },
+  {
+   "title": "La Fiscalía demanda apertura de juicio oral contra el exgerente de Smassa y solicita tres años de prisión",
+   "link": "https://www.diariosur.es/malaga-capital/fiscalia-demanda-juicio-oral-exgerente-smassa-malaga-20261118124636-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-17T11:46:36Z"
+  },
+  {
+   "title": "Captura de la intervención del doctor Javier Arcos durante el World Health Summit.",
+   "link": "https://www.malagahoy.es/salud/actualidad/fundacion-jimenez-diaz-apuesta-prevencion_0_2008525926.html",
+   "summary": "El doctor Javier Arcos explica la estrategia de la institución, durante su intervención en el World Health Summit 2026, organizado en Berlín por WHS Foundation",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T11:46:26Z"
+  },
+  {
+   "title": "Más de 40 heridos, cuatro de ellos graves, al chocar dos trenes de pasajeros en Praga",
+   "link": "https://www.laopiniondemalaga.es/internacional/2026/11/17/40-heridos-cuatro-graves-chocar-136534495.html",
+   "summary": "Un total de 46 personas resultaron heridas este martes, cuatro de ellas de gravedad, al colisionar a baja velocidad dos trenes de pasajeros en las inmediaciones de la estación central de Praga, un accidente que el ministro de Transportes checo, Ivan Bednarik, calificó de grave.",
+   "source": "La Opinión de Málaga",
+   "time": "2026-11-17T11:43:01Z"
+  },
+  {
+   "title": "José María Martínez Vázquez asume la presidencia de la asociación de jefes de las policías locales de Andalucía",
+   "link": "https://www.diariosur.es/sucesos/jose-maria-martinez-vazquez-asume-presidencia-asociacion-20261116180616-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-17T11:41:45Z"
+  },
+  {
+   "title": "Clavijo, impotente tras reunirse en Madrid : \"Lo que pasa en El Hierro es la absoluta falta de previsión del Estado\"",
+   "link": "https://www.laopiniondemalaga.es/sociedad/2026/11/17/clavijo-impotente-reunirse-madrid-pasa-136534301.html",
+   "summary": "Desde la más profunda \"impotencia\", \"tristeza\" y \"frustración\" por la dejación del Estado en la emergencia migratoria que sufre Canarias y, en especial El Hierro, el presidente del Gobierno canario, Fernando Clavijo, ha denunciado este martes que la grave situación que padecen las Islas, con la lleg",
+   "source": "La Opinión de Málaga",
+   "time": "2026-11-17T11:39:45Z"
+  },
+  {
+   "title": "Valle de Abdalajís celebra su Fiesta del Pan Duro con degustaciones, un mercado y ruta gastronómica",
+   "link": "https://www.diariosur.es/malagaenlamesa/valle-abdalajis-fiesta-pan-duro-actividades-20261117123716-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-17T11:38:54Z"
+  },
+  {
+   "title": "La Virgen de los Remedios volverá a salir en procesión extraordinaria en Vélez-Málaga: ya hay fecha para 2027",
+   "link": "https://www.laopiniondemalaga.es/axarquia/2026/11/17/virgen-remedios-procesion-extraordinaria-velez-malaga-2027-136533427.html",
+   "summary": "Vélez-Málaga tiene ya una fecha señalada en su calendario religioso de 2027. La Virgen de los Remedios Coronada, Patrona y Alcaldesa Perpetua de la ciudad, saldrá en procesión extraordinaria el próximo 5 de junio, con motivo del 25 aniversario de su Coronación Canónica. La imagen volverá así a recor",
+   "source": "La Opinión de Málaga",
+   "time": "2026-11-17T11:36:38Z"
+  },
+  {
+   "title": "Representantes de la Junta y de la Autoridad Portuaria.",
+   "link": "https://www.malagahoy.es/malaga/reunion-junta-puerto-conectar-malaga_0_2008525834.html",
+   "summary": "Encuentro de trabajo entre la Consejería de Fomento y la Autoridad Portuaria para analizar la viabilidad de una conexión entre ambas ciudades\nLa Fiscalía pide tres años de cárcel para el ex gerente de los aparcamientos de Málaga",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T11:36:01Z"
+  },
+  {
+   "title": "Récord exportador de Andalucía hasta septiembre: 32.547 millones y crecimiento del 7,9%, el doble que la media nacional",
+   "link": "https://www.europapress.es/esandalucia/sevilla/noticia-record-exportador-andalucia-septiembre-32547-millones-crecimiento-79-doble-media-nacional-20261117123502.html",
+   "summary": "Las exportaciones andaluzas alcanzaron entre enero y septiembre un récord histórico para los nueve primeros meses de un año desde que se tienen datos homologables (1985): 32.547 millones de euros, con un crecimiento interanual del 7,9%, hasta 3,7 puntos por encima de la subida media de España (4,",
+   "source": "Europa Press Andalucía",
+   "time": "2026-11-17T11:35:02Z"
+  },
+  {
+   "title": "La agenda judicial no se toma vacaciones electorales: ‘Koldo’, ‘Plus Ultra’ o Ceuta, marcan la campaña del 29N",
+   "link": "https://www.101tv.es/espana/la-agenda-judicial-no-se-toma-vacaciones-electorales-koldo-plus-ultra-o-ceuta-marcan-la-campana-del-29n/",
+   "summary": "Los juzgados mantendrán su ritmo durante la campaña de las elecciones generales del 29 de noviembre. Aunque los magistrados suelen evitar decisiones de gran impacto mientras se pide el voto, una costumbre no escrita en la justicia española, el calendario de las próximas dos semanas incluye declarac",
+   "source": "101TV Málaga",
+   "time": "2026-11-17T11:31:23Z"
+  },
+  {
+   "title": "Zapatero reclama las joyas ya tasadas por Yanes para que las examinen sus propios peritos",
+   "link": "https://www.laopiniondemalaga.es/nacional/2026/11/17/zapatero-reclama-joyas-tasadas-yanes-136533853.html",
+   "summary": "La defensa de José Luis Rodríguez Zapatero sigue cuestionando las tasaciones realizadas por orden del juez de la Audiencia Nacional José Luis Calama sobre las joyas encontradas en su despacho profesional y solicita añadir el dictamen de sus propios expertos. Así, reclama que se designe a dos experto",
+   "source": "La Opinión de Málaga",
+   "time": "2026-11-17T11:31:20Z"
+  },
+  {
+   "title": "Así van las malagueñas a la oficina: cinco looks fichados en las calles de la ciudad",
+   "link": "https://www.diariosur.es/gente-estilo/moda/van-malaguenas-oficina-cinco-looks-fichados-calles-20261110201238-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-17T11:30:13Z"
+  },
+  {
+   "title": "Barry B, Ojete Calor y Xoel López celebrarán los 30 años del Festival de Málaga",
+   "link": "https://www.laopiniondemalaga.es/cultura-espectaculos/2026/11/17/barry-b-ojete-calor-xoel-136533293.html",
+   "summary": "El Festival de Málaga recupera los conciertos de su FM Festival, con tres citas en la nueva Sala Circus (Auditorio Municipal de Málaga) protagonizadas por artistas representativos de la escena independiente española. En colaboración con la propia sala y con Crash Music, Doctor Watson y Málaga Deport",
+   "source": "La Opinión de Málaga",
+   "time": "2026-11-17T11:29:53Z"
+  },
+  {
+   "title": "Vinicius se reactiva con Brasil anotando un hat-trick en doce minutos ante Singapur",
+   "link": "https://www.laopiniondemalaga.es/deportes/2026/11/17/vinicius-reactiva-brasil-anotando-hat-trick-136533714.html",
+   "summary": "Vinicius Júnior parece haber resucitado futbolísticamente con la camiseta de Brasil. A la sombra de Carlo Ancelotti, el entrenador que mejor ha sabido entenderle y más rendimiento ha ofrecido, el madridista ha logrado anotar cinco goles en dos encuentros. Dos anotó ante Japón, de excelente factura y",
+   "source": "La Opinión de Málaga",
+   "time": "2026-11-17T11:29:48Z"
+  },
+  {
+   "title": "El pueblo de Málaga que celebra este fin de semana su gran mercadillo de tiendas locales: también se prepara para su famoso mercadillo navideño con cabañas, adornos y regalos",
+   "link": "https://www.laopiniondemalaga.es/malaga/2026/11/17/pueblo-malaga-celebra-mercado-semana-gran-tiendas-locales-prepara-navidad-fuengirola-dv-136530960.html",
+   "summary": "El municipio malagueño de Fuengirola se prepara para un completo programa de actividades previas a la Navidad con la celebración este fin de semana de uno de sus mercadillos más famosos, la Feria del Comercio de Barrio, además de la puesta en marcha desde el 26 de noviembre de su famoso Mercado Navi",
+   "source": "La Opinión de Málaga",
+   "time": "2026-11-17T11:27:53Z"
+  },
   {
    "title": "Spain gets economic growth boost from the EU coupled with high inflation warning from Brussels chiefs",
    "link": "https://www.theolivepress.es/spain-news/2026/11/17/spains-economic-growth-forecast-increased-by-european-union/",
@@ -121,11 +345,25 @@
    "time": "2026-11-17T11:22:31Z"
   },
   {
-   "title": "Los accionistas de Unicaja avalan la gestión de Isidro Rubiales como consejero delegado y lo reeligen para otros tres años",
-   "link": "https://www.diariosur.es/malaga/accionistas-unicaja-avalan-gestion-isidro-rubiales-consejero-20261117112254-nt.html",
-   "summary": "",
-   "source": "Diario Sur",
-   "time": "2026-11-17T11:15:10Z"
+   "title": "Una mujer camina con un carrito de bebé junto a un niño.",
+   "link": "https://www.malagahoy.es/sociedad/espana-cuarto-pais-ue-igualdad_0_2008525794.html",
+   "summary": "Un informe publicado por el Instituto Europeo para la Igualdad de Género señala que persisten grandes diferencias en el reparto de los cuidados y los permisos parentales\nLa igualdad de género, más real en la percepción que en la práctica",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T11:22:12Z"
+  },
+  {
+   "title": "Acto de presentación de la iniciativa Nexum.",
+   "link": "https://www.malagahoy.es/salud/actualidad/novartis-impulsa-cinco-sociedades-cientificas_0_2008525776.html",
+   "summary": "La iniciativa ‘neXum’ reúne a más de 65 hospitales y busca mejorar la identificación de pacientes, la continuidad asistencial y la adherencia a los tratamientos",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T11:20:14Z"
+  },
+  {
+   "title": "Rufián pide un \"gobierno de concentración\" en Cataluña si el PP y Vox llegan a la Moncloa",
+   "link": "https://www.laopiniondemalaga.es/nacional/2026/11/17/rufian-pide-gobierno-concentracion-cataluna-136533224.html",
+   "summary": "ERC quiere evitar que tras el 29N haya un gobierno del PP y Vox en la Moncloa, pero ya se prepara para ello. Este martes el candidato de los republicanos a las elecciones, Gabriel Rufián, ha pedido que en Cataluña se forme un \"gobierno de concentración\" si, tras los comicios generales, Alberto Núñez",
+   "source": "La Opinión de Málaga",
+   "time": "2026-11-17T11:18:17Z"
   },
   {
    "title": "Jan Sotnar, entrenador del Pardubice.",
@@ -177,7 +415,7 @@
    "time": "2026-11-17T11:09:24Z"
   },
   {
-   "title": "El rector de la Universidad de Cádiz, Casimiro Mantell, junto a rectores y rectoras en un encuentro el pasado año.",
+   "title": "Varias personas trabajan en la biblioteca de la Universidad de Almería.",
    "link": "https://www.malagahoy.es/andalucia/universidades-publicas-desglosan-partidas-piden_0_2008525663.html",
    "summary": "Los rectores andaluces reclaman a la Junta más de 68 millones para personal, 39 para suficiencia financiera y condiciones mejores en los préstamos\nLa Junta eleva en 2027 un 10,5% la financiación de las universidades",
    "source": "Málaga Hoy",
@@ -261,7 +499,7 @@
    "time": "2026-11-17T10:50:19Z"
   },
   {
-   "title": "La Fiscalía de Málaga pide tres años de cárcel para el exgerente de SMASSA por las presuntas presiones en la obra del parking de Pío Baroja",
+   "title": "La Fiscalía de Málaga pide tres años de cárcel para el exgerente de SMASSA por presuntas presiones en la obra del parking de Pío Baroja",
    "link": "https://www.laopiniondemalaga.es/malaga/2026/11/17/fiscalia-malaga-pide-tres-anos-136530839.html",
    "summary": "La Fiscalía ha pedido que Manuel Díaz Guirado, exgerente de la Sociedad Municipal de Aparcamientos y Servicios (SMASSA), sea juzgado en la Audiencia Provincial por su presunta gestión de la obra del aparcamiento de Pío Baroja, en Echeverría de El Palo. En su escrito de acusación, el fiscal sostiene",
    "source": "La Opinión de Málaga",
@@ -275,39 +513,11 @@
    "time": "2026-11-17T10:49:21Z"
   },
   {
-   "title": "El déficit comercial se dispara un 30,5% hasta septiembre y alcanza los 53.638 millones",
-   "link": "https://www.laopiniondemalaga.es/economia/2026/11/17/deficit-comercial-dispara-30-5-136531473.html",
-   "summary": "El déficit comercial de España se disparó un 30,5% durante los nueve primeros meses de 2026, hasta alcanzar los 53.638,1 millones de euros, frente a los 41.106,6 millones registrados en el mismo periodo del año anterior. Este incremento se produce a pesar de que las exportaciones españolas de mercan",
-   "source": "La Opinión de Málaga",
-   "time": "2026-11-17T10:48:40Z"
-  },
-  {
    "title": "Gavira y Moreno se saludan en el pleno de la semana pasada en el Parlamento andaluz.",
    "link": "https://www.malagahoy.es/andalucia/gavira-dijo-moreno-pedir-no_0_2008525456.html",
    "summary": "El vicepresidente de la Junta matiza que \"hubiera minimizado los riesgos y hubiera abogado por mejorar el sistema ferroviario\"\nEl también líder de Vox reconoce que \"esas declaraciones perjudican al sector\"\nJuanma Moreno: \"Ahora mismo yo no viajaría e",
    "source": "Málaga Hoy",
    "time": "2026-11-17T10:43:22Z"
-  },
-  {
-   "title": "Un exempleado alerta a la jueza de Adamuz de que el balasto de la vía es «defectuoso» y pide paralizar el tráfico ferroviario",
-   "link": "https://www.101tv.es/andalucia/un-exempleado-alerta-a-la-jueza-de-adamuz-de-que-el-balasto-de-la-via-es-defectuoso-y-pide-paralizar-el-trafico-ferroviario/",
-   "summary": "Un exempleado de la empresa encargada de suministrar el balasto a Adif ha advertido a la jueza que investiga el accidente ferroviario de Adamuz (Córdoba) de que la piedra utilizada en ese tramo podría ser «defectuosa» y no cumplir con los requisitos técnicos exigidos. El antiguo trabajador, que cue",
-   "source": "101TV Málaga",
-   "time": "2026-11-17T10:41:11Z"
-  },
-  {
-   "title": "Alemania se suma a Francia y respalda a Hernández de Cos como próximo presidente del BCE",
-   "link": "https://www.laopiniondemalaga.es/economia/2026/11/17/alemania-respalda-hernandez-cos-presidir-136531143.html",
-   "summary": "El español Pablo Hernández de Cos gana opciones para convertirse en el próximo presidente del Banco Central Europeo (BCE) después de que Alemania haya decidido respaldar su candidatura y apostar por ocupar el puesto de economista jefe de la institución monetaria. El Gobierno alemán ha propuesto para",
-   "source": "La Opinión de Málaga",
-   "time": "2026-11-17T10:40:58Z"
-  },
-  {
-   "title": "Andalucía lidera la compraventa de vivienda en España, pese al abrupto frenazo del sector",
-   "link": "https://www.101tv.es/espana/andalucia-lidera-la-compraventa-de-vivienda-en-espana-pese-al-gigantesco-frenazo-del-sector/",
-   "summary": "Andalucía fue la comunidad autónoma donde más viviendas se vendieron durante el pasado mes de septiembre, con un total de 11.115 operaciones. La región encabezó así el mercado inmobiliario nacional en volumen de compraventas, por delante de Cataluña (8.658), Comunidad Valenciana (8.394) y Madrid (6",
-   "source": "101TV Málaga",
-   "time": "2026-11-17T10:38:00Z"
   },
   {
    "title": "La junta de Unicaja renueva a Isidro Rubiales como consejero ejecutivo por otros tres años",
@@ -324,34 +534,6 @@
    "time": "2026-11-17T10:35:27Z"
   },
   {
-   "title": "Feijóo, en Guipúzcoa: \"Sánchez tuvo tiempo de dar el pésame por un etarra muerto, pero no para condenar la agresión a un candidato\"",
-   "link": "https://www.laopiniondemalaga.es/nacional/2026/11/17/feijoo-visita-eibar-jon-echeverria-136530723.html",
-   "summary": "El presidente del Partido Popular (PP) y candidato a la Presidencia del Gobierno, Alberto Núñez Feijóo, estuvo este martes al País Vasco para dar su apoyo al candidato por Guipúzcoa, Jon Echeverría, quien ha pedido a la Ertzaintza que \"garantice\" la seguridad de los integrantes de su partido tras lo",
-   "source": "La Opinión de Málaga",
-   "time": "2026-11-17T10:31:35Z"
-  },
-  {
-   "title": "Huelga ferroviaria del 17 de noviembre en Granada: estos son los trenes afectados y los servicios mínimos",
-   "link": "https://www.101tv.es/granada/huelga-ferroviaria-del-17-de-noviembre-en-granada-estos-son-los-trenes-afectados-y-los-servicios-minimos/",
-   "summary": "Los desplazamientos de Granada en tren también se verán afectados este martes 17 de noviembre por la huelga ferroviaria de maquinistas. El paro durará 24 horas y ha sido convocado conjuntamente por CGGR, Semaf, CCOO, UGT, SFF-CGT, SF-I y Alferro para exigir mejores condiciones de seguridad para los",
-   "source": "101TV Málaga",
-   "time": "2026-11-17T10:29:46Z"
-  },
-  {
-   "title": "El PP aprueba de forma inicial en solitario los presupuestos del Ayuntamiento de Marbella de 2027",
-   "link": "https://www.laopiniondemalaga.es/marbella/2026/11/17/presupuestos-municipal-marbella-2027-136529794.html",
-   "summary": "El equipo de Gobierno de Marbella, del PP, ha aprobado de forma inicial este martes, en un pleno extraordinario, los presupuestos del Ayuntamiento para 2027 que rondarán los 477 millones de euros. El PSOE y Opción Sampedreña (OSP) han votado en contra de las cuentas municipales, las últimas que pres",
-   "source": "La Opinión de Málaga",
-   "time": "2026-11-17T10:29:32Z"
-  },
-  {
-   "title": "Los seis semáforos con cámaras de Málaga que multan con 200 euros y cuatro puntos por saltarse el rojo",
-   "link": "https://www.laopiniondemalaga.es/malaga/2026/11/17/seis-semaforos-camaras-malaga-multa-200-euros-136529345.html",
-   "summary": "Lo de saltarse los semáforos en rojo y no ser pillado en Málaga llegó a su fin. Desde el pasado mes de septiembre de 2025 entró en vigor el denominado semáforo foto-rojo, que multa a aquellos que se salten o comiencen a cruzarlo antes de que se ponga en verde.",
-   "source": "La Opinión de Málaga",
-   "time": "2026-11-17T10:29:32Z"
-  },
-  {
    "title": "Díaz Guirado, gerente de Smassa, en su entrada a la Ciudad de la Justicia junto a su abogado.",
    "link": "https://www.malagahoy.es/malaga/fiscalia-pide-tres-anos-carcel_0_2008525106.html",
    "summary": "Solicita la apertura de juicio oral y le acusa de presuntas prevaricación, tráfico de influencias y acoso laboral a una jefa técnica, además de pedir 12 años de inhabilitación\nLos sobrecostes en el aparcamiento Pío Baroja de El Palo: cobrar por panta",
@@ -359,60 +541,11 @@
    "time": "2026-11-17T10:28:17Z"
   },
   {
-   "title": "EY y el Real Colegio de Eméritos proponen un modelo de empresa que combine beneficios y bienestar social",
-   "link": "https://www.laopiniondemalaga.es/economia/2026/11/17/ey-real-colegio-emeritos-proponen-136530470.html",
-   "summary": "EY y el Real Colegio Libre de Eméritos han publicado una obra colectiva que plantea un nuevo modelo empresarial en el que la rentabilidad económica conviva con la generación de valor social y el bienestar de las personas. El libro, titulado 'Economía Humanista. Empresas al servicio de las personas c",
-   "source": "La Opinión de Málaga",
-   "time": "2026-11-17T10:27:22Z"
-  },
-  {
-   "title": "Flamenco frente al Big Ben para exigir a Mijas el fin del servicio de burrotaxi",
-   "link": "https://www.laopiniondemalaga.es/cultura-espectaculos/2026/11/17/flamenco-frente-big-ben-exigir-136528705.html",
-   "summary": "La bailaora almeriense Ángela Alonso ha trasladado su reivindicación animalista a las puertas del Parlamento británico en Londres, donde ha protagonizado una protesta a ritmo de flamenco para exigir al Ayuntamiento de Mijas la prohibición definitiva de los 'burrotaxis'.",
-   "source": "La Opinión de Málaga",
-   "time": "2026-11-17T10:24:03Z"
-  },
-  {
-   "title": "León XIV denuncia una polarización \"intencionalmente provocada\" por los algoritmos: \"No es necesario llegar a odiarnos\"",
-   "link": "https://www.laopiniondemalaga.es/internacional/2026/11/17/leon-xiv-denuncia-polarizacion-algoritmos-redes-sociales-136530282.html",
-   "summary": "León XIV ha cerrado este martes sus 12 días de viaje por América Latina (Uruguay, Argentina y Perú) con una rueda de prensa en la que ha vuelto a poner el foco en el papel de las redes y las plataformas digitales en la degradación del debate público. \"Más y más, creo que todos nos estamos dando cuen",
-   "source": "La Opinión de Málaga",
-   "time": "2026-11-17T10:23:52Z"
-  },
-  {
-   "title": "Fernando Alonso correrá el Rally Dakar 2027 con un Aston Martin Dreadnought",
-   "link": "https://www.101tv.es/deportes/fernando-alonso-correra-el-rally-dakar-2027-con-un-aston-martin-dreadnought/",
-   "summary": "El piloto español Fernando Alonso, bicampeón del mundo de Fórmula 1 y actual integrante de la escudería Aston Martin Aramco, regresará al Rally Dakar en enero de 2027, siete años después de su única participación, para encabezar el ambicioso proyecto oficial de tres coches de Aston Martin con el nu",
-   "source": "101TV Málaga",
-   "time": "2026-11-17T10:23:31Z"
-  },
-  {
-   "title": "El KVIS Pardubice, próximo rival del Unicaja en BCL, necesitó tres prórrogas para ganar en su liga antes de visitar el Carpena",
-   "link": "https://www.laopiniondemalaga.es/unicaja/2026/11/17/kvis-pardubice-rival-unicaja-bcl-prorrogas-136528955.html",
-   "summary": "El Unicaja se juega este miércoles en el Martín Carpena dar un paso decisivo hacia el Round of 16 de la Basketball Champions League ante el colista de su grupo. El KVIS Pardubice aún no sabe lo que es ganar esta temporada en Europa, aunque en su liga doméstica acumulan una racha de seis victorias co",
-   "source": "La Opinión de Málaga",
-   "time": "2026-11-17T10:22:21Z"
-  },
-  {
-   "title": "Colau pide a Sánchez que recurra el 'Plan Ruanda' al TJUE",
-   "link": "https://www.laopiniondemalaga.es/nacional/2026/11/17/colau-sanchez-recurra-plan-ruanda-tribunal-justicia-europa-136530183.html",
-   "summary": "Ada Colau ha pedido a Pedro Sánchez que presente un recurso ante el Tribunal de Justicia de la Unión Europea contra el 'Plan Ruanda' impulsado por cinco países para deportar a este país africano a todos aquellos migrantes cuyas peticiones de asilo hayan sido rechazadas. \"Me parece inaceptable vulner",
-   "source": "La Opinión de Málaga",
-   "time": "2026-11-17T10:21:36Z"
-  },
-  {
-   "title": "Antequera convoca cuatro plazas de oficial de la Policía Local por promoción interna",
-   "link": "https://www.101tv.es/antequera/antequera-convoca-cuatro-plazas-de-oficial-de-la-policia-local-por-promocion-interna/",
-   "summary": "El Ayuntamiento de Antequera ha puesto en marcha el proceso para cubrir cuatro plazas vacantes de oficial de la Policía Local, incluidas en la Oferta de Empleo Público de 2025. La convocatoria, publicada en el Boletín Oficial del Estado (BOE) el pasado 13 de noviembre, abre un nuevo procedimiento d",
-   "source": "101TV Málaga",
-   "time": "2026-11-17T10:20:33Z"
-  },
-  {
-   "title": "Unicaja reelige a Isidro Rubiales como CEO: \"Seguiremos trabajando intensamente para consolidar un banco rentable, solvente y cercano al territorio\"",
-   "link": "https://www.laopiniondemalaga.es/malaga/2026/11/17/accionistas-junta-unicaja-reelige-isidro-rubiales-ceo-2026-136525799.html",
-   "summary": "La junta general de accionistas de Unicaja ha reelegido este martes en sesión extraordinaria a Isidro Rubiales como consejero ejecutivo de la entidad financiera. El consejo de administración designó a Rubiales como CEO el 29 de septiembre de 2023, un nombramiento que fue ratificado el 14 de noviembr",
-   "source": "La Opinión de Málaga",
-   "time": "2026-11-17T10:19:53Z"
+   "title": "Los accionistas de Unicaja avalan la gestión de Isidro Rubiales como consejero delegado y lo reeligen para otros tres años",
+   "link": "https://www.diariosur.es/malaga/accionistas-unicaja-avalan-gestion-isidro-rubiales-consejero-20261117112254-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-17T10:22:54Z"
   },
   {
    "title": "Nueva jornada de cancelaciones y retrasos en el Cercanías de Málaga por la huelga en Renfe",
@@ -436,13 +569,6 @@
    "time": "2026-11-17T10:19:14Z"
   },
   {
-   "title": "Tres facultades de la UMA recogen alimentos no perecederos y pañales para la Asociación de Vecinos de Lagunillas-Cruz Verde",
-   "link": "https://www.laopiniondemalaga.es/malaga/2026/11/17/tres-facultades-uma-recogen-alimentos-136529154.html",
-   "summary": "La Facultad de Medicina organiza esta semana su tradicional Concurso del Kilo, una campaña benéfica que este año recogerá alimentos no perecederos  (aceite, pasta, lentejas, arroz…), productos de higiene personal y de higiene femenina, así como productos para bebés como pañales o leche en polvo. Lo",
-   "source": "La Opinión de Málaga",
-   "time": "2026-11-17T10:18:07Z"
-  },
-  {
    "title": "Equipos de rescate ucranianos llevan a cabo operaciones de búsqueda y rescate en la escuela subterránea de la región de Zaporiyia.",
    "link": "https://www.malagahoy.es/mundo/kremlin-no-garantiza-europa-lugar_0_2008525202.html",
    "summary": "Los ataques ucranianos provocan \"daños estructurales\" en el estratégico puente de Crimea\nKallas califica de \"absurdas\" las exigencias rusas y vuelve a exigir un alto el fuego en Ucrania",
@@ -464,13 +590,6 @@
    "time": "2026-11-17T10:10:58Z"
   },
   {
-   "title": "Abierto el plazo para que los colectivos de Antequera participen en las carrozas de la Cabalgata de Reyes",
-   "link": "https://www.101tv.es/antequera/abierto-el-plazo-para-que-los-colectivos-de-antequera-participen-en-las-carrozas-de-la-cabalgata-de-reyes/",
-   "summary": "La magia de la noche de Reyes volverá a tener a los más pequeños como protagonistas en Antequera. El Ayuntamiento ha abierto el plazo para que asociaciones y colectivos de la ciudad puedan optar a una de las carrozas infantiles que desfilarán en la Cabalgata del próximo 5 de enero. Una oportunidad",
-   "source": "101TV Málaga",
-   "time": "2026-11-17T10:09:45Z"
-  },
-  {
    "title": "Gavira se desmarca de la \"reflexión a la ligera\" de Moreno sobre no viajar en AVE: \"Yo no lo hubiera dicho\"",
    "link": "https://www.europapress.es/andalucia/noticia-gavira-desmarca-reflexion-ligera-moreno-no-viajar-ave-yo-no-hubiera-dicho-20261117110751.html",
    "summary": "El vicepresidente segundo y líder de Vox en Andalucía, Manuel Gavira, se ha desmarcado este martes de lo que ha considerado como una \"reflexión muy a la ligera\" del presidente de la Junta y del PP-A, Juanma Moreno, cuando éste señaló que no se montaría en un AVE mientras no se revisara la segurid",
@@ -478,7 +597,7 @@
    "time": "2026-11-17T10:07:51Z"
   },
   {
-   "title": "La bailaora almeriense Ángela Alonso durante su protesta.",
+   "title": "Un momento de la protesta en Londres.",
    "link": "https://www.malagahoy.es/malaga/flamenco-big-ben-londres-malaga-mijas-burrotaxi_0_2008525110.html",
    "summary": "La bailaora almeriense Ángela Alonso traslada su reivindicación animalista a las puertas del Parlamento británico en Londres\nLos burro-taxis de Mijas, otra vez en el punto de mira tras el fin de los coches de caballo en la capital",
    "source": "Málaga Hoy",
@@ -490,13 +609,6 @@
    "summary": "El testigo, que asegura haber sido despedido por negarse a participar en la fabricación y comercialización del material, sostiene que la piedra procedente de la cantera donde trabajaba presentaba un exceso de desgaste y podía fragmentarse con el paso",
    "source": "Málaga Hoy",
    "time": "2026-11-17T10:05:03Z"
-  },
-  {
-   "title": "El Traspaso y Siete Dolores saldrá por primera vez el Viernes de Dolores de 2027",
-   "link": "https://www.101tv.es/malaga-semana-santa/el-traspaso-y-siete-dolores-saldra-por-primera-vez-el-viernes-de-dolores-de-2027/",
-   "summary": "Málaga sumará el próximo Viernes de Dolores, 19 de marzo de 2027, un nuevo cortejo procesional. Nuestra Señora del Traspaso y Siete Dolores, titular del grupo parroquial establecido en la iglesia de María Madre de Dios, realizará su primera salida por las calles de su feligresía, en el distrito de",
-   "source": "101TV Málaga",
-   "time": "2026-11-17T10:05:00Z"
   },
   {
    "title": "The stock market is an expensive place to learn about yourself - why we should all own gold",
@@ -557,7 +669,7 @@
   {
    "title": "La compraventa de viviendas en Andalucía cae un 11,3% tras empeorar su evolución interanual en septiembre",
    "link": "https://www.europapress.es/andalucia/noticia-compraventa-viviendas-andalucia-cae-113-empeorar-evolucion-interanual-septiembre-20261117102045.html",
-   "summary": "La evolución de la compraventa de viviendas en Andalucía en septiembre empeora y desciende un 11,3% respecto al mismo mes del año anterior (frente a una bajada del 13,44% a nivel nacional), hasta un total de 11.115 operaciones, según datos publicados por el Instituto Nacional de Estadística (INE).",
+   "summary": "La evolución de la compraventa de viviendas en Andalucía en septiembre empeora y desciende un 11,3% respecto al mismo mes del año anterior (frente a una bajada del 13,44% a nivel nacional), hasta un total de 11.115 operaciones, según datos publicados por el Instituto Nacional de Estadística (INE)",
    "source": "Europa Press Andalucía",
    "time": "2026-11-17T09:20:45Z"
   },
@@ -571,7 +683,7 @@
   {
    "title": "Uno de los incendios registrados en Marbella",
    "link": "https://www.malagahoy.es/provincia/arden-restaurantes-marbella_0_2008524834.html",
-   "summary": "Investigan las causas de los dos siniestros, en los que no ha habido heridos\nUn doble secuestro frustrado en Alhaurín lleva a la cárcel casi 30 años a los condenados",
+   "summary": "Investigan las causas de los dos siniestros, en los que no ha habido heridos pero sí importantes daños materiales\nUn doble secuestro frustrado en Alhaurín lleva a la cárcel casi 30 años a los condenados",
    "source": "Málaga Hoy",
    "time": "2026-11-17T09:15:21Z"
   },
@@ -604,7 +716,7 @@
    "time": "2026-11-17T08:16:09Z"
   },
   {
-   "title": "Police storm Barcelona train in manhunt for Oviedo cop killer ‘the Russian’",
+   "title": "WATCH: Police storm Barcelona commuter train in manhunt for Oviedo cop killer ‘the Russian’",
    "link": "https://www.theolivepress.es/spain-news/2026/11/17/hunt-the-russian-barcelona-trains-false-alarm/",
    "summary": "A Manresa waitress raised the alarm after a man who looked like the Oviedo bomb suspect walked out without paying for his coffee.",
    "source": "Olive Press",
@@ -613,7 +725,7 @@
   {
    "title": "Acepta dos años de cárcel por guardar armas de guerra prohibidas y munición en una nave en Sevilla",
    "link": "https://www.europapress.es/andalucia/sevilla-00357/noticia-acepta-dos-anos-carcel-guardar-armas-guerra-prohibidas-municion-nave-sevilla-20261117085950.html",
-   "summary": "Un varón acusado de guardar en una nave industrial en Sevilla armas y munición de guerra prohibidas para su adquisición y tenencia o uso ha aceptado dos años de prisión por un delito de tenencia ilícita de armas prohibidas, si bien enfrentaba una petición fiscal de siete años de cárcel por estos",
+   "summary": "Un varón acusado de guardar en una nave industrial en Sevilla armas y munición de guerra prohibidas para su adquisición y tenencia o uso ha aceptado dos años de prisión por un delito de tenencia ilícita de armas prohibidas, si bien enfrentaba una petición fiscal de siete años de cárcel por estos hec",
    "source": "Europa Press Andalucía",
    "time": "2026-11-17T07:59:50Z"
   },
@@ -1031,15 +1143,15 @@
    "time": "2026-11-17T02:08:19Z"
   },
   {
-   "title": "El discurso de Luis Argüello",
-   "link": "https://www.malagahoy.es/opinion/articulos/discurso-luis-argueello_0_2008523674.html",
+   "title": "El comodín del público",
+   "link": "https://www.malagahoy.es/opinion/articulos/comodin-publico_0_2008523673.html",
    "summary": "",
    "source": "Málaga Hoy",
    "time": "2026-11-17T02:08:19Z"
   },
   {
-   "title": "El comodín del público",
-   "link": "https://www.malagahoy.es/opinion/articulos/comodin-publico_0_2008523673.html",
+   "title": "El discurso de Luis Argüello",
+   "link": "https://www.malagahoy.es/opinion/articulos/discurso-luis-argueello_0_2008523674.html",
    "summary": "",
    "source": "Málaga Hoy",
    "time": "2026-11-17T02:08:19Z"
@@ -1108,13 +1220,6 @@
    "time": "2026-11-16T22:32:49Z"
   },
   {
-   "title": "Marbella ofrecerá suelo para construir más de 500 viviendas para alquiler tasado",
-   "link": "https://www.diariosur.es/marbella/marbella-ofrecera-suelo-construir-500-viviendas-alquiler-20261116225229-nt.html",
-   "summary": "",
-   "source": "Diario Sur",
-   "time": "2026-11-16T21:52:29Z"
-  },
-  {
    "title": "Un libro rescata la vida del alcalde de Comares fusilado en 1937 y un siglo de conflictos",
    "link": "https://www.diariosur.es/axarquia/libro-rescata-vida-alcalde-comares-fusilado-1937-20261116170256-nt.html",
    "summary": "",
@@ -1148,13 +1253,6 @@
    "summary": "",
    "source": "Diario Sur",
    "time": "2026-11-16T21:32:01Z"
-  },
-  {
-   "title": "Andalucía Marca Digital aborda su primer proyecto: la transformación de los cultivos subtropicales de la Axarquía",
-   "link": "https://www.diariosur.es/malaga/andalucia-marca-digital-aborda-primer-proyecto-transformacion-20261116222741-nt.html",
-   "summary": "",
-   "source": "Diario Sur",
-   "time": "2026-11-16T21:27:41Z"
   },
   {
    "title": "Funcionarios en una oficina de atención al ciudadano",
@@ -1311,6 +1409,13 @@
    "time": "2026-11-16T18:13:19Z"
   },
   {
+   "title": "Sorprendido en Granada en su coche cuando iba a examinarse para recuperar su carné tras perder los puntos - 101TV",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPYzZycFk4TUtVVGpuNno1bWpnN0ZpenFFTGhXSS1fel9ITENtN1NGS3hwS1o1bHRhMHNKd1MxRXA4ano1RXljaUZjQmNEZmJzeG80S3NGenJ5NHFyd2R4UE9JSDdibDdiN25zWkZpTEJmVmRSWGl3Vnh1ZWhLVERnczNuV0dXUlptWlFOc2xRY01BSTZmd1FacGxTLTJyeERoNUFnSEVPWmM4eURfZkdsbmdMd1BNTkw5YmpyNHdsR2k5a1dQcVlOYzFiS3V5M211?oc=5",
+   "summary": "Sorprendido en Granada en su coche cuando iba a examinarse para recuperar su carné tras perder los puntos    101TV",
+   "source": "Policía Nacional / Guardia Civil Málaga",
+   "time": "2026-11-16T18:07:00Z"
+  },
+  {
    "title": "Un tren Cercanías de Málaga",
    "link": "https://www.malagahoy.es/malaga/cercanias-malaga-acumulan-retrasos-35-minutos-cancelaciones_0_2008521700.html",
    "summary": "La avería en la infraestructura ha afectado a las líneas C-1 y C-2 desde primera hora de este lunes; este martes 17 habrá una nueva huelga ferroviaria, con servicios mínimos del 75% en hora punta\nNueva huelga de trenes en Málaga este martes 17 de nov",
@@ -1353,6 +1458,13 @@
    "time": "2026-11-16T17:30:11Z"
   },
   {
+   "title": "Detienen a seis personas por abandonar a sus hijos menores en España tras entrar con visados y dejarlos cerca de comisarías - 20Minutos",
+   "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOOE9GUlpUTWRRNkRMckhlYlJpMmJOVTQ0VU00V3EzSWc5WHk1NXF4RmJxMEJYcXM0R3ZCdmoxTFRlTnJQR1pVekJzTzFhQWRlUnV2c0xQQkxUbk1KS21XdEk5cWRYNnlOaFdpNVJtc3BaSjFWbVJCRlNPYXhWM0dsTDZJNUVnVWNSbVAycmNYUW9iXzVMRmZnRFhkRTl1Zm9Za244QVFrUEtFTE5JV1hPU3FhWjdKQXpRc3l0TVZpY3dFWjUxVjFXZklBem1tV2RCb2JfY28yVTZ0eHJ2UWFMTi1NbXNKb0M0MmlFUHhSb3BQYVhYdG530gH3AUFVX3lxTE44T0ZSWlRNZFE2RExySGViUmkyYk5VNDRVTTRXcTNJZzlYeTU1cXhGYnEwQlhxczRHdkJ2ajFMVGVOclBHWlV6QnNPMWFBZGVSdXZzTFBCTFRuTUpLbVd0STlxZFg2eU5oV2k1Um1zcFpKMVZtUkJGU09heFYzR2xMNkk1RWdVY1JtUDJyY1hRb2JfNUxGZmdEWGRFOXVmb1lrbjhBUWtQS0VMTklXWE9TcWFaN0pBelFzeXRNVmljd0VaNTFWMVdmSUF6bW1XZEJvYl9jbzJVNnR4cnZRYUxOLU1tc0pvQzQyaUVQeFJvcFBhWFh0bnc?oc=5",
+   "summary": "Detienen a seis personas por abandonar a sus hijos menores en España tras entrar con visados y dejarlos cerca de comisarías    20Minutos",
+   "source": "Policía Nacional / Guardia Civil Málaga",
+   "time": "2026-11-16T17:25:35Z"
+  },
+  {
    "title": "Vox demands more police in Marbella after weekend of road rage stabbing and nightclub shooting – along with ever-present mafia violence",
    "link": "https://www.theolivepress.es/spain-news/2026/11/16/vox-police-marbella-crime/",
    "summary": "The call for more police resources comes after three incidents rocked the popular Costa del Sol resort in the space of just 48 hours.",
@@ -1393,13 +1505,6 @@
    "summary": "",
    "source": "Sur in English",
    "time": "2026-11-16T17:08:32Z"
-  },
-  {
-   "title": "José María Martínez Vázquez asume la presidencia de la asociación de jefes de las policías locales de Andalucía",
-   "link": "https://www.diariosur.es/sucesos/jose-maria-martinez-vazquez-asume-presidencia-asociacion-20261116180616-nt.html",
-   "summary": "",
-   "source": "Diario Sur",
-   "time": "2026-11-16T17:07:21Z"
   },
   {
    "title": "El Festival Eñe lleva a Málaga la poesía de la Generación del 27 con diez días de literatura, música y teatro",
@@ -1773,11 +1878,11 @@
    "time": "2026-11-16T12:37:24Z"
   },
   {
-   "title": "El presidente del Gobierno, Pedro Sánchez, recibe al presidente de Brasil, Luiz Inácio 'Lula' da Silva, este lunes en La Moncloa.",
-   "link": "https://www.malagahoy.es/espana/sanchez-lula-senalan-amenaza-ultraderechista_0_2008519721.html",
-   "summary": "El presidente del Gobierno exhibe el apoyo del líder brasileño, cuya remontada ante Bolsonaro presenta como ejemplo de cara al 29-N",
-   "source": "Málaga Hoy",
-   "time": "2026-11-16T12:34:50Z"
+   "title": "La Guardia Civil inspecciona un tren en Cataluña en busca de ‘El Ruso’ - The Objective",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNc3pWYndGNW9LWVppRWFLRHNrUWxoQ0FiTWQzZjc4R1pMckV5TXY2VmZCeVV0N0JESmdlY2otVEtwa2NOVjNiUFNRd0hGSHo4YjE4RFJ1MDA1OW5DZWhxX2RMSkszV2tEanVQT0hFNU94WmRnaEZjOTA2UE1DNjM3MGZhVUlDQm5QWldnVTZHTWxKZFHSAZMBQVVfeXFMTXN6VmJ3RjVvS1laaUVhS0Rza1FsaENBYk1kM2Y3OEdaTHJFeU12NlZmQnlVdDdCREpnZWNqLVRLcGtjTlYzYlBTUXdIRkh6OGIxOERSdTAwNTluQ2VocV9kTEpLM1drRGp1UE9IRTVPeFpkZ2hGYzkwNlBNQzYzNzBmYVVJQ0JuUFpXZ1U2R01sSmRR?oc=5",
+   "summary": "La Guardia Civil inspecciona un tren en Cataluña en busca de ‘El Ruso’    The Objective",
+   "source": "Policía Nacional / Guardia Civil Málaga",
+   "time": "2026-11-16T12:34:15Z"
   },
   {
    "title": "Disgraced PSOE advisor Koldo Garcia claims PP lawyer offered him a fortune to lie about Spain’s PM Pedro Sanchez",
@@ -1822,32 +1927,11 @@
    "time": "2026-11-16T12:15:55Z"
   },
   {
-   "title": "Seis detenidos por entrar en España con sus hijos de 16 y 17 años con visado de turista y dejarlos como menores desamparados - La Noción",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTkwwWWFDNDBZX0lpYkVHbzZ1WlduNmZWcUQ2N1ZfOGxOZDFNZUZHZkhOdlF2MWp3Yk5NdTJ5T3d2b2gyVlNWTkRZdXVRa1k0bGwzMWxtSnFWSTBjSmlhNTQ5YjllTTBFVUI2TlQ3RnhCZThqOWdZMzFCd05Rc3hkR3UyeGFLS0Rmb2NMV2l0LWdHXzFFTHZTbWdUUGdZY2RKV25lZ0R6SnlvTVRqcUJ3Vw?oc=5",
-   "summary": "Seis detenidos por entrar en España con sus hijos de 16 y 17 años con visado de turista y dejarlos como menores desamparados    La Noción",
-   "source": "Policía Nacional / Guardia Civil Málaga",
-   "time": "2026-11-16T12:13:39Z"
-  },
-  {
-   "title": "Un médico estudia unas radiografías de pulmones.",
-   "link": "https://www.malagahoy.es/sociedad/sanidad-estudia-implantar-cribado-cancer_0_2008519457.html",
-   "summary": "El ministerio pretende revisar la evidencia científica sobre esta medida y actualizar el informe que la desaconsejaba\nAndalucía registró 629 diagnósticos de cáncer de mama en el primer semestre de 2026",
-   "source": "Málaga Hoy",
-   "time": "2026-11-16T12:11:40Z"
-  },
-  {
    "title": "El paternalismo, incluso bienintencionado, puede esconder una concepción supremacista del conocimiento sanitario.",
    "link": "https://www.malagahoy.es/salud/opinion/paciente-no-necesita-decidamos-nombre_0_2008519439.html",
    "summary": "Escuchar a los pacientes e incorporar su experiencia a las decisiones es esencial para construir una sanidad más participativa y respetuosa con su autonomía",
    "source": "Málaga Hoy",
    "time": "2026-11-16T12:09:22Z"
-  },
-  {
-   "title": "Un portero de una discoteca de Málaga recibe un disparo y una medalla amortigua el impacto - Malaga Actualidad",
-   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNLS1udVBCTkJPN3lkcEw2WEJMbHBHRDk2M3hEWVQxT2RWaEhxZnU2RWhnMGM0S1UzUGxIUHAxRFVWcjloZE1zWFcyQ1BtNDhaNGwyU0VfSVR5NDZnME14UVFWMXA2Q01pY0Y0eHFhOTR3Z29rUjg0ajM0M09OMG91Tm1rMnlDX1YtLXNBcDVmNXg4VWFYYTlrb3hMbm1RRmk0MFdWakVNVGhUNWhTYmpxYlZvajVKek1nOGdYVlRMcG1tS2hMYWNtNlNJOXU4Y1c3aWg4?oc=5",
-   "summary": "Un portero de una discoteca de Málaga recibe un disparo y una medalla amortigua el impacto    Malaga Actualidad",
-   "source": "Policía Nacional / Guardia Civil Málaga",
-   "time": "2026-11-16T12:08:00Z"
   },
   {
    "title": "Marbella stabilises slope next to Miguel de Cervantes school to prevent landslides",
@@ -1878,13 +1962,6 @@
    "time": "2026-11-16T11:58:58Z"
   },
   {
-   "title": "Carlos Cuerpo.",
-   "link": "https://www.malagahoy.es/andalucia/cuerpo-niega-falta-presupuestos-haya_0_2008519290.html",
-   "summary": "El vicepresidente anuncia una inversión de 19.000 millones para cinco años y constituye este lunes un comité de expertos, con técnicos externos y especialistas del sector aeronáutico, para diseñar un plan de choque que refuerce la seguridad y recuper",
-   "source": "Málaga Hoy",
-   "time": "2026-11-16T11:55:20Z"
-  },
-  {
    "title": "Las mejores eSIMs de 2025 para viajar al extranjero: tarifas económicas y marcas",
    "link": "https://www.diariodesevilla.es/de_compras/mejores-esims_0_2004746211.html",
    "summary": "Si vas a viajar fuera del país, te va a venir muy bien esta comparativa que hemos preparado con las mejores eSIMs y planes internacionales para viajar\nLos mejores seguros de viaje baratos de 2026: Coberturas y precios",
@@ -1906,13 +1983,6 @@
    "time": "2026-11-16T11:52:04Z"
   },
   {
-   "title": "Caen los revientacoches de Fuengirola: ocho detenidos por 15 robos en vehículos que causaron \"alarma social\" - El Español",
-   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQVGwxNEZoYmpjbEp4MDR6UENncHc4Z0ZVcnpQU1M4MGVBeWIwR1lXY0dRc3BzYW9DQjFHY1ZlbkV3Njg4Q05yQk1mbkVYX25IS0J3M1MxN1BwR2JDTDZOMGx4NWVnV3pwVzFJdmh6MnVWdjI2ZXpMUmlFdnpPMjZfOTI4WXpSVUtoeWY4NXJQOXh2UmlSQUFIU0thRmxvbndpeVRwYWV3TUtLdldmMFZYUDdVS0h3RWJUd1NnSUk2UlFqUW9ibW5vUXpLUnZEckZkZzFQcnlJdWZrM25IVzNPUmlMYU5uaV9D0gHuAUFVX3lxTE5aM2ZSWmdoUzhjT3U1akNMRER1N0ZmelE5UUh4N2NGMXo0WmVUZ2M5RFN6Y3RvZkw3VE82d1pDTW5PSUZYVXIzdmt3anFaZm9YdTdHeV9NMjF1cThDOTVSNDExU0FHbHN5MHc3RDZzbk5Ed1dVdlZqRkx0RUthdl81dUNYeWl2UUZqQmJjWUhldlZTUWZJTDh5MjNzeThNam13WjdTYjFtS2dzaVBmeElNUnYyWlNIUkRDQnEzZEw1Zkw4NTdVX0RrcjNMQ0p4NFlKc1hicE5BVS1IenMySUt5NmFCdzhzamVURjlBNlE?oc=5",
-   "summary": "Caen los revientacoches de Fuengirola: ocho detenidos por 15 robos en vehículos que causaron \"alarma social\"    El Español",
-   "source": "Policía Nacional / Guardia Civil Málaga",
-   "time": "2026-11-16T11:47:51Z"
-  },
-  {
    "title": "España-Fiyi de rugby en Málaga, en fotos",
    "link": "https://www.malagahoy.es/deportes/entradas-ver-seleccion-espanola-rugby_0_2008519009.html",
    "summary": "Consigue una de las dos entradas dobles que sorteamos",
@@ -1920,32 +1990,11 @@
    "time": "2026-11-16T11:46:05Z"
   },
   {
-   "title": "Sevilla acogerá el centro de motores de Ryanair con bonificaciones fiscales del Ayuntamiento",
-   "link": "https://www.europapress.es/andalucia/sevilla-00357/noticia-sevilla-acogera-centro-motores-ryanair-bonificaciones-fiscales-ayuntamiento-20261116124049.html",
-   "summary": "El alcalde califica el anuncio de \"muy importante\" para la economía local y agradece el trabajo de la Junta en aras de su implantación",
-   "source": "Europa Press Andalucía",
-   "time": "2026-11-16T11:40:49Z"
-  },
-  {
-   "title": "Esclarecidos 15 robos en el interior de vehículos en Fuengirola y detenidas ocho personas - Málaga Hoy",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNYjFsR0tCS1h1M1lhRi1nNG8xR2lqMzZQbEMtT1lUVjVRYzJiMzJsR21QeC1wbHpPaDdOR0NlM2d5VGl0MTlvZGx5bmtfZ0JjQlE0TUZGM0VmdkNGZDZULWEyVGIwaGlibV84WGlvc0JrY3RTODExWTNqM1g5RmlSTmxZdllVeWg4Y0R1cnZKTWtSVGJE0gGaAUFVX3lxTE93N1FaZFpSd3NJQUtPdWhzek9EdGlySEU5aWVYSWgzMThFSEpTX242eExMUW9rZ3pzbjRVR1ItOGx0VjFoREZLRkZ5b290UU54S0lDR2lDLWl4TnEtczR6Z2tncjhieGcxcmlyOXhBdHZGSkJaLVdiV1RZYUFybkgzYVlkS3MydU90Sm5pNHgwb2dScUxiMktBOHc?oc=5",
-   "summary": "Esclarecidos 15 robos en el interior de vehículos en Fuengirola y detenidas ocho personas    Málaga Hoy",
-   "source": "Policía Nacional / Guardia Civil Málaga",
-   "time": "2026-11-16T11:33:20Z"
-  },
-  {
    "title": "England stun world champions Spain in Madrid – as fascist Falange activists unfurl ‘Gibraltar is Spanish’ banner",
    "link": "https://www.theolivepress.es/spain-news/2026/11/16/england-stun-world-champions-spain-with-3-2-win-in-madrid/",
    "summary": "England’s national anthem was booed and fascist activists unfurled a ‘Gibraltar is Spanish’ banner during a feisty clash in Madrid.",
    "source": "Olive Press",
    "time": "2026-11-16T11:30:30Z"
-  },
-  {
-   "title": "Haitam en el Bernabeú",
-   "link": "https://www.malagahoy.es/malaga_cf/haitam-situacion-malaga-cf-conviccion_0_2008518326.html",
-   "summary": "El canterano malaguista visitó Pineda de Mar, donde dio sus primeros pasos en el fútbol, este pasado fin de semana para reconectar con su pasado\nRamón, otro paso adelante del capitán",
-   "source": "Málaga Hoy",
-   "time": "2026-11-16T11:23:14Z"
   },
   {
    "title": "Andorra: not yet the EU, but closer",
@@ -1997,32 +2046,11 @@
    "time": "2026-11-16T10:39:59Z"
   },
   {
-   "title": "Técnicos revisan un cuadro eléctrico",
-   "link": "https://www.malagahoy.es/malaga/filial-redes-endesa-detecta-malaga_0_2008518412.html",
-   "summary": "El robo de energía equivale al consumo de 9.500 hogares, según Endesa\nLa marihuana ‘roba’ en tres meses la luz que gastan 19.000 personas un año en Málaga",
-   "source": "Málaga Hoy",
-   "time": "2026-11-16T10:23:13Z"
-  },
-  {
-   "title": "Gibraltar airport suffers storm damage and shuts for two days grounding flights to London and Manchester",
-   "link": "https://www.theolivepress.es/spain-news/2026/11/16/gibraltar-airport-shuts-two-days-storm-damage/",
-   "summary": "Britain's Ministry of Defence is repairing storm-damaged air traffic systems at the RAF airfield and expects to reopen at midday on Wednesday.",
-   "source": "Olive Press",
-   "time": "2026-11-16T10:04:49Z"
-  },
-  {
    "title": "La colección reúne algunas de las señas de identidad de la firma, siluetas favorecedoras, tejidos cuidados y prendas con personalidad, capaces de transformar un look sin renunciar a la comodidad y la versatilidad.",
    "link": "https://www.diariodesevilla.es/wappissima/tendencias/coleccion-otono-invierno-cherubina-invitada-terciopelo-ponchos-alpaca_0_2008517763.html",
    "summary": "La firma apuesta por tejidos de calidad, prendas versátiles y detalles artesanales en 'A Winter Affair', una colección que incluye propuestas especiales para Navidad, looks de invitada y el día a día\nAcaban de llegar a Zara los 3 pantalones de fiesta",
    "source": "Málaga Hoy",
    "time": "2026-11-16T10:00:30Z"
-  },
-  {
-   "title": "Costa Blanca to bask in ‘well above normal’ temperatures this week with 28C highs predicted",
-   "link": "https://www.theolivepress.es/spain-news/2026/11/16/costa-blanca-to-bask-in-above-normal-28c-temperatures-this-week/",
-   "summary": "The unseasonal weather is down to warm westerly winds reaching Alicante province.",
-   "source": "Olive Press",
-   "time": "2026-11-16T09:51:14Z"
   },
   {
    "title": "Seven Britons died of Nolotil-linked blood disorder in Alicante, report reveals",
@@ -2200,13 +2228,6 @@
    "time": "2026-11-15T22:11:44Z"
   },
   {
-   "title": "España - Inglaterra (2-3): Cayó con orgullo y terminó con su racha de imbatibilidad",
-   "link": "https://www.malagahoy.es/deportes/espana-inglaterra-2-3-cayo_0_2008508873.html",
-   "summary": "Los ingleses se llevaron el choque en el Metropolitano gracias a los tantos de Harry Kane, Konsa y White; los españoles reaccionaron tarde gracias a Oyarzabal y Nico Williams, pero los británicos se quedan con la primera plaza del grupo A3\nLa galería",
-   "source": "Málaga Hoy",
-   "time": "2026-11-15T21:56:00Z"
-  },
-  {
    "title": "Precio de la luz hoy: ¿A qué hora es más barata?",
    "link": "https://www.diariosur.es/economia/mibolsillo/precio-luz-lunes-16-noviembre-2026-mas-barato-20261109000000-nt.html",
    "summary": "",
@@ -2214,11 +2235,16 @@
    "time": "2026-11-15T20:20:39Z"
   },
   {
-   "title": "Resultados Primera RFEF: El Juventud de Torremolinos vence al Huesca y se acerca a la permanencia",
-   "link": "https://www.malagahoy.es/deportes/resultados-primera-rfef-juventud-torremolinos_3_2008507468.html",
-   "summary": "El Antequera CF cayó derrotado ante el Algeciras CF\nEinar, titular con Euskadi",
-   "source": "Málaga Hoy",
-   "time": "2026-11-15T17:27:37Z"
+   "title": "La pareja local Fernández-Sánchez conquistan el Campeonato de Andalucía",
+   "link": "https://www.marbella24horas.es/mas-deportes/la-pareja-local-fernandez-sanchez-conquistan-el-campeonato-de-andalucia-43898",
+   "summary": "La pareja formada por Pedro Fernández y Javier Sánchez han conquistado el Campeonato de Andalucía de tenis en silla de ruedas que se ha celebrado en Marbella durante este fin de semana. La dupla marbellí venció en la final a la pareja sevillana formada por Arturo Montes y Javier Ruiz. Además, en el",
+   "source": "Marbella24horas"
+  },
+  {
+   "title": "Kike Villanueva cierra la temporada como campeón de Andalucía",
+   "link": "https://www.marbella24horas.es/mas-deportes/kike-villanueva-cierra-la-temporada-como-campeon-de-andalucia-43897",
+   "summary": "El deportista marbellí Kike Villanueva ha cerrado este fin de semana la temporada de marcha nórdica proclamándose campeón de Andalucía en su categoría (veterano B) y subcampeón en la Copa Andaluza. En el Parque Moret de Huelva se ha celebrado este domingo le Campeonato de Andalucía individual de mar",
+   "source": "Marbella24horas"
   },
   {
    "title": "Marcos Olguin crece y suma los tres puntos del Trofeo Moñi-M24H",
@@ -2296,1128 +2322,6 @@
    "title": "Dura derrota del Marbella Paraíso ante el colista Málaga Juniors (0-1)",
    "link": "https://www.marbella24horas.es/futbol/dura-derrota-del-marbella-paraiso-ante-el-colista-malaga-juniors-0-1-43884",
    "summary": "El Atlético Marbella Paraíso ha encajado este domingo una dura derrota ante el colista Málaga Juniors, un conjunto que no había sumado ningún punto en los diez partidos anteriores y que se ha llevado la victoria del Luis Teruel. El conjunto que entrena Pepe Bermúdez cae a puestos de descenso después",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El FC Marbellí acumula en Granada su sexta jornada sin ganar (1-0)",
-   "link": "https://www.marbella24horas.es/futbol/el-fc-marbelli-acumula-en-granada-su-sexta-jornada-sin-ganar-1-0-43883",
-   "summary": "El FC Marbellí sigue desinflándose sin que sea capaz de invertir la mala racha en la que acumula ya seis partidos sin ganar y en los que solo ha sumado dos puntos. Este  domingo, el equipo ha caído por la mínima en el campo del Recreativo Granada. Segunda derrota consecutiva y los amarillos que se v",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El San Pedro sigue firme en casa y supera al Huétor Vega (3-1)",
-   "link": "https://www.marbella24horas.es/futbol/el-san-pedro-sigue-firme-en-casa-y-supera-al-huetor-vega-3-1-43882",
-   "summary": "El San Pedro ha vuelto a demostrar este domingo su fortaleza como local con un claro triunfo ante un Huetor Vega que visitó el Municipal Antonio Naranjo en una buena racha de dos victorias seguidas y cuatro partidos sin perder. Pero los rojnegros dejaron prácticamente sentenciado el choque con el te",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El presupuesto de RTV Marbella para 2027 supera los 2,1 millones de euros",
-   "link": "https://www.marbella24horas.es/local/el-presupuesto-de-rtv-marbella-para-2027-supera-los-2-1-millones-de-euros-43881",
-   "summary": "El presupuesto de la sociedad municipal Radio Televisión Marbella para el año 2027 crece por encima de los dos millones de euros tras una subida del 7% respecto al ejercicio actual. La mayor parte del gasto (94,6%) se realiza en el capítulo de personal, cuya partida se eleva también un 7%, con 135.0",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El Marbella FC sufre para cerrar su primer triunfo a domicilio (0-1)",
-   "link": "https://www.marbella24horas.es/futbol/el-marbella-fc-sufre-para-cerrar-su-primer-triunfo-a-domicilio-0-1-43880",
-   "summary": "Sufrida victoria la que ha conseguido el Marbella FC ante la UD Tamaraceite. El conjunto blanquillo ha firmado su primer triunfo a domicilio gracias al solitario gol de penalti de Mizzian mediada la primera parte. El Marbella dispuso de más ocasiones, pero también Bloch apareció para mantener la por",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Éxito del día de puertas abiertas en los huertos urbanos de Marbella",
-   "link": "https://www.marbella24horas.es/local/exito-del-dia-de-puertas-abiertas-en-los-huertos-urbanos-de-marbella-43879",
-   "summary": "Como un auténtico éxito se puede catalogar la iniciativa de la Asociación de Huertos Ecológicos Urbanos Marbella Verde de organizar este sábado una jornada de puertas abiertas para conocer sus instalaciones en Huerta del Prado. Mucha afluencia de público y la posibilidad de adquirir productos de art",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Muñoz ha modificado 34 veces hasta ahora los presupuestos de 2026",
-   "link": "https://www.marbella24horas.es/local/munoz-ha-modificado-34-veces-hasta-ahora-los-presupuestos-de-2026-43878",
-   "summary": "La alcaldesa de Marbella, Ángeles Muñoz, ha realizado hasta ahora 34 modificaciones de los presupuestos municipales para 2026, que suponen una variación del 17% del documento inicial, que fue aprobado a finales del año pasado. Entre esos cambios, al capítulo de Personal se le han añadido 5.325.050,7",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "La Mancomunidad aprueba un Plan de Inversiones de 7 millones de euros",
-   "link": "https://www.marbella24horas.es/local/la-mancomunidad-aprueba-un-plan-de-inversiones-de-7-millones-de-euros-43877",
-   "summary": "La Mancomunidad de Municipios de la Costa del Sol Occidental ha aprobado hoy en una sesión ordinaria de su Asamblea la asignación presupuestaria y las actuaciones específicas que van a realizarse mediante el Plan de Inversiones Mancomunado, que supondrá inversiones en los once municipios por una ca",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El Marbella FC pierde a Dani Fernández pero descarta una lesión grave",
-   "link": "https://www.marbella24horas.es/futbol/el-marbella-fc-pierde-a-dani-fernandez-pero-descarta-una-lesion-grave-43876",
-   "summary": "El Marbella FC no podrá contar en las próxima semanas con Dani Fernández después de lesionarse en el partido del pasado domingo ante Las Palmas Atlético. No ha sido una semana en la entidad ya que existía el temor de que podía ser una lesión de gravedad, que finalmente ha quedado en una distensión d",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "En vigor el nuevo Plan General de Ordenación Municipal de Marbella",
-   "link": "https://www.marbella24horas.es/local/en-vigor-el-nuevo-plan-general-de-ordenacion-municipal-de-marbella-43875",
-   "summary": "El Plan General de Ordenación Municipal (PGOM) de Marbella entrará en vigor este sábado, día 14 de noviembre, tras la publicación hoy viernes de su normativa urbanística en el Boletín Oficial de la Provincia de Málaga (Bopma). Hasta que se apruebe el nuevo Plan de Ordenación Urbana (POU), deberá con",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Calderón: \"Estamos en un momento en el que el equipo está mejorando\"",
-   "link": "https://www.marbella24horas.es/futbol/calderon-quot-estamos-en-un-momento-en-el-que-el-equipo-esta-mejorando-quot-43874",
-   "summary": "El Marbella FC visita este domingo a la UD Tamaraceite después de romper una mala racha de seis partidos sin ganar y lo hace ante un rival que ya encadena tres derrotas seguidas. El técnico del conjunto marbellí ha destacado en rueda de prensa que \"estamos en un momento en el que el equipo está mejo",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Gran partido de Huijsen en la victoria de España sobre República Checa",
-   "link": "https://www.marbella24horas.es/futbol/gran-partido-de-huijsen-en-la-victoria-de-espana-sobre-republica-checa-43873",
-   "summary": "La selección española disputó este jueves un nuevo partido de la Liga de Naciones y lo hizo con Dean Hujsen como titular. El central marbellí volvió a jugar de inicio, realizando un gran encuentro y confirmando que ha recuperado su mejor versión. España se impuso por 0-2 con goles de Álex Baena y Ma",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Arranca en Marbella la campaña para el 29-N con la pegada de carteles",
-   "link": "https://www.marbella24horas.es/local/arranca-en-marbella-la-campana-para-el-29-n-con-la-pegada-de-carteles-43872",
-   "summary": "La campaña para las elecciones generales del 29 de noviembre ha arrancado en el municipio con la tradicional pegada de carteles, que algunos partidos siguen manteniendo, tanto en La Alameda de Marbella como en la plaza de la Iglesia de San Pedro Alcántara. El PP empieza de forma tibia, mientras que",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Presentado el programa en Marbella para el 25-N contra la violencia machista",
-   "link": "https://www.marbella24horas.es/local/presentado-el-programa-en-marbella-para-el-25-n-contra-la-violencia-machista-43871",
-   "summary": "Marbella celebrará una veintena de actividades de sensibilización con motivo del 25 de noviembre, Día Internacional de la Eliminación de la Violencia contra la Mujer. Bajo el lema ‘Una ciudad que respeta, una sociedad que avanza’, la propuesta reúne distintas iniciativas de concienciación, desde tal",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Marbella empieza a preparar el Carnaval con el concurso del cartel",
-   "link": "https://www.marbella24horas.es/local/marbella-empieza-a-preparar-el-carnaval-con-el-concurso-del-cartel-43870",
-   "summary": "El Ayuntamiento de Marbella, a través de la delegación de Fiestas, ha convocado el concurso para seleccionar el cartel anunciador del Carnaval 2027, que se celebrará del 30 de enero al 14 de febrero. El ganador, que será elegido mediante un jurado, primero, y después a través de votación en internet",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Falsa alarma por una maleta abandonada en San Pedro Alcántara",
-   "link": "https://www.marbella24horas.es/local/falsa-alarma-por-una-maleta-abandonada-en-san-pedro-alcantara-43869",
-   "summary": "La aparición de una maleta abandonada en la calle Príncipe de Asturias de San Pedro Alcántara ha generado un gran revuelo este jueves por la mañana. Efectivos de la Policía Nacional y de la Policía Local han acordonado la zona y se ha desalojado el centro de salud. Finalmente, todo ha quedado en nad",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Un San Pedro de dos caras: fuerte como local y vulnerable a domicilio",
-   "link": "https://www.marbella24horas.es/futbol/un-san-pedro-de-dos-caras-fuerte-como-local-y-vulnerable-a-domicilio-43868",
-   "summary": "La UD San Pedro está completando un inicio de temporada de grandes contrastes. El conjunto de Rodolfo Bodipo suma 15 puntos después de conseguir cinco victorias en diez encuentros. Los otros cinco partidos concluyeron en derrotas. Cuatro de esos cinco triunfos han sido como local, mientras que cuatr",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El único antecedente del Marbella contra el Tamaraceite acabó en derrota",
-   "link": "https://www.marbella24horas.es/futbol/el-unico-antecedente-del-marbella-contra-el-tamaraceite-acabo-en-derrota-43867",
-   "summary": "El Marbella FC visitará este domingo, por segunda vez en su historia, a la UD Tamaraceite. El primer duelo entre ambos conjuntos se produjo hace seis años, en plena pandemia del Covid y el resultado fue de triunfo para el conjunto canario por 3-1. Ahora los dos equipos afrontan este duelo necesitado",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "La borrasca Charles deja en Marbella más de 55 litros este miércoles",
-   "link": "https://www.marbella24horas.es/local/la-borrasca-charles-deja-en-marbella-mas-de-55-litros-este-miercoles-43866",
-   "summary": "El paso de la borrasca subtropical Charles finalmente no ha sido tan virulento como se esperaba por la provincia de Málaga, especialmente en cuanto al viento. Sí ha dejado importantes cantidades de lluvia, que vienen muy bien para los pantanos, y en Marbella no se ha informado de incidencias graves",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Tropezón del Hospital Ochoa CB Marbella en su visita al Colegio El Pinar (83-51)",
-   "link": "https://www.marbella24horas.es/baloncesto/tropezon-del-hospital-ochoa-cb-marbella-en-su-visita-al-colegio-el-pinar-83-51-43865",
-   "summary": "Duro tropiezo esta jornada del Hospital Ochoa CB Marbella en el partido que ha disputado en la cancha del Colegio El Pinar. El conjunto azulón apenas pudo plantar cara a un rival que estuvo mucho más inspirado y que logró vencer en los cuatro cuartos. El CB Marbella podrá desquitarse ya este jueves",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Gran resultado de Ángel Hidalgo con un 22º puesto en Abu Dhabi",
-   "link": "https://www.marbella24horas.es/golf/gran-resultado-de-angel-hidalgo-con-un-22-ordm-puesto-en-abu-dhabi-43864",
-   "summary": "Ángel Hidalgo volvió a brillar durante su participación en el Abu Dhabi Aldar Championship que se ha celebrado en el Yas Links Golf Club. El golfista marbellí concluyó el torneo con una tarjeta de 277 golpes (-11) después de iniciar el primer día en el par del campo e ir bajando conforme avanzavan l",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El PP apenas suma cinco millones de la Junta para Marbella en 2027",
-   "link": "https://www.marbella24horas.es/local/el-pp-apenas-suma-cinco-millones-de-la-junta-para-marbella-en-2027-43863",
-   "summary": "El PP ha protagonizado este miércoles de huelga general una rueda de prensa de precampaña en Marbella en la que ha denunciado el \"abandono\" del Gobierno de España al municipio y lo ha contrapuesto con la inversión que dicen ha hecho Moreno Bonilla. Para 2027 solo han podido sumar apenas cinco millon",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Marbella acogerá el Campeonato de Andalucía de gimnasia rítmica",
-   "link": "https://www.marbella24horas.es/deportes/marbella-acogera-el-campeonato-de-andalucia-de-gimnasia-ritmica-43862",
-   "summary": "El Palacio de Deportes Elena Benítez de San Pedro Alcántara será escenario los próximos 14 y 15 de noviembre del Campeonato de Andalucía Federación Promesas, el Campeonato de Andalucía Federación Individual y Equipos y la Copa Federación de Gimnasia Rítmica. Congregará a 1.200 participantes de clube",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El Marbella afronta dos salidas seguidas con la salvación a dos puntos",
-   "link": "https://www.marbella24horas.es/futbol/el-marbella-afronta-dos-salidas-seguidas-con-la-salvacion-a-dos-puntos-43861",
-   "summary": "El Marbella FC afronta ahora dos partidos a domicilio después de encadenar otros dos como local, que ha saldado con cuatro puntos de seis posibles y mejores sensaciones en el juego que le permiten creer y crecer. El próximo domingo juega en el campo de la UD Tamaraceite, penúltimo clasificado y en l",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El Ayuntamiento de Marbella tendrá en 2027 una deuda de casi 280 millones",
-   "link": "https://www.marbella24horas.es/local/el-ayuntamiento-de-marbella-tendra-en-2027-una-deuda-de-casi-280-millones-43860",
-   "summary": "El endeudamiento del Ayuntamiento de Marbella continúa siendo una pesada losa que crece cada año. La institución tendrá que afrontar el comienzo de 2027 con una deuda de 271 millones de euros, que subirá a final de año a casi 280 millones, pese a amortizarse 19,6 millones. Pero es que se ha pedido o",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Marbella fusiona literatura, poesía y flamenco en el ciclo \"Voces del Sur\"",
-   "link": "https://www.marbella24horas.es/cultura/marbella-fusiona-literatura-poesia-y-flamenco-en-el-ciclo-quot-voces-del-sur-quot-43859",
-   "summary": "Marbella acogerá la primera edición de ‘Voces del Sur’, un nuevo ciclo cultural que se desarrollará en el teatro municipal y reunirá a destacados representantes de la literatura, la poesía y el flamenco para poner en valor la capacidad creativa de Andalucía y explorar los vínculos entre estas discip",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Los presupuestos destinan 32 millones a San Pedro Alcántara para 2027",
-   "link": "https://www.marbella24horas.es/local/los-presupuestos-destinan-32-millones-a-san-pedro-alcantara-para-2027-43858",
-   "summary": "San Pedro Alcántara contará con 32,3 millones de euros para 2027, una cantidad que figura en los presupuestos municipales para el próximo año. Desde el equipo de gobierno han dicho esta mañana que hay 20,6 millones para inversiones, cifra que no aparece como tal en la documentación. .  Leer",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Cinco detenidos por la desaparición de un ciudadano irlandés en Marbella",
-   "link": "https://www.marbella24horas.es/local/cinco-detenidos-por-la-desaparicion-de-un-ciudadano-irlandes-en-marbella-43857",
-   "summary": "La Policía Nacional ha detenido a cinco personas por su presunta responsabilidad en la desaparición de un ciudadano irlandés en la Costa del Sol, que sigue en paradero desconocido desde el mes de junio. Se trata de Darren Hoolahan, hermano del exfutbolita internacional irlandés Wes Hoolahan. El secu",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El PSOE apoya en Marbella la huelga general y reivindica las pensiones",
-   "link": "https://www.marbella24horas.es/local/el-psoe-apoya-en-marbella-la-huelga-general-y-reivindica-las-pensiones-43856",
-   "summary": "El cabeza de lista del PSOE al Congreso de los Diputados por Málaga, José Bernal, ha defendido en Marbella la huelga general convocada para este miércoles como una movilización para seguir avanzando en derechos sociales y laborales frente a los retrocesos que plantean el Partido Popular y Vox. Tambi",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Elevan los avisos en la Costa del Sol por la llegada de la borrasca Charles",
-   "link": "https://www.marbella24horas.es/local/elevan-los-avisos-en-la-costa-del-sol-por-la-llegada-de-la-borrasca-charles-43855",
-   "summary": "La previsión meteorológica se complica para este miércoles, cuando se prevé la llegada a la Península de la borrasca subtropical Charles, acompañada de importantes precipitaciones y también de fuerte viento. Los avisos se han ampliado y se espera una jornada compliada. El Ayuntamiento de Marbella ha",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El juvenil Moha Nifa se une a la lista de debutantes en el Marbella FC",
-   "link": "https://www.marbella24horas.es/futbol/el-juvenil-moha-nifa-se-une-a-la-lista-de-debutantes-en-el-marbella-fc-43854",
-   "summary": "En la victoria que el Marbella FC logró esta jornada contra Las Palmas Atlético se produjo además el debut de otro futbolista juvenil. Mohamed Nifa entró para disputar los últimos 20 minutos y lo hizo en la posición de mediocentro. De esta manera, el técnico Antonio Calderón ya ha hecho debutar esta",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Doble podio para el Club Escalada Marbella en el Campeonato de España",
-   "link": "https://www.marbella24horas.es/mas-deportes/doble-podio-para-el-club-escalada-marbella-en-el-campeonato-de-espana-43853",
-   "summary": "El Club Escalada Marbella ha conseguido dos nuevos podios en el Campeonato de España de Clubes de marcha nórdica que se ha celebrado en Crevillente (Alicante). El club lograba subir al tercer escalón del podio tanto con el equipo masculino como con el femenino, demostrando, una vez más, que se encue",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Sigue la lluvia en la Costa del Sol: después de Bruna llega Charles",
-   "link": "https://www.marbella24horas.es/local/sigue-la-lluvia-en-la-costa-del-sol-despues-de-bruna-llega-charles-43852",
-   "summary": "El paso de la borrasca Bruna ha dejado importantes lluvias en la provincia de Málaga, en Marbella especialmente durante la madrugada de este lunes y seguirán durante el martes. Para el miércoles, la situación meteorológica volverá a complicarse con la llegada de otra depresión subtropical, denominad",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Primer análisis de los presupuestos para 2027 en la tertulia \"A Fondo\"",
-   "link": "https://www.marbella24horas.es/local/primer-analisis-de-los-presupuestos-para-2027-en-la-tertulia-quot-a-fondo-quot-43851",
-   "summary": "Este lunes por la noche, nueva tertulia \"A Fondo\" a las televisiones locales 7TV y M95TV con un amplio repaso a la actualidad del municipio de Marbella: los presupuestos municipales y de la Junta, la venta de parcelas municipales y la defensa de la alcaldesa de hacer concesiones de suelo y las obras",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Apymem entrega en su gala en Marbella los Premios Empresariales 2026",
-   "link": "https://www.marbella24horas.es/local/apymem-entrega-en-su-gala-en-marbella-los-premios-empresariales-2026-43850",
-   "summary": "La Asociación de la Pequeña y Mediana Empresa de Marbella (Apymem) celebró el pasado viernes 6 de noviembre su Gala y Entrega de los Premios Empresariales Apymem 2026, una cita que llenó el Rooftop del Hotel Óbal Marbella y reunió a empresarios, representantes institucionales y miembros del tejido e",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El Ateneo de Marbella organiza una visita guiada por el casco antiguo",
-   "link": "https://www.marbella24horas.es/cultura/el-ateneo-de-marbella-organiza-una-visita-guiada-por-el-casco-antiguo-43849",
-   "summary": "El Ateneo Cutural de Marbella retoma su actividad para poner en marcha una visita guiada por el centro histórico de la ciudad, que estará dirigida por el historiador Manuel Flores, profesional con una dilatada trayectoria docente en el IES Río Verde de Marbella. Una iniciativa de carácter divulgativ",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Un intratable Juan Rodríguez suma los tres puntos del Trofeo Moñi-M24H",
-   "link": "https://www.marbella24horas.es/futbol/un-intratable-juan-rodriguez-suma-los-tres-puntos-del-trofeo-moni-m24h-43848",
-   "summary": "Juan Rodríguez está atravesando por su mejor momento desde que es jugador del Marbella FC. El gallego volvió a firmar una actuación prácticamente perfecta, siendo el líder de la defensa y dando seguridad en todo momento. Gran partido que le permite sumar de nuevo los tres puntos del XIII Trofeo Moñi",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Fallece José Luis Guijarro Arcas, doctor muy querido en Marbella",
-   "link": "https://www.marbella24horas.es/local/fallece-jose-luis-guijarro-arcas-doctor-muy-querido-en-marbella-43847",
-   "summary": "Este domingo ha fallecido en Marbella el doctor José Luis Guijarro Arcas, toda una institución médica con más de cuatro décadas al servicio de los vecinos. Profesional ejemplar, humano y muy cercano, la ciudad llora la pérdida de un excelente profesional y una gran persona. El centro médico Hospital",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El Marbella juvenil gana en Granada y se consolida en puestos de Copa del Rey",
-   "link": "https://www.marbella24horas.es/futbol/el-marbella-juvenil-gana-en-granada-y-se-consolida-en-puestos-de-copa-del-rey-43846",
-   "summary": "El conjunto de División de Honor juvenil del Marbella FC se ha impuesto esta jornada a domicilio al Granada CF y da un paso más hacia una posible clasificación para la Copa del Rey. Silvio daba el tanto de la victoria en el tramo final del partido y consolida al equipo en la cuarta posición, ahora c",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Condenan a la alcaldesa de Marbella por vulnerar la Ley Electoral",
-   "link": "https://www.marbella24horas.es/local/condenan-a-la-alcaldesa-de-marbella-por-vulnerar-la-ley-electoral-43845",
-   "summary": "Como suele ser habitual, la alcaldesa de Marbella, Ángeles Muñoz, campa a sus anchas en cada periodo electoral, con poco respeto a lo que dice la ley y no pasa nada, pero esta vez, la Junta Electoral Provincial, a instancias de una denuncia del PSOE, ha censurado el comportamiento de la regidora y l",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Un FC Marbellí sin gol cede por la mínima ante el Malagueño (0-1)",
-   "link": "https://www.marbella24horas.es/futbol/un-fc-marbelli-sin-gol-cede-por-la-minima-ante-el-malagueno-0-1-43844",
-   "summary": "Quinta jornada consecutiva en la que el FC Marbellí no suma los tres puntos y tercera derrota en este tramo de la temporada. Este domingo, el igualado choque ante el Atlético Malagueño cayó finalmente del lado del filial con un solitario tanto en la segunda parte. Son también cinco encuentros sin qu",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Rajada de Bodipo tras la derrota del San Pedro en Torredonjimeno (3-1)",
-   "link": "https://www.marbella24horas.es/futbol/rajada-de-bodipo-tras-la-derrota-del-san-pedro-en-torredonjimeno-3-1-43843",
-   "summary": "Tercera derrota consecutiva de la Unión Deportiva San Pedro fuera de casa, donde no está teniendo la misma fortaleza que en el Municipal Antonio Naranjo. El equipo jugó un buen primer tiempo en el campo del Torredonjimeno, pero se le escapó el encuentro en la segunda parte a balón parado. Bodipo cri",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El Atlético Marbella Paraíso pierde en el campo del Churriana (2-0)",
-   "link": "https://www.marbella24horas.es/futbol/el-atletico-marbella-paraiso-pierde-en-el-campo-del-churriana-2-0-43842",
-   "summary": "Después de tres empates consecutivos, el Atlético Marbella Paraíso ha encajado este domingo una derrota en su visita al campo del Churriana CF, un conjunto que ha arrancado muy bien la temporada. A la escuadra que dirige Pepe Bermúdez se le escapó el partido en menos de cinco minutos, en los que enc",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El marbellí Jesús Ríos termina 17º en Moto3 en el Gran Premio de Catar",
-   "link": "https://www.marbella24horas.es/deportes/el-marbelli-jesus-rios-termina-17-ordm-en-moto3-en-el-gran-premio-de-catar-43841",
-   "summary": "El piloto marbellí Jesús Ríos, que partía una vez más desde los últimos puestos de la parrilla, ha concluido en la 17ª posición la carrera de Moto3 del Gran Premio de Catar disputada este domingo. Venía de una caída en Malasia el fin de semana anterior y sigue peleando por intentar estar más arriba,",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El Marbella FC se reencuentra con la victoria ante Las Palmas Atlético (2-1)",
-   "link": "https://www.marbella24horas.es/futbol/el-marbella-fc-se-reencuentra-con-la-victoria-ante-las-palmas-atletico-2-1-43840",
-   "summary": "Importantísima victoria la que ha conseguido este mediodia el Marbella FC ante Las Palmas Atlético. El conjunto de Antonio Calderón empezó muy bien y completó una gran primera parte con los goles de Pito Camacho y Cristóbal. En el segundo tiempo, el tanto canario apretó el marcador y obligó al Marbe",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El CD Marbella Walking Football conquista el Esquina Park Rangers",
-   "link": "https://www.marbella24horas.es/futbol/el-cd-marbella-walking-football-conquista-el-esquina-park-rangers-43838",
-   "summary": "Gran triunfo el que ha cosechado el CD Marbella Walking Football tras imponerse en la quinta edición del torneo que organiza el Esquina Park Rangers. El torneo se ha disputado en modalidad de liga de todos contra todos tras dos exigentes días de competición. Los marbellíes sumaron un total de 38 pun",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Rocío Molina pone el broche de oro al festival Marbella TodoDanza",
-   "link": "https://www.marbella24horas.es/cultura/rocio-molina-pone-el-broche-de-oro-al-festival-marbella-tododanza-43837",
-   "summary": "La 17ª edición de ‘Marbella TodoDanza’ se clausuró esta pasado viernes con la obra ‘Calentamiento’, de la reconocida artista Rocío Molina, recientemente distinguida con el Premio Andalucía de la Cultura. El evento ha contado con seis grandes espectáculos en el teatro, además de una programación comp",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Muñoz define como \"buena gestión\" ceder suelo a intereses privados",
-   "link": "https://www.marbella24horas.es/local/munoz-define-como-quot-buena-gestion-quot-ceder-suelo-a-intereses-privados-43836",
-   "summary": "La alcaldesa de Marbella, Ángeles Muñoz, ha defendido como una \"buena gestión\" la cesión constante de suelo municipal para intereses privados. Sostiene que, si hace en esas parcelas un equipamiento público, luego \"hay que mantenerlo\", y que para que esté \"vacía y sin utilidad\" es mejor entregarla a",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Calderón: \"Unidos somos más fuertes, el equipo necesita a la afición\"",
-   "link": "https://www.marbella24horas.es/futbol/calderon-quot-unidos-somos-mas-fuertes-el-equipo-necesita-a-la-aficion-quot-43835",
-   "summary": "El Marbella FC afronta este domingo su segundo partido consecutivo en casa con el duelo ante el filial de la UD Las Palmas. El equipo marbellí quiere reencontrarse con la victoria y lo quiere hacer con el apoyo de su afición. \"Unidos somos más fuertes y necestiamos a la afición\", ha asegurado el téc",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El IES Salduba ofrece formación oficial y gratuita en manicura y pedicura",
-   "link": "https://www.marbella24horas.es/local/el-ies-salduba-ofrece-formacion-oficial-y-gratuita-en-manicura-y-pedicura-43834",
-   "summary": "El IES Salduba de San Pedro Alcántara ha ampliado su oferta de Formación Profesional para el curso 2026/2027 con una nueva acción formativa dirigida a quienes quieran especializarse o incorporarse profesionalmente al sector de la estética: el Certificado Profesional IMPP0108, \"Cuidados estéticos de",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Con la concesión del Puerto Deportivo vencida, Marbella pide otros 50 años",
-   "link": "https://www.marbella24horas.es/local/con-la-concesion-del-puerto-deportivo-vencida-marbella-pide-otros-50-anos-43833",
-   "summary": "El Ayuntamiento de Marbella, que inicialmente había pedido una prórroga de 25 años, ha decidido solicitar a la Junta que amplíe la concesión del Puerto Deportivo Virgen del Carmen por 50 años más. La petición llega después de que el pasado mes de octubre concluyera la actuación cesión. La alcaldesa",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Puertas abiertas para conocer los huertos urbanos de Marbella",
-   "link": "https://www.marbella24horas.es/local/puertas-abiertas-para-conocer-los-huertos-urbanos-de-marbella-43832",
-   "summary": "La Asociación de Huertos Ecológicos Urbanos Marbella Verde va a celebrar su primera jornada de puertas abiertas con el objetivo de dar a conocer a la ciudadanía la actividad que desarrolla en Huerta del Prado, en la avenida Diego Jiménez Lima, y acercarles este espacio de convivencia y sostenibilida",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Muñoz anuncia un presupuesto para 2027 en Marbella de 477 millones",
-   "link": "https://www.marbella24horas.es/local/munoz-anuncia-un-presupuesto-para-2027-en-marbella-de-477-millones-nbsp-43831",
-   "summary": "Este año con un poco más de margen que los anteriores, pese a contar con mayoría absoluta, la alcaldesa de Marbella, Ángeles Muñoz, ha presentado hoy los presupuestos municipales para 2026, que ascenderán a casi 477 millones de euros, en torno a un 6% más respecto a este año. Ha dicho que hay hasta",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "La Policía frustra una estafa en la venta de una vivienda de lujo en Marbella",
-   "link": "https://www.marbella24horas.es/local/la-policia-frustra-una-estafa-en-la-venta-de-una-vivienda-de-lujo-en-marbella-43830",
-   "summary": "Agentes de la Policía Nacional, con la colaboración de la Policía austríaca, han frustrado una estafa millonaria en la compraventa de una villa de lujo en Marbella, donde han sido detenidas dos personas, más una tercera en Viena (Austria). Se hicieron, supuestamente, pasar por expertos del mercado i",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El gol del Marbella está en el juvenil con dos jugadores en lo alto del \"pichichi\"",
-   "link": "https://www.marbella24horas.es/futbol/el-gol-del-marbella-esta-en-el-juvenil-con-dos-jugadores-en-lo-alto-del-quot-pichichi-quot-43829",
-   "summary": "El Marbella FC tiene un problema de gol con sólo seis en nueve partidos. Todo lo contrario a lo que sucede al juvenil, que está firmando un gran arranque y ya suma 28 en nueve partidos. En este aspecto están brillando Christian Vasile y Dani Orozco que, con siete tantos cada uno, son los máximos gol",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El último duelo del Marbella FC ante el filial de Las Palmas acabó sin goles",
-   "link": "https://www.marbella24horas.es/futbol/el-ultimo-duelo-del-marbella-fc-ante-el-filial-de-las-palmas-acabo-sin-goles-43828",
-   "summary": "El Marbella FC se mide este domingo ante Las Palmas Atlético, con el que coincide por tercera vez en la misma categoría. Los dos antecedentes fueron en Segunda División B, el último en la temporada 2020/21. Aquel duelo concluyó con un empate sin goles. En el primero, el conjunto blanquillo lograba i",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Manuel Núñez será el candidato de IU a la alcaldía de Marbella en 2027",
-   "link": "https://www.marbella24horas.es/local/manuel-nunez-sera-el-candidato-de-iu-a-la-alcaldia-de-marbella-en-2027-43827",
-   "summary": "La asamblea local de Izquierda Unida ha designado a Manuel Núñez, coordinador local de Izquierda Unida-Por Andalucía Marbella, como candidato para las elecciones municipales de mayo de 2027. También se anunciado el primer tramo de la lista y los ejes de la campaña, con prioridad para vivienda, servi",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El paro sigue al alza en Marbella, pero en el mejor octubre desde 2006",
-   "link": "https://www.marbella24horas.es/local/el-paro-sigue-al-alza-en-marbella-pero-en-el-mejor-octubre-desde-2006-43826",
-   "summary": "Tras la temporada alta veraniega, la tendencia al alza del paro en el municipio de Marbella es habitual cada año. Ya lo fue en septiembre y ahora repite en octubre, con una subida ligeramente mayor que la de los últimos ejercicios. De todas formas, es el mejor dato en los últimos 20 años. La contrat",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Lucas Gámez vence en categoría absoluta en la X Mini Almijara Trail",
-   "link": "https://www.marbella24horas.es/mas-deportes/lucas-gamez-vence-en-categoria-absoluta-en-la-x-mini-almijara-trail-43825",
-   "summary": "Brillante resultado el que ha obtenido el marbellí Lucas Gámez en la X Mini Almijara Trail que se ha celebrado en Nerja recientemente. El corredor marbellí participó como miembro del Trops-Cuevas de Nerja llevándose la victoria en categoría tanto absoluta como sub-20. Gámez volvió a confirmar que es",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Marbella acoge la XX edición del Festival Flamenco Sierra Blanca",
-   "link": "https://www.marbella24horas.es/cultura/marbella-acoge-la-xx-edicion-del-festival-flamenco-sierra-blanca-43824",
-   "summary": "El Teatro Ciudad de Marbella será escenario del XX Festival Flamenco Sierra Blanca, una cita consolidada en el calendario cultural del municipio que reunirá a destacados exponentes del cante, la guitarra y el baile. El evento cuenta con un importante elenco al que se suma la cantaora local Eva Piñer",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Seis obras de teatro para ver en San Pedro Alcántara hasta fin de año",
-   "link": "https://www.marbella24horas.es/cultura/seis-obras-de-teatro-para-ver-en-san-pedro-alcantara-hasta-fin-de-ano-43823",
-   "summary": "El Centro de Artes Escénicas (CAE) La Alcoholera de San Pedro Alcántara ofrecerá hasta final de año una programación, que se ha presentado este miércoles, compuesta por seis obras teatrales dirigidas a público adulto e infantil. No hay grandes nombres en los elencos, pero siempre son propuestas inte",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El instituto Cilniana de Marbella lleva desde 2019 sin administrativo",
-   "link": "https://www.marbella24horas.es/local/el-instituto-cilniana-de-marbella-lleva-desde-2019-sin-administrativo-43822",
-   "summary": "El instituto Cilniana de Marbella lleva desde 2019, primero en los barracones en el Trapiche Norte y, desde 2024, en el nuevo edificio junto al hospital, sin personal administrativo. Así lo han denunciado la ampa Los Molineros, desde donde trasladan la situación de \"desamparo institucional\" en que s",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Egos y complejos contra la historia democrática de Marbella",
-   "link": "https://www.marbella24horas.es/local/egos-y-complejos-contra-la-historia-democratica-de-marbella-43821",
-   "summary": "Escribo esto desde el rechazo que me crea ver cómo el Gobierno municipal desprecia por sesgo partidista a personas que han construido la recién democracia en Marbella y San Pedro Alcántara a las que tanto debemos. .  Leer",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Isabel Pérez exige a Muñoz que \"no venda Marbella\" a intereses privados",
-   "link": "https://www.marbella24horas.es/local/isabel-perez-exige-a-munoz-que-quot-no-venda-marbella-quot-a-intereses-privados-43820",
-   "summary": "La portavoz del Grupo Municipal Socialista en el Ayuntamiento, Isabel Pérez, ha exigido a la alcaldesa, Ángeles Muñoz, que “deje de vender Marbella y San Pedro Alcántara” a los intereses privados y que cese en su “vorágine privatizadora” y deje de poner el suelo público, que “es de todos”, en manos",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El Marbella necesita reaccionar cuanto antes para no quedar descolgado",
-   "link": "https://www.marbella24horas.es/futbol/el-marbella-necesita-reaccionar-cuanto-antes-para-no-quedar-descolgado-43819",
-   "summary": "El Marbella FC no ha iniciado bien la temporada y tras la disputa de los nueve primeros partidos sólo suma siete puntos, que le sitúan en puestos de descenso. Si bien el equipo tiene esta jornada una nueva oportunidad de sumar como local, donde mejor imagen está ofreciendo, ante el colista del Grupo",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Inesperado tropiezo del Hospital Ochoa CB Marbella ante CB La Zubia (76-84)",
-   "link": "https://www.marbella24horas.es/baloncesto/inesperado-tropiezo-del-hospital-ochoa-cb-marbella-ante-cb-la-zubia-76-84-43818",
-   "summary": "Problemas para el Hospital Ochoa CB Marbella cuando juega como local. El conjunto azulón cayó derrotado esta jornada ante el CB La Zubia por 76-84. Un tercer cuarto muy malo lastró al equipo de Pablo Bernabé que no fue capaz de remontar en un intenso último periodo. En lo individual, espectacular el",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Mijas acoge la proyección de \"Perros y diablos\" con Antonio Coca",
-   "link": "https://www.marbella24horas.es/cultura/mijas-acoge-la-proyeccion-de-quot-perros-y-diablos-quot-con-antonio-coca-43817",
-   "summary": "El Festival de Cine Internacional y Nómada La Indi, que también tiene sedes en Madrid y Barcelona, llega esta semana a Mijas durante dos jornadas y, entre otros títulos, acogerá la proyección de la película \"Perros y Diablos\", del director malagueño Javier Ruiz y que cuenta en su elenco con el actor",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "La alcaldesa de Marbella vende seis parcelas públicas en La Montúa",
-   "link": "https://www.marbella24horas.es/local/la-alcaldesa-de-marbella-vende-seis-parcelas-publicas-en-la-montua-43816",
-   "summary": "La alcaldesa de Marbella, Ángeles Muñoz ha vendido al tercer intento seis parcelas en la urbanización La Montúa, con las que ya intentó hacer caja en 2020 y 2021, pero no lo consiguió. Ahora sí ha encontrado comprador en una empresa local para algo más de 6.000 metros cuadrados de suelo público en u",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Tomás Olivo baja al octavo puesto entre los más ricos de España",
-   "link": "https://www.marbella24horas.es/local/tomas-olivo-baja-al-octavo-puesto-entre-los-mas-ricos-de-espana-43815",
-   "summary": "El empresario Tomás Olivo, dueño del centro comercial La Cañada en Marbella, ha bajado hasta el octavo puesto en la lista de las personas más ricas de España que ha elaborado, un año más, la revista Forbes. Llegó a estar séptimo en 2019 y en 2025 alcanzó la sexta plaza dando un gran salto ya que era",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El Hospital Costa del Sol participa en un proyecto con IA sobre salud sexual",
-   "link": "https://www.marbella24horas.es/local/el-hospital-costa-del-sol-participa-en-un-proyecto-con-ia-sobre-salud-sexual-43814",
-   "summary": "El Hospital Universitario Costa del Sol (HUCS) y el Hospital Universitario Regional de Málaga (HURM), desarrollan el proyecto Prisma (Prevención y Respuesta Inmediata en Salud Sexual y su Manejo en Andalucía), cuyo objetivo es crear una herramienta conversacional multiplataforma basada en inteligenc",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Los británicos representan el 18% del total de turistas hoteleros en Marbella",
-   "link": "https://www.marbella24horas.es/turismo/los-britanicos-representan-el-18-del-total-de-turistas-hoteleros-en-marbella-43813",
-   "summary": "Marbella participa desde este martes, 3 de noviembre, en una nueva edición de la World Travel Market (WTM) de Londres, una de las principales ferias turísticas internacionales. Desde el Ayuntamiento han señalado que los visitantes británicos suponen el 18,7% del total de los turistas que han llegado",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El Marbella juvenil se gusta y golea (6-0) al San Félix para situarse cuarto",
-   "link": "https://www.marbella24horas.es/futbol/el-marbella-juvenil-se-gusta-y-golea-6-0-al-san-felix-para-situarse-cuarto-43812",
-   "summary": "El conjunto juvenil del Marbella FC se ha impuesto esta jornada al San Félix de manera contundente por 6-0. El equipo marbellí dominó durante todo el partido e incluso el marcador pudo haber sido aún mayor. Vasile y Dani Orozco brillaron en el duelo con dos goles cada uno. El Marbella es ya cuarto e",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Un gran Juan Rodríguez vuelve a sumar los tres puntos del Trofeo Moñi-M24H",
-   "link": "https://www.marbella24horas.es/futbol/un-gran-juan-rodriguez-vuelve-a-sumar-los-tres-puntos-del-trofeo-moni-m24h-43811",
-   "summary": "Un gran Juan Rodríguez volvió a ser el mejor jugador del Marbella FC en el encuentro contra el CP Mijas Las Lagunas. Por segundo semana consecutiva, el central gallego lideró la defensa y se mostró inexpugnable durante todo el día para sumar los tres puntos del XIII Trofeo Moñi - Marbella24Horas. Do",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Salvador Sánchez se corona en la II Carrera Popular Tostón de Marbella",
-   "link": "https://www.marbella24horas.es/mas-deportes/salvador-sanchez-se-corona-en-la-ii-carrera-popular-toston-de-marbella-43810",
-   "summary": "La II edición de la Carrera Popular Tostón de Marbella con este domingo con la participación de unos 250 corredores en una exigente prueba de ocho kilómetros que arrancó a nivel del mar y concluyó en Nagüeles. El triunfo en categoría masculina fue para el corredor local Salvador Sánchez del CA Marbe",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El Marbella encadena seis partidos sin marcar, su peor registro histórico",
-   "link": "https://www.marbella24horas.es/futbol/el-marbella-encadena-seis-partidos-sin-marcar-su-peor-registro-historico-43809",
-   "summary": "El Marbella FC no está teniendo suerte de cara a gol esta temporada, tal y como confirmó el pasado domingo contra el Mijas Las Lagunas. El conjunto marbellí tuvo ocasiones muy claras, pero la falta de acierto está condenando a un equipo sin fortuna en ataque que encadena ya seis partidos seguidos si",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Marbella dedica al promotor de la urbanización en El Ancón una rotonda",
-   "link": "https://www.marbella24horas.es/local/marbella-dedica-al-promotor-de-la-urbanizacion-en-el-ancon-una-rotonda-43808",
-   "summary": "El Pleno del Ayuntamiento de Marbella, con el voto en contra del PSOE y a favor del PP, OSP y Vox, aprobó el pasado viernes dedicar una rotonda al constructor Juan Antonio Mora Cuesta, promotor que está desarrollando los terrenos de El Ancón con el residencial de lujo Uno Beach, que contará con un c",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Marbella rebaja el IBI a ocio y hostelería, pero seguirán pagando más que en 2024",
-   "link": "https://www.marbella24horas.es/local/marbella-rebaja-el-ibi-a-ocio-y-hosteleria-pero-seguiran-pagando-mas-que-en-2024-43807",
-   "summary": "Los presupuestos municipales para 2027 incluirán una ligera rebaja del IBI que se subió en 2025 a negocios de ocio y hostelería, pero aún seguirán pagando más que antes del sablazo que les dio la alcaldesa, Ángeles Muñoz. La medida se aprobó en el pasado pleno extraordinario y supondrá una disminuci",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Los negocios del mercado de San Pedro pasan a casetas en el aparcamiento",
-   "link": "https://www.marbella24horas.es/local/los-negocios-del-mercado-de-san-pedro-pasan-a-casetas-en-el-aparcamiento-43806",
-   "summary": "El Ayuntamiento está ultimando la puesta en marcha de casetas en el aparcamiento para albergar, durante el tiempo que duren las obras, a los comerciantes del Mercado Municipal de San Pedro Alcántara. La idea inicial de ubicarlos en Marbella generó gran polémica y la alcaldesa ha tenido que recular,",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Amplio repaso a la actualidad local este lunes en la tertulia de TV \"A Fondo\"",
-   "link": "https://www.marbella24horas.es/local/amplio-repaso-a-la-actualidad-local-este-lunes-en-la-tertulia-de-tv-quot-a-fondo-quot-43805",
-   "summary": "Nueva entrega este lunes de la tertulia \"A Fondo\" a las televisiones locales 7TV y M95TV con un amplio repaso a la actualidad de Marbella y de San Pedro Alcántara: recuerdo a Pepi Romero, Vox rompe otra vez la unidad contra la violencia de género, concesiones y venta de parcelas por parte del Ayunta",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Marbella seguirá dilatando la devolución de la deuda con la Junta",
-   "link": "https://www.marbella24horas.es/local/marbella-seguira-dilatando-la-devolucion-de-la-deuda-con-la-junta-43804",
-   "summary": "La alcaldesa de Marbella, Ángeles Muñoz, vuelve a dar otra patada a la lata con el pago de la deuda a la Junta de Andalucía. En anteproyecto de presupuestos para 2027 incluye prorrogar el periodo de carencia, en el que solo se pagan los intereses, durante otros tres años más. El límite para devolver",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Detenidos dos jóvenes que alentaban disturbios en Marbella y Fuengirola",
-   "link": "https://www.marbella24horas.es/local/detenidos-dos-jovenes-que-alentaban-disturbios-en-marbella-y-fuengirola-43803",
-   "summary": "La Policía Nacional ha detenido la pasada noche en Fuengirola a dos individuos, uno de ellos menor de edad, pertenecientes al llamado movimiento “Blocus”. Ambos participaban de modo activo en canales de mensajería instantánea en los que hacían un llamamiento a realizar saqueos y actos de pillaje en",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Marbella comparte el Tostón y Todos los Santos con la fiesta de Halloween",
-   "link": "https://www.marbella24horas.es/local/marbella-comparte-el-toston-y-todos-los-santos-con-la-fiesta-de-halloween-43802",
-   "summary": "En una auténtico batiburrillo festivo, como en 2023, Marbella ha compartido este 1 de noviembre las habituales celebraciones del Tostón y de Todos los Santos, con el recuerdo a los difuntos, junto con el Halloween, retrasado del día anterior por el luto tras el accidente ferroviario en la provincia",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Reparto de puntos (0-0) entre Atlético Marbella Paraíso y Torre del Mar",
-   "link": "https://www.marbella24horas.es/futbol/reparto-de-puntos-0-0-entre-atletico-marbella-paraiso-y-torre-del-mar-43801",
-   "summary": "Reparto de puntos este domingo entre el Atlético Marbella Paraíso y la Unión Deportiva Torre del Mar, dos conjuntos en una racha complicada, más en el caso de los locales, que no fueron capaces de anotar ningún gol. El choque estuvo muy equilibrado y al final el empate sin goles que se mantuvo en el",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El San Pedro gana al Mancha Real (2-0) y sigue fuerte como local",
-   "link": "https://www.marbella24horas.es/futbol/el-san-pedro-gana-al-mancha-real-2-0-y-sigue-fuerte-como-local-43800",
-   "summary": "La Unión Deportiva San Pedro sigue mostrándose firme como local, superado el pinchazo ante el Motril. El equipo que entrena Rodolfo Bodipo es el que mejor rendimiento ofrece en su campo después del líder Melilla. Este domingo, ha superado con claridad al Atlético Mancha Real y se coloca a un punto d",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Un Marbella FC sin gol deja escapar vivo al CP Mijas Las Lagunas (0-0)",
-   "link": "https://www.marbella24horas.es/futbol/un-marbella-fc-sin-gol-deja-escapar-vivo-al-cp-mijas-las-lagunas-0-0-43799",
-   "summary": "El Marbella suma una nueva jornada sin victoria y sin marcar. El conjunto blanquillo ha sido hoy mejor que el CP Mijas Las Lagunas, ha gozado de ocasiones para llevarse la victoria, pero la falta de puntería les vuelve a condenar. El equipo, que terminó con uno menos por la expulsión de Fernando, es",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El marbellí Jesús Ríos se va al suelo en el Gran Premio de Malasia",
-   "link": "https://www.marbella24horas.es/deportes/el-marbelli-jesus-rios-se-va-al-suelo-en-el-gran-premio-de-malasia-43797",
-   "summary": "Apenas unas curvas ha durado la presencia del marbellí Jesús Ríos en la carrera de Moto3 del Gran Premio de Malasia de motociclismo. El piloto se fue al suelo enseguida en el Circuito de Sepang y tuvo que abandonar tras haber partido de los últimos en la parrilla de salida. Es la quinta vez esta tem",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El PP y Vox se ríen de Marbella en los presupuestos de la Junta para 2027",
-   "link": "https://www.marbella24horas.es/local/el-pp-y-vox-se-rien-de-marbella-en-los-presupuestos-de-la-junta-para-2027-43795",
-   "summary": "El PP y Vox, Juan Manuel Moreno y Manuel Gavira, se ríen de Marbella en los presupuestos de la Junta de Andalucía para 2027, algo habitual en el caso del primero y novedad en las primeras cuentas autonómicas solo con apoyo de la ultraderecha. No hay ninguna inversión específica y apenas 1,3 millones",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El FC Marbellí no pasa del empate (0-0) en el campo del Cantoria",
-   "link": "https://www.marbella24horas.es/futbol/el-fc-marbelli-no-pasa-del-empate-0-0-en-el-campo-del-cantoria-43794",
-   "summary": "El FC Marbellí, en el estreno de Alberto Muñoz como primer entrenador tras la salida de José Mari hacia el Málaga CF, no ha podido pasar del empate a cero en el campo del penúltimo clasificado, el Cantoria 2017, un equipo que todavía no conoce la victoria. El equipo acumula cuatro jornadas sin ganar",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Fallece Pepi Romero, una de las dos primeras concejalas de Marbella",
-   "link": "https://www.marbella24horas.es/local/fallece-pepi-romero-una-de-las-dos-primeras-concejalas-de-marbella-43793",
-   "summary": "Josefa Romero Sánchez ha fallecido este sábado en Marbella. Fue una de las primeras concejalas del Ayuntamiento tras la restauración de la democracia, elegida en las municipales de 1983 junto a su compañera Marina Torres Cañavate, ambas en la lista del PSOE. En 2024 se hizo un homenaje a ambas dedic",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El Marbella Juega brilla en el Campeonato de Andalucía de Baloncesto Adaptado",
-   "link": "https://www.marbella24horas.es/baloncesto/el-marbella-juega-brilla-en-el-campeonato-de-andalucia-de-baloncesto-adaptado-43792",
-   "summary": "El CD Marbella Juega ha completado un excelente Campeonato de Andalucía de Baloncesto Adaptado 2026. La entidad marbellí ha competido en tres categorías distintas y ha subido al podio en dos. En Baloncesto Adaptado, el Marbella Juega logró el subcampeonato de Andalucía; mientras que en Competición s",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Dos detenidos en Marbella en una operación contra el narcotráfico",
-   "link": "https://www.marbella24horas.es/local/dos-detenidos-en-marbella-en-una-operacion-contra-el-narcotrafico-43791",
-   "summary": "La Policía Nacional ha desarticulado una organización criminal dedicada al tráfico internacional de cocaína y hachís y han detenido en las provincias de Málaga, Valencia y Girona a ocho de sus miembros, dos de ellos en Marbella. Se han registrado seis domicilios y un local y se han intervenido 2,5 t",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Calderón: \"Queremos estos tres puntos que nos den aire para seguir creciendo\"",
-   "link": "https://www.marbella24horas.es/futbol/calderon-quot-queremos-estos-tres-puntos-que-nos-den-aire-para-seguir-creciendo-quot-43790",
-   "summary": "El Marbella FC se mide este domingo al Mijas-Las Lagunas a partir de las 12:00 horas en un encuentro en el que no puede permitirse ningún tropiezo más. El cuadro blanquillo afronta este encuentro con la baja de Naldo, pero convencido de reencontrarse con la victoria. \"Queremos estos tres puntos que",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Vox rompe otra vez en Marbella la unidad contra la violencia machista",
-   "link": "https://www.marbella24horas.es/local/vox-rompe-otra-vez-en-marbella-la-unidad-contra-la-violencia-machista-43789",
-   "summary": "Por cuarto año consecutivo, Vox ha roto la unidad de todos los grupos municipales contra la violencia de género en el pleno del Ayuntamiento de Marbella. En esta ocasión, sin su habitual discurso negacionista, ya que la sesión había eliminado las intervenciones tras el accidente ferroviario. PP, PSO",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El Cádiz elimina en Copa al Xerez con gol de Cristian Gutiérrez",
-   "link": "https://www.marbella24horas.es/futbol/el-cadiz-elimina-en-copa-al-xerez-con-gol-de-cristian-gutierrez-43788",
-   "summary": "El Cádiz CF continúa adelante en Copa del rey después de eliminar este jueves al Xerz CD. El conjunto gaditano logró darle la vuelta al gol azulino para imponser por 1-3 y seguir inmerso en el Torneo del KO. La remontada del equipo cadista la inició el jugador marbllí Cristian Gutiérrez con un espec",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Clamor por la falta de profesionales en el Hospital Costa del Sol de Marbella",
-   "link": "https://www.marbella24horas.es/local/clamor-por-la-falta-de-profesionales-en-el-hospital-costa-del-sol-de-marbella-43787",
-   "summary": "La Junta de Personal del Hospital Universitario Costa del Sol ha denunciado públicamente la situación de \"déficit de profesionales\" que atraviesa el centro, una realidad que consideran \"afecta directamente al funcionamiento diario de los servicios y a las condiciones laborales de quienes trabajan en",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "La Virgen del Carmen visitará el cementerio de Marbella este domingo",
-   "link": "https://www.marbella24horas.es/local/la-virgen-del-carmen-visitara-el-cementerio-de-marbella-este-domingo-43786",
-   "summary": "La Virgen del Carmen, patrona de Marbella, será protagonista este próximo domingo, 1 de noviembre, con motivo de la festividad de Todos los Santos, en la que se recuerda a los fallecidos. Habrá un rosario matutino hasta el cementerio y, por la tarde, una misa, antes de regresar a la parroquia de Nue",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Baja importante de Naldo que estará en torno a un mes fuera del equipo",
-   "link": "https://www.marbella24horas.es/futbol/baja-importante-de-naldo-que-estara-en-torno-a-un-mes-fuera-del-equipo-43785",
-   "summary": "El central Naldo Gomes se perderá los próximos partidos del Marbella FC tras retirarse lesionado en el partido contra el Xerez CD por unas molestias en el aductor de la pierna izquierda. El club ha informado hoy que sufre una rotura de grado II que podría tenerle fuera durante un mes. Naldo se suma",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El marbellí Daniel García se impone en la 46ª Carrera Ciudad de Málaga",
-   "link": "https://www.marbella24horas.es/mas-deportes/el-marbelli-daniel-garcia-se-impone-en-la-46-ordf-carrera-ciudad-de-malaga-43784",
-   "summary": "Brillante triunfo el que ha conseguido el atleta marbellí Daniel García en la 46ª Carrera Urbana Ciudad de Málaga. El deportista del Trops Cuevas de Nerja completó los diez kilómetros del recorrido con una marca de 30 minutos y 56 segundos. Los locales Cristian Benítez y Javier Díaz Carretero comple",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El pleno de Marbella se celebrará este viernes, pero sin debate político",
-   "link": "https://www.marbella24horas.es/local/el-pleno-de-marbella-se-celebrara-este-viernes-pero-sin-debate-politico-43783",
-   "summary": "El Pleno del Ayuntamiento de Marbella, que celebrará este viernes su sesión ordinaria correspondiente al mes de octubre, será atípico por el duelo nacional tras el accidente ferroviario y después de que se hayan anulado los actos institucionales hasta el sábado. No habrá debate político y solo se vo",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Amigos del Teatro cambia las fechas para representar el Tenorio en Marbella",
-   "link": "https://www.marbella24horas.es/cultura/amigos-del-teatro-cambia-las-fechas-para-representar-el-tenorio-en-marbella-43782",
-   "summary": "La Asociación Amigos del Teatro Ciudad de Marbella estrenará su adaptación de Don Juan Tenorio, de José Zorrilla, con dos funciones en el teatro municipal, en cuyas tablas realizarán por primera vez esta representación después de llevarla a otros lugares del municipio. Las fechas inicialmente previs",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El pasaje del terror en Miraflores pasa al domingo en el Halloween de Marbella",
-   "link": "https://www.marbella24horas.es/local/el-pasaje-del-terror-en-miraflores-pasa-al-domingo-en-el-halloween-de-marbella-43781",
-   "summary": "La celebración de Halloween en Marbella cuenta desde hace ya once años con una cita obligada como es el pasaje del terror que organiza la asociación de vecinos Vázquez Clavel del barrio de Miraflores. Una encuentro con el miedo, que en esta ocasión se traslada al domingo, 1 de noviembre, por los día",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El conjunto femenino del Voleibol San Pedro logra su primera victoria",
-   "link": "https://www.marbella24horas.es/voleibol/el-conjunto-femenino-del-voleibol-san-pedro-logra-su-primera-victoria-43780",
-   "summary": "El conjunto femenino del Voleibol San Pedro ha conseguido esta jornada su primera victoria de la temporada en su estreno en Primera Andaluza. El equipo, que rozó el triunfo en su anterior partido en casa, no dio tregua a un Sierra Elvira que cayó en tres sets de manera contundente. La próxima jornad",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Marbella traslada Halloween al domingo y coincidirá con el Tostón",
-   "link": "https://www.marbella24horas.es/local/marbella-traslada-halloween-al-domingo-y-coincidira-con-el-toston-43779",
-   "summary": "El Ayuntamiento de Marbella ha anunciado este jueves la suspensión de todos los actos institucionales durante los tres días de luto nacional, en memoria de las víctimas del accidente ferroviario en la provincia de Toledo. Las fiestas de Halloween, previstas para el sábado 31, se posponen al domingo",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Los visitantes nacionales sostienen el turismo en septiembre en Marbella",
-   "link": "https://www.marbella24horas.es/turismo/los-visitantes-nacionales-sostienen-el-turismo-en-septiembre-en-marbella-43778",
-   "summary": "Al contrario que en los meses anteriores, cuando los datos se sostuvieron con la llegada de visitantes internacionales, en el mes de septiembre ha sido la afluencia de nacionales la que ha hecho que mejore la presencia de turistas hoteleros en Marbella. Baja la ocupación y la estancia media, pero se",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Minuto de silencio en Marbella por las víctimas del accidente ferroviario",
-   "link": "https://www.marbella24horas.es/local/minuto-de-silencio-en-marbella-por-las-victimas-del-accidente-ferroviario-43777",
-   "summary": "Marbella ha acogido este miércoles pora la noche un minuto de silencio por las víctimas del accidente de tren que ha tenido lugar a primera hora de la mañana en la línea que une Madrid y Sevilla y que deja, al menos, 68 muertos y más de un centenar de heridos. Desde el municipio se ha trasladado las",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "IU rechaza la cesión de suelo público para sanidad privada en Marbella",
-   "link": "https://www.marbella24horas.es/local/iu-rechaza-la-cesion-de-suelo-publico-para-sanidad-privada-en-marbella-43776",
-   "summary": "Izquierda Unida - Por Andalucía Marbella ha expresado su rechazo a la concesión durante 75 años de suelo público para construir y explotar dos instalaciones sanitarias privadas en el municipio. Su coordinador local, Manuel Núñez, considera \"inadmisible que Ángeles Muñoz privatice dos parcelas públic",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "David Alcántara, bronce en el Campeonato de España mar-costa",
-   "link": "https://www.marbella24horas.es/deportes/david-alcantara-bronce-en-el-campeonato-de-espana-mar-costa-43775",
-   "summary": "El sampedreño David Alcántara Luna logró el pasado fin de semana la medalla de bronce en el Campeonato de España de pesca deportiva mar-costa y alto nivel que tuvo lugar en la playa de Comarruga (Tarragona) y logró el oro por autonomías con Andalucía. Este resultado le permitirá forma parte del equi",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Marbella habilitará un libro de firmas por el fallecimiento del Conde Rudi",
-   "link": "https://www.marbella24horas.es/local/marbella-habilitara-un-libro-de-firmas-por-el-fallecimiento-del-conde-rudi-43773",
-   "summary": "El Ayuntamiento de Marbella va a habilitar el Hospital Real de la Misericordia para que la ciudadanía pueda trasladar sus condolencias, a través de un libro de firmas, a la familia del Conde Rudi, fallecido el pasado día 17. Coincidirá con el funeral, para el que sus allegados han solicitado que en",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Lucas Gámez marca el récord del medio kilómetro vertical en Las Hurdes",
-   "link": "https://www.marbella24horas.es/mas-deportes/lucas-gamez-marca-el-record-del-medio-kilometro-vertical-en-las-hurdes-43772",
-   "summary": "Lucas Gámez volvió a demostrar su excelente nivel al conseguir marcar el récord del medio kilómetro vertical en la comarca de Las Hurdes (Cáceres). El joven deportista del Club Escalada Marbella obtuvo un excelente resultado al llevarse la victoria en categoría cadete, confirmando que es un deportis",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El Hospital Ochoa CB Marbella suma una nueva victoria a domicilio (75-93)",
-   "link": "https://www.marbella24horas.es/baloncesto/el-hospital-ochoa-cb-marbella-suma-una-nueva-victoria-a-domicilio-75-93-43771",
-   "summary": "El Hospital Ochoa CB Marbella se impuso esta jornada a domicilio al CB Novaschool. Triunfo autoritario para el conjunto azulón que logró ganar los cuatro periodos del partido, ampliando una renta que acabó en casi 20 puntos de diferencia. El CB Marbella suma ya dos victorias a domicilio y esta jorna",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El pasaje del terror en Miraflores, cita obligada en el Halloween de Marbella",
-   "link": "https://www.marbella24horas.es/local/el-pasaje-del-terror-en-miraflores-cita-obligada-en-el-halloween-de-marbella-43770",
-   "summary": "La celebración de Halloween en Marbella cuenta desde hace ya once años con una cita obligada como es el pasaje del terror que organiza la asociación de vecinos Vázquez Clavel del barrio de Miraflores. Una encuentro con el miedo cada 31 de octubre que mejora en cada edición gracias a la participación",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Alberto Muñoz y Félix Ramírez toman el mando en el FC Marbellí",
-   "link": "https://www.marbella24horas.es/futbol/alberto-munoz-y-felix-ramirez-toman-el-mando-en-el-fc-marbelli-43769",
-   "summary": "Alberto Muñoz y Félix Ramírez se hacen cargo del FC Marbellí tras la salida de José Mari Isaac a la estructura deportiva del Málaga CF.Ambos ya formaban parte del cuerpo técnico y ahora dan un paso al frente para tomar las riendas. Alberto Muñoz pasa a ser el primer entrenador y tendrán en Félix Ram",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El FC Marbellí pierde a José Mari que parte rumbo al Málaga CF",
-   "link": "https://www.marbella24horas.es/futbol/el-fc-marbelli-pierde-a-jose-mari-que-parte-rumbo-al-malaga-cf-43768",
-   "summary": "Movimiento inesperado dentro del seno del FC Marbellí. El conjunto amarillo ha anunciado esta mañana la salida de su técnico José Mari Isaac que abandona la entidad rumbo al Málaga CF para formar parte de la Academia. Desde el club agradecen su trabajo en estos meses y están a la espera de cerrar un",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "La alcaldesa de Marbella entrega suelo para un centro sanitario privado",
-   "link": "https://www.marbella24horas.es/local/la-alcaldesa-de-marbella-entrega-suelo-para-un-centro-sanitario-privado-43767",
-   "summary": "La alcaldesa, Ángeles Muñoz, continúa vendiendo Marbella y va a entregar casi 3.200 metros cuadrados de suelo público a una empresa para un \"centro asistencial sanitario integral y multidisciplinar\", que se podría definir también como una policlínica privada, junto al instituto Guadaiza de San Pedro",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Todo listo para el Halloween en los tres escenarios habituales de Marbella",
-   "link": "https://www.marbella24horas.es/local/todo-listo-para-el-halloween-en-los-tres-escenarios-habituales-de-marbella-43766",
-   "summary": "Todo listo para la celebración, un año más, de la fiesta de Halloween, que este año cae en sábado, el próximo 31 de octubre, lo que seguro aumentará aún más la participación. Marbella repite los tres escenarios que han sido habituales los últimos años. La previsión meteorológica apunta actualmente u",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Muñoz vuelve a enredar y a mentir sobre el acceso cerrado en la A-7",
-   "link": "https://www.marbella24horas.es/local/munoz-vuelve-a-enredar-y-a-mentir-sobre-el-acceso-cerrado-en-la-a-7-43765",
-   "summary": "La alcaldesa de Marbella, Ángeles Muñoz, sigue enredando con el cierre de los accesos 1034 de la autovía A-7, un asunto que le ha estallado en la cara en forma de enfado de los vecinos. Para salir del paso, esta mañana ha vuelto a repetir las mismas mentiras y ha pedido que se reabra cuando ya no es",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El PSOE destaca el equilibrio de los decretos del Gobierno sobre vivienda",
-   "link": "https://www.marbella24horas.es/local/el-psoe-destaca-el-equilibrio-de-los-decretos-del-gobierno-sobre-vivienda-43764",
-   "summary": "El secretario general del PSOE de Málaga, Josele Aguilar, ha destacado en una rueda de prensa en Marbella el equilibrio de los decretos de vivienda aprobados por el Gobierno de España, protegiendo a los inquilinos más vulnerables y también a los pequeños propietarios para que pongan sus inmuebles en",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Juan Antonio Ortiz logra dos victorias en el Campeonato de España sub-20",
-   "link": "https://www.marbella24horas.es/mas-deportes/juan-antonio-ortiz-logra-dos-victorias-en-el-campeonato-de-espana-sub-20-43763",
-   "summary": "El marbellí Juan Antonio Ortiz ha sido uno de los grandes protagonistas del Campeonato de España de Clubes sub-20. El atleta del Trops-Cuevas de Nerja consiguió llevarse la victoria en las dos pruebas que disputó y fue pieza importante para que el conjunto nerjeño lograra el subcampeonato nacional e",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El Marbella FC juvenil empata contra el Alhendín Balompié (1-1)",
-   "link": "https://www.marbella24horas.es/futbol/el-marbella-fc-juvenil-empata-contra-el-alhendin-balompie-1-1-43762",
-   "summary": "El conjunto juvenil de División de Honor del Marbella FC empató a uno esta jornada ante el Alhendín Balompié. Encuentro muy igualado con una parte para cada equipo que concluyó con reparto de puntos y con el conjunto marbellí cayendo a la sexta plaza. Semana intensa con otro partido este miércoles c",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Gran actuación de Bloch para sumar los tres puntos del Trofeo Moñi-M24H",
-   "link": "https://www.marbella24horas.es/futbol/gran-actuacion-de-bloch-para-sumar-los-tres-puntos-del-trofeo-moni-m24h-43761",
-   "summary": "El portero Florentin Bloch fue esta jornada el mejor jugador del Marbella FC en el encuentro ante el Xerez CD. El conjunto blanquillo cayó por la mínima, pero el meta francés completó su mejor partido desde que llegó a la entidad y mantuvo vivo a los suyos durante muchos minutos. Buen partido para s",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Las Peñas del Marbella anuncian medidas y piden explicaciones",
-   "link": "https://www.marbella24horas.es/futbol/las-penas-del-marbella-anuncian-medidas-y-piden-explicaciones-43760",
-   "summary": "Contundente comunicado de la Grada de Animación del Marbella FC con las cinco principales peñas del conjunto marbellí. Los aficionados han mostrado su malestar por la situación actual de la entidad, deportiva y en cuanto al estadio, además de anunciar \"como medida de protesta\" no acudirán al próximo",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "La alcaldesa de Marbella entrega ahora suelo público para un hospital privado",
-   "link": "https://www.marbella24horas.es/local/la-alcaldesa-de-marbella-entrega-ahora-suelo-publico-para-un-hospital-privado-43759",
-   "summary": "La alcaldesa, Ángeles Muñoz, sigue vendiendo Marbella. Ahora prevé entregar más de 3.400 metros cuadrados de suelo público a una empresa para que construya y explote un hospital en la zona de Las Chapas, junto al instituto Cilniana. Es una más de las concesiones de terrenos municipales que pone en m",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Arrancan las obras para eliminar fosas sépticas en la urbanización Valle del Sol",
-   "link": "https://www.marbella24horas.es/local/arrancan-las-obras-para-eliminar-fosas-septicas-en-la-urbanizacion-valle-del-sol-43758",
-   "summary": "El Ayuntamiento está acometiendo la urbanización integral de Valle del Sol, en San Pedro Alcántara, una actuación destinada a modernizar las infraestructuras de esta zona y mejorar la calidad de vida de sus residentes. La actuación, con la inversión de la concesionaria Hidralia, eliminará el sistema",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "La Asociación de Amigos de Teatro representa el Tenorio en Marbella",
-   "link": "https://www.marbella24horas.es/cultura/la-asociacion-de-amigos-de-teatro-representa-el-tenorio-en-marbella-43757",
-   "summary": "La Asociación Amigos del Teatro Ciudad de Marbella estrenará su adaptación de Don Juan Tenorio, de José Zorrilla, con dos funciones en el teatro municipal, en cuyas tablas realizarán por primera vez esta representación después de llevarla a otros lugares del municipio. Cuenta con el patrocinio de la",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El Tostón en Puerto Rico tendrá que esperar, de nuevo en Nagüeles",
-   "link": "https://www.marbella24horas.es/local/el-toston-en-puerto-rico-tendra-que-esperar-de-nuevo-en-nag-uuml-eles-43756",
-   "summary": "Pese a que incluso se llegó a plantear para el año pasado, tampoco será en 2026 cuando la tradicional fiesta del Tostón en Marbella vuelva a celebrarse en la finca de Puerto Rico bajo pese a que ya es municipal al completo. El Ayuntamiento ha anunciado este lunes que las actividades de esta jornada",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "La actualidad de Marbella y San Pedro en la tertulia de TV \"A Fondo\"",
-   "link": "https://www.marbella24horas.es/local/la-actualidad-de-marbella-y-san-pedro-en-la-tertulia-de-tv-quot-a-fondo-quot-43755",
-   "summary": "Tras dos lunes festivos, vuelve la tertulia \"A Fondo\" a las televisiones locales 7TV y M95TV con una nueva entrega sobre la actualidad de Marbella y de San Pedro Alcántara. Un menú muy variado con el homenaje a Moñi, las elecciones generales, la subida de tarifas de los cementerios, la jubilación de",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El PSOE pide bonificaciones del IBI a Muñoz para el pequeño comercio",
-   "link": "https://www.marbella24horas.es/local/el-psoe-pide-bonificaciones-del-ibi-a-munoz-para-el-pequeno-comercio-43754",
-   "summary": "La portavoz socialista en el Ayuntamiento de Marbella, Isabel Pérez, presentará una moción al Pleno para impulsar bonificaciones en el Impuesto sobre Bienes Inmuebles (IBI) para los negocios de proximidad, con especial atención a aquellos que afrontan mayores dificultades para competir con las grand",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El equipo andaluz femenino revalida por cuarto año el Campeonato de España",
-   "link": "https://www.marbella24horas.es/mas-deportes/el-equipo-andaluz-femenino-revalida-por-cuarto-ano-el-campeonato-de-espana-43753",
-   "summary": "La selección andaluza femenina ha revalidado, por cuarto año consecutivo, el Campeonato de España de selecciones autonómicas con Esther Muñoz y Lola Gallego como representantes del Club Escalada Marbella (CEM). El equipo masculino, con el marbellí Francisco Cruz, consiguió subir hasta el tercer esca",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El Marbella FC firma uno de los peores inicios goleadores de su historia",
-   "link": "https://www.marbella24horas.es/futbol/el-marbella-fc-firma-uno-de-los-peores-inicios-goleadores-de-su-historia-43752",
-   "summary": "El Marbella FC está acusando la falta de acierto goleador en este inicio de temporada. El conjunto blanquillo sólo ha conseguido anotar seis goles en ocho partidos, firmando así uno de los peores inicios goleadores de su historia. A esto se añade que el equipo ya encadena cinco partidos consecutivos",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Vecinos vuelven a quejarse por el ruido de eventos en la Represa de Marbella",
-   "link": "https://www.marbella24horas.es/local/vecinos-vuelven-a-quejarse-por-el-ruido-de-eventos-en-la-represa-de-marbella-43751",
-   "summary": "La polémica por el ruido que generan los eventos musicales que se celebran en el Parque de la Represa de Marbella se recrudece ante la \"falta de resultados\" tras los compromisos que adquirió el Ayuntamiento con los vecinos de la zona hace un año. Denuncian que los cambios han sido mínimos y no hay u",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "¿Por qué necesito radioterapia si me han operado de cáncer de mama?",
-   "link": "https://www.marbella24horas.es/local/-iquest-por-que-necesito-radioterapia-si-me-han-operado-de-cancer-de-mama-43750",
-   "summary": "La radioterapia es una parte importante del tratamiento del cáncer de mama, incluso después de haber extirpado el tumor. La  Dra. Paula Sedano , oncóloga radioterápica de HC Marbella, explica cuándo es necesaria y qué beneficios aporta a las pacientes. ¿Es necesaria para todos los casos? ¿Qué efecto",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Un Marbella inofensivo en ataque pierde en su estreno en Chapín ante el Xerez",
-   "link": "https://www.marbella24horas.es/futbol/un-marbella-inofensivo-en-ataque-pierde-en-su-estreno-en-chapin-ante-el-xerez-43749",
-   "summary": "El Marbella FC ha perdido esta tarde en el encuentro que le ha enfrentado al Xerez CD. El conjunto blanquillo jugaba por primera vez en el Campo de Chapín donde ha mostrado su peor versión de la temporada. Sin apenas crear ocasiones de gol en ataque, el meta Bloch estaba siendo el mejor del equipo c",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El FC Marbellí no pasa del empate ante el Atlético Porcuna (0-0)",
-   "link": "https://www.marbella24horas.es/futbol/el-fc-marbelli-no-pasa-del-empate-ante-el-atletico-porcuna-0-0-43748",
-   "summary": "No ha podido el FC Marbellí superar este domingo por la tarde al Atlético Porcuna en un encuentro que acabó sin goles, aunque ambos conjuntos tuvieron ocasiones para que se moviera el marcador. Las bajas han hecho mella en el conjunto amarillo, que acumula tres jornadas consecutivas sin ganar tras e",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Al San Pedro se le escapa un punto en el tiempo añadido en Armilla (1-0)",
-   "link": "https://www.marbella24horas.es/futbol/al-san-pedro-se-le-escapa-un-punto-en-el-tiempo-anadido-en-armilla-1-0-43747",
-   "summary": "El San Pedro ha regresado de vacío este domingo de su visita al campo del Arenas de Armilla, donde hizo un partido competitivo, defendiendo bien y buscando sus opciones en ataque, pero que se le escapó en el tiempo añadido con el gol que dio la victoria a los locales. Los rojinegros suman un triunfo",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Punto de mérito del Marbella Paraíso en el campo del Almería B (2-2)",
-   "link": "https://www.marbella24horas.es/futbol/punto-de-merito-del-marbella-paraiso-en-el-campo-del-almeria-b-2-2-43746",
-   "summary": "Excelente empate el que ha arrancado este domingo en el tiempo añadido el Atlético Marbella Paraíso en el campo del Almería B, uno de los equipos más potentes del grupo. Nada más arrancar el encuentro se adelanteron los visitantes, pero el filial logró darle la vuelta al marcador. Prácticamente sobr",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El marbellí Jesús Ríos no compite en Australia al cancelarse las carreras",
-   "link": "https://www.marbella24horas.es/deportes/el-marbelli-jesus-rios-no-compite-en-australia-al-cancelarse-las-carreras-43745",
-   "summary": "El marbellí Jesús Ríos se ha despedido este domingo del Circuito de Phillip Island, donde finalmente no ha podido competir en Moto3 al haberse cancelado el Gran Premio de Australia de Motociclismo. Tampoco hubo carreras en MotoGP ni en Moto2, por lo que ya todos los pilotos miran hacia la próxima ci",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Marbella ya presume de la plazoleta Salvador Gil Machuca \"Moñi\"",
-   "link": "https://www.marbella24horas.es/local/marbella-ya-presume-de-la-plazoleta-salvador-gil-machuca-quot-moni-quot-43743",
-   "summary": "Marbella ya puede presumir de contar con un espacio público en homenaje a una de las grandes referencias deportivas del municipio. Salvador Gil Machuca \"Moñi\", fallecido hace un año, es fútbol y es Marbella por los cuatro costados y desde este sábado la plazoleta situada en la confluencia de la call",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Isabel Pérez reclama un plan urgente de limpieza del alcantarillado",
-   "link": "https://www.marbella24horas.es/local/isabel-perez-reclama-un-plan-urgente-de-limpieza-del-alcantarillado-43742",
-   "summary": "La portavoz del Grupo Municipal Socialista, Isabel Pérez, defenderá una moción en el Pleno del Ayuntamiento de Marbella para solicitar la puesta en marcha de un plan extraordinario de limpieza, inspección y mantenimiento del alcantarillado y de la red de drenaje urbano ante la llegada de la temporad",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "IU Marbella exige garantías para proteger los centros históricos",
-   "link": "https://www.marbella24horas.es/local/iu-marbella-exige-garantias-para-proteger-los-centros-historicos-43741",
-   "summary": "Izquierda Unida - Por Andalucía Marbella ha pedido al Ayuntamiento de Marbella que explique el contenido de las 15 modificaciones de las normas urbanísticas anunciadas mientras se elabora el Plan de Ordenación Urbana (POU). La formación reclama que cualquier cambio incluya garantías concretas para p",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Los Premios Empresariales de APYMEM reconocerán la contribución al desarrollo de Marbella",
-   "link": "https://www.marbella24horas.es/local/los-premios-empresariales-de-apymem-reconoceran-la-contribucion-al-desarrollo-de-marbella-43740",
-   "summary": "La Asociación de la Pequeña y Mediana Empresa de Marbella (APYMEM) ha iniciado la cuenta atrás para la gala de entrega de los Premios Empresariales 2026, que este año reconocerán la innovación, la gestión y la contribución al desarrollo de Marbella. La gala tendrá lugar el próximo 6 de noviembre a p",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Calderón: \"Nuestra idea es trasladar el rendimiento como locales a fuera\"",
-   "link": "https://www.marbella24horas.es/futbol/calderon-quot-nuestra-idea-es-trasladar-el-rendimiento-como-locales-a-fuera-quot-43739",
-   "summary": "El Marbella FC visita este domingo el mítico campo de Chapin para enfrentarse al Xerez CD en un duelo en el que necesita reencontrarse con la victoria y romper una racha de cuatro partidos sin marcar. Para ello, el técnico del equipo, Antonio Calderón, ha asegurado que \"nuestra idea es trasladar el",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Hidralia coordina la limpieza de más de 19.000 sumideros en este 2026",
-   "link": "https://www.marbella24horas.es/local/hidralia-coordina-la-limpieza-de-mas-de-19-000-sumideros-en-este-2026-43738",
-   "summary": "Hidralia coordina la limpieza de más 19.000 sumideros en lo que va de año para garantizar el buen funcionamiento de la red de drenaje en Marbella, donde hay cerca de 30.000 puntos de captación de agua, que deben estar en buenas condiciones para evitar problemas con la precipitaciones. En el teléfono",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El instituto Shaolin San Pedro logra ocho medallas en el Campeonato Nacional",
-   "link": "https://www.marbella24horas.es/mas-deportes/el-instituto-shaolin-san-pedro-logra-ocho-medallas-en-el-campeonato-nacional-43737",
-   "summary": "Excelentes resultados los que ha conseguido el Instituto Shaolin San Pedro en el Campeonato de España de Kung Fu. Los deportistas Héctor y Esther Rojas brillaron sumando un total de ocho medallas, entre las que consiguieron seis oros y dos platas. La competición celebrada en Algemesí reunió a partic",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El I Trofeo Nacional \"Rafael Vera\" se estrena este sábado en Marbella",
-   "link": "https://www.marbella24horas.es/mas-deportes/el-i-trofeo-nacional-quot-rafael-vera-quot-se-estrena-este-sabado-en-marbella-43736",
-   "summary": "El Palacio de Congresos Adolfo Suárez acogerá este próximo sábado, 24 de octubre, la primera edición del Trofeo Nacional \"Rafael Vera - Ciudad de Marbella\", bajo el lema \"Homenaje a la Leyenda\", una competición que reunirá a alrededor de 60 deportistas y que nace con la vocación de consolidarse en e",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El Marbella RC abre la temporada con un claro triunfo (30-7) sobre UR Almería",
-   "link": "https://www.marbella24horas.es/rugby/el-marbella-rc-abre-la-temporada-con-un-claro-triunfo-30-7-sobre-ur-almeria-43735",
-   "summary": "El Marbella Rugby Club ha comenzado la temporada con un contundente triunfo sobre el Unión Rugby Almería, que no pudo plantarle cara. El equipo de Walter Kleinschuster dominó desde el arranque anotando su primer ensayo en el minuto 1 de partido. Buen arranque de temporada del Marbella RC que este do",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Marbella repite la privatización del servicio de poda y tala de árboles",
-   "link": "https://www.marbella24horas.es/local/marbella-repite-la-privatizacion-del-servicio-de-poda-y-tala-de-arboles-nbsp-43734",
-   "summary": "La alcaldesa de Marbella, Ángeles Muñoz, ha vuelto a poner en marcha, tras vencer el anterior contrato, la licitación para mantener la privatización del servicio de poda y tala de árboles en el municipio. El importe se dispara por encima de los cuatro millones de euros para la empresa que sea selecc",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Vuelve La Leshe que Mamate para compartir aniversario con Marbepop",
-   "link": "https://www.marbella24horas.es/local/vuelve-la-leshe-que-mamate-para-compartir-aniversario-con-marbepop-nbsp-43733",
-   "summary": "La legendaria banda marbellí La Leshe que Mamate vuelve a los escenarios para celebrar su 40º aniversario, el mismo del festival Marbepop en el que, este próximo sábado, tras el cambio de fecha, se reencontrarán con su público. Han pasado 15 años desde su última actuación y tienen hasta un logo con",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Muñoz vende a la tercera una parcela en Marbella donde caben 44 viviendas",
-   "link": "https://www.marbella24horas.es/local/munoz-vende-a-la-tercera-una-parcela-en-marbella-donde-caben-44-viviendas-43732",
-   "summary": "A la tercera fue la vencida y la alcaldesa de Marbella, Ángeles Muñoz, ha logrado vender una parcela municipal en la zona de Las Chapas donde caben 44 viviendas, que bien podrían ser protegidas si se hubiera querido. La regidora ha preferido destinarla a hacer caja y se ha adjudicado a la única ofer",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Anuncian el nombre de los ganadores de los premios CIT Marbella 2026",
-   "link": "https://www.marbella24horas.es/local/anuncian-el-nombre-de-los-ganadores-de-los-premios-cit-marbella-2026-43730",
-   "summary": "Eladio Rueda, en la categoría Empresario, y la Ciudad Autónoma de Ceuta, como Institución, han sido galardonados con los XXVI Premios Empresariales de CIT Marbella, que se entregarán en una gala el 27 de noviembre. El Premio Especial Luis Cierco a la promoción turística es para Les Roches Marbella y",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Arrancan las obras del resort Oakmond Marbella en el antiguo Incosol",
-   "link": "https://www.marbella24horas.es/local/arrancan-las-obras-del-resort-oakmond-marbella-en-el-antiguo-incosol-43729",
-   "summary": "Después de que hace un año el Ayuntamiento concediera la licencia de obras, este miércoles se ha celebrado el protocolario acto de colocación de la primera piedra de lo que será el futuro Oakmond Marbella Wellness Clinic Resort, cuya apertura se sitúa en 2029 tras la reforma de lo que fueron las ant",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Dura sanción para Kiko Carmona que se perderá más de un mes de competición",
-   "link": "https://www.marbella24horas.es/futbol/dura-sancion-para-kiko-carmona-que-se-perdera-mas-de-un-mes-de-competicion-43728",
-   "summary": "El Comité de Competición de la 3ªRFEF ha publicado hoy las sanciones tras la jornada del pasado fin de semana. Entre todas, destaca la que tendrá que asumir el extremo Kiko Carmona. El jugador del FC Marbellí se revolvió en una acción en los minutos finales ante el San Pedro y fue expulsado, lo que",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Marbella acoge por segundo año el encuentro DUCO Spain & Portugal",
-   "link": "https://www.marbella24horas.es/turismo/marbella-acoge-por-segundo-ano-el-encuentro-duco-spain-amp-portugal-43727",
-   "summary": "Marbella alberga por segundo año consecutivo DUCO Spain & Portugal 2026, una de las citas internacionales de referencia del turismo de lujo, que ha vuelto a convertir a la ciudad en punto de encuentro de destacados profesionales del sector. El acuerdo alcanzado con los organizadores contempla la cel",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Marbella critica la nueva normativa de semáforos que protege a los peatones",
-   "link": "https://www.marbella24horas.es/local/marbella-critica-la-nueva-normativa-de-semaforos-que-protege-a-los-peatones-43726",
-   "summary": "El Ayuntamiento de Marbella ha informado este miércoles de que está adaptando 32 de los 60 cruces semafóricos del municipio a la modificación del Reglamento General de Circulación del Gobierno central y que elimina el ámbar intermitente para proteger a los peatones. Desde el Consistorio se muestran",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Lucas Gámez confirma su gran año con la conquista de la Copa de España",
-   "link": "https://www.marbella24horas.es/mas-deportes/lucas-gamez-confirma-su-gran-ano-con-la-conquista-de-la-copa-de-espana-43725",
-   "summary": "Lucas Gámez confirma su gran temporada tras conquistar la Copa de España Carrera por Montaña en Línea (Skyrace) en categoría cadete. El deportista del Club Escalada Marbella certificó su victoria tras imponerse en la cuarta y última prueba de la Copa de España, que se celebró recientemente en la loc",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Ángel Hildago brilla en la India con un espectacular tercer puesto",
-   "link": "https://www.marbella24horas.es/golf/angel-hildago-brilla-en-la-india-con-un-espectacular-tercer-puesto-43724",
-   "summary": "Ángel Hildago se encuentra en un gran momento de forma en este tramo final de la temporada del DP World Tour. El golfista marbellí volivó a estar entre los mejores en el DP World India Championship concluyendo en tercera posición con una tarjeta final de 273 golpes (-15) a seis golpes del vencedor,",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Más de 300.000 euros en actuaciones musicales en la Feria de San Pedro",
-   "link": "https://www.marbella24horas.es/local/mas-de-300-000-euros-en-actuaciones-musicales-en-la-feria-de-san-pedro-43721",
-   "summary": "El Ayuntamiento de Marbella ha destinado más de 300.000 euros a las actuaciones musicales de la Feria de San Pedro Alcántara 2026, incluyendo conciertos, pasacalles y espectáculos infantiles, alguno de los cuales no aparecen en el programa de fiestas, pero sí en el contrato que se pagará. El evento",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Una vecina de Marbella acude a TVE para intentar encontrar a su hija robada",
-   "link": "https://www.marbella24horas.es/local/una-vecina-de-marbella-acude-a-tve-para-intentar-encontrar-a-su-hija-robada-43720",
-   "summary": "María Lobo, una vecina de Marbella, ha contado este martes en el programa \"Directo al grano\" de Televisión Española la historia de su hija María del Mar, que asegura que le robaron tras nacer en el Hospital Carlos Haya de Málaga. Ahora, más de 50 años después, sigue intentado encontrarla y ha buscad",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Anuncian para 2031 el St. Regis Marbella en Las Dunas de Las Chapas",
-   "link": "https://www.marbella24horas.es/local/anuncian-para-2031-el-st-regis-marbella-en-las-dunas-de-las-chapas-43719",
-   "summary": "El hotel de lujo en la zona de Las Dunas de Marbella, que se anunció allá por 2016 y cuya tramitación urbanística está siendo eterna, operará bajo la marca St. Regis de Marriott International y, según se ha informado este martes, tiene prevista su apertura para 2031. Hoy se ha firmado el acuerdo tra",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Muñoz cambia el PGOU del 86 para permitir más altura en el Casco Antiguo de Marbella",
-   "link": "https://www.marbella24horas.es/local/munoz-cambia-el-pgou-del-86-para-permitir-mas-altura-en-el-casco-antiguo-de-marbella-43718",
-   "summary": "Mientras está presumiendo de que ya está todo resuelto en el urbanísmo de Marbella con la aprobación del PGOM (falta el POU), la alcaldesa, Ángeles Muñoz, ha presentado este martes una nueva modificación de las normas urbanísticas del PGOU de 1986, que sigue vigente. Se permitirá, por ejemplo, más a",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El Marbella FC juvenil gana en casa del Atlético Zabal (1-2) y ya es cuarto",
-   "link": "https://www.marbella24horas.es/futbol/el-marbella-fc-juvenil-gana-en-casa-del-atletico-zabal-1-2-y-ya-es-cuarto-43717",
-   "summary": "El conjunto juvenil del Marbella FC está protagonizando un excelente inicio de temporada. El conjunto blanquillo logró esta semana imponerse al Atlético Zabal a domicilio por un trabajado 1-2. Dani Orozco y Haizam fueron los autores de los goles del triunfo en el partido jugado en La Línea de la Con",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Cristian Benítez se proclama campeón de España en 10.000 metros M35",
-   "link": "https://www.marbella24horas.es/mas-deportes/cristian-benitez-se-proclama-campeon-de-espana-en-10-000-metros-m35-43716",
-   "summary": "Cristian Benítez ha conquistado este fin de semana el Campeonato de España de 10.000 metros en la categoría M35. El deportista del Club Atletismo Marbella del Sol se impuso en la final en un desenlace al sprint en el que logró el triunfo con menos de un segundo de ventaja sobre el campeón del mundo",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Un imperial Juan Rodríguez suma los tres puntos del Trofeo Moñi-M24H",
-   "link": "https://www.marbella24horas.es/futbol/un-imperial-juan-rodriguez-suma-los-tres-puntos-del-trofeo-moni-m24h-43715",
-   "summary": "Imperial partido el que protagonizó Juan Rodríguez contra el CD Estepona. El central del Marbella FC realizó varias intervenciones que fueron providenciales para que el equipo se mantuviera imbatido. Suma tres puntos esta jornada en el XIII Trofeo Moñi Marbella24horas. Dos puntos son para Lanchi y u",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "La plaza dedicada a Moñi en Marbella se inaugurará este próximo sábado",
-   "link": "https://www.marbella24horas.es/local/la-plaza-dedicada-a-moni-en-marbella-se-inaugurara-este-proximo-sabado-43714",
-   "summary": "La plazoleta situada en la confluencia de la calle Peñuelas con la calle Serenata de Marbella llevará desde este próximo sábado el nombre de Salvador Gil Machuca \"Moñi\", leyenda del fútbol local, fallecido el 31 de octubre del año pasado. La familia invita al acto a todas aquellas personas que conoc",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Caen ocho bandas que robaban relojes de lujo en Marbella y otras ciudades",
-   "link": "https://www.marbella24horas.es/local/caen-ocho-bandas-que-robaban-relojes-de-lujo-en-marbella-y-otras-ciudades-43713",
-   "summary": "La Policía Nacional, con la colaboración de la Polizia di Stato italiana, han detenido a 34 personas pertenecientes a ocho entramados criminales, caracterizados por una violencia extrema, de carácter itinerante y presuntamente dedicados al robo de relojes de alta gama. La operación es fruto del disp",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "San Pedro de Alcántara recorre las calles en el día grande de la feria 2026",
-   "link": "https://www.marbella24horas.es/local/san-pedro-de-alcantara-recorre-las-calles-en-el-dia-grande-de-la-feria-2026-43712",
-   "summary": "San Pedro Alcántara disfruta este lunes festivo el día grande de su feria 2026, en el que destacan los actos en honor al patrón esta mañana, con la solemne misa, de vuelta al interior del templo, y la posterior procesión. Había amenaza de una lluvia que no apareció y el cortejo ha recorrido las call",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El Marbella pierde a Enrique Fernández por una rotura en el quinto metatarsiano",
-   "link": "https://www.marbella24horas.es/futbol/el-marbella-pierde-a-enrique-fernandez-por-una-rotura-en-el-quinto-metatarsiano-43711",
-   "summary": "Nuevo contratiempo para el Marbella FC con la lesión del centrocampista Enrique Fernández. El futbolista gaditano, que recuperó la titularidad ante el CD Estepona este pasado domingo, estaba cuajando un buen partido cuando recibió un fuerte golpe que le obligó a salir del terreno de juego. El club b",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Díaz Carretero se proclama campeón de España de 10.000 metros M50",
-   "link": "https://www.marbella24horas.es/mas-deportes/diaz-carretero-se-proclama-campeon-de-espana-de-10-000-metros-m50-43710",
-   "summary": "Javier Díaz Carretero ha brillado este fin de semana durante la celebración de los Campeonatos de España de 10.000 metros, Milla Máster, Pruebas Combinadas y Pentatlón de Lanzamientos. El corredor del Cub Atletismo San Pedro logró la victoria en la prueba de los 10.000 metros en categoría M50 con un",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El Marbella Paraíso salva un punto con uno menos ante el Huétor Vega (2-2)",
-   "link": "https://www.marbella24horas.es/futbol/el-marbella-paraiso-salva-un-punto-con-uno-menos-ante-el-huetor-vega-2-2-43709",
-   "summary": "El Atlético Marbella Paraíso ha sumado un punto este domingo en casa ante el Huétor Vega tras un partido en el que iba con ventaja en el marcador, pero que se complicó tras la expulsión de Laurens en el segundo tiempo. Los locales lograron salvar al menos un empate, pese a la inferioridad numérica,",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Amplían hasta este lunes el aviso amarillo por lluvias en la Costa del Sol",
-   "link": "https://www.marbella24horas.es/local/amplian-hasta-este-lunes-el-aviso-amarillo-por-lluvias-en-la-costa-del-sol-43708",
-   "summary": "La Agencia Estatal de Meteorología (AEMET) ha ampliado el aviso amarillo por lluvias en la Costa del Sol hasta este lunes, 19 de octubre, jornada festiva en el municipio de Marbella, día de San Pedro de Alcántara. En la madrugada del sábado al domingo ha descargado una tormenta con bastantes precipi",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El San Pedro resuelve en la segunda parte el derbi ante el Marbellí (2-0)",
-   "link": "https://www.marbella24horas.es/futbol/el-san-pedro-resuelve-en-la-segunda-parte-el-derbi-ante-el-marbelli-2-0-43707",
-   "summary": "La Unión Deportiva San Pedro ha ganado este domingo al FC Marbellí el primer derbi local de la temporada en el grupo IX de 3ª RFEF y rompe la mala dinámica de dos derrotas consecutivas que traía. Los sampedreños resolvieron en la segunda parte ante un rival que acumula ahora dos partidos seguidos pe",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "La falta de gol deja al Marbella sin victoria contra el Estepona (0-0)",
-   "link": "https://www.marbella24horas.es/futbol/la-falta-de-gol-deja-al-marbella-sin-victoria-contra-el-estepona-0-0-43706",
-   "summary": "El Marbella FC no ha podido conseguir la victoria en el encuentro de máxima rivalidad provincial que le ha enfrentado contra el CD Estepona. El conjunto de Antonio Calderón ha merecido mayor fortuna y sólo la falta de gol le ha privado de conseguir la victoria. Buena imagen de un Marbella que va a m",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Fallece el Conde Rudi, emblema del desarrollo turístico de Marbella",
-   "link": "https://www.marbella24horas.es/local/fallece-el-conde-rudi-emblema-del-desarrollo-turistico-de-marbella-43705",
-   "summary": "El aristócrata alemán Rudolf Graf von Schönburg, conocido como Conde Rudi, ha fallecido a los 94 años de edad en Marbella, ciudad en la que fue uno de los grandes impulsores del desarrollo turístico durante la época dorada. Atrajo a la jet-set hasta el hotel Marbella Club, al que había llegado en lo",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El consejero de Turismo pide combatir al narco junto a la alcaldesa de Marbella",
-   "link": "https://www.marbella24horas.es/local/el-consejero-de-turismo-pide-combatir-al-narco-junto-a-la-alcaldesa-de-marbella-43704",
-   "summary": "El consejero de Turismo de la Junta, Manuel Gavira (Vox), fue el invitado este pasado viernes en el almuerzo mensual de la asociación de empresarios CIT Marbella. Antes del acto, hizo declaraciones sobre combatir el narcotráfico en presencia de la alcaldesa de Marbella, Ángeles Muñoz, que tiene a su",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Aviso amarillo por lluvias en la Costa del Sol con la llegada de Adam",
-   "link": "https://www.marbella24horas.es/local/aviso-amarillo-por-lluvias-en-la-costa-del-sol-con-la-llegada-de-adam-43703",
-   "summary": "La llegada de Adam, la primera gran dana de la temporada, ha supuesto un cambio drástico de tiempo en toda España. En la Costa del Sol se ha activado el aviso amarillo por lluvias, que estarán vigente hasta el domingo. Las temperaturas no sufrirán grandes cambios, mientras en otras partes del país l",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "IU exige a Muñoz que retire la concesión del estadio al Marbella FC",
-   "link": "https://www.marbella24horas.es/local/iu-exige-a-munoz-que-retire-la-concesion-del-estadio-al-marbella-fc-43702",
-   "summary": "Izquierda Unida-Por Andalucía Marbella ha exigido al equipo de gobierno del PP que inicie los trámites para rescatar la concesión de la parcela del estadio municipal de Marbella después de que las obras acumulen un año de paralización y ante lo que considera una sucesión de promesas incumplidas, con",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Siete detenidos, incluida la 'víctima', por un atraco simulado en Marbella",
-   "link": "https://www.marbella24horas.es/local/siete-detenidos-incluida-la-victima-por-un-atraco-simulado-en-marbella-43701",
-   "summary": "La Policía Nacional ha desarticulado un grupo criminal al que se atribuye un atraco simulado al encargado de un estanco en Marbella. Hay siete personas detenidas, entre ellas dos trabajadores del negocio, incluida la ‘víctima’ del asalto, en connivencia con la trama, por su presunta responsabilidad",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Nombran a Aurora López Montes gerente del Hospital Costa del Sol",
-   "link": "https://www.marbella24horas.es/local/nombran-a-aurora-lopez-montes-gerente-del-hospital-costa-del-sol-43700",
-   "summary": "La Junta de Andalucía ha anunciado este viernes en el BOJa el nombramiento de la cordobesa Aurora López Montes como nueva directora gerente del Hospital Universitario Costa del Sol en Marbella. Llega a un centro sanitario con nuevas instalaciones, pero con falta de profesionales y una dramática situ",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Antonio Calderón: \"Tenemos que recuperar nuestra mejor versión\"",
-   "link": "https://www.marbella24horas.es/futbol/antonio-calderon-quot-tenemos-que-recuperar-nuestra-mejor-version-quot-43699",
-   "summary": "El Marbella FC afronta este domingo un trascendental encuentro contra el CD Estepona. El conjunto marbellí ha encadenado dos partidos seguidos sin sumar y recibe la visita del equipo dirigido por el marbellí Manolo Sánchez. El técnico local Antonio Calderón ha asegurado hoy en rueda de prensa que \"t",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "La lluvia amenaza la Feria de San Pedro, que afronta ya los conciertos",
-   "link": "https://www.marbella24horas.es/local/la-lluvia-amenaza-la-feria-de-san-pedro-que-afronta-ya-los-conciertos-43698",
-   "summary": "La Feria de San Pedro Alcántara encara su momento más álgido, desde el viernes al lunes festivo en honor al patrón, con la celebración de las actuaciones musicales y la mayor afluencia de visitantes al recinto ferial. Pero, puede haber un problema, ya que la previsión meteorológica anuncia la posibi",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Marbella estrena web sobre el nuevo Plan General de Ordenación Municipal",
-   "link": "https://www.marbella24horas.es/local/marbella-estrena-web-sobre-el-nuevo-plan-general-de-ordenacion-municipal-43697",
-   "summary": "El Ayuntamiento de Marbella ha puesto en marcha una página web para consultar el nuevo Plan General de Ordenación Municipal (PGOM), aprobado de forma definitiva el pasado mes de septiembre y, entre otras, las 32 propuestas estratégicas que contempla para el desarrollo del municipio. Todavía falta el",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El Costa del Voley sólo conoce la victoria en su regreso a Primera Andaluza",
-   "link": "https://www.marbella24horas.es/voleibol/el-costa-del-voley-solo-conoce-la-victoria-en-su-regreso-a-primera-andaluza-43696",
-   "summary": "El conjunto sénior masculino del CD Costa del Voley cuenta sus partidos por victorias en este inicio de temporada. El equipo costavolense regresaba este verano a Primera Andaluza tras renunciar a su plaza en Superliga 2, pese a haberse ganado su continuidad por méritos deportivos, y lo ha hecho con",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El Hospital Ochoa CB Marbella debuta en casa este sábado contra el Peñarroya",
-   "link": "https://www.marbella24horas.es/baloncesto/el-hospital-ochoa-cb-marbella-debuta-en-casa-este-sabado-contra-el-penarroya-43695",
-   "summary": "La temporada para el Hospital Ochoa CB Marbella continúa este fin de semana tras el descanso de la pasada jornada. El conjunto azulón debutará este sábado en casa en el encuentro ante el Dehesas Reunidas Climanavas Agrometal Peñarroya. El equipo de Pablo Bernabé sumó un triunfo en su estreno liguero",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "La única visita del CD Estepona al Marbella FC acabó sin goles",
-   "link": "https://www.marbella24horas.es/futbol/la-unica-visita-del-cd-estepona-al-marbella-fc-acabo-sin-goles-43694",
-   "summary": "El Marbella FC recibe este domingo al CD Estepona. Un rival al que se ha enfrentado menos veces de las que cabría esperar ya que ambos conjuntos han coincidido en la misma categoría una única temporada, la 2023/24, con un empate sin goles en Marbella. Siguen Ohemeng y Olguin; mientras que Tahiru y J",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Marbella, entre los municipios más caros de España para comprar vivienda",
-   "link": "https://www.marbella24horas.es/local/marbella-entre-los-municipios-mas-caros-de-espana-para-comprar-vivienda-43693",
-   "summary": "Marbella continúa siendo uno de los municipios de España más caros para comprar vivienda y también uno de en los que más se han encarecido los precios en los últimos cinco años. Junto a Benahavís y con Estepona a más distancia, son las tres localidades que encabezan los precios en la comunidad autón",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "El marbellí José Bernal liderará la lista del PSOE por Málaga al Congreso",
-   "link": "https://www.marbella24horas.es/local/el-marbelli-jose-bernal-liderara-la-lista-del-psoe-por-malaga-al-congreso-43692",
-   "summary": "El marbellí José Bernal Gutiérrez será el cabeza de lista del PSOE al Congreso de los Diputados por la provincia de Málaga para las elecciones del próximo 29 de noviembre. Así lo ha decidido este miércoles el Comité Provincial. Nunca un miembro de la Agrupación Socialista de Marbella había sido núme",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Récord de empleo en septiembre en Marbella pese al bajón tras el verano",
-   "link": "https://www.marbella24horas.es/local/record-de-empleo-en-septiembre-en-marbella-pese-al-bajon-tras-el-verano-43691",
-   "summary": "Septiembre dejó en el municipio de Marbella un nuevo récord de empleo en este mes, rozando las 85.000 afiliaciones a la Seguridad Social, pese la habitual destrucción de puestos de trabajo que se produce tras la temporada alta veraniega, este año menos que el anterior. El número de autónomos retoma",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "En marcha la Feria de Día de San Pedro Alcántara con una veintena de casetas",
-   "link": "https://www.marbella24horas.es/local/en-marcha-la-feria-de-dia-de-san-pedro-alcantara-con-una-veintena-de-casetas-43690",
-   "summary": "La Feria de San Pedro Alcántara 2026 ya está a pleno rendimiento tras echar a andar este miércoles la Feria de Día, por quinto año en la Finca de la Caridad, con la visita de las autoridades y la apertura de las casetas. Hay 22 casetas, las atracciones mecánicas y un recinto de 83.000 metros cuadrad",
-   "source": "Marbella24horas"
-  },
-  {
-   "title": "Juan Carlos Bo logra tres medallas en los Europeos para Policía y Bomberos",
-   "link": "https://www.marbella24horas.es/deportes/juan-carlos-bo-logra-tres-medallas-en-los-europeos-para-policia-y-bomberos-43689",
-   "summary": "El policía local marbellí Juan Carlos Bo Morilla ha logrado tres medallas en la undécima edición de los Juegos Europeos para Policía y Bomberos que se están disputando en Vigo (Pontevedra). Habitual en esta competición en años anteriores, su actuación ahora ha vuelto a ser muy destacada proclamándos",
    "source": "Marbella24horas"
   }
  ]
