@@ -1,1 +1,2048 @@
-{}
+{
+ "checked": "2026-11-17T11:23:10Z",
+ "sources": [
+  {
+   "name": "The Spanish Eye",
+   "ok": true,
+   "feed": "https://www.thespanisheye.com/feed/",
+   "count": 20,
+   "newest": "2026-11-17T11:11:46Z",
+   "error": null
+  },
+  {
+   "name": "Diario Sur",
+   "ok": true,
+   "feed": "https://www.diariosur.es/rss/2.0/portada",
+   "count": 78,
+   "newest": "2026-11-17T11:15:10Z",
+   "error": null
+  },
+  {
+   "name": "La Opinión de Málaga",
+   "ok": false,
+   "feed": null,
+   "count": 0,
+   "newest": null,
+   "error": "https://www.laopiniondemalaga.es/rss/section/1: HTTPError HTTP Error 406: WAF Forbidden"
+  },
+  {
+   "name": "Málaga Hoy",
+   "ok": true,
+   "feed": "https://www.malagahoy.es/rss/",
+   "count": 128,
+   "newest": "2026-11-17T11:12:02Z",
+   "error": null
+  },
+  {
+   "name": "Marbella24horas",
+   "ok": false,
+   "feed": null,
+   "count": 0,
+   "newest": null,
+   "error": "https://www.marbella24horas.es/rss/: ParseError junk after document element: line 215, column 0"
+  },
+  {
+   "name": "Área Costa del Sol",
+   "ok": true,
+   "feed": "https://www.areacostadelsol.com/feed/",
+   "count": 20,
+   "newest": "2026-11-17T10:16:57Z",
+   "error": null
+  },
+  {
+   "name": "Sur in English",
+   "ok": true,
+   "feed": "https://www.surinenglish.com/rss/2.0/portada",
+   "count": 76,
+   "newest": "2026-11-17T10:59:23Z",
+   "error": null
+  },
+  {
+   "name": "Euro Weekly News",
+   "ok": false,
+   "feed": null,
+   "count": 0,
+   "newest": null,
+   "error": "https://weeklynews.co.uk/feed/: URLError <urlopen error timed out>"
+  },
+  {
+   "name": "Olive Press",
+   "ok": true,
+   "feed": "https://www.theolivepress.es/feed/",
+   "count": 20,
+   "newest": "2026-11-17T11:23:12Z",
+   "error": null
+  },
+  {
+   "name": "101TV Málaga",
+   "ok": true,
+   "feed": "https://www.101tv.es/rss/",
+   "count": 10,
+   "newest": "2026-11-17T11:23:01Z",
+   "error": null
+  },
+  {
+   "name": "Europa Press Andalucía",
+   "ok": true,
+   "feed": "https://www.europapress.es/rss/rss.aspx?ch=00279",
+   "count": 10,
+   "newest": "2026-11-17T11:09:49Z",
+   "error": null
+  }
+ ],
+ "items": [
+  {
+   "title": "Spain gets economic growth boost from the EU coupled with high inflation warning from Brussels chiefs",
+   "link": "https://www.theolivepress.es/spain-news/2026/11/17/spains-economic-growth-forecast-increased-by-european-union/",
+   "summary": "The EU's Autumn Economic Forecast says that Spain's Gross Domestic Product (GDP) 'will remain strong in 2026' at 2.6% .",
+   "source": "Olive Press",
+   "time": "2026-11-17T11:23:12Z"
+  },
+  {
+   "title": "Las raíces sevillanas de la ‘indepe’ Míriam Nogueras: pasaba parte de sus veranos en Dos Hermanas",
+   "link": "https://www.101tv.es/sevilla/las-raices-sevillanas-de-la-indepe-miriam-nogueras-pasaba-parte-de-sus-veranos-en-dos-hermanas/",
+   "summary": "Muchos de los políticos que han sido la cara visible del independentismo catalán tienen orígenes andaluces. Es el caso de Carles Puigdemont (Junts), cuya familia materna procedía de Almería y de La Carolina (Jaén); de Gabriel Rufián (ERC), cuyo árbol familiar hay que buscarlo entre Alcaudete (Jaén)",
+   "source": "101TV Málaga",
+   "time": "2026-11-17T11:23:01Z"
+  },
+  {
+   "title": "WATCH: Flames tear through Japanese restaurant in Marbella’s San Pedro after explosion at the bar",
+   "link": "https://www.theolivepress.es/spain-news/2026/11/17/san-pedro-alcantara-restaurant-fire-explosion/",
+   "summary": "Neighbours raised the alarm at around 1am as the blaze ripped through the closed Icha Mochi restaurant in Las Petunias, and nobody was hurt.",
+   "source": "Olive Press",
+   "time": "2026-11-17T11:22:31Z"
+  },
+  {
+   "title": "Los accionistas de Unicaja avalan la gestión de Isidro Rubiales como consejero delegado y lo reeligen para otros tres años",
+   "link": "https://www.diariosur.es/malaga/accionistas-unicaja-avalan-gestion-isidro-rubiales-consejero-20261117112254-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-17T11:15:10Z"
+  },
+  {
+   "title": "Jan Sotnar, entrenador del Pardubice.",
+   "link": "https://www.malagahoy.es/unicaja/jan-sotnar-jugar-malaga-pabellon_0_2008524366.html",
+   "summary": "El técnico del Pardubice se toma como un gran reto poder enfrentarse al Unicaja en el Carpena en su crecimiento como equipo\nElogios tras la ida",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T11:12:02Z"
+  },
+  {
+   "title": "Manuel Alcalá toma posesión como nuevo hermano mayor de la Hermandad del Rocío de Antequera",
+   "link": "https://www.101tv.es/semanasanta/manuel-alcala-toma-posesion-como-nuevo-hermano-mayor-de-la-hermandad-del-rocio-de-antequera/",
+   "summary": "La Hermandad de Nuestra Señora del Rocío de Antequera ha iniciado una nueva etapa en su trayectoria con la toma de posesión de su nueva Junta de Gobierno, presidida por Manuel Alcalá Tortosa, en un acto celebrado el pasado sábado, 14 de noviembre, en la iglesia parroquial de San Miguel. Noticia rel",
+   "source": "101TV Málaga",
+   "time": "2026-11-17T11:12:00Z"
+  },
+  {
+   "title": "Torrevieja police chief is jailed after making friend’s €200 traffic ticket disappear in 2012",
+   "link": "https://www.thespanisheye.com/2026/11/17/torrevieja-police-chief-is-jailed-after-making-friends-e200-traffic-ticket-disappear-in-2012/",
+   "summary": "After receiving a traffic ticket, the offender said she would not pay and would immediately call 'my friend Inspector Vera'",
+   "source": "The Spanish Eye",
+   "time": "2026-11-17T11:11:46Z"
+  },
+  {
+   "title": "Sindicatos ferroviarios cifran en un 75% el seguimiento de la huelga en Sevilla y reclaman más inversión y seguridad",
+   "link": "https://www.europapress.es/andalucia/sevilla-00357/noticia-sindicatos-ferroviarios-cifran-seguimiento-huelga-sevilla-75-reclaman-mas-inversion-seguridad-20261117120949.html",
+   "summary": "Representantes de los maquinistas, de los trabajadores de Adif y de las tripulaciones de a bordo han reclamado este martes en Sevilla, durante la jornada de huelga ferroviaria, más inversiones en mantenimiento, refuerzos de plantilla y procedimientos claros de actuación para garantizar la segurid",
+   "source": "Europa Press Andalucía",
+   "time": "2026-11-17T11:09:49Z"
+  },
+  {
+   "title": "El rector de la Universidad de Cádiz, Casimiro Mantell, junto a rectores y rectoras en un encuentro el pasado año.",
+   "link": "https://www.malagahoy.es/andalucia/universidades-publicas-desglosan-partidas-piden_0_2008525663.html",
+   "summary": "Los rectores andaluces reclaman a la Junta más de 68 millones para personal, 39 para suficiencia financiera y condiciones mejores en los préstamos\nLa Junta eleva en 2027 un 10,5% la financiación de las universidades",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T11:08:43Z"
+  },
+  {
+   "title": "Energetic Mijas residents raise over 18,000 euros for two animal charities during 100-kilomtere hike",
+   "link": "https://www.surinenglish.com/malaga/mijas-fuengirola/energetic-mijas-residents-raise-over-18000-euros-20261117115830-nt.html",
+   "summary": "",
+   "source": "Sur in English",
+   "time": "2026-11-17T10:59:23Z"
+  },
+  {
+   "title": "Cartel de la fiesta.",
+   "link": "https://www.malagahoy.es/malaga/valle-abdalajis-celebra-semana-fiesta-pan-duro-malaga_0_2008525535.html",
+   "summary": "Una ruta gastronómica, degustaciones de productos locales, mercado de artesanía y actividades para todos los públicos protagonizan la programación del evento\nLa Fiscalía pide tres años de cárcel para el ex gerente de los aparcamientos de Málaga",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T10:59:11Z"
+  },
+  {
+   "title": "José Sevilla Álvarez, presidente de Unicaja; e Isidro Rubiales Gil, consejero delegado del banco.",
+   "link": "https://www.malagahoy.es/malaga/isidro-rubiales-renueva-mandato-tres_0_2008525526.html",
+   "summary": "El voto favorable registrado en la Junta General Extraordinaria también ha ido dirigido a la reelección de Nuria Aliño Pérez e Inéz Guzmán Arrue como consejeras independientes\nIsidro Rubiales renueva mandato en Unicaja como consejero delegado hasta 2",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T10:57:03Z"
+  },
+  {
+   "title": "Spanish rail operator Renfe reports failure to maintain minimum services during Tuesday's strike",
+   "link": "https://www.surinenglish.com/spain/renfe-reported-failure-20261117000500-nt.html",
+   "summary": "",
+   "source": "Sur in English",
+   "time": "2026-11-17T10:56:24Z"
+  },
+  {
+   "title": "Gavira cree que \"no hay nada ganado\" contra Sánchez el 29N y carga contra Adelante: Es \"lo mismo que Bildu y ERC\"",
+   "link": "https://www.europapress.es/andalucia/noticia-gavira-cree-no-hay-nada-ganado-contra-sanchez-29n-carga-contra-adelante-mismo-bildu-erc-20261117115307.html",
+   "summary": "El vicepresidente segundo de la Junta y líder de Vox en Andalucía, Manuel Gavira, ha considerado este martes que \"todavía no hay nada ganado\" de cara a las elecciones generales del próximo 29 de noviembre, para las que ha subrayado el objetivo de su partido de \"echar\" al secretario general del PS",
+   "source": "Europa Press Andalucía",
+   "time": "2026-11-17T10:53:07Z"
+  },
+  {
+   "title": "Gavira se desmarca de Juanma Moreno por decir que no cogería el AVE tras el accidente de Urda: «Yo no lo hubiera dicho»",
+   "link": "https://www.101tv.es/andalucia/gavira-se-desmarca-de-juanma-moreno-por-decir-que-no-cogeria-el-ave-tras-el-accidente-de-urda-yo-no-lo-hubiera-dicho/",
+   "summary": "El vicepresidente segundo de la Junta de Andalucía y líder de Vox en la comunidad, Manuel Gavira, se ha desmarcado de las declaraciones del presidente andaluz, Juanma Moreno, sobre la seguridad de la línea de alta velocidad entre Madrid y Sevilla tras los accidentes ferroviarios de Adamuz (Córdoba)",
+   "source": "101TV Málaga",
+   "time": "2026-11-17T10:52:00Z"
+  },
+  {
+   "title": "Developers blast Spain’s €7bn housing plan as ‘insufficient’",
+   "link": "https://www.thespanisheye.com/2026/11/17/developers-blast-spains-e7bn-housing-plan-as-insufficient/",
+   "summary": "Culmia CEO Francisco Perez said the €7billion allocated for 2026-2030 fell far short of what was needed.",
+   "source": "The Spanish Eye",
+   "time": "2026-11-17T10:50:19Z"
+  },
+  {
+   "title": "Mario Samper informa este martes en Madrid de las adhesiones al pacto de Estado.",
+   "link": "https://www.malagahoy.es/andalucia/pp-vox-no-respaldan-pacto_0_2008525503.html",
+   "summary": "La organización que representa a las víctimas del accidente ferroviario suma los apoyos del PSOE, Frente Amplio, Podemos, ERC y Adelante Andalucía\nLas víctimas de Adamuz piden a los partidos definir su postura sobre la seguridad ferroviaria antes del",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T10:49:21Z"
+  },
+  {
+   "title": "Gavira y Moreno se saludan en el pleno de la semana pasada en el Parlamento andaluz.",
+   "link": "https://www.malagahoy.es/andalucia/gavira-dijo-moreno-pedir-no_0_2008525456.html",
+   "summary": "El vicepresidente de la Junta matiza que \"hubiera minimizado los riesgos y hubiera abogado por mejorar el sistema ferroviario\"\nEl también líder de Vox reconoce que \"esas declaraciones perjudican al sector\"\nJuanma Moreno: \"Ahora mismo yo no viajaría e",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T10:43:22Z"
+  },
+  {
+   "title": "Un exempleado alerta a la jueza de Adamuz de que el balasto de la vía es «defectuoso» y pide paralizar el tráfico ferroviario",
+   "link": "https://www.101tv.es/andalucia/un-exempleado-alerta-a-la-jueza-de-adamuz-de-que-el-balasto-de-la-via-es-defectuoso-y-pide-paralizar-el-trafico-ferroviario/",
+   "summary": "Un exempleado de la empresa encargada de suministrar el balasto a Adif ha advertido a la jueza que investiga el accidente ferroviario de Adamuz (Córdoba) de que la piedra utilizada en ese tramo podría ser «defectuosa» y no cumplir con los requisitos técnicos exigidos. El antiguo trabajador, que cue",
+   "source": "101TV Málaga",
+   "time": "2026-11-17T10:41:11Z"
+  },
+  {
+   "title": "Andalucía lidera la compraventa de vivienda en España, pese al abrupto frenazo del sector",
+   "link": "https://www.101tv.es/espana/andalucia-lidera-la-compraventa-de-vivienda-en-espana-pese-al-gigantesco-frenazo-del-sector/",
+   "summary": "Andalucía fue la comunidad autónoma donde más viviendas se vendieron durante el pasado mes de septiembre, con un total de 11.115 operaciones. La región encabezó así el mercado inmobiliario nacional en volumen de compraventas, por delante de Cataluña (8.658), Comunidad Valenciana (8.394) y Madrid (6",
+   "source": "101TV Málaga",
+   "time": "2026-11-17T10:38:00Z"
+  },
+  {
+   "title": "La junta de Unicaja renueva a Isidro Rubiales como consejero ejecutivo por otros tres años",
+   "link": "https://www.europapress.es/economia/finanzas-00340/noticia-junta-unicaja-renueva-isidro-rubiales-consejero-ejecutivo-otros-tres-anos-20261117113529.html",
+   "summary": "La junta de accionistas de Unicaja ha votado a favor de renovar el mandato de Isidro Rubiales por otros tres años en la sesión extraordinaria que han mantenido este martes.",
+   "source": "Europa Press Andalucía",
+   "time": "2026-11-17T10:35:29Z"
+  },
+  {
+   "title": "Foto de familia con los restaurantes que han entrado en el Top 10 de mejores aperturas de 2025 en TheFork Awards",
+   "link": "https://www.malagahoy.es/gente/angel-leon-propone-caja-cerillas_0_2008525402.html",
+   "summary": "La gala celebrada este lunes proclama al restaurante madrileño ganador y con un malagueño, Clómada, en el Top nacional de nuevas aperturas\nThe Fork Summer Hits 2026 escoge a un restaurante sevillano para su ranking: Comida de vanguardia en un lugar ú",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T10:35:27Z"
+  },
+  {
+   "title": "Huelga ferroviaria del 17 de noviembre en Granada: estos son los trenes afectados y los servicios mínimos",
+   "link": "https://www.101tv.es/granada/huelga-ferroviaria-del-17-de-noviembre-en-granada-estos-son-los-trenes-afectados-y-los-servicios-minimos/",
+   "summary": "Los desplazamientos de Granada en tren también se verán afectados este martes 17 de noviembre por la huelga ferroviaria de maquinistas. El paro durará 24 horas y ha sido convocado conjuntamente por CGGR, Semaf, CCOO, UGT, SFF-CGT, SF-I y Alferro para exigir mejores condiciones de seguridad para los",
+   "source": "101TV Málaga",
+   "time": "2026-11-17T10:29:46Z"
+  },
+  {
+   "title": "Díaz Guirado, gerente de Smassa, en su entrada a la Ciudad de la Justicia junto a su abogado.",
+   "link": "https://www.malagahoy.es/malaga/fiscalia-pide-tres-anos-carcel_0_2008525106.html",
+   "summary": "Solicita la apertura de juicio oral y le acusa de presuntas prevaricación, tráfico de influencias y acoso laboral a una jefa técnica, además de pedir 12 años de inhabilitación\nLos sobrecostes en el aparcamiento Pío Baroja de El Palo: cobrar por panta",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T10:28:17Z"
+  },
+  {
+   "title": "Fernando Alonso correrá el Rally Dakar 2027 con un Aston Martin Dreadnought",
+   "link": "https://www.101tv.es/deportes/fernando-alonso-correra-el-rally-dakar-2027-con-un-aston-martin-dreadnought/",
+   "summary": "El piloto español Fernando Alonso, bicampeón del mundo de Fórmula 1 y actual integrante de la escudería Aston Martin Aramco, regresará al Rally Dakar en enero de 2027, siete años después de su única participación, para encabezar el ambicioso proyecto oficial de tres coches de Aston Martin con el nu",
+   "source": "101TV Málaga",
+   "time": "2026-11-17T10:23:31Z"
+  },
+  {
+   "title": "Antequera convoca cuatro plazas de oficial de la Policía Local por promoción interna",
+   "link": "https://www.101tv.es/antequera/antequera-convoca-cuatro-plazas-de-oficial-de-la-policia-local-por-promocion-interna/",
+   "summary": "El Ayuntamiento de Antequera ha puesto en marcha el proceso para cubrir cuatro plazas vacantes de oficial de la Policía Local, incluidas en la Oferta de Empleo Público de 2025. La convocatoria, publicada en el Boletín Oficial del Estado (BOE) el pasado 13 de noviembre, abre un nuevo procedimiento d",
+   "source": "101TV Málaga",
+   "time": "2026-11-17T10:20:33Z"
+  },
+  {
+   "title": "Nueva jornada de cancelaciones y retrasos en el Cercanías de Málaga por la huelga en Renfe",
+   "link": "https://www.diariosur.es/malaga/nueva-jornada-cancelaciones-retrasos-cercanias-malaga-huelga-20261117111737-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-17T10:19:41Z"
+  },
+  {
+   "title": "La jueza del accidente de Adamuz incorpora la denuncia de un exempleado que avisa que el balasto es \"defectuoso\"",
+   "link": "https://www.europapress.es/andalucia/noticia-jueza-accidente-adamuz-incorpora-denuncia-exempleado-avisa-balasto-defectuoso-20261117111929.html",
+   "summary": "Un exempleado de la empresa que suministra a Adif el balasto de las vías de tren advierte a la jueza de la Sección Civil y de Instrucción del Tribunal de Instancia de Montoro (Córdoba), Plaza número 2, que lleva la causa del siniestro ferroviario de Adamuz, que el domingo 18 de enero causó la mue",
+   "source": "Europa Press Andalucía",
+   "time": "2026-11-17T10:19:29Z"
+  },
+  {
+   "title": "Soroptimist recognises champions of sustainable food in Malaga",
+   "link": "https://www.surinenglish.com/malaga/mijas-fuengirola/soroptimist-recognises-champions-sustainable-food-malaga-20261117111914-nt.html",
+   "summary": "",
+   "source": "Sur in English",
+   "time": "2026-11-17T10:19:14Z"
+  },
+  {
+   "title": "Casares proyecta cerca de 100 viviendas públicas y protegidas entre el pueblo y la costa",
+   "link": "https://www.areacostadelsol.com/casares/proyecta-cerca-de-100-viviendas-publicas-y-protegidas-entre-el-pueblo-y-la-costa/",
+   "summary": "Casares proyecta incorporar cerca de un centenar de viviendas públicas y protegidas durante los próximos años, principalmente en Casares Pueblo y Casares Costa. Así lo recoge el Plan Municipal de Vivienda y Suelo 2026-2030, presentado este martes, 17 de noviembre, por el Ayuntamiento, que incluye nu",
+   "source": "Área Costa del Sol",
+   "time": "2026-11-17T10:16:57Z"
+  },
+  {
+   "title": "Equipos de rescate ucranianos llevan a cabo operaciones de búsqueda y rescate en la escuela subterránea de la región de Zaporiyia.",
+   "link": "https://www.malagahoy.es/mundo/kremlin-no-garantiza-europa-lugar_0_2008525202.html",
+   "summary": "Los ataques ucranianos provocan \"daños estructurales\" en el estratégico puente de Crimea\nKallas califica de \"absurdas\" las exigencias rusas y vuelve a exigir un alto el fuego en Ucrania",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T10:11:46Z"
+  },
+  {
+   "title": "Property sales in Spain tumbled by 13.4% in September due to high prices pumped up by housing shortage",
+   "link": "https://www.theolivepress.es/spain-news/2026/11/17/home-sales-in-spain-fell-by-13-4-in-september-due-to-high-prices/",
+   "summary": "54,548 transactions were completed compared to the 63,018 deals in September 2025.",
+   "source": "Olive Press",
+   "time": "2026-11-17T10:11:35Z"
+  },
+  {
+   "title": "Man arrested for allegedly throwing puppy from third-floor flat in Madrid over barking",
+   "link": "https://www.surinenglish.com/spain/man-arrested-for-allegedly-throwing-puppy-from-20261117111058-nt.html",
+   "summary": "",
+   "source": "Sur in English",
+   "time": "2026-11-17T10:10:58Z"
+  },
+  {
+   "title": "Abierto el plazo para que los colectivos de Antequera participen en las carrozas de la Cabalgata de Reyes",
+   "link": "https://www.101tv.es/antequera/abierto-el-plazo-para-que-los-colectivos-de-antequera-participen-en-las-carrozas-de-la-cabalgata-de-reyes/",
+   "summary": "La magia de la noche de Reyes volverá a tener a los más pequeños como protagonistas en Antequera. El Ayuntamiento ha abierto el plazo para que asociaciones y colectivos de la ciudad puedan optar a una de las carrozas infantiles que desfilarán en la Cabalgata del próximo 5 de enero. Una oportunidad",
+   "source": "101TV Málaga",
+   "time": "2026-11-17T10:09:45Z"
+  },
+  {
+   "title": "Gavira se desmarca de la \"reflexión a la ligera\" de Moreno sobre no viajar en AVE: \"Yo no lo hubiera dicho\"",
+   "link": "https://www.europapress.es/andalucia/noticia-gavira-desmarca-reflexion-ligera-moreno-no-viajar-ave-yo-no-hubiera-dicho-20261117110751.html",
+   "summary": "El vicepresidente segundo y líder de Vox en Andalucía, Manuel Gavira, se ha desmarcado este martes de lo que ha considerado como una \"reflexión muy a la ligera\" del presidente de la Junta y del PP-A, Juanma Moreno, cuando éste señaló que no se montaría en un AVE mientras no se revisara la segurid",
+   "source": "Europa Press Andalucía",
+   "time": "2026-11-17T10:07:51Z"
+  },
+  {
+   "title": "La bailaora almeriense Ángela Alonso durante su protesta.",
+   "link": "https://www.malagahoy.es/malaga/flamenco-big-ben-londres-malaga-mijas-burrotaxi_0_2008525110.html",
+   "summary": "La bailaora almeriense Ángela Alonso traslada su reivindicación animalista a las puertas del Parlamento británico en Londres\nLos burro-taxis de Mijas, otra vez en el punto de mira tras el fin de los coches de caballo en la capital",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T10:06:45Z"
+  },
+  {
+   "title": "La Unidad Científica de la Guardia Civil examina las vías de Adamuz.",
+   "link": "https://www.malagahoy.es/andalucia/ex-trabajador-denuncia-balasto-utilizado-adamuz-imcumplia-adif_0_2008525152.html",
+   "summary": "El testigo, que asegura haber sido despedido por negarse a participar en la fabricación y comercialización del material, sostiene que la piedra procedente de la cantera donde trabajaba presentaba un exceso de desgaste y podía fragmentarse con el paso",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T10:05:03Z"
+  },
+  {
+   "title": "El Traspaso y Siete Dolores saldrá por primera vez el Viernes de Dolores de 2027",
+   "link": "https://www.101tv.es/malaga-semana-santa/el-traspaso-y-siete-dolores-saldra-por-primera-vez-el-viernes-de-dolores-de-2027/",
+   "summary": "Málaga sumará el próximo Viernes de Dolores, 19 de marzo de 2027, un nuevo cortejo procesional. Nuestra Señora del Traspaso y Siete Dolores, titular del grupo parroquial establecido en la iglesia de María Madre de Dios, realizará su primera salida por las calles de su feligresía, en el distrito de",
+   "source": "101TV Málaga",
+   "time": "2026-11-17T10:05:00Z"
+  },
+  {
+   "title": "The stock market is an expensive place to learn about yourself - why we should all own gold",
+   "link": "https://www.surinenglish.com/opinion/jeremy-blatch-the-stock-market-an-expensive-place-learn-20261117110128-nt.html",
+   "summary": "",
+   "source": "Sur in English",
+   "time": "2026-11-17T10:01:29Z"
+  },
+  {
+   "title": "Estepona desde el aire: dos fotografías muestran cómo ha cambiado la ciudad entre 1956 y 2025",
+   "link": "https://www.areacostadelsol.com/estepona/dos-fotografias-muestran-como-ha-cambiado-la-ciudad-entre-1956-y-2025/",
+   "summary": "Dos fotografías aéreas de Estepona, tomadas con 69 años de diferencia, permiten observar la transformación urbanística que ha experimentado la ciudad desde 1956 hasta 2025. Las imágenes, obtenidas del Instituto Geográfico Nacional (IGN) y reunidas por la plataforma CASAS.ES, muestran el mismo encuad",
+   "source": "Área Costa del Sol",
+   "time": "2026-11-17T09:57:54Z"
+  },
+  {
+   "title": "La disfunción eréctil puede ser una señal temprana de futuros trastornos cardíacos",
+   "link": "https://www.diariosur.es/longevidad/disfuncion-erectil-puede-senal-temprana-futuros-trastornos-20261116201153-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-17T09:57:42Z"
+  },
+  {
+   "title": "Malaga 112: body of man with gunshot wounds found in Cruz de Humilladero",
+   "link": "https://www.surinenglish.com/malaga/malaga-city/body-with-gunshot-20261117000500-nt.html",
+   "summary": "",
+   "source": "Sur in English",
+   "time": "2026-11-17T09:53:43Z"
+  },
+  {
+   "title": "Malaga man arrested for threatening to kill and leaving his 74-year-old disabled mother without food for days",
+   "link": "https://www.surinenglish.com/malaga/malaga-city/arrested-malaga-after-20261117000500-nt.html",
+   "summary": "",
+   "source": "Sur in English",
+   "time": "2026-11-17T09:48:50Z"
+  },
+  {
+   "title": "Decoración navideña en calle Larios de Málaga.",
+   "link": "https://www.malagahoy.es/malaga/ultimos-dias-festivos-calendario-laboral-malaga-2026_0_2008524758.html",
+   "summary": "Con la llegada de diciembre la población cuenta con los últimos festivos del año, en el que se encuentran las fiestas navideñas\nInauguración de los alumbrados de Navidad de los municipios de Málaga en 2026",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T09:47:46Z"
+  },
+  {
+   "title": "Gibraltar announces return of Golden Week for older residents",
+   "link": "https://www.surinenglish.com/gibraltar/gibraltar-announces-return-golden-week-for-older-20261117104505-nt.html",
+   "summary": "",
+   "source": "Sur in English",
+   "time": "2026-11-17T09:45:06Z"
+  },
+  {
+   "title": "Rafa Nadal y su mujer, Mery Perelló, posan juntos en un acto de la fundación del deportista.",
+   "link": "https://www.malagahoy.es/gente/rafa-nadal-sincera-mery-perello_0_2008524972.html",
+   "summary": "El extenista ha dedicado unas emotivas palabras a su esposa en su nuevo libro y explica por qué ambos han conseguido mantener su relación alejada de los focos durante tantos años\nNace el segundo hijo de Rafa Nadal y Mery Perelló\nRafa Nadal volverá a",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T09:30:34Z"
+  },
+  {
+   "title": "La compraventa de viviendas en Andalucía cae un 11,3% tras empeorar su evolución interanual en septiembre",
+   "link": "https://www.europapress.es/andalucia/noticia-compraventa-viviendas-andalucia-cae-113-empeorar-evolucion-interanual-septiembre-20261117102045.html",
+   "summary": "La evolución de la compraventa de viviendas en Andalucía en septiembre empeora y desciende un 11,3% respecto al mismo mes del año anterior (frente a una bajada del 13,44% a nivel nacional), hasta un total de 11.115 operaciones, según datos publicados por el Instituto Nacional de Estadística (INE)",
+   "source": "Europa Press Andalucía",
+   "time": "2026-11-17T09:20:45Z"
+  },
+  {
+   "title": "Uno de los incendios registrados en Marbella",
+   "link": "https://www.malagahoy.es/provincia/arden-restaurantes-marbella_0_2008524834.html",
+   "summary": "Investigan las causas de los dos siniestros, en los que no ha habido heridos\nUn doble secuestro frustrado en Alhaurín lleva a la cárcel casi 30 años a los condenados",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T09:15:21Z"
+  },
+  {
+   "title": "Desarticuladas tres redes internacionales de narcotráfico vinculadas a un fugitivo italiano detenido en Marbella",
+   "link": "https://www.areacostadelsol.com/marbella/desarticuladas-tres-redes-internacionales-de-narcotrafico-vinculadas-a-un-fugitivo-italiano/",
+   "summary": "Tres organizaciones criminales dedicadas al tráfico internacional de drogas entre España e Italia han sido desarticuladas en una operación de la Guardia di Finanza de Roma que se ha saldado con 27 detenciones y la intervención de más de 1.135 kilos de estupefacientes. La investigación tiene una cone",
+   "source": "Área Costa del Sol",
+   "time": "2026-11-17T08:50:28Z"
+  },
+  {
+   "title": "Condenado en Bélgica un joven que recibió siete paquetes de droga enviados desde Málaga",
+   "link": "https://www.areacostadelsol.com/malaga/condenado-en-belgica-un-joven-que-recibio-siete-paquetes-de-droga-enviados/",
+   "summary": "Un joven de 25 años ha sido condenado en Bélgica a 18 meses de prisión, con la mayor parte de la pena suspendida, por recibir paquetes de cannabis enviados desde Málaga. El acusado había recibido al menos siete envíos desde septiembre de 2025 y fue detenido después de aceptar un paquete postal que c",
+   "source": "Área Costa del Sol",
+   "time": "2026-11-17T08:39:43Z"
+  },
+  {
+   "title": "Incendio en un cuadro eléctrico de un edificio de la calle Babor, en Benalmádena",
+   "link": "https://www.areacostadelsol.com/benalmadena/incendio-en-un-cuadro-electrico-de-un-edificio-de-la-calle-babor-en-benalmadena/",
+   "summary": "Un incendio en un cuadro de distribución eléctrica de un edificio situado en la calle Babor, en Benalmádena Costa, ha requerido la intervención de los Bomberos de Benalmádena durante la madrugada de este martes. El fuego se ha originado en el armario de distribución eléctrica del inmueble, lo que ha",
+   "source": "Área Costa del Sol",
+   "time": "2026-11-17T08:33:36Z"
+  },
+  {
+   "title": "Pasajeros esperando el tren, este martes",
+   "link": "https://www.malagahoy.es/malaga/cancelaciones-retrasos-viajeros-transportados-bus-huelga-trenes-malaga_0_2008524412.html",
+   "summary": "Pasajeros de un par de servicios entre Santa Justa y María Zambrano han tenido que ser transportados por carretera y la paralización es \"total\" en los talleres de Los Prados y en trabajos de mantenimiento\nLos Cercanías de Málaga acumulan retrasos de",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T08:22:54Z"
+  },
+  {
+   "title": "Trenes de Cercanías de Málaga.",
+   "link": "https://www.malagahoy.es/malaga/nueva-huelga-trenes-malaga-martes-17-noviembre-servicios-minimos_0_2008518329.html",
+   "summary": "Para cada uno de los transportes, Cercanías, Media Distancia, Alta Velocidad o Mercancías se establecieron unos porcentajes mínimos de viajes\n\"En Europa dirán que estamos locos, Marbella es la única de 150.000 habitantes sin tren\"",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T08:17:00Z"
+  },
+  {
+   "title": "Chupete se lamenta.",
+   "link": "https://www.malagahoy.es/malaga_cf/chupe-no-falta-fichajes_0_2008524553.html",
+   "summary": "\"Creo que con la plantilla que tenemos es suficiente. Loren siempre ha apostado por los que estamos aquí. Si viene alguien para sumar, será bienvenido\", dice el delantero malaguista\nFichajes que no aportan",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T08:16:09Z"
+  },
+  {
+   "title": "Police storm Barcelona train in manhunt for Oviedo cop killer ‘the Russian’",
+   "link": "https://www.theolivepress.es/spain-news/2026/11/17/hunt-the-russian-barcelona-trains-false-alarm/",
+   "summary": "A Manresa waitress raised the alarm after a man who looked like the Oviedo bomb suspect walked out without paying for his coffee.",
+   "source": "Olive Press",
+   "time": "2026-11-17T08:03:00Z"
+  },
+  {
+   "title": "Acepta dos años de cárcel por guardar armas de guerra prohibidas y munición en una nave en Sevilla",
+   "link": "https://www.europapress.es/andalucia/sevilla-00357/noticia-acepta-dos-anos-carcel-guardar-armas-guerra-prohibidas-municion-nave-sevilla-20261117085950.html",
+   "summary": "Un varón acusado de guardar en una nave industrial en Sevilla armas y munición de guerra prohibidas para su adquisición y tenencia o uso ha aceptado dos años de prisión por un delito de tenencia ilícita de armas prohibidas, si bien enfrentaba una petición fiscal de siete años de cárcel por estos",
+   "source": "Europa Press Andalucía",
+   "time": "2026-11-17T07:59:50Z"
+  },
+  {
+   "title": "Royal Gibraltar Regiment fires 21-gun salute to mark King Charles III's 78th birthday",
+   "link": "https://www.surinenglish.com/gibraltar/royal-gibraltar-regiment-fires-21gun-salute-mark-20261117085848-nt.html",
+   "summary": "",
+   "source": "Sur in English",
+   "time": "2026-11-17T07:58:49Z"
+  },
+  {
+   "title": "Construcción de VPO en Palmas Altas",
+   "link": "https://www.malagahoy.es/andalucia/andalucia-aprueba-nuevo-plan-reforzar_0_2008524515.html",
+   "summary": "La Junta vigilará que las VPO se destinen a residencia habitual, no permanezcan vacías ni se utilicen como alojamientos turísticos, y controlará las operaciones de venta y alquiler que superen los precios máximos legales\nLa protección de las VPO en A",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T07:47:57Z"
+  },
+  {
+   "title": "Montero destaca que 500.000 andaluces se beneficiarán de la subida del SMI: \"¿Hay o no diferencia entre PSOE y PP?\"",
+   "link": "https://www.europapress.es/andalucia/noticia-montero-destaca-500000-trabajadores-andaluces-beneficiaran-subida-smi-2027-20261117083605.html",
+   "summary": "La secretaria general del PSOE-A, María Jesús Montero, ha destacado que Andalucía será la comunidad \"más beneficiada\" de la subida del Salario Mínimo Interprofesional (SMI) que aprobará este martes el Consejo de Ministros para 2027 y que supondrá 65 euros más al mes a 500.000 trabajadores en la c",
+   "source": "Europa Press Andalucía",
+   "time": "2026-11-17T07:36:05Z"
+  },
+  {
+   "title": "The ‘medieval’ castle built by hand by a doctor and two bricklayers in the 1980s – dubbed the Costa del Sol’s answer to the Taj Mahal",
+   "link": "https://www.theolivepress.es/spain-news/2026/11/17/costa-del-sol-castle-taj-mahal/",
+   "summary": "Dubbed the ‘Spanish Taj Mahal’, the extraordinary monument is a tribute to Christopher Columbus and his voyage to the Americas in 1492.",
+   "source": "Olive Press",
+   "time": "2026-11-17T07:34:24Z"
+  },
+  {
+   "title": "La firma de Enrique Martínez",
+   "link": "https://www.diariosur.es/opinion/necrologica-enrique-martinez-martinez-20261117081400-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-17T07:15:41Z"
+  },
+  {
+   "title": "Bonham, ante Perry y Kalinoski.",
+   "link": "https://www.malagahoy.es/unicaja/roberto-lee-bonham-base-pardubice_0_2008521721.html",
+   "summary": "El menudo director de juego del Pardubice está promediando 17.4 puntos, 4.7 rebotes y 4 asistencias\nDestacó en la ida",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T07:03:52Z"
+  },
+  {
+   "title": "Muere una persona atropellada por un autobús en una urbanización de Alcalá de Guadaíra (Sevilla)",
+   "link": "https://www.europapress.es/andalucia/sevilla-00357/noticia-muere-persona-atropellada-autobus-urbanizacion-alcala-guadaira-sevilla-20261117075515.html",
+   "summary": "Una persona ha resultado fallecida tras ser atropellada por un autobús en una urbanización de la localidad sevillana de Alcalá de Guadaíra, según informa el 112, perteneciente a la Agencia de Emergencias de Andalucía.",
+   "source": "Europa Press Andalucía",
+   "time": "2026-11-17T06:55:15Z"
+  },
+  {
+   "title": "From Montreal to Nerja: the winter that gave rise to Trivial Pursuit’s 6,000 questions",
+   "link": "https://www.surinenglish.com/malaga/axarquia/from-montreal-nerja-20261111000500-nt.html",
+   "summary": "",
+   "source": "Sur in English",
+   "time": "2026-11-17T06:33:26Z"
+  },
+  {
+   "title": "Search for Oviedo bomb suspect moves to Catalonia with no result",
+   "link": "https://www.surinenglish.com/spain/search-for-oviedo-bomb-suspect-moves-catalonia-20261116192618-nt.html",
+   "summary": "",
+   "source": "Sur in English",
+   "time": "2026-11-17T06:21:56Z"
+  },
+  {
+   "title": "Detenido en Málaga tras atemorizar a su madre de 74 años impedida, a la que dejó días sin comer: «Te tengo que matar»",
+   "link": "https://www.diariosur.es/sucesos/detenido-malaga-tras-atemorizar-madre-anos-impedida-20261116054600-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-17T06:21:27Z"
+  },
+  {
+   "title": "The tiny stone village on the banks of the Duero that is the perfect winter escape less than three hours from Madrid",
+   "link": "https://www.theolivepress.es/spain-news/2026/11/17/winter-escape-salduero-river-duero/",
+   "summary": "With fewer visitors, a slower rhythm of life and just under a three-hour drive from Madrid, Salduero becomes an ideal refuge for those seeking calm.",
+   "source": "Olive Press",
+   "time": "2026-11-17T06:15:00Z"
+  },
+  {
+   "title": "Malaga Mayor makes sure eight local women who distribute food to the homeless are granted access to subsidised shop",
+   "link": "https://www.surinenglish.com/lifestyle/mayor-stepping-ensure-20261116000500-nt.html",
+   "summary": "",
+   "source": "Sur in English",
+   "time": "2026-11-17T06:10:01Z"
+  },
+  {
+   "title": "David Broncano en su respuesta este lunes",
+   "link": "https://www.malagahoy.es/television/david-broncano-planta-vox-tira_0_2008524256.html",
+   "summary": "El comunicador de 'La Revuelta' admite que hizo \"el gilipollas\" en la entrevista con Santiago Abascal y que no va a ceder los 40 minutos que no se emitieron, como ha sucedido en cada programa\nBroncano admite sus errores con Abascal: \"Estoy triste por",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T06:05:07Z"
+  },
+  {
+   "title": "La jurista jerezana María Richarte.",
+   "link": "https://www.malagahoy.es/entrevistas/sistema-judicial-no-etico-maria-richarte-jurista_0_2008524239.html",
+   "summary": "",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T06:02:05Z"
+  },
+  {
+   "title": "Paolo Prinari sucederá a Fidel Jiménez de Parga como director general de Škoda en España",
+   "link": "https://www.malagahoy.es/motor/paolo-prinari-sucedera-fidel-jimenez_0_2008524229.html",
+   "summary": "El actual director de Ventas de Audi en España, Paolo Prinari, pasará a convertirse en el nuevo director general de Škoda España y miembro del Comité Ejecutivo de Volkswagen Group España Distribución a partir del próximo 1 de enero, según ha informad",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T06:01:14Z"
+  },
+  {
+   "title": "Copieteos",
+   "link": "https://www.malagahoy.es/miki-duarte/copieteos_0_2008524219.html",
+   "summary": "",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T06:01:13Z"
+  },
+  {
+   "title": "GWM inicia la comercialización de una nueva familia con el Haval 7, un SUV de 4,80 m.",
+   "link": "https://www.malagahoy.es/motor/gwm-inicia-comercializacion-nueva-familia_0_2008524196.html",
+   "summary": "El nuevo SUV de GWM será el Haval 7. Llega a España con cinco alternativas de propulsión, desde un motor de gasolina, pasando por dos híbridos autorrecargables y hasta dos híbridos enchufables, el más potente de 435 CV. La gama de esta nueva familia",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T06:01:06Z"
+  },
+  {
+   "title": "Chery presenta el Omoda X, un crossover con capacidades TT, y el primer concept de Lepas",
+   "link": "https://www.malagahoy.es/motor/chery-presenta-omoda-x-crossover_0_2008524186.html",
+   "summary": "Chery ha presentado en China dos concept cars con planteamientos diferentes. El Omoda X combina rasgos de SUV y todoterreno, mientras que el Lepas Aura adelanta las líneas de diseño que la marca utilizará en sus próximos vehículos.\nEl Omoda 5 se hace",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T06:01:04Z"
+  },
+  {
+   "title": "Miriam Nogueras y Dos Hermanas",
+   "link": "https://www.diariodesevilla.es/doshermanas/madre-nazarena-hija-junts-raices_0_2008522465.html",
+   "summary": "La dirigente de Junts conserva el vínculo con su familia andaluza y ha hablado públicamente de su procedencia nazarena: su madre emigró a Cataluña y una tía protagoniza uno de sus recuerdos de infancia",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T06:00:54Z"
+  },
+  {
+   "title": "Un guardia civil en una imagen de archivo.",
+   "link": "https://www.malagahoy.es/malaga/trama-secuestrar-hombre-alhaurin-torre_0_2008520842.html",
+   "summary": "La ex pareja de la víctima planeó el rapto desde la cárcel junto a otra persona\nEl portero con un disparo en el pecho está estable, pendiente de evolución",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T06:00:50Z"
+  },
+  {
+   "title": "Obras en el Campamento Benítez de Málaga.",
+   "link": "https://www.malagahoy.es/malaga/nuevo-retraso-campamento-benitez-malaga-terminar-obras-diciembre_0_2008520770.html",
+   "summary": "Tras la modificación del proyecto que amplió los plazos iniciales, la previsión era terminar los trabajos en el segundo trimestre de este año\nImec ya busca la maquinaria para su centro de chips de Málaga",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T06:00:49Z"
+  },
+  {
+   "title": "Puerto de la Caleta de Vélez-Málaga",
+   "link": "https://www.malagahoy.es/velez-malaga/oleada-robos-puerto-caleta-velez_0_2008519766.html",
+   "summary": "Los saqueos a los barcos de cerco coinciden con un fin de semana marcado por una insólita “lluvia de peces”\nVélez-Málaga abre el plazo para solicitar una reducción del 95% en la tasa de basuras de 2027",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T06:00:48Z"
+  },
+  {
+   "title": "Ferry 'Juan J. Sister' en Málaga con los colores de Trasmediterránea",
+   "link": "https://www.malagahoy.es/malaga/nueva-imagen-trasatlantico-melilla_0_2008521988.html",
+   "summary": "Luciendo ahora los colores de Baleària, este ferry, durante muchos años navegó como melillero titular bajo la contraseña de la compañía Trasmediterránea\nEl barco atacado por un misil visita Málaga",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T06:00:45Z"
+  },
+  {
+   "title": "Intensa actividad portuaria en el muelle seis",
+   "link": "https://www.malagahoy.es/malaga/asociacion-consignatarios-malaguenos-amplia-expectativas-empresariales_0_2008521977.html",
+   "summary": "Manteniendo como objetivos para 2027 la formación y la profesionalización, este grupo de empresas celebra su 48 asamblea general estrenando una actividad cultural\nParada en ‘boxes’ del ‘Marella Discovery 2' en el puerto de Málaga",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T06:00:44Z"
+  },
+  {
+   "title": "Vista de Málaga capital.",
+   "link": "https://www.malagahoy.es/malaga/crecimiento-poblacion-frena-malaga-precio-vivienda_0_2008520236.html",
+   "summary": "La provincia suma unos 14.800 habitantes en los últimos doce meses, según los datos del INE, casi tres veces menos que en 2023\n\"Crecer 30.000 personas al año es insostenible\", advierte un experto\nMálaga se aproxima a la barrera de los dos millones de",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T06:00:43Z"
+  },
+  {
+   "title": "El Hospital Universitario Costa del Sol (HUCS) en una imagen de archivo.",
+   "link": "https://www.malagahoy.es/marbella/junta-adjudica-servicio-cafeteria-hospital_0_2008520956.html",
+   "summary": "La concesión abarca la distribución de alimentos en el hospital de Marbella, el Hospital de Alta Resolución de Estepona (HES) y el Centro de Alta Resolución de Especialidades de Mijas (CAM) durante tres años\nOcho heridos por una colisión múltiple en",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T06:00:39Z"
+  },
+  {
+   "title": "Sala Divas, en calle Flauta Mágica, 3, dentro del distrito de Cruz de Humilladero.",
+   "link": "https://www.malagahoy.es/malaga/trabajadores-proximos-sala-divas-reclaman_0_2008519799.html",
+   "summary": "Vecinos advierten de peleas y altercados de clientes en la calle a primera hora\nEl portero al que dispararon en el pecho en una sala de fiestas de Málaga sigue hospitalizado, pendiente de evolución",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T06:00:36Z"
+  },
+  {
+   "title": "Decoración de Navidad de El Corte Inglés de Málaga.",
+   "link": "https://www.malagahoy.es/malaga/ofertas-empleo-campana-navidad-2026-corte-ingles-malaga_0_2008520868.html",
+   "summary": "Los interesados pueden optar a algunos de los puestos a través del portal del empleado de estas grandes superficies\nEl Corte Inglés de Mijas recupera sus seis plantas con más firmas y 200 nuevos trabajadores",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T06:00:36Z"
+  },
+  {
+   "title": "Sánchez y Lula, este lunes en La Moncloa.",
+   "link": "https://www.malagahoy.es/espana/elecciones/cine-mudo-moncloa_0_2008524172.html",
+   "summary": "Sánchez iba a escenificar junto a Lula la remontada en las elecciones de Brasil contra la \"amenaza ultraderechista\", pero una afonía del veterano líder izquierdista chafa un acto electoral con ambos\nSánchez y Lula señalan la \"amenaza ultraderechista\"",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T05:58:24Z"
+  },
+  {
+   "title": "Uno de los radares de la A-92 que fue incendiado por uno de los \"justicieros\".",
+   "link": "https://www.diariodesevilla.es/juzgado_de_guardia/actualidad/fiscalia-seguridad-vial-investiga-justicieros-destrozo-radares-velocidad-sevilla_0_2008519506.html",
+   "summary": "El fiscal Luis Carlos Rodríguez León está \"convencido\" de que las pesquisas permitirán la detención de los responsables de estos actos vandálicos\nQueman, arrancan y destrozan varios radares de velocidad en Sevilla",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T05:55:16Z"
+  },
+  {
+   "title": "Andalucía strengthens its healthcare response to disasters with a comprehensive plan",
+   "link": "https://www.surinenglish.com/andalucia/andalusia-strengthening-healthcare-20261116000500-nt.html",
+   "summary": "",
+   "source": "Sur in English",
+   "time": "2026-11-17T05:55:00Z"
+  },
+  {
+   "title": "Willy Hernangómez machaca ante el Barça.",
+   "link": "https://www.malagahoy.es/unicaja/willy-hernangomez-confesiones-berni-papel_0_2008520962.html",
+   "summary": "\"Ha ayudado a sus jugadores a ser mejores en cada posición, pero hay que tener paciencia porque no es un trabajo de la noche a la mañana\", dice el pívot sobre la labor de su técnico\nSu partido ante el Girona",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T05:44:05Z"
+  },
+  {
+   "title": "Cajuste, Calero y Salinas, ante el Sporting de Alcázar.",
+   "link": "https://www.malagahoy.es/malaga_cf/necesario-paso-adelante-fichajes-malaga_0_2008519995.html",
+   "summary": "Los recién llegados no están ayudando a elevar el techo competitivo del equipo\nLa convicción de Haitam",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T05:33:53Z"
+  },
+  {
+   "title": "Juan García Valledor, director de Pan Global Resources en España.",
+   "link": "https://www.elconciso.es/empresas/pan-global-no-descarta-buscar_0_2008494639.html",
+   "summary": "La compañía canadiense sigue trabajando en el proyecto Escacena para aumentar sus reservas de los 32 millones a los 100 millones de toneladas de cobre, estaño y plata\nLa primera estimación de minerales de Pan Global del Proyecto Escacena destaca la \"",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T05:30:41Z"
+  },
+  {
+   "title": "Valdano y López Iturriaga charlan sobre la jubilación: «La vida es lo que se tiene por delante»",
+   "link": "https://www.diariosur.es/longevidad/jorge-valdano-juanma-lopez-iturriaga-charlan-sobre-jubilacion-20261116060915-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-17T05:09:15Z"
+  },
+  {
+   "title": "Santiago Abascal, en el mitin del pasado sábado en Almería.",
+   "link": "https://www.malagahoy.es/opinion/articulos/hacer-legal-lo-que-dicen-que-es-ilegal_0_2008524059.html",
+   "summary": "",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T05:01:38Z"
+  },
+  {
+   "title": "El embalse del Guadalcacín es el mayor de la provincia de Cádiz y está en la actualidad al 83,7% de su capacidad.",
+   "link": "https://www.malagahoy.es/andalucia/embalses-andalucia-ganan-agua-primera_0_2008524048.html",
+   "summary": "Las reservas en los pantanos de la comunidad autónoma no se encontraban en ese nivel desde el 2014 \nLa cuenca del Guadalquivir cuenta con más de 2.200 hectómetros cúbicos más que el año pasado\nLos embalses andaluces continúan perdiendo agua aunque se",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T05:01:29Z"
+  },
+  {
+   "title": "Los candidatos de Adelante Andalucía al Congreso de los Diputados junto al líder regional, José Ignacio García.",
+   "link": "https://www.malagahoy.es/espana/elecciones/partido-no-candidato-moncloa_0_2008524038.html",
+   "summary": "Los ocho cabezas de lista en cada una de las provincias andaluzas son iguales\nNo llevan a políticos profesionales en la lista y miran a Serbia donde un movimiento ciudadano ha ganado las elecciones",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T05:01:23Z"
+  },
+  {
+   "title": "Universidad Loyola (Campus Córdoba)",
+   "link": "https://www.malagahoy.es/bc-malaga/loyola-amplia-presencia-andalucia-nuevos_0_2008524028.html",
+   "summary": "La universidad jesuita inicia su proceso de admisión para el curso 2027/2028 con una oferta académica renovada y un claro compromiso con la excelencia, la innovación y la empleabilidad",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T05:01:20Z"
+  },
+  {
+   "title": "El CEO de Moeve, Maarten Wetselaar, frente a las obras del Valle Andaluz del Hidrógeno, durante la primera piedra",
+   "link": "https://www.elconciso.es/energia/acuerdo-moeve-alter-enersun-onuba-suministro-energetico_0_2008519316.html",
+   "summary": "El acuerdo, que suministrará electricidad renovable a la parte onubense del Valle Andaluz del Hidrógeno, se sitúa en el podio nacional\nMoeve estudia la venta de su red de más de 1.700 estaciones de servicio en España y Portugal",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T05:01:04Z"
+  },
+  {
+   "title": "Imagen de una planta industrial con varias chimeneas emitiendo humo.",
+   "link": "https://www.elconciso.es/opinion/faltan-compromisos-medioambientales-programas_0_2008521599.html",
+   "summary": "",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T05:00:59Z"
+  },
+  {
+   "title": "CÓMO ENTRENAR CON FRÍO: CLAVES PARA CALENTAR, VESTIRTE POR CAPAS, Y ADAPTAR EL ESFUERZO",
+   "link": "https://www.elconciso.es/estilo-de-vida/entrenar-frio-claves-calentar-vestirte_0_2008518237.html",
+   "summary": "Entrenar con frío no es perjudicial por sí mismo. El problema aparece cuando la producción de calor metabólico deja de compensar las pérdidas térmicas, o cuando el enfriamiento compromete la función neuromuscular, la cardiovascular, o la respiratoria",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T05:00:52Z"
+  },
+  {
+   "title": "Evolución del IPC en Andalucía y España. Fuente: INE",
+   "link": "https://www.elconciso.es/opinion/andalucia-libra-mejor-batalla-precios_0_2008519131.html",
+   "summary": "La región con la inflación más baja de España mantiene una brecha de riqueza y salarios con la media estatal que obliga a mirar más allá del IPC\nAndalucía se parece cada vez más a España en paro que en actividad",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T05:00:43Z"
+  },
+  {
+   "title": "Coins from Egypt, Italy and France unearthed in Malaga metro's Roman necropolis",
+   "link": "https://www.surinenglish.com/malaga/malaga-city/coins-from-egypt-20261116000500-nt.html",
+   "summary": "",
+   "source": "Sur in English",
+   "time": "2026-11-17T05:00:12Z"
+  },
+  {
+   "title": "Embargado por Hacienda y sin horno para sus esculturas: la odisea de Zoilo Blanca para exponer en Madrid",
+   "link": "https://www.diariosur.es/culturas/embargado-hacienda-horno-esculturas-odisea-zoilo-blanca-20261116054700-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-17T04:47:00Z"
+  },
+  {
+   "title": "España multiplica por diez los títulos homologados a médicos extranjeros sin aumentar apenas las plazas en las facultades",
+   "link": "https://www.diariosur.es/malaga-capital/espana-multiplica-diez-titulos-homologados-medicos-extranjeros-20261116054511-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-17T04:45:11Z"
+  },
+  {
+   "title": "Las zonas comunes de un bloque de Málaga en disputa: los herederos del promotor intentan adjudicárselas y el Registro lo impide",
+   "link": "https://www.diariosur.es/malaga/zonas-comunes-bloque-malaga-disputa-herederos-promotor-20261112054500-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-17T04:45:06Z"
+  },
+  {
+   "title": "Córdoba activa el Expert Hub de Digitalización e Innovación: el objetivo de modernizar la pyme y retener startups",
+   "link": "https://www.diariosur.es/andalucia/cordoba-activa-expert-hub-digitalizacion-innovacion-objetivo-20261116054504-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-17T04:45:04Z"
+  },
+  {
+   "title": "Un joven haciéndose un selfi con Santiago Abascal",
+   "link": "https://www.malagahoy.es/espana/elecciones/son-jovenes-derechas_0_2008523906.html",
+   "summary": "Casi cuatro de cada diez votantes entre 18 y 24 años escogerán una oferta conservadora",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T04:00:56Z"
+  },
+  {
+   "title": "Un pastel de la marca Phoskitos.",
+   "link": "https://www.malagahoy.es/espana/elecciones/salga-tonto-fiesta_0_2008523788.html",
+   "summary": "Tantos días de emoción deben conducirnos al apasionado pregón del júbilo en la mañana de las votaciones\nEl poder de Manu Sánchez\nNostalgia de aquellas pegadas de carteles",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T03:01:07Z"
+  },
+  {
+   "title": "Una guerra europea",
+   "link": "https://www.malagahoy.es/opinion/articulos/guerra-europea_0_2008523681.html",
+   "summary": "",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T02:08:22Z"
+  },
+  {
+   "title": "Sí, Sánchez es capaz de cualquier cosa",
+   "link": "https://www.malagahoy.es/opinion/articulos/si-sanchez-capaz-cosa_0_2008523680.html",
+   "summary": "",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T02:08:22Z"
+  },
+  {
+   "title": "La proyección internacional de España",
+   "link": "https://www.malagahoy.es/opinion/editorial/proyeccion-internacional-espana_0_2008523678.html",
+   "summary": "",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T02:08:21Z"
+  },
+  {
+   "title": "Plan ‘detox’",
+   "link": "https://www.malagahoy.es/opinion/articulos/plan-detox_0_2008523679.html",
+   "summary": "",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T02:08:21Z"
+  },
+  {
+   "title": "España sin control",
+   "link": "https://www.malagahoy.es/opinion/articulos/espana-control_0_2008523675.html",
+   "summary": "",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T02:08:19Z"
+  },
+  {
+   "title": "El discurso de Luis Argüello",
+   "link": "https://www.malagahoy.es/opinion/articulos/discurso-luis-argueello_0_2008523674.html",
+   "summary": "",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T02:08:19Z"
+  },
+  {
+   "title": "El comodín del público",
+   "link": "https://www.malagahoy.es/opinion/articulos/comodin-publico_0_2008523673.html",
+   "summary": "",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T02:08:19Z"
+  },
+  {
+   "title": "Flo y Santiago Segura se abrazan, descargando tensión en el duelo final ante el veredicto del jurado",
+   "link": "https://www.malagahoy.es/television/cena-amiguetes-masterchef-victoria-doble_0_2008523523.html",
+   "summary": "El programa de La 1 vuelve a dictar un doble ganador, Flo y Santiago Segura, que emocionaron con sus platos del duelo\nSantiago Segura humilla a Flo y expulsión jerezana en 'MasterChef Legends'\nFamosos a la cocina: la segunda oportundad de ‘MasterChef",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T01:50:59Z"
+  },
+  {
+   "title": "WATCH: Huge fire erupts in Marbella’s San Pedro overnight",
+   "link": "https://www.thespanisheye.com/2026/11/17/watch-huge-fire-erupts-in-marbellas-san-pedro-overnight/",
+   "summary": "Footage shows flames engulfing buildings in the Las Petunias area",
+   "source": "The Spanish Eye",
+   "time": "2026-11-17T00:48:45Z"
+  },
+  {
+   "title": "Grietas en el peor momento",
+   "link": "https://www.diariosur.es/opinion/grietas-peor-momento-20261117230542-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-17T00:00:00Z"
+  },
+  {
+   "title": "Las dos caras de la acción exterior",
+   "link": "https://www.diariosur.es/opinion/dos-caras-accion-exterior-20261117230535-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-17T00:00:00Z"
+  },
+  {
+   "title": "Destrozando (aún más) la Medicina",
+   "link": "https://www.diariosur.es/opinion/destrozando-medicina-20261117230704-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-17T00:00:00Z"
+  },
+  {
+   "title": "Varias personas caminan por el centro de Huelva.",
+   "link": "https://www.huelvainformacion.es/huelva/huelva-crece-gracias-migracion-continua-envejeciendo-poblacion_0_2008481712.html",
+   "summary": "La provincia crece menos de un 0,5% desde enero, pero alcanza un nuevo máximo histórico\nLas generaciones más pobladas son la Generación X y los primeros Millennials, anticipando un incremento futuro de la población en edades de jubilación.\nHuelva sig",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T23:15:35Z"
+  },
+  {
+   "title": "‘Megatsunami’ struck Gibraltar and flooded the Doñana 45,000 years ago, new research suggests",
+   "link": "https://www.thespanisheye.com/2026/11/16/megatsunami-struck-gibraltar-and-flooded-the-donana-45000-years-ago-new-research-suggests/",
+   "summary": "One possible cause was a major collapse of a Canary Island’s flank around 50,000 years ago",
+   "source": "The Spanish Eye",
+   "time": "2026-11-16T22:50:00Z"
+  },
+  {
+   "title": "PSOE demands protected housing allocation in Benahavis be halted over ‘conflicts of interest’",
+   "link": "https://www.thespanisheye.com/2026/11/16/psoe-demands-protected-housing-allocation-in-benahavis-be-halted-over-conflicts-of-interest/",
+   "summary": "The Socialists have raised questions about the involvement of council officials whose children are reportedly among the applicants.",
+   "source": "The Spanish Eye",
+   "time": "2026-11-16T22:39:31Z"
+  },
+  {
+   "title": "Six parents arrested over ‘plan to abandon children in Spain to get them into system’",
+   "link": "https://www.thespanisheye.com/2026/11/16/six-parents-arrested-over-plan-to-abandon-children-in-spain-to-get-them-into-system/",
+   "summary": "The Policia Nacional said the adults travelled to the country with their children, aged 16 and 17, on tourist visas before returning to their respective homes in North Africa",
+   "source": "The Spanish Eye",
+   "time": "2026-11-16T22:32:49Z"
+  },
+  {
+   "title": "Marbella ofrecerá suelo para construir más de 500 viviendas para alquiler tasado",
+   "link": "https://www.diariosur.es/marbella/marbella-ofrecera-suelo-construir-500-viviendas-alquiler-20261116225229-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-16T21:52:29Z"
+  },
+  {
+   "title": "Un libro rescata la vida del alcalde de Comares fusilado en 1937 y un siglo de conflictos",
+   "link": "https://www.diariosur.es/axarquia/libro-rescata-vida-alcalde-comares-fusilado-1937-20261116170256-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-16T21:52:24Z"
+  },
+  {
+   "title": "Federico Beltrán, primer Premio Marqués de Larios por su trayectoria empresarial y su compromiso con Málaga",
+   "link": "https://www.diariosur.es/malaga-capital/federico-beltran-primer-premio-marques-larios-trayectoria-20261116225104-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-16T21:51:04Z"
+  },
+  {
+   "title": "'Generaciones', en la viñeta de Idígoras",
+   "link": "https://www.diariosur.es/malaga/vinetas-idigoras-pachi-mes-noviembre-20261031220547-ga.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-16T21:49:19Z"
+  },
+  {
+   "title": "Unicaja-Pardubice: el equipo con mejor puntería frente al peor",
+   "link": "https://www.diariosur.es/unicaja/unicajapardubice-mejor-tira-peor-20261116223317-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-16T21:33:17Z"
+  },
+  {
+   "title": "El año que cambió la vida de Funes",
+   "link": "https://www.diariosur.es/malagacf/funes-entrenador-ano-malaga-20261116223201-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-16T21:32:01Z"
+  },
+  {
+   "title": "Andalucía Marca Digital aborda su primer proyecto: la transformación de los cultivos subtropicales de la Axarquía",
+   "link": "https://www.diariosur.es/malaga/andalucia-marca-digital-aborda-primer-proyecto-transformacion-20261116222741-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-16T21:27:41Z"
+  },
+  {
+   "title": "Funcionarios en una oficina de atención al ciudadano",
+   "link": "https://www.malagahoy.es/espana/gobierno-subida-sueldo-funcionarios_0_2008522842.html",
+   "summary": "Cumplirá así el compromiso alcanzado el pasado 20 de octubre entre el Gobierno y los sindicatos CCOO, UGT y CSIF.\nEl Gobierno aprobará este martes una subida del 5,3% del salario mínimo hasta 1.286 euros",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T21:26:22Z"
+  },
+  {
+   "title": "Localización de los últimos movimientos sísmicos registrados en la provincia de Almería, con especial atención al entorno de Tabernas, donde se ha concentrado buena parte de la actividad durante las últimas semanas.",
+   "link": "https://www.diariodealmeria.es/almeria/dos-terremotos-mas-almeria-tabernas_0_2008522743.html",
+   "summary": "Los movimientos de magnitud 1,9 en Zurgena y 1,7 en Turrillas se suman a una decena de terremotos registrados en la provincia durante los últimos siete días\nCinco terremotos sacuden Almería en apenas unas horas, uno de magnitud 3,0",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T21:03:55Z"
+  },
+  {
+   "title": "Leonor Watling y Leo Sidran: «Con una discográfica estaríamos todavía esperando»",
+   "link": "https://www.diariosur.es/culturas/musica/leonor-watling-leo-sidran-discografica-esperando-20261116214940-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-16T20:49:40Z"
+  },
+  {
+   "title": "El mango español cierra la campaña con 40.000 toneladas y escasa rentabilidad en origen",
+   "link": "https://www.diariosur.es/economia/agroalimentacion/mango-espanol-cierra-campana-40000-toneladas-escasa-20261110211526-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-16T20:15:26Z"
+  },
+  {
+   "title": "Joaquín y el día que se disfrazó de jeque en el vestuario del Málaga... y lo pillaron",
+   "link": "https://www.diariosur.es/malagacf/joaquin-jeque-disfraz-vestuario-malaga-futbol-20261116115649-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-16T20:13:14Z"
+  },
+  {
+   "title": "Jensen Huang, cofundador y ex consejero delegado de Nvidia.",
+   "link": "https://www.malagahoy.es/tecnologia/trump-clamor-regreso-jensen-huang-nvidia_0_2008522530.html",
+   "summary": "La petición 'Stand with Jensen' roza las 200.000 firmas, entre las que se cuentan magnates, inversores y empleados de la compañía, que presenta este martes resultados\nEl\nGobierno estadounidense limita el acceso remoto a los chips de IA\n, mientras se",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T20:01:38Z"
+  },
+  {
+   "title": "La verdad detrás del supuesto apagón mundial del 17 de noviembre",
+   "link": "https://www.areacostadelsol.com/nacional/verdad-supuesto-apagon-mundial-17-noviembre/",
+   "summary": "Un supuesto apagón mundial este martes 17 de noviembre ha encendido las alarmas en las redes sociales. Durante los últimos días, numerosas publicaciones han advertido de un posible colapso eléctrico y de un ciberataque capaz de dejar sin funcionamiento los bancos e internet durante semanas. Los mens",
+   "source": "Área Costa del Sol",
+   "time": "2026-11-16T19:23:46Z"
+  },
+  {
+   "title": "Un falso Pablo Alborán arruina a una fan con el 'timo del amor': «Se llevó 36.000 euros»",
+   "link": "https://www.diariosur.es/sucesos/falso-pablo-alboran-arruina-fan-cantante-timo-20261116201956-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-16T19:19:57Z"
+  },
+  {
+   "title": "«Por encima de los 40 o 45 años es el momento de que los hombres empiecen a cuidar su salud sexual»",
+   "link": "https://www.diariosur.es/longevidad/encima-anos-momento-hombres-empiecen-cuidar-salud-20261113201509-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-16T19:15:09Z"
+  },
+  {
+   "title": "«Vivir en Málaga y cocinar con aceite de oliva no significa que sigas una dieta mediterránea»",
+   "link": "https://www.diariosur.es/sociedad/salud/vivir-malaga-cocinar-aceite-oliva-significa-sigas-20261114201406-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-16T19:14:06Z"
+  },
+  {
+   "title": "Tamara Gorro en el vídeo desde Ibiza en el que se baña desnuda en el mar",
+   "link": "https://www.malagahoy.es/gente/tamara-gorro-rompe-cayetano-rivera_0_2008522223.html",
+   "summary": "\"Ibiza, me das vida y la vivo como quiero\", ha sido su mensaje liberador\nCayetano Rivera se pronuncia tras las palabras de su hermano Fran: \"Lleva razón sobre la vanidad de algunos presidentes taurinos\"\nPaula Echevarría, encantada con que su hija Dan",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T18:54:25Z"
+  },
+  {
+   "title": "Spanish trade unions call for total transport strike on Christmas Eve and threaten to extend it into 2027",
+   "link": "https://www.surinenglish.com/spain/trade-unions-have-20261116000500-nt.html",
+   "summary": "",
+   "source": "Sur in English",
+   "time": "2026-11-16T18:51:00Z"
+  },
+  {
+   "title": "La Junta agiliza 32 trámites ambientales y la patronal pide reglas claras",
+   "link": "https://www.diariosur.es/andalucia/junta-agiliza-tramites-ambientales-patronal-pide-reglas-20261116194336-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-16T18:43:36Z"
+  },
+  {
+   "title": "Andalucía registra un fraude eléctrico cada 12 minutos impulsado por la marihuana",
+   "link": "https://www.diariosur.es/andalucia/andalucia-registra-fraude-electrico-doce-minutos-impulsado-20261116194300-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-16T18:43:00Z"
+  },
+  {
+   "title": "El PSOE pedirá paralizar la adjudicación de 30 viviendas protegidas en Benahavís por posibles irregularidades",
+   "link": "https://www.areacostadelsol.com/benahavis/psoe-pedira-paralizar-adjudicacion-30-viviendas-protegidas-benahavis-posibles-irregularidades/",
+   "summary": "La adjudicación de 30 viviendas protegidas en Benahavís está en el punto de mira del PSOE, que ha anunciado que solicitará la suspensión cautelar del procedimiento ante las posibles irregularidades que asegura haber detectado. Los socialistas consideran necesario esclarecer las dudas sobre la legali",
+   "source": "Área Costa del Sol",
+   "time": "2026-11-16T18:41:22Z"
+  },
+  {
+   "title": "Urgencias del Hospital Neurotraumatológico de Jaén.",
+   "link": "https://www.jaenhoy.es/jaen/apunalan-hombre-cara-durante-pelea-torredonjimeno-jaen-hospital-neurotraumatologico_0_2008522067.html",
+   "summary": "La víctima y su hija, con heridas de menor entidad, han sido trasladadas al Hospital Neurotraumatológico de Jaén tras el aviso al 112, a cuyo centro coordinador le constan varios avisos en la zona del incidente entre las seis y las seis y media de la",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T18:38:08Z"
+  },
+  {
+   "title": "British patients up to 120 times more likely to suffer deadly reaction to Spain’s best-selling painkiller Nolotil, study reveals",
+   "link": "https://www.theolivepress.es/spain-news/2026/11/16/nolotil-drug-reaction-brits-irish-spain/",
+   "summary": "The findings will come as no surprise to Olive Press readers after years of campaigning by this newspaper alongside Cristina Garcia del Campo.",
+   "source": "Olive Press",
+   "time": "2026-11-16T18:28:57Z"
+  },
+  {
+   "title": "La actriz Maika Monroe encabeza el reparto.",
+   "link": "https://www.malagahoy.es/ocio/interesante-juego-macabro-topicos-gotico_0_2008522038.html",
+   "summary": "",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T18:26:42Z"
+  },
+  {
+   "title": "Participantes en la jornada de limpieza.",
+   "link": "https://www.malagahoy.es/marbella/retiran-500-kilos-residuos-fondos_0_2008521899.html",
+   "summary": "La actividad se ha desarrollado con la colaboración del COIS y la participación de una veintena de personas\nOcho heridos por una colisión múltiple en la A-7 en Marbella, tres de ellos menores",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T18:22:00Z"
+  },
+  {
+   "title": "Urbanismo asegura que habrá suelo para un instituto y un centro de salud en El Pato",
+   "link": "https://www.diariosur.es/malaga-capital/urbanismo-asegura-suelo-instituto-centro-salud-pato-20261116191450-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-16T18:14:50Z"
+  },
+  {
+   "title": "Film Symphony Orchestra en directo",
+   "link": "https://www.malagahoy.es/ocio/film-symphony-orchestra-llevara-nueva-gira-bandas-sonoras-torremolinos_0_2008521921.html",
+   "summary": "El Auditorio Príncipe de Asturias acogerá el espectáculo 'ODISEA', un recorrido sinfónico por películas como 'El Señor de los Anillos', 'Star Wars', 'Gladiator' e 'Interstellar'\nEl Festival Eñe lleva a Málaga la poesía de la Generación del 27 con die",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T18:13:19Z"
+  },
+  {
+   "title": "Un tren Cercanías de Málaga",
+   "link": "https://www.malagahoy.es/malaga/cercanias-malaga-acumulan-retrasos-35-minutos-cancelaciones_0_2008521700.html",
+   "summary": "La avería en la infraestructura ha afectado a las líneas C-1 y C-2 desde primera hora de este lunes; este martes 17 habrá una nueva huelga ferroviaria, con servicios mínimos del 75% en hora punta\nNueva huelga de trenes en Málaga este martes 17 de nov",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T17:56:00Z"
+  },
+  {
+   "title": "El Ayuntamiento de Estepona en una imagen de archivo.",
+   "link": "https://www.malagahoy.es/estepona/estepona-elabora-ordenanza-fiscal-2027_0_2008521699.html",
+   "summary": "El Ayuntamiento elabora las ordenanzas fiscales para el próximo año, que se someterán el Pleno esta semana\nEstepona aprueba el presupuesto para 2027 con más de 137 millones",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T17:54:54Z"
+  },
+  {
+   "title": "El nuevo Google Maps, que integra 'Ask Maps'",
+   "link": "https://www.malagahoy.es/tecnologia/google-maps-transforma-espana-ask-ia_0_2008521814.html",
+   "summary": "La actualización integra los modelos de inteligencia artificial de Gemini para responder a preguntas complejas, planificar itinerarios en tiempo real y ofrecer una navegación tridimensional más intuitiva.\n¿Bloquear Tik Tok en España? Quién puede hace",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T17:53:36Z"
+  },
+  {
+   "title": "Jornada Instituto Neurociencias Vithas",
+   "link": "https://www.malagahoy.es/malaga/instituto-neurociencias-vithas-incorpora-nuevas-unidades-especializadas_0_2008521502.html",
+   "summary": "El neurólogo David Ezpeleta dirigirá el instituto en los tres hospitales de Madrid, que refuerzan sus servicios en áreas como la epilepsia, las cefaleas y la neuropediatría\nLa Diputación y la CEM premian a Navarro Hermanos, Isoluz Audiovisuales, OWO",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T17:47:55Z"
+  },
+  {
+   "title": "Cómo se vota por correo en las elecciones generales del 29-N y cuándo termina el plazo para solicitarlo",
+   "link": "https://www.areacostadelsol.com/nacional/como-se-vota-correo-elecciones-generales-29-n-cuando-termina-plazo-solicitarlo/",
+   "summary": "Las elecciones generales del próximo 29 de noviembre se acercan y los ciudadanos de la Costa del Sol que tengan previsto votar por correo deben prestar especial atención a las fechas. El plazo para solicitar esta modalidad de votación termina este jueves 19 de noviembre, mientras que quienes ya haya",
+   "source": "Área Costa del Sol",
+   "time": "2026-11-16T17:32:54Z"
+  },
+  {
+   "title": "Las personas que han pasado por un trasplante de progenitores hematopoyéticos pueden desarrollar complicaciones o enfermedades que pueden convertirse en crónicas.",
+   "link": "https://www.malagahoy.es/salud/actualidad/eicrc-reto-recuperar-salud-despues_0_2008521674.html",
+   "summary": "La enfermedad injerto contra receptor crónica (EICRc) puede afectar a múltiples órganos y comprometer gravemente la autonomía de los pacientes \nLos especialistas reclaman una atención multidisciplinar que permita detectar y tratar esta complicación a",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T17:31:23Z"
+  },
+  {
+   "title": "Consejo Empresarial de Medio Ambiente de la CEA este lunes.",
+   "link": "https://www.malagahoy.es/andalucia/cea-reclama-inversion-productiva-presupuestos_0_2008521660.html",
+   "summary": "La patronal andaluza pide reducir el gasto corriente, agilizar las licitaciones y ampliar la colaboración público-privada para evitar que la Administración desplace a las empresas del mercado\nCuerpo niega que la falta de Presupuestos haya frenado las",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T17:30:11Z"
+  },
+  {
+   "title": "Vox demands more police in Marbella after weekend of road rage stabbing and nightclub shooting – along with ever-present mafia violence",
+   "link": "https://www.theolivepress.es/spain-news/2026/11/16/vox-police-marbella-crime/",
+   "summary": "The call for more police resources comes after three incidents rocked the popular Costa del Sol resort in the space of just 48 hours.",
+   "source": "Olive Press",
+   "time": "2026-11-16T17:22:39Z"
+  },
+  {
+   "title": "Agua, menos impuestos y freno a la competencia exterior: la receta agraria del PP",
+   "link": "https://www.diariosur.es/elecciones/generales/agua-impuestos-freno-competencia-exterior-receta-agraria-20261116170753-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-16T17:20:45Z"
+  },
+  {
+   "title": "Nàstic - Málaga CF: Las fotos de la increíble noche del 22 de junio de 2024",
+   "link": "https://www.malagahoy.es/malaga_cf/alan-godoy-gustaria-jugar-malaga_0_2008519055.html",
+   "summary": "\"A mí se me vino el mundo abajo\", confesó sobre su sentir al fin de la eliminatoria ante el Nàstic\nLa convicción de Haitam",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T17:15:31Z"
+  },
+  {
+   "title": "Juanma Moreno, este lunes en Almería junto a Gabriel Amat, Carmen Crespo y Ramón Fernández-Pacheco.",
+   "link": "https://www.malagahoy.es/espana/elecciones/juanma-moreno-marca-distancias-vox_0_2008521533.html",
+   "summary": "El presidente de la Junta reivindica la experiencia de gestión de los populares y advierte de que llegar al Ejecutivo sin haber gobernado antes es un \"grave error\"\nSánchez y Lula señalan la \"amenaza ultraderechista\" en un encuentro en La Moncloa",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T17:09:51Z"
+  },
+  {
+   "title": "Malaga set to begin construction of IMEC nanoelectronics centre in 2027, but already looking for companies to supply research equipment",
+   "link": "https://www.surinenglish.com/malaga/malaga-city/construction-imec-begin-20261116000500-nt.html",
+   "summary": "",
+   "source": "Sur in English",
+   "time": "2026-11-16T17:08:32Z"
+  },
+  {
+   "title": "Más de 42 millones de anzuelos y 4.000 albatros capturados, bajo la lupa en Fuengirola para reducir el impacto de la pesca",
+   "link": "https://www.areacostadelsol.com/fuengirola/millones-anzuelos-albatros-capturados-lupa-fuengirola-reducir-impacto-pesca/",
+   "summary": "Más de 4.000 albatros capturados accidentalmente y más de 42 millones de anzuelos observados. Son algunas de las cifras que están analizando científicos internacionales reunidos en Málaga y Fuengirola para conocer mejor el impacto de la pesca sobre los ecosistemas marinos y buscar soluciones que per",
+   "source": "Área Costa del Sol",
+   "time": "2026-11-16T17:08:13Z"
+  },
+  {
+   "title": "José María Martínez Vázquez asume la presidencia de la asociación de jefes de las policías locales de Andalucía",
+   "link": "https://www.diariosur.es/sucesos/jose-maria-martinez-vazquez-asume-presidencia-asociacion-20261116180616-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-16T17:07:21Z"
+  },
+  {
+   "title": "El Festival Eñe lleva a Málaga la poesía de la Generación del 27 con diez días de literatura, música y teatro",
+   "link": "https://www.malagahoy.es/ocio/festival-ene-lleva-malaga-poesia-generacion-27_0_2008521333.html",
+   "summary": "La cita se celebrará del 21 al 30 de noviembre con Dolores Redondo, Juan Luis Arsuaga y Guille Galva, de Vetusta Morla, entre sus protagonista\nLa malagueña Korashe saca disco sobre \"cómo suena la cabeza de una chica\"",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T17:01:52Z"
+  },
+  {
+   "title": "La Media Maratón de Benalmádena bate récords y roza los 2.000 inscritos por una causa solidaria",
+   "link": "https://www.areacostadelsol.com/benalmadena/media-maraton-benalmadena-bate-record-roza-2000-inscritos-causa-solidaria/",
+   "summary": "Benalmádena se prepara para vivir una nueva fiesta del deporte y la solidaridad. La undécima edición de la Media Maratón Holiday World Benalmádena, que se celebrará el próximo 22 de noviembre, ya roza los 2.000 corredores inscritos, superando los registros de participación de años anteriores y conso",
+   "source": "Área Costa del Sol",
+   "time": "2026-11-16T16:49:45Z"
+  },
+  {
+   "title": "Cinco países europeos crearán en Ruanda un centro para solicitantes de asilo rechazados.",
+   "link": "https://www.malagahoy.es/mundo/cinco-paises-europeos-crearan-ruanda_0_2008521381.html",
+   "summary": "Alemania, Austria, Dinamarca, Grecia y Países Bajos acuerdan con el país africano el traslado para trasladar a los inmigrantes con el asilo denegado",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T16:45:16Z"
+  },
+  {
+   "title": "El actor Luis Lorenzo ha sido condenado a cinco años de prisión por la Audiencia Provincial de Madrid.",
+   "link": "https://www.malagahoy.es/television/luis-lorenzo-condenado-trato-degradante_0_2008521342.html",
+   "summary": "La Audiencia Provincial de Madrid impone cinco años y tres meses de prisión al actor, mientras que a su pareja le han caído nueve años y un día de cárcel por los delitos cometidos contra su tía\n¿Quién es Luis Lorenzo?\nJuicio contra Luis Lorenzo ('La",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T16:42:13Z"
+  },
+  {
+   "title": "La Justicia italiana interviene Revolut durante un año por fallos en sus controles contra el blanqueo de capitales",
+   "link": "https://www.areacostadelsol.com/nacional/justicia-italiana-interviene-revolut-ano-fallo-controles-blanqueo-capitales/",
+   "summary": "La Justicia italiana ha ordenado someter al banco digital Revolut a un año de administración judicial tras detectar presuntas deficiencias en sus mecanismos de prevención del blanqueo de capitales. Según las investigaciones, estos fallos habrían facilitado operaciones ilícitas por un importe aproxim",
+   "source": "Área Costa del Sol",
+   "time": "2026-11-16T16:41:21Z"
+  },
+  {
+   "title": "Andreu Buenafuente en la entrevista a Tortell Poltrona en el especial 'Reír para vivir'",
+   "link": "https://www.malagahoy.es/television/andreu-buenafuente-vuelve-tv-ano_0_2008521305.html",
+   "summary": "El productor y cómico tuvo que dejar el trabajo televisivo en noviembre de 2025 tras serle diagnosticado un grave episodio de estrés\nAndreu Buenafuente recibe el alta y ya tiene fecha para volver a sus programas con Berto Romero\nLa última hora del es",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T16:38:45Z"
+  },
+  {
+   "title": "Un vehículo de la Policía Local de Málaga",
+   "link": "https://www.malagahoy.es/malaga/malaga-renovara-31-coches-policia-hibridos_0_2008521221.html",
+   "summary": "El contrato incluye otros nueve vehículos para patrullas y el Grupo Operativo de Apoyo, mediante un renting de cuatro años prorrogable por uno más\nLa Policía Local de Málaga pone 63 denuncias por superar los límites de ruido en la última semana",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T16:34:40Z"
+  },
+  {
+   "title": "Spain auctions seven abandoned planes forgotten for over a decade in Mallorca – including a Soviet Antonov",
+   "link": "https://www.theolivepress.es/spain-news/2026/11/16/seven-abandoned-planes-to-be-auctioned-in-mallorca/",
+   "summary": "The aircraft at Son Bonet airfield near Palma have sat unclaimed since 2012 or earlier, with the sale split into two lots.",
+   "source": "Olive Press",
+   "time": "2026-11-16T16:30:00Z"
+  },
+  {
+   "title": "Robert Pattinson, caracterizado como James Bond.",
+   "link": "https://www.malagahoy.es/ocio/actor-robert-pattinson-james-bond_0_2008521217.html",
+   "summary": "El británico, de 40 años, es el séptimo intérprete que encarnará al famoso agente 007. \nTendrá la difícil misión de sustituir al aclamado Daniel Craig.\nCraig se corta la coleta Bond con una gran faena",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T16:28:13Z"
+  },
+  {
+   "title": "Una de las villas de 'Alta Construcción' desarrollada por Jamena en la Costa del Sol.",
+   "link": "https://www.malagahoy.es/malaga/constructora-jamena-consolida-negocio-alta_0_2008521118.html",
+   "summary": "Renueva su imagen corporativa, tras más de cuarenta años de trayectoria, con el foco puesto en la 'Alta Construcción'\nJamena refuerza su apuesta por la vivienda de lujo con una nueva sede en la Costa del Sol para 2027",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T16:25:05Z"
+  },
+  {
+   "title": "WATCH: Crime wave in Malaga town as burglars raid rural homes and beat up occupants",
+   "link": "https://www.theolivepress.es/spain-news/2026/11/16/velez-malaga-burglars-rural-homes/",
+   "summary": "A resident went to hospital after hooded men targeted isolated homes in the countryside outside Velez-Malaga on Friday night.",
+   "source": "Olive Press",
+   "time": "2026-11-16T16:20:23Z"
+  },
+  {
+   "title": "Viajaban a España como turistas y dejaban a sus hijos para que los acogieran los servicios sociales: varios detenidos en Málaga y Tarifa",
+   "link": "https://www.areacostadelsol.com/malaga/viajaban-espana-turistas-dejaban-hijos-acogieran-servicios-sociales-varios-detenidos-malaga-tarifa/",
+   "summary": "Seis personas han sido detenidas por presuntamente abandonar a sus hijos menores de edad en España con el objetivo de que las instituciones públicas asumieran su tutela. Los arrestados, dos mujeres y cuatro hombres de entre 39 y 56 años, están investigados por delitos de abandono de menores y favore",
+   "source": "Área Costa del Sol",
+   "time": "2026-11-16T16:18:35Z"
+  },
+  {
+   "title": "El Liceo Francés Internacional de Málaga abre sus puertas el próximo 28 de noviembre",
+   "link": "https://www.diariosur.es/sociedad/educacion/liceo-frances-internacional-malaga-abre-puertas-proximo-20261116165109-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-16T15:51:09Z"
+  },
+  {
+   "title": "Unas obras destapan problemas estructurales y obligan a desalojar un edificio en Alhaurín el Grande",
+   "link": "https://www.diariosur.es/interior/obras-destapan-problemas-obligan-desalojar-edificio-alhaurin-20261116131734-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-16T15:48:19Z"
+  },
+  {
+   "title": "David Buitrago, nuevo director deportivo del Marbella FC tras diez años en el Cádiz",
+   "link": "https://www.areacostadelsol.com/marbella/david-buitrago-nuevo-director-deportivo-del-marbella-fc-tras-diez-anos-en-el-cadiz/",
+   "summary": "El Marbella Fútbol Club ha anunciado el nombramiento de David Buitrago como nuevo director deportivo de la entidad. El profesional murciano llega al conjunto de Marbella después de una década vinculado al Cádiz CF, donde desempeñó diferentes funciones en la dirección deportiva entre 2016 y 2026. Dav",
+   "source": "Área Costa del Sol",
+   "time": "2026-11-16T15:43:53Z"
+  },
+  {
+   "title": "Las primeras obras para 1.362 VPO de alquiler en Málaga reciben 27 ofertas de constructoras",
+   "link": "https://www.diariosur.es/malaga-capital/primeras-obras-1362-vpo-alquiler-malaga-ofertas-20261116164103-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-16T15:41:03Z"
+  },
+  {
+   "title": "Zambombá solidaria a favor de La sonrisa de Melania con Encarni Navarro",
+   "link": "https://www.diariosur.es/planes/zambomba-solidaria-sonrisa-melania-encarni-navarro-malaga-20261116163633-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-16T15:36:57Z"
+  },
+  {
+   "title": "WATCH: Armed robbers ‘take advantage of Toledo train disaster’ to raid jewellery shop and steal nearly half a million",
+   "link": "https://www.theolivepress.es/spain-news/2026/11/16/toledo-jewellery-shop-robbery-train-crash/",
+   "summary": "Six people have been arrested after masked robbers stole up to €400,000 in jewels while officers were tied up with the crash that killed 69 people.",
+   "source": "Olive Press",
+   "time": "2026-11-16T15:30:00Z"
+  },
+  {
+   "title": "La actriz Paula Echevarría y su hija Daniella posan juntas en un evento.",
+   "link": "https://www.malagahoy.es/gente/paula-echevarria-encantada-hija-daniella_0_2008520864.html",
+   "summary": "La joven, fruto de la relación de la actriz con David Bustamante, estudia Marketing en la universidad tras cumplir la mayoría de edad\nDavid Bustamante, preocupado por la exposición de su hija Daniella tras cumplir 18 años\nPaula Echevarría y David Bus",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T15:21:11Z"
+  },
+  {
+   "title": "Un momento del Foro celebrado en Barcelona",
+   "link": "https://www.malagahoy.es/malaga/alcalde-malaga-defiende-oportunidades-turismo_0_2008520794.html",
+   "summary": "Francisco de la Torre participa junto al regidor de Palma en el Foro Barcelona de Hotusa sobre turismo\nCon Málaga exige una comisión de investigación sobre el desguace municipal",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T15:16:43Z"
+  },
+  {
+   "title": "Confirmada la condena de 442 años de cárcel al pederasta detenido en Málaga que abusó de 25 menores captados por Fortnite",
+   "link": "https://www.areacostadelsol.com/malaga/confirman-442-anos-de-carcel-para-el-pederasta-de-fortnite/",
+   "summary": "El Tribunal Supremo ha confirmado la condena de 442 años de prisión impuesta a un hombre detenido en Málaga por cometer delitos sexuales contra 25 menores a los que captaba a través del popular videojuego Fortnite. El condenado utilizaba regalos virtuales para ganarse la confianza de los niños y pos",
+   "source": "Área Costa del Sol",
+   "time": "2026-11-16T15:09:20Z"
+  },
+  {
+   "title": "Warm November continues for Malaga province with highs of 25C this week",
+   "link": "https://www.thespanisheye.com/2026/11/16/warm-november-continues-for-malaga-province-with-highs-of-25c-this-week/",
+   "summary": "Wednesday is expected to bring the warmest conditions in Malaga city",
+   "source": "The Spanish Eye",
+   "time": "2026-11-16T15:06:39Z"
+  },
+  {
+   "title": "Spain’s left-wing coalition Frente Amplio vows 100% tax on inheritances above €10m",
+   "link": "https://www.thespanisheye.com/2026/11/16/spains-left-wing-coalition-frente-amplio-vows-100-tax-on-inheritances-above-e10m/",
+   "summary": "Frente Amplio campaign spokesperson Pablo Bustinduy defended the measure as a way to 'reduce inequality and curb the concentration of economic and political power.'",
+   "source": "The Spanish Eye",
+   "time": "2026-11-16T14:58:25Z"
+  },
+  {
+   "title": "Bea González vuelve a quedarse a un paso del título",
+   "link": "https://www.diariosur.es/deportes/mas-deportes/bea-gonzalez-vuelve-quedarse-paso-titulo-20261116155823-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-16T14:58:23Z"
+  },
+  {
+   "title": "WATCH: Spain’s hard-left leader Irene Montero shouts ‘Guiris go home!’ during campaign rally in Palma de Mallorca",
+   "link": "https://www.theolivepress.es/spain-news/2026/11/16/irene-montero-guiris-go-home-palma/",
+   "summary": "The Podemos candidate said the words in English to a packed school-playground crowd in Palma ahead of the 29 November general election.",
+   "source": "Olive Press",
+   "time": "2026-11-16T14:51:29Z"
+  },
+  {
+   "title": "La cantante catalana Rosalía recibió una nominación al Grammy a álbum del año por 'Lux', con el que competirá en esta categoría frente a Olivia Dean, por 'The Art of Loving', y Taylor  Swift  por 'The Life of a Showgirl'.",
+   "link": "https://www.malagahoy.es/ocio/listado-nominaciones-principales-categorias-grammy_0_2008520705.html",
+   "summary": "La española Rosalía, segunda artista más nominada, con 9 candidaturas\nRosalía consigue 9 nominaciones en los Grammy 2027 con \"LUX\" y \"Berghain\"",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T14:51:25Z"
+  },
+  {
+   "title": "María de Valdés sigue reinando en el fondo nacional",
+   "link": "https://www.diariosur.es/deportes/mas-deportes/maria-valdes-sigue-reinando-fondo-nacional-20261116130303-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-16T14:47:50Z"
+  },
+  {
+   "title": "Pedro Sanchez’s PSOE narrows gap to PP in best poll in three years – but the right still on course for comfortable majority",
+   "link": "https://www.theolivepress.es/spain-news/2026/11/16/psoe-narrows-gap-to-pp-with-best-poll-result-in-three-years/",
+   "summary": "The latest tracking poll puts the PP on 31.5% of the vote with the PSOE on 30.3% - the first time they have topped 30% since 2013.",
+   "source": "Olive Press",
+   "time": "2026-11-16T14:45:00Z"
+  },
+  {
+   "title": "Un comedor escolar en una imagen de archivo",
+   "link": "https://www.malagahoy.es/malaga/manifestacion-colegios-cartama-mejora-comedores-escolares_0_2008520038.html",
+   "summary": "La protesta, a la que convocan cuatro centros educativos del municipio, es el viernes 27 de noviembre\nExpediente sancionador a la empresa que gestiona 132 comedores escolares en Málaga",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T14:39:05Z"
+  },
+  {
+   "title": "Revealed: Dramatic changes for self-employed in Spain if Partido Popular takes power",
+   "link": "https://www.thespanisheye.com/2026/11/16/revealed-dramatic-changes-for-self-employed-in-spain-if-partido-popular-takes-power/",
+   "summary": "Self-employed workers in Spain could face major changes to VAT, Social Security contributions and tax paperwork if the Partido Popular wins power after the November 29 election. The party is promoting a package of 45 measures for ‘autonomos‘, ranging from exemptions for new businesses to hiring sub",
+   "source": "The Spanish Eye",
+   "time": "2026-11-16T14:38:11Z"
+  },
+  {
+   "title": "Estepona mantendrá en 2027 la rebaja del 50% del IBI y las exenciones en la tasa de basura",
+   "link": "https://www.areacostadelsol.com/estepona/mantendra-en-2027-la-rebaja-mitad-ibi-y-las-exenciones-en-la-tasa-de-basura/",
+   "summary": "El Ayuntamiento de Estepona aplicará en 2027 una reducción del 50% en el Impuesto sobre Bienes Inmuebles (IBI) para los empadronados y mantendrá la exención de la tasa de basura para determinados colectivos vulnerables. Estas medidas forman parte de las nuevas ordenanzas fiscales elaboradas por el C",
+   "source": "Área Costa del Sol",
+   "time": "2026-11-16T14:17:26Z"
+  },
+  {
+   "title": "Matías Prats será el encargado de encender las luces de Navidad de Málaga",
+   "link": "https://www.areacostadelsol.com/malaga/matias-prats-sera-el-encargado-de-encender-las-luces-de-navidad/",
+   "summary": "El periodista Matías Prats Luque será el encargado de encender el alumbrado navideño de Málaga el próximo viernes 27 de noviembre en calle Larios, en un acto que comenzará a partir de las 18:30 horas y que incluirá un espectáculo de luz y sonido y un concierto del cantante malagueño El Kanka. La pro",
+   "source": "Área Costa del Sol",
+   "time": "2026-11-16T14:12:49Z"
+  },
+  {
+   "title": "Desde móviles hasta una radial: retiran más de 500 kilos de basura del fondo del Puerto Deportivo de Marbella",
+   "link": "https://www.areacostadelsol.com/marbella/desde-moviles-hasta-una-radial-retiran-mas-de-500-kilos-de-basura-del-fondo-del-puerto-deportivo-de-marbella/",
+   "summary": "Más de 500 kilos de residuos han sido retirados de los fondos del Puerto Deportivo Virgen del Carmen de Marbella durante una jornada de limpieza en la que se han recuperado numerosos objetos sumergidos, desde teléfonos móviles y gafas hasta escaleras, vallas y una radial. La actividad, desarrollada",
+   "source": "Área Costa del Sol",
+   "time": "2026-11-16T14:04:18Z"
+  },
+  {
+   "title": "Rosalía fue galardonada con 6 Latin Grammy por su disco 'Lux'",
+   "link": "https://www.malagahoy.es/ocio/rosalia-cuela-cuatro-grandes-nominaciones_0_2008520459.html",
+   "summary": "La artista catalana consigue cuatro nominaciones en la selección de categorías principales y competirá por Álbum, Grabación y Canción del Año\nTaylor Swift, Olivia Dean, RAYE y Olivia Rodrigo también protagonizan una edición que refleja la diversidad",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T14:01:59Z"
+  },
+  {
+   "title": "Ambiente en el entorno de Larios, con el encendido navideño.",
+   "link": "https://www.malagahoy.es/malaga/periodista-matias-prats-encendido-alumbrado-navideno-malaga_0_2008520369.html",
+   "summary": "El acto tendrá lugar a partir de las 18:30 en la calle Larios y dará paso a un concierto del artista malagueño El Kanka\nLos pases del espectáculo de luz y sonido se ofrecerán del 27 de noviembre al 4 de enero, excepto los días 24 y 31 de diciembre, a",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T14:01:46Z"
+  },
+  {
+   "title": "Las lentejuelas, los pailletes y el lúrex se convierten en los detalles con los que macar la diferencia en un look de Navidad.",
+   "link": "https://www.diariodesevilla.es/wappissima/tendencias/vestidos-cortos-zara-especiales-comidas-navidad_0_2008518071.html",
+   "summary": "Olvida los grandes clásicos navideños, estos diseños de Zara cortitos y con detalles muy especiales te convertirán en la mejor vestida\nAcaban de llegar a Zara los 3 pantalones de fiesta imprescindibles para triunfar con el look en una comida de Navid",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T14:01:00Z"
+  },
+  {
+   "title": "Age is no barrier as Marbella businessman becomes oldest person ever to skydive over Everest",
+   "link": "https://www.theolivepress.es/spain-news/2026/11/16/marbella-businessman-becomes-oldest-ever-to-skydive-near-everest/",
+   "summary": "Former tennis pro Pancho Campo, 65, hit speeds of 250km/h as he plunged from 8,000 metres near the world’s tallest mountain.",
+   "source": "Olive Press",
+   "time": "2026-11-16T13:59:17Z"
+  },
+  {
+   "title": "Malaga province's reservoir levels rise for the first time since spring following storms Bruna and Charles",
+   "link": "https://www.surinenglish.com/malaga/water-levels-malagas-20261116000500-nt.html",
+   "summary": "",
+   "source": "Sur in English",
+   "time": "2026-11-16T13:58:53Z"
+  },
+  {
+   "title": "Matías Prats inaugurará el encendido del alumbrado navideño de Málaga",
+   "link": "https://www.diariosur.es/malaga-capital/inauguracion-luces-navidad-malaga-matias-prats-20261116144829-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-16T13:53:11Z"
+  },
+  {
+   "title": "Comienzan las obras del nuevo centro de salud de Rincón de la Victoria",
+   "link": "https://www.diariosur.es/axarquia/rincon/comienzan-obras-nuevo-centro-salud-rincon-victoria-20261116145042-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-16T13:50:42Z"
+  },
+  {
+   "title": "Una consulta médica.",
+   "link": "https://www.malagahoy.es/sociedad/comunidades-dan-aprobado-alto-sanidad_0_2008520360.html",
+   "summary": "La Fundación Economía y Salud presenta en el Senado su cuarto informe sobre el funcionamiento de estos servicios\nSanidad estudia implantar el cribado de cáncer de pulmón",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T13:46:08Z"
+  },
+  {
+   "title": "Malaga companies help vaccinate more than 134,000 African children against pneumonia",
+   "link": "https://www.surinenglish.com/lifestyle/health/companies-malaga-helping-20261116000500-nt.html",
+   "summary": "",
+   "source": "Sur in English",
+   "time": "2026-11-16T13:42:23Z"
+  },
+  {
+   "title": "El Frente Amplio propone un banco público de tierras en pro del relevo generacional en el campo",
+   "link": "https://www.diariosur.es/elecciones/generales/frente-amplio-propone-banco-publico-tierras-20261116143910-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-16T13:39:10Z"
+  },
+  {
+   "title": "Huelga de Renfe este martes 17 de noviembre: estos son los trenes afectados en Málaga",
+   "link": "https://www.areacostadelsol.com/malaga/huelga-renfe-martes-17-noviembre-trenes-afectados/",
+   "summary": "La huelga de Renfe convocada para este martes 17 de noviembre afectará a diferentes servicios ferroviarios de Málaga y su provincia, especialmente a las conexiones con Sevilla, Granada y El Chorro-Caminito del Rey. El Ministerio de Transportes y Movilidad Sostenible ha establecido los servicios míni",
+   "source": "Área Costa del Sol",
+   "time": "2026-11-16T13:27:39Z"
+  },
+  {
+   "title": "Soldados ucranianos revisan un dron.",
+   "link": "https://www.malagahoy.es/mundo/kallas-califica-absurdas-exigencias-rusas_0_2008520165.html",
+   "summary": "Albares lamenta que haya demasiados actores en el equipo negociador europeo y apuesta por la presencia de alta representante\nZelenski asegura que EEUU se abre a admitir a Ucrania en la OTAN si se retira del Donbás",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T13:23:55Z"
+  },
+  {
+   "title": "El PP promete desde Málaga un millón de viviendas en cuatro años y desembolso inicial cero para los jóvenes",
+   "link": "https://www.diariosur.es/elecciones/generales/pp-promete-malaga-millon-viviendas-cuatro-anos-20261116142335-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-16T13:23:35Z"
+  },
+  {
+   "title": "El PP promete construir un millón de viviendas y aprobar una Ley Antiokupación si Feijóo llega al Gobierno",
+   "link": "https://www.areacostadelsol.com/malaga/el-pp-promete-construir-un-millon-de-viviendas-y-aprobar-una-ley-antiokupacion-si-feijoo-llega-al-gobierno/",
+   "summary": "El Partido Popular se ha comprometido a impulsar la construcción de un millón de viviendas en España y aprobar una Ley Antiokupación durante los primeros 100 días de gobierno si Alberto Núñez Feijóo llega a la Presidencia. Así lo han defendido este lunes, 16 de noviembre, los dirigentes populares El",
+   "source": "Área Costa del Sol",
+   "time": "2026-11-16T13:20:37Z"
+  },
+  {
+   "title": "Un imagen de calle Larios con el alumbrado de Navidad.",
+   "link": "https://www.malagahoy.es/la-farola/inauguracion-alumbrados-navidad-municipios-malaga-2026_0_2008519541.html",
+   "summary": "Algunos Ayuntamiento han dado a conocer ya la fecha de su encendido de luces navideñas para estas fiestas\nHorarios de los pases del alumbrado de Navidad de calle Larios en Málaga",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T13:12:09Z"
+  },
+  {
+   "title": "El Unicaja y la amenazante proyección de la Champions",
+   "link": "https://www.diariosur.es/unicaja/unicaja-amenazante-proyeccion-champions-20261116141134-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-16T13:11:34Z"
+  },
+  {
+   "title": "Una huelga de transportes en España en marzo de 2022",
+   "link": "https://www.malagahoy.es/espana/ccoo-anuncia-huelga-transporte-carretera_0_2008520077.html",
+   "summary": "La protesta tendrá lugar en fechas críticas en el transporte, tanto de mercancías como de viajeros, porque se trata de unos de los momentos del año con mayor número de desplazamientos y por el posible impacto en las cadenas de suministro\nEl Gobierno",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T13:11:31Z"
+  },
+  {
+   "title": "How El Niño could affect your 2026-2027 winter holiday and what to check before booking",
+   "link": "https://www.theolivepress.es/spain-news/2026/11/16/el-nino-travel-winter-holidays/",
+   "summary": "Staysure advises flexible winter bookings and careful insurance checks in its El Niño travel advice.",
+   "source": "Olive Press",
+   "time": "2026-11-16T13:10:00Z"
+  },
+  {
+   "title": "Trabajo mejora la propuesta de los expertos y plantea subir el SMI un 5,3% en 2027",
+   "link": "https://www.malagahoy.es/economia/gobierno-aprobara-martes-subida-5_0_2008519980.html",
+   "summary": "La nueva cuantía superará por primera vez los 18.000 euros brutos anuales y el Ejecutivo prevé acompañarla de medidas para evitar su tributación\nEl Gobierno aprobará una subida del 5,3% del salario mínimo, que llega a los 18.000 euros brutos",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T13:03:09Z"
+  },
+  {
+   "title": "Jordi Wild anunciado en la pasada semana en 'El Hormiguero'",
+   "link": "https://www.malagahoy.es/television/pablo-motos-ahora-no-contar_0_2008519840.html",
+   "summary": "El youtuber que ha alcanzado más notoriedad tras el plantón de Santiago Abascal se pospone a otra semana en 'El Hormiguero' por coincidir con el cara a cara\n¿Quién es Jordi Wild, el youtuber que ha entrevistado a los principales candidatos en el inic",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T12:46:32Z"
+  },
+  {
+   "title": "Retrasos en el Cercanías Málaga-Fuengirola por una incidencia en la estación de Torremolinos",
+   "link": "https://www.areacostadelsol.com/torremolinos/retrasos-en-el-cercanias-malaga-fuengirola-por-una-incidencia-en-la-estacion-de-torremolinos/",
+   "summary": "La línea C-1 de Cercanías Málaga-Fuengirola registra retrasos en la circulación de trenes debido a una incidencia en la infraestructura ferroviaria localizada en la estación de Torremolinos. La alteración del servicio afecta a la conexión que une Málaga capital con Fuengirola. Según ha informado Adi",
+   "source": "Área Costa del Sol",
+   "time": "2026-11-16T12:41:23Z"
+  },
+  {
+   "title": "Ocho detenidos en Fuengirola por robos en vehículos",
+   "link": "https://www.diariosur.es/sucesos/ocho-detenidos-fuengirola-robos-vehiculos-20261116133724-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-16T12:37:24Z"
+  },
+  {
+   "title": "El presidente del Gobierno, Pedro Sánchez, recibe al presidente de Brasil, Luiz Inácio 'Lula' da Silva, este lunes en La Moncloa.",
+   "link": "https://www.malagahoy.es/espana/sanchez-lula-senalan-amenaza-ultraderechista_0_2008519721.html",
+   "summary": "El presidente del Gobierno exhibe el apoyo del líder brasileño, cuya remontada ante Bolsonaro presenta como ejemplo de cara al 29-N",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T12:34:50Z"
+  },
+  {
+   "title": "Disgraced PSOE advisor Koldo Garcia claims PP lawyer offered him a fortune to lie about Spain’s PM Pedro Sanchez",
+   "link": "https://www.theolivepress.es/spain-news/2026/11/16/koldo-garcia-pp-bribe-claim/",
+   "summary": "The convicted ex-aide to a Spanish minister says the money was to come through OK Diario news site - the PP denies it.",
+   "source": "Olive Press",
+   "time": "2026-11-16T12:30:00Z"
+  },
+  {
+   "title": "Costa del Sol shopping centre puts Christmas on film with Santa Studios attraction",
+   "link": "https://www.surinenglish.com/malaga/mijas-fuengirola/costa-sol-shopping-centre-puts-christmas-film-20261116132446-nt.html",
+   "summary": "",
+   "source": "Sur in English",
+   "time": "2026-11-16T12:24:46Z"
+  },
+  {
+   "title": "Malaga train strike on Tuesday: Minimum services and free ticket changes explained",
+   "link": "https://www.thespanisheye.com/2026/11/16/malaga-train-strike-on-tuesday-minimum-services-and-free-ticket-changes-explained/",
+   "summary": "Rail passengers in Malaga face reduced services on Tuesday following the calling of a 24-hour Renfe strike. The stoppage runs from midnight until 11.59pm, with minimum service levels set by the Transport Ministry. On Malaga’s two Cercanias lines, 75% of the usual service is scheduled to run during",
+   "source": "The Spanish Eye",
+   "time": "2026-11-16T12:21:22Z"
+  },
+  {
+   "title": "Juan Cruz regresa de forma parcial con el grupo.",
+   "link": "https://www.malagahoy.es/malaga_cf/entrenamiento-malaga-cf-juan-cruz_0_2008519349.html",
+   "summary": "Salinas también volvió tras un proceso viral, mientras que Dani Lorenzo y Carlos Puga se reincorporaron al grupo tras la gestión de cargas\n\"Tengo la convicción de que lo vamos a sacar adelante\"",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T12:18:30Z"
+  },
+  {
+   "title": "Eight men arrested after rise in car break-ins in Fuengirola",
+   "link": "https://www.thespanisheye.com/2026/11/16/eight-men-arrested-after-rise-in-car-break-ins-in-fuengirola/",
+   "summary": "Several targeted vehicles were vans containing work tools.",
+   "source": "The Spanish Eye",
+   "time": "2026-11-16T12:18:01Z"
+  },
+  {
+   "title": "La Dra. Marina Díaz Marsá, presidenta saliente de la Sociedad Española de Psiquiatría y Salud Mental.",
+   "link": "https://www.malagahoy.es/salud/actualidad/sufrimiento-forma-parte-vida-aprender_0_2008519518.html",
+   "summary": "La presidenta de la SEPSM subraya la necesidad de distinguir el malestar cotidiano de los trastornos mentales y reclama recursos para una atención temprana, cercana y humana que combata el estigma",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T12:15:55Z"
+  },
+  {
+   "title": "Un médico estudia unas radiografías de pulmones.",
+   "link": "https://www.malagahoy.es/sociedad/sanidad-estudia-implantar-cribado-cancer_0_2008519457.html",
+   "summary": "El ministerio pretende revisar la evidencia científica sobre esta medida y actualizar el informe que la desaconsejaba\nAndalucía registró 629 diagnósticos de cáncer de mama en el primer semestre de 2026",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T12:11:40Z"
+  },
+  {
+   "title": "El paternalismo, incluso bienintencionado, puede esconder una concepción supremacista del conocimiento sanitario.",
+   "link": "https://www.malagahoy.es/salud/opinion/paciente-no-necesita-decidamos-nombre_0_2008519439.html",
+   "summary": "Escuchar a los pacientes e incorporar su experiencia a las decisiones es esencial para construir una sanidad más participativa y respetuosa con su autonomía",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T12:09:22Z"
+  },
+  {
+   "title": "Marbella stabilises slope next to Miguel de Cervantes school to prevent landslides",
+   "link": "https://www.surinenglish.com/malaga/marbella-san-pedro/marbella-carrying-repairs-20261116000500-nt.html",
+   "summary": "",
+   "source": "Sur in English",
+   "time": "2026-11-16T12:06:09Z"
+  },
+  {
+   "title": "El PSOE de Málaga pide concentrar el voto de izquierda para evitar la «censura cultural» de PP y Vox",
+   "link": "https://www.diariosur.es/elecciones/generales/psoe-malaga-pide-concentrar-voto-izquierda-evitar-20261116130422-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-16T12:04:22Z"
+  },
+  {
+   "title": "Spanish police and CNI intelligence service clash over Moroccan responsibility for Ceuta border surge",
+   "link": "https://www.surinenglish.com/spain/between-intelligence-services-20261116000500-nt.html",
+   "summary": "",
+   "source": "Sur in English",
+   "time": "2026-11-16T12:03:42Z"
+  },
+  {
+   "title": "Carmen Barbadillo junto a su abuela, Lala, en una imagen familiar.",
+   "link": "https://www.malagahoy.es/salud/actualidad/cuidar-cuido_0_2008519341.html",
+   "summary": "El 65% de los cuidadores percibe efectos en su salud, según el II Estudio del Observatorio Cinfa de los Cuidados \nCarmen cuenta cómo es atender a su abuela de 95 años",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T11:58:58Z"
+  },
+  {
+   "title": "Carlos Cuerpo.",
+   "link": "https://www.malagahoy.es/andalucia/cuerpo-niega-falta-presupuestos-haya_0_2008519290.html",
+   "summary": "El vicepresidente anuncia una inversión de 19.000 millones para cinco años y constituye este lunes un comité de expertos, con técnicos externos y especialistas del sector aeronáutico, para diseñar un plan de choque que refuerce la seguridad y recuper",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T11:55:20Z"
+  },
+  {
+   "title": "Las mejores eSIMs de 2025 para viajar al extranjero: tarifas económicas y marcas",
+   "link": "https://www.diariodesevilla.es/de_compras/mejores-esims_0_2004746211.html",
+   "summary": "Si vas a viajar fuera del país, te va a venir muy bien esta comparativa que hemos preparado con las mejores eSIMs y planes internacionales para viajar\nLos mejores seguros de viaje baratos de 2026: Coberturas y precios",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T11:55:00Z"
+  },
+  {
+   "title": "El mejor robot aspirador para tu casa en 2026: potencia, autonomía y opiniones",
+   "link": "https://www.diariodesevilla.es/de_compras/robots-aspiradores_0_1627638208.html",
+   "summary": "Te contamos cuáles son los robots aspiradores más potentes y con mejor autonomía del 2026. Y, sobre todo, cuál encaja mejor en tu casa\nLas mejores aspiradoras relación calidad-precio",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T11:54:00Z"
+  },
+  {
+   "title": "s.c. Beatriz López, Alberto Pardo, Adolfo Fernández-Valmayor, Marta Villanueva y Pepe Soto durante el encuentro celebrado el pasado martes en Madrid.",
+   "link": "https://www.malagahoy.es/salud/actualidad/hospitales-aseguradoras-armonizar-procesos_0_2008519254.html",
+   "summary": "El IDIS impulsa un catálogo común de servicios para simplificar la facturación y evitar duplicidades en la gestión sanitaria privada",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T11:52:04Z"
+  },
+  {
+   "title": "España-Fiyi de rugby en Málaga, en fotos",
+   "link": "https://www.malagahoy.es/deportes/entradas-ver-seleccion-espanola-rugby_0_2008519009.html",
+   "summary": "Consigue una de las dos entradas dobles que sorteamos",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T11:46:05Z"
+  },
+  {
+   "title": "Sevilla acogerá el centro de motores de Ryanair con bonificaciones fiscales del Ayuntamiento",
+   "link": "https://www.europapress.es/andalucia/sevilla-00357/noticia-sevilla-acogera-centro-motores-ryanair-bonificaciones-fiscales-ayuntamiento-20261116124049.html",
+   "summary": "El alcalde califica el anuncio de \"muy importante\" para la economía local y agradece el trabajo de la Junta en aras de su implantación",
+   "source": "Europa Press Andalucía",
+   "time": "2026-11-16T11:40:49Z"
+  },
+  {
+   "title": "England stun world champions Spain in Madrid – as fascist Falange activists unfurl ‘Gibraltar is Spanish’ banner",
+   "link": "https://www.theolivepress.es/spain-news/2026/11/16/england-stun-world-champions-spain-with-3-2-win-in-madrid/",
+   "summary": "England’s national anthem was booed and fascist activists unfurled a ‘Gibraltar is Spanish’ banner during a feisty clash in Madrid.",
+   "source": "Olive Press",
+   "time": "2026-11-16T11:30:30Z"
+  },
+  {
+   "title": "Haitam en el Bernabeú",
+   "link": "https://www.malagahoy.es/malaga_cf/haitam-situacion-malaga-cf-conviccion_0_2008518326.html",
+   "summary": "El canterano malaguista visitó Pineda de Mar, donde dio sus primeros pasos en el fútbol, este pasado fin de semana para reconectar con su pasado\nRamón, otro paso adelante del capitán",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T11:23:14Z"
+  },
+  {
+   "title": "Andorra: not yet the EU, but closer",
+   "link": "https://www.surinenglish.com/lifestyle/andorra-not-yet-the-but-closer-20261113135303-nt.html",
+   "summary": "",
+   "source": "Sur in English",
+   "time": "2026-11-16T11:20:54Z"
+  },
+  {
+   "title": "Top aspiradoras del 2026: rendimiento y eficiencia en limpieza doméstica",
+   "link": "https://www.diariodesevilla.es/de_compras/aspiradoras_0_1625537620.html",
+   "summary": "Esto es una guía con análisis profesional par saber qué aspiradora comprar este 2026\nEl mejor robot aspirador para tu casa en 2026: potencia, autonomía y opiniones",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T11:17:00Z"
+  },
+  {
+   "title": "Canary Islands break all-time record with 1,488 migrants rescued in a single day",
+   "link": "https://www.surinenglish.com/spain/canary-islands-smash-20261116000500-nt.html",
+   "summary": "",
+   "source": "Sur in English",
+   "time": "2026-11-16T11:12:58Z"
+  },
+  {
+   "title": "Mejores aspiradores sin cable de 2026: ¿cuál comprar según tus necesidades?",
+   "link": "https://www.diariodesevilla.es/de_compras/aspiradores-sin-cable_0_1629437409.html",
+   "summary": "Seleccionamos y comparamos los mejores aspiradores sin cable de 2026 para ayudarte a tomar la mejor decisión y que hagas una compra inteligente\nLos mejores robots aspiradores de este año: silenciosos y con mapeo inteligente",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T11:11:00Z"
+  },
+  {
+   "title": "Revealed: Footballer’s brother missing from Marbella ‘had links to both sides of Irish gangland feud’",
+   "link": "https://www.thespanisheye.com/2026/11/16/revealed-footballers-brother-missing-from-marbella-had-links-to-both-sides-of-irish-gangland-feud/",
+   "summary": "The revelations add to the background of a disappearance Spanish police are investigating as a possible kidnapping and murder",
+   "source": "The Spanish Eye",
+   "time": "2026-11-16T10:54:49Z"
+  },
+  {
+   "title": "Andalucia marks World Flamenco Day with more than 110 events across the region – many of them free to attend",
+   "link": "https://www.theolivepress.es/spain-news/2026/11/16/world-flamenco-day-andalucia-events-is-this-conversation-helpful-so-far/",
+   "summary": "Andalucia celebrates World Flamenco Day, including live music, dance, workshops, children’s shows and tributes to singer Camaron de la Isla.",
+   "source": "Olive Press",
+   "time": "2026-11-16T10:53:31Z"
+  },
+  {
+   "title": "Valencia sexual assault: two men rape teenager while she rests in friend's car during night out",
+   "link": "https://www.surinenglish.com/spain/rape-minor-valencia-20261116000500-nt.html",
+   "summary": "",
+   "source": "Sur in English",
+   "time": "2026-11-16T10:39:59Z"
+  },
+  {
+   "title": "Técnicos revisan un cuadro eléctrico",
+   "link": "https://www.malagahoy.es/malaga/filial-redes-endesa-detecta-malaga_0_2008518412.html",
+   "summary": "El robo de energía equivale al consumo de 9.500 hogares, según Endesa\nLa marihuana ‘roba’ en tres meses la luz que gastan 19.000 personas un año en Málaga",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T10:23:13Z"
+  },
+  {
+   "title": "Gibraltar airport suffers storm damage and shuts for two days grounding flights to London and Manchester",
+   "link": "https://www.theolivepress.es/spain-news/2026/11/16/gibraltar-airport-shuts-two-days-storm-damage/",
+   "summary": "Britain's Ministry of Defence is repairing storm-damaged air traffic systems at the RAF airfield and expects to reopen at midday on Wednesday.",
+   "source": "Olive Press",
+   "time": "2026-11-16T10:04:49Z"
+  },
+  {
+   "title": "La colección reúne algunas de las señas de identidad de la firma, siluetas favorecedoras, tejidos cuidados y prendas con personalidad, capaces de transformar un look sin renunciar a la comodidad y la versatilidad.",
+   "link": "https://www.diariodesevilla.es/wappissima/tendencias/coleccion-otono-invierno-cherubina-invitada-terciopelo-ponchos-alpaca_0_2008517763.html",
+   "summary": "La firma apuesta por tejidos de calidad, prendas versátiles y detalles artesanales en 'A Winter Affair', una colección que incluye propuestas especiales para Navidad, looks de invitada y el día a día\nAcaban de llegar a Zara los 3 pantalones de fiesta",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T10:00:30Z"
+  },
+  {
+   "title": "Costa Blanca to bask in ‘well above normal’ temperatures this week with 28C highs predicted",
+   "link": "https://www.theolivepress.es/spain-news/2026/11/16/costa-blanca-to-bask-in-above-normal-28c-temperatures-this-week/",
+   "summary": "The unseasonal weather is down to warm westerly winds reaching Alicante province.",
+   "source": "Olive Press",
+   "time": "2026-11-16T09:51:14Z"
+  },
+  {
+   "title": "Seven Britons died of Nolotil-linked blood disorder in Alicante, report reveals",
+   "link": "https://www.thespanisheye.com/2026/11/16/seven-britons-died-of-nolotil-linked-blood-disorder-in-alicante-report-reveals/",
+   "summary": "The report, prepared for the Valencian regional government in 2019, examined hospital cases during 2016 and 2017 across five health districts",
+   "source": "The Spanish Eye",
+   "time": "2026-11-16T09:50:00Z"
+  },
+  {
+   "title": "PSOE promises €200 dental aid and free psychological care within 30 days",
+   "link": "https://www.thespanisheye.com/2026/11/16/psoe-promises-e200-dental-aid-and-free-psychological-care-within-30-days/",
+   "summary": "The proposals are among 20 healthcare measures unveiled on Sunday",
+   "source": "The Spanish Eye",
+   "time": "2026-11-16T09:39:58Z"
+  },
+  {
+   "title": "Record 1,500 people take part in Malaga's Carrera de la Prensa",
+   "link": "https://www.surinenglish.com/sport/record-1500-people-take-part-malagas-carrera-20261116103745-nt.html",
+   "summary": "",
+   "source": "Sur in English",
+   "time": "2026-11-16T09:37:45Z"
+  },
+  {
+   "title": "Malaga province diagnoses over 1,200 cases of prostate cancer a year: the silent tumour men don't talk about",
+   "link": "https://www.surinenglish.com/lifestyle/health/silent-tumour-that-20261116000500-nt.html",
+   "summary": "",
+   "source": "Sur in English",
+   "time": "2026-11-16T09:32:11Z"
+  },
+  {
+   "title": "England end Spain's 43-match unbeaten run with Nations League win in Madrid",
+   "link": "https://www.surinenglish.com/sport/england-end-spains-43match-unbeaten-run-with-20261116100546-nt.html",
+   "summary": "",
+   "source": "Sur in English",
+   "time": "2026-11-16T09:30:47Z"
+  },
+  {
+   "title": "Andalucia opens 541 walk-in flu and Covid vaccination points",
+   "link": "https://www.thespanisheye.com/2026/11/16/andalucia-opens-541-walk-in-flu-and-covid-vaccination-points/",
+   "summary": "The programme includes 107 vaccination points in Malaga province",
+   "source": "The Spanish Eye",
+   "time": "2026-11-16T09:24:24Z"
+  },
+  {
+   "title": "Malaga woman undergoes colon surgery after swallowing two coins 'hidden inside kebab'",
+   "link": "https://www.surinenglish.com/malaga/malaga-city/young-woman-from-20261116000500-nt.html",
+   "summary": "",
+   "source": "Sur in English",
+   "time": "2026-11-16T09:22:00Z"
+  },
+  {
+   "title": "Do you have prominent hand veins? Malaga cardiologist explains when to be concerned",
+   "link": "https://www.thespanisheye.com/2026/11/16/do-you-have-prominent-hand-veins-malaga-cardiologist-explains-when-to-be-concerned/",
+   "summary": "People with less fat beneath their skin often have more noticeable veins, including those with a lean physique.",
+   "source": "The Spanish Eye",
+   "time": "2026-11-16T09:19:14Z"
+  },
+  {
+   "title": "Chester & Punk suma su quinta estrella consecutiva",
+   "link": "https://www.diariosur.es/economia/empresas-sur/chester-punk-suma-quinta-estrella-consecutiva-20261116101636-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-16T09:16:52Z"
+  },
+  {
+   "title": "El IMEC comenzará a construirse en 2027, pero ya busca empresas que le surtan equipos de investigación microelectrónica",
+   "link": "https://www.diariosur.es/malaga/imec-comenara-construirse-2027-busca-empresas-surtan-investigacion-20261116100656-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-16T09:06:56Z"
+  },
+  {
+   "title": "La alcaldesa de Parauta, rumbo a 'GH VIP 9': estos son los famosos que convivirán con ella",
+   "link": "https://www.diariosur.es/culturas/tv/alcaldesa-parauta-rumbo-vip-famosos-conviviran-20261116095826-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-16T08:58:27Z"
+  },
+  {
+   "title": "Primera RFEF: Late Matiti goal earns Juventud de Torremolinos crucial home win",
+   "link": "https://www.surinenglish.com/sport/primera-rfef-late-matiti-goal-earns-juventud-20261116095408-nt.html",
+   "summary": "",
+   "source": "Sur in English",
+   "time": "2026-11-16T08:54:09Z"
+  },
+  {
+   "title": "Malaga's planetarium project re-emerges thanks to local and foreign investors",
+   "link": "https://www.surinenglish.com/malaga/malaga-city/malagas-planetarium-back-20261116000500-nt.html",
+   "summary": "",
+   "source": "Sur in English",
+   "time": "2026-11-16T08:42:45Z"
+  },
+  {
+   "title": "Thousands of fish leap onto Caleta de Vélez quayside while fleeing suspected predator",
+   "link": "https://www.surinenglish.com/malaga/axarquia/thousands-fish-leap-onto-caleta-velez-quayside-20261116093520-nt.html",
+   "summary": "",
+   "source": "Sur in English",
+   "time": "2026-11-16T08:35:20Z"
+  },
+  {
+   "title": "JLR y Chery se alían para lanzar el Freelander 8, un SUV de 620 CV e híbrido enchufable",
+   "link": "https://www.malagahoy.es/motor/jlr-chery-alian-lanzar-freelander_0_2008517372.html",
+   "summary": "El Freelander 8 es el primer modelo de la nueva marca creada por JLR y Chery. Este SUV todoterreno de seis plazas anuncia una versión híbrida enchufable de 620 CV y un interior con pantalla panorámica 8K. Ambas compañías no han anunciado aún su llega",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T06:00:55Z"
+  },
+  {
+   "title": "El Škoda Kodiaq estrena un híbrido enchufable de 272 CV y el acabado Laurin & Klement",
+   "link": "https://www.malagahoy.es/motor/skoda-kodiaq-estrena-hibrido-enchufable_0_2008517363.html",
+   "summary": "El SUV grande de\nŠkoda\n, el Kodiaq de 4,76 m de largo, amplía su gama híbrida enchufable con una nueva versión de 272 CV, 68 CV más que el Kodiaq iV actual, así como con nuevo nivel de equipamiento orientado al mayor confort, ya que se trata del más",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T06:00:53Z"
+  },
+  {
+   "title": "Ramón Enríquez, esta temporada.",
+   "link": "https://www.malagahoy.es/malaga_cf/ramon-paso-adelante-capitan_0_2008507496.html",
+   "summary": "El centrocampista se está asentando y teniendo continuidad en el once\nEinar, titular con Euskadi",
+   "source": "Málaga Hoy",
+   "time": "2026-11-16T05:33:48Z"
+  },
+  {
+   "title": "ERGO DKV Seguros: atención personalizada a particulares, autónomos y empresas",
+   "link": "https://www.diariosur.es/economia/empresas-sur/ergo-dkv-seguros-atencion-personalizada-particulares-autonomos-20261116100456-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-16T00:00:00Z"
+  },
+  {
+   "title": "Vithas Málaga incorpora una resonancia magnética con IA y tecnología sostenible",
+   "link": "https://www.diariosur.es/economia/empresas-sur/vithas-malaga-incorpora-resonancia-magnetica-ia-tecnologia-20261116100705-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-16T00:00:00Z"
+  },
+  {
+   "title": "La Cátedra Real Estate Alfil de San Telmo analiza la crisis de la vivienda",
+   "link": "https://www.diariosur.es/economia/empresas-sur/catedra-real-estate-alfil-san-telmo-analiza-20261116101128-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-16T00:00:00Z"
+  },
+  {
+   "title": "Vox demands more police resources in Marbella after stabbings and reports of gunfire",
+   "link": "https://www.thespanisheye.com/2026/11/16/vox-demands-more-police-resources-in-marbella-after-stabbings-and-reports-of-gunfire/",
+   "summary": "According to Vox, several detonations were heard in El Angel overnight on Thursday and captured on video.",
+   "source": "The Spanish Eye",
+   "time": "2026-11-15T23:04:36Z"
+  },
+  {
+   "title": "Gibraltar Airport to close for 48 hours for storm damage repairs",
+   "link": "https://www.thespanisheye.com/2026/11/15/gibraltar-airport-to-close-for-48-hours-for-storm-damage-repairs/",
+   "summary": "The closure is expected to last until noon on Wednesday",
+   "source": "The Spanish Eye",
+   "time": "2026-11-15T22:54:54Z"
+  },
+  {
+   "title": "PP and Vox retain majority in new Spain election poll but PSOE reduces gap",
+   "link": "https://www.thespanisheye.com/2026/11/15/pp-and-vox-retain-majority-in-new-spain-election-poll-but-psoe-reduces-gap/",
+   "summary": "The PP has gained two seats since the previous daily estimate",
+   "source": "The Spanish Eye",
+   "time": "2026-11-15T22:40:13Z"
+  },
+  {
+   "title": "Abascal says Vox will accept Spain’s election result ‘if there is no cheating’",
+   "link": "https://www.thespanisheye.com/2026/11/15/abascal-says-vox-will-accept-spains-election-result-if-there-is-no-cheating/",
+   "summary": "Santiago Abascal has said Vox will accept the result of the general election ‘if there is no cheating’. Speaking at a rally in Cornella de Llobregat, Barcelona, the hard-right leader made the comments while attacking Pedro Sanchez’s record. Abascal claimed the prime minister did not deserve to carr",
+   "source": "The Spanish Eye",
+   "time": "2026-11-15T22:32:46Z"
+  },
+  {
+   "title": "Los futbolistas de España aplauden a los aficionados del Metropolitano tras su derrota",
+   "link": "https://www.malagahoy.es/deportes/galeria-grafica-espana-inglaterra_3_2008510669.html",
+   "summary": "España - Inglaterra (2-3): Cayó con orgullo y terminó con su racha de imbatibilidad",
+   "source": "Málaga Hoy",
+   "time": "2026-11-15T22:11:44Z"
+  },
+  {
+   "title": "España - Inglaterra (2-3): Cayó con orgullo y terminó con su racha de imbatibilidad",
+   "link": "https://www.malagahoy.es/deportes/espana-inglaterra-2-3-cayo_0_2008508873.html",
+   "summary": "Los ingleses se llevaron el choque en el Metropolitano gracias a los tantos de Harry Kane, Konsa y White; los españoles reaccionaron tarde gracias a Oyarzabal y Nico Williams, pero los británicos se quedan con la primera plaza del grupo A3\nLa galería",
+   "source": "Málaga Hoy",
+   "time": "2026-11-15T21:56:00Z"
+  },
+  {
+   "title": "Precio de la luz hoy: ¿A qué hora es más barata?",
+   "link": "https://www.diariosur.es/economia/mibolsillo/precio-luz-lunes-16-noviembre-2026-mas-barato-20261109000000-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-15T20:20:39Z"
+  },
+  {
+   "title": "Resultados Primera RFEF: El Juventud de Torremolinos vence al Huesca y se acerca a la permanencia",
+   "link": "https://www.malagahoy.es/deportes/resultados-primera-rfef-juventud-torremolinos_3_2008507468.html",
+   "summary": "El Antequera CF cayó derrotado ante el Algeciras CF\nEinar, titular con Euskadi",
+   "source": "Málaga Hoy",
+   "time": "2026-11-15T17:27:37Z"
+  }
+ ]
+}
