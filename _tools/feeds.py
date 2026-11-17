@@ -15,6 +15,8 @@ SOURCES = [
  ("Olive Press", "https://www.theolivepress.es/", ["https://www.theolivepress.es/feed/"]),
  ("101TV Málaga", "https://www.101tv.es/", ["https://www.101tv.es/rss/", "https://www.101tv.es/feed/"]),
  ("Policía Nacional / Guardia Civil Málaga", "https://news.google.com/", ["https://news.google.com/rss/search?q=(%22Polic%C3%ADa+Nacional%22+OR+%22Guardia+Civil%22)+M%C3%A1laga+when:1d&hl=es&gl=ES&ceid=ES:es"]),
+ ("Polskie media – Hiszpania", "https://news.google.com/", ["https://news.google.com/rss/search?q=(Hiszpania+OR+Hiszpanii+OR+Malaga+OR+Maladze+OR+Marbella+OR+Marbelli+OR+%22Costa+del+Sol%22+OR+Andaluzja+OR+Andaluzji)+when:1d&hl=pl&gl=PL&ceid=PL:pl"]),
+ ("Polskie media – Polacy w Hiszpanii", "https://news.google.com/", ["https://news.google.com/rss/search?q=(Polacy+OR+Polak+OR+Polka)+(Hiszpanii+OR+Hiszpania)+when:2d&hl=pl&gl=PL&ceid=PL:pl"]),
  ("Europa Press Andalucía", "https://www.europapress.es/andalucia/", ["https://www.europapress.es/rss/rss.aspx?ch=00279"]),
 ]
 def get(url, t=45):
