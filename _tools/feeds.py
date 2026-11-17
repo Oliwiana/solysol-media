@@ -19,7 +19,7 @@ SOURCES = [
  ("Polskie media – Polacy w Hiszpanii", "https://news.google.com/", ["https://news.google.com/rss/search?q=(Polacy+OR+Polak+OR+Polka)+(Hiszpanii+OR+Hiszpania)+when:2d&hl=pl&gl=PL&ceid=PL:pl"]),
  ("Europa Press Andalucía", "https://www.europapress.es/andalucia/", ["https://www.europapress.es/rss/rss.aspx?ch=00279"]),
 ]
-def get(url, t=45):
+def get(url, t=20):
     r = urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=t)
     return r.status, r.read()
 def discover(home):
@@ -53,7 +53,7 @@ def parse(b):
 now = time.time(); res = {"checked": dt.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"), "sources": [], "items": []}
 for name, home, cands in SOURCES:
     st = {"name": name, "ok": False, "feed": None, "count": 0, "newest": None, "error": None}
-    for u in [c for c in cands for _ in (0, 1)] + discover(home):
+    for u in cands[:1] + cands + discover(home):
         try:
             code, b = get(u); items = parse(b)
             if not items: raise ValueError("pusty kanał")
