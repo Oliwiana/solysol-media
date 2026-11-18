@@ -40,8 +40,8 @@ def P_kalendarz(n, N):
     return frame(n, N, 'Kalendarz', inner)
 
 def P_malaga(n, N):
-    inner = (photo('x_hp2.jpg', 0, 10, 1080, 470, '50% 35%') +
-             f'<div style="position:absolute;left:0;right:0;top:10px;height:470px;background:linear-gradient(180deg,rgba(0,0,0,0) 45%,rgba(0,0,0,.7) 100%)"></div>'
+    inner = (photo('x_hp2.jpg', 0, 10, 1080, 470, '50% 35%', style='none') +
+             f'<div style="position:absolute;left:0;right:0;top:10px;height:470px;background:linear-gradient(180deg,rgba(0,0,0,0) 35%,rgba(0,0,0,.7) 100%)"></div>'
              f'<div style="position:absolute;left:64px;right:64px;top:330px;color:#fff">{kick("Málaga · Temat numeru", "#F2C14E")}{H("Calle Larios <i style=\'color:#F2C14E\'>zapala święta</i>", 74, "#fff")}</div>'
              f'<div style="position:absolute;right:30px;top:20px;font-size:13px;color:rgba(255,255,255,.8)">Fot. Hernán Piñera / Wikimedia Commons, CC BY-SA 2.0</div>'
              f'<div style="position:absolute;left:64px;top:520px;width:560px">'
@@ -59,7 +59,7 @@ def P_malaga(n, N):
 
 def P_marbella(n, N):
     nums = ''.join(f'<div style="background:{c};color:#fff;padding:18px 20px"><div style="{CG}font-size:52px;font-weight:600;line-height:1">{a}</div><div style="font-size:17px;margin-top:6px;line-height:1.3">{b}</div></div>' for a, b, c in [
-        ('3,8 mln', 'lampek LED', RED), ('532', 'świetlne łuki', GRN), ('146', 'oświetlonych drzew', GOLD), ('2 421', 'girland', INKK)])
+        ('3,8 mln', 'lampek LED', RED), ('532', 'świetlne łuki', GRN), ('146', 'oświetlonych drzew', GOLD), ('2 421', 'girland', '#2B2926')])
     inner = (f'<div style="position:absolute;left:64px;right:64px;top:56px">{kick("Marbella · San Pedro")}{H("Anioły nad <i style=\'color:"+RED+"\'>Plaza de los Naranjos</i>", 74)}{rule()}</div>'
              + photo('xmas_naranjos.jpg', 64, 290, 470, 560, '50% 0%', 'Plaza de los Naranjos. Fot. Berthold Werner / Wikimedia Commons, CC BY-SA 3.0')
              + f'<div style="position:absolute;left:570px;right:64px;top:290px">'
@@ -92,8 +92,8 @@ def P_gordo(n, N):
         ('1812', 'Pierwsze losowanie', 'Loteria świąteczna działa od ponad 200 lat – to jedna z najstarszych loterii na świecie.'),
         ('22.12', 'Dzień losowania', 'Od rana cały kraj ogląda transmisję w TVE. Wielu Hiszpanów uważa ten dzień za początek świąt.'),
         ('20 €', 'Décimo', 'Tyle kosztuje dziesiąta część losu. Pełny los (billete) to 10 décimos.')])
-    inner = (photo('xmas_loteria.jpg', 0, 10, 1080, 420, '50% 35%') +
-             f'<div style="position:absolute;left:0;right:0;top:10px;height:420px;background:linear-gradient(180deg,rgba(0,0,0,0) 40%,rgba(0,0,0,.75) 100%)"></div>'
+    inner = (photo('xmas_loteria.jpg', 0, 10, 1080, 420, '50% 35%', style='none') +
+             f'<div style="position:absolute;left:0;right:0;top:10px;height:420px;background:linear-gradient(180deg,rgba(0,0,0,0) 30%,rgba(0,0,0,.75) 100%)"></div>'
              f'<div style="position:absolute;left:64px;right:64px;top:290px;color:#fff">{kick("Tradycja · 22 grudnia", "#F2C14E")}{H("El Gordo – loteria, <i style=\'color:#F2C14E\'>którą żyje cały kraj</i>", 64, "#fff")}</div>'
              f'<div style="position:absolute;right:30px;top:20px;font-size:13px;color:rgba(255,255,255,.85)">Obraz: Christian Franzen, ok. 1900 / Wikimedia Commons, domena publiczna</div>'
              f'<div style="position:absolute;left:64px;top:470px;width:560px">{tl}'
@@ -140,7 +140,7 @@ def P_pl_es(n, N):
 def P_slodycze(n, N):
     items = [('x_turron.jpg', 'Turrón', 'Nugat z migdałów i miodu. Twardy (z Alicante) albo miękki (z Jijony) – oba znajdziesz w każdym supermarkecie.', 'Fot. Juan Emilio Prades Bel / Wikimedia Commons, CC BY 4.0'),
              ('x_rosc.jpg', 'Roscón de Reyes', 'Drożdżowy wieniec z kandyzowanymi owocami, jedzony 6.01. W środku figurka i fasolka.', 'Fot. Juan Emilio Prades Bel / Wikimedia Commons, CC BY 4.0')]
-    cards = ''.join(f'<div>{""}<img src="file://{PH}{a}" style="width:100%;height:300px;object-fit:cover"><div style="font-size:12px;color:{MUT};margin-top:4px">{E(d)}</div>{hdr(b, 38, RED)}<div style="font-size:20px;line-height:1.45">{E(c)}</div></div>' for a, b, c, d in items)
+    cards = ''.join(f'<div>{""}<img src="file://{PH}{a}" style="width:300px;height:300px;object-fit:cover;border-radius:50%;border:6px solid #F2C14E;display:block;margin:0 auto"><div style="font-size:12px;color:{MUT};margin-top:4px">{E(d)}</div>{hdr(b, 38, RED)}<div style="font-size:20px;line-height:1.45">{E(c)}</div></div>' for a, b, c, d in items)
     more = ''.join(f'<div style="border-top:1px solid #CFC5B5;padding:12px 0;display:grid;grid-template-columns:230px 1fr;gap:16px"><div style="{CG}font-size:28px;font-weight:600;color:{GRN}">{a}</div><div style="font-size:19px;line-height:1.4">{b}</div></div>' for a, b in [
         ('Polvorones', 'Kruche ciasteczka z migdałami, które rozsypują się w ustach. Najsłynniejsze pochodzą z Estepy pod Sewillą.'),
         ('Mantecados', 'Krewni polvorones – na smalcu, często cynamonowe lub cytrynowe.'),
@@ -194,19 +194,30 @@ def P_slowniczek(n, N):
     return frame(n, N, 'Po hiszpańsku', inner)
 
 def P_quiz(n, N):
-    q = [('Ile winogron je się o północy w Sylwestra?', 'a) 7   b) 12   c) 24'),
-         ('Kto w Hiszpanii przynosi główne prezenty?', 'a) Mikołaj   b) Aniołek   c) Trzej Królowie'),
-         ('Jak nazywa się główna nagroda świątecznej loterii?', 'a) El Gordo   b) El Grande   c) El Rey'),
-         ('Co znajdziesz w rosconie de Reyes?', 'a) monetę   b) figurkę i fasolkę   c) migdał'),
-         ('Kiedy Hiszpanie robią sobie żarty jak u nas 1 kwietnia?', 'a) 28.12   b) 31.12   c) 6.01'),
-         ('Co oznacza „villancico”?', 'a) wioska   b) kolęda   c) szopka')]
-    qq = ''.join(f'<div style="padding:16px 0;border-top:1px solid #CFC5B5;display:flex;gap:20px"><div style="{CG}font-size:52px;font-weight:600;color:{[RED, GRN, GOLD][i % 3]};line-height:.9;min-width:46px">{i+1}</div><div><div style="font-size:24px;font-weight:700;line-height:1.3">{E(a)}</div><div style="font-size:21px;color:#4A443D;margin-top:6px;white-space:pre">{E(b)}</div></div></div>' for i, (a, b) in enumerate(q))
-    inner = (f'<div style="position:absolute;left:64px;right:64px;top:56px">{kick("Sprawdź się")}{H("Świąteczny <i style=\'color:"+RED+"\'>quiz</i>", 88)}<div style="font-size:22px;color:{MUT};margin-top:10px">Ile wiesz o hiszpańskich świętach? Napisz swój wynik w komentarzu 👇</div>{rule()}{qq}'
-             f'<div style="margin-top:22px;background:{SAND};padding:16px 22px;font-size:19px;transform:rotate(180deg);text-align:center">Odpowiedzi: 1b · 2c · 3a · 4b · 5a · 6b</div></div>')
+    kids = [('Kto w Hiszpanii przynosi prezenty 6 stycznia?', 'a) Mikołaj  b) Trzej Królowie  c) Aniołek'),
+            ('Co dostają od Króli niegrzeczne dzieci?', 'a) rózgę  b) węgiel z cukru  c) nic'),
+            ('Ile winogron je się o północy w Sylwestra?', 'a) 7  b) 12  c) 20'),
+            ('Co jest ukryte w rosconie?', 'a) figurka i fasolka  b) moneta  c) orzech'),
+            ('Jak powiedzieć „Wesołych Świąt” po hiszpańsku?', 'a) ¡Feliz Navidad!  b) ¡Buenos días!  c) ¡Olé!')]
+    adults = [('W którym roku odbyło się pierwsze losowanie loterii świątecznej?', 'a) 1812  b) 1912  c) 1975'),
+              ('Ile kosztuje décimo, czyli los El Gordo?', 'a) 5 €  b) 20 €  c) 100 €'),
+              ('Jak nazywa się hiszpańska pasterka?', 'a) Misa del Gallo  b) Misa del Sol  c) Nochebuena'),
+              ('Gdzie w Maladze odlicza się do Nowego Roku?', 'a) Plaza de la Constitución  b) Muelle Uno  c) Gibralfaro'),
+              ('Kiedy Hiszpanie robią sobie żarty jak u nas 1 kwietnia?', 'a) 24.12  b) 28.12  c) 6.01')]
+    def col(title, emoji, items, start, c):
+        qq = ''.join(f'<div style="padding:18px 0;border-top:1px solid #CFC5B5;display:flex;gap:14px"><div style="{CG}font-size:52px;font-weight:600;color:#F2C14E;line-height:.9;min-width:48px">{start+i}</div><div><div style="font-size:23px;font-weight:700;line-height:1.3">{E(a)}</div><div style="font-size:21px;color:#4A443D;margin-top:6px">{E(b)}</div></div></div>' for i, (a, b) in enumerate(items))
+        return f'<div><div style="display:flex;align-items:center;gap:12px;background:{c};color:{"#2B2926" if c=="#F2C14E" else "#fff"};padding:14px 18px;font-size:20px;font-weight:800;letter-spacing:.18em">{emoji} {title}</div>{qq}</div>'
+    score = ''.join(f'<div style="flex:1;text-align:center;padding:20px 10px;background:{bg};color:#fff"><div style="{CG}font-size:40px;font-weight:600">{a}</div><div style="font-size:17px;margin-top:4px">{b}</div></div>' for a, b, bg in [
+        ('0–4 pkt', 'turysta na start', '#2B2926'), ('5–7 pkt', 'prawie Andaluzyjczyk', '#1F5C3F'), ('8–10 pkt', 'prawdziwy malagueño!', '#B8860B')])
+    inner = (f'<div style="position:absolute;left:64px;right:64px;top:56px">{kick("Zagrajcie razem")}{H("Quiz dla <i style=\'color:"+RED+"\'>całej rodziny</i>", 82)}'
+             f'<div style="font-size:21px;color:{MUT};margin-top:10px">Dzieci odpowiadają na pytania 1–5, dorośli na 6–10. Kto zbierze więcej punktów? Napiszcie wynik w komentarzu 👇</div>{rule()}'
+             f'<div style="display:grid;grid-template-columns:1fr 1fr;gap:30px">{col("DLA DZIECI", "🧒", kids, 1, "#F2C14E")}{col("DLA DOROSŁYCH", "🧑", adults, 6, "#1F5C3F")}</div>'
+             f'<div style="display:flex;gap:10px;margin-top:22px">{score}</div>'
+             f'<div style="margin-top:14px;background:{SAND};padding:14px 22px;font-size:18px;transform:rotate(180deg);text-align:center">Odpowiedzi: 1b · 2b · 3b · 4a · 5a · 6a · 7b · 8a · 9a · 10b</div></div>')
     return frame(n, N, 'Quiz', inner)
 
 def P_koniec(n, N):
-    inner = (photo('x_tree_palm.jpg', 0, 10, 1080, 1340, '50% 40%') +
+    inner = (photo('x_tree_palm.jpg', 0, 10, 1080, 1340, '50% 40%', style='none') +
              f'<div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,24,17,.25) 0%,rgba(8,24,17,.6) 45%,rgba(8,24,17,.94) 70%)"></div>'
              f'<div style="position:absolute;left:64px;right:64px;top:690px;color:#FAF7F2;text-align:center">'
              f'<div style="{CG}font-style:italic;font-size:46px;color:#F2C14E">¡Feliz Navidad!</div>'
