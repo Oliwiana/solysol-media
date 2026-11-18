@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-18T06:13:49Z",
+ "checked": "2026-11-18T06:44:25Z",
  "sources": [
   {
    "name": "The Spanish Eye",
@@ -13,7 +13,7 @@
    "name": "Diario Sur",
    "ok": true,
    "feed": "https://www.diariosur.es/rss/2.0/portada",
-   "count": 79,
+   "count": 80,
    "newest": "2026-11-18T05:19:39Z",
    "error": null
   },
@@ -22,14 +22,14 @@
    "ok": true,
    "feed": "https://www.laopiniondemalaga.es/rss/",
    "count": 20,
-   "newest": "2026-11-18T06:01:11Z",
+   "newest": "2026-11-18T06:35:00Z",
    "error": null
   },
   {
    "name": "Málaga Hoy",
    "ok": true,
    "feed": "https://www.malagahoy.es/rss/",
-   "count": 125,
+   "count": 123,
    "newest": "2026-11-18T06:02:29Z",
    "error": null
   },
@@ -47,7 +47,7 @@
    "feed": null,
    "count": 0,
    "newest": null,
-   "error": "https://www.areacostadelsol.com/feed/: RemoteDisconnected Remote end closed connection without response"
+   "error": "https://www.areacostadelsol.com/feed/: ParseError mismatched tag: line 1, column 167"
   },
   {
    "name": "Marbella Directo",
@@ -141,8 +141,8 @@
    "name": "Polskie media – Hiszpania",
    "ok": true,
    "feed": "https://news.google.com/rss/search?q=(Hiszpania+OR+Hiszpanii+OR+Malaga+OR+Maladze+OR+Marbella+OR+Marbelli+OR+%22Costa+del+Sol%22+OR+Andaluzja+OR+Andaluzji)+when:1d&hl=pl&gl=PL&ceid=PL:pl",
-   "count": 43,
-   "newest": "2026-11-18T02:10:22Z",
+   "count": 44,
+   "newest": "2026-11-18T06:15:00Z",
    "error": null
   },
   {
@@ -163,6 +163,76 @@
   }
  ],
  "items": [
+  {
+   "title": "La crisis en Ceuta, en directo | Última hora y noticias sobre la situación migratoria y la frontera",
+   "link": "https://www.laopiniondemalaga.es/nacional/2026/11/18/ultima-hora-entrada-masiva-ceuta-directo-132971610.html",
+   "summary": "La ciudad de Ceuta afronta las secuelas de la entrada masiva de miles de personas procedentes de Marruecos, en una nueva crisis migratoria que ha llevado al Ejecutivo de Pedro Sánchez a plantearse una reforma de la ley de extranjería para facilitar las repatriaciones en la frontera.",
+   "source": "La Opinión de Málaga",
+   "time": "2026-11-18T06:35:00Z"
+  },
+  {
+   "title": "¿Por qué hay gente que insinúa que Marc Márquez se jubila cuando sigue arrasando con un brazo y medio?",
+   "link": "https://www.laopiniondemalaga.es/motogp/2026/11/18/hay-gente-insinua-marc-marquez-136563050.html",
+   "summary": "Es muy difícil, mucho, que el catalán Marc Márquez Alentà, de 33 años, nueve veces campeón del mundo, no conquiste este fin de semana, en Portimao (Portugal), su 10º título mundial de motociclismo, superando al italiano Valentino Rossi (9) y poniéndose a tiro de los 12+1 del también mítico Ángel Nie",
+   "source": "La Opinión de Málaga",
+   "time": "2026-11-18T06:34:44Z"
+  },
+  {
+   "title": "Última hora de las elecciones generales, en directo | Sánchez y Feijóo, sin mitines, se centran hoy en preparar el cara a cara",
+   "link": "https://www.laopiniondemalaga.es/nacional/2026/11/18/sanchez-elecciones-generales-29-noviembre-directo-134914809.html",
+   "summary": "El presidente del Gobierno, Pedro Sánchez, anunció el lunes 5 de octubre la disolución de las Cortes y el adelanto de las elecciones generales al domingo 29 de noviembre. En una comparecencia en el palacio de la Moncloa, Sánchez defendió el trabajo de su Gobierno durante la legislatura y llamó a los",
+   "source": "La Opinión de Málaga",
+   "time": "2026-11-18T06:30:00Z"
+  },
+  {
+   "title": "Núcleo Nacional puso el foco en extender su actividad a Cataluña: \"La prioridad es ahora Barcelona\"",
+   "link": "https://www.laopiniondemalaga.es/nacional/2026/11/18/nucleo-nacional-puso-foco-extender-136562869.html",
+   "summary": "Un informe de 30 de junio elaborado por la Policía para la jueza de Gijón Carolina Montero Trabanco, que inició la investigación contra Núcleo Nacional (NN) por los presuntos delitos de asociación ilícita e incitación al odio, evidencia el interés de la cúpula de esta asociación neonazi por extender",
+   "source": "La Opinión de Málaga",
+   "time": "2026-11-18T06:21:20Z"
+  },
+  {
+   "title": "Parados sin trabajo y empresas sin candidatos, IA y salarios: los retos del empleo en España y cómo afrontarlos",
+   "link": "https://www.laopiniondemalaga.es/economia/2026/11/18/elecciones-generales-29-noviembre-empleo-retos-nuevo-gobierno-136562776.html",
+   "summary": "Tres de cada 10 empleos creados durante este último lustro en Europa se localizan en España. Su mercado laboral es uno de los más boyantes de la etapa poscovid pero ese elevado ritmo de contratación por parte de las empresas no es suficiente para que España deje de ser uno de los países con mayor ta",
+   "source": "La Opinión de Málaga",
+   "time": "2026-11-18T06:15:05Z"
+  },
+  {
+   "title": "Marina Łuczenko relacjonuje RODZINNY DZIEŃ w Marbelli: wizyta na placu zabaw z Noelią, meczyk Wojtka i Liama... (ZDJĘCIA) - Pudelek.pl",
+   "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNZ3VvdDBBUmN1dmxaR2l2ZTBJWHM1Y0l1eUx1ZWtnOXNIMmNVTVRHenJCYTRaMml1RnNIdUVmcVFzX2o0SS1rYnZ5WWt0b0s1ZHp6NW1jVGt6TVJxWUstbGFrTmRSN2FJRjI2QUxzTUFHcjRFbzZlNEtDdDF0MFg3XzRqWFhyQW5RZE9jeERCRjU1SkswNkdKak9nWFdGTEdESk9LTTZpN0NheDl2T2lwdFVoZVdXNDg1b2d2ejhUTWtMUTNHdVA2UlF1SlBPMUxxTnZPVklxdm5UclZYZHBwRUFiWXo0Vjh0Z3Nj?oc=5",
+   "summary": "Marina Łuczenko relacjonuje RODZINNY DZIEŃ w Marbelli: wizyta na placu zabaw z Noelią, meczyk Wojtka i Liama... (ZDJĘCIA)    Pudelek.pl",
+   "source": "Polskie media – Hiszpania",
+   "time": "2026-11-18T06:15:00Z"
+  },
+  {
+   "title": "De reducir la jornada laboral a una \"renta de activación\" para parados: las propuestas de los partidos sobre empleo",
+   "link": "https://www.laopiniondemalaga.es/economia/2026/11/18/propuestas-partidos-politicos-elecciones-29-noviembre-136562735.html",
+   "summary": "Los partidos políticos muestran sus recetas para gestionar un mercado laboral que se encuentra actualmente en máximos históricos de empleo, si bien también con varias asignaturas pendientes. La izquierda busca hacer de la reducción de jornada laboral su principal baza electoral, mientras que el PP b",
+   "source": "La Opinión de Málaga",
+   "time": "2026-11-18T06:14:01Z"
+  },
+  {
+   "title": "Detrás de Santiago Abascal: Kiko Méndez-Monasterio, el estratega principal y asesor áulico del líder de Vox",
+   "link": "https://www.laopiniondemalaga.es/nacional/2026/11/18/detras-candidato-santiago-abascal-136562714.html",
+   "summary": "Santiago Abascal, como cualquier líder político de larga trayectoria, tiene en su historial personas que en su día fueron muy cercanas, íntimas incluso, pero ya no forman parte de su entorno y ni siquiera de su formación política. Y otras, por el contrario, a las que no hace mucho que conoció pero q",
+   "source": "La Opinión de Málaga",
+   "time": "2026-11-18T06:13:35Z"
+  },
+  {
+   "title": "Sánchez se prepara para afrontar un debate con Feijóo \"embarrado\" y con \"respuestas para todo\"",
+   "link": "https://www.laopiniondemalaga.es/nacional/2026/11/18/sanchez-prepara-afrontar-debate-feijoo-136562694.html",
+   "summary": "Pedro Sánchez y Alberto Núñez Feijóo liberarán sus agendas este jueves para preparar a fondo el debate electoral. El único cara a cara entre los dos candidatos con opciones a presidir el Gobierno pactado tras arduas negociaciones entre los correspondientes equipos para perfilar hasta el mínimo detal",
+   "source": "La Opinión de Málaga",
+   "time": "2026-11-18T06:13:13Z"
+  },
+  {
+   "title": "Feijóo llega \"desatado\" al cara a cara en el que se vio ganador en 2023",
+   "link": "https://www.laopiniondemalaga.es/nacional/2026/11/18/feijoo-llega-desatado-cara-cara-136562661.html",
+   "summary": "Alberto Núñez Feijóo afronta el cara a cara con Pedro Sánchez tres años después del anterior enfrentamiento con el presidente del Gobierno en la campaña electoral del año 2023. Mucho ha pasado desde entonces y mucho ha cambiado. Si en aquella ocasión esa fue la única comparecencia en un debate del c",
+   "source": "La Opinión de Málaga",
+   "time": "2026-11-18T06:12:40Z"
+  },
   {
    "title": "Ciudad de la Justicia.",
    "link": "https://www.malagahoy.es/malaga/junta-ampliacion-ciudad-justicia-malaga_0_2008525733.html",
@@ -276,6 +346,13 @@
    "time": "2026-11-18T06:01:07Z"
   },
   {
+   "title": "La democracia  hay que pedalearla",
+   "link": "https://www.laopiniondemalaga.es/opinion/2026/11/18/democracia-hay-pedalearla-136553683.html",
+   "summary": "Concluida una legislatura conflictiva en extremo, sería ocasión, cara a la siguiente, de comprometer el saneamiento de vicios que, bordeando al menos la legalidad constitucional, han rebajado la calidad de nuestra democracia. Las prórrogas presupuestarias indefinidas reducen el poder del Parlamento,",
+   "source": "La Opinión de Málaga",
+   "time": "2026-11-18T06:01:07Z"
+  },
+  {
    "title": "Las elecciones más vulgares de la historia",
    "link": "https://www.laopiniondemalaga.es/opinion/2026/11/18/elecciones-vulgares-historia-136553680.html",
    "summary": "En contra de la divinización del centro y la mesura, una exageración es siempre más creíble que la verdad plana y desdramatizada. De ahí el categórico «se celebran las elecciones más importantes/decisivas/fundamentales de la historia de la democracia». Al desfigurarlas por exceso, se les arranca su",
@@ -297,34 +374,6 @@
    "time": "2026-11-18T06:01:05Z"
   },
   {
-   "title": "Andalucía, la batalla definitiva: Pedro Sánchez tiene que remontar y el PP frenar a Vox",
-   "link": "https://www.laopiniondemalaga.es/opinion/2026/11/18/elecciones-analisis-andalucia-psoe-vox-pp-136562525.html",
-   "summary": "Hubo un tiempo en el que ganar las generales en Andalucía era condición indispensable para entrar en La Moncloa. Aznar rompió esa máxima en 1996, pero Andalucía, con más de seis millones de electores y 60 diputados, sigue siendo clave.",
-   "source": "La Opinión de Málaga",
-   "time": "2026-11-18T06:01:04Z"
-  },
-  {
-   "title": "Análisis electoral de Isabel Morillo",
-   "link": "https://www.laopiniondemalaga.es/opinion/2026/11/18/analisis-electoral-isabel-morillo-136562489.html",
-   "summary": "Hubo un tiempo en el que ganar las generales en Andalucía era condición indispensable para entrar en La Moncloa. Aznar rompió esa máxima en 1996, pero Andalucía, con más de seis millones de electores y 60 diputados, sigue siendo clave. Los partidos tienen sus calculadoras funcionando en ocho provinc",
-   "source": "La Opinión de Málaga",
-   "time": "2026-11-18T06:01:04Z"
-  },
-  {
-   "title": "Desconchones, pavimento envejecido o mobiliario vandalizado: así está el skate park de San Pedro Alcántara",
-   "link": "https://www.laopiniondemalaga.es/marbella/2026/11/18/patinaje-san-pedro-abandono-136549676.html",
-   "summary": "Un pavimento abrasado por las tablas, los patines y las ruedas, desconchones en las aristas o la pérdida de selladores y acabados. El parque de patinaje de San Pedro Alcántara, en Marbella, presenta diferentes deficiencias y deterioros que comprometen la seguridad de sus usuarios, en su mayor parte,",
-   "source": "La Opinión de Málaga",
-   "time": "2026-11-18T06:01:04Z"
-  },
-  {
-   "title": "Los vecinos de Campanillas vuelven a reclamar el metro para el PTA con una gran pancarta en su sede, 12 años después",
-   "link": "https://www.laopiniondemalaga.es/malaga/2026/11/18/vecinos-campanillas-vuelven-reclamar-metro-136534242.html",
-   "summary": "La Asociación de Vecinos 'Evolución' de Campanillas ha colgado una gran pancarta de su sede en la calle José Calderón, en la que puede leerse 'Ahora es el momento. Metro a Campanillas y PTA, ya'. Se trata de la segunda pancarta que cuelga este veterano colectivo, después de que reclamara lo mismo en",
-   "source": "La Opinión de Málaga",
-   "time": "2026-11-18T06:01:04Z"
-  },
-  {
    "title": "Un sanitario pone una vacuna a una persona.",
    "link": "https://www.malagahoy.es/malaga/puntos-vacunarse-gripe-covid-sin-cita-malaga-miercoles_0_2008527553.html",
    "summary": "A partir de este 18 de noviembre ofrecerán la inoculación sin cita en 107 puntos de la provincia\nMálaga vacunará sin cita contra la gripe y el covid los miércoles en 107 puntos de la provincia",
@@ -332,25 +381,11 @@
    "time": "2026-11-18T06:01:04Z"
   },
   {
-   "title": "Qué hacer si encuentras una mochila sospechosa: los consejos de la Guardia Civil tras las falsas alarmas de bomba en Málaga",
-   "link": "https://www.laopiniondemalaga.es/malaga/2026/11/18/encuentras-mochila-sospechosa-consejos-guardia-136489156.html",
-   "summary": "Tras la explosión mortal ocurrida en Oviedo la semana pasada, una oleada de falsas amenazas de bomba ha recorrido el país, siendo Málaga una de las ciudades más afectadas, con hasta dos incidentes registrados en una misma semana, en Muelle Heredia, en la capital, y en el centro de salud de San Pedro",
-   "source": "La Opinión de Málaga",
-   "time": "2026-11-18T06:01:03Z"
-  },
-  {
    "title": "Qué hacer si encuentras una mochila sospechosa: los consejos de la Guardia Civil tras las falsas alarmas de bomba en Málaga - La Opinión de Málaga",
    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZjB5YVZXcFl2SF9vc05UUVBRbWRxMmc4aVFqS3UzckVDQTNrVXlNMmtNbHF3TTlPM215MklERENVRjJMNDhoRS1pcFBPNFc5cENyWjhhZXBjSnpKNlNzb081R014cTVNZTUxVlRLQ3VhNk5Sa1p2ODRKbHBrdDgtUmp4bXdheHNhV3pmVGEyOWM5LWJCX3F2YXdLTHhLLXAwczNpSUFzYkRjVmtaZlRCdXZB0gG3AUFVX3lxTFBROEw0YkJMUi11ZGNjQ1dfSFhsWHBCR1lLYklWV1RIX1hyaTc0SlM3VjhoVldZOTQzQkE4MGJJRlptM185ckYtWkdXcUpVUXJDcXd2UE5IWExLRUJMbU95azNpdWgwcjF2aTNJaEdqRFR1RmNvVzdkRVRCRHdHYWszV3g3TUhxbFRoVWlvdDktM05NR0FUc21kcmFVV2lLcHBUNzZHU0ZOR1ZCd2tZOVlEUVYtem9TSQ?oc=5",
    "summary": "Qué hacer si encuentras una mochila sospechosa: los consejos de la Guardia Civil tras las falsas alarmas de bomba en Málaga    La Opinión de Málaga",
    "source": "Policía Nacional / Guardia Civil Málaga",
    "time": "2026-11-18T06:01:03Z"
-  },
-  {
-   "title": "La calle de Málaga que albergó un cementerio al que se entraba por una casa: hoy se venden pisos por 155.000 euros",
-   "link": "https://www.laopiniondemalaga.es/malaga/2026/11/18/cementerio-malaga-entraba-casa-pisos-155-euros-136530889.html",
-   "summary": "Los cementerios de Málaga  guardan historias que van mucho más allá de las lápidas y los enterramientos. Algunos cuentan con siglos de antigüedad, otros destacan por su arquitectura y también los hay que conservan curiosidades que han pasado de generación en generación.",
-   "source": "La Opinión de Málaga",
-   "time": "2026-11-18T06:01:02Z"
   },
   {
    "title": "Alberto Núñez Feijóo abraza este martes en Éibar al candidato popular al Congreso por Guipúzcoa, Jon Echevarría.",
@@ -402,13 +437,6 @@
    "time": "2026-11-18T05:05:06Z"
   },
   {
-   "title": "De reducir la jornada laboral a una \"renta de activación\" para parados: las propuestas de los partidos sobre empleo",
-   "link": "https://www.laopiniondemalaga.es/videos/economia/2026/11/18/propuestas-partidos-politicos-empleo-elecciones-generales-29n-136561771.html",
-   "summary": "Los partidos políticos muestran sus recetas para gestionar un mercado laboral que se encuentra actualmente en máximos históricos de empleo, si bien también con varias asignaturas pendientes. La izquierda busca hacer de la reducción de jornada laboral su principal baza electoral, mientras que el PP b",
-   "source": "La Opinión de Málaga",
-   "time": "2026-11-18T05:01:15Z"
-  },
-  {
    "title": "Los trenes que chocaron en el accidente de Urda (Toledo)",
    "link": "https://www.malagahoy.es/opinion/articulos/frentismo-no-descarrila_0_2008531432.html",
    "summary": "",
@@ -416,11 +444,11 @@
    "time": "2026-11-18T05:01:10Z"
   },
   {
-   "title": "Los lazos internacionales del PP: Feijóo busca su espacio entre la derecha tradicional europea y los nuevos líderes latinoamericanos",
-   "link": "https://www.laopiniondemalaga.es/internacional/2026/11/18/alianzas-internacionales-pp-feijoo-elecciones-generales-29n-136561739.html",
-   "summary": "Con la campaña electoral en marcha y las elecciones en el horizonte, Alberto Núñez Feijóo ha intensificado sus contactos internacionales. En la XXX Cumbre Iberoamericana, celebrada a principios de noviembre, el líder de los populares se reunió con el presidente de Ucrania, Volodímir Zelenski, y el d",
-   "source": "La Opinión de Málaga",
-   "time": "2026-11-18T05:01:03Z"
+   "title": "Momento del desahucio de Charo.",
+   "link": "https://www.jaenhoy.es/jaen/hay-detras-desahucio-mes-despues-charo-familia-vivienda-jaen_0_2008522966.html",
+   "summary": "El Ayuntamiento sostiene que no estaba incorporada al circuito de atención y seguimiento de esta área, aunque sí afirman que acudió antes del desahucio para solicitar un informe de vulnerabilidad\nAyuntamiento y Policía Local de Jaén negocian para pon",
+   "source": "Málaga Hoy",
+   "time": "2026-11-18T05:00:57Z"
   },
   {
    "title": "Trabajadores de Airbus Cádiz, en la zona de fabricación de los cubremotores del A320.",
@@ -430,18 +458,11 @@
    "time": "2026-11-18T05:00:39Z"
   },
   {
-   "title": "Candela Peña, Broncano la echó de menos frente a Abascal",
-   "link": "https://www.laopiniondemalaga.es/opinion/2026/11/18/candela-pena-broncano-echo-frente-136561721.html",
-   "summary": "Candela Peña (Barcelona 1973) da mucha candela aquí o allá. Interpreta creando un vórtice expansivo a su alrededor, tipo Furia, donde hace de Nat, la empleada descoordinada de una boutique, o en El Caso Asunta, la miniserie donde borda la mente de Rosario Porto, la inquietante madre condenada por ma",
-   "source": "La Opinión de Málaga",
-   "time": "2026-11-18T05:00:36Z"
-  },
-  {
-   "title": "Alerta por el aumento de las bacterias resistentes en España: las infecciones se disparan pese al menor consumo de antibióticos",
-   "link": "https://www.laopiniondemalaga.es/salud/guia/2026/11/18/alerta-aumento-bacterias-resistentes-espana-antibioticos-136561673.html",
-   "summary": "El consumo de antibióticos se ha reducido en la Unión Europea, pero las infecciones provocadas por bacterias resistentes siguen aumentando. España presenta una evolución especialmente preocupante en algunos de los indicadores analizados por el Centro Europeo para la Prevención y el Control de las En",
-   "source": "La Opinión de Málaga",
-   "time": "2026-11-18T05:00:31Z"
+   "title": "Jaime Mayor Oreja dejó de militar en el PP en 2014 y ahora preside la Fundación Neos.",
+   "link": "https://www.diariodecadiz.es/cadiz/significativo-eta-siga-hoy-mayor_0_2008529136.html",
+   "summary": "El ex dirigente del PP trae hoy a Cádiz ‘Una verdad incómoda’, una “toma de conciencia” sobre la realidad de la España actual  \n“ETA acordó con Zapatero dejar las armas a cambio de poder, y gobernará en el País Vasco en 2028”\nMayor Oreja le cuenta a",
+   "source": "Málaga Hoy",
+   "time": "2026-11-18T04:59:18Z"
   },
   {
    "title": "El origen del tiroteo a las puertas de un club de alterne de Málaga: los sospechosos querían introducir gas de la risa en el local",
@@ -890,6 +911,13 @@
    "summary": "Hoy el Teatro del Soho CaixaBank acoge el estreno de El Gran Gatsby-El Show que estará en Málaga hasta el 22 de noviembre. Esta mañana, la compañía internacional Enrique Gasa Valga Dance Company ha presentado ante los medios un avance de su adaptación del clásico de F. Scott Fitzgerald, a través de",
    "source": "Al Sol de la Costa",
    "time": "2026-11-17T20:51:53Z"
+  },
+  {
+   "title": "El detenido por amedrentar a su madre en Málaga, arrestado nada más salir del juzgado por acercarse a ella",
+   "link": "https://www.diariosur.es/sucesos/detenido-amedrentar-madre-malaga-arrestado-salir-juzgado-20261117215103-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-17T20:51:03Z"
   },
   {
    "title": "Declaraciones de Ayuso sobre Andalucía",
@@ -1508,6 +1536,13 @@
    "time": "2026-11-17T16:17:57Z"
   },
   {
+   "title": "Imagen de un autobús del Consorcio de Transporte de Málaga.",
+   "link": "https://www.malagahoy.es/provincia/consorcio-transportes-malaga-avisa-cambio-recorridos-lineas-autobuses_0_2008527961.html",
+   "summary": "Estos se deben a actuaciones que se están realizando en Benalmádena y en Churriana\nLa EMT reorganiza el autobús en Churriana con la integración de la línea 10 en la 9",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T16:17:00Z"
+  },
+  {
    "title": "Borrego defiende subir los salarios como «la mejor» vía para garantizar las pensiones",
    "link": "https://www.diariosur.es/elecciones/generales/borrego-defiende-subir-salarios-malaga-elecciones-20261117171621-nt.html",
    "summary": "",
@@ -1774,6 +1809,13 @@
    "time": "2026-11-17T14:11:38Z"
   },
   {
+   "title": "Barreiro, ante el Girona.",
+   "link": "https://www.malagahoy.es/unicaja/barreiro-unicaja-trabajando-dia_0_2008527428.html",
+   "summary": "\"Los partidos de la Champions son siempre complicados, así que tenemos que aprovechar los encuentros en casa\", decía el gallego\nNotable ante el Girona",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T14:02:49Z"
+  },
+  {
    "title": "Foreign parents arrested for child abandonment after flying teenagers into Spain on holiday and leaving them near police stations",
    "link": "https://www.theolivepress.es/spain-news/2026/11/17/foreign-parents-fly-in-teens-to-spain-on-holiday-and-abandon-them/",
    "summary": "Police say the families flew in on tourist visas so that Spain would raise their children at the public’s expense.",
@@ -1793,13 +1835,6 @@
    "summary": "Cerco a la construcción ilegal en la Axarquía: la Policía andaluza investiga a cuatro personas por edificaciones en Cajiz    Andalucía Información",
    "source": "Policía Nacional / Guardia Civil Málaga",
    "time": "2026-11-17T14:00:44Z"
-  },
-  {
-   "title": "El portavoz del PSOE, Mariano Ruiz Araujo, en una imagen de archivo.",
-   "link": "https://www.malagahoy.es/malaga/psoe-pide-explicaciones-inmediatas-torre_0_2008527414.html",
-   "summary": "\"Lo que estamos viendo es de una gravedad extraordinaria\", afirma Mariano Ruiz Araujo, que añade que \"las responsabilidades políticas no pueden esperar a una sentencia\"\nLa Fiscalía pide tres años de cárcel para el ex gerente de los aparcamientos de M",
-   "source": "Málaga Hoy",
-   "time": "2026-11-17T13:58:33Z"
   },
   {
    "title": "Una decena de calles y más de 200 establecimientos en el futuro centro comercial abierto de Alhaurín de la Torre",
@@ -1849,6 +1884,13 @@
    "summary": "",
    "source": "Sur in English",
    "time": "2026-11-17T13:43:17Z"
+  },
+  {
+   "title": "Inmigrantes en El Hierro.",
+   "link": "https://www.malagahoy.es/espana/gobierno-critica-dudosa-legalidad-centros_0_2008527333.html",
+   "summary": "El presidente de Canarias, Fernando Clavijo, también califica de \"auténtico disparate\" este acuerdo alcanzado por cinco países europeos\nCinco países europeos crearán en Ruanda el primer centro para deportar inmigrantes fuera de la UE",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T13:42:03Z"
   },
   {
    "title": "La votación de las cuentas municipales.",
@@ -2040,6 +2082,20 @@
    "time": "2026-11-17T12:26:29Z"
   },
   {
+   "title": "Imagen de la prueba de acceso a la universidad en Granada.",
+   "link": "https://www.malagahoy.es/andalucia/pau-mayores-25-anos-andalucia_0_2008526424.html",
+   "summary": "La Junta fija también las fechas para el acceso a la universidad de los mayores de 40 y 45 años\nAndalucía confirma la Prueba de Acceso a la Universidad los días 1, 2 y 3 de junio de 2027",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T12:25:19Z"
+  },
+  {
+   "title": "El ex presidente José Luis Rodríguez Zapatero.",
+   "link": "https://www.malagahoy.es/espana/zapatero-encarga-nueva-tasacion-joyas_0_2008526375.html",
+   "summary": "La defensa propone a dos peritos para una tercera pericial sobre las piezas y pide al juez Calama los informes ya elaborados\nEl juez rechaza investigar a Zapatero por malversación",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T12:20:50Z"
+  },
+  {
    "title": "Marlaska asciende al hermano del mando del 'Delcygate' y mano derecha de la directora de la Guardia Civil - Vozpopuli",
    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOTDFmel9yTWZ3eE9UTDF4OG9qOFo0TS1KYjJUczdkNHF5WUVFR3I2N3JZNkFPUHV4VjcyeERsSTJaT1dCWVlxNl93b3hpWjFVb1FESjlkc25vTEE3eVNBb3JEM1haSzEzczBzdTg3TkJfMW40UjZqVVlKdzhVbXBiVGg3ZTV0bGtORjJ3UU9hNnZaNTZKTW15OTNBa2o3TW1LVU1hWjNRT0hpcmVDX1ByVDVtVjR1YU5VOTcyNzYyX3N2SEN3eldERlRJRzZfZWlBSFpYUE9BUzLSAd4BQVVfeXFMTmRWZVBBZXFhUUtmN2NnR051NHdnY0o5bHdrcXUtSDB0N1pvMVFvU2VDX3JjdnoxQ1dVVmxaQkZOV3M1czRYVF9FaGxvamNtcVdUQ0VOaWl4VjViWlMtSTJRZ1lHUFhOb05XRm4taHhpd3BoNEN2TS1GYjZ4RE5TSktCZEN0LURtQjlza2ZaSmYtLThTeV9GNWhTbzVxVUJTYW9abFh1ZUR4U0x5SnlvU2pia1JXc1JXUUk5NVUzYkEweTJib0RVa2pUUzhBdjAwWTZZNjRiZGdhOUdQb0pn?oc=5",
    "summary": "Marlaska asciende al hermano del mando del 'Delcygate' y mano derecha de la directora de la Guardia Civil    Vozpopuli",
@@ -2122,13 +2178,6 @@
    "summary": "Polska Zbrojna    Polska Zbrojna",
    "source": "Polskie media – Polacy w Hiszpanii",
    "time": "2026-11-17T12:04:19Z"
-  },
-  {
-   "title": "El escrito que ha recibido uno de los pacientes afectados por la huelga de médicos.",
-   "link": "https://www.malagahoy.es/malaga/huelga-medicos-sorprende-pacientes-malaga_0_2008525574.html",
-   "summary": "El paro está convocado por el nuevo Sindicato Médicos Unidos (SMU), entre el 16 y el 28 de noviembre\nCancelaciones, retrasos y viajeros transportados en bus por la huelga de trenes en Málaga",
-   "source": "Málaga Hoy",
-   "time": "2026-11-17T11:59:38Z"
   },
   {
    "title": "Finlandia (U19) – Hiszpania (U19): typy, kursy, zakłady (17.11.2026) - ETOTO Blog",
@@ -2236,13 +2285,6 @@
    "time": "2026-11-17T10:59:11Z"
   },
   {
-   "title": "José Sevilla Álvarez, presidente de Unicaja; e Isidro Rubiales Gil, consejero delegado del banco.",
-   "link": "https://www.malagahoy.es/malaga/isidro-rubiales-renueva-mandato-tres_0_2008525526.html",
-   "summary": "El voto favorable registrado en la Junta General Extraordinaria también ha ido dirigido a la reelección de Nuria Aliño Pérez e Inéz Guzmán Arrue como consejeras independientes\nIsidro Rubiales renueva mandato en Unicaja como consejero delegado hasta 2",
-   "source": "Málaga Hoy",
-   "time": "2026-11-17T10:57:03Z"
-  },
-  {
    "title": "Spanish rail operator Renfe reports failure to maintain minimum services during Tuesday's strike",
    "link": "https://www.surinenglish.com/spain/renfe-reported-failure-20261117000500-nt.html",
    "summary": "",
@@ -2346,13 +2388,6 @@
    "summary": "El vicepresidente segundo y líder de Vox en Andalucía, Manuel Gavira, se ha desmarcado este martes de lo que ha considerado como una \"reflexión muy a la ligera\" del presidente de la Junta y del PP-A, Juanma Moreno, cuando éste señaló que no se montaría en un AVE mientras no se revisara la segurid",
    "source": "Europa Press Andalucía",
    "time": "2026-11-17T10:07:51Z"
-  },
-  {
-   "title": "La Unidad Científica de la Guardia Civil examina las vías de Adamuz.",
-   "link": "https://www.malagahoy.es/andalucia/ex-trabajador-denuncia-balasto-utilizado-adamuz-imcumplia-adif_0_2008525152.html",
-   "summary": "El testigo, que asegura haber sido despedido por negarse a participar en la fabricación y comercialización del material, sostiene que la piedra procedente de la cantera donde trabajaba presentaba un exceso de desgaste y podía fragmentarse con el paso",
-   "source": "Málaga Hoy",
-   "time": "2026-11-17T10:05:03Z"
   },
   {
    "title": "Koszykówka mężczyzn: Eliminacje mistrzostw świata - mecz: Hiszpania - Grecja - Teleman",
@@ -2479,13 +2514,6 @@
    "summary": "Zimą ogrzejesz się w Walencji, Alicante albo Maladze: 7 lotów do Hiszpanii od 10 stycznia, od 176 zł    Tanie-Loty.com.pl",
    "source": "Polskie media – Hiszpania",
    "time": "2026-11-17T08:33:22Z"
-  },
-  {
-   "title": "Pasajeros esperando el tren, este martes",
-   "link": "https://www.malagahoy.es/malaga/cancelaciones-retrasos-viajeros-transportados-bus-huelga-trenes-malaga_0_2008524412.html",
-   "summary": "Pasajeros de un par de servicios entre Santa Justa y María Zambrano han tenido que ser transportados por carretera y la paralización es \"total\" en los talleres de Los Prados y en trabajos de mantenimiento\nLos Cercanías de Málaga acumulan retrasos de",
-   "source": "Málaga Hoy",
-   "time": "2026-11-17T08:22:54Z"
   },
   {
    "title": "Nace una plataforma digital para mejorar la gestión de las aguas subterráneas andaluzas",
@@ -2621,25 +2649,11 @@
    "time": "2026-11-17T06:01:06Z"
   },
   {
-   "title": "Miriam Nogueras y Dos Hermanas",
-   "link": "https://www.diariodesevilla.es/doshermanas/madre-nazarena-hija-junts-raices_0_2008522465.html",
-   "summary": "La dirigente de Junts conserva el vínculo con su familia andaluza y ha hablado públicamente de su procedencia nazarena: su madre emigró a Cataluña y una tía protagoniza uno de sus recuerdos de infancia",
-   "source": "Málaga Hoy",
-   "time": "2026-11-17T06:00:54Z"
-  },
-  {
    "title": "Un guardia civil en una imagen de archivo.",
    "link": "https://www.malagahoy.es/malaga/trama-secuestrar-hombre-alhaurin-torre_0_2008520842.html",
    "summary": "La ex pareja de la víctima planeó el rapto desde la cárcel junto a otra persona\nEl portero con un disparo en el pecho está estable, pendiente de evolución",
    "source": "Málaga Hoy",
    "time": "2026-11-17T06:00:50Z"
-  },
-  {
-   "title": "Sala Divas, en calle Flauta Mágica, 3, dentro del distrito de Cruz de Humilladero.",
-   "link": "https://www.malagahoy.es/malaga/trabajadores-proximos-sala-divas-reclaman_0_2008519799.html",
-   "summary": "Vecinos advierten de peleas y altercados de clientes en la calle a primera hora\nEl portero al que dispararon en el pecho en una sala de fiestas de Málaga sigue hospitalizado, pendiente de evolución",
-   "source": "Málaga Hoy",
-   "time": "2026-11-17T06:00:36Z"
   },
   {
    "title": "Andalucía strengthens its healthcare response to disasters with a comprehensive plan",
@@ -2663,20 +2677,6 @@
    "time": "2026-11-17T05:33:53Z"
   },
   {
-   "title": "El embalse del Guadalcacín es el mayor de la provincia de Cádiz y está en la actualidad al 83,7% de su capacidad.",
-   "link": "https://www.malagahoy.es/andalucia/embalses-andalucia-ganan-agua-primera_0_2008524048.html",
-   "summary": "Las reservas en los pantanos de la comunidad autónoma no se encontraban en ese nivel desde el 2014 \nLa cuenca del Guadalquivir cuenta con más de 2.200 hectómetros cúbicos más que el año pasado\nLos embalses andaluces continúan perdiendo agua aunque se",
-   "source": "Málaga Hoy",
-   "time": "2026-11-17T05:01:29Z"
-  },
-  {
-   "title": "Universidad Loyola (Campus Córdoba)",
-   "link": "https://www.malagahoy.es/bc-malaga/loyola-amplia-presencia-andalucia-nuevos_0_2008524028.html",
-   "summary": "La universidad jesuita inicia su proceso de admisión para el curso 2027/2028 con una oferta académica renovada y un claro compromiso con la excelencia, la innovación y la empleabilidad",
-   "source": "Málaga Hoy",
-   "time": "2026-11-17T05:01:20Z"
-  },
-  {
    "title": "Coins from Egypt, Italy and France unearthed in Malaga metro's Roman necropolis",
    "link": "https://www.surinenglish.com/malaga/malaga-city/coins-from-egypt-20261116000500-nt.html",
    "summary": "",
@@ -2696,6 +2696,13 @@
    "summary": "",
    "source": "Diario Sur",
    "time": "2026-11-17T04:47:00Z"
+  },
+  {
+   "title": "Flo y Santiago Segura se abrazan, descargando tensión en el duelo final ante el veredicto del jurado",
+   "link": "https://www.malagahoy.es/television/cena-amiguetes-masterchef-victoria-doble_0_2008523523.html",
+   "summary": "El programa de La 1 vuelve a dictar un doble ganador, Flo y Santiago Segura, que emocionaron con sus platos del duelo\nSantiago Segura humilla a Flo y expulsión jerezana en 'MasterChef Legends'\nFamosos a la cocina: la segunda oportundad de ‘MasterChef",
+   "source": "Málaga Hoy",
+   "time": "2026-11-17T01:50:59Z"
   },
   {
    "title": "WATCH: Huge fire erupts in Marbella’s San Pedro overnight",
@@ -3048,18 +3055,18 @@
    "time": "2026-11-16T12:06:09Z"
   },
   {
+   "title": "Aktualny ranking FIFA. Miejsce reprezentacji Polski - Gotowi na Sport",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5MR1NxVjNRWFlGNDRucm91V2s5U3h0TlpleTBSYk1QTW1vdzZadEYya25wVE1YTDdnYVp5a09DaG5TanZGbHl5R0JGN3VHVVJNdjJSWjh4dGs5M3JjcDlOSUFLeTduSEFxV2NfSlBKLWs?oc=5",
+   "summary": "Aktualny ranking FIFA. Miejsce reprezentacji Polski    Gotowi na Sport",
+   "source": "Polskie media – Polacy w Hiszpanii",
+   "time": "2026-11-16T12:05:07Z"
+  },
+  {
    "title": "Spanish police and CNI intelligence service clash over Moroccan responsibility for Ceuta border surge",
    "link": "https://www.surinenglish.com/spain/between-intelligence-services-20261116000500-nt.html",
    "summary": "",
    "source": "Sur in English",
    "time": "2026-11-16T12:03:42Z"
-  },
-  {
-   "title": "Carmen Barbadillo junto a su abuela, Lala, en una imagen familiar.",
-   "link": "https://www.malagahoy.es/salud/actualidad/cuidar-cuido_0_2008519341.html",
-   "summary": "El 65% de los cuidadores percibe efectos en su salud, según el II Estudio del Observatorio Cinfa de los Cuidados \nCarmen cuenta cómo es atender a su abuela de 95 años",
-   "source": "Málaga Hoy",
-   "time": "2026-11-16T11:58:58Z"
   },
   {
    "title": "Las mejores eSIMs de 2025 para viajar al extranjero: tarifas económicas y marcas",
@@ -3158,20 +3165,6 @@
    "summary": "Kiedy gra Polska? Mecze reprezentacji Polski 2026    STS",
    "source": "Polskie media – Polacy w Hiszpanii",
    "time": "2026-11-16T08:00:00Z"
-  },
-  {
-   "title": "Ten kraj jest najlepszy na emeryturę. Oto nowy ranking - Business Insider Polska",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbEpmY1EydUFJa0Z1RC0zMjcwY3k4NmpEMHBYS0hxWVhvUnJHbWU4bWw5OFpHOXItVnNIMDhuQXdmb1BYcDFBVEFnNWNnMWhPMHJxTGJwTGx4ckJNcjJYbUg1NnIyS202LTdaeFhxcWQ3b1R3MS1OcXdwUzZ6enMzaHFIWDBWUjNfel9hSHhhbzBfcUJyNk1WUg?oc=5",
-   "summary": "Ten kraj jest najlepszy na emeryturę. Oto nowy ranking    Business Insider Polska",
-   "source": "Polskie media – Polacy w Hiszpanii",
-   "time": "2026-11-16T07:27:12Z"
-  },
-  {
-   "title": "Muérete joven lo más tarde posible",
-   "link": "https://www.elperiodicodemarbella.com/muerete-joven-lo-mas-tarde-posible/",
-   "summary": "El doctor marbellí Francisco Martínez Peñalver presenta este martes, a las 19.00 horas en el Hospitalillo, su libro Medicina de Longevidad, todo un manual que explica de manera sencilla y esclarecedora cómo vivir más años con energía y claridad mental, reduciendo al mínimo la vejez enferma.",
-   "source": "El Periódico de Marbella",
-   "time": "2026-11-16T06:32:02Z"
   },
   {
    "title": "El gasto en personal del Ayuntamiento de Marbella supera ya los 200 millones",
