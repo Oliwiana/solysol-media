@@ -5,8 +5,17 @@
 import json, sys, os, html
 exec(open('/home/claude/social/posty10/gen.py').read().split("P={}")[0])
 d = json.load(open(sys.argv[1])); out = sys.argv[2]; os.makedirs(out, exist_ok=True)
+G = d.get('guide') or {}
+TH = G.get('theme')
+if TH == 'swieta':
+    INK='#123D2B'; ORG='#C62828'; ORL='#F2C14E'; RED='#8E1C22'
+    DECO = ('<div style="position:absolute;inset:0;pointer-events:none;background-image:radial-gradient(rgba(255,255,255,.55) 1.6px,transparent 2px),radial-gradient(rgba(242,193,78,.5) 1.2px,transparent 1.6px);background-size:90px 90px,140px 140px;background-position:10px 20px,60px 75px;opacity:.55"></div>'
+            '<div style="position:absolute;left:0;right:0;top:0;height:14px;background:repeating-linear-gradient(90deg,#C62828 0 40px,#F2C14E 40px 52px,#1F6B45 52px 92px,#F2C14E 92px 104px)"></div>'
+            '<div style="position:absolute;left:0;right:0;bottom:0;height:14px;background:repeating-linear-gradient(90deg,#1F6B45 0 40px,#F2C14E 40px 52px,#C62828 52px 92px,#F2C14E 92px 104px)"></div>'
+            '<div style="position:absolute;right:46px;bottom:120px;font-size:64px;opacity:.9">🎄</div>')
 ED = {'rano': ('Poranek', 'na wybrzeżu', 'PORANEK', '19:00', 'wieczorem'),
       'wieczor': ('Wieczór', 'na wybrzeżu', 'WIECZÓR', '8:00', 'jutro rano')}[d.get('edition', 'rano')]
+if G: ED = (G['t1'], G['t2'], G['mast'], '', '')
 items = d['items'][:8]; N = len(items) + 2; DATE = d['date']
 PH = '/home/claude/photos_raw/'
 def esc(t): return html.escape(t or '', quote=False)
@@ -19,7 +28,13 @@ def foot(txt, fg=IV, line='rgba(246,241,232,.3)'):
     return (f'<div style="position:absolute;left:70px;right:70px;bottom:52px;display:flex;justify-content:space-between;align-items:center;border-top:1.5px solid {line};padding-top:20px;color:{fg};font-size:20px;letter-spacing:.12em;font-weight:600">'
             f'<span style="opacity:.75">{txt}</span><span>SOLYSOL.PL</span></div>')
 def tag(t): return f'<span style="display:inline-block;background:{ORG};color:#fff;font-size:20px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;padding:9px 16px">{esc(t)}</span>'
-def write(name, body, bg=INK, fg=IV): open(f'{out}/{name}.html', 'w').write(page(body, bg, fg))
+def write(name, body, bg=INK, fg=IV):
+    if TH == 'swieta':
+        if bg == INK and name.isdigit() and int(name) % 2 == 1 and name != '01':
+            bg = RED; body = body.replace(f'background:{ORG};color:#fff', 'background:#1F6B45;color:#fff')
+        if bg == IV: bg = '#FFF6E5'
+        body = body.replace('rgba(23,21,19,', 'rgba(10,40,28,') + DECO
+    open(f'{out}/{name}.html', 'w').write(page(body, bg, fg))
 
 # 1. okładka – spis wiadomości
 lst = ''.join(f'<div style="display:flex;gap:22px;align-items:baseline;padding:15px 0;border-top:1px solid rgba(246,241,232,.22)">'
@@ -31,7 +46,7 @@ write('01', f'''<img src="file://{PH}{d["photo"]}" style="position:absolute;inse
 {mast(1)}
 <div style="position:absolute;left:70px;right:70px;top:170px">
 <div style="{CG}font-size:118px;font-weight:500;line-height:.95">{ED[0]} <i style="color:{ORL}">{ED[1]}</i></div>
-<div style="font-size:24px;letter-spacing:.16em;font-weight:600;margin-top:18px;color:#E6DED1">{len(items)} NAJWAŻNIEJSZYCH SPRAW · {DATE}</div></div>
+<div style="font-size:24px;letter-spacing:.16em;font-weight:600;margin-top:18px;color:#E6DED1">{G.get('sub') or f'{len(items)} NAJWAŻNIEJSZYCH SPRAW · {DATE}'}</div></div>
 <div style="position:absolute;left:70px;right:70px;top:{470 if len(items)<=6 else 420}px">{lst}</div>
 <div style="position:absolute;right:70px;top:400px;font-size:15px;color:rgba(246,241,232,.65)">{esc(d.get("credit",""))}</div>
 {foot('PRZESUŃ  →')}''')
@@ -55,8 +70,7 @@ for i, it in enumerate(items):
 # ostatni slajd
 write(f'{N:02d}', f'''{mast(N, INK, 'rgba(23,21,19,.25)')}
 <div style="position:absolute;left:70px;right:70px;top:300px;color:{INK}">
-<div style="{CG}font-size:92px;font-weight:500;line-height:1">To wszystko<br><i style="color:{ORG}">na {('teraz' if ED[2]=='PORANEK' else 'dziś')}.</i></div>
-<div style="font-size:32px;line-height:1.45;margin-top:40px">Kolejne wydanie – <b>{ED[4]}, o {ED[3]}</b>.<br>Pilne sprawy publikujemy od razu.</div>
+{G.get('end') or f'<div style="{CG}font-size:92px;font-weight:500;line-height:1">To wszystko<br><i style="color:{ORG}">na {("teraz" if ED[2]=="PORANEK" else "dziś")}.</i></div><div style="font-size:32px;line-height:1.45;margin-top:40px">Kolejne wydanie – <b>{ED[4]}, o {ED[3]}</b>.<br>Pilne sprawy publikujemy od razu.</div>'}
 <div style="font-size:30px;line-height:1.45;margin-top:34px">Szczegóły każdej wiadomości – na <b>solysol.pl</b></div>
 <div style="display:flex;gap:18px;margin-top:56px;font-size:21px;font-weight:700;letter-spacing:.16em">
 <span style="border:2px solid {INK};padding:14px 20px">🔔 WŁĄCZ POWIADOMIENIA</span><span style="border:2px solid {INK};padding:14px 20px">ZAPISZ · UDOSTĘPNIJ</span></div></div>
