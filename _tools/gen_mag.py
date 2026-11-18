@@ -26,7 +26,7 @@ def rule(c=None, w=3):
     return f'<div style="height:{w}px;background:{c};margin:18px 0"></div>'
 PHOTO_STYLE = ['blob', 'fade']
 def photo(p, x, y, w, h, pos='50% 50%', cap='', style=None):
-    st = style or ('blob' if (x + y) % 2 == 0 else 'fade')
+    st = style or 'none'
     if st == 'blob':
         css = 'border-radius:48% 52% 44% 56% / 55% 45% 55% 45%;-webkit-mask-image:radial-gradient(ellipse 72% 72% at 50% 50%,#000 62%,transparent 100%)'
     elif st == 'fade':
@@ -52,21 +52,32 @@ def src(t):
     return f'<div style="position:absolute;left:64px;right:64px;bottom:84px;font-size:13px;color:{MUT}">Źródła: {E(t)}</div>'
 
 THEMES = {
+ 'light': dict(PAPER='#FFFDF8', INKK='#1E1B18', MUT='#7A6F63', SAND='#F4ECDD', RED='#A4161A', GRN='#14452F', GOLD='#B8892B', LINE='#E2D8C6', SUB='#4A443D', ZEB='#FBF6EC', CARD='#FFFFFF'),
  'green': dict(PAPER='#123D2B', INKK='#FFF6E5', MUT='#BFD6C6', SAND='rgba(255,255,255,.09)', RED='#F2C14E', GRN='#E0574B', GOLD='#F2C14E', LINE='rgba(242,193,78,.35)', SUB='#E3EDE6', ZEB='rgba(255,255,255,.05)', CARD='rgba(255,255,255,.14)'),
  'red':   dict(PAPER='#8E1C22', INKK='#FFF6E5', MUT='#F1CFCB', SAND='rgba(255,255,255,.1)', RED='#F2C14E', GRN='#8EDDB0', GOLD='#F2C14E', LINE='rgba(242,193,78,.4)', SUB='#F8E6E3', ZEB='rgba(255,255,255,.06)', CARD='rgba(255,255,255,.15)'),
 }
 def build(PAGES, out, seq=('green', 'red')):
     os.makedirs(out, exist_ok=True); N = len(PAGES); g = globals()
+    seq = g.get('THEME_SEQ', seq)
     for i, f in enumerate(PAGES):
-        t = THEMES[seq[i % len(seq)]]
+        t = THEMES[seq[i % len(seq)] if seq[i % len(seq)] in THEMES else 'light']
         for k, v in t.items(): g[k] = v
         h = f(i + 1, N)
         for a, b in [('#CFC5B5', t['LINE']), ('#4A443D', t['SUB']), ('#D9CDB8', t['LINE']), ('rgba(239,230,214,.6)', t['ZEB']),
                      ('background:#fff;border', 'background:' + t['CARD'] + ';border'), ('rgba(0,0,0,.7) 100%', t['PAPER'] + ' 100%'),
-                     ('rgba(0,0,0,.75) 100%', t['PAPER'] + ' 100%'), ('rgba(201,154,46,.35) 1.4px', 'rgba(255,255,255,.35) 1.4px')]:
+                     ('rgba(0,0,0,.75) 100%', t['PAPER'] + ' 100%'), ('rgba(201,154,46,.35) 1.4px', 'rgba(255,255,255,.35) 1.4px' if t['PAPER'] != '#FFFDF8' else 'rgba(0,0,0,0) 1.4px')]:
             h = h.replace(a, b)
         open(f'{out}/{i+1:02d}.html', 'w').write(h)
     print('ok', N)
+
+def dc(text, c=None):
+    c = c or RED
+    return f'<p style="font-size:21px;line-height:1.55;margin:0 0 14px"><span style="float:left;{CG}font-size:96px;line-height:.78;font-weight:600;color:{c};margin:8px 12px 0 0">{text[0]}</span>{text[1:]}</p>'
+def pull(t, c=None):
+    c = c or RED
+    return f'<div style="border-top:3px solid {c};border-bottom:1px solid {c};padding:18px 0;margin:10px 0 18px"><div style="{CG}font-style:italic;font-size:36px;line-height:1.15;color:{c}">„{t}”</div></div>'
+def cap(t, x, y, w, al='left'):
+    return f'<div style="position:absolute;left:{x}px;top:{y}px;width:{w}px;font-size:14px;font-style:italic;color:{MUT};text-align:{al}">{E(t)}</div>'
 
 if __name__ == '__main__':
     exec(open(sys.argv[1]).read(), globals())

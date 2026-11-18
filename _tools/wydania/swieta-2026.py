@@ -3,7 +3,7 @@ def P_cover(n, N):
     return open('/home/claude/swieta_up/cover_A.html').read()
 
 def P_liczby(n, N):
-    g = lambda a, b, c=RED: f'<div style="border-top:2px solid {INKK};padding-top:14px">{stat(a, b, c)}</div>'
+    g = lambda a, b, c=None: f'<div style="border-top:2px solid {INKK};padding-top:14px">{stat(a, b, c or RED)}</div>'
     stats = (g('2,8 mln', 'lampek LED w centrum Malagi – włączenie 27.11') + g('3,8 mln', 'lampek w Marbelli i San Pedro', GRN) +
              g('20 €', 'kosztuje décimo, czyli los El Gordo', GOLD) + g('1812', 'rok pierwszego losowania loterii świątecznej') +
              g('12', 'winogron o północy w Sylwestra', GRN) + g('ok. 17°C', 'średnio w dzień w grudniu w Maladze', GOLD))
@@ -15,9 +15,10 @@ def P_liczby(n, N):
     inner = (f'<div style="position:absolute;left:64px;right:64px;top:56px">{kick("Na start")}{H("Święta w liczbach", 88)}{rule()}'
              f'<div style="display:grid;grid-template-columns:1fr 1fr;gap:26px 40px;width:560px">{stats}</div></div>'
              f'<div style="position:absolute;left:668px;right:64px;top:222px">{hdr("Krótko", 34)}{short}</div>'
-             + photo('x_hp2.jpg', 64, 760, 560, 360, '50% 40%', 'Calle Larios w Maladze. Fot. Hernán Piñera / Wikimedia Commons, CC BY-SA 2.0')
-             + f'<div style="position:absolute;left:668px;right:64px;top:790px">' + box('Czy wiesz, że…', 'W Hiszpanii święta trwają aż do 6 stycznia – najważniejszy dzień dla dzieci to Trzech Króli, a nie Wigilia.', RED) + '</div>'
-             + src('Ayuntamiento de Málaga, Marbella, Fuengirola, Estepona; Loterías y Apuestas del Estado; AEMET (średnie klimatyczne). Stan na 18.11.2026.'))
+             + photo('x_hp2.jpg', 0, 790, 1080, 460, '50% 42%')
+             + f'<div style="position:absolute;right:64px;top:740px;width:400px;background:{RED};color:#fff;padding:26px 28px;box-shadow:0 18px 40px rgba(0,0,0,.25)"><div style="font-size:15px;font-weight:800;letter-spacing:.22em;color:#F7D9A0">CZY WIESZ, ŻE…</div><div style="{CG}font-size:30px;line-height:1.2;margin-top:8px">Hiszpańskie święta trwają do 6 stycznia – najważniejszy dzień dla dzieci to Trzech Króli.</div></div>'
+             + f'<div style="position:absolute;left:64px;top:1214px;font-size:13px;color:#fff;text-shadow:0 1px 3px rgba(0,0,0,.6)">Calle Larios w Maladze. Fot. Hernán Piñera / Wikimedia Commons, CC BY-SA 2.0</div>'
+             + f'<div style="position:absolute;left:64px;right:64px;bottom:84px"></div>')
     return frame(n, N, 'Na start', inner)
 
 def P_kalendarz(n, N):
@@ -40,51 +41,52 @@ def P_kalendarz(n, N):
     return frame(n, N, 'Kalendarz', inner)
 
 def P_malaga(n, N):
-    inner = (photo('x_hp2.jpg', 0, 10, 1080, 470, '50% 35%', style='none') +
-             f'<div style="position:absolute;left:0;right:0;top:10px;height:470px;background:linear-gradient(180deg,rgba(0,0,0,0) 35%,rgba(0,0,0,.7) 100%)"></div>'
-             f'<div style="position:absolute;left:64px;right:64px;top:330px;color:#fff">{kick("Málaga · Temat numeru", "#F2C14E")}{H("Calle Larios <i style=\'color:#F2C14E\'>zapala święta</i>", 74, "#fff")}</div>'
-             f'<div style="position:absolute;right:30px;top:20px;font-size:13px;color:rgba(255,255,255,.8)">Fot. Hernán Piñera / Wikimedia Commons, CC BY-SA 2.0</div>'
-             f'<div style="position:absolute;left:64px;top:520px;width:560px">'
-             + p('<b>Święta na Costa del Sol zaczynają się w Maladze.</b> W piątek 27.11 o 18:30 przy wejściu na calle Larios zapalą się świąteczne światła – w centrum to w sumie <b>2,8 mln lampek LED</b>. Zaraz potem darmowy koncert El Kanki.')
-             + p('Główna atrakcja to pokaz światła i muzyki „Natividad de Luz”: lampki nad calle Larios zmieniają się w rytm muzyki. Pokazy trwają do 4.01, trzy razy wieczorem. Nie ma ich tylko 24 i 31.12.')
-             + p('Od 28.11 warto też podejść pod katedrę. Na jej wieży wyświetlany jest mapping – barwne obrazy na kamiennej fasadzie.')
-             + f'</div><div style="position:absolute;left:666px;right:64px;top:520px">'
-             + box('Pokazy na Larios', '<b style="font-size:30px">18:30 · 20:30 · 22:00</b><br>codziennie do 4.01<br>(bez 24 i 31.12)', RED)
-             + '<div style="height:16px"></div>'
-             + box('Mapping na katedrze', '<b style="font-size:30px">19:00 · 20:30 · 22:00</b><br>od 28.11', GRN)
-             + '<div style="height:16px"></div>'
-             + box('Czy wiesz, że…', 'Oświetlenie calle Larios co roku przyciąga do Malagi turystów z całej Europy – a o Maladze mówi się, że ma jedne z najpiękniejszych świątecznych świateł w Hiszpanii.', SAND, INKK, RED)
+    inner = (photo('x_hp2.jpg', 0, 0, 1080, 640, '50% 30%') +
+             f'<div style="position:absolute;left:0;right:0;top:0;height:640px;background:linear-gradient(180deg,rgba(0,0,0,.35) 0%,rgba(0,0,0,0) 30%,rgba(0,0,0,.05) 55%,rgba(0,0,0,.8) 100%)"></div>'
+             f'<div style="position:absolute;left:64px;right:64px;top:430px;color:#fff">{kick("Temat numeru · Málaga", "#F2C14E")}{H("Calle Larios <i style=\'color:#F2C14E\'>zapala święta</i>", 86, "#fff")}</div>'
+             f'<div style="position:absolute;right:30px;top:22px;font-size:13px;color:rgba(255,255,255,.85)">Fot. Hernán Piñera / Wikimedia Commons, CC BY-SA 2.0</div>'
+             f'<div style="position:absolute;left:64px;top:690px;width:580px;columns:2;column-gap:30px">'
+             + dc('Święta na Costa del Sol zaczynają się w Maladze. W piątek 27.11 o 18:30 przy wejściu na calle Larios zapalą się świąteczne światła – w centrum to w sumie 2,8 mln lampek LED. Zaraz potem darmowy koncert El Kanki.')
+             + p('Główna atrakcja to pokaz światła i muzyki „Natividad de Luz” – lampki nad ulicą zmieniają się w rytm muzyki. Pokazy trwają do 4.01, trzy razy wieczorem, poza 24 i 31.12.', 20)
+             + p('Od 28.11 warto podejść też pod katedrę: na jej wieży wyświetlany jest mapping – barwne obrazy na kamiennej fasadzie.', 20)
+             + '</div>'
+             f'<div style="position:absolute;left:690px;right:64px;top:690px">'
+             + f'<div style="background:{GRN};color:#fff;padding:24px 26px"><div style="font-size:15px;font-weight:800;letter-spacing:.2em;color:#F2C14E">POKAZY NA LARIOS</div><div style="{CG}font-size:40px;font-weight:600;margin-top:6px">18:30 · 20:30 · 22:00</div><div style="font-size:18px;opacity:.9">codziennie do 4.01, bez 24 i 31.12</div>'
+             + f'<div style="height:1px;background:rgba(255,255,255,.3);margin:16px 0"></div><div style="font-size:15px;font-weight:800;letter-spacing:.2em;color:#F2C14E">MAPPING NA KATEDRZE</div><div style="{CG}font-size:40px;font-weight:600;margin-top:6px">19:00 · 20:30 · 22:00</div><div style="font-size:18px;opacity:.9">od 28.11</div></div>'
+             + pull('W centrum Malagi zaświeci 2,8 mln lampek.')
              + '</div>' + src('Ayuntamiento de Málaga; que.es; malagaes.com; marbella-sanpedro.com. Stan na 18.11.2026.'))
     return frame(n, N, 'Málaga', inner)
 
 def P_marbella(n, N):
-    nums = ''.join(f'<div style="background:{c};color:#fff;padding:18px 20px"><div style="{CG}font-size:52px;font-weight:600;line-height:1">{a}</div><div style="font-size:17px;margin-top:6px;line-height:1.3">{b}</div></div>' for a, b, c in [
-        ('3,8 mln', 'lampek LED', RED), ('532', 'świetlne łuki', GRN), ('146', 'oświetlonych drzew', GOLD), ('2 421', 'girland', '#2B2926')])
-    inner = (f'<div style="position:absolute;left:64px;right:64px;top:56px">{kick("Marbella · San Pedro")}{H("Anioły nad <i style=\'color:"+RED+"\'>Plaza de los Naranjos</i>", 74)}{rule()}</div>'
-             + photo('xmas_naranjos.jpg', 64, 290, 470, 560, '50% 0%', 'Plaza de los Naranjos. Fot. Berthold Werner / Wikimedia Commons, CC BY-SA 3.0')
-             + f'<div style="position:absolute;left:570px;right:64px;top:290px">'
-             + p('W tym roku Marbella stawia na <b>pokazy muzyczne</b>. Na Plaza de los Naranjos, najbardziej znanym placu starego miasta, staną <b>cztery wielkie anioły</b>. Pokazy – trzy razy dziennie.', 21)
-             + p('San Pedro Alcántara dostanie własną atrakcję: <b>świetlny las</b> na Marqués del Duero, też z trzema pokazami dziennie.', 21)
+    nums = ''.join(f'<div style="border-top:2px solid {c};padding-top:10px"><div style="{CG}font-size:50px;font-weight:600;line-height:1;color:{c}">{a}</div><div style="font-size:17px;margin-top:6px;color:{MUT}">{b}</div></div>' for a, b, c in [
+        ('3,8 mln', 'lampek LED', RED), ('532', 'świetlne łuki', GRN), ('146', 'oświetlonych drzew', GOLD), ('2 421', 'girland', RED)])
+    inner = (photo('xmas_naranjos.jpg', 0, 0, 470, 1350, '92% 0%')
+             + f'<div style="position:absolute;left:470px;top:0;width:10px;height:1350px;background:{GOLD}"></div>'
+             + cap('Plaza de los Naranjos w Marbelli. Fot. Berthold Werner / Wikimedia Commons, CC BY-SA 3.0', 24, 1300, 430)
+             + f'<div style="position:absolute;left:530px;right:64px;top:70px">{kick("Marbella · San Pedro")}{H("Anioły nad <i style=\'color:"+RED+"\'>Plaza de los Naranjos</i>", 70)}{rule()}'
+             + dc('W tym roku Marbella stawia na pokazy muzyczne. Na Plaza de los Naranjos, najbardziej znanym placu starego miasta, staną cztery wielkie anioły – z trzema pokazami dziennie.')
+             + p('San Pedro Alcántara dostanie własną atrakcję: świetlny las na Marqués del Duero, też z trzema pokazami dziennie.', 20)
+             + pull('Cztery wielkie anioły i świetlny las.', GRN)
+             + f'<div style="display:grid;grid-template-columns:1fr 1fr;gap:18px 26px">{nums}</div>'
+             + '<div style="height:22px"></div>'
              + box('Kiedy włączenie świateł?', 'Ratusz jeszcze nie podał daty. Rok temu San Pedro zaczęło w piątek, a Marbella dzień później. Damy znać od razu.', SAND, INKK, RED)
-             + '</div>'
-             + f'<div style="position:absolute;left:64px;right:64px;top:900px;display:grid;grid-template-columns:repeat(4,1fr);gap:14px">{nums}</div>'
-             + f'<div style="position:absolute;left:64px;right:64px;top:1060px">{box("Czy wiesz, że…", "Plac Pomarańczy powstał pod koniec XV wieku, a drzewa pomarańczowe, od których wziął nazwę, posadzono w 1941 roku.", GRN)}</div>'
-             + src('Ayuntamiento de Marbella; Marbella Directo; La Noción; Área Costa del Sol; Wikipedia (Plaza de los Naranjos). Stan na 18.11.2026.'))
+             + '</div>' + f'<div style="position:absolute;left:530px;right:64px;bottom:84px;font-size:13px;color:{MUT}">Źródła: Ayuntamiento de Marbella; Marbella Directo; La Noción; Área Costa del Sol. Stan na 18.11.2026.</div>')
     return frame(n, N, 'Marbella', inner)
 
 def P_fue_est(n, N):
-    inner = (f'<div style="position:absolute;left:64px;right:64px;top:56px">{kick("Fuengirola · Estepona")}{H("Jarmark, churros <i style=\'color:"+GRN+"\'>i 2,77 mln lampek</i>", 74)}{rule()}</div>'
-             + photo('xmas_fue.jpg', 64, 290, 455, 330, '50% 60%', 'Fuengirola. Fot. Javi Masa / Wikimedia Commons, CC BY 3.0')
-             + photo('est2.jpg', 561, 290, 455, 330, '50% 50%', 'Estepona. Fot. Christian Hergesell / Unsplash')
-             + f'<div style="position:absolute;left:64px;top:670px;width:455px">{hdr("Fuengirola", 40, RED)}'
-             + p('Światła zapalają się w piątek 27.11 i świecą do 6.01. Najbardziej ozdobiona będzie <b>Plaza de España</b>.', 20)
-             + p('Na <b>Plaza de la Constitución</b> staje świąteczny jarmark z drewnianymi domkami: ozdoby, prezenty, rękodzieło – od końca listopada do ok. 21.12.', 20)
-             + f'<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin-top:6px">{stat("446","łuków",RED,44)}{stat("164","latarni",GRN,44)}{stat("63","figury",GOLD,44)}</div></div>'
-             + f'<div style="position:absolute;left:561px;top:670px;width:455px">{hdr("Estepona", 40, GRN)}'
-             + p('Estepona włącza światła we <b>wtorek 1.12 o 19:00</b> na Plaza del Ajedrez.', 20)
+    inner = (photo('xmas_fue.jpg', 0, 0, 536, 520, '50% 60%') + photo('est2.jpg', 544, 0, 536, 520, '50% 50%')
+             + f'<div style="position:absolute;left:536px;top:0;width:8px;height:520px;background:{GOLD}"></div>'
+             + f'<div style="position:absolute;left:64px;right:64px;top:440px;background:{PAPER};padding:26px 30px 6px;box-shadow:0 -10px 30px rgba(0,0,0,.12)">{kick("Fuengirola · Estepona")}{H("Jarmark, churros <i style=\'color:"+GRN+"\'>i 2,77 mln lampek</i>", 66)}</div>'
+             + f'<div style="position:absolute;left:64px;top:650px;width:440px">{hdr("Fuengirola", 40, RED)}'
+             + dc('Światła zapalają się w piątek 27.11 i świecą do 6.01. Najbardziej ozdobiona będzie Plaza de España.', RED)
+             + p('Na <b>Plaza de la Constitución</b> staje jarmark z drewnianymi domkami: ozdoby, prezenty, rękodzieło – od końca listopada do ok. 21.12.', 20)
+             + f'<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin-top:6px">{stat("446","łuków",RED,46)}{stat("164","latarni",GRN,46)}{stat("63","figury",GOLD,46)}</div></div>'
+             + f'<div style="position:absolute;left:576px;top:650px;width:440px">{hdr("Estepona", 40, GRN)}'
+             + dc('Estepona włącza światła we wtorek 1.12 o 19:00 na Plaza del Ajedrez.', GRN)
              + p('W programie kolędy grup <i>pastorales</i>, <b>churros z czekoladą</b> dla wszystkich i flashmob ponad 30 muzyków na żywo.', 20)
              + box('Słowo na dziś', '<b>Pastorales</b> – grupy, które śpiewają tradycyjne andaluzyjskie kolędy przy tamburynach i zambombach.', SAND, INKK, RED)
-             + '</div>' + src('Ayuntamiento de Fuengirola (fuengirola.es); Área Costa del Sol; Ayuntamiento de Estepona; Al Sol de la Costa; Diario Costa. Stan na 18.11.2026.'))
+             + '</div>' + cap('Fuengirola i Estepona. Fot. Javi Masa / Wikimedia Commons, CC BY 3.0; Christian Hergesell / Unsplash', 64, 1215, 952)
+             + src('Ayuntamiento de Fuengirola; Área Costa del Sol; Ayuntamiento de Estepona; Al Sol de la Costa. Stan na 18.11.2026.'))
     return frame(n, N, 'Fuengirola · Estepona', inner)
 
 def P_gordo(n, N):
@@ -169,17 +171,18 @@ def P_ciekawostki(n, N):
     return frame(n, N, 'Ciekawostki', inner)
 
 def P_sylwester(n, N):
-    inner = (f'<div style="position:absolute;left:64px;right:64px;top:56px">{kick("Sylwester · Trzech Króli")}{H("Winogrona, cava <i style=\'color:"+RED+"\'>i trzech króli</i>", 78)}{rule()}</div>'
-             + photo('xmas_uvas.jpg', 64, 290, 455, 330, '50% 80%', 'Fot. Zarateman / Wikimedia Commons, CC0')
-             + photo('x_rosc.jpg', 561, 290, 455, 330, '50% 45%', 'Fot. Juan Emilio Prades Bel / Wikimedia Commons, CC BY 4.0')
-             + f'<div style="position:absolute;left:64px;top:670px;width:455px">{hdr("31.12 – Nochevieja", 38, RED)}'
-             + p('O północy Hiszpanie zjadają <b>12 winogron</b> – po jednym przy każdym uderzeniu zegara. Każde to szczęście na jeden miesiąc.', 20)
-             + p('W Maladze wspólne odliczanie odbywa się na <b>Plaza de la Constitución</b>. Potem toast cavą – hiszpańskim winem musującym.', 20)
+    inner = (photo('xmas_uvas.jpg', 0, 0, 536, 520, '50% 80%') + photo('x_rosc.jpg', 544, 0, 536, 520, '50% 45%')
+             + f'<div style="position:absolute;left:536px;top:0;width:8px;height:520px;background:{GOLD}"></div>'
+             + f'<div style="position:absolute;left:64px;right:64px;top:440px;background:{PAPER};padding:26px 30px 6px;box-shadow:0 -10px 30px rgba(0,0,0,.12)">{kick("Sylwester · Trzech Króli")}{H("Winogrona, cava <i style=\'color:"+RED+"\'>i trzech króli</i>", 66)}</div>'
+             + f'<div style="position:absolute;left:64px;top:650px;width:440px">{hdr("31.12 – Nochevieja", 38, RED)}'
+             + dc('O północy Hiszpanie zjadają 12 winogron – po jednym przy każdym uderzeniu zegara. Każde to szczęście na jeden miesiąc.', RED)
+             + p('W Maladze wspólne odliczanie odbywa się na <b>Plaza de la Constitución</b>. Potem toast cavą.', 20)
              + box('Wskazówka', 'Wybierz małe winogrona bez pestek – na 12 uderzeń zegara jest tylko kilkanaście sekund.', GRN) + '</div>'
-             + f'<div style="position:absolute;left:561px;top:670px;width:455px">{hdr("5–6.01 – Reyes", 38, GRN)}'
-             + p('Wieczorem 5.01 przez miasta przechodzą <b>Cabalgatas de Reyes</b> – barwne pochody, z wozów leci w tłum deszcz cukierków.', 20)
+             + f'<div style="position:absolute;left:576px;top:650px;width:440px">{hdr("5–6.01 – Reyes", 38, GRN)}'
+             + dc('Wieczorem 5.01 przez miasta przechodzą Cabalgatas de Reyes – barwne pochody, z wozów leci w tłum deszcz cukierków.', GRN)
              + p('Rano 6.01 dzieci znajdują prezenty, a na stół trafia <b>roscón de Reyes</b>. To dzień wolny.', 20)
-             + box('Dla rodziców', 'Na cabalgatę weź torbę lub odwrócony parasol – dzieci łapią do niego cukierki.', RED) + '</div>')
+             + box('Dla rodziców', 'Na cabalgatę weź torbę lub odwrócony parasol – dzieci łapią do niego cukierki.', RED) + '</div>'
+             + cap('Fot. Zarateman / Wikimedia Commons, CC0; Juan Emilio Prades Bel / Wikimedia Commons, CC BY 4.0', 64, 1215, 952))
     return frame(n, N, 'Tradycje', inner)
 
 def P_slowniczek(n, N):
@@ -228,4 +231,5 @@ def P_koniec(n, N):
              f'<div style="position:absolute;right:30px;top:24px;font-size:13px;color:rgba(255,255,255,.85)">Fot. Bogdan Migulski / Wikimedia Commons, CC BY 2.0</div>')
     return page(GARL + inner, '#08180F', '#FAF7F2')
 
+THEME_SEQ = ['light','light','green','light','light','light','red','light','light','light','light','red','light','light','light']
 PAGES = [P_cover, P_liczby, P_kalendarz, P_malaga, P_marbella, P_fue_est, P_gordo, P_mit, P_pl_es, P_slodycze, P_sylwester, P_ciekawostki, P_slowniczek, P_quiz, P_koniec]
