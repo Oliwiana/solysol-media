@@ -1,0 +1,56 @@
+[
+ {
+  "id": "canal-sur-sarria-1811",
+  "mast": "WIADOMOŚCI",
+  "photo": "canalsur4.jpg",
+  "pos": "50% 50%",
+  "desk": "Wiadomości · Andaluzja",
+  "head": "Canal Sur odsuwa Manolo Sarrię. <i style=\"color:#E0874F\">Jest skarga na policji</i>",
+  "deck": "Publiczna telewizja Andaluzji zawiesiła odcinki „Atrápame si puedes” prowadzone przez humorystę z Malagi. Powodem jest zgłoszenie o domniemanym molestowaniu.",
+  "ftitle": "Co wiemy",
+  "pts": [
+   ["17.11", "decyzja Canal Sur", "odsunięcie jest tymczasowe i zapobiegawcze"],
+   ["1", "skarga złożona na policji", "złożyła ją charakteryzatorka z programu"],
+   ["firma", "zewnętrzna", "zgłaszająca pracuje dla podwykonawcy produkcji"],
+   ["0", "tolerancji", "tak Canal Sur zapowiada podejście do sprawy"]
+  ],
+  "note": "Obowiązuje domniemanie niewinności. Sprawę bada policja, a produkcja programu prowadzi własne wyjaśnienia.",
+  "atitle": "Co dalej",
+  "steps": [
+   "Odcinki prowadzone przez Sarrię zniknęły z ramówki do odwołania.",
+   "RTVA dostała oficjalne zawiadomienie od firmy produkującej program.",
+   "Canal Sur wyraził „najwyższe zaniepokojenie” sprawą.",
+   "Sarria to jeden z najbardziej znanych komików z Malagi – śledzimy sprawę."
+  ],
+  "fbbox": "CO WIEMY",
+  "src": "101TV, La Opinión de Málaga, Málaga Hoy, El Español Málaga, eldiario.es (17.11.2026); fot. VOX España / Wikimedia Commons, CC0",
+  "credit": "Fot. VOX España / Wikimedia Commons, CC0"
+ },
+ {
+  "id": "suntech-malaga-1811",
+  "mast": "NOWOŚĆ",
+  "photo": "fycma1.jpg",
+  "pos": "50% 50%",
+  "desk": "Nowość · Technologie · Málaga",
+  "head": "Startupy zjeżdżają do Malagi. <i style=\"color:#E0874F\">Dziś rusza Sun&amp;Tech</i>",
+  "deck": "Dwa dni pitchów, inwestorów i debat o AI, cyberbezpieczeństwie i energii. Spotkanie w Palacio de Ferias otwiera burmistrz Francisco de la Torre.",
+  "ftitle": "W liczbach",
+  "pts": [
+   ["18–19.11", "dwa dni wydarzenia", "Palacio de Ferias y Congresos (FYCMA)"],
+   ["30", "startupów na scenie", "pitche w 7 blokach – od cyberbezpieczeństwa po klimat"],
+   ["8", "funduszy w „reverse pitch”", "to inwestorzy przedstawiają się startupom"],
+   ["34", "prelegentów", "m.in. Marc Vidal i eksperci Google oraz Vodafone"]
+  ],
+  "note": "Organizatorzy: Alhambra Venture i Diario Sur. Bilety sprzedaje platforma Venture Hub. Program może się zmienić.",
+  "atitle": "Program na dziś",
+  "steps": [
+   "9:00 rejestracja, 9:30 otwarcie z burmistrzem Malagi.",
+   "10:15 wykład Marca Vidala, potem AI, 6G i cyberbezpieczeństwo.",
+   "16:30 „reverse pitch” – 8 funduszy prezentuje się startupom.",
+   "18:10 nagrody Emprende XXI, 21:30 kolacja networkingowa."
+  ],
+  "fbbox": "PROGRAM",
+  "src": "Diario Sur (18.11.2026); sunandtech.es – program (18.11.2026); fot. Tyk / Wikimedia Commons, CC BY-SA 3.0",
+  "credit": "Fot. Tyk / Wikimedia Commons, CC BY-SA 3.0"
+ }
+]
