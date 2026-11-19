@@ -25,7 +25,7 @@ def P_kalendarz(n, N):
     rows = [('27.11', 'pt', 'Málaga · Fuengirola', 'Włączenie świateł. W Maladze o 18:30, potem koncert El Kanki.'),
             ('28.11', 'sob', 'Málaga', 'Rusza mapping na wieży katedry – 19:00, 20:30, 22:00.'),
             ('1.12', 'wt', 'Estepona', 'Światła, kolędy pastorales, churros z czekoladą i flashmob.'),
-            ('8.12', 'wt', 'Cała Hiszpania', 'Święto Niepokalanego Poczęcia – dzień wolny.'),
+            ('7–8.12', 'pn–wt', 'Andaluzja', 'Dzień Konstytucji (przeniesiony z niedzieli) i Niepokalane Poczęcie – dwa dni wolne.'),
             ('ok. 21.12', '', 'Fuengirola', 'Ostatnie dni jarmarku na Plaza de la Constitución.'),
             ('22.12', 'wt', 'Cała Hiszpania', 'El Gordo – losowanie od rana na żywo w TVE.'),
             ('24.12', 'czw', 'Nochebuena', 'Wigilia. Sklepy otwarte, ale zamykają wcześniej.'),
@@ -69,7 +69,7 @@ def P_marbella(n, N):
              + pull('Cztery wielkie anioły i świetlny las.', GRN)
              + f'<div style="display:grid;grid-template-columns:1fr 1fr;gap:18px 26px">{nums}</div>'
              + '<div style="height:22px"></div>'
-             + box('Kiedy włączenie świateł?', 'Ratusz jeszcze nie podał daty. Rok temu San Pedro zaczęło w piątek, a Marbella dzień później. Damy znać od razu.', SAND, INKK, RED)
+             + box('Kiedy włączenie świateł?', 'Ratusz jeszcze nie podał daty. Damy znać od razu, gdy ją ogłosi.', SAND, INKK, RED)
              + '</div>' + f'<div style="position:absolute;left:530px;right:64px;bottom:84px;font-size:13px;color:{MUT}">Źródła: Ayuntamiento de Marbella; Marbella Directo; La Noción; Área Costa del Sol. Stan na 18.11.2026.</div>')
     return frame(n, N, 'Marbella', inner)
 
@@ -144,7 +144,7 @@ def P_slodycze(n, N):
              ('x_rosc.jpg', 'Roscón de Reyes', 'Drożdżowy wieniec z kandyzowanymi owocami, jedzony 6.01. W środku figurka i fasolka.', 'Fot. Juan Emilio Prades Bel / Wikimedia Commons, CC BY 4.0')]
     cards = ''.join(f'<div>{""}<img src="file://{PH}{a}" style="width:300px;height:300px;object-fit:cover;border-radius:50%;border:6px solid #F2C14E;display:block;margin:0 auto"><div style="font-size:12px;color:{MUT};margin-top:4px">{E(d)}</div>{hdr(b, 38, RED)}<div style="font-size:20px;line-height:1.45">{E(c)}</div></div>' for a, b, c, d in items)
     more = ''.join(f'<div style="border-top:1px solid #CFC5B5;padding:12px 0;display:grid;grid-template-columns:230px 1fr;gap:16px"><div style="{CG}font-size:28px;font-weight:600;color:{GRN}">{a}</div><div style="font-size:19px;line-height:1.4">{b}</div></div>' for a, b in [
-        ('Polvorones', 'Kruche ciasteczka z migdałami, które rozsypują się w ustach. Najsłynniejsze pochodzą z Estepy pod Sewillą.'),
+        ('Polvorones', 'Kruche ciasteczka z migdałami, które rozsypują się w ustach. Najsłynniejsze pochodzą z Estepy w prowincji Sewilla.'),
         ('Mantecados', 'Krewni polvorones – na smalcu, często cynamonowe lub cytrynowe.'),
         ('Pestiños', 'Andaluzyjskie smażone ciasteczka w miodzie, z nutą anyżu.'),
         ('Mazapán', 'Marcepan – najbardziej znany jest ten z Toledo.')])
@@ -246,7 +246,7 @@ def P_dzieci(n, N):
              + f'<div style="position:absolute;left:666px;right:64px;top:510px">'
              + box('Pamiętaj', 'W Hiszpanii najważniejszy dzień dla dzieci to <b>6 stycznia</b>. Wiele rodzin daje drobny prezent 25.12, a główny – od Króli.', RED)
              + '<div style="height:16px"></div>'
-             + box('Daty w Twojej gminie', 'Wioski Mikołaja, kuligi świetlne i cabalgaty gminy ogłaszają zwykle na przełomie listopada i grudnia. Podamy je w wydaniach o 8:00 i 19:00.', SAND, INKK, RED)
+             + box('Daty w Twojej gminie', 'Wioski Mikołaja, pokazy świateł i cabalgaty gminy ogłaszają zwykle na przełomie listopada i grudnia. Podamy je w wydaniach o 8:00 i 19:00.', SAND, INKK, RED)
              + '</div>' + src('Ayuntamientos gmin Costa del Sol. Stan na 19.11.2026.'))
     return frame(n, N, 'Dla rodzin', inner)
 
@@ -290,7 +290,7 @@ def P_prezenty(n, N):
     return frame(n, N, 'Do walizki', inner)
 
 def P_praktycznie(n, N):
-    days = [('8.12', 'wtorek', 'Niepokalane Poczęcie – dzień wolny'), ('24.12', 'czwartek', 'Wigilia – sklepy krócej'),
+    days = [('7.12', 'poniedziałek', 'Dzień Konstytucji (przeniesiony) – dzień wolny'), ('8.12', 'wtorek', 'Niepokalane Poczęcie – dzień wolny'), ('24.12', 'czwartek', 'Wigilia – sklepy krócej'),
             ('25.12', 'piątek', 'Boże Narodzenie – dzień wolny'), ('31.12', 'czwartek', 'Sylwester – sklepy krócej'),
             ('1.01', 'piątek', 'Nowy Rok – dzień wolny'), ('6.01', 'środa', 'Trzech Króli – dzień wolny')]
     dd = ''.join(f'<div style="display:grid;grid-template-columns:120px 1fr;gap:16px;padding:20px 0;border-top:1px solid #CFC5B5"><div style="{CG}font-size:40px;font-weight:600;color:{RED if "wolny" in c else GOLD};line-height:1">{a}</div><div><div style="font-size:14px;font-weight:800;letter-spacing:.18em;color:{MUT}">{b.upper()}</div><div style="font-size:21px">{E(c)}</div></div></div>' for a, b, c in days)
@@ -304,7 +304,7 @@ def P_praktycznie(n, N):
              + f'<div style="position:absolute;left:64px;right:64px;top:240px;color:#fff">{kick("Praktycznie", "#F2C14E")}{H("Co warto <i style=\'color:#F2C14E\'>wiedzieć</i>", 80, "#fff")}</div>'
              + f'<div style="position:absolute;right:30px;top:20px;font-size:13px;color:rgba(255,255,255,.9)">Cercanías C1. Fot. Tyk / Wikimedia Commons, domena publiczna</div>'
              + f'<div style="position:absolute;left:64px;top:440px;width:450px">{hdr("Dni wolne i krótsze", 30, RED)}{dd}'
-             + f'<div style="font-size:16px;color:{MUT};margin-top:10px">6.12 (Dzień Konstytucji) wypada w niedzielę. 26.12 w Andaluzji to zwykły dzień.</div></div>'
+             + f'<div style="font-size:16px;color:{MUT};margin-top:10px">Od 5 do 8.12 – cztery dni wolne z rzędu. 26.12 w Andaluzji to zwykły dzień.</div></div>'
              + f'<div style="position:absolute;left:566px;right:64px;top:440px">{hdr("Przyda się", 30, GRN)}{tt}</div>'
              + src('BOE; Junta de Andalucía – kalendarz świąt 2026; Renfe; Colegio de Farmacéuticos de Málaga. Stan na 19.11.2026.'))
     return frame(n, N, 'Praktycznie', inner)
