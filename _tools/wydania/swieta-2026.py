@@ -231,5 +231,96 @@ def P_koniec(n, N):
              f'<div style="position:absolute;right:30px;top:24px;font-size:13px;color:rgba(255,255,255,.85)">Fot. Bogdan Migulski / Wikimedia Commons, CC BY 2.0</div>')
     return page(GARL + inner, '#08180F', '#FAF7F2')
 
-THEME_SEQ = ['light','light','green','light','light','light','red','light','light','light','light','red','light','light','light']
-PAGES = [P_cover, P_liczby, P_kalendarz, P_malaga, P_marbella, P_fue_est, P_gordo, P_mit, P_pl_es, P_slodycze, P_sylwester, P_ciekawostki, P_slowniczek, P_quiz, P_koniec]
+
+def P_dzieci(n, N):
+    ideas = [('Wioska Mikołaja', 'Aldea de Papá Noel – w grudniu ma ją większość gmin wybrzeża. Dzieci oddają list i robią zdjęcie z Mikołajem.'),
+             ('Listy do Trzech Króli', 'W centrach handlowych i na placach siedzą „paziowie” Króli. To im dzieci wręczają listy z życzeniami.'),
+             ('Szopki – belenes', 'Ratusze i bractwa ustawiają duże szopki z ruchomymi figurkami. Wstęp zwykle jest bezpłatny.'),
+             ('Cabalgata 5.01', 'Wieczorny pochód Trzech Króli. Z wozów lecą cukierki – weź torbę albo odwrócony parasol.')]
+    ii = ''.join(f'<div style="display:flex;gap:16px;padding:16px 0;border-top:1px solid #CFC5B5"><div style="{CG}font-size:46px;font-weight:600;color:{[RED, GRN, GOLD, RED][i]};line-height:.9;min-width:44px">{i+1}</div><div><div style="font-size:23px;font-weight:700">{E(a)}</div><div style="font-size:20px;line-height:1.42;color:#4A443D;margin-top:3px">{E(b)}</div></div></div>' for i, (a, b) in enumerate(ideas))
+    inner = (photo('x_parque.jpg', 0, 0, 1080, 470, '50% 30%')
+             + f'<div style="position:absolute;left:0;right:0;top:0;height:470px;background:linear-gradient(180deg,rgba(0,0,0,.2) 0%,rgba(0,0,0,.35) 40%,rgba(0,0,0,.85) 100%)"></div>'
+             + f'<div style="position:absolute;left:64px;right:64px;top:300px;color:#fff;text-shadow:0 2px 12px rgba(0,0,0,.5)">{kick("Dla rodzin", "#F2C14E")}{H("Święta <i style=\'color:#F2C14E\'>z dziećmi</i>", 86, "#fff")}</div>'
+             + f'<div style="position:absolute;right:30px;top:20px;font-size:13px;color:rgba(255,255,255,.9)">Fot. Daniel Capilla / Wikimedia Commons, CC BY-SA 4.0</div>'
+             + f'<div style="position:absolute;left:64px;top:510px;width:560px">{ii}</div>'
+             + f'<div style="position:absolute;left:666px;right:64px;top:510px">'
+             + box('Pamiętaj', 'W Hiszpanii najważniejszy dzień dla dzieci to <b>6 stycznia</b>. Wiele rodzin daje drobny prezent 25.12, a główny – od Króli.', RED)
+             + '<div style="height:16px"></div>'
+             + box('Daty w Twojej gminie', 'Wioski Mikołaja, kuligi świetlne i cabalgaty gminy ogłaszają zwykle na przełomie listopada i grudnia. Podamy je w wydaniach o 8:00 i 19:00.', SAND, INKK, RED)
+             + '</div>' + src('Ayuntamientos gmin Costa del Sol. Stan na 19.11.2026.'))
+    return frame(n, N, 'Dla rodzin', inner)
+
+def P_polska_wigilia(n, N):
+    subs = [('Karp', 'dorada, lubina albo dorsz – świeże w każdej rybnej'),
+            ('Barszcz', 'remolacha cocida – gotowane buraki w próżniowych opakowaniach'),
+            ('Śledzie', 'arenque – w słoikach w sklepach z produktami ze Wschodu'),
+            ('Kapusta i grzyby', 'chucrut i suszone grzyby – też w tych sklepach')]
+    ss = ''.join(f'<div style="display:grid;grid-template-columns:190px 1fr;gap:16px;padding:13px 0;border-top:1px solid #CFC5B5"><div style="{CG}font-size:28px;font-weight:600;color:{RED}">{E(a)}</div><div style="font-size:19px;line-height:1.4">{E(b)}</div></div>' for a, b in subs)
+    inner = (photo('x_wig.jpg', 0, 0, 470, 1350, '30% 50%')
+             + f'<div style="position:absolute;left:470px;top:0;width:10px;height:1350px;background:{GOLD}"></div>'
+             + cap('Wigilijny stół. Fot. Przykuta / Wikimedia Commons, CC BY-SA 3.0', 24, 1300, 430)
+             + f'<div style="position:absolute;left:530px;right:64px;top:70px">{kick("Dla Polaków")}{H("Polska Wigilia <i style=\'color:"+RED+"\'>na wybrzeżu</i>", 60)}{rule()}'
+             + dc('Dwanaście potraw zrobisz i w Andaluzji. Resztę produktów kupisz w sklepach z Europy Wschodniej – są m.in. w Torremolinos, Fuengiroli i Marbelli.')
+             + f'<div style="margin-top:6px">{hdr("Czym zastąpić", 30, GRN)}{ss}</div>'
+             + '<div style="height:18px"></div>'
+             + box('Pasterka', 'W Wigilię o północy kościoły odprawiają <b>Misa del Gallo</b>. O mszach po polsku informują polskie parafie i duszpasterstwa – sprawdź u nich.', GRN)
+             + '<div style="height:14px"></div>'
+             + box('Opłatek', 'W Hiszpanii tej tradycji nie ma – przywieź go z Polski.', SAND, INKK, RED)
+             + '</div>' + f'<div style="position:absolute;left:530px;right:64px;bottom:84px;font-size:13px;color:{MUT}">Stan na 19.11.2026.</div>')
+    return frame(n, N, 'Dla Polaków', inner)
+
+def P_prezenty(n, N):
+    gifts = [('Oliwa z oliwek', 'Andaluzja to największy producent oliwy w Hiszpanii. Szukaj napisu „virgen extra” i daty zbioru.'),
+             ('Turrón', 'Twardy z Alicante albo miękki z Jijony – w każdym supermarkecie.'),
+             ('Mantecados z Estepy', 'Kruche ciastka z oznaczeniem pochodzenia – od listopada wszędzie.'),
+             ('Wino Málaga', 'Słodkie wino z oznaczeniem DO Málaga, idealne do deseru.'),
+             ('Pasas de Málaga', 'Rodzynki z Axarquíi, suszone na słońcu – z chronionym pochodzeniem.'),
+             ('Ceramika andaluzyjska', 'Malowane talerze i miski – kupisz na targach i w miasteczkach w głębi lądu.')]
+    gg = ''.join(f'<div style="padding:24px 0;border-top:1px solid #CFC5B5"><div style="{CG}font-size:34px;font-weight:600;color:{[RED, GRN][i % 2]}">{E(a)}</div><div style="font-size:21px;line-height:1.45;color:#4A443D;margin-top:3px">{E(b)}</div></div>' for i, (a, b) in enumerate(gifts))
+    inner = (f'<div style="position:absolute;left:64px;right:64px;top:56px">{kick("Do walizki")}{H("Prezenty <i style=\'color:"+RED+"\'>z Hiszpanii</i>", 86)}'
+             f'<div style="font-size:22px;color:{MUT};margin-top:10px">Co przywieźć rodzinie do Polski – smaki i rzeczy z Andaluzji</div>{rule()}</div>'
+             + f'<div style="position:absolute;left:64px;top:330px;width:560px;display:grid;grid-template-columns:1fr 1fr;gap:0 30px">{gg}</div>'
+             + f'<img src="file://{PH}x_turron.jpg" style="position:absolute;left:670px;top:330px;width:346px;height:346px;object-fit:cover;border-radius:50%;border:6px solid #F2C14E">'
+             + cap('Turrón. Fot. Juan Emilio Prades Bel / Wikimedia Commons, CC BY 4.0', 670, 690, 346)
+             + f'<div style="position:absolute;left:670px;right:64px;top:740px">'
+             + box('Na lotnisku', 'Oliwę, wino i inne płyny powyżej 100 ml pakuj do <b>bagażu rejestrowanego</b>. Butelki owiń ubraniem albo folią bąbelkową.', RED)
+             + '<div style="height:14px"></div>'
+             + box('Wskazówka', 'Słodycze z oznaczeniem pochodzenia mają na opakowaniu znaczek IGP lub DOP – to gwarancja, że są z danego regionu.', SAND, INKK, RED)
+             + '</div>' + src('Junta de Andalucía; Consejos Reguladores DO Málaga, IGP Mantecados de Estepa, DOP Pasas de Málaga; Aena. Stan na 19.11.2026.'))
+    return frame(n, N, 'Do walizki', inner)
+
+def P_praktycznie(n, N):
+    days = [('8.12', 'wtorek', 'Niepokalane Poczęcie – dzień wolny'), ('24.12', 'czwartek', 'Wigilia – sklepy krócej'),
+            ('25.12', 'piątek', 'Boże Narodzenie – dzień wolny'), ('31.12', 'czwartek', 'Sylwester – sklepy krócej'),
+            ('1.01', 'piątek', 'Nowy Rok – dzień wolny'), ('6.01', 'środa', 'Trzech Króli – dzień wolny')]
+    dd = ''.join(f'<div style="display:grid;grid-template-columns:120px 1fr;gap:16px;padding:20px 0;border-top:1px solid #CFC5B5"><div style="{CG}font-size:40px;font-weight:600;color:{RED if "wolny" in c else GOLD};line-height:1">{a}</div><div><div style="font-size:14px;font-weight:800;letter-spacing:.18em;color:{MUT}">{b.upper()}</div><div style="font-size:21px">{E(c)}</div></div></div>' for a, b, c in days)
+    tips = [('112', 'Numer alarmowy – działa też po angielsku.'),
+            ('Apteka dyżurna', 'Farmacia de guardia – lista dyżurów na stronie Kolegium Farmaceutów w Maladze i na drzwiach aptek.'),
+            ('Pociąg C1', 'Cercanías łączy Málagę, lotnisko, Torremolinos, Benalmádenę i Fuengirolę. W święta sprawdź rozkład na renfe.com.'),
+            ('Parkowanie', 'Wieczorami przy iluminacjach centra są zakorkowane. Lepiej pociągiem lub autobusem.')]
+    tt = ''.join(f'<div style="padding:20px 0;border-top:1px solid #CFC5B5"><div style="{CG}font-size:32px;font-weight:600;color:{GRN}">{E(a)}</div><div style="font-size:21px;line-height:1.45;margin-top:2px">{E(b)}</div></div>' for a, b in tips)
+    inner = (photo('x_cerc.jpg', 0, 0, 1080, 400, '50% 70%')
+             + f'<div style="position:absolute;left:0;right:0;top:0;height:400px;background:linear-gradient(180deg,rgba(0,0,0,0) 40%,rgba(0,0,0,.72) 100%)"></div>'
+             + f'<div style="position:absolute;left:64px;right:64px;top:240px;color:#fff">{kick("Praktycznie", "#F2C14E")}{H("Co warto <i style=\'color:#F2C14E\'>wiedzieć</i>", 80, "#fff")}</div>'
+             + f'<div style="position:absolute;right:30px;top:20px;font-size:13px;color:rgba(255,255,255,.9)">Cercanías C1. Fot. Tyk / Wikimedia Commons, domena publiczna</div>'
+             + f'<div style="position:absolute;left:64px;top:440px;width:450px">{hdr("Dni wolne i krótsze", 30, RED)}{dd}'
+             + f'<div style="font-size:16px;color:{MUT};margin-top:10px">6.12 (Dzień Konstytucji) wypada w niedzielę. 26.12 w Andaluzji to zwykły dzień.</div></div>'
+             + f'<div style="position:absolute;left:566px;right:64px;top:440px">{hdr("Przyda się", 30, GRN)}{tt}</div>'
+             + src('BOE; Junta de Andalucía – kalendarz świąt 2026; Renfe; Colegio de Farmacéuticos de Málaga. Stan na 19.11.2026.'))
+    return frame(n, N, 'Praktycznie', inner)
+
+def P_konkurs(n, N):
+    steps = [('1', 'Obserwuj', '@solysol.pl na Instagramie lub stronę Sol y Sól na Facebooku.'),
+             ('2', 'Odpowiedz w komentarzu', 'pod postem konkursowym: jaka polska tradycja świąteczna musi być u Ciebie na Costa del Sol?'),
+             ('3', 'Czekaj na wyniki', 'Jury redakcji wybierze najciekawsze odpowiedzi. Wyniki 17.12.')]
+    ss = ''.join(f'<div style="display:flex;gap:22px;padding:30px 0;border-top:1px solid rgba(255,246,229,.25)"><div style="{CG}font-size:80px;font-weight:600;color:{RED};line-height:.85;min-width:56px">{a}</div><div><div style="font-size:30px;font-weight:700">{E(b)}</div><div style="font-size:23px;line-height:1.45;opacity:.9;margin-top:4px">{E(c)}</div></div></div>' for a, b, c in steps)
+    dates = ''.join(f'<div style="flex:1;border:2px solid {RED};padding:18px 10px;text-align:center"><div style="{CG}font-size:46px;font-weight:600;color:{RED}">{a}</div><div style="font-size:17px;margin-top:4px">{b}</div></div>' for a, b in [('1.12', 'start'), ('15.12', 'koniec zgłoszeń'), ('17.12', 'wyniki'), ('23.12', 'nagrody u Was')])
+    inner = (f'<div style="position:absolute;left:64px;right:64px;top:70px">{kick("Konkurs")}{H("Wygraj <i style=\'color:"+RED+"\'>świąteczny upominek</i>", 86)}'
+             f'<div style="font-size:24px;line-height:1.45;margin-top:16px;opacity:.92">Lokalne firmy z wybrzeża przygotowały upominki dla czytelników Sol y Sól. Pełną listę nagród i fundatorów pokażemy 1 grudnia.</div>{rule()}'
+             f'{ss}<div style="display:flex;gap:12px;margin-top:26px">{dates}</div>'
+             f'<div style="margin-top:34px;background:{RED};color:#123D2B;padding:24px 28px"><div style="font-size:15px;font-weight:800;letter-spacing:.2em">MASZ FIRMĘ NA WYBRZEŻU?</div><div style="{CG}font-size:32px;font-weight:600;line-height:1.25;margin-top:6px">Dołącz ze swoim upominkiem – napisz do nas w wiadomości do 28.11.</div></div>'
+             f'<div style="margin-top:28px;font-size:17px;line-height:1.5;opacity:.75">Udział mogą wziąć osoby pełnoletnie, które odbiorą nagrodę na Costa del Sol. Regulamin w poście konkursowym. Konkurs nie jest sponsorowany, popierany ani administrowany przez Instagram, Facebook ani Metę.</div></div>')
+    return frame(n, N, 'Konkurs', inner)
+
+THEME_SEQ = ['light','light','green','light','light','light','light','red','light','light','light','light','light','light','red','light','light','light','green','light']
+PAGES = [P_cover, P_liczby, P_kalendarz, P_malaga, P_marbella, P_fue_est, P_dzieci, P_gordo, P_mit, P_pl_es, P_polska_wigilia, P_slodycze, P_prezenty, P_sylwester, P_ciekawostki, P_praktycznie, P_slowniczek, P_quiz, P_konkurs, P_koniec]
