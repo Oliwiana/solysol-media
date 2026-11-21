@@ -23,12 +23,12 @@ def P_liczby(n, N):
              g('12', 'winogron o północy w Sylwestra', GRN) + g('ok. 17°C', 'średnio w dzień w grudniu w Maladze', GOLD))
     short = ''.join(f'<div style="border-top:1px solid #CFC5B5;padding:8px 0"><div style="font-size:15px;font-weight:800;letter-spacing:.16em;color:{RED}">{a.upper()}</div><div style="{CG}font-size:23px;font-weight:600;line-height:1.15;margin-top:2px">{b}</div></div>' for a, b in [
         ('03 · Kalendarz', 'Wszystkie ważne daty do 6.01'),
-        ('04 · Málaga', 'Calle Larios zapala święta'),
-        ('08 · El Gordo', 'Loteria, którą żyje cały kraj'),
-        ('11 · Polska Wigilia', 'Czym zastąpić karpia i barszcz'),
-        ('16 · Kto tu przylatywał?', 'Grace Kelly i Hefner w Marbelli'),
-        ('19 · Kryminalne', 'Costa del Crime i „Książę Marbelli”'),
-        ('22 · Quiz', 'Kto w rodzinie wie najwięcej?')])
+        ('04 · Mapa świąt', 'Kiedy zapalają światła na wybrzeżu'),
+        ('11 · Złota koperta', 'Czy masz szczęśliwy egzemplarz?'),
+        ('15 · Przepisy', 'Barszcz i dorada z hiszpańskiego targu'),
+        ('21 · Kto tu przylatywał?', 'Grace Kelly i Hefner w Marbelli'),
+        ('26 · Kryminalne', 'Złoto spod Heathrow'),
+        ('30 · Bingo', 'Bingo Polaka w Hiszpanii')])
     inner = (f'<div style="position:absolute;left:64px;right:64px;top:56px">{kick("Na start")}{H("Święta w liczbach", 88)}{rule()}'
              f'<div style="display:grid;grid-template-columns:1fr 1fr;gap:26px 40px;width:560px">{stats}</div></div>'
              f'<div style="position:absolute;left:668px;right:64px;top:206px">{hdr("W numerze", 34)}{short}</div>'
@@ -477,5 +477,207 @@ def P_banus(n, N):
              + src('Archivo Histórico Provincial de Málaga (Junta de Andalucía), andalucia.com, Olive Press (2020), Terra Meridiana, puerto-banus.com.'))
     return frame(n, N, 'Na długie wieczory', inner)
 
-THEME_SEQ = ['light','light','green','light','light','light','light','red','light','light','light','light','light','light','red','yellow','light','light','noir','light','light','light','green','light']
-PAGES = [P_cover, P_liczby, P_kalendarz, P_malaga, P_marbella, P_fue_est, P_dzieci, P_gordo, P_mit, P_pl_es, P_polska_wigilia, P_slodycze, P_prezenty, P_sylwester, P_ciekawostki, P_banus, P_zagaleta, P_ap7, P_crime, P_praktycznie, P_slowniczek, P_quiz, P_konkurs, P_koniec]
+# ---------- 8 nowych stron (21.11.2026) ----------
+
+def P_mapa(n, N):
+    towns = [('Estepona', '1.12', 'światła, kolędy, churros'), ('Marbella', 'wkrótce', '3,8 mln lampek z San Pedro'), ('Mijas', 'wkrótce', ''),
+             ('Fuengirola', '27.11', '2 771 512 lampek'), ('Benalmádena', 'wkrótce', ''), ('Torremolinos', 'wkrótce', ''),
+             ('Málaga', '27.11', 'Calle Larios i mapping na katedrze'), ('Nerja', 'wkrótce', '')]
+    pts = [(120 + i * 120, 670 - i * 44) for i in range(len(towns))]
+    path = 'M0,710 ' + ' '.join(f'L{x},{y}' for x, y in pts) + ' L1080,325'
+    svg = (f'<svg style="position:absolute;left:0;top:0" width="1080" height="1350" viewBox="0 0 1080 1350">'
+           f'<path d="{path} L1080,860 L0,860 Z" fill="#CFE3EC" stroke-linejoin="round"/>'
+           f'<path d="{path}" fill="none" stroke="#7FA9BD" stroke-width="3" stroke-linejoin="round"/>'
+           f'<text x="700" y="815" font-family="Cormorant Garamond,serif" font-style="italic" font-size="36" fill="#5E8CA3" text-anchor="middle">Mar Mediterráneo</text>')
+    labels = ''
+    for i, ((nm, d, o), (x, y)) in enumerate(zip(towns, pts)):
+        ok = d != 'wkrótce'; c = RED if ok else '#9A8F82'; up = i % 2 == 1
+        ly = y - 150 if up else y + 40
+        svg += (f'<line x1="{x}" y1="{y}" x2="{x}" y2="{y - 40 if up else y + 34}" stroke="{c}" stroke-width="1.5" stroke-dasharray="4 4"/>'
+                f'<circle cx="{x}" cy="{y}" r="{13 if ok else 9}" fill="{c}" stroke="#fff" stroke-width="4"/>')
+        labels += (f'<div style="position:absolute;left:{x - 80}px;top:{ly if up else ly}px;width:160px;height:110px;display:flex;flex-direction:column;justify-content:{"flex-end" if up else "flex-start"};text-align:center">'
+                   f'<div style="{CG}font-size:{40 if ok else 24}px;font-weight:600;line-height:1;color:{c}">{d}</div>'
+                   f'<div style="font-size:16px;font-weight:800;letter-spacing:.06em;margin-top:4px">{E(nm.upper())}</div>'
+                   + (f'<div style="font-size:13px;line-height:1.25;color:{MUT};margin-top:2px">{E(o)}</div>' if o else '') + '</div>')
+    svg += '</svg>'
+    inner = (svg + labels
+             + f'<div style="position:absolute;left:64px;right:64px;top:56px">{kick("Mapa świąt · Costa del Sol")}{H("Gdzie i kiedy <i style=\'color:"+RED+"\'>zapalają światła</i>", 74)}'
+             f'<div style="font-size:21px;line-height:1.45;margin-top:14px;color:#4A443D">Każde miasto na wybrzeżu ma swój wieczór włączenia iluminacji. Czerwone punkty to daty już ogłoszone, szare – gminy, które jeszcze nie podały programu.</div></div>'
+             + f'<div style="position:absolute;left:64px;right:64px;top:890px;display:grid;grid-template-columns:1fr 1fr;gap:18px">'
+             + box('Najlepszy plan na wieczór', 'Pociąg C1 zatrzymuje się w Torremolinos, Benalmádenie, Fuengiroli i Maladze. W wieczory włączenia świateł centra są zakorkowane – jedź pociągiem.', GRN)
+             + box('Brakuje Twojego miasta?', 'Gminy podają daty zwykle tydzień–dwa wcześniej. Aktualizacje wrzucamy na <b>@solysol.pl</b> i na stronę Sol y Sól na Facebooku.', SAND, INKK, RED)
+             + '</div>'
+             + src('Ayuntamiento de Málaga, Ayuntamiento de Fuengirola, Ayuntamiento de Estepona, Ayuntamiento de Marbella, idealista, Euro Weekly News, Renfe. Stan na 21.11.2026.'))
+    return frame(n, N, 'Mapa świąt', inner)
+
+
+def P_szopki(n, N):
+    words = ''.join(f'<div style="padding:12px 0;border-top:1px solid #CFC5B5"><div style="{CG}font-size:30px;font-weight:600;color:{RED}">{a}</div><div style="font-size:18px;line-height:1.4;color:#4A443D">{E(b)}</div></div>' for a, b in [
+        ('Belén', 'szopka – od Betlejem; mówi się też nacimiento'),
+        ('Belén viviente', 'żywa szopka – z ludźmi, a często i z osiołkiem'),
+        ('Belén monumental', 'wielka szopka z setkami figur i całym miasteczkiem'),
+        ('Pastorcillos', 'pasterze – najliczniejsze figurki w każdej szopce')])
+    pic = (photo('x_belen.jpg', 0, 0, 1080, 520, '50% 50%') + f'<div style="position:absolute;left:0;right:0;top:0;height:520px;background:linear-gradient(180deg,rgba(0,0,0,0) 40%,rgba(0,0,0,.78) 100%)"></div>'
+           + f'<div style="position:absolute;right:30px;top:20px;font-size:13px;color:rgba(255,255,255,.9)">BELENCAP</div>') if os.path.exists(PH + 'x_belen.jpg') else f'<div style="position:absolute;left:0;right:0;top:0;height:520px;background:linear-gradient(160deg,#14452F,#0B2A1D)"></div><div style="position:absolute;right:120px;top:90px;font-size:200px;color:#F2C14E;opacity:.9">★</div>'
+    inner = (pic
+             + f'<div style="position:absolute;left:64px;right:64px;top:300px;color:#fff">{kick("Tradycja · szopki", "#F2C14E")}{H("400 figurek <i style=\'color:#F2C14E\'>pod ratuszem</i>", 84, "#fff")}</div>'
+             + f'<div style="position:absolute;left:64px;top:560px;width:540px">'
+             + dc('W Hiszpanii szopka to nie dodatek do choinki, tylko jej konkurencja. W wielu domach to belén, a nie drzewko, jest najważniejszą ozdobą świąt.')
+             + p('Największą szopkę w Maladze miasto ustawia co roku na dziedzińcu ratusza (Patio de Banderas). To ponad <b>400 figur</b> na ponad 130 m² – jedna z największych szopek na wybrzeżu.', 20)
+             + p('Ratusz wydaje też co roku przewodnik po szopkach – <b>Guía de Belenes</b>. Są w nim szopki parafii, bractw i stowarzyszeń w całym mieście, z adresami i godzinami.', 20)
+             + '</div>'
+             + f'<div style="position:absolute;left:656px;right:64px;top:560px">{hdr("Słowniczek szopkowy", 30, GRN)}{words}</div>'
+             + wow('Zabawa przy szopce', 'Zanim dzieci zaczną się nudzić, dajcie im zadanie: policzcie owce, znajdźcie osiołka i Trzech Króli w drodze. Kto pierwszy, ten wybiera churros!', 64, 1050, 952, -1)
+             + src('Ayuntamiento de Málaga (malaga.eu, 2025), idealista (2025), Guía de Belenes de Málaga. Daty na 2026 r. – po ogłoszeniu przez miasto.'))
+    return frame(n, N, 'Szopki', inner)
+
+
+def P_los(n, N):
+    rules = ''.join(f'<div style="display:flex;gap:18px;padding:15px 0;border-top:1px solid #CFC5B5"><div style="{CG}font-size:50px;font-weight:600;color:{RED};line-height:.85;min-width:40px">{i}</div><div><div style="font-size:21px;font-weight:700">{E(a)}</div><div style="font-size:18px;line-height:1.42;color:#4A443D;margin-top:3px">{b}</div></div></div>' for i, (a, b) in enumerate([
+        ('Kupuj w oficjalnym punkcie', 'Administración de Loterías ma logo Loterías y Apuestas del Estado. Décimo z takiego punktu to jedyny „pełnoprawny” los.'),
+        ('Participación z baru – sprawdź', 'To udział w décimo, które kupił bar lub klub. Na kartce muszą być numer, kwota i dane tego, kto ją wydał. Zachowaj ją jak gotówkę.'),
+        ('Zrób zdjęcie losu', 'Przód i tył. Gdy zgubisz décimo, wygrana przepada – zdjęcie pomaga przynajmniej udowodnić, że był Twój.'),
+        ('Sprawdzaj tylko w oficjalnych źródłach', 'Wyniki są na stronie i w aplikacji Loterías y Apuestas del Estado. Uważaj na SMS-y „wygrałeś” z linkiem.')], 1))
+    terms = ''.join(f'<div style="padding:12px 0;border-top:1px solid rgba(255,255,255,.22)"><div style="{CG}font-size:30px;font-weight:600;color:#F2C14E">{a}</div><div style="font-size:18px;line-height:1.4;color:#fff">{E(b)}</div></div>' for a, b in [
+        ('Pedrea', '„grad kamieni” – setki drobnych wygranych po 100 € na décimo'),
+        ('Reintegro', 'zwrot 20 €, gdy ostatnia cyfra zgadza się z Gordo'),
+        ('Terminación', 'końcówka numeru – wiele osób szuka „swojej” daty'),
+        ('El Niño', 'druga szansa: loteria 6 stycznia, w dzień Trzech Króli')])
+    inner = (f'<div style="position:absolute;left:0;right:0;top:0;height:430px;background:linear-gradient(150deg,#8E1C22,#4A0F13)"></div>'
+             + f'<div style="position:absolute;right:70px;top:60px;width:330px;transform:rotate(6deg);background:#FBF3DC;border:2px solid #C99A2E;padding:12px 14px;color:#3A2A10;box-shadow:0 18px 40px rgba(0,0,0,.4)"><div style="font-size:10px;font-weight:800;letter-spacing:.14em;color:#8E1C22">LOTERÍA NACIONAL · DÉCIMO</div><div style="{CG}font-size:52px;font-weight:700;letter-spacing:.08em;line-height:1.1">00000</div><div style="font-size:11px;font-style:italic;color:#6E5A30">Wzór poglądowy</div></div>'
+             + f'<div style="position:absolute;left:64px;right:64px;top:226px;color:#fff">{kick("El Gordo · poradnik", "#F2C14E")}{H("Los w ręku – <i style=\'color:#F2C14E\'>jak nie dać się nabrać</i>", 70, "#fff")}</div>'
+             + f'<div style="position:absolute;left:64px;top:470px;width:560px">{hdr("Cztery zasady", 32, RED)}{rules}</div>'
+             + f'<div style="position:absolute;left:666px;right:64px;top:470px;background:#14452F;padding:22px 24px 16px"><div style="font-size:15px;font-weight:800;letter-spacing:.2em;color:#F2C14E;margin-bottom:6px">SŁÓWKA Z LOSOWANIA</div>{terms}</div>'
+             + f'<div style="position:absolute;left:64px;right:64px;top:1040px;background:linear-gradient(135deg,#E9C66B,#B8892B 55%,#F2D58A);color:#171513;padding:22px 28px 22px 150px;transform:rotate(-1deg);box-shadow:0 18px 40px rgba(0,0,0,.3)">'
+             + f'<div style="position:absolute;left:28px;top:50%;transform:translateY(-50%);width:96px;height:66px;background:#F7E2A4;border:2px solid #8C6A1F"><div style="position:absolute;left:0;right:0;top:0;height:0;border-left:46px solid transparent;border-right:46px solid transparent;border-top:36px solid #D9B456"></div><div style="position:absolute;left:36px;top:26px;width:22px;height:22px;border-radius:50%;background:#8E1C22"></div></div>'
+             + f'<div style="font-size:15px;font-weight:800;letter-spacing:.22em;color:#8E1C22">SZCZĘŚLIWY EGZEMPLARZ</div>'
+             + f'<div style="{CG}font-size:34px;font-weight:700;line-height:1.1;margin-top:4px">Sprawdź, czy w Twoim numerze jest złota koperta</div>'
+             + f'<div style="font-size:18px;line-height:1.4;margin-top:6px">W kilku losowo wybranych drukowanych egzemplarzach wkleiliśmy prawdziwe décimo na El Gordo 22.12. Znalazłeś? Los jest Twój – pochwal się na <b>@solysol.pl</b>!</div></div>'
+             + src('Loterías y Apuestas del Estado – regulamin Sorteo Extraordinario de Navidad i Sorteo del Niño; Policía Nacional (ostrzeżenia o oszustwach). Stan na 21.11.2026.'))
+    return frame(n, N, 'Tradycje', inner)
+
+
+def P_przepisy(n, N):
+    def rec(title, sub, time, ingr, steps, c):
+        ii = ''.join(f'<li style="margin:0 0 4px">{E(x)}</li>' for x in ingr)
+        ss = ''.join(f'<li style="margin:0 0 6px">{E(x)}</li>' for x in steps)
+        return (f'<div style="border-top:4px solid {c};padding-top:14px"><div style="font-size:14px;font-weight:800;letter-spacing:.16em;color:{c}">⏱ {time}</div><div style="{CG}font-size:36px;font-weight:600;line-height:1.05;margin-top:6px;min-height:76px">{title}</div>'
+                f'<div style="{CG}font-style:italic;font-size:21px;color:{MUT};margin:4px 0 10px">{sub}</div>'
+                f'<div style="font-size:13px;font-weight:800;letter-spacing:.2em;color:{c}">SKŁADNIKI</div><ul style="font-size:18px;line-height:1.4;padding-left:20px;margin:6px 0 10px">{ii}</ul>'
+                f'<div style="font-size:13px;font-weight:800;letter-spacing:.2em;color:{c}">KROK PO KROKU</div><ol style="font-size:18px;line-height:1.45;padding-left:22px;margin:6px 0 0">{ss}</ol></div>')
+    r1 = rec('Barszcz z remolacha', 'bez kiszenia od tygodnia', '40 MIN',
+             ['1 kg buraków gotowanych (remolacha cocida)', '1,5 l bulionu warzywnego', '2 ząbki czosnku, 2 liście laurowe, 4 ziela', '3–4 łyżki octu z wina (vinagre de vino)', 'sól, pieprz, szczypta cukru, majeranek'],
+             ['Buraki zetrzyj, wrzuć do bulionu z przyprawami.', 'Gotuj 15 min, nie dopuść do mocnego wrzenia.', 'Przecedź, dopraw octem, czosnkiem i cukrem.', 'Odstaw na noc – smak się pogłębi.'], RED)
+    r2 = rec('Dorada zamiast karpia', 'polska Wigilia, andaluzyjska ryba', '35 MIN',
+             ['2 dorady (poproś o oczyszczenie w pescadería)', '2 cytryny, 4 ząbki czosnku', 'oliwa, sól gruboziarnista', 'gałązka rozmarynu lub tymianku', '2 ziemniaki w plastrach'],
+             ['Ziemniaki ułóż w naczyniu, polej oliwą.', 'Rybę natnij, w środek włóż cytrynę i zioła.', 'Piecz ok. 20–25 min w 200°C.', 'Podawaj z zieloną sałatą i cytryną.'], GRN)
+    r3 = rec('Ajoblanco', 'chłodnik z Malagi – na zimną przystawkę', '15 MIN',
+             ['150 g obranych migdałów (almendra marcona)', '2 kromki czerstwego chleba bez skórki', '1 ząbek czosnku, 100 ml oliwy', '2 łyżki octu z sherry, 600 ml zimnej wody', 'winogrona do podania'],
+             ['Chleb namocz w wodzie, odciśnij.', 'Zmiksuj migdały, chleb, czosnek i wodę na gładko.', 'Wlewaj oliwę, dopraw octem i solą.', 'Schłodź, podaj z winogronami.'], GOLD)
+    inner = (f'<div style="position:absolute;left:64px;right:64px;top:56px">{kick("Wigilia po hiszpańsku · przepisy")}{H("Polski stół <i style=\'color:"+RED+"\'>z hiszpańskiego targu</i>", 76)}'
+             f'<div style="font-size:21px;line-height:1.45;margin-top:12px;color:#4A443D">Nie ma karpia i zakwasu na barszcz? Trzy przepisy ze składników z każdego supermarketu i targu na wybrzeżu.</div>{rule()}'
+             f'<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:30px">{r1}{r2}{r3}</div></div>'
+             + wow('Uszka ratunkowe', 'Suszonych grzybów szukaj jako <b>setas deshidratadas</b> – najczęściej boletus. W polskich sklepach na wybrzeżu bywa też gotowy zakwas.', 64, 1075, 952, -1)
+             + src('Przepisy redakcji Sol y Sól. Ajoblanco – tradycyjna potrawa prowincji Málaga.'))
+    return frame(n, N, 'Przepisy', inner)
+
+
+def P_gwiazdy(n, N):
+    guests = ''.join(f'<span style="display:inline-block;border:1.5px solid {GOLD};color:{INKK};font-size:19px;padding:7px 14px;margin:0 8px 10px 0;border-radius:30px">{E(g)}</span>' for g in
+                     ['Audrey Hepburn', 'Ava Gardner', 'Grace Kelly', 'Brigitte Bardot', 'Lola Flores', 'Julio Iglesias'])
+    tl = ''.join(f'<div style="display:grid;grid-template-columns:120px 1fr;gap:18px;padding:15px 0;border-top:1px solid #CFC5B5"><div style="{CG}font-size:44px;font-weight:600;color:{RED};line-height:1">{a}</div><div style="font-size:21px;line-height:1.42">{b}</div></div>' for a, b in [
+        ('1954', 'Książę <b>Alfonso zu Hohenlohe</b> otwiera Marbella Club. Marbella to wtedy jeszcze rybackie miasteczko.'),
+        ('lata 60.', 'Do hotelu zjeżdżają gwiazdy kina i arystokracja. Marbella staje się adresem z kolorowych pism.'),
+        ('1974', 'Hohenlohe poznaje padla w Acapulco i buduje w Marbelli <b>dwa pierwsze korty w Hiszpanii</b>.'),
+        ('dziś', 'Hiszpania to padlowa potęga, a kolacje wigilijne i bale sylwestrowe w klubie wciąż przyciągają gości.')])
+    pic = (f'<div style="position:absolute;right:64px;top:440px;width:400px;background:#fff;padding:14px 14px 46px;transform:rotate(2deg);box-shadow:0 18px 40px rgba(0,0,0,.25)"><img src="file://{PH}x_padel.jpg" style="display:block;width:100%;height:300px;object-fit:cover"><div style="position:absolute;left:16px;bottom:12px;font-size:14px;font-style:italic;color:#3A2A10">Zdjęcie ilustracyjne – kort do padla</div></div>'
+           f'<div style="position:absolute;right:64px;top:850px;width:400px;font-size:12px;color:{MUT};text-align:right">Fot. Samson Ssemakadde / Wikimedia Commons, CC0</div>') if os.path.exists(PH + 'x_padel.jpg') else ''
+    inner = (f'<div style="position:absolute;left:64px;right:64px;top:56px">{kick("Na długie wieczory · Marbella")}{H("Święta <i style=\'color:"+RED+"\'>z gwiazdami</i>", 100)}'
+             f'<div style="{CG}font-style:italic;font-size:32px;line-height:1.25;margin-top:16px;color:#4A443D">Jak jeden hotel zrobił z rybackiej wioski adres dla Hollywood – i przy okazji przywiózł do Hiszpanii padla.</div>{rule()}'
+             f'<div style="font-size:15px;font-weight:800;letter-spacing:.22em;color:{GOLD};margin:6px 0 12px">KTO TU BYWAŁ</div>{guests}</div>'
+             + f'<div style="position:absolute;left:64px;top:420px;width:{520 if pic else 952}px">{tl}</div>'
+             + pic
+             + wow('Padel przyjechał z Meksyku', 'Grę wymyślono w Acapulco. Rok po kortach w Marbelli padel trafił do Argentyny – a dziś w Hiszpanii grają w niego miliony.', 64, 1075, 952, -1)
+             + src('Euro Weekly News (2024), Engel & Völkers, marbellaclub.com, LTA, International Padel Federation, andalucia.com, Red Bull.'))
+    return frame(n, N, 'Na długie wieczory', inner)
+
+
+def P_zagadka(n, N):
+    fld = ''.join(f'<div style="display:grid;grid-template-columns:170px 1fr;padding:9px 0;border-bottom:1px dashed rgba(27,23,20,.35)"><span style="font-weight:800;font-size:15px;letter-spacing:.12em;color:#7A5B3A">{a}</span><span style="font-size:20px;color:#1b1714">{b}</span></div>' for a, b in [
+        ('DATA', '26.11.1983, godz. 06:40'), ('MIEJSCE', 'magazyn Brink\'s-Mat przy lotnisku Heathrow'), ('SPRAWCY', 'sześciu uzbrojonych mężczyzn'),
+        ('PLAN', 'ok. 3 mln £ w gotówce'), ('ŁUP', '6800 sztabek złota, ok. 3 ton – 26 mln £')])
+    tl = ''.join(f'<div style="display:grid;grid-template-columns:150px 1fr;gap:18px;padding:13px 0;border-top:1px solid #CFC5B5"><div style="{CG}font-size:34px;font-weight:600;color:{RED};line-height:1">{a}</div><div style="font-size:19px;line-height:1.42">{E(b)}</div></div>' for a, b in [
+        ('1986', 'Kenneth Noye zostaje skazany za paserstwo złota z napadu – 14 lat więzienia. Część sztabek przetopiono.'),
+        ('1996', 'Po wyjściu na wolność Noye popełnia zabójstwo i znika. Zaczyna się wielka obława.'),
+        ('28.08.1998', 'Hiszpańska policja zatrzymuje go w Barbate – nadmorskim miasteczku w prowincji Kadyks, niedaleko Gibraltaru.'),
+        ('dziś', 'Większości złota nigdy nie odnaleziono.')])
+    inner = (f'<div style="position:absolute;left:64px;right:64px;top:56px">{kick("Na długie wieczory · Zagadki kryminalne")}{H("Złoto <i style=\'color:"+RED+"\'>spod Heathrow</i>", 96)}'
+             f'<div style="font-size:23px;line-height:1.45;margin-top:14px;color:#4A443D">Mieli ukraść gotówkę. Wynieśli trzy tony złota. Napad sprzed 43 lat do dziś nie ma zakończenia – a jeden z jego tropów prowadzi na południe Hiszpanii.</div></div>'
+             + f'<div style="position:absolute;left:64px;right:64px;top:350px;background:#E8D9BC;color:#1b1714;padding:26px 30px 22px;transform:rotate(1deg);box-shadow:0 20px 40px rgba(0,0,0,.45)">'
+             + f'<div style="position:absolute;left:0;top:-30px;width:230px;height:32px;background:#E8D9BC;border-radius:10px 10px 0 0"></div>'
+             + f'<div style="font-size:15px;font-weight:800;letter-spacing:.24em;color:#9E2B25">AKTA · LONDYN – KADYKS</div>'
+             + f'<div style="{CG}font-size:46px;font-weight:600;line-height:1.05;margin:6px 0 10px">Sprawa Brink\'s-Mat</div>{fld}'
+             + f'<div style="position:absolute;right:30px;top:40px;border:4px solid #9E2B25;color:#9E2B25;font-weight:900;font-size:30px;letter-spacing:.12em;padding:6px 16px;transform:rotate(-10deg)">NIEROZWIĄZANA</div></div>'
+             + f'<div style="position:absolute;left:64px;right:64px;top:770px">{tl}</div>'
+             + f'<div style="position:absolute;left:64px;right:64px;top:1110px;border:2px dashed {RED};padding:16px 22px;font-size:20px;line-height:1.4"><b style="color:{RED}">TWOJA KOLEJ, DETEKTYWIE:</b> gdzie podziała się reszta złota? Napisz nam swoją teorię w wiadomości – najciekawsze pokażemy na @solysol.pl.</div>'
+             + src('Wikipedia (Brink\'s-Mat robbery, Kenneth Noye), BBC, CBC, History Hit, World History Edu, Evening Standard, Daily Mirror.'))
+    return frame(n, N, 'Zagadki kryminalne', inner)
+
+
+def P_horoskop(n, N):
+    signs = [('♈', 'Baran', 'Pierwszy wbiegniesz do morza 1 stycznia. Drugi raz już nie.'),
+             ('♉', 'Byk', 'Trzy rodzaje turrónu to nie dieta, to degustacja. Gwiazdy rozumieją.'),
+             ('♊', 'Bliźnięta', 'Dwie Wigilie: polska 24.12 i hiszpańska kolacja u sąsiadów. Dasz radę obie.'),
+             ('♋', 'Rak', 'Tęsknota za śniegiem minie, gdy zobaczysz 19°C w prognozie.'),
+             ('♌', 'Lew', 'W Sylwestra zjesz 12 winogron w 12 sekund. Chwała będzie wieczna.'),
+             ('♍', 'Panna', 'Znajdziesz zakwas na żurek w trzecim sklepie. Satysfakcja: 100%.'),
+             ('♎', 'Waga', 'Mikołaj czy Trzej Królowie? Wybierzesz oba. Dzieci będą zachwycone.'),
+             ('♏', 'Skorpion', 'Ktoś zażartuje z Ciebie 28.12. Nie wierz w żadną „ważną” wiadomość.'),
+             ('♐', 'Strzelec', 'Kupisz décimo w barze. Wygrana? Co najmniej pedrea – albo dobra historia.'),
+             ('♑', 'Koziorożec', 'Zaplanujesz święta co do minuty. Hiszpańska kolacja i tak zacznie się o 22:00.'),
+             ('♒', 'Wodnik', 'Spróbujesz polvorónu bez okruszków. Gwiazdy mówią: nie da się.'),
+             ('♓', 'Ryby', 'Dorada zamiast karpia? Twoja ryba, Twoje zasady. Rodzina zje i doceni.')]
+    cc = ''.join(f'<div style="background:{SAND};padding:26px 24px;border-radius:4px;min-height:200px"><div style="display:flex;align-items:center;gap:12px"><span style="font-size:36px;line-height:1;color:{RED}">{a}</span><span style="{CG}font-size:30px;font-weight:600">{b}</span></div><div style="font-size:20px;line-height:1.42;margin-top:10px">{E(c)}</div></div>' for a, b, c in signs)
+    inner = (f'<div style="position:absolute;left:64px;right:64px;top:56px">{kick("Z przymrużeniem oka")}<div style="display:flex;justify-content:space-between;align-items:flex-end">{H("Horoskop <i style=\'color:"+RED+"\'>świąteczny</i>", 88)}<div style="{CG}font-style:italic;font-size:22px;text-align:right;color:{MUT}">Gwiazdy nad Costa del Sol<br>na grudzień i styczeń</div></div>{rule()}'
+             f'<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px">{cc}</div>'
+             f'<div style="font-size:15px;color:{MUT};margin-top:16px;font-style:italic">Horoskop redakcji – tylko dla zabawy. Za zjedzone polvorones gwiazdy nie odpowiadają.</div></div>')
+    return frame(n, N, 'Na wesoło', inner)
+
+
+def P_bingo(n, N):
+    cells = ['Ktoś pyta „a u was jest śnieg?”', 'Kupiłeś décimo w barze', 'Jadłeś turrón przed obiadem', 'Kolacja zaczęła się po 22:00', 'Zapomniałeś, że 8.12 jest wolne',
+             'Szukałeś barszczu w 3 sklepach', 'Plaża 25 grudnia', 'Dałeś się nabrać 28.12', 'Śpiewałeś villancico', 'Ktoś mówi „feliz Navidad” do psa',
+             'Polska paczka z pierogami', 'Zdjęcie przy Calle Larios', '★ FELIZ NAVIDAD ★', 'Kurtka puchowa przy 18°C', 'Video-Wigilia z rodziną w Polsce',
+             'Roscón z figurką w zębach', 'Korek na A-7 w drodze na światła', 'Hiszpan próbuje powiedzieć „Wesołych Świąt”', 'Choinka na balkonie z widokiem na morze', 'Cava zamiast szampana',
+             'Kolejka po los', 'Winogrona się nie zmieściły', 'Ktoś zjadł wszystkie polvorones', 'Opłatek przywieziony w walizce', 'Trzej Królowie przynieśli więcej niż Mikołaj']
+    cc = ''.join(f'<div style="height:146px;display:flex;align-items:center;justify-content:center;text-align:center;padding:10px;font-size:{22 if i == 12 else 18}px;line-height:1.25;font-weight:{800 if i == 12 else 600};'
+                 f'background:{"#8E1C22" if i == 12 else ("#FFFDF8" if i % 2 else "#FBEFC8")};color:{"#F2C14E" if i == 12 else "#171513"};border:2px solid #171513">{E(c)}</div>' for i, c in enumerate(cells))
+    inner = (f'<div style="position:absolute;left:64px;right:64px;top:56px">{kick("Zabawa dla całej rodziny")}{H("Bingo Polaka <i>w Hiszpanii</i>", 84)}'
+             f'<div style="font-size:21px;line-height:1.45;margin-top:12px">Skreślaj, co Ci się przydarzyło w te święta. Pięć w linii – poziomo, pionowo albo po skosie – i jesteś mistrzem świąt na wybrzeżu.</div>{rule()}'
+             f'<div style="display:grid;grid-template-columns:repeat(5,1fr);gap:0;width:952px;box-shadow:0 18px 40px rgba(0,0,0,.18)">{cc}</div>'
+             f'<div style="margin-top:22px;background:#171513;color:#F2C14E;padding:16px 22px;font-size:20px;line-height:1.4"><b>BINGO?</b> <span style="color:#fff">Zrób zdjęcie karty i oznacz <b>@solysol.pl</b> na InstaStories – udostępnimy najlepsze.</span></div></div>')
+    return frame(n, N, 'Na wesoło', inner)
+
+def P_zakupy(n, N):
+    items = [('Buraki', 'remolacha cocida', 'gotowane, w próżniowych paczkach – przy sałatach'),
+             ('Suszone grzyby', 'setas deshidratadas', 'najczęściej boletus – dział z przyprawami'),
+             ('Mak', 'semillas de amapola', 'w dziale z ziarnami lub w sklepach ze zdrową żywnością'),
+             ('Kapusta kiszona', 'chucrut', 'słoiki w dziale z produktami z Niemiec'),
+             ('Twaróg', 'requesón', 'najbliższy zamiennik – na sernik i do pierogów'),
+             ('Drożdże', 'levadura fresca', 'kostki w lodówce przy maśle'),
+             ('Suszone śliwki', 'ciruelas pasas', 'do kompotu z suszu, obok rodzynek (pasas)'),
+             ('Orzechy włoskie', 'nueces', 'w grudniu wszędzie – Hiszpanie też je jedzą'),
+             ('Śledź', 'arenque', 'trudno dostępny – szukaj w polskich i skandynawskich sklepach'),
+             ('Karp', 'carpa', 'praktycznie nie do kupienia – zamień na doradę lub lubinę')]
+    rr = ''.join(f'<div style="display:grid;grid-template-columns:44px 230px 260px 1fr;gap:14px;align-items:center;padding:15px 0;border-top:1px solid #CFC5B5">'
+                 f'<div style="width:28px;height:28px;border:2.5px solid {INKK};border-radius:4px"></div>'
+                 f'<div style="{CG}font-size:30px;font-weight:600;line-height:1">{E(a)}</div>'
+                 f'<div style="font-size:21px;font-weight:700;font-style:italic;color:{RED}">{E(b)}</div>'
+                 f'<div style="font-size:18px;line-height:1.35;color:#4A443D">{E(c)}</div></div>' for a, b, c in items)
+    inner = (f'<div style="position:absolute;left:64px;right:64px;top:56px">{kick("Do wycięcia · lista zakupów")}{H("Lista zakupów <i style=\'color:"+RED+"\'>na Wigilię</i>", 84)}'
+             f'<div style="font-size:21px;line-height:1.45;margin-top:12px;color:#4A443D">Jak szukać polskich składników w hiszpańskim supermarkecie – i co zrobić, gdy ich nie ma. Pokaż ekspedientce słowo na czerwono.</div>{rule()}{rr}</div>'
+             + wow('Ostatni dzwonek', 'Polskie sklepy na wybrzeżu mają przed świętami największy ruch. Karpia, śledzie i pierogi zamawiaj z wyprzedzeniem – najpóźniej w połowie grudnia.', 64, 1085, 952, -1))
+    return frame(n, N, 'Do wycięcia', inner)
+
+THEME_SEQ = ['light','light','green','light','light','light','light','light','light','red','light','light','light','light','light','green','light','light','light','red','yellow','green','light','light','noir','noir','light','light','light','yellow','green','light']
+PAGES = [P_cover, P_liczby, P_kalendarz, P_mapa, P_malaga, P_marbella, P_fue_est, P_szopki, P_dzieci, P_gordo, P_los, P_mit, P_pl_es, P_polska_wigilia, P_przepisy, P_zakupy, P_slodycze, P_prezenty, P_sylwester, P_ciekawostki, P_banus, P_gwiazdy, P_zagaleta, P_ap7, P_crime, P_zagadka, P_praktycznie, P_slowniczek, P_quiz, P_bingo, P_konkurs, P_koniec]
