@@ -322,5 +322,88 @@ def P_konkurs(n, N):
              f'<div style="margin-top:28px;font-size:17px;line-height:1.5;opacity:.75">Udział mogą wziąć osoby pełnoletnie, które odbiorą nagrodę na Costa del Sol. Regulamin w poście konkursowym. Konkurs nie jest sponsorowany, popierany ani administrowany przez Instagram, Facebook ani Metę.</div></div>')
     return frame(n, N, 'Konkurs', inner)
 
-THEME_SEQ = ['light','light','green','light','light','light','light','red','light','light','light','light','light','light','red','light','light','light','green','light']
-PAGES = [P_cover, P_liczby, P_kalendarz, P_malaga, P_marbella, P_fue_est, P_dzieci, P_gordo, P_mit, P_pl_es, P_polska_wigilia, P_slodycze, P_prezenty, P_sylwester, P_ciekawostki, P_praktycznie, P_slowniczek, P_quiz, P_konkurs, P_koniec]
+
+THEMES['noir'] = dict(PAPER='#15130F', INKK='#F4EDE2', MUT='#A89E90', SAND='rgba(255,255,255,.07)', RED='#E0874F', GRN='#C9A15A', GOLD='#E0874F', LINE='rgba(224,135,79,.35)', SUB='#D9D0C3', ZEB='rgba(255,255,255,.04)', CARD='rgba(255,255,255,.08)')
+
+def P_zagaleta(n, N):
+    nums = ''.join(f'<div style="border-top:2px solid {c};padding-top:10px"><div style="{CG}font-size:46px;font-weight:600;line-height:1;color:{c}">{a}</div><div style="font-size:16px;line-height:1.3;margin-top:4px;color:{MUT}">{b}</div></div>' for a, b, c in [
+        ('900 ha', 'strzeżonych wzgórz w gminie Benahavís', RED), ('270 ha', 'ziemi spółki zarządzającej – nowy właściciel od 12.2024', GRN),
+        ('420', 'domów w planie, do tego działka pod hotel', GOLD), ('2', 'pola golfowe, stadnina i lądowisko dla helikopterów', RED)])
+    inner = (photo('villa4.jpg', 0, 0, 1080, 600, '50% 55%')
+             + f'<div style="position:absolute;left:0;right:0;top:0;height:600px;background:linear-gradient(180deg,rgba(0,0,0,.3) 0%,rgba(0,0,0,0) 30%,rgba(0,0,0,.05) 50%,rgba(0,0,0,.82) 100%)"></div>'
+             + f'<div style="position:absolute;left:64px;right:64px;top:360px;color:#fff">{kick("Na długie wieczory · Benahavís", "#F2C14E")}{H("Kto naprawdę kupił <i style=\'color:#F2C14E\'>La Zagaletę?</i>", 80, "#fff")}</div>'
+             + f'<div style="position:absolute;right:30px;top:22px;font-size:13px;color:rgba(255,255,255,.9)">Zdjęcie ilustracyjne. Fot. Max Harlynking / Unsplash</div>'
+             + f'<div style="position:absolute;left:64px;top:640px;width:560px">'
+             + dc('Na wybrzeżu krąży plotka, że ktoś wykupił wszystkie działki w najbardziej ekskluzywnym osiedlu Europy. Prawda jest mniej filmowa, ale równie ciekawa.')
+             + p('W grudniu 2024 r. zagraniczny fundusz przejął 100% spółki, która zarządza La Zagaletą i ma tam wolne grunty. Kwoty transakcji nie ujawniono.', 20)
+             + p('Prywatne wille i działki nadal należą do swoich właścicieli – i dalej są w sprzedaży. Działki o pow. 4–13 tys. m² kosztują w ofertach zwykle 3–5,5 mln €.', 20)
+             + pull('Nie kupiono domów – kupiono spółkę i jej ziemię.', GRN)
+             + '</div>'
+             + f'<div style="position:absolute;left:670px;right:64px;top:630px"><div style="display:grid;grid-template-columns:1fr;gap:10px">{nums}</div>'
+             + '<div style="height:14px"></div>'
+             + box('Co dalej?', 'Nowy właściciel zapowiada rozbudowę osiedla i markę La Zagaleta za granicą.', SAND, INKK, RED)
+             + '</div>' + src('El Español, Gulf Business, Idealista (12.2024–01.2025); oferty Málaga MLS (11.2026).'))
+    return frame(n, N, 'Na długie wieczory', inner)
+
+def P_ap7(n, N):
+    nums = ''.join(f'<div style="border-top:2px solid {c};padding-top:12px"><div style="{CG}font-size:56px;font-weight:600;line-height:1;color:{c}">{a}</div><div style="font-size:18px;font-weight:700;margin-top:6px">{b}</div><div style="font-size:16px;line-height:1.35;color:{MUT};margin-top:2px">{d}</div></div>' for a, b, d, c in [
+        ('11 233', 'nowych mieszkań na sprzedaż', '14 gmin wybrzeża, III kw. 2026 – co piąte w Hiszpanii', RED),
+        ('ok. 120 tys.', 'aut dziennie na A-7', 'między Málagą a Marbellą', GRN),
+        ('40 682', 'aut dziennie na płatnej AP-7', 'rekord 2025, latem opłata +63%', GOLD),
+        ('70+', 'pól golfowych', 'najwięcej w kontynentalnej Europie', RED)])
+    sc = ''.join(f'<div style="display:flex;gap:18px;padding:16px 0;border-top:1px solid #CFC5B5"><div style="{CG}font-size:52px;font-weight:600;color:{RED};line-height:.85;min-width:40px">{i}</div><div><div style="font-size:21px;font-weight:700">{E(a)}</div><div style="font-size:18px;line-height:1.4;color:#4A443D;margin-top:3px">{E(b)}</div></div></div>' for i, (a, b) in enumerate([
+        ('Pociąg', 'Studium dopiero w kwietniu 2027 r., a na budowę (ponad 6,5 mld €) nie ma pieniędzy.'),
+        ('Nowa droga albo trzeci pas', 'Między A-7 a AP-7 są pola golfowe i osiedla – miejsca brak.'),
+        ('Darmowa AP-7', 'Rząd mówi „nie” – koncesja trwa do 2046 i 2054 r.')], 1))
+    inner = (photo('costaaer.jpg', 0, 0, 1080, 470, '45% 50%')
+             + f'<div style="position:absolute;left:0;right:0;top:0;height:470px;background:linear-gradient(180deg,rgba(0,0,0,0) 35%,rgba(0,0,0,.8) 100%)"></div>'
+             + f'<div style="position:absolute;left:64px;right:64px;top:250px;color:#fff">{kick("Na długie wieczory · Costa del Sol", "#F2C14E")}{H("Korek <i style=\'color:#F2C14E\'>do 2046 roku?</i>", 88, "#fff")}</div>'
+             + f'<div style="position:absolute;right:30px;top:20px;font-size:13px;color:rgba(255,255,255,.9)">Wybrzeże między Marbellą a Fuengirolą. Fot. Mike McBey / Wikimedia Commons, CC BY 2.0</div>'
+             + f'<div style="position:absolute;left:64px;right:64px;top:500px;font-size:23px;line-height:1.45">Darmowa A-7 stoi w korkach, płatna AP-7 latem drożeje, pociągu nie ma. A pomiędzy nimi – <b>pola golfowe i osiedla</b>. Gdzie zmieścić nową drogę?</div>'
+             + f'<div style="position:absolute;left:64px;top:610px;width:440px;display:grid;grid-template-columns:1fr;gap:16px">{nums}</div>'
+             + f'<div style="position:absolute;left:556px;right:64px;top:610px">{hdr("Jakie perspektywy?", 34, RED)}{sc}'
+             + '<div style="height:16px"></div>'
+             + box('Zdaniem redakcji', 'Bez pociągu korki będą rosły szybciej niż drogi. Kupujesz dom? Sprawdź, ile naprawdę jedziesz w godzinach szczytu.', GRN)
+             + '</div>' + src('Brains RE (III kw. 2026), Savills, El Debate, El Español, El Independiente, Esdiario, Olive Press, Euro Weekly News (2025–2026).'))
+    return frame(n, N, 'Na długie wieczory', inner)
+
+def P_crime(n, N):
+    tl = ''.join(f'<div style="display:grid;grid-template-columns:210px 1fr;gap:18px;padding:14px 0;border-top:1px solid #CFC5B5"><div style="{CG}font-size:36px;font-weight:600;color:{RED};line-height:1">{a}</div><div style="font-size:19px;line-height:1.4">{E(b)}</div></div>' for a, b in [
+        ('1978', 'Wygasa stara umowa o ekstradycji między Hiszpanią a Wielką Brytanią.'),
+        ('lata 80.', 'Dziennikarz David Baird tytułuje artykuł „Costa del Crime” – nazwa zostaje.'),
+        ('22.07.1985', 'W Londynie podpisano nową umowę. Weszła w życie 1.07.1986 – ale nie działała wstecz.'),
+        ('dziś', 'Oba kraje wspólnie ścigają zbiegów w akcji Operation Captura.')])
+    fld = ''.join(f'<div style="display:grid;grid-template-columns:150px 1fr;padding:9px 0;border-bottom:1px dashed rgba(27,23,20,.35)"><span style="font-weight:800;font-size:15px;letter-spacing:.12em;color:#7A5B3A">{a}</span><span style="font-size:20px;color:#1b1714">{b}</span></div>' for a, b in [
+        ('NAZWISKO', 'Monzer al-Kassar'), ('PSEUDONIM', '„Książę Marbelli”'), ('ADRES', 'rezydencja w Marbelli'),
+        ('ZATRZYMANY', '06.2007, lotnisko w Madrycie'), ('WYROK', '30 lat – sąd w Nowym Jorku, 02.2009')])
+    inner = (f'<div style="position:absolute;left:64px;right:64px;top:56px">{kick("Na długie wieczory · Zagadki kryminalne")}{H("Costa <i style=\'color:"+RED+"\'>del Crime</i>", 96)}'
+             f'<div style="font-size:23px;line-height:1.45;margin-top:14px;color:#4A443D">Przez lata brytyjscy przestępcy mogli uciekać na wybrzeże bez strachu przed ekstradycją. Tak powstała nazwa, która przylgnęła do Costa del Sol.</div>{rule()}{tl}</div>'
+             + f'<div style="position:absolute;left:64px;right:64px;top:660px;background:#E8D9BC;color:#1b1714;padding:26px 30px 22px;transform:rotate(-1deg);box-shadow:0 20px 40px rgba(0,0,0,.45)">'
+             + f'<div style="position:absolute;left:0;top:-30px;width:230px;height:32px;background:#E8D9BC;border-radius:10px 10px 0 0"></div>'
+             + f'<div style="font-size:15px;font-weight:800;letter-spacing:.24em;color:#9E2B25">AKTA · MARBELLA</div>'
+             + f'<div style="{CG}font-size:46px;font-weight:600;line-height:1.05;margin:6px 0 10px">Kim był „Książę Marbelli”?</div>'
+             + f'<div style="display:grid;grid-template-columns:1fr 330px;gap:26px"><div>{fld}<div style="font-size:18px;line-height:1.45;margin-top:12px">Miał sprzedać ponad 12 tys. sztuk broni kolumbijskiej partyzantce FARC. Kupcami byli w rzeczywistości informatorzy amerykańskiej agencji DEA – część spotkań odbyła się w jego rezydencji w Marbelli.</div></div>'
+             + f'<div style="position:relative"><img src="file://{PH}villa0.jpg" style="width:330px;height:300px;object-fit:cover;filter:grayscale(1) contrast(1.1);border:10px solid #fff;box-shadow:0 8px 20px rgba(0,0,0,.3);transform:rotate(2deg)"><div style="font-size:13px;font-style:italic;margin-top:8px">Zdjęcie ilustracyjne. Fot. Frames For Your Heart / Unsplash</div>'
+             + f'<div style="position:absolute;right:-6px;top:200px;border:4px solid #9E2B25;color:#9E2B25;font-weight:900;font-size:34px;letter-spacing:.12em;padding:6px 16px;transform:rotate(-12deg);background:rgba(232,217,188,.6)">SKAZANY</div></div></div></div>'
+             + src('Traktat ekstradycyjny (Treaty Series 40/1986), Hansard (1985), Olive Press, NCA, gov.uk; DEA (2008, 2009), AFP, CBS News, NBC News.'))
+    return frame(n, N, 'Zagadki kryminalne', inner)
+
+def P_mafie(n, N):
+    nums = ''.join(f'<div style="border-top:2px solid {RED};padding-top:12px"><div style="{CG}font-size:64px;font-weight:600;line-height:1;color:{RED}">{a}</div><div style="font-size:19px;font-weight:700;margin-top:6px">{b}</div><div style="font-size:16px;line-height:1.35;color:{MUT};margin-top:2px">{d}</div></div>' for a, b, d in [
+        ('32', 'strzelaniny', 'od 01.2024 do 05.2025 – 8 zabitych, 42 rannych'),
+        ('26', 'zabójstw w prowincji', 'w 2025 r. – najwięcej od 2015 r.'),
+        ('7', 'rozbitych gangów', 'w miesiąc (10–11.2025), 55 zatrzymanych'),
+        ('04.2024', 'Plan Marbella', 'po 7 strzelaninach w 2 miesiące')])
+    inner = (photo('pol.jpg', 0, 0, 1080, 560, '50% 55%')
+             + f'<div style="position:absolute;left:0;right:0;top:0;height:560px;background:linear-gradient(180deg,rgba(0,0,0,.2) 0%,rgba(0,0,0,0) 22%,rgba(21,19,15,.75) 58%,rgba(21,19,15,1) 100%)"></div>'
+             + f'<div style="position:absolute;left:64px;right:64px;top:330px">{kick("Na długie wieczory · Zagadki kryminalne")}{H("Raj <i style=\'color:"+RED+"\'>dla mafii?</i>", 100)}</div>'
+             + f'<div style="position:absolute;right:30px;top:20px;font-size:13px;color:rgba(255,255,255,.9)">Zdjęcie ilustracyjne. Fot. Contando Estrelas / Wikimedia Commons, CC BY-SA 2.0</div>'
+             + f'<div style="position:absolute;left:64px;right:64px;top:600px;font-size:23px;line-height:1.45">Słońce, porty jachtowe i luksusowe osiedla przyciągają nie tylko turystów. Policja mówi o międzynarodowych gangach, porachunkach w biały dzień i coraz młodszych zabójcach.</div>'
+             + f'<div style="position:absolute;left:64px;right:64px;top:730px;display:grid;grid-template-columns:1fr 1fr;gap:24px 40px">{nums}</div>'
+             + f'<div style="position:absolute;left:64px;right:64px;top:1060px">'
+             + box('Co to znaczy dla Ciebie', 'To głównie porachunki między gangami narkotykowymi, a nie ataki na turystów. Najwięcej strzelanin było w Maladze i Marbelli. W 2026 r. rząd znów wysłał na wybrzeże dodatkowe patrole.', 'rgba(255,255,255,.07)', INKK, RED)
+             + '</div>' + src('MSW Hiszpanii (11.2025), El Debate, El Español, Vozpópuli, ARA (2025–2026).'))
+    return frame(n, N, 'Zagadki kryminalne', inner)
+
+THEME_SEQ = ['light','light','green','light','light','light','light','red','light','light','light','light','light','light','red','light','light','noir','noir','light','light','light','green','light']
+PAGES = [P_cover, P_liczby, P_kalendarz, P_malaga, P_marbella, P_fue_est, P_dzieci, P_gordo, P_mit, P_pl_es, P_polska_wigilia, P_slodycze, P_prezenty, P_sylwester, P_ciekawostki, P_zagaleta, P_ap7, P_crime, P_mafie, P_praktycznie, P_slowniczek, P_quiz, P_konkurs, P_koniec]
