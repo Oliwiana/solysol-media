@@ -23,12 +23,12 @@ def P_liczby(n, N):
              g('12', 'winogron o północy w Sylwestra', GRN) + g('ok. 17°C', 'średnio w dzień w grudniu w Maladze', GOLD))
     short = ''.join(f'<div style="border-top:1px solid #CFC5B5;padding:8px 0"><div style="font-size:15px;font-weight:800;letter-spacing:.16em;color:{RED}">{a.upper()}</div><div style="{CG}font-size:23px;font-weight:600;line-height:1.15;margin-top:2px">{b}</div></div>' for a, b in [
         ('03 · Kalendarz', 'Wszystkie ważne daty do 6.01'),
-        ('04 · Mapa świąt', 'Kiedy zapalają światła na wybrzeżu'),
-        ('10 · Złota koperta', 'Czy masz szczęśliwy egzemplarz?'),
-        ('13 · Przepisy', 'Barszcz i dorada z hiszpańskiego targu'),
-        ('18 · Kto tu przylatywał?', 'Grace Kelly i Hefner w Marbelli'),
-        ('23 · Kryminalne', 'Złoto spod Heathrow'),
-        ('26 · Bingo', 'Bingo Polaka w Hiszpanii')])
+        ('04 · Málaga', 'Calle Larios zapala święta'),
+        ('09 · Złota koperta', 'Czy masz szczęśliwy egzemplarz?'),
+        ('11 · Przepisy', 'Barszcz i dorada z hiszpańskiego targu'),
+        ('15 · Kto tu przylatywał?', 'Grace Kelly i Hefner w Marbelli'),
+        ('19 · Kryminalne', 'Złoto spod Heathrow'),
+        ('22 · Bingo', 'Bingo Polaka w Hiszpanii')])
     inner = (f'<div style="position:absolute;left:64px;right:64px;top:56px">{kick("Na start")}{H("Święta w liczbach", 88)}{rule()}'
              f'<div style="display:grid;grid-template-columns:1fr 1fr;gap:26px 40px;width:560px">{stats}</div></div>'
              f'<div style="position:absolute;left:668px;right:64px;top:206px">{hdr("W numerze", 34)}{short}</div>'
@@ -683,5 +683,5 @@ def P_zakupy(n, N):
              + wow('Ostatni dzwonek', 'Polskie sklepy na wybrzeżu mają przed świętami największy ruch. Karpia, śledzie i pierogi zamawiaj z wyprzedzeniem – najpóźniej w połowie grudnia.', 64, 1085, 952, -1))
     return frame(n, N, 'Do wycięcia', inner)
 
-THEME_SEQ = ['light','light','green','light','light','light','light','light','red','light','light','light','light','light','light','light','red','yellow','green','light','light','noir','noir','light','light','yellow','green','light']
-PAGES = [P_cover, P_liczby, P_kalendarz, P_mapa, P_malaga, P_marbella, P_fue_est, P_dzieci, P_gordo, P_los, P_pl_es, P_polska_wigilia, P_przepisy, P_slodycze, P_prezenty, P_sylwester, P_ciekawostki, P_banus, P_gwiazdy, P_zagaleta, P_ap7, P_crime, P_zagadka, P_slowniczek, P_quiz, P_bingo, P_konkurs, P_koniec]
+THEME_SEQ = ['light','light','green','light','light','light','light','red','light','light','light','light','light','red','yellow','green','light','noir','noir','light','light','yellow','green','light']
+PAGES = [P_cover, P_liczby, P_kalendarz, P_malaga, P_marbella, P_fue_est, P_dzieci, P_gordo, P_los, P_pl_es, P_przepisy, P_slodycze, P_sylwester, P_ciekawostki, P_banus, P_gwiazdy, P_zagaleta, P_crime, P_zagadka, P_slowniczek, P_quiz, P_bingo, P_konkurs, P_koniec]
