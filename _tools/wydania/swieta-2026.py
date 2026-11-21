@@ -34,7 +34,14 @@ def P_liczby(n, N):
              f'<div style="position:absolute;left:668px;right:64px;top:206px">{hdr("W numerze", 34)}{short}</div>'
              + photo('x_hp2.jpg', 0, 790, 1080, 460, '50% 42%')
              + f'<div style="position:absolute;right:64px;top:740px;width:400px;background:{RED};color:#fff;padding:26px 28px;box-shadow:0 18px 40px rgba(0,0,0,.25)"><div style="font-size:15px;font-weight:800;letter-spacing:.22em;color:#F7D9A0">CZY WIESZ, ŻE…</div><div style="{CG}font-size:30px;line-height:1.2;margin-top:8px">Hiszpańskie święta trwają do 6 stycznia – najważniejszy dzień dla dzieci to Trzech Króli.</div></div>'
-             + f'<div style="position:absolute;left:64px;top:1214px;font-size:13px;color:#fff;text-shadow:0 1px 3px rgba(0,0,0,.6)">Calle Larios w Maladze. Fot. Hernán Piñera / Wikimedia Commons, CC BY-SA 2.0</div>'
+             + f'<div style="position:absolute;left:56px;top:985px;width:450px;transform:rotate(-4deg);background:#FBF3DC;border:2px solid #C99A2E;box-shadow:0 18px 40px rgba(0,0,0,.45);padding:14px 16px;font-family:Inter;color:#3A2A10">'
+             + f'<div style="display:flex;justify-content:space-between;font-size:11px;font-weight:800;letter-spacing:.14em;color:#8E1C22"><span>LOTERÍA NACIONAL</span><span>DÉCIMO</span></div>'
+             + f'<div style="font-size:11px;font-weight:700;letter-spacing:.06em;margin-top:2px;white-space:nowrap">SORTEO EXTRAORDINARIO DE NAVIDAD · 22 DE DICIEMBRE</div>'
+             + f'<div style="display:flex;gap:14px;align-items:center;margin-top:10px"><div style="width:96px;height:96px;background:linear-gradient(135deg,#8E1C22,#C99A2E);border-radius:4px;display:flex;align-items:center;justify-content:center;color:#FBF3DC;font-size:42px">★</div>'
+             + f'<div style="flex:1"><div style="{CG}font-size:56px;font-weight:700;letter-spacing:.08em;line-height:1;color:#1E1B18">00000</div><div style="font-size:11px;letter-spacing:.12em;margin-top:4px">SERIE · FRACCIÓN</div></div>'
+             + f'<div style="border-left:2px dashed #C99A2E;padding-left:12px;text-align:center"><div style="{CG}font-size:40px;font-weight:700;color:#8E1C22;line-height:1">20</div><div style="font-size:13px;font-weight:800">EUROS</div></div></div>'
+             + f'<div style="font-size:12px;font-style:italic;margin-top:8px;color:#6E5A30">Wzór poglądowy – tak wygląda los, który kupuje się na święta</div></div>'
+             + f'<div style="position:absolute;right:64px;top:1222px;font-size:13px;color:#fff;text-shadow:0 1px 3px rgba(0,0,0,.6)">Calle Larios w Maladze. Fot. Hernán Piñera / Wikimedia Commons, CC BY-SA 2.0</div>'
              + f'<div style="position:absolute;left:64px;right:64px;bottom:84px"></div>')
     return frame(n, N, 'Na start', inner)
 
