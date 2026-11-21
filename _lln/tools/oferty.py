@@ -81,7 +81,7 @@ seen = set(); L = [x for x in L if not (x["url"] in seen or seen.add(x["url"]))]
 print("ofert na liście:", len(L))
 
 def detail(o):
-    h = S.get(o["url"], timeout=60).text
+    h = S.get(re.sub(r"[?&]lang=\d+", "", o["url"]).replace("?type=81709&", "?type=81709"), timeout=60).text  # wersja EN – stałe etykiety
     t = re.sub(r"<script.*?</script>|<style.*?</style>", "", h, flags=re.S)
     lines = [l.strip() for l in html.unescape(re.sub(r"<[^>]+>", "\n", t)).split("\n") if l.strip()]
     def after(lbl):
