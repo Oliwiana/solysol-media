@@ -2,7 +2,7 @@
 # Użycie: python3 oferty.py '<json>' katalog_wyjściowy
 # json: {"types":["Willa","Penthouse"], "areas":["Marbella","Estepona"], "min":0, "max":10000000, "beds":0, "baths":0,
 #        "features":["Przy plaży","Widoki na morze"], "match":"all"|"any", "sort":"price_desc"|"price_asc"|"newest"|"oldest",
-#        "keyword":"", "pages":3, "details":30, "photos":14}
+#        "keyword":"", "pages":3, "details":30, "photos":20}
 # Wynik: oferty.json (lista ofert z danymi i adresami zdjęć), <ref>/NN.jpg (zdjęcia 1200 px), <ref>/sheet.jpg (podgląd ponumerowanych zdjęć),
 #        opcje.json (wszystkie dostępne rodzaje, obszary i cechy z formularza).
 import json, re, sys, os, html, time, io
@@ -102,7 +102,7 @@ def detail(o):
     o["photos"].sort(key=lambda u: int(re.search(r"/w1200/(\d+)-", u).group(1)) if re.search(r"/w1200/(\d+)-", u) else 999)
     return o
 
-N = int(Q.get("details", 30)); NP = int(Q.get("photos", 14))
+N = int(Q.get("details", 30)); NP = int(Q.get("photos", 20))
 for o in L[:N]:
     try: detail(o)
     except Exception as e: o["error"] = str(e)
