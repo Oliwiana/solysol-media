@@ -562,29 +562,32 @@ def P_los(n, N):
 
 
 def P_przepisy(n, N):
-    def rec(title, sub, time, ingr, steps, c):
-        ii = ''.join(f'<li style="margin:0 0 4px">{E(x)}</li>' for x in ingr)
-        ss = ''.join(f'<li style="margin:0 0 6px">{E(x)}</li>' for x in steps)
-        return (f'<div style="border-top:4px solid {c};padding-top:14px"><div style="font-size:14px;font-weight:800;letter-spacing:.16em;color:{c}">⏱ {time}</div><div style="{CG}font-size:36px;font-weight:600;line-height:1.05;margin-top:6px;min-height:76px">{title}</div>'
-                f'<div style="{CG}font-style:italic;font-size:21px;color:{MUT};margin:4px 0 10px">{sub}</div>'
-                f'<div style="font-size:13px;font-weight:800;letter-spacing:.2em;color:{c}">SKŁADNIKI</div><ul style="font-size:18px;line-height:1.4;padding-left:20px;margin:6px 0 10px">{ii}</ul>'
-                f'<div style="font-size:13px;font-weight:800;letter-spacing:.2em;color:{c}">KROK PO KROKU</div><ol style="font-size:18px;line-height:1.45;padding-left:22px;margin:6px 0 0">{ss}</ol></div>')
-    r1 = rec('Barszcz bez zakwasu', 'z gotowanych buraków z supermarketu', '40 MIN',
-             ['1 kg buraków gotowanych (remolacha cocida)', '1,5 l bulionu warzywnego', '2 ząbki czosnku, 2 liście laurowe, 4 ziarna ziela angielskiego', '3–4 łyżki octu z wina (vinagre de vino)', 'sól, pieprz, szczypta cukru, majeranek'],
-             ['Buraki zetrzyj, wrzuć do bulionu z czosnkiem i przyprawami.', 'Gotuj 15 min, nie dopuść do mocnego wrzenia.', 'Przecedź, dopraw octem, solą, pieprzem, cukrem i majerankiem.', 'Najlepszy następnego dnia – smak się pogłębi.'], RED)
-    r2 = rec('Dorada zamiast karpia', 'polska Wigilia, andaluzyjska ryba', '35 MIN',
-             ['2 dorady (poproś na stoisku rybnym o oczyszczenie)', '2 cytryny, 4 ząbki czosnku', 'oliwa, sól gruboziarnista', 'gałązka rozmarynu lub tymianku', '2 ziemniaki w cienkich plastrach'],
-             ['Ziemniaki ułóż w naczyniu, polej oliwą, piecz 10 min.', 'Rybę natnij, w środek włóż cytrynę i zioła.', 'Połóż rybę na ziemniakach, piecz 20–25 min w 200°C.', 'Podawaj z zieloną sałatą i cytryną.'], GRN)
-    r3 = rec('Ajoblanco', 'chłodnik z Malagi – na zimną przystawkę', '15 MIN',
-             ['150 g obranych migdałów (almendra marcona)', '2 kromki czerstwego chleba bez skórki', '1 ząbek czosnku, 100 ml oliwy', '2 łyżki octu sherry (vinagre de Jerez), sól', '600 ml zimnej wody, winogrona do podania'],
-             ['Chleb namocz w wodzie, odciśnij.', 'Zmiksuj migdały, chleb, czosnek i wodę na gładko.', 'Wlewaj oliwę, dopraw octem i solą.', 'Schłodź, podaj z winogronami.'], GOLD)
-    inner = (f'<div style="position:absolute;left:64px;right:64px;top:56px">{kick("Wigilia po hiszpańsku · przepisy")}{H("Polski stół <i style=\'color:"+RED+"\'>z hiszpańskiego targu</i>", 76)}'
-             f'<div style="font-size:21px;line-height:1.45;margin-top:12px;color:#4A443D">Nie ma karpia i zakwasu na barszcz? Trzy przepisy ze składników z każdego supermarketu i targu na wybrzeżu.</div>{rule()}'
-             f'<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:30px">{r1}{r2}{r3}</div></div>'
-             + wow('Na uszka i zakwas', 'Suszonych grzybów szukaj jako <b>setas deshidratadas</b> – najczęściej boletus. W polskich sklepach na wybrzeżu bywa też gotowy zakwas.', 64, 1075, 952, -1)
-             + src('Przepisy redakcji Sol y Sól. Ajoblanco – tradycyjna potrawa prowincji Málaga.'))
+    swaps = [('Karp', 'Dorada lub lubina', 'Na każdym targu, oczyszczą ją przy stoisku. Pieczona 25 min.'),
+             ('Zakwas', 'Remolacha cocida + ocet', 'Gotowane buraki z supermarketu – barszcz w 40 minut.'),
+             ('Śledź', 'Boquerones en vinagre', 'Sardele w occie. Z cebulką i olejem – prawie jak śledzik.'),
+             ('Twaróg', 'Requesón', 'Najbliższy zamiennik do ruskich i sernika.'),
+             ('Suszone grzyby', 'Setas deshidratadas', 'Szukaj boletus – na uszka i do barszczu.'),
+             ('Mak', 'Semillas de amapola', 'W sklepach ze zdrową żywnością i przy ziarnach.')]
+    cards = ''.join(f'<div style="background:#fff;border:1px solid #E2D8C6;padding:16px 18px 14px;box-shadow:0 6px 16px rgba(0,0,0,.06)">'
+                    f'<div style="display:flex;align-items:center;gap:10px"><span style="font-size:15px;font-weight:800;letter-spacing:.12em;color:{MUT};text-decoration:line-through">{E(a.upper())}</span><span style="font-size:20px;color:{RED}">→</span></div>'
+                    f'<div style="{CG}font-size:30px;font-weight:700;line-height:1.05;color:{RED};margin-top:4px">{E(b)}</div>'
+                    f'<div style="font-size:16px;line-height:1.38;margin-top:6px;color:#4A443D">{E(c)}</div></div>' for a, b, c in swaps)
+    steps = ''.join(f'<div style="display:flex;gap:12px;padding:6px 0"><div style="{CG}font-size:30px;font-weight:700;color:{RED};line-height:.9;min-width:22px">{i}</div><div style="font-size:17px;line-height:1.4">{t}</div></div>' for i, t in enumerate([
+        'Zetrzyj 1 kg gotowanych buraków, wrzuć do 1,5 l bulionu z 2 ząbkami czosnku, liściem laurowym i zielem.',
+        'Gotuj 15 min, nie dopuszczając do mocnego wrzenia.',
+        'Przecedź. Dopraw 3–4 łyżkami octu winnego, solą, pieprzem, cukrem i majerankiem.',
+        'Najlepszy następnego dnia – z uszkami albo w kubku.'], 1))
+    inner = (photo('fish0.jpg', 0, 0, 1080, 470, '50% 55%')
+             + '<div style="position:absolute;left:0;right:0;top:0;height:470px;background:linear-gradient(180deg,rgba(0,0,0,.05) 25%,rgba(0,0,0,.78) 100%)"></div>'
+             + '<div style="position:absolute;right:30px;top:20px;font-size:13px;color:rgba(255,255,255,.9)">Zdjęcie ilustracyjne. Fot. Keesha\'s Kitchen / Unsplash</div>'
+             + f'<div style="position:absolute;left:64px;right:64px;top:250px;color:#fff">{kick("Wigilia po hiszpańsku", "#F2C14E")}{H("Karpia nie ma? <i style=\'color:#F2C14E\'>Jest dorada</i>", 76, "#fff")}'
+             + '<div style="font-size:20px;line-height:1.4;margin-top:10px;color:#F4ECDD">Ściąga na zakupy: co kupić na hiszpańskim targu, żeby na stole było po polsku.</div></div>'
+             + f'<div style="position:absolute;left:64px;right:64px;top:505px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px">{cards}</div>'
+             + f'<div style="position:absolute;left:64px;top:880px;width:600px;background:#FBF6EC;border:2px dashed {RED};padding:18px 24px 12px;transform:rotate(-.8deg)">'
+             + f'<div style="font-size:14px;font-weight:800;letter-spacing:.2em;color:{RED}">PRZEPIS NA SZYBKO</div><div style="{CG}font-size:34px;font-weight:700;line-height:1;margin:4px 0 6px">Barszcz w 40 minut</div>{steps}</div>'
+             + wow('Dorada w 3 krokach', 'Natnij, w środek cytryna i rozmaryn. Na ziemniaki w plastrach, oliwa, sól. 200°C, ok. 25 min.', 690, 905, 330, 2)
+             + src('Przepisy i porady redakcji Sol y Sól.'))
     return frame(n, N, 'Przepisy', inner)
-
 
 def P_gwiazdy(n, N):
     guests = ''.join(f'<span style="display:inline-block;border:1.5px solid {GOLD};color:{INKK};font-size:19px;padding:7px 14px;margin:0 8px 10px 0;border-radius:30px">{E(g)}</span>' for g in
@@ -594,8 +597,8 @@ def P_gwiazdy(n, N):
         ('lata 60.', 'Do hotelu zjeżdżają gwiazdy kina i arystokracja. Marbella staje się adresem z kolorowych pism.'),
         ('1974', 'Hohenlohe poznaje padla w Acapulco i buduje w Marbelli <b>dwa pierwsze korty w Hiszpanii</b>.'),
         ('dziś', 'Hiszpania to padlowa potęga, a kolacje wigilijne i bale sylwestrowe w klubie wciąż przyciągają gości.')])
-    pic = (f'<div style="position:absolute;right:64px;top:440px;width:400px;background:#fff;padding:14px 14px 46px;transform:rotate(2deg);box-shadow:0 18px 40px rgba(0,0,0,.25)"><img src="file://{PH}x_padel.jpg" style="display:block;width:100%;height:300px;object-fit:cover"><div style="position:absolute;left:16px;bottom:12px;font-size:14px;font-style:italic;color:#3A2A10">Zdjęcie ilustracyjne – kort do padla</div></div>'
-           f'<div style="position:absolute;right:64px;top:850px;width:400px;font-size:12px;color:{MUT};text-align:right">Fot. Samson Ssemakadde / Wikimedia Commons, CC0</div>') if os.path.exists(PH + 'x_padel.jpg') else ''
+    pic = (f'<div style="position:absolute;right:56px;top:430px;width:410px;background:#fff;padding:14px 14px 46px;transform:rotate(2deg);box-shadow:0 22px 44px rgba(0,0,0,.4)"><img src="file://{PH}mrb0.jpg" style="display:block;width:100%;height:330px;object-fit:cover;object-position:50% 50%"><div style="position:absolute;left:16px;bottom:12px;font-size:15px;font-style:italic;color:#3A2A10">Marbella i góra La Concha o zachodzie słońca</div></div>'
+           f'<div style="position:absolute;right:64px;top:850px;width:400px;font-size:12px;color:{MUT};text-align:right">Fot. Simon Hermans / Unsplash</div>')
     inner = (f'<div style="position:absolute;left:64px;right:64px;top:56px">{kick("Na długie wieczory · Marbella")}{H("Święta <i style=\'color:"+RED+"\'>z gwiazdami</i>", 100)}'
              f'<div style="{CG}font-style:italic;font-size:32px;line-height:1.25;margin-top:16px;color:#4A443D">Jak jeden hotel zrobił z rybackiej wioski adres dla Hollywood – i przy okazji przywiózł do Hiszpanii padla.</div>{rule()}'
              f'<div style="font-size:15px;font-weight:800;letter-spacing:.22em;color:{GOLD};margin:6px 0 12px">KTO TU BYWAŁ</div>{guests}</div>'
