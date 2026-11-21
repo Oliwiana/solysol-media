@@ -405,5 +405,28 @@ def P_mafie(n, N):
              + '</div>' + src('MSW Hiszpanii (11.2025), El Debate, El Español, Vozpópuli, ARA (2025–2026).'))
     return frame(n, N, 'Zagadki kryminalne', inner)
 
-THEME_SEQ = ['light','light','green','light','light','light','light','red','light','light','light','light','light','light','red','light','light','noir','light','light','light','green','light']
-PAGES = [P_cover, P_liczby, P_kalendarz, P_malaga, P_marbella, P_fue_est, P_dzieci, P_gordo, P_mit, P_pl_es, P_polska_wigilia, P_slodycze, P_prezenty, P_sylwester, P_ciekawostki, P_zagaleta, P_ap7, P_crime, P_praktycznie, P_slowniczek, P_quiz, P_konkurs, P_koniec]
+
+def P_banus(n, N):
+    guests = ''.join(f'<div style="display:flex;gap:16px;padding:13px 0;border-top:1px solid #CFC5B5"><div style="font-size:30px;line-height:1;min-width:38px">{a}</div><div><div style="font-size:21px;font-weight:700">{E(b)}</div><div style="font-size:17px;line-height:1.35;color:#4A443D;margin-top:2px">{E(c)}</div></div></div>' for a, b, c in [
+        ('👑', 'Książę Rainier i Grace Kelly', 'para książęca Monako'),
+        ('👑', 'Juan Carlos i Zofia', 'przyszli król i królowa Hiszpanii'),
+        ('✈️', 'Hugh Hefner', 'przyleciał prywatnym Boeingiem 707'),
+        ('🎬', 'Roman Polański i Aga Chan', 'reżyser i przywódca duchowy ismailitów'),
+        ('❤️', 'Christiaan Barnard', 'kardiochirurg, autor pierwszego przeszczepu serca'),
+        ('🎤', 'Julio Iglesias', 'młody piosenkarz śpiewał dla gości')])
+    inner = (photo('banus.jpg', 0, 0, 1080, 560, '50% 50%')
+             + f'<div style="position:absolute;left:0;right:0;top:0;height:560px;background:linear-gradient(180deg,rgba(0,0,0,.25) 0%,rgba(0,0,0,0) 25%,rgba(0,0,0,.55) 55%,rgba(0,0,0,.88) 100%)"></div>'
+             + f'<div style="position:absolute;left:64px;right:64px;top:330px;color:#fff">{kick("Na długie wieczory · Kto tu przylatywał?", "#F2C14E")}{H("Grace Kelly, Hefner <i style=\'color:#F2C14E\'>i Polański</i>", 78, "#fff")}</div>'
+             + f'<div style="position:absolute;right:30px;top:20px;font-size:13px;color:rgba(255,255,255,.9)">Puerto Banús dziś. Fot. Tomas Fano / Wikimedia Commons, CC BY-SA 2.0</div>'
+             + f'<div style="position:absolute;left:64px;top:600px;width:440px">'
+             + dc('2 sierpnia 1970 r. José Banús wydał przyjęcie na otwarcie swojego portu pod Marbellą. Na liście gości było 1700 nazwisk – to do dziś najsłynniejsza impreza w historii wybrzeża.')
+             + p('Puerto Banús wygląda jak stara rybacka wioska z białymi domkami. Nic bardziej mylnego – zbudowano je od zera właśnie w 1970 r.', 20)
+             + f'<div style="display:flex;gap:16px;margin-top:8px"><div style="background:{RED};color:#fff;padding:18px 20px;flex:1"><div style="{CG}font-size:54px;font-weight:600;line-height:1">1700</div><div style="font-size:16px;margin-top:4px">gości na przyjęciu</div></div>'
+             + f'<div style="background:{GRN};color:#fff;padding:18px 20px;flex:1"><div style="{CG}font-size:54px;font-weight:600;line-height:1">707</div><div style="font-size:16px;margin-top:4px">Boeing Hefnera</div></div></div>'
+             + '</div>'
+             + f'<div style="position:absolute;left:556px;right:64px;top:600px">{hdr("Na liście gości", 34, RED)}{guests}</div>'
+             + src('Archivo Histórico Provincial de Málaga (Junta de Andalucía), andalucia.com, Olive Press (2020), Terra Meridiana, puerto-banus.com.'))
+    return frame(n, N, 'Na długie wieczory', inner)
+
+THEME_SEQ = ['light','light','green','light','light','light','light','red','light','light','light','light','light','light','red','light','light','light','noir','light','light','light','green','light']
+PAGES = [P_cover, P_liczby, P_kalendarz, P_malaga, P_marbella, P_fue_est, P_dzieci, P_gordo, P_mit, P_pl_es, P_polska_wigilia, P_slodycze, P_prezenty, P_sylwester, P_ciekawostki, P_banus, P_zagaleta, P_ap7, P_crime, P_praktycznie, P_slowniczek, P_quiz, P_konkurs, P_koniec]
