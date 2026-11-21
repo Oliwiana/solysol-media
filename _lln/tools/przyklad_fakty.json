@@ -1,7 +1,84 @@
-{"tag":"MARBELLA · HISTORIA","kicker":"4 FAKTY · COSTA DEL SOL","title1":"Marbella,","title2":"jakiej nie znasz","subtitle":"Historie, których nie usłyszysz od przewodnika",
-"cover":{"photo":"/home/claude/solysol-media/_photos/commons/plaza-de-los-naranjos-marbella/02.jpg","pos":"50% 50%","credit":"Fot. Mark Gilbert / Wikimedia Commons, CC BY-SA 3.0"},
-"facts":[
-{"label":"1485 · STARE MIASTO","title":"Plac z <em>pomarańczami</em>","text":"Plaza de los Naranjos powstała po zdobyciu miasta przez Królów Katolickich. Wyburzono wtedy ciasną zabudowę i obsadzono plac drzewkami pomarańczy.","photo":"/home/claude/solysol-media/_photos/commons/plaza-de-los-naranjos-marbella/01.jpg","credit":"Fot. Berthold Werner / Wikimedia Commons, CC BY-SA 3.0"},
-{"label":"TORREMOLINOS","title":"Pierwszy <em>hotel</em> wybrzeża","text":"Tekst testowy o długości trzech zdań, żeby sprawdzić, czy wszystko się mieści. Drugie zdanie dla objętości. Trzecie zdanie kończy akapit.","photo":"/home/claude/solysol-media/_photos/commons/hotel-torremolinos/01.jpg","credit":"Fot. test / Wikimedia Commons"},
-{"label":"NERJA","title":"Jaskinia <em>Nerja</em>","text":"Krótki tekst testowy.","photo":"/home/claude/solysol-media/_photos/commons/cueva-de-nerja/01.jpg","credit":"Fot. test"},
-{"label":"MARBELLA","title":"Ostatni fakt, dłuższy <em>tytuł w dwóch liniach</em>","text":"Tekst testowy o długości trzech zdań, żeby sprawdzić, czy wszystko się mieści. Drugie zdanie dla objętości i jeszcze trochę słów, żeby było ciasno. Trzecie zdanie kończy akapit.","photo":"/home/claude/solysol-media/_photos/commons/plaza-de-los-naranjos-marbella/03.jpg","credit":"Fot. Zarateman / Wikimedia Commons"}]}
+{
+ "tag": "MARBELLA · HISTORIA",
+ "kicker": "8 FAKTÓW · PUERTO BANÚS",
+ "title1": "Puerto Banús –",
+ "title2": "jak powstała legenda",
+ "subtitle": "Grace Kelly, Hugh Hefner i 1700 gości na otwarciu",
+ "cover": {
+  "photo": "/home/claude/solysol-media/_photos/commons/puerto-ban-s-yachts/04.jpg",
+  "pos": "50% 50%",
+  "credit": "Fot. kallerna / Wikimedia Commons, CC BY-SA 4.0"
+ },
+ "facts": [
+  {
+   "label": "MAJ 1970",
+   "title": "Narodziny <em>legendy</em>",
+   "text": "Port oficjalnie otwarto w maju 1970 r. Jego formalna nazwa to Puerto Deportivo José Banús – na cześć twórcy, który kupił tu grunty na przełomie lat 50. i 60.",
+   "photo": "/home/claude/solysol-media/_photos/commons/puerto-ban-s/05.jpg",
+   "pos": "50% 50%",
+   "credit": "Fot. Adam Cli / Wikimedia Commons, CC BY-SA 4.0"
+  },
+  {
+   "label": "1906–1984 · JOSÉ BANÚS",
+   "title": "Budowniczy <em>z Katalonii</em>",
+   "text": "José Banús zrobił karierę jako deweloper w Madrycie. Na Costa del Sol kupił tereny między rzekami Verde i Guadaiza, na których powstała Nueva Andalucía. Port był zwieńczeniem tego projektu.",
+   "photo": "/home/claude/solysol-media/_photos/commons/puerto-ban-s/06.jpg",
+   "pos": "50% 50%",
+   "credit": "Fot. Tomas Fano / Wikimedia Commons, CC BY-SA 2.0"
+  },
+  {
+   "label": "ARCHITEKTURA",
+   "title": "Wioska <em>nad jachtami</em>",
+   "text": "Projekt przygotował Noldi Schreck, architekt kojarzony z Beverly Hills, razem z Marcosem Sainzem. Zamiast mariny otoczonej blokami powstała stylizowana andaluzyjska wioska z białymi domami nad nabrzeżem.",
+   "photo": "/home/claude/solysol-media/_photos/commons/puerto-ban-s/04.jpg",
+   "pos": "50% 50%",
+   "credit": "Fot. __Lolo__ / Wikimedia Commons, CC BY-SA 2.0"
+  },
+  {
+   "label": "1970 · OTWARCIE",
+   "title": "Impreza <em>na 1700 gości</em>",
+   "text": "Na otwarcie przyjechali m.in. książę Rainier i księżna Grace z Monako, Aga Khan, Roman Polański i Hugh Hefner. Gości obsługiwało 300 kelnerów z Sewilli, a śpiewał młody Julio Iglesias.",
+   "photo": "/home/claude/solysol-media/_photos/commons/puerto-ban-s-yachts/02.jpg",
+   "pos": "50% 60%",
+   "credit": "Fot. kallerna / Wikimedia Commons, CC BY-SA 4.0"
+  },
+  {
+   "label": "MARINA",
+   "title": "Ponad <em>900 cumowisk</em>",
+   "text": "Port mieści ponad 900 jednostek – od małych łodzi po superjachty. Wśród stałych gości są jachty króla Arabii Saudyjskiej. Od początku miał być też centrum zakupów i rozrywki.",
+   "photo": "/home/claude/solysol-media/_photos/commons/puerto-ban-s-yachts/08.jpg",
+   "pos": "50% 55%",
+   "credit": "Fot. Zarateman / Wikimedia Commons, CC0"
+  },
+  {
+   "label": "DZIŚ",
+   "title": "Blisko <em>5 mln gości</em> rocznie",
+   "text": "Według ratusza Marbelli Puerto Banús odwiedza co roku blisko 5 mln osób. W 2020 r. port obchodził 50. urodziny, a miasto przygotowało z tej okazji specjalne obchody.",
+   "photo": "/home/claude/solysol-media/_photos/commons/puerto-ban-s/03.jpg",
+   "pos": "50% 60%",
+   "credit": "Fot. SpenserKristine / Wikimedia Commons, CC BY-SA 4.0"
+  },
+  {
+   "label": "1956 / 2004 · DALÍ",
+   "title": "Nosorożec <em>w koronkach</em>",
+   "text": "Na rondzie przy porcie stoi trzytonowa rzeźba Salvadora Dalego „Rinoceronte vestido con puntillas” z 1956 r. Stanęła tu w 2004 r., w setną rocznicę urodzin artysty.",
+   "photo": "/home/claude/solysol-media/_photos/commons/rinoceronte-dal-puerto-ban-s/01.jpg",
+   "pos": "50% 50%",
+   "credit": "Fot. Wikimedia Commons (Dalí.Rinoceronte.JPG), CC BY 3.0"
+  },
+  {
+   "label": "1994 · LA VICTORIA",
+   "title": "Prezent <em>od Moskwy</em>",
+   "text": "Na drugim końcu Avenida de las Naciones Unidas stoi „La Victoria” Zuraba Cereteliego – postać na 26-metrowej kolumnie, którą burmistrz Moskwy podarował Marbelli w 1994 r.",
+   "photo": "/home/claude/solysol-media/_photos/commons/tsereteli-victoria-marbella/01.jpg",
+   "pos": "50% 35%",
+   "credit": "Fot. Zarateman / Wikimedia Commons, CC0"
+  }
+ ],
+ "end": {
+  "title1": "Szukasz domu",
+  "title2": "w Marbelli?",
+  "text": "Nueva Andalucía, Puerto Banús, San Pedro – znamy każdą okolicę. Napisz do nas w wiadomości."
+ },
+ "_wzorzec": "WZORZEC jakości (Oliwia: 'wybitny, takie mają być'): jedna historia miejsca opowiedziana w 8 konkretnych faktach z datami, liczbami i nazwiskami; każdy fakt ma własne, inne zdjęcie (lotnicze, jachty, detal, rzeźba); okładka – najbardziej efektowne ujęcie."
+}
