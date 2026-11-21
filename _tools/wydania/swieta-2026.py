@@ -26,9 +26,9 @@ def P_liczby(n, N):
         ('04 · Málaga', 'Calle Larios zapala święta'),
         ('08 · Złota koperta', 'Czy masz szczęśliwy egzemplarz?'),
         ('10 · Przepisy', 'Barszcz i dorada z hiszpańskiego targu'),
-        ('13 · Kto tu przylatywał?', 'Grace Kelly i Hefner w Marbelli'),
-        ('17 · Kryminalne', 'Złoto spod Heathrow'),
-        ('18 · Quiz', 'Kto w rodzinie wie najwięcej?')])
+        ('14 · Kto tu przylatywał?', 'Grace Kelly i Hefner w Marbelli'),
+        ('18 · Kryminalne', 'Złoto spod Heathrow'),
+        ('19 · Quiz', 'Kto w rodzinie wie najwięcej?')])
     inner = (f'<div style="position:absolute;left:64px;right:64px;top:56px">{kick("Na start")}{H("Święta w liczbach", 88)}{rule()}'
              f'<div style="display:grid;grid-template-columns:1fr 1fr;gap:26px 40px;width:560px">{stats}</div></div>'
              f'<div style="position:absolute;left:668px;right:64px;top:206px">{hdr("W numerze", 34)}{short}</div>'
@@ -714,5 +714,5 @@ def P_gordo1(n, N):
              + src('Loterías y Apuestas del Estado; Agencia Tributaria; El Debate, BBVA (2025); ustawa o PIT. Stan na 21.11.2026.'))
     return frame(n, N, 'Tradycje', inner)
 
-THEME_SEQ = ['light','light','green','light','light','light','light','red','light','light','light','red','yellow','green','light','noir','noir','light','green','light']
-PAGES = [P_cover, P_liczby, P_kalendarz, P_malaga, P_marbella, P_fue_est, P_dzieci, P_gordo1, P_pl_es, P_przepisy, P_sylwester, P_ciekawostki, P_banus, P_gwiazdy, P_zagaleta, P_crime, P_zagadka, P_quiz, P_konkurs, P_koniec]
+THEME_SEQ = ['light','light','green','light','light','light','light','red','light','light','light','light','red','yellow','green','light','noir','noir','light','light']
+PAGES = [P_cover, P_liczby, P_kalendarz, P_malaga, P_marbella, P_fue_est, P_dzieci, P_gordo1, P_pl_es, P_przepisy, P_slodycze, P_sylwester, P_ciekawostki, P_banus, P_gwiazdy, P_zagaleta, P_crime, P_zagadka, P_quiz, P_koniec]
