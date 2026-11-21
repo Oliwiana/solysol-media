@@ -1,4 +1,18 @@
 # Dodatek świąteczny Sol y Sól – strony magazynu
+
+def frame(n, total, section, inner, bg=None):
+    bg = bg or PAPER
+    foot = (f'<div style="position:absolute;left:0;right:0;bottom:0;height:84px;background:{bg}"></div>'
+            f'<div style="position:absolute;left:64px;right:64px;bottom:34px;display:flex;justify-content:space-between;align-items:center;border-top:1px solid #CFC5B5;padding-top:14px;font-size:15px;letter-spacing:.14em;color:{MUT}">'
+            f'<span><b style="color:{INKK}">SOL Y SÓL</b> · WYDANIE SPECJALNE · ŚWIĘTA 2026</span><span>{E(section.upper())} · {n:02d}</span></div>')
+    return page(GARL + SNOWD + inner + foot, bg, INKK)
+
+def wow(title, text, x, y, w, rot=-1.5, bg='#F2C14E', fg='#171513'):
+    return (f'<div style="position:absolute;left:{x}px;top:{y}px;width:{w}px;transform:rotate({rot}deg);background:{bg};color:{fg};padding:20px 26px 20px 96px;box-shadow:0 14px 30px rgba(0,0,0,.22)">'
+            f'<div style="position:absolute;left:20px;top:50%;transform:translateY(-50%);width:58px;height:58px;border-radius:50%;background:{fg};color:{bg};display:flex;align-items:center;justify-content:center;font-weight:900;font-size:30px;font-style:italic">?!</div>'
+            f'<div style="font-size:15px;font-weight:800;letter-spacing:.22em">{E(title.upper())}</div>'
+            f'<div style="font-size:21px;line-height:1.4;margin-top:5px">{text}</div></div>')
+
 def P_cover(n, N):
     return open('/home/claude/swieta_up/cover_A.html').read()
 
@@ -7,14 +21,17 @@ def P_liczby(n, N):
     stats = (g('2,8 mln', 'lampek LED w centrum Malagi – włączenie 27.11') + g('3,8 mln', 'lampek w Marbelli i San Pedro', GRN) +
              g('20 €', 'kosztuje décimo, czyli los El Gordo', GOLD) + g('1812', 'rok pierwszego losowania loterii świątecznej') +
              g('12', 'winogron o północy w Sylwestra', GRN) + g('ok. 17°C', 'średnio w dzień w grudniu w Maladze', GOLD))
-    short = ''.join(f'<div style="border-top:1px solid #CFC5B5;padding:12px 0"><div style="{CG}font-size:25px;font-weight:600">{a}</div><div style="font-size:18px;line-height:1.4;color:{MUT};margin-top:3px">{b}</div></div>' for a, b in [
-        ('Málaga – koncert na start', 'Po włączeniu świateł 27.11 o 18:30 gra El Kanka, wstęp wolny.'),
-        ('Marbella – anioły', 'Nowy pokaz na Plaza de los Naranjos, 3 razy dziennie.'),
-        ('Fuengirola – jarmark', 'Drewniane domki na Plaza de la Constitución do ok. 21.12.'),
-        ('Estepona – churros', '1.12 o 19:00 na Plaza del Ajedrez, z flashmobem 30 muzyków.')])
+    short = ''.join(f'<div style="border-top:1px solid #CFC5B5;padding:8px 0"><div style="font-size:15px;font-weight:800;letter-spacing:.16em;color:{RED}">{a.upper()}</div><div style="{CG}font-size:23px;font-weight:600;line-height:1.15;margin-top:2px">{b}</div></div>' for a, b in [
+        ('03 · Kalendarz', 'Wszystkie ważne daty do 6.01'),
+        ('04 · Málaga', 'Calle Larios zapala święta'),
+        ('08 · El Gordo', 'Loteria, którą żyje cały kraj'),
+        ('11 · Polska Wigilia', 'Czym zastąpić karpia i barszcz'),
+        ('16 · Kto tu przylatywał?', 'Grace Kelly i Hefner w Marbelli'),
+        ('19 · Kryminalne', 'Costa del Crime i „Książę Marbelli”'),
+        ('22 · Quiz', 'Kto w rodzinie wie najwięcej?')])
     inner = (f'<div style="position:absolute;left:64px;right:64px;top:56px">{kick("Na start")}{H("Święta w liczbach", 88)}{rule()}'
              f'<div style="display:grid;grid-template-columns:1fr 1fr;gap:26px 40px;width:560px">{stats}</div></div>'
-             f'<div style="position:absolute;left:668px;right:64px;top:222px">{hdr("Krótko", 34)}{short}</div>'
+             f'<div style="position:absolute;left:668px;right:64px;top:206px">{hdr("W numerze", 34)}{short}</div>'
              + photo('x_hp2.jpg', 0, 790, 1080, 460, '50% 42%')
              + f'<div style="position:absolute;right:64px;top:740px;width:400px;background:{RED};color:#fff;padding:26px 28px;box-shadow:0 18px 40px rgba(0,0,0,.25)"><div style="font-size:15px;font-weight:800;letter-spacing:.22em;color:#F7D9A0">CZY WIESZ, ŻE…</div><div style="{CG}font-size:30px;line-height:1.2;margin-top:8px">Hiszpańskie święta trwają do 6 stycznia – najważniejszy dzień dla dzieci to Trzech Króli.</div></div>'
              + f'<div style="position:absolute;left:64px;top:1214px;font-size:13px;color:#fff;text-shadow:0 1px 3px rgba(0,0,0,.6)">Calle Larios w Maladze. Fot. Hernán Piñera / Wikimedia Commons, CC BY-SA 2.0</div>'
@@ -59,7 +76,7 @@ def P_malaga(n, N):
 
 def P_marbella(n, N):
     nums = ''.join(f'<div style="border-top:2px solid {c};padding-top:10px"><div style="{CG}font-size:50px;font-weight:600;line-height:1;color:{c}">{a}</div><div style="font-size:17px;margin-top:6px;color:{MUT}">{b}</div></div>' for a, b, c in [
-        ('3,8 mln', 'lampek LED', RED), ('532', 'świetlne łuki', GRN), ('146', 'oświetlonych drzew', GOLD), ('2 421', 'girland', RED)])
+        ('3,8 mln', 'lampek LED', RED), ('532', 'świetlne łuki', GRN), ('102', 'latarnie z motywami', GOLD), ('139', 'figur na ulicach', RED)])
     inner = (photo('xmas_naranjos.jpg', 0, 0, 470, 1350, '92% 0%')
              + f'<div style="position:absolute;left:470px;top:0;width:10px;height:1350px;background:{GOLD}"></div>'
              + cap('Plaza de los Naranjos w Marbelli. Fot. Berthold Werner / Wikimedia Commons, CC BY-SA 3.0', 24, 1300, 430)
@@ -70,7 +87,7 @@ def P_marbella(n, N):
              + f'<div style="display:grid;grid-template-columns:1fr 1fr;gap:18px 26px">{nums}</div>'
              + '<div style="height:22px"></div>'
              + box('Kiedy włączenie świateł?', 'Ratusz jeszcze nie podał daty. Damy znać od razu, gdy ją ogłosi.', SAND, INKK, RED)
-             + '</div>' + f'<div style="position:absolute;left:530px;right:64px;bottom:84px;font-size:13px;color:{MUT}">Źródła: Ayuntamiento de Marbella; Marbella Directo; La Noción; Área Costa del Sol. Stan na 18.11.2026.</div>')
+             + '</div>' + wow('Nie wiedziałeś?', 'Plac powstał w <b>1485 r.</b>, tuż po zdobyciu miasta przez Królów Katolickich. Ratusz stoi tu od 1568 r.', 530, 1010, 486, 1.5) + f'<div style="position:absolute;left:530px;right:64px;bottom:84px;font-size:13px;color:{MUT}">Źródła: Ayuntamiento de Marbella; Marbella Directo; La Noción; Al Sol de la Costa (11.2026); Wikipedia. Stan na 21.11.2026.</div>')
     return frame(n, N, 'Marbella', inner)
 
 def P_fue_est(n, N):
@@ -85,8 +102,9 @@ def P_fue_est(n, N):
              + dc('Estepona włącza światła we wtorek 1.12 o 19:00 na Plaza del Ajedrez.', GRN)
              + p('W programie kolędy grup <i>pastorales</i>, <b>churros z czekoladą</b> dla wszystkich i flashmob ponad 30 muzyków na żywo.', 20)
              + box('Słowo na dziś', '<b>Pastorales</b> – grupy, które śpiewają tradycyjne andaluzyjskie kolędy przy tamburynach i zambombach.', SAND, INKK, RED)
-             + '</div>' + cap('Fuengirola i Estepona. Fot. Javi Masa / Wikimedia Commons, CC BY 3.0; Christian Hergesell / Unsplash', 64, 1215, 952)
-             + src('Ayuntamiento de Fuengirola; Área Costa del Sol; Ayuntamiento de Estepona; Al Sol de la Costa. Stan na 18.11.2026.'))
+             + '</div>' + wow('Rekord Fuengiroli', 'Dokładnie <b>2 771 512</b> lampek LED – o 286 tys. więcej niż rok temu. Najwięcej na Plaza de España.', 64, 1048, 952, -1)
+             + cap('Fuengirola i Estepona. Fot. Javi Masa / Wikimedia Commons, CC BY 3.0; Christian Hergesell / Unsplash', 64, 1215, 952)
+             + src('Ayuntamiento de Fuengirola; Área Costa del Sol; Euro Weekly News (18.11.2026); Ayuntamiento de Estepona; Al Sol de la Costa. Stan na 21.11.2026.'))
     return frame(n, N, 'Fuengirola · Estepona', inner)
 
 def P_gordo(n, N):
@@ -103,7 +121,7 @@ def P_gordo(n, N):
              f'<div style="position:absolute;left:666px;right:64px;top:470px">'
              + box('Czy wiesz, że…', 'Wylosowane numery i kwoty nie są odczytywane, tylko <b>śpiewane</b> – robią to dzieci ze szkoły San Ildefonso w Madrycie.', RED)
              + '<div style="height:16px"></div>'
-             + box('El Gordo, czyli…', '„Gruby” – tak nazywa się główną nagrodę. Stąd potoczna nazwa całego losowania.', GRN)
+             + box('El Gordo, czyli…', '„Gruby” – tak nazywa się główną nagrodę. Stąd potoczna nazwa całego losowania.', '#123D2B', '#fff', '#F2C14E')
              + '<div style="height:16px"></div>'
              + box('Uwaga', 'Duże wygrane są w Hiszpanii opodatkowane. Szczegóły sprawdź na stronie Loterías y Apuestas del Estado.', SAND, INKK, RED)
              + '</div>' + src('Loterías y Apuestas del Estado; RTVE. Stan na 18.11.2026.'))
@@ -116,9 +134,9 @@ def P_mit(n, N):
              ('„W Wigilię wszystko jest zamknięte.”', 'MIT', 'Sklepy zwykle działają, ale zamykają wcześniej niż zwykle.'),
              ('„28 grudnia nie wierz w każdą wiadomość.”', 'FAKT', 'To Día de los Inocentes – żartują znajomi, a czasem nawet gazety.'),
              ('„Hiszpanie też chodzą na pasterkę.”', 'FAKT', 'Nazywa się Misa del Gallo – „msza koguta” – i odbywa się w noc wigilijną.')]
-    cc = ''.join(f'<div style="background:{SAND if i % 3 != 1 else "#fff"};border:1px solid #D9CDB8;padding:28px 26px"><div style="{CG}font-style:italic;font-size:31px;font-weight:600;line-height:1.15">{E(a)}</div>'
+    cc = ''.join(f'<div style="background:{SAND if i % 3 != 1 else "#fff"};border:1px solid #D9CDB8;padding:38px 30px"><div style="{CG}font-style:italic;font-size:34px;font-weight:600;line-height:1.15">{E(a)}</div>'
                  f'<div style="display:inline-block;border:2px solid {RED if b == "MIT" else GRN};color:{RED if b == "MIT" else GRN};font-size:15px;font-weight:800;letter-spacing:.2em;padding:5px 10px;margin:12px 0 8px">{b}</div>'
-                 f'<div style="font-size:22px;line-height:1.4">{E(c)}</div></div>' for i, (a, b, c) in enumerate(cards))
+                 f'<div style="font-size:23px;line-height:1.45">{E(c)}</div></div>' for i, (a, b, c) in enumerate(cards))
     inner = (f'<div style="position:absolute;left:64px;right:64px;top:56px">{kick("Sprawdzamy")}<div style="display:flex;justify-content:space-between;align-items:flex-end">{H("Mit <i style=\'color:"+RED+"\'>czy fakt?</i>", 88)}<div style="{CG}font-style:italic;font-size:24px;text-align:right;color:{MUT}">Sześć rzeczy, które każdy „wie”<br>o świętach w Hiszpanii</div></div>{rule()}'
              f'<div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">{cc}</div></div>' + src('BOE i kalendarz świąt Junta de Andalucía 2026; AEMET; Conferencia Episcopal Española.'))
     return frame(n, N, 'Sprawdzamy', inner)
@@ -136,7 +154,8 @@ def P_pl_es(n, N):
     head = f'<div style="display:grid;grid-template-columns:210px 1fr 1fr;gap:18px;padding-bottom:10px"><div></div><div style="font-size:18px;font-weight:800;letter-spacing:.2em;color:{RED}">🇵🇱 POLSKA</div><div style="font-size:18px;font-weight:800;letter-spacing:.2em;color:{GOLD}">🇪🇸 HISZPANIA</div></div>'
     rr = ''.join(f'<div style="display:grid;grid-template-columns:210px 1fr 1fr;gap:18px;padding:22px 0;border-top:1px solid #CFC5B5;background:{"transparent" if i % 2 else "rgba(239,230,214,.6)"}"><div style="{CG}font-size:26px;font-weight:600;padding-left:8px">{E(a)}</div><div style="font-size:22px;line-height:1.35">{E(b)}</div><div style="font-size:22px;line-height:1.35">{E(c)}</div></div>' for i, (a, b, c) in enumerate(rows))
     inner = (f'<div style="position:absolute;left:64px;right:64px;top:56px">{kick("Dla Polaków")}{H("Wigilia czy <i style=\'color:"+RED+"\'>Nochebuena?</i>", 84)}'
-             f'<div style="font-size:22px;color:{MUT};margin-top:12px">Jak świętuje Polska, a jak Hiszpania – porównanie w jednym miejscu</div>{rule()}{head}{rr}</div>')
+             f'<div style="font-size:22px;color:{MUT};margin-top:12px">Jak świętuje Polska, a jak Hiszpania – porównanie w jednym miejscu</div>{rule()}{head}{rr}</div>'
+             + wow('Dlaczego „msza koguta”?', 'Według hiszpańskiej legendy to kogut jako pierwszy ogłosił światu narodziny Jezusa. Stąd <b>Misa del Gallo</b> – nasza pasterka.', 64, 1075, 952, -1))
     return frame(n, N, 'Dla Polaków', inner)
 
 def P_slodycze(n, N):
@@ -149,7 +168,10 @@ def P_slodycze(n, N):
         ('Pestiños', 'Andaluzyjskie smażone ciasteczka w miodzie, z nutą anyżu.'),
         ('Mazapán', 'Marcepan – najbardziej znany jest ten z Toledo.')])
     inner = (f'<div style="position:absolute;left:64px;right:64px;top:56px">{kick("Na słodko")}{H("Co Hiszpanie <i style=\'color:"+RED+"\'>jedzą na święta</i>", 78)}{rule()}'
-             f'<div style="display:grid;grid-template-columns:1fr 1fr;gap:30px">{cards}</div><div style="margin-top:18px">{more}</div></div>')
+             f'<div style="display:grid;grid-template-columns:1fr 1fr;gap:30px">{cards}</div><div style="margin-top:18px">{more}</div></div>'
+             + wow('Stolica ciasteczek', 'Mantecados i polvorones z <b>Estepy</b> (prowincja Sewilla) robi ok. 20 fabryk – rocznie ok. <b>15 tys. ton</b>. Sezon zaczyna się już we wrześniu.', 64, 1030, 600, -1.2)
+             + f'<div style="position:absolute;left:700px;right:64px;top:1040px;border:2px dashed {RED};padding:16px 18px"><div style="font-size:14px;font-weight:800;letter-spacing:.2em;color:{RED}">TRIK</div><div style="font-size:19px;line-height:1.4;margin-top:4px">Polvorón przed odwinięciem ściśnij w papierku – inaczej rozsypie się w proch.</div></div>'
+             + src('Consejo Regulador IGP Mantecados y Polvorones de Estepa; Alimarket; elDiario.es. Stan na 21.11.2026.'))
     return frame(n, N, 'Na słodko', inner)
 
 def P_ciekawostki(n, N):
@@ -165,7 +187,7 @@ def P_ciekawostki(n, N):
              ('Zegar z Puerta del Sol', 'Północ cała Hiszpania odlicza z telewizją, która pokazuje zegar na Puerta del Sol w Madrycie.'),
              ('Śpiewane numery', 'W El Gordo dzieci ze szkoły San Ildefonso śpiewają wylosowane numery.'),
              ('Prima aprilis w grudniu', '28.12 to Día de los Inocentes – dzień żartów, także w mediach.')]
-    cc = ''.join(f'<div style="display:flex;gap:16px;padding:12px 0;border-top:1px solid #CFC5B5"><div style="{CG}font-size:46px;font-weight:600;color:{[RED, GRN, GOLD][i % 3]};line-height:.9;min-width:52px">{i+1}</div><div><div style="font-size:21px;font-weight:700">{E(a)}</div><div style="font-size:18px;line-height:1.4;color:#4A443D;margin-top:3px">{E(b)}</div></div></div>' for i, (a, b) in enumerate(facts))
+    cc = ''.join(f'<div style="display:flex;gap:16px;padding:17px 0;border-top:1px solid #CFC5B5"><div style="{CG}font-size:52px;font-weight:600;color:{[RED, GRN, GOLD][i % 3]};line-height:.9;min-width:56px">{i+1}</div><div><div style="font-size:23px;font-weight:700">{E(a)}</div><div style="font-size:20px;line-height:1.4;color:#4A443D;margin-top:3px">{E(b)}</div></div></div>' for i, (a, b) in enumerate(facts))
     inner = (f'<div style="position:absolute;left:64px;right:64px;top:56px">{kick("Ciekawostki")}{H("12 rzeczy, które <i style=\'color:"+RED+"\'>zaskakują Polaków</i>", 74)}{rule()}'
              f'<div style="display:grid;grid-template-columns:1fr 1fr;gap:0 36px">{cc}</div></div>')
     return frame(n, N, 'Ciekawostki', inner)
@@ -186,14 +208,20 @@ def P_sylwester(n, N):
     return frame(n, N, 'Tradycje', inner)
 
 def P_slowniczek(n, N):
-    w = [('¡Feliz Navidad!', 'Wesołych Świąt!'), ('¡Próspero Año Nuevo!', 'Szczęśliwego Nowego Roku!'), ('Nochebuena', 'Wigilia'), ('Nochevieja', 'Sylwester'),
-         ('los Reyes Magos', 'Trzej Królowie'), ('el belén', 'szopka'), ('el villancico', 'kolęda'), ('el árbol de Navidad', 'choinka'),
-         ('el regalo', 'prezent'), ('las uvas de la suerte', 'winogrona szczęścia'), ('las campanadas', 'uderzenia zegara o północy'), ('el décimo', 'los loterii (1/10)'),
-         ('la cabalgata', 'pochód (Trzech Króli)'), ('el turrón', 'nugat'), ('la Misa del Gallo', 'pasterka'), ('el alumbrado', 'iluminacja świąteczna')]
-    cc = ''.join(f'<div style="padding:13px 0;border-top:1px solid #CFC5B5"><div style="{CG}font-size:31px;font-weight:600;color:{[RED, GRN][i % 2]}">{E(a)}</div><div style="font-size:20px;color:#4A443D;margin-top:2px">{E(b)}</div></div>' for i, (a, b) in enumerate(w))
-    inner = (f'<div style="position:absolute;left:64px;right:64px;top:56px">{kick("Po hiszpańsku")}{H("Świąteczny <i style=\'color:"+RED+"\'>słowniczek</i>", 86)}{rule()}'
+    w = [('¡Feliz Navidad!', 'Wesołych Świąt!', 'fe-LIS na-wi-DAD'), ('¡Próspero Año Nuevo!', 'Szczęśliwego Nowego Roku!', 'PROS-pe-ro A-ńo NUE-wo'),
+         ('Nochebuena', 'Wigilia', 'no-cze-BUE-na'), ('Nochevieja', 'Sylwester', 'no-cze-WIE-cha'),
+         ('los Reyes Magos', 'Trzej Królowie', 'los RE-jes MA-gos'), ('el belén', 'szopka', 'el be-LEN'),
+         ('el villancico', 'kolęda', 'el wi-jan-SI-ko'), ('el árbol de Navidad', 'choinka', 'el AR-bol de na-wi-DAD'),
+         ('el regalo', 'prezent', 'el re-GA-lo'), ('las uvas de la suerte', 'winogrona szczęścia', 'las U-was de la SUER-te'),
+         ('las campanadas', 'uderzenia zegara o północy', 'las kam-pa-NA-das'), ('el décimo', 'los loterii (1/10)', 'el DE-si-mo'),
+         ('la cabalgata', 'pochód Trzech Króli', 'la ka-bal-GA-ta'), ('el turrón', 'nugat', 'el tu-RRON'),
+         ('la Misa del Gallo', 'pasterka', 'la MI-sa del GA-jo'), ('el alumbrado', 'iluminacja świąteczna', 'el a-lum-BRA-do')]
+    cc = ''.join(f'<div style="padding:12px 0;border-top:1px solid #CFC5B5"><div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px"><span style="{CG}font-size:31px;font-weight:600;color:{[RED, GRN][i % 2]}">{E(a)}</span><span style="font-size:15px;font-weight:700;letter-spacing:.06em;color:{GOLD};white-space:nowrap">[{E(c)}]</span></div><div style="font-size:20px;color:#4A443D;margin-top:2px">{E(b)}</div></div>' for i, (a, b, c) in enumerate(w))
+    inner = (f'<div style="position:absolute;left:64px;right:64px;top:56px">{kick("Po hiszpańsku")}{H("Świąteczny <i style=\'color:"+RED+"\'>słowniczek</i>", 86)}'
+             f'<div style="font-size:20px;color:{MUT};margin-top:10px">W nawiasach – jak to wymówić. Wielkie litery = akcent.</div>{rule()}'
              f'<div style="display:grid;grid-template-columns:1fr 1fr;gap:0 40px">{cc}</div>'
-             f'<div style="margin-top:20px">{box("Złota fraza", "<b>¡Felices fiestas!</b> – „Wesołych świąt!”, uniwersalnie: pasuje i do sąsiada, i do klienta.", GRN)}</div></div>')
+             f'<div style="margin-top:20px;display:grid;grid-template-columns:1fr 1fr;gap:20px">{box("Złota fraza", "<b>¡Felices fiestas!</b> – „Wesołych świąt!”, pasuje i do sąsiada, i do klienta.", GRN)}'
+             f'{box("Ucho lokalsa", "Na Costa del Sol „c” i „z” często brzmią jak <b>s</b>, a końcówki słów bywają połykane.", SAND, INKK, RED)}</div></div>')
     return frame(n, N, 'Po hiszpańsku', inner)
 
 def P_quiz(n, N):
@@ -247,7 +275,8 @@ def P_dzieci(n, N):
              + box('Pamiętaj', 'W Hiszpanii najważniejszy dzień dla dzieci to <b>6 stycznia</b>. Wiele rodzin daje drobny prezent 25.12, a główny – od Króli.', RED)
              + '<div style="height:16px"></div>'
              + box('Daty w Twojej gminie', 'Wioski Mikołaja, pokazy świateł i cabalgaty gminy ogłaszają zwykle na przełomie listopada i grudnia. Podamy je w wydaniach o 8:00 i 19:00.', SAND, INKK, RED)
-             + '</div>' + src('Ayuntamientos gmin Costa del Sol. Stan na 19.11.2026.'))
+             + '</div>' + wow('Od ponad 100 lat', 'Pochód Trzech Króli przechodzi przez Málagę od <b>1923 r.</b> Ostatnio jechało w nim 13 wozów, a w tłum poleciały tony cukierków i żelków.', 64, 1040, 952, -1)
+             + src('Ayuntamiento de Málaga (malaga.eu, 2025–2026); Vozpópuli; ayuntamientos gmin Costa del Sol. Stan na 21.11.2026.'))
     return frame(n, N, 'Dla rodzin', inner)
 
 def P_polska_wigilia(n, N):
@@ -276,7 +305,7 @@ def P_prezenty(n, N):
              ('Wino Málaga', 'Słodkie wino z oznaczeniem DO Málaga, idealne do deseru.'),
              ('Pasas de Málaga', 'Rodzynki z Axarquíi, suszone na słońcu – z chronionym pochodzeniem.'),
              ('Ceramika andaluzyjska', 'Malowane talerze i miski – kupisz na targach i w miasteczkach w głębi lądu.')]
-    gg = ''.join(f'<div style="padding:24px 0;border-top:1px solid #CFC5B5"><div style="{CG}font-size:34px;font-weight:600;color:{[RED, GRN][i % 2]}">{E(a)}</div><div style="font-size:21px;line-height:1.45;color:#4A443D;margin-top:3px">{E(b)}</div></div>' for i, (a, b) in enumerate(gifts))
+    gg = ''.join(f'<div style="padding:16px 0;border-top:1px solid #CFC5B5"><div style="{CG}font-size:34px;font-weight:600;color:{[RED, GRN][i % 2]}">{E(a)}</div><div style="font-size:21px;line-height:1.45;color:#4A443D;margin-top:3px">{E(b)}</div></div>' for i, (a, b) in enumerate(gifts))
     inner = (f'<div style="position:absolute;left:64px;right:64px;top:56px">{kick("Do walizki")}{H("Prezenty <i style=\'color:"+RED+"\'>z Hiszpanii</i>", 86)}'
              f'<div style="font-size:22px;color:{MUT};margin-top:10px">Co przywieźć rodzinie do Polski – smaki i rzeczy z Andaluzji</div>{rule()}</div>'
              + f'<div style="position:absolute;left:64px;top:330px;width:560px;display:grid;grid-template-columns:1fr 1fr;gap:0 30px">{gg}</div>'
@@ -286,7 +315,8 @@ def P_prezenty(n, N):
              + box('Na lotnisku', 'Oliwę, wino i inne płyny powyżej 100 ml pakuj do <b>bagażu rejestrowanego</b>. Butelki owiń ubraniem albo folią bąbelkową.', RED)
              + '<div style="height:14px"></div>'
              + box('Wskazówka', 'Słodycze z oznaczeniem pochodzenia mają na opakowaniu znaczek IGP lub DOP – to gwarancja, że są z danego regionu.', SAND, INKK, RED)
-             + '</div>' + src('Junta de Andalucía; Consejos Reguladores DO Málaga, IGP Mantecados de Estepa, DOP Pasas de Málaga; Aena. Stan na 19.11.2026.'))
+             + '</div>' + wow('A szynka?', '<b>Jamón</b> w walizce do Polski – wolno, to podróż w UE. Kup krojony, pakowany próżniowo.', 64, 1060, 570, -1.2)
+             + src('Junta de Andalucía; Consejos Reguladores DO Málaga, IGP Mantecados de Estepa, DOP Pasas de Málaga; Aena. Stan na 19.11.2026.'))
     return frame(n, N, 'Do walizki', inner)
 
 def P_praktycznie(n, N):
@@ -299,7 +329,7 @@ def P_praktycznie(n, N):
             ('Pociąg C1', 'Cercanías łączy Málagę, lotnisko, Torremolinos, Benalmádenę i Fuengirolę. W święta sprawdź rozkład na renfe.com.'),
             ('Parkowanie', 'Wieczorami przy iluminacjach centra są zakorkowane. Lepiej pociągiem lub autobusem.')]
     tt = ''.join(f'<div style="padding:20px 0;border-top:1px solid #CFC5B5"><div style="{CG}font-size:32px;font-weight:600;color:{GRN}">{E(a)}</div><div style="font-size:21px;line-height:1.45;margin-top:2px">{E(b)}</div></div>' for a, b in tips)
-    inner = (photo('x_cerc.jpg', 0, 0, 1080, 400, '50% 70%')
+    inner = (photo('x_cerc.jpg', 0, 0, 1080, 400, '50% 88%')
              + f'<div style="position:absolute;left:0;right:0;top:0;height:400px;background:linear-gradient(180deg,rgba(0,0,0,0) 40%,rgba(0,0,0,.72) 100%)"></div>'
              + f'<div style="position:absolute;left:64px;right:64px;top:240px;color:#fff">{kick("Praktycznie", "#F2C14E")}{H("Co warto <i style=\'color:#F2C14E\'>wiedzieć</i>", 80, "#fff")}</div>'
              + f'<div style="position:absolute;right:30px;top:20px;font-size:13px;color:rgba(255,255,255,.9)">Cercanías C1. Fot. Tyk / Wikimedia Commons, domena publiczna</div>'
