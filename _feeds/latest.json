@@ -1,20 +1,20 @@
 {
- "checked": "2026-11-21T09:15:05Z",
+ "checked": "2026-11-21T13:13:25Z",
  "sources": [
   {
    "name": "The Spanish Eye",
    "ok": true,
    "feed": "https://www.thespanisheye.com/feed/",
    "count": 20,
-   "newest": "2026-11-20T22:56:34Z",
+   "newest": "2026-11-21T13:00:20Z",
    "error": null
   },
   {
    "name": "Diario Sur",
    "ok": true,
    "feed": "https://www.diariosur.es/rss/2.0/portada",
-   "count": 73,
-   "newest": "2026-11-21T08:22:29Z",
+   "count": 70,
+   "newest": "2026-11-21T12:27:16Z",
    "error": null
   },
   {
@@ -22,15 +22,15 @@
    "ok": true,
    "feed": "https://www.laopiniondemalaga.es/rss/",
    "count": 20,
-   "newest": "2026-11-21T09:10:07Z",
+   "newest": "2026-11-21T13:02:14Z",
    "error": null
   },
   {
    "name": "Málaga Hoy",
    "ok": true,
    "feed": "https://www.malagahoy.es/rss/",
-   "count": 121,
-   "newest": "2026-11-21T08:21:55Z",
+   "count": 122,
+   "newest": "2026-11-21T13:02:51Z",
    "error": null
   },
   {
@@ -78,7 +78,7 @@
    "ok": true,
    "feed": "https://www.diariosur.es/rss/2.0/?section=marbella",
    "count": 100,
-   "newest": "2026-11-20T20:54:31Z",
+   "newest": "2026-11-21T12:15:42Z",
    "error": null
   },
   {
@@ -118,7 +118,7 @@
    "ok": true,
    "feed": "https://www.theolivepress.es/feed/",
    "count": 20,
-   "newest": "2026-11-20T18:10:45Z",
+   "newest": "2026-11-21T13:10:00Z",
    "error": null
   },
   {
@@ -126,30 +126,30 @@
    "ok": true,
    "feed": "https://www.101tv.es/rss/",
    "count": 10,
-   "newest": "2026-11-21T09:07:00Z",
+   "newest": "2026-11-21T13:12:00Z",
    "error": null
   },
   {
    "name": "Policía Nacional / Guardia Civil Málaga",
    "ok": true,
    "feed": "https://news.google.com/rss/search?q=(%22Polic%C3%ADa+Nacional%22+OR+%22Guardia+Civil%22)+M%C3%A1laga+when:1d&hl=es&gl=ES&ceid=ES:es",
-   "count": 12,
-   "newest": "2026-11-20T15:21:33Z",
+   "count": 40,
+   "newest": "2026-11-21T12:41:21Z",
    "error": null
   },
   {
    "name": "Polskie media – Hiszpania",
    "ok": true,
    "feed": "https://news.google.com/rss/search?q=(Hiszpania+OR+Hiszpanii+OR+Malaga+OR+Maladze+OR+Marbella+OR+Marbelli+OR+%22Costa+del+Sol%22+OR+Andaluzja+OR+Andaluzji)+when:1d&hl=pl&gl=PL&ceid=PL:pl",
-   "count": 45,
-   "newest": "2026-11-21T08:30:00Z",
+   "count": 35,
+   "newest": "2026-11-21T13:02:00Z",
    "error": null
   },
   {
    "name": "Polskie media – Polacy w Hiszpanii",
    "ok": true,
    "feed": "https://news.google.com/rss/search?q=(Polacy+OR+Polak+OR+Polka)+(Hiszpanii+OR+Hiszpania)+when:2d&hl=pl&gl=PL&ceid=PL:pl",
-   "count": 18,
+   "count": 17,
    "newest": "2026-11-21T08:30:00Z",
    "error": null
   },
@@ -158,66 +158,542 @@
    "ok": true,
    "feed": "https://www.europapress.es/rss/rss.aspx?ch=00279",
    "count": 10,
-   "newest": "2026-11-21T08:39:01Z",
+   "newest": "2026-11-21T13:12:42Z",
    "error": null
   }
  ],
  "items": [
   {
-   "title": "Alonso: \"Cuando los rivales van detrás de un motor Honda, dejan espacio extra\"",
-   "link": "https://www.laopiniondemalaga.es/deportes/2026/11/21/alonso-rivales-detras-motor-honda-136690626.html",
-   "summary": "Aston Martin ha confirmado en la clasificación del GP de Las Vegas sus peores expectativas. Fernando Alonso ya había anticipado en los días previos que las largas rectas del circuito del Strip iban a ser muy duras para el AMR26 y el motor Honda. Y a la hora de la verdad, los dos coches del equipo ha",
-   "source": "La Opinión de Málaga",
-   "time": "2026-11-21T09:10:07Z"
+   "title": "Abascal anuncia querellas contra el Gobierno por urnas en consulados para \"nacionalizados por la ley de nietos\"",
+   "link": "https://www.europapress.es/andalucia/noticia-abascal-anuncia-querellas-contra-gobierno-urnas-consulados-nacionalizados-ley-nietos-20261121141242.html",
+   "summary": "El presidente de Vox, Santiago Abascal, ha anunciado este sábado en Sevilla que su formación interpondrá de \"manera inmediata\" querellas por \"desobediencia\" después de haberse conocido que el Gobierno ha dado instrucciones para colocar urnas separadas en los consulados destinadas \"a los votos de los",
+   "source": "Europa Press Andalucía",
+   "time": "2026-11-21T13:12:42Z"
   },
   {
-   "title": "Esta es la fecha en la que Málaga desbancará a Sevilla como provincia más poblada de Andalucía",
-   "link": "https://www.101tv.es/andalucia/esta-es-la-fecha-en-la-que-malaga-desbancara-a-sevilla-como-provincia-mas-poblada-de-andalucia/",
-   "summary": "Andalucía seguirá ganando habitantes durante las próximas décadas, pero no lo hará por igual en todas sus provincias ni mantendrá ese crecimiento indefinidamente. Las nuevas proyecciones del Instituto de Estadística y Cartografía de Andalucía (IECA) dibujan una comunidad que alcanzará los 9,36 mill",
+   "title": "PSOE en el 29N: lo último de la campaña de Sánchez",
+   "link": "https://www.101tv.es/espana/psoe-en-el-29n-lo-ultimo-de-la-campana-de-sanchez/",
+   "summary": "Además de las noticias publicadas en este medio, la actualidad de la campaña electoral del PSOE y de su candidato, Pedro Sánchez, para las elecciones generales del 29 de noviembre deja más titulares. Puedes seguir también toda la última hora que ofrece las campañas del PP, Vox y Frente Amplio. Esta",
    "source": "101TV Málaga",
-   "time": "2026-11-21T09:07:00Z"
+   "time": "2026-11-21T13:12:00Z"
   },
   {
-   "title": "Pablo Bustinduy, portavoz de Frente Amplio: \"No hay que preocuparse por el impuesto a la herencia de la familia de Amancio Ortega, les va a ir muy bien durante generaciones\"",
-   "link": "https://www.laopiniondemalaga.es/nacional/2026/11/21/pablo-bustinduy-portavoz-frente-amplio-136690515.html",
-   "summary": "Pablo Bustinduy es ministro de Derechos Sociales, Consumo y Agenda 2030, así como el portavoz de campaña de Frente Amplio en la carrera hacia las generales. Este jueves estuvo en A Coruña, donde tiene orígenes familiares, para participar en actos de una campaña que su formación centra en la vivienda",
-   "source": "La Opinión de Málaga",
-   "time": "2026-11-21T09:04:07Z"
+   "title": "PP en el 29N: lo último de la campaña de Alberto Núñez Feijóo",
+   "link": "https://www.101tv.es/espana/pp-en-el-29n-lo-ultimo-de-la-campana-de-alberto-nunez-feijoo/",
+   "summary": "Además de las noticias publicadas en este medio, la actualidad de la campaña electoral del PP y de su candidato, Alberto Núñez Feijóo, para las elecciones generales del 29 de noviembre deja más titulares. Puedes seguir también toda la última hora que ofrece las campañas del PSOE, Vox y Frente Ampli",
+   "source": "101TV Málaga",
+   "time": "2026-11-21T13:10:05Z"
   },
   {
-   "title": "Silencios sobre Marruecos o el Sáhara, boicot a Israel: propuestas de los partidos en política exterior para el 29N",
-   "link": "https://www.laopiniondemalaga.es/internacional/2026/11/21/programas-electorales-29n-politica-exterior-marruecos-sahara-136690379.html",
-   "summary": "El Partido Popular clama contra la masacre de Gaza, pero ignora el controvertido asunto del gasto en defensa; el PSOE no menciona el Sáhara Occidental, pero alardea de multilateralismo frente a Trump. Frente Amplio incluye propuestas muy concretas para boicotear a Israel. Vox ignora en su programa l",
-   "source": "La Opinión de Málaga",
-   "time": "2026-11-21T09:00:19Z"
+   "title": "Treaty downside: Cross-border workers who lose their jobs must now apply for less generous Gibraltar benefits",
+   "link": "https://www.theolivepress.es/spain-news/2026/11/21/gibraltar-spain-brexit-deal-benefits/",
+   "summary": "THOUSANDS of cross-border workers face a hit to their benefits under the landmark post-Brexit treaty on Gibraltar – although Spanish unions say they have found a way to soften the",
+   "source": "Olive Press",
+   "time": "2026-11-21T13:10:00Z"
   },
   {
-   "title": "Rothko, Goya  y John Akomfrah, próximas muestras del Museo Picasso",
-   "link": "https://www.laopiniondemalaga.es/cultura-espectaculos/2026/11/21/rothko-goya-john-akomfrah-proximas-136685612.html",
-   "summary": "Mark Rothko, Francisco de Goya y John Akomfrah serán los protagonistas de las exposiciones temporales del Museo Picasso de Málaga durante 2027, junto al propio artista malagueño, en la programación aprobada este viernes por el patronato de la pinacoteca.",
+   "title": "El líder de Vox, Santiago Abascal, este sábado en un mitin en Sevilla.",
+   "link": "https://www.malagahoy.es/espana/elecciones/abascal-pide-pp-respeto-vox_0_2008556467.html",
+   "summary": "El líder de Vox acusa al PSOE de intentar un amaño electoral con la colocación irregular de urnas en los consulados\nSánchez defiende su estrategia ante Feijóo: \"Quise mantener una conversación respetuosa\"",
+   "source": "Málaga Hoy",
+   "time": "2026-11-21T13:02:51Z"
+  },
+  {
+   "title": "Florentino Pérez sienta a Rafa Nadal junto a la directiva en la Asamblea del Real Madrid",
+   "link": "https://www.laopiniondemalaga.es/videos/deportes/2026/11/21/florentino-perez-sienta-rafa-nadal-136696492.html",
+   "summary": "Rafa Nadal asiste presencialmente este sábado a la Asamblea General del Real Madrid, donde se vota su incorporación a la junta directiva del club, según aprobó esta el pasado día 4.",
    "source": "La Opinión de Málaga",
-   "time": "2026-11-21T08:59:15Z"
+   "time": "2026-11-21T13:02:14Z"
+  },
+  {
+   "title": "Hiszpania: Camp Nou dopiero w 2030 roku? Policzyliśmy scenariusz kolejnych opóźnień - Stadiony.net",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZTgxUHltdDV3RWNqaE5ZQWR3VWpfM3NPb2t3WVdlWmxaZno5aWVaQzNtU2RiSjN3LW51M082V180Rm16ZWNHRDVuNC13ZkcyeDQ3ME9sUVdzbWlxUHNUX3FIRjd5czl2a1lQbEVIYnhIX2pFeVRzZFBtX2lyQzdySEt4RE9LNFVVbTg2OGVSUkpFY05zY2lGWGpuXzZiSzIwcUJhWXVyRXdsUGVKMWVWMmJ2Q1RXTWtpSndHWm5ubw?oc=5",
+   "summary": "Hiszpania: Camp Nou dopiero w 2030 roku? Policzyliśmy scenariusz kolejnych opóźnień    Stadiony.net",
+   "source": "Polskie media – Hiszpania",
+   "time": "2026-11-21T13:02:00Z"
+  },
+  {
+   "title": "ATP Finals, en directo: Carlos Alcaraz - Ben Shelton",
+   "link": "https://www.laopiniondemalaga.es/deportes/2026/11/21/atp-finals-directo-carlos-alcaraz-136696367.html",
+   "summary": "El tenista murciano Carlos Alcaraz y el estadounidense Ben Shelton se citan este sábado en las semifinales de las Finales ATP de Turín, un sexto enfrentamiento entre dos jugadores que buscan su primer título en el torneo y que tienen en común a Juan Carlos Ferrero, antiguo entrenador del español y a",
+   "source": "La Opinión de Málaga",
+   "time": "2026-11-21T13:00:56Z"
+  },
+  {
+   "title": "El PSOE denuncia la falta de inversiones municipales en Miraflores y Bailén",
+   "link": "https://www.laopiniondemalaga.es/malaga/2026/11/21/psoe-denuncia-falta-inversiones-ayuntamiento-bailen-miraflores-136695769.html",
+   "summary": "El grupo municipal socialista en el Ayuntamiento de Málaga ha denunciado la falta de inversiones y el deterioro de los servicios públicos en Bailén-Miraflores, al tiempo que ha reclamado al Ayuntamiento una mayor atención a las necesidades de los barrios. Los socialistas han trasladado estas reivind",
+   "source": "La Opinión de Málaga",
+   "time": "2026-11-21T13:00:53Z"
+  },
+  {
+   "title": "Eroski eggs recalled over salmonella risk in Andalucia and seven other regions",
+   "link": "https://www.thespanisheye.com/2026/11/21/eroski-eggs-recalled-over-salmonella-risk-in-andalucia-and-seven-other-regions/",
+   "summary": "The eggs are being withdrawn from sale",
+   "source": "The Spanish Eye",
+   "time": "2026-11-21T13:00:20Z"
+  },
+  {
+   "title": "Presentación del Anuario de Agricultura.",
+   "link": "https://www.diariodealmeria.es/almeria/anuario-agr-grupo-joly-agrobio_0_2008556343.html",
+   "summary": "El Anuario de la Agricultura y Alimentación, que este año ha alcanzado su decimotercera edición, recibe el premio en la categoría de Comunicación y Mundo Rural\nAndalucía exporta salud: nuevo anuario de la Agricultura & Alimentación del Grupo Joly",
+   "source": "Málaga Hoy",
+   "time": "2026-11-21T12:50:38Z"
+  },
+  {
+   "title": "Moreno pide echar el \"resto\" en esta semana y afirma que España necesita un gobierno que se \"tome en serio\" al campo",
+   "link": "https://www.europapress.es/andalucia/noticia-moreno-pide-echar-resto-semana-afirma-espana-necesita-gobierno-tome-serio-campo-20261121135015.html",
+   "summary": "El presidente del PP de Andalucía y de la Junta, Juanma Moreno, ha pedido este sábado \"echar el resto\" en la última semana de campaña electoral por los comicios generales del 29 de noviembre para hacer posible el \"cambio político\" en España, apuntando que se necesita un gobierno de la nación que",
+   "source": "Europa Press Andalucía",
+   "time": "2026-11-21T12:50:15Z"
+  },
+  {
+   "title": "WATCH: Car destroyed by fire in Malaga Airport car park",
+   "link": "https://www.thespanisheye.com/2026/11/21/watch-car-destroyed-by-fire-in-malaga-airport-car-park/",
+   "summary": "Firefighters put out the blaze before it spread to nearby vehicles.",
+   "source": "The Spanish Eye",
+   "time": "2026-11-21T12:49:09Z"
+  },
+  {
+   "title": "El presidente de Consejo Europeo, António Costa.",
+   "link": "https://www.malagahoy.es/economia/costa-plantea-tijeretazo-200-000-presupuesto-europeo_0_2008556341.html",
+   "summary": "La propuesta recorta cerca de 30.000 millones en los planes nacionales que financian la PAC y reduce otros 2.000 millones la dotación de los fondos de cohesión, políticas que afectan especialmente a Andalucía\nEl plan industrial de Navantia eleva la p",
+   "source": "Málaga Hoy",
+   "time": "2026-11-21T12:44:19Z"
+  },
+  {
+   "title": "Los malagueños Owen Mira y Trujillano propulsan la goleada de España Sub-17 a China en el debut mundialista",
+   "link": "https://www.101tv.es/deportes/los-malaguenos-owen-mira-y-trujillano-propulsan-la-goleada-de-espana-sub-17-a-china-en-el-debut-mundialista/",
+   "summary": "España arrancó el Mundial Sub-17 de Catar este viernes con un contundente 5-0 ante China que llevó sello altamente malagueño. Owen Mira, extremo del Granada, firmó un doblete para acabar elegido Jugador del Partido por la FIFA, mientras que Guillermo Trujillano, delantero del Atlético de Madrid, sa",
+   "source": "101TV Málaga",
+   "time": "2026-11-21T12:43:00Z"
+  },
+  {
+   "title": "Cerca de 50 caravanistas celebran en Puente Genil el encuentro 'Viajeros sin Rumbo' - Diario Córdoba",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQeUREVGV1OHI0M0llSjh4Wmt6cDV5bjRmQ1RtRC1NNW0xMDc4YzRaZ3dNWThTZWV6Rzd1WUxENlowSjJUaXNIU28wWHlDbGRLbUFMNmpIeFptYlVJTG1ERnQwVVVrODJpU2tocGZHZlY1cGZDX3lMZ0RLX1UwMVdMeWlCT2ZCQURydzVpNWlWYTQwQW1yT2lPc3Y1RjlpZUZ6ZWFJ0gGoAUFVX3lxTE1tbF9vQ0FyZGRqRzhhemxmbzJzblg0S1cwVW43MHQ1Vkt4MTZBZkhUY2VwcXNFcUNLd0E1bmRQUEM1b2dEOG1HRGV1RjhBaC1ZMi1XUmRBYUxQMzJGWW5Oamg1Yy1XeWNtelNyT2NZcWR4ZkltOThFaXJUbDFSUEdQczFTUkpsaGY4TVhoX1d3ZWd2X19LMFEyZjd6WUM0cU9SSGN2QmRJcQ?oc=5",
+   "summary": "Cerca de 50 caravanistas celebran en Puente Genil el encuentro 'Viajeros sin Rumbo'    Diario Córdoba",
+   "source": "Policía Nacional / Guardia Civil Málaga",
+   "time": "2026-11-21T12:41:21Z"
+  },
+  {
+   "title": "Calero, ante la Real Sociedad.",
+   "link": "https://www.malagahoy.es/malaga_cf/fernando-calero-no-entrena-osasuna_0_2008555718.html",
+   "summary": "El central\nno se ejercitó con el grupo por una sobrecarga en sus músculos isquiotibiales\nNombres propios del Osasuna-Málaga",
+   "source": "Málaga Hoy",
+   "time": "2026-11-21T12:36:54Z"
+  },
+  {
+   "title": "El Frente Amplio propone más árboles y energía solar para combatir el calor extremo en Málaga",
+   "link": "https://www.laopiniondemalaga.es/malaga/2026/11/21/frente-amplio-propone-arboles-energia-136694720.html",
+   "summary": "El candidato del Frente Amplio al Congreso por Málaga, Rafa Borrego, ha reclamado este sábado medidas para adaptar la ciudad a las consecuencias del cambio climático y reducir el impacto de las altas temperaturas sobre la población. Lo ha hecho durante una marcha en bicicleta en la que también ha pa",
+   "source": "La Opinión de Málaga",
+   "time": "2026-11-21T12:32:45Z"
+  },
+  {
+   "title": "Podemos acusa al PSOE de \"rendirse\" ante la derecha y descarta volver a gobernar con los socialistas",
+   "link": "https://www.laopiniondemalaga.es/nacional/2026/11/21/acusa-psoe-rendirse-derecha-descarta-136695585.html",
+   "summary": "La secretaria general de Podemos, Ione Belarra, ha acusado este sábado al PSOE de dar por perdidas las elecciones y buscar el mejor resultado posible \"comiéndose a su izquierda\",  y ha advertido de que su partido no volverá a gobernar con los socialistas si no se revierten el rearme, la escalada de",
+   "source": "La Opinión de Málaga",
+   "time": "2026-11-21T12:28:40Z"
+  },
+  {
+   "title": "El turismo se abona al Black Friday: estas son algunas de las ofertas de viajes",
+   "link": "https://www.diariosur.es/turismo/turismo-abona-black-friday-ofertas-viajes-20261120132716-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-21T12:27:16Z"
+  },
+  {
+   "title": "La SGAE y las cofradías andaluzas dialogan sobre el canon por las marchas procesionales",
+   "link": "https://www.laopiniondemalaga.es/andalucia/2026/11/21/sgae-cofradias-andaluzas-dialogan-canon-136694721.html",
+   "summary": "Las agrupaciones de hermandades y cofradías de Semana Santa de las capitales andaluzas y de Jerez de la Frontera (Cádiz) han acordado con la Sociedad General de Autores y Editores (SGAE) abrir un diálogo sobre la posible aplicación de un canon por la interpretación de marchas procesionales.",
+   "source": "La Opinión de Málaga",
+   "time": "2026-11-21T12:25:35Z"
+  },
+  {
+   "title": "WATCH: Seized narco fuel was illegally resold to drivers at budget petrol stations in Andalucia",
+   "link": "https://www.thespanisheye.com/2026/11/21/watch-seized-narco-fuel-was-illegally-resold-to-drivers-at-budget-petrol-stations-in-andalucia/",
+   "summary": "Five people have been arrested, including the suspected ringleader.",
+   "source": "The Spanish Eye",
+   "time": "2026-11-21T12:21:35Z"
+  },
+  {
+   "title": "Las nuevas recomendaciones para evitar embarazos no deseados en mujeres tratatas con los pinchazos para adelgazar Mounjaro",
+   "link": "https://www.diariosur.es/sociedad/salud/nuevas-recomendaciones-evitar-embarazos-deseados-mujeres-tratatas-20261120132103-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-21T12:21:03Z"
+  },
+  {
+   "title": "Marbella destinará más de 40 millones de euros a reforzar seguridad y emergencias",
+   "link": "https://www.diariosur.es/marbella/marbella-destinara-millones-euros-reforzar-seguridad-emergencias-20261120131542-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-21T12:15:42Z"
+  },
+  {
+   "title": "Marbella destinará más de 40 millones de euros a reforzar seguridad y emergencias",
+   "link": "https://www.diariosur.es/marbella/marbella-destinara-millones-euros-reforzar-seguridad-emergencias-20261120131542-nt.html",
+   "summary": "Las partidas para Policía Local, Bomberos y Protección Civil incluye más medios, mejoras de instalaciones y aumentos de las plantillas",
+   "source": "Diario Sur – Marbella",
+   "time": "2026-11-21T12:15:42Z"
+  },
+  {
+   "title": "La Iglesia entra en campaña pidiendo “votar en conciencia” contra el aborto y por “el derecho de los padres a educar”",
+   "link": "https://www.laopiniondemalaga.es/nacional/2026/11/21/iglesia-entra-campana-pidiendo-votar-136695096.html",
+   "summary": "Diez puntos para pedir “votar en conciencia”. Es lo que ha difundido la Diócesis de Orihuela-Alicante, liderada por el obispo José Ignacio Munilla (que acostumbra a emitir sus opiniones políticas en redes sociales), tras una reunión en Asamblea Plenaria de los obispos españoles de la que ha surgido",
+   "source": "La Opinión de Málaga",
+   "time": "2026-11-21T12:11:17Z"
+  },
+  {
+   "title": "Ahorrar para la jubilación y financiar Europa: las nuevas fórmulas para movilizar el dinero de las familias",
+   "link": "https://www.laopiniondemalaga.es/economia/2026/11/21/ahorrar-jubilacion-financiar-europa-nuevas-formulas-movilizar-dinero-familias-136694957.html",
+   "summary": "La preocupación por la jubilación crece, pero no siempre se traduce en ahorro. Según una encuesta de Mutua Madrileña, el 65% de los consultados teme que su pensión pública no baste para cubrir sus gastos y la mitad reconoce que no ahorra para su retiro. En paralelo, la Unión Europea impulsa nuevas h",
+   "source": "La Opinión de Málaga",
+   "time": "2026-11-21T12:07:11Z"
+  },
+  {
+   "title": "Antonio Soler y Domingo Soriano protagonizan una semana cultural en La Malagueta con la filosofía como protagonista en la provincia",
+   "link": "https://www.laopiniondemalaga.es/cultura-espectaculos/2026/11/21/antonio-soler-domingo-soriano-protagonizan-136694724.html",
+   "summary": "El escritor malagueño Antonio Soler, el periodista económico Domingo Soriano y cuatro encuentros de filosofía en distintos puntos de la provincia protagonizan la programación cultural de La Malagueta del 24 al 28 de noviembre. El centro de la Diputación de Málaga combinará durante la próxima semana",
+   "source": "La Opinión de Málaga",
+   "time": "2026-11-21T12:03:36Z"
+  },
+  {
+   "title": "Este es el calendario que le espera al Unicaja sin Melwin Pantzar: del San Pablo Burgos al Monbus Obradoiro",
+   "link": "https://www.laopiniondemalaga.es/unicaja/2026/11/21/calendario-espera-unicaja-melwin-pantzar-lesion-partidos-136676075.html",
+   "summary": "El Unicaja tendrá que afrontar el tramo final del año sin Melwin Pantzar. El base sueco sufre una lesión en el ligamento colateral medial de la rodilla izquierda y el club ha estimado un periodo de baja de seis semanas, por lo que, si se cumplen los plazos previstos, su regreso se produciría ya en e",
+   "source": "La Opinión de Málaga",
+   "time": "2026-11-21T12:00:36Z"
+  },
+  {
+   "title": "Tres licaones dejaron su manada y recorrieron 4.126 kilómetros por Zambia para encontrar pareja: un viaje récord en África",
+   "link": "https://expertoanimal.elperiodico.com/tres-licaones-dejaron-su-manada-y-recorrieron-4-126-kilometros-por-zambia-para-encontrar-pareja-un-viaje-record-en-africa-28923.html?utm_source=rss-noticias&amp;utm_medium=feed&amp;utm_campaign=expertoanimal",
+   "summary": "",
+   "source": "La Opinión de Málaga",
+   "time": "2026-11-21T12:00:00Z"
+  },
+  {
+   "title": "Roberto Fernández decide su visita al Athletic Club, rival del Málaga CF de la próxima jornada",
+   "link": "https://www.malagahoy.es/malaga_cf/roberto-fernandez-decide-visita-athletic_3_2008555890.html",
+   "summary": "El ex del club de Martiricos anotó el gol de la victoria para el RCD Espanyol\nNombres propios del Osasuna-Málaga",
+   "source": "Málaga Hoy",
+   "time": "2026-11-21T11:59:36Z"
+  },
+  {
+   "title": "La Guardia Civil intercepta dos embarcaciones con ocho inmigrantes que cruzaban el Estrecho desde Ceuta - Europa Sur",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQREFNWllQb05TMTlSTXFaVWRXbjJxMDJDRERaVGc4a2lkalVjamxYTWxNaDJiS0l4UDFIRC1JMHlUZm5VTnpFZHctYlJUUWNFMkh2cFotalVjcUdiLWdpdktSNFZYSlFvUUpPd1l0RUVBTW1NWW5BWHFFTThzbUstcS1iN29heFo2Tlh2M01lYXBHNm1yNzR6NUdYMFlySFp3UWd4TkgwbHF0V2NZX3Qtb3N4N0t5MU3SAbwBQVVfeXFMTllFdTVCWVJ4RDlfVGpJVTI3MUtYMXZoUjJwWlYwenZmTGRKSzhXa0o4U2VsNWdDTUtWX0RBMVpuYVV2b3psTzNyTUwyak42dW9iXzFpaWxFZWtoX3d0WFVHRWc1WVpleXoyWTBKSEZDU1F3RFBKckRoWWlCcXM4ajZ0b0liWFJWbXhLYkNPeXJDTjgwWmw0b3hPbnczcWJ1TDBrRW5sTklScll0XzlkdFRLeGxLNG9HWEowREw?oc=5",
+   "summary": "La Guardia Civil intercepta dos embarcaciones con ocho inmigrantes que cruzaban el Estrecho desde Ceuta    Europa Sur",
+   "source": "Policía Nacional / Guardia Civil Málaga",
+   "time": "2026-11-21T11:55:28Z"
+  },
+  {
+   "title": "Costa del Sol gang linked to string of shootings probed over Starlink sabotage attacks that hit Ukraine’s drones – as boss ‘hides out in Russia’",
+   "link": "https://www.theolivepress.es/spain-news/2026/11/21/costa-del-sol-starlink-sabotage-russia-ukraine/",
+   "summary": "The ‘Dalton Clan’ is being probed over arson attacks across Europe on Starlink stations, which provide the internet link the Ukrainian army relies on to fly drones.",
+   "source": "Olive Press",
+   "time": "2026-11-21T11:55:00Z"
+  },
+  {
+   "title": "Rescatan a un hombre en Valencia tras 15 horas secuestrado y atado a una silla",
+   "link": "https://www.laopiniondemalaga.es/videos/sociedad/2026/11/21/rescatan-hombre-valencia-15-horas-136694569.html",
+   "summary": "Un hombre de 54 años ha sido rescatado por la Guardia Civil después de permanecer cerca de 15 horas secuestrado en un chalet aislado de Montserrat, en la comarca de la Ribera Alta, donde fue golpeado, atado a una silla y amenazado de muerte con un machete y otras armas blancas de grandes dimensiones",
+   "source": "La Opinión de Málaga",
+   "time": "2026-11-21T11:52:37Z"
+  },
+  {
+   "title": "Sánchez participa en un mitin en Santiago de Compostela.",
+   "link": "https://www.malagahoy.es/espana/elecciones/sanchez-defiende-estrategia-feijoo-quise-conversacion-respetuosa_0_2008555952.html",
+   "summary": "El presidente asegura que el cara a cara transcurrió como quería y que buscó convencer a los indecisos\nReivindica sus pactos con Junts y califica de \"flagrante\" la corrupción de Ábalos\nLa teoría del oso: piel o abrazo",
+   "source": "Málaga Hoy",
+   "time": "2026-11-21T11:47:23Z"
+  },
+  {
+   "title": "¿Quién dejó las maletas que desataron el caos en Málaga? Dos falsas alarmas, un misterio y una incógnita sin respuesta - Cadena SER",
+   "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNbWZNWTFoOFBmeDViMTBOeGVUbWtGdVUtM295Smw4OFhJczVUWnVNcTBFM3F5VkhaUEhJUlJraG9xSU1nNmJ1YVRuNThEQkFpOE5EUUlJV1dsME5JTm4ycnFQY3U1NDM1T2hmNWk1NFlmVkRidnJjR0hVNlZCcldvbDczQzMtV256cUYtVWpCdWxfZW94bExuMVRYVXI3UjVfWjBmVmJXSHA0WWJkeXl3MjR1OUp6d3VFYzdqTTJxY2tsN3RxVmhxb1lNa3NqQ2pzc1drYXdINXhVb011WDFoVVBuSHk3cURlbzdZNUdsZGlnMy1CVnBHSXdleldqaFHSAZMCQVVfeXFMTWNISkNyTHVUVU9odHNFX1p3WDhNcTZrTmVpTDBFZm55S19ENk9UOTZZWk5EYVR0c1dkMUFiWF93WllzdU5QRjdRc0lnSWhpaUVHM3JiVUF3Q0Z1bFVQenYwcVFxcGF5Y2NSZjRQb1RJQlFIZ2xuY0RKN1BTYUNKako3bTJSNmNyZG9jemlIQlhLU2ZJZ2VVczktaXAxdEhLZE5JQUJwbnQ5cGVhREp4aE45SEZlMTdRMDhpM0xPM3R1ZDFYbXFDZTVfcWUtb0p3ZW1FTVQzdzJoQjVSMzAyQkVXcWtkR0xGbUlyc0dQRWJCcHllUlM2TVpZc1RISzRFakEtMHdWMTNiUXl5QzAyRmZOdU0?oc=5",
+   "summary": "¿Quién dejó las maletas que desataron el caos en Málaga? Dos falsas alarmas, un misterio y una incógnita sin respuesta    Cadena SER",
+   "source": "Policía Nacional / Guardia Civil Málaga",
+   "time": "2026-11-21T11:41:33Z"
+  },
+  {
+   "title": "García asegura que Ayuso explica \"perfectamente\" por qué hay que votar a Adelante: \"Tendréis andalucismo en el Congreso\"",
+   "link": "https://www.europapress.es/andalucia/noticia-garcia-asegura-ayuso-explica-perfectamente-hay-votar-adelante-tendreis-andalucismo-congreso-20261121124105.html",
+   "summary": "El portavoz de Adelante Andalucía, José Ignacio García, ha asegurado este sábado 21 que la presidenta de la Comunidad de Madrid, Isabel Díaz Ayuso, explica \"perfectamente\" por qué hay que votar a la formación andalucista de izquierdas, tras hacer alusión a sus comentarios en un mitin en relación a l",
+   "source": "Europa Press Andalucía",
+   "time": "2026-11-21T11:41:05Z"
+  },
+  {
+   "title": "Horario y dónde ver en televisión el Osasuna-Málaga",
+   "link": "https://www.diariosur.es/malagacf/horario-television-osasuna-malaga-futbol-20261121123049-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-21T11:36:49Z"
+  },
+  {
+   "title": "Un Osasuna dependiente de Budimir y más peligroso como local",
+   "link": "https://www.diariosur.es/malagacf/osasuna-analisis-rival-malaga-futbol-20261121120024-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-21T11:36:01Z"
+  },
+  {
+   "title": "Manolo Sarria junto a su hermano, en una imagen reciente",
+   "link": "https://www.malagahoy.es/malaga/mensaje-hermano-manolo-sarria-denuncia-acoso-sexual_0_2008555413.html",
+   "summary": "Pide celeridad para que los hechos se esclarezcan \"lo más rápido posible, con todas las garantías, desde el absoluto respeto a las personas implicadas, a la presunción de inocencia\"\nManolo Sarria es el \"primer interesado en que se investigue a fondo\"",
+   "source": "Málaga Hoy",
+   "time": "2026-11-21T11:32:03Z"
+  },
+  {
+   "title": "Un joven de 22 años hospitalizado de gravedad tras sufrir un atropello en el barrio sevillano del Porvenir",
+   "link": "https://www.101tv.es/sevilla/un-joven-de-22-anos-hospitalizado-de-gravedad-tras-sufrir-un-atropello-en-el-barrio-sevillano-del-porvenir/",
+   "summary": "Un joven de 22 años permanece hospitalizado en estado grave tras sufrir un atropello en el Porvenir, Sevilla. El suceso tuvo lugar en la calle Cardenal Bueno Monreal, cuando el conductor se daba a la fuga sin detenerse a auxiliar a la víctima.  El suceso ocurrió cerca de las 04.00h de la madrugada,",
+   "source": "101TV Málaga",
+   "time": "2026-11-21T11:23:54Z"
+  },
+  {
+   "title": "Planes de pensiones de empresa: las ventajas de ahorrar con la compañía y la letra pequeña que conviene conocer",
+   "link": "https://www.laopiniondemalaga.es/economia/2026/11/21/planes-pensiones-empresa-ventajas-ahorrar-136693893.html",
+   "summary": "Ahorrar para la jubilación con la ayuda de la empresa puede ser una de las fórmulas más interesantes para complementar la pensión pública. La posibilidad de recibir aportaciones adicionales al salario y aprovechar incentivos fiscales convierte a los planes de empleo en una herramienta atractiva. Sin",
+   "source": "La Opinión de Málaga",
+   "time": "2026-11-21T11:21:54Z"
+  },
+  {
+   "title": "Los planes de empresa, el hermano pequeño de las pensiones que apenas llega al 15% de los ocupados",
+   "link": "https://www.laopiniondemalaga.es/economia/2026/11/21/planes-empresa-hermano-pequeno-pensiones-136693792.html",
+   "summary": "La jubilación en España descansa principalmente en la Seguridad Social. Los planes de pensiones de empleo, que complementan la prestación pública, siguen siendo el hermano pequeño del sistema. Aunque ganan partícipes, apenas llegan al 15% de la población ocupada: unos 3,3 millones de personas frente",
+   "source": "La Opinión de Málaga",
+   "time": "2026-11-21T11:19:51Z"
+  },
+  {
+   "title": "La entrada de Feijóo, Catalá y Llorca a la plaza de Toros de València",
+   "link": "https://www.laopiniondemalaga.es/nacional/2026/11/21/entrada-feijoo-catala-llorca-plaza-136696040.html",
+   "summary": "Feijóo entra rodeado de euforia a la plaza de Toros de València, uno de los templos electorales del PP.",
+   "source": "La Opinión de Málaga",
+   "time": "2026-11-21T11:18:26Z"
+  },
+  {
+   "title": "Florentino sienta a Nadal a la derecha del padre e insiste con el caso Negreira: \"Hoy, en el mundo, solo se habla de eso\"",
+   "link": "https://www.laopiniondemalaga.es/deportes/2026/11/21/florentino-asamblea-real-madrid-136693576.html",
+   "summary": "Sentado a la derecha del padre, puesto de honor máximo, Rafa Nadal se estrenó este sábado como directivo del Real Madrid recibiendo un baño de masas de los socios compromisarios y un tratamiento de sucesor por parte de Florentino Pérez. Porque lo primero que hizo el actual presidente, reelegido en j",
+   "source": "La Opinión de Málaga",
+   "time": "2026-11-21T11:12:57Z"
+  },
+  {
+   "title": "Directo | Pedro Sánchez participa en un mitin en Tenerife",
+   "link": "https://www.laopiniondemalaga.es/nacional/2026/11/21/colapso-expectacion-tenerife-mitin-pedro-136693518.html",
+   "summary": "A las 10:00 de la mañana y en la conocida como Avenida del Maritim de Puerto de la Cruz (Tenerife) ocurría algo inusual: los coches esperan en largas colas para poder entrar por Punta Brava. Hoy no son los animales del Loro Parque los que generan la expectación, sino la única parada del presidente P",
+   "source": "La Opinión de Málaga",
+   "time": "2026-11-21T11:12:10Z"
+  },
+  {
+   "title": "Encuentran el cadáver de un hombre en una cueva de la Fuente del Avellano - Ideal",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZ1pJNmw5aHJacnNCdk0yckw2VUF3ekJvTVBHdFkxbVo0cGNGeXpZNkdUdmVPLUVuc1dxdVFrTWF0VDM2bmNPY09JRWN1b0I3ZEQwVXFOd2FnV3dkUXlHVTdqczBFdS1hUkxkU0k5cnJsVDNJY1c0dERMQWpzZDFoV19SV00xRDlRdVh1Zm1UZzNSU2tqSzVGcmpqRi1zYXkxMi1HYVln0gGmAUFVX3lxTE1nWkk2bDloclpyc0J2TTJyTDZVQXd6Qm9NUEd0WTFtWjRwY0Z5elk2R1R2ZU8tRW5zV3F1UWtNYXRUMzZuY09jT0lFY3VvQjdkRDBVcU53YWdXd2RReUdVN2pzMEV1LWFSTGRTSTlycmxUM0ljVzR0RExBanNkMWhXX1JXTTFEOVF1WHVmbVRnM1JTa2pLNUZyampGLXNheTEyLUdhWWc?oc=5",
+   "summary": "Encuentran el cadáver de un hombre en una cueva de la Fuente del Avellano    Ideal",
+   "source": "Policía Nacional / Guardia Civil Málaga",
+   "time": "2026-11-21T11:08:12Z"
+  },
+  {
+   "title": "Ilurco mira a Estados Unidos, Brasil y Oriente Medio en su plan de exportación de depósitos de agua prefabricados",
+   "link": "https://www.europapress.es/andalucia/malaga-00356/noticia-ilurco-mira-estados-unidos-brasil-oriente-medio-plan-exportacion-depositos-agua-prefabricados-20261121120048.html",
+   "summary": "La empresa Ilurco, especializada en la producción e instalación de depósitos metálicos prefabricados para el almacenamiento de agua, tiene las miras puestas en Estados Unidos, en Brasil y en Oriente Medio en un plan de exportación que ya le hace estar en una veintena de países con una extensión geog",
+   "source": "Europa Press Andalucía",
+   "time": "2026-11-21T11:00:48Z"
+  },
+  {
+   "title": "La 'diplomacia migratoria' de Ruanda, una nueva vía para estrechar lazos con Europa y Estados Unidos",
+   "link": "https://www.laopiniondemalaga.es/internacional/2026/11/21/diplomacia-migratoria-ruanda-europa-estados-unidos-136693269.html",
+   "summary": "Ruanda se está abriendo paso como principal destino de las polémicas políticas de deportación cada vez más extendidas en Occidente. Con una superficie casi 20 veces más pequeña que España, el Estado africano se ha convertido en un estrecho aliado de Estados Unidos y de los países europeos, los cuale",
+   "source": "La Opinión de Málaga",
+   "time": "2026-11-21T11:00:40Z"
+  },
+  {
+   "title": "El repunte de llegadas a Canarias pone en duda la eficacia de los acuerdos de cooperación migratoria con Senegal y Gambia",
+   "link": "https://www.laopiniondemalaga.es/internacional/2026/11/21/repunte-llegadas-canarias-pone-duda-eficacia-acuerdos-cooperacion-migratoria-senegal-gambia-136693246.html",
+   "summary": "El repunte de llegadas de inmigrantes a las islas Canarias en las últimas semanas ha puesto en evidencia las dificultades a las que se enfrentan las fuerzas de seguridad para tratar de contener la salida de embarcaciones en África occidental. Tanto España como la Unión Europea (UE) han reforzado en",
+   "source": "La Opinión de Málaga",
+   "time": "2026-11-21T11:00:39Z"
+  },
+  {
+   "title": "Feijóo llama al PP a no bajar la guardia ante una plaza de toros de Valencia desbordada: \"Heridos son todavía más peligrosos\"",
+   "link": "https://www.laopiniondemalaga.es/nacional/2026/11/21/feijoo-buscara-desbordar-hoy-plaza-136693059.html",
+   "summary": "Desafiando a Sabina y a los versos de Félix Grande (al lugar donde has sido feliz no debieras tratar de volver), el PP ha regresado este sábado a la plaza de toros de Valencia, tierra santa para los populares, que desde la década de los 80 han celebrado en esta arena grandes mitines que han precedid",
+   "source": "La Opinión de Málaga",
+   "time": "2026-11-21T10:55:37Z"
+  },
+  {
+   "title": "Estos son los puntos de Andalucía donde puedes vacunarte sin cita este sábado",
+   "link": "https://www.101tv.es/andalucia/estos-son-los-puntos-de-andalucia-donde-puedes-vacunarte-sin-cita-este-sabado/",
+   "summary": "Andalucía celebra este sábado 21 de noviembre el primer ‹súper sábado› de la campaña de vacunación estacional, una jornada extraordinaria en la que se han habilitado 42 puntos de vacunación sin cita previa repartidos por toda la comunidad. El objetivo es facilitar la inmunización frente a la gripe",
+   "source": "101TV Málaga",
+   "time": "2026-11-21T10:52:24Z"
+  },
+  {
+   "title": "El Puerto de Cádiz recibe este fin de semana tres cruceros y 4.500 turistas completando 30 escalas",
+   "link": "https://www.europapress.es/andalucia/cadiz-00351/noticia-puerto-cadiz-recibe-fin-semana-tres-cruceros-4500-turistas-completando-30-escalas-20261121114949.html",
+   "summary": "El Puerto de Cádiz recibe este fin de semana tres cruceros y cerca de 4.500 turistas, la mayoría de ellos en esta jornada de sábado, completando así las 30 escalas previstas hasta la fecha en noviembre, mes en el que se espera alcanzar las 35 llegadas a los muelles gaditanos.",
+   "source": "Europa Press Andalucía",
+   "time": "2026-11-21T10:49:49Z"
+  },
+  {
+   "title": "Nationwide train strike called off as drivers strike deal to halt services during red weather alerts",
+   "link": "https://www.theolivepress.es/spain-news/2026/11/21/spain-train-strike-deal-weather-alerts/",
+   "summary": "It brings an end to a conflict that saw three strikes on October 29, November 10 and November 17, bringing rail travel across the country to a standstill.",
+   "source": "Olive Press",
+   "time": "2026-11-21T10:45:00Z"
+  },
+  {
+   "title": "Antonio Sanz inaugura el XI Congreso Andaluz de Diabetes en Sevilla.",
+   "link": "https://www.malagahoy.es/andalucia/junta-fija-2027-cobertura-total_0_2008555616.html",
+   "summary": "Un tercio de las personas con diabetes tipo 2 no sabe que la padece\nSevilla tendrá dos 'Supersábados' para vacunarse contra la gripe sin cita en ocho puntos comerciales",
+   "source": "Málaga Hoy",
+   "time": "2026-11-21T10:44:24Z"
+  },
+  {
+   "title": "Henar Álvarez y su sillón de 'Al cielo con ella'",
+   "link": "https://www.malagahoy.es/television/henar-alvarez-queda-sorpresa-programa_0_2008555545.html",
+   "summary": "'Al cielo con ella' es cancelado de manera abrupta aunque la cadena ha rectificado y asegura que Henar tendrá un nuevo formato\n¿Quién es Henar Álvarez?  Su programa en TVE salta hoy a La 1 con Shakira\nEl apuro del mal olor que percibe Juan y Medio en",
+   "source": "Málaga Hoy",
+   "time": "2026-11-21T10:40:55Z"
+  },
+  {
+   "title": "MINI logra 3 años récord de ventas en España - Highmotor",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZGlGT0R2a3dvLUQ3MkVaZ29ncDg4UkNrVlhCdlRpMkdrSzFLWS1kUlFWRmhHZ2pPTm9keGVTaGwzaFVLbWRYLTJQOFlzNUdCNmNyLVhRUDlXcHhlR1NITjhta3JiTHZocktQRjFmRE5jZ0pIWEVNZDV1YzFXUGlyeWRpZDVYek1PdHc3U1ZR?oc=5",
+   "summary": "MINI logra 3 años récord de ventas en España    Highmotor",
+   "source": "Polskie media – Hiszpania",
+   "time": "2026-11-21T10:27:12Z"
+  },
+  {
+   "title": "Kia Optima Híbrido Enchufable, el más ecológico de la gama llega a España - Highmotor",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNWktpZXNYak5qQVc2cndXb1NOQTJ4YUlyRnVjdmRTdUlaXzBVYXVJS2kwVnZFREFoVjRQV3ZnN3ZRU1BIQUpaVjBJWVpwU0ZFeDVWR1pVNFM5WFVLVjkzbTRMbGdsX1R4X2pJOUd5ZlBQZ01QRWs1VVBiZG1YOFlQemxHd3ZiX1NwNEZNYTAyaUR3ZXd5WVpWNEFnUnphZnZrRFFBUndZMkVzYjFZYjZlNEhuUGFOT1dadEEzQQ?oc=5",
+   "summary": "Kia Optima Híbrido Enchufable, el más ecológico de la gama llega a España    Highmotor",
+   "source": "Polskie media – Hiszpania",
+   "time": "2026-11-21T10:27:12Z"
+  },
+  {
+   "title": "El Mercedes S 560 e llegará a España a comienzos de 2019 - Highmotor",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYjdIemNTbXhrSkxkQldVcE05XzBCYVNEcWd6aGktcVR1UUNQOE1KV0xQS3N0QV9SQjdFNHBiQ3pvdExVWEVKaEpjVUFqNl9oV3diQWNDSldhbUpWYWpOc2g0ZXJNWjY2eDZCclBreFF1QnBYUHhYanU5d00yUEZrRFRBTmlkM0s5d3pMQlg4WDY2aHNHM0VjMVcwSnk?oc=5",
+   "summary": "El Mercedes S 560 e llegará a España a comienzos de 2019    Highmotor",
+   "source": "Polskie media – Hiszpania",
+   "time": "2026-11-21T10:27:07Z"
+  },
+  {
+   "title": "Pedro Sánchez anuncia la prórroga del impuesto a la banca en 2027 para recaudar 1.400 millones que destinará a vivienda",
+   "link": "https://www.101tv.es/espana/pedro-sanchez-anuncia-la-prorroga-del-impuesto-a-la-banca-en-2027-para-recaudar-1-400-millones-que-destinara-a-vivienda/",
+   "summary": "El presidente del Gobierno, Pedro Sánchez, anunció este sábado que el próximo martes el Consejo de Ministros aprobará la prórroga durante 2027 del impuesto a la banca, con el que el Ejecutivo espera recaudar 1.400 millones de euros que se destinarán íntegramente a políticas de vivienda. Según expli",
+   "source": "101TV Málaga",
+   "time": "2026-11-21T10:22:12Z"
+  },
+  {
+   "title": "Eksplozja i kula ognia na torze. Kierowca musiał uciekać - Eurosport Polska",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQaFNRRndfRnppa2habTVNNDRGZUV3YU1RYzZIMFp3a2xtbnhMODQ4Y0ViWjR0b3ZwTFBVQjYzOVRGS09EUi1KTXUzQTVkMXNhV215dmxNNEYyeXB2NEdfQjRuMjlXNGhVVERzTzFaODVCVW1Qb2pHSURROXpweklrbF9FWGc1RXRieFl3N3dLRHVhRVZiS3NkVmtEVWJkVjF6QjRwMXBCNEJFRklpNy1lSnRBRkpSN0l0WTJDY01BQzNVWG9hUFNLWGlfaTFGS2cyMmc?oc=5",
+   "summary": "Eksplozja i kula ognia na torze. Kierowca musiał uciekać    Eurosport Polska",
+   "source": "Polskie media – Hiszpania",
+   "time": "2026-11-21T10:18:00Z"
+  },
+  {
+   "title": "La Guardia Civil desarrolla una operación contra propagandistas yihadistas del Estado Islámico y Hamas - La Razón",
+   "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPQVphUXRWYVU1NnhsaEViZlppOVh4R2l6Qkw3bTYzWTRUUFR5OHZUZDRuRmtpVk14d2JnLW1fdWx0N2M2VW52X2JBWk9YSHZCMTZqdFlzTG1zQk5EMFVBenVsTTdVaEo0MVlrY2wwRTFyTTJWQTJFRzFwLVd4eTdsSVItOFlkNVk5MnRWZWw2WUpfcTBvX3FTYjJ1U3pTZ1N6VTNmRUk0THFxTFduODNncEM2MmxFbktsSFNuV05rLXpvc243eHlIX19ZdlNFbERzRTUwaEdEMEx0VFk5MWJIdnpqdmPSAfgBQVVfeXFMT2J3OVhEZGhYY3JWVGR4SlplUVVvVnZ6QlNyRGF3bVR0MGNMR3piSkJCbXVPZGs3c3BUbkFWTS00MWQwb3hWLWJwM1RkNnVrcFFWSnlQd3VYR3ZtYm4tQXBFZXdPUzJrSnpuRGlETFZUMURZNFhTVkY5Rm1ZQm9RZGpFT1I3aFRSbjhfbUk1YUJDSUNvNnFpN3ZBdkhucHhuWElxZ0s4SHJfalpObmQtajU1SEh1b0xWTkFzZmliMGdCSDYta0NOTm5rakpuc05hUEY0TEpmTUw0aU96WFprb3BINW13WlVJVWo1akNZbU1LNmR4ckNRblA?oc=5",
+   "summary": "La Guardia Civil desarrolla una operación contra propagandistas yihadistas del Estado Islámico y Hamas    La Razón",
+   "source": "Policía Nacional / Guardia Civil Málaga",
+   "time": "2026-11-21T10:12:23Z"
+  },
+  {
+   "title": "Pedro Sanchez narrows gap on PP in latest election poll – despite voters judging he lost bruising TV debate to Feijoo",
+   "link": "https://www.theolivepress.es/spain-news/2026/11/21/spain-election-poll-sanchez-feijoo/",
+   "summary": "The 40dB tracking poll puts the PP on 31.9% and the ruling PSOE on 31.2% – a statistical dead heat with just over a week to go before the election.",
+   "source": "Olive Press",
+   "time": "2026-11-21T10:00:00Z"
+  },
+  {
+   "title": "Estado en el que quedó el vehículo tras el incendio",
+   "link": "https://www.malagahoy.es/malaga/vehiculo-calcinado-incendiarse-parking-aeropuerto-malaga_0_2008555357.html",
+   "summary": "Bomberos evitaron que las llamas se propagaran a otros coches aparcados en el recinto\nUna mujer de 61 años muere intoxicada por un escape de gas en Ronda",
+   "source": "Málaga Hoy",
+   "time": "2026-11-21T09:52:46Z"
+  },
+  {
+   "title": "Las cofradías andaluzas abren un diálogo con la SGAE sobre un posible canon por las marchas procesionales",
+   "link": "https://www.101tv.es/semanasanta/las-cofradias-andaluzas-abren-un-dialogo-con-la-sgae-sobre-un-posible-canon-por-las-marchas-procesionales/",
+   "summary": "Los consejos, agrupaciones y federaciones de hermandades y cofradías de las capitales andaluzas y de Jerez de la Frontera han acordado con la Sociedad General de Autores y Editores (SGAE) abrir una mesa de diálogo. El asunto a tratar es la posible aplicación de un canon por la interpretación de mar",
+   "source": "101TV Málaga",
+   "time": "2026-11-21T09:49:27Z"
+  },
+  {
+   "title": "Dos heridos por inhalar humo en el incendio de un chalet unifamiliar de Carmona",
+   "link": "https://www.101tv.es/sevilla/dos-heridos-por-inhalar-humo-en-el-incendio-de-un-chalet-unifamiliar-de-carmona/",
+   "summary": "Efectivos del Consorcio de Bomberos de la Diputación de Sevilla han intervenido durante la madrugada de este sábado en un incendio declarado en una vivienda ubicada en la urbanización Pino Grande, perteneciente al término municipal de Carmona y ubicada en las proximidades de la autovía A-4, donde d",
+   "source": "101TV Málaga",
+   "time": "2026-11-21T09:38:36Z"
   },
   {
    "title": "Un coche arde por completo a la entrada del parking del aeropuerto de Málaga",
    "link": "https://www.101tv.es/malaga-provincia/un-coche-arde-por-completo-a-la-entrada-del-parking-del-aeropuerto-de-malaga/",
    "summary": "Un coche ardió y quedó calcinado durante la noche del viernes al sábado tras incendiarse en el acceso al aparcamiento del aeropuerto de Málaga-Costa del Sol. El fuego se declaró poco antes de las 23.00 horas y tuvo que ser extinguido por efectivos del Real Cuerpo de Bomberos de Málaga. Según ha con",
    "source": "101TV Málaga",
-   "time": "2026-11-21T08:53:58Z"
+   "time": "2026-11-21T09:36:00Z"
   },
   {
-   "title": "El tiempo en La Zubia: previsión meteorológica para hoy, sábado 21 de noviembre",
-   "link": "https://www.laopiniondemalaga.es/tiempo/2026/11/21/tiempo-zubia-prevision-meteorologica-hoy-136690237.html",
-   "summary": "La Zubia afronta hoy, sábado 21 de noviembre de 2026, una jornada estable y predominantemente seca, aunque marcada por un episodio de viento intenso durante las horas centrales. La previsión apunta a cielos poco nubosos en la mayor parte del día, con algunos intervalos de nubes altas durante la madr",
-   "source": "La Opinión de Málaga",
-   "time": "2026-11-21T08:43:14Z"
+   "title": "Torremolinos, en acción.",
+   "link": "https://www.malagahoy.es/deportes/horario-ver-tv-antequera-torremolinos_0_2008555308.html",
+   "summary": "Derbi malagueño en la tercera categoría del balompié nacional\nEl sistema del Málaga",
+   "source": "Málaga Hoy",
+   "time": "2026-11-21T09:34:38Z"
   },
   {
-   "title": "El tiempo en Vélez-Málaga: previsión meteorológica para hoy, sábado 21 de noviembre",
-   "link": "https://www.laopiniondemalaga.es/tiempo/2026/11/21/tiempo-velez-malaga-prevision-meteorologica-136690214.html",
-   "summary": "Vélez-Málaga afronta hoy, sábado 21 de noviembre de 2026, una jornada estable y seca, con cielos dominados por las nubes altas durante buena parte del día. La previsión no contempla precipitaciones: la probabilidad de lluvia se mantiene en el 0 % en todos los intervalos y la precipitación prevista e",
-   "source": "La Opinión de Málaga",
-   "time": "2026-11-21T08:41:43Z"
+   "title": "Rescatan a un hombre secuestrado tras pasar 15 horas atado a una silla y amenazado con un machete en Valencia - La Opinión de Málaga",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdVFFdkdxSU5xSlRhbWpWRzVNVkJWMVZtUGRQOEIyV3NVeGFJdjBiU3ZzWnlvcWN0WTdGd2JvYkZXRjlPeGZxSG5OU3cwS216cmpycHk3b0NYcklFUUluazhQbzRHQ1h4NUd6MEx5dm8tSy02NUFvU2prN1huY2g3MHJoamVUblgyRGR1Z3ZFWXZrLWRrZUJuMGp3U3I5RlJ4S0l4Z1JR0gGrAUFVX3lxTE9sTjFrWTZ3TVBJZ0xJUEI5VWQweGM2WlJOZFRzeUtqMXllTlR4djljYkVLOHNyVDJVMmxyYU0wOGI4Wmo1S2RocFRNSmVyR250M0ZYSWQtVi1paWc1WlFoa0syQzdjekFZZnVZZ0J6aThOejlENTRzU3V1SGtIbEdzQ1JQY3ZPWGpFRzViaTZ0dHM3Tm9fNlpzWXFSYThSZHRYLXNHZWx1dkp1aw?oc=5",
+   "summary": "Rescatan a un hombre secuestrado tras pasar 15 horas atado a una silla y amenazado con un machete en Valencia    La Opinión de Málaga",
+   "source": "Policía Nacional / Guardia Civil Málaga",
+   "time": "2026-11-21T09:34:16Z"
+  },
+  {
+   "title": "Adelante reclama el cierre de las bases de Rota y Morón junto a un referéndum sobre la permanencia en la OTAN",
+   "link": "https://www.europapress.es/andalucia/noticia-adelante-reclama-cierre-bases-rota-moron-junto-referendum-permanencia-otan-20261121102951.html",
+   "summary": "El programa electoral de Adelante Andalucía recoge una serie de medidas orientadas a 'la paz y la cooperación'. Entre ellas, destaca la petición de un referéndum acerca de la permanencia de España en la Organización del Tratado del Atlántico Norte (OTAN). En esta línea, el partido muestra su rech",
+   "source": "Europa Press Andalucía",
+   "time": "2026-11-21T09:29:51Z"
+  },
+  {
+   "title": "La Guardia Civil encuentra dos cabezas de muflones en el maletero de un cazador furtivo de Granada - Ideal",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUF9FUHB6aUsycUloQXZCZ0pMZlJTWE1lZEl1MkdoZEZLTlZFcWNXY1BPZjI1QUlta096MC1oTlctb2FLYjFhUmpWek9weGs4ZEFpTlZQMnVCTlVyVkkxd281TWVSc1hQLXpiSnMxQjBGeVVBaVV3dFNVUFpidnd0RjEtZjdPdklKY1gzYWJ6cFVqRnZoaDRObTFlamZVdFQwLWRFd3ZzTk1oNWtyTlHSAa4BQVVfeXFMT1BfRVBwemlLMnFJaEF2QmdKTGZSU1hNZWRJdTJHaGRGS05WRXFjV2NQT2YyNUFJbWtPejAtaE5XLW9hS2IxYVJqVnpPcHhrOGRBaU5WUDJ1Qk5VclZJMXdvNU1lUnNYUC16YkpzMUIwRnlVQWlVd3RTVVBaYnZ3dEYxLWY3T3ZJSmNYM2FienBVakZ2aGg0Tm0xZWpmVXRUMC1kRXd2c05NaDVrck5R?oc=5",
+   "summary": "La Guardia Civil encuentra dos cabezas de muflones en el maletero de un cazador furtivo de Granada    Ideal",
+   "source": "Policía Nacional / Guardia Civil Málaga",
+   "time": "2026-11-21T09:25:23Z"
+  },
+  {
+   "title": "Actuación de la Guardia Civil contra un furtivo de Granada - Ideal",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQa01GUmpjaHUydGN4Vm43VWlIQlRWNGYyLVJvUmRQd0R2V0Z3OWZ4ZXQwX0Zubi0zclNHVURERDR2bVNRV2NCcFVBS2hjWlVId2FNSHZUSEFpYTJSeXVKYmlwNTQyd1FTQXlJQWdRODg4NmJST0NMUGZpckdsSjhfRVdEQVJCelNLeEtDMkxkc1R3cFc4UUFNWVhtMNIBmwFBVV95cUxQa01GUmpjaHUydGN4Vm43VWlIQlRWNGYyLVJvUmRQd0R2V0Z3OWZ4ZXQwX0Zubi0zclNHVURERDR2bVNRV2NCcFVBS2hjWlVId2FNSHZUSEFpYTJSeXVKYmlwNTQyd1FTQXlJQWdRODg4NmJST0NMUGZpckdsSjhfRVdEQVJCelNLeEtDMkxkc1R3cFc4UUFNWVhtMA?oc=5",
+   "summary": "Actuación de la Guardia Civil contra un furtivo de Granada    Ideal",
+   "source": "Policía Nacional / Guardia Civil Málaga",
+   "time": "2026-11-21T09:25:15Z"
+  },
+  {
+   "title": "Spain could become ‘invisible’ in Brussels and Washington under a prime minister who refuses to learn English",
+   "link": "https://www.theolivepress.es/spain-news/2026/11/21/spain-invisible-english-feijoo/",
+   "summary": "Spain risks sliding from key European powerbroker to an 'invisible' backbencher.",
+   "source": "Olive Press",
+   "time": "2026-11-21T09:21:22Z"
+  },
+  {
+   "title": "La Guardia Civil desmantela dos plantaciones de marihuana en el interior de una vivienda de Encinas Reales - ABC",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOYUg4dEwtZEJZZmhpQ1RuYVRYbDFMblZrak1BRkYxMGRiNlhnX2RlRkxVdkRMVFJFeHNrZjZ1aS1hWnptb0hjQy1faEw1UjFUek8wSTBuZUdaeFpfSWlWbGJHcHRwMklCVTBnWjl6VnJCaVEwR05lLTQzNFRoWEF4bE5pMThoQjdlZDhtNW9nWFpvRU5sMVdiVEdsbnBYdVB2dUlLaXFIX29kYlFqX2dlQTJuVkFQVkRuS3NpMjU3Z3RpM0cwbF9F0gHMAUFVX3lxTE15YmR3RjFBaDBPRUZoZ251bkw5THg4U0FMNFY2SkdPRzhIMjZOUGpabkhwZkpkakpRVlZLb2RZTGhXMThETjBRMzRuWkRpU1FENkhMOUJPc1pGUEtSdmdJeDVRaTFiZ0JPOEFqNU5kb2RKYnJuNk82V0daZmpnbVY5c0E4LUdjdFU3a283dkFzSnVoRmlPYm16QTBvUmhSSVAtZ1BFZV9jVWdFTDluVDVrbllNQzZnSnJZc2VVRmJDNjJGRThfeTRZR2pEaA?oc=5",
+   "summary": "La Guardia Civil desmantela dos plantaciones de marihuana en el interior de una vivienda de Encinas Reales    ABC",
+   "source": "Policía Nacional / Guardia Civil Málaga",
+   "time": "2026-11-21T09:16:17Z"
+  },
+  {
+   "title": "Condenado a cuatro años de prisión por violar a un menor que conoció por la red social Grindr en Granada",
+   "link": "https://www.europapress.es/andalucia/noticia-condenado-cuatro-anos-prision-violar-menor-conocio-red-social-grindr-granada-20261121100004.html",
+   "summary": "Un hombre ha sido condenado por la Audiencia de Granada a cuatro años de prisión y seis de libertad vigilada por un delito de agresión sexual después de que violara a un joven de 17 años al que conoció a través de la red social Grindr.",
+   "source": "Europa Press Andalucía",
+   "time": "2026-11-21T09:00:04Z"
+  },
+  {
+   "title": "Muere una mujer de 61 años intoxicada por un escape de gas en una vivienda de Ronda, en la provincia de Málaga - El MIRA",
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOR3ZCc1JpbnJQZ0hIU185amhyR0t4UVpoc2RTek5wanp2NEtmLXltcGlJOWQ5dEJtczhYTkotU3BkRDlqU2E5Vm1iTVJzNEZvQnJveGFmb0p0dERYSGl2MnVsWDk2TnZUOEdyTjYyT0pPVnVOUFdVeHdveUNVUzItaDFyN3FCaUw1NldCeTY1UEpGVjl5Q1U2Rmh2UGhBQW5vbk0yTEdKbURkeVZWWEh2TUxzSjZOTlVpRktpWXNWOFZ3V3hmRVNkbEd5UVdSZXRYZ3gw?oc=5",
+   "summary": "Muere una mujer de 61 años intoxicada por un escape de gas en una vivienda de Ronda, en la provincia de Málaga    El MIRA",
+   "source": "Policía Nacional / Guardia Civil Málaga",
+   "time": "2026-11-21T08:40:32Z"
   },
   {
    "title": "Dos afectados por inhalación de humo tras un incendio en el interior de una vivienda en Carmona (Sevilla)",
@@ -227,46 +703,11 @@
    "time": "2026-11-21T08:39:01Z"
   },
   {
-   "title": "GTA VI rompe récords y genera 3.790 millones de dólares en su primer día a la venta",
-   "link": "https://www.laopiniondemalaga.es/ocio/2026/11/21/gtavi-grand-theft-auto-videojuegos-records-ventas-136690123.html",
-   "summary": "El videojuego 'Grand Theft Auto VI' (GTA VI) alcanzó 3.790 millones de dólares en ventas durante su primer día, un récord en el sector del entretenimiento, según anunció este viernes Take-Two Interactive, matriz de Rockstar Games (editora del GTA). Este es el mayor lanzamiento en la historia de la i",
-   "source": "La Opinión de Málaga",
-   "time": "2026-11-21T08:37:16Z"
-  },
-  {
-   "title": "El tiempo en Ubrique: previsión meteorológica para hoy, sábado 21 de noviembre",
-   "link": "https://www.laopiniondemalaga.es/tiempo/2026/11/21/tiempo-ubrique-prevision-meteorologica-hoy-136690032.html",
-   "summary": "Ubrique afrontará hoy, sábado 21 de noviembre de 2026, una jornada de temperaturas suaves, viento moderado y un cambio progresivo del estado del cielo hacia la nubosidad y la bruma durante la tarde-noche. La predicción apunta a un ambiente estable durante buena parte del día, aunque con una notable",
-   "source": "La Opinión de Málaga",
-   "time": "2026-11-21T08:35:23Z"
-  },
-  {
-   "title": "El tiempo en Torrox: previsión meteorológica para hoy, sábado 21 de noviembre",
-   "link": "https://www.laopiniondemalaga.es/tiempo/2026/11/21/tiempo-torrox-prevision-meteorologica-hoy-136690007.html",
-   "summary": "Torrox vivirá hoy, sábado 21 de noviembre de 2026, una jornada estable y sin precipitaciones, con temperaturas suaves para esta época del año y una evolución del viento que será el principal cambio meteorológico a medida que avance la tarde y llegue la noche.",
-   "source": "La Opinión de Málaga",
-   "time": "2026-11-21T08:34:08Z"
-  },
-  {
-   "title": "El tiempo en Torremolinos: previsión meteorológica para hoy, sábado 21 de noviembre",
-   "link": "https://www.laopiniondemalaga.es/tiempo/2026/11/21/tiempo-torremolinos-prevision-meteorologica-hoy-136690005.html",
-   "summary": "Torremolinos afronta hoy, sábado 21 de noviembre de 2026, una jornada estable, seca y con temperaturas suaves para esta época del año. El cielo presentará intervalos de nubes altas durante buena parte de la mañana y primeras horas de la tarde, aunque la nubosidad será poco relevante y no impedirá la",
-   "source": "La Opinión de Málaga",
-   "time": "2026-11-21T08:33:58Z"
-  },
-  {
-   "title": "La inteligencia artificial cambia el Black Friday: el 55% de los españoles la utilizará para encontrar descuentos",
-   "link": "https://www.laopiniondemalaga.es/economia/2026/11/21/black-friday-espanoles-utilizaran-inteligencia-encontrar-artificial-descuentos-136689945.html",
-   "summary": "El gasto en Black Friday cae por segundo año consecutivo, pero las empresas recurren a la inteligencia artificial (IA) para vender más. El desembolso medio que los españoles prevén realizar durante el fin de semana de descuentos se sitúa en 175 euros, frente a los 182 euros estimados para el mismo p",
-   "source": "La Opinión de Málaga",
-   "time": "2026-11-21T08:32:15Z"
-  },
-  {
-   "title": "El tiempo en Tarifa: previsión meteorológica para hoy, sábado 21 de noviembre",
-   "link": "https://www.laopiniondemalaga.es/tiempo/2026/11/21/tiempo-tarifa-prevision-meteorologica-hoy-136689899.html",
-   "summary": "Tarifa afronta hoy, sábado 21 de noviembre de 2026, una jornada marcada por el viento de levante durante buena parte del día y un progresivo empeoramiento del estado del cielo al anochecer. Las temperaturas se moverán entre los 16 grados de madrugada y los 20 previstos durante las horas centrales, e",
-   "source": "La Opinión de Málaga",
-   "time": "2026-11-21T08:31:31Z"
+   "title": "El abogado Santi González es detenido en Bilbao acusado de favorecer la inmigración irregular - BilbaoHiria",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTllnbXIzLUg2LWhQVHRzVVI1WUtJaE9fSERISlRnX0tnVkp6aC1tUEkyU3RJZ2tuc2tURUk1VEtYNDlPMjQtbzBFdms3V20zZW1oSEo4YUVDazdDQnZfXzFJTGlwT0g1S1B5S3Y3UTNTNzhTUnVzODk5VHM2ZXhIdGI3czlWbjRPRk9sNlNSQ3MzQzVjNlk4Nm5JcEtmQkJvdEhqOFdVRGtqMGs?oc=5",
+   "summary": "El abogado Santi González es detenido en Bilbao acusado de favorecer la inmigración irregular    BilbaoHiria",
+   "source": "Policía Nacional / Guardia Civil Málaga",
+   "time": "2026-11-21T08:30:00Z"
   },
   {
    "title": "Jakim cudem Hiszpania przegrała z Anglią? Tłumaczy nam mistrz Europy z 2008 r. - Przegląd Sportowy",
@@ -295,55 +736,6 @@
    "summary": "Jakim cudem Hiszpania przegrała z Anglią? Tłumaczy nam mistrz Europy z 2008 r.    Onet",
    "source": "Polskie media – Polacy w Hiszpanii",
    "time": "2026-11-21T08:30:00Z"
-  },
-  {
-   "title": "Las plataformas digitales se preparan para mitigar la desinformación sobre las elecciones del 29-N",
-   "link": "https://www.laopiniondemalaga.es/nacional/2026/11/21/plataformas-preparan-mitigar-desinformacion-propaganda-ia-elecciones-espana-sanchez-feijoo-136689802.html",
-   "summary": "El próximo 29-N, España se juega su futuro en unas elecciones generales de alto voltaje. Hasta un 47% de los españoles se informa a través de las redes sociales, según un reciente estudio del Reuters Institute, lo que consolida su creciente influencia sobre los votantes. Esa realidad lleva tiempo vo",
-   "source": "La Opinión de Málaga",
-   "time": "2026-11-21T08:28:26Z"
-  },
-  {
-   "title": "El tiempo en Santa Fe: previsión meteorológica para hoy, sábado 21 de noviembre",
-   "link": "https://www.laopiniondemalaga.es/tiempo/2026/11/21/tiempo-santa-fe-prevision-meteorologica-136689675.html",
-   "summary": "Santa Fe afrontará hoy, sábado 21 de noviembre de 2026, una jornada estable, seca y mayormente despejada, con temperaturas agradables durante la mañana y un ambiente cálido en las horas centrales. La previsión apunta a ausencia de lluvias durante prácticamente todo el día, aunque existe una probabil",
-   "source": "La Opinión de Málaga",
-   "time": "2026-11-21T08:26:18Z"
-  },
-  {
-   "title": "Premio de justicia (a un amigo)",
-   "link": "https://www.laopiniondemalaga.es/opinion/2026/11/21/premio-justicia-amigo-136686195.html",
-   "summary": "Vaya por delante: Vicente Luis Mora es una de esas personas a las que puedo considerar amigo, de los pocos a los que permití sostener en brazos a mi hijo cuando era sólo un bebé y con el que he compartido noches, sobremesas y tardes hablando de lo terreno y lo ultraterreno. Comprenderán la alegría q",
-   "source": "La Opinión de Málaga",
-   "time": "2026-11-21T08:24:19Z"
-  },
-  {
-   "title": "El tiempo en Sanlúcar de Barrameda: previsión meteorológica para hoy, sábado 21 de noviembre",
-   "link": "https://www.laopiniondemalaga.es/tiempo/2026/11/21/tiempo-sanlucar-barrameda-prevision-meteorologica-136689625.html",
-   "summary": "Sanlúcar de Barrameda afronta hoy, sábado 21 de noviembre de 2026, una jornada de ambiente templado, con temperaturas suaves para estas fechas y un cambio notable en las condiciones del viento a lo largo del día. La predicción apunta a una mañana mayoritariamente estable, aunque el cielo irá ganando",
-   "source": "La Opinión de Málaga",
-   "time": "2026-11-21T08:23:58Z"
-  },
-  {
-   "title": "El tiempo en San Roque: previsión meteorológica para hoy, sábado 21 de noviembre",
-   "link": "https://www.laopiniondemalaga.es/tiempo/2026/11/21/tiempo-san-roque-prevision-meteorologica-136689610.html",
-   "summary": "San Roque afrontará hoy, sábado 21 de noviembre de 2026, una jornada de temperaturas suaves, cielo mayormente cubierto por nubes altas y un cambio de tendencia al anochecer. El ambiente será estable durante buena parte del día, aunque la previsión apunta a la llegada de intervalos nubosos con lluvia",
-   "source": "La Opinión de Málaga",
-   "time": "2026-11-21T08:23:21Z"
-  },
-  {
-   "title": "Un coche ardiendo desata la alarma en el aeropuerto de Málaga",
-   "link": "https://www.diariosur.es/sucesos/coche-ardiendo-desata-alarma-aeropuerto-malaga-20261121091047-nt.html",
-   "summary": "",
-   "source": "Diario Sur",
-   "time": "2026-11-21T08:22:29Z"
-  },
-  {
-   "title": "El tiempo en San Fernando: previsión meteorológica para hoy, sábado 21 de noviembre",
-   "link": "https://www.laopiniondemalaga.es/tiempo/2026/11/21/tiempo-san-fernando-prevision-meteorologica-136689589.html",
-   "summary": "San Fernando afrontará hoy, sábado 21 de noviembre de 2026, una jornada de temperaturas suaves, viento cada vez más intenso y un cambio notable en la nubosidad durante la tarde. El día comenzará estable, con cielos despejados o con algunas nubes altas y una temperatura cercana a los 15 grados. El am",
-   "source": "La Opinión de Málaga",
-   "time": "2026-11-21T08:22:25Z"
   },
   {
    "title": "Eduard Fernández en 'Matar a un oso'",
@@ -353,25 +745,18 @@
    "time": "2026-11-21T08:21:55Z"
   },
   {
-   "title": "El tiempo en Rota: previsión meteorológica para hoy, sábado 21 de noviembre",
-   "link": "https://www.laopiniondemalaga.es/tiempo/2026/11/21/tiempo-rota-prevision-meteorologica-hoy-136689552.html",
-   "summary": "Rota afronta hoy, sábado 21 de noviembre de 2026, una jornada de temperaturas suaves, viento cada vez más intenso y un cambio notable en las condiciones meteorológicas durante la tarde y la noche. El día comenzará tranquilo, con cielos despejados o con nubes altas y temperaturas de alrededor de 15 g",
-   "source": "La Opinión de Málaga",
-   "time": "2026-11-21T08:20:43Z"
-  },
-  {
-   "title": "El tiempo en Ronda: previsión meteorológica para hoy, sábado 21 de noviembre",
-   "link": "https://www.laopiniondemalaga.es/tiempo/2026/11/21/tiempo-ronda-prevision-meteorologica-hoy-136689523.html",
-   "summary": "Ronda afronta hoy, sábado 21 de noviembre de 2026, una jornada estable en general, aunque con un aumento de la nubosidad al final del día y posibilidad de precipitaciones durante la noche. El cielo permanecerá poco nuboso o con nubes altas desde la madrugada hasta la tarde, con algunos intervalos de",
-   "source": "La Opinión de Málaga",
-   "time": "2026-11-21T08:20:15Z"
-  },
-  {
    "title": "Osasuna – Malaga: typy, kursy, zakłady (22.11.2026) - ETOTO Blog",
    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5pX2pEWEFyUVVEeHZ4clV4YjEzNUcydUlmTHhhNkZTNkQyY1dZSEVhSVZMSWs3N1VGMkdpeWM5X01tbEpsSEROTE9VdHVJb0FzOE9ncC12eXFYelFjdlVzUjNacUdFTGZUaW9IYkRMbk5CbkVZcGc?oc=5",
    "summary": "Osasuna – Malaga: typy, kursy, zakłady (22.11.2026)    ETOTO Blog",
    "source": "Polskie media – Hiszpania",
    "time": "2026-11-21T08:13:05Z"
+  },
+  {
+   "title": "Un coche ardiendo desata la alarma en el aeropuerto de Málaga",
+   "link": "https://www.diariosur.es/sucesos/coche-ardiendo-desata-alarma-aeropuerto-malaga-20261121091047-nt.html",
+   "summary": "",
+   "source": "Diario Sur",
+   "time": "2026-11-21T08:10:47Z"
   },
   {
    "title": "Un rasca de la ONCE cambia la vida de un vecino de Dos Hermanas al ganar un millón de euros",
@@ -386,20 +771,6 @@
    "summary": "La mexicana Luciana Abbud vence en el Cinco Jotas Challenge 2026 con el plato Origen, nido de patata con huevo y salsa de chorizo 100% ibérico\nLa 'sagrada' nueva imagen navideña de Cinco Jotas\nLa visión desde Texas del jamón onubense y este menú para",
    "source": "Málaga Hoy",
    "time": "2026-11-21T08:04:08Z"
-  },
-  {
-   "title": "Tussam refuerza sus autobuses por el derbi entre el Sevilla y el Betis",
-   "link": "https://www.101tv.es/deportes/tussam-refuerza-sus-autobuses-por-el-derbi-entre-el-sevilla-y-el-betis/",
-   "summary": "Tussam aumentará el servicio de varias líneas de autobús que conectan con Nervión para hacer frente al incremento de viajeros previsto durante la jornada. En concreto, el dispositivo afectará a las líneas C1, C2, 5, 27, 28, 29 y Línea Norte. El refuerzo no se limitará a las horas previas al encuent",
-   "source": "101TV Málaga",
-   "time": "2026-11-21T07:45:54Z"
-  },
-  {
-   "title": "El FBI investiga un posible ciberataque a su base de datos nacional de delincuentes",
-   "link": "https://www.101tv.es/internacional/el-fbi-investiga-un-posible-ciberataque-a-su-base-de-datos-nacional-de-delincuentes/",
-   "summary": "El FBI ha abierto una investigación por una presunta intrusión informática en su Centro Nacional de Información Criminal (NCIC), una de las principales bases de datos utilizadas por las fuerzas de seguridad de Estados Unidos. El sistema permite a los cuerpos policiales de todo el país consultar inf",
-   "source": "101TV Málaga",
-   "time": "2026-11-21T07:25:18Z"
   },
   {
    "title": "80 proc. energii z OZE. Hiszpania zmienia zasady dla wielkich odbiorców prądu - Farmer.pl",
@@ -423,6 +794,13 @@
    "time": "2026-11-21T07:04:50Z"
   },
   {
+   "title": "Kryminalny hit w polskiej telewizji. W Hiszpanii obwołano go najlepszym serialem - Dziennik.pl",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQkZubzFTdVRvZl9mX0gybFl2X2xWdThDaGhkVXNRbHhHMThmTHFwOUtpQ3dyQ1lmQ0kzaEVKcWxZcTRDbDg2elk3ODJxUW02TXFwSXBiYTlfM1dQdWVjakN6WGJqS2VENy1PNXpMaTVkSWFGaElHcEkwOHB3SDJXSWtmemEwNXlyTHhUZGV0ZXBwREhXQl9EdzM1elVXRGxzZUJQVmw0aS13Mkc1MV9B?oc=5",
+   "summary": "Kryminalny hit w polskiej telewizji. W Hiszpanii obwołano go najlepszym serialem    Dziennik.pl",
+   "source": "Polskie media – Hiszpania",
+   "time": "2026-11-21T07:03:14Z"
+  },
+  {
    "title": "Kiedy młodzi Polacy wyjdą na ulice? To może być zapowiedź nadchodzącej fali protestów - Rzeczpospolita",
    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbUdkalViVDZXZGY3QjdLTFVLMS0wZVk0a0dhQUtpaHJzejFGV1dZZmlHUzlTeDlRSjR5Mno3Y0lRT1RZMjg1OHd6cmxEanJMOUN1alFnZTBLcVpVTTFWd0N1R3BBUlNjVzNMeE8zZzBZOWNFdmMxYS1nb0NnVTB6ZWZWT3FnMVIwTHdWaHFKdDhvVFFQck1GS0hKTE12OGNGZURGV0x0cGE5VHlxYXFYQ1N3?oc=5",
    "summary": "Kiedy młodzi Polacy wyjdą na ulice? To może być zapowiedź nadchodzącej fali protestów    Rzeczpospolita",
@@ -435,13 +813,6 @@
    "summary": "Partido correspondiente a la jornada 9 de Liga Endesa, última antes de la ventana\nEvans, a Burgos",
    "source": "Málaga Hoy",
    "time": "2026-11-21T07:00:39Z"
-  },
-  {
-   "title": "Kryminalny hit w polskiej telewizji. W Hiszpanii obwołano go najlepszym serialem - Dziennik.pl",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQkZubzFTdVRvZl9mX0gybFl2X2xWdThDaGhkVXNRbHhHMThmTHFwOUtpQ3dyQ1lmQ0kzaEVKcWxZcTRDbDg2elk3ODJxUW02TXFwSXBiYTlfM1dQdWVjakN6WGJqS2VENy1PNXpMaTVkSWFGaElHcEkwOHB3SDJXSWtmemEwNXlyTHhUZGV0ZXBwREhXQl9EdzM1elVXRGxzZUJQVmw0aS13Mkc1MV9B?oc=5",
-   "summary": "Kryminalny hit w polskiej telewizji. W Hiszpanii obwołano go najlepszym serialem    Dziennik.pl",
-   "source": "Polskie media – Hiszpania",
-   "time": "2026-11-21T07:00:00Z"
   },
   {
    "title": "La banda municipal de Málaga, en una imagen.",
@@ -514,10 +885,24 @@
    "time": "2026-11-21T06:00:00Z"
   },
   {
+   "title": "Marlaska asciende a Roberto Blanes pese a saltarse a siete coroneles - Confidencial Digital",
+   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNaE9kb1VvcUFYZGU4MWw0RUNva2NHY09Kc2M4Z2VnRGpaZ2hmUGtzVld3cWc3Y29yMVpISk9rYnBIOEdfZzJ3bEVrdkREU3Vrb3VlbE9GOFllVllscFdRU0MtYllrcERMY3FiOUdocDY4dnE5SExiaHEtNHA5N2pnbmd6Q2l0aW5YQmVhQUs3SXpUQUJRQ3RqNUpVR2czWC1mV1lCUmpoSFJDOEY0V1Z6MllSc3l0aXNlT1J0YVVrQWNuTkdtdUJNWFBmRmpwTUdhNzJKb1hwbUc4Q1hFT2VN0gHkAUFVX3lxTFBDWFh4X2l4Z0JGTHhiekRYUHd0X0IxcVR4OFRZSUViV3hHeWhtRktMVVZWWDhBMUJNSi10cjVLX0o5MmNRSGhmby1YcmN4cm0tdEVxQmhrN0VHN01zMXBlODc0Zi0xbG5Lcm1IdU10b1FBVHotbXdlcHQ4aUhqYVluczFJQkIxYVBTQVoxQkFxN3FybTZwM1hkYWt4WmtvSGlVZjd5VUdnRnFHY3hfbEo4czJTZGdlZWFrb2MwU0Zlc0szNjBoSGdiUnJLdjN6WGIxSW15dWFNbHl1RWlodFUteGppTg?oc=5",
+   "summary": "Marlaska asciende a Roberto Blanes pese a saltarse a siete coroneles    Confidencial Digital",
+   "source": "Policía Nacional / Guardia Civil Málaga",
+   "time": "2026-11-21T06:00:00Z"
+  },
+  {
    "title": "Investigadores, en un momento de la operación",
    "link": "https://www.malagahoy.es/malaga/jarabe-tos-destapa-malaga-trama_0_2008550081.html",
    "summary": "Un joven de 19 años expedía prescripciones de fármacos para explotar sus estupefacientes y venderlos en salas de fiesta\nSuplantan a 40 médicos para obtener recetas falsas y vender drogas en ambientes de ocio",
    "source": "Málaga Hoy",
+   "time": "2026-11-21T05:55:07Z"
+  },
+  {
+   "title": "Un jarabe para la tos destapa en Málaga una trama que suplantaba médicos con 100 recetas falsas - Málaga Hoy",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPeE4tNlVBa050ZnFHVmhBNWstaG9WN0dHYTJzUTVxdWlGUXFsWHBKVWFXdHk5VkloQ0hHbkFRQjREa2hYY2prRFYtN1F4U2VXMzFXY1YwTUtfNVZPZ21Sa29pdjNILXNUa09TSTBheXBVdUlRb0ZISGZFUHZQVVgwdy1ZTlF5akdy0gGOAUFVX3lxTFBtSWVEUG13aEh1ZEx6bFBPbmhVMDVYLV9CYnM0QzVRQnNIdXBVTE9LMk5hNmRnR3poVU9fOGdlZUw2UGJOSkRXTWVKeVRnRHNWRDhQLW1leWxjQk53aUhwU3BiN2t2RExRbEQ3bDRTcEQxMTNnRzFFTUJDbDRqekZ3WmExMTh6VmVRWFMtX3c?oc=5",
+   "summary": "Un jarabe para la tos destapa en Málaga una trama que suplantaba médicos con 100 recetas falsas    Málaga Hoy",
+   "source": "Policía Nacional / Guardia Civil Málaga",
    "time": "2026-11-21T05:55:07Z"
   },
   {
@@ -568,6 +953,13 @@
    "summary": "El técnico de Loja no descarta convocar al lateral izquierdo del filial y elude el capítulo de posibles fichajes\nLa entrevista de Adrián Niño para Málaga Hoy",
    "source": "Málaga Hoy",
    "time": "2026-11-21T05:13:31Z"
+  },
+  {
+   "title": "La Guardia Civil detiene en Melilla a un joven por difundir propaganda yihadista en redes sociales - Melilla Hoy",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOOTFlbS1HUFdPSVkyZ1dDU0VUQXVQX0g4MmN1cTc5ZGRsaWxySG9tanNOVVdnbWZhQ0ZwSzc3VjU2aEptYkpKWkhJYUhyOUZBbXpKemNpZXM3bzRpUEpzMUxGdDNRSk5jV2hCdzV0NW1ubmZMTU9xdDJkN0VsT1Q2a20yRnJuWldKTzM0N0t2bDVOUXl0eUROSlU2NUluYjNiUkN4LUxXWnI4SVZORm5kWjlBWmhQempkelBud1FhU2YzMkXSAcMBQVVfeXFMTjkxZW0tR1BXT0lZMmdXQ1NFVEF1UF9IODJjdXE3OWRkbGlsckhvbWpzTlVXZ21mYUNGcEs3N1Y1NmhKbWJKSlpISWFIcjlGQW16SnpjaWVzN280aVBKczFMRnQzUUpOY1doQnc1dDVtbm5mTE1PcXQyZDdFbE9UNmttMkZyblpXSk8zNDdLdmw1TlF5dHlETkpVNjVJbmIzYlJDeC1MV1pyOElWTkZuZFo5QVpoUHpqZHpQbndRYVNmMzJF?oc=5",
+   "summary": "La Guardia Civil detiene en Melilla a un joven por difundir propaganda yihadista en redes sociales    Melilla Hoy",
+   "source": "Policía Nacional / Guardia Civil Málaga",
+   "time": "2026-11-21T05:10:32Z"
   },
   {
    "title": "Imagen de los candidatos en el plató en un claroscuro.",
@@ -624,13 +1016,6 @@
    "summary": "Portugalia przekazuje Hiszpanii kondolencje w związku z katastrofą kolejową    The Portugal News",
    "source": "Polskie media – Hiszpania",
    "time": "2026-11-21T04:53:35Z"
-  },
-  {
-   "title": "Santiago Abascal (Vox) protagoniza este sábado en Sevilla su segundo acto de la campaña del 29N en Andalucía",
-   "link": "https://www.europapress.es/andalucia/sevilla-00357/noticia-santiago-abascal-vox-protagoniza-sabado-sevilla-segundo-acto-campana-29n-andalucia-20261121054951.html",
-   "summary": "El candidato de Vox a la Presidencia del Gobierno, Santiago Abascal, protagonizará este sábado, 21 de noviembre, un acto público en Sevilla en el marco de la que será su segunda visita a Andalucía con motivo de la campaña electoral por los comicios generales del 29 de noviembre.",
-   "source": "Europa Press Andalucía",
-   "time": "2026-11-21T04:49:51Z"
   },
   {
    "title": "Javier Castillo: «Darle un móvil a un niño es el equivalente a darle una raya de cocaína»",
@@ -724,15 +1109,15 @@
    "time": "2026-11-21T02:07:13Z"
   },
   {
-   "title": "El debate no es aquí tan decisivo",
-   "link": "https://www.malagahoy.es/opinion/articulos/debate-no-decisivo_0_2008554182.html",
+   "title": "Goleada de Feijóo",
+   "link": "https://www.malagahoy.es/opinion/articulos/goleada-feijoo_0_2008554183.html",
    "summary": "",
    "source": "Málaga Hoy",
    "time": "2026-11-21T02:07:12Z"
   },
   {
-   "title": "Goleada de Feijóo",
-   "link": "https://www.malagahoy.es/opinion/articulos/goleada-feijoo_0_2008554183.html",
+   "title": "El debate no es aquí tan decisivo",
+   "link": "https://www.malagahoy.es/opinion/articulos/debate-no-decisivo_0_2008554182.html",
    "summary": "",
    "source": "Málaga Hoy",
    "time": "2026-11-21T02:07:12Z"
@@ -787,18 +1172,11 @@
    "time": "2026-11-21T00:00:00Z"
   },
   {
-   "title": "Ayuntamiento de Málaga y Junta retoman tratos por tres vías que aliviarían parte de la movilidad en el Guadalhorce",
-   "link": "https://www.101tv.es/malaga/ayuntamiento-de-malaga-y-junta-retoman-tratos-por-tres-vias-que-aliviarian-parte-de-la-movilidad-en-el-guadalhorce/",
-   "summary": "La última reunión entre Apoma, la Asociación de Polígonos de Málaga, y el alcalde Francisco de la Torre ha vuelto a abrir la posibilidad de acelerar el diálogo institucional para atender algunas de las reclamaciones más urgentes de los empresarios de la ciudad. Aunque una vez  más se quedó en palab",
-   "source": "101TV Málaga",
-   "time": "2026-11-20T23:04:00Z"
-  },
-  {
-   "title": "Diego El Cigala, nuevo confirmado del 101 Music Festival Costa del Sol 2027",
-   "link": "https://www.101tv.es/malaga/diego-el-cigala-nuevo-confirmado-del-101-music-festival-costa-del-sol-2027/",
-   "summary": "El 101 Music Festival Costa del Sol 2027 suma un nuevo nombre a su cartel. Diego El Cigala actuará el próximo 10 de julio en la Plaza de Toros de Málaga, donde presentará ‹Aurora›, su nueva gira mundial y proyecto discográfico, con el que vuelve a situar el flamenco en el centro de su propuesta […]",
-   "source": "101TV Málaga",
-   "time": "2026-11-20T23:03:00Z"
+   "title": "Detienen a un abogado vizcaíno por favorecer la inmigración irregular - El Correo",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSjBKMGxnaE9oVmVvdDZrS2xnaHM2UGZhYmlKMVJtd2JyYVFXd1JhYm5vbkJHanZkd1VtblpHbzdPYzV2MGVxRjdHYXNTZVlaTFFrUXJsb29obTFTd2lacUU0NklJVWRXR0FMT3RPUnU2UUdVY1hKT3gyamtrczQyQjdTcjVoN3VnMVU2TmQtbU00bWVmVWk5NnhOT3VacDduZ0dycEhJblZvMUhOcFROTFlpVdIBuAFBVV95cUxNT2FvR25LTXpvejl6NlpKWmlTenVqWnlKZHl1dHdpR1lybC1HRy1VQWxyUzNRdzVCc19JZ25RT0E4S0xKWXcybG9fOEowUVdfbzRoamoyTUVxb3hQZ2JiM0NPMDhWZC1tZ3h1SHBrNHlBeUpRR1U0TE9uLVhpV1lNdXp0aE8yVDZ2MEYwOU5JZ0VmOVJKZE1hb2FBZDhndDdHaVlwVDlRSGxxVTRidUVELTduYk1aRjJI?oc=5",
+   "summary": "Detienen a un abogado vizcaíno por favorecer la inmigración irregular    El Correo",
+   "source": "Policía Nacional / Guardia Civil Málaga",
+   "time": "2026-11-20T23:08:24Z"
   },
   {
    "title": "Woman, 61, dies after gas leak at home in Ronda",
@@ -806,20 +1184,6 @@
    "summary": "A 61-year-old woman has died after inhaling gas that leaked inside a home in Ronda. The 112 emergency service received an alert at 3.43pm on Friday. It dispatched firefighters and Policia Nacional officers to the property on Calle Maria Cabrera. Medical services confirmed the woman’s death and noti",
    "source": "The Spanish Eye",
    "time": "2026-11-20T22:56:34Z"
-  },
-  {
-   "title": "Sánchez acusa a Feijóo de usar insultos durante el debate: «Terminó mostrando su falta de propuestas al recurrir a los ataques»",
-   "link": "https://www.101tv.es/espana/sanchez-acusa-a-feijoo-de-usar-insultos-durante-el-debate-termino-mostrando-su-falta-de-propuestas-al-recurrir-a-los-ataques/",
-   "summary": "El presidente del Gobierno y candidato del PSOE, Pedro Sánchez, ha vuelto a pronunciarse sobre el debate electoral del jueves 19 de noviembre con el líder del Partido Popular. Durante un mitin en Santiago de Compostela, Sánchez ha criticado la actitud de su rival y asegura que «terminó mostrando su",
-   "source": "101TV Málaga",
-   "time": "2026-11-20T22:20:56Z"
-  },
-  {
-   "title": "El PP de Málaga sube el tono en inmigración y denuncia la situación del hotel de acogida de Torrox",
-   "link": "https://www.101tv.es/malaga-provincia/el-pp-de-malaga-sube-el-tono-en-inmigracion-y-denuncia-la-situacion-del-hotel-de-acogida-de-torrox/",
-   "summary": "El PP de Málaga ha endurecido su discurso sobre inmigración en la recta final de la campaña de las generales del 29 de noviembre. Su presidenta, Patricia Navarro, ha cargado contra la política migratoria del Gobierno de Pedro Sánchez y ha puesto como ejemplo lo ocurrido en Torrox, donde, según ha d",
-   "source": "101TV Málaga",
-   "time": "2026-11-20T22:14:00Z"
   },
   {
    "title": "Tyson Carter, en el Palau.",
@@ -899,13 +1263,6 @@
    "time": "2026-11-20T21:15:45Z"
   },
   {
-   "title": "Jesús Owono reaparece en el Andorra-Leganés tras la muerte de Jesús de Miguel",
-   "link": "https://www.101tv.es/deportes/jesus-owono-reaparece-en-el-andorra-leganes-tras-la-muerte-de-jesus-de-miguel/",
-   "summary": "Jesús Owono ha vuelto a dejarse ver públicamente este viernes durante el partido entre el Andorra y el Leganés. El portero del conjunto andorrano ha seguido el encuentro desde la grada del Nou Encamp, en la que ha sido su primera aparición pública desde el trágico suceso ocurrido el pasado 9 de nov",
-   "source": "101TV Málaga",
-   "time": "2026-11-20T21:13:55Z"
-  },
-  {
    "title": "Presentación, este viernes, de la ópera.",
    "link": "https://www.malagahoy.es/ocio/teatro-cervantes-recupera-don-procopio-opera-estudio-malaga_0_2008553442.html",
    "summary": "La obra se representará los próximos 4 y 6 de diciembre dentro de la 38 Temporada Lírica, con dirección artística de Carlos Álvarez\nRothko, Goya y Akomfrah serán protagonistas en el Museo Picasso de Málaga en 2027",
@@ -934,25 +1291,11 @@
    "time": "2026-11-20T21:03:19Z"
   },
   {
-   "title": "'Hamlet malaguista', en la viñeta de Pachi",
-   "link": "https://www.diariosur.es/deportes/mas-deportes/vinetas-deportivas-pachi-mes-noviembre-20261031220314-ga.html",
-   "summary": "",
-   "source": "Diario Sur",
-   "time": "2026-11-20T21:00:03Z"
-  },
-  {
    "title": "Imagen del solar para las futuras viviendas",
    "link": "https://www.malagahoy.es/malaga/junta-licita-parcela-malaga-construir-viviendas-protegidas_0_2008553341.html",
    "summary": "El solar cuenta con una superficie de más de 600 metros cuadrados\nVuelta del tren Málaga Madrid: Adif ya inspecciona las vías y venden billetes a partir de 25 euros",
    "source": "Málaga Hoy",
    "time": "2026-11-20T20:59:44Z"
-  },
-  {
-   "title": "'Pedro, Victoria, Pancracio', la viñeta de Idígoras",
-   "link": "https://www.diariosur.es/malaga/vinetas-idigoras-pachi-mes-noviembre-20261031220547-ga.html",
-   "summary": "",
-   "source": "Diario Sur",
-   "time": "2026-11-20T20:58:36Z"
   },
   {
    "title": "Marbella culminará en enero el nuevo centro de usos múltiples del Calvario",
@@ -976,6 +1319,13 @@
    "time": "2026-11-20T20:46:25Z"
   },
   {
+   "title": "Muere una mujer de 61 años intoxicada por un escape de gas en una vivienda de Ronda (Málaga) - Europa Press",
+   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPU2I3QkRfZ3VOcTB0OVliZnVrYTJGU3M1M3VHTTdOUHhDNVRoZS1TQ3VkQmRvTDhXbHJ6RFlVbThxNGxCNlZFSVU5Rkh0c3F2dUxXOHloLVpYT21xYS1DMWROM3ROdGt5ajRvYWJOYmhvSkQxeC1WYVNGVXJ5c252N0R5aEJfd1AyY1F4eWQ4VlFBZ3Z4ay1TaVlVYWNvZzJwNThjWWVWM256MzJfbm1qMktoUVJydjhJSWdQWUI3MzVoV1pzTDZmRzB5OGJZS3ZGSG53VVRLbUw?oc=5",
+   "summary": "Muere una mujer de 61 años intoxicada por un escape de gas en una vivienda de Ronda (Málaga)    Europa Press",
+   "source": "Policía Nacional / Guardia Civil Málaga",
+   "time": "2026-11-20T20:35:24Z"
+  },
+  {
    "title": "El regreso de lo analógico: el trompo, las canicas o los cromos vuelven, y triunfan",
    "link": "https://www.diariosur.es/sociedad/vuelta-juguetes-clasicos-trompo-canicas-tamagotchi-20261118194517-nt.html",
    "summary": "",
@@ -997,11 +1347,11 @@
    "time": "2026-11-20T20:17:58Z"
   },
   {
-   "title": "Montero pide \"votar con inteligencia\" frente al \"ruido\" para desvanecer las políticas del PSOE \"por la mayoría social\"",
-   "link": "https://www.europapress.es/andalucia/noticia-montero-pide-votar-inteligencia-frente-ruido-desvanecer-politicas-psoe-mayoria-social-20261120211130.html",
-   "summary": "La secretaria general del PSOE de Andalucía, María Jesús Montero, ha hecho un llamamiento para \"votar con inteligencia\" en las elecciones generales frente al \"ruido\" que genera la derecha \"para que no se escuche\" la acción política progresista que \"apuesta por la mayoría social\" y que tiene \"capa",
-   "source": "Europa Press Andalucía",
-   "time": "2026-11-20T20:11:30Z"
+   "title": "Muere una mujer de 61 años intoxicada por un escape de gas en una vivienda de Ronda - La Opinión de Málaga",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPa3NOc2stSlY4WGpyajlHSUhFdDJQOVhWY0NiVXQ1Vmp3RDJ4VGszUF9BMUVMRVltU1VMZ0F5QXdJWElXalpUaWtsclNLcDFrQ2xtS28wMW1SRk1VQ2c2MEZ5WWdyZDFsbU9jcDJxcTJJbEhyOVNmazl6OWl3UG0yYldpTjRiNVVRWS1FRmVpcW9UVjgwMDZfdDctQ2dkRU1kTmfSAacBQVVfeXFMT3lvM3FnclRpWjFmRmhUVHhtYmJYZFJrV1BhMElDOFNfNUpxQVBhak83RURLUmVJNGdGRmJIU01IaDlKb0UzWjNHcGIxMDV5R0JGSEs1WEtCWlFCSC1rQ1hnVUQ0N1d5NTRLX3hvSjUzUkFjcU95WV9adWZzR0ZlQzRQR0NxX1VzeUMtZGVHbGdCaHBjQVhVZ092ZnBSZXJwLTc1aUZtWms?oc=5",
+   "summary": "Muere una mujer de 61 años intoxicada por un escape de gas en una vivienda de Ronda    La Opinión de Málaga",
+   "source": "Policía Nacional / Guardia Civil Málaga",
+   "time": "2026-11-20T20:10:43Z"
   },
   {
    "title": "Dyżur konsularny w Casetas (Saragossa) 24 listopada 2026 r. - Gov.pl",
@@ -1081,18 +1431,18 @@
    "time": "2026-11-20T19:18:37Z"
   },
   {
+   "title": "Una mujer de 61 años muere intoxicada por un escape de gas en Ronda - Málaga Hoy",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONWhMeXFuUmhKY3BydjlmWTdrcG5ESGNkSkVjWU0tY2lNN2puWDdYd0stYmpsZ2k4QVdzNk9xckFFU2lxampobENRYUZNRElCcHRuVEJRS19lN0RhNC1tUDJIdW5lQ2FCaFFBSTVUbmxsaDQwblhBakxqTTJYZVFEV2NJNXk3bmE5QUpQanMwQlBiRTNPYWRBRmpld291TWhzWnfSAacBQVVfeXFMT0IzOG0wX2R2NWw5NlplSUZTOHF3VEVka2s2Y3JTX3d2TWgyTk1oODVFMzlpUjNOUEJXZzN3Z052TzU1aVBsb1VITWhqanBkempuRHBRUktWd2JoTC1yekZEcXk4MHBYcFV0VThrTnN5dG5aZVV2cmtKQmx0MXRDcWpSVF9JT29tcFdFbG9YR0FYeWRyZzFBeDA4UjNzRmhmeU1NQnpESGM?oc=5",
+   "summary": "Una mujer de 61 años muere intoxicada por un escape de gas en Ronda    Málaga Hoy",
+   "source": "Policía Nacional / Guardia Civil Málaga",
+   "time": "2026-11-20T19:18:37Z"
+  },
+  {
    "title": "'El Bigote' Valverde quiere seguir siendo el rey",
    "link": "https://www.diariosur.es/deportes/mas-deportes/bigote-valverde-quiere-seguir-rey-20261119200115-nt.html",
    "summary": "",
    "source": "Diario Sur",
    "time": "2026-11-20T19:17:16Z"
-  },
-  {
-   "title": "Moreno pide votar al PP el 29N como \"castigo merecido\" a Sánchez y para abrir un \"futuro ilusionante\" en España",
-   "link": "https://www.europapress.es/andalucia/noticia-moreno-pide-votar-pp-29n-castigo-merecido-sanchez-abrir-futuro-ilusionante-espana-20261120201241.html",
-   "summary": "El presidente del PP-A y de la Junta de Andalucía, Juanma Moreno, ha pedido este viernes el voto para su partido \"no sólo\" para infringir un \"castigo\" electoral y \"merecido\" al Gobierno de Pedro Sánchez, sino también para abrir \"un futuro ilusionante\" a \"construir entre todos\" los españoles.",
-   "source": "Europa Press Andalucía",
-   "time": "2026-11-20T19:12:41Z"
   },
   {
    "title": "La presentación del programa navideño.",
@@ -1123,6 +1473,13 @@
    "time": "2026-11-20T19:03:32Z"
   },
   {
+   "title": "Detenido un joven en Catalunya acusado de suplantar a más de 40 médicos para falsificar recetas - Diari de Tarragona",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNWVRpQU9USXd1dEtBQUQzaFljQVlsNkhjVXlZWDhQTXZQcE8teTFfSFZLaGVqajJKbHZzSHMzaS1mRlZuY1ZGc1lJRjNERjhWNFlReUhEMW1UUGFOb2hnT0JwZ0tTMUJrSGE0QU1mNUFVVkpVRU9sbmVxa05RMTMzTjlJYk9JTmp0VXYwRE9LamRlMExCYjZDVHNMd0V1RUNxaGQ0dll3Ry1fa0tRSjB5N0M4WFRUWW9peUQ2eUhTM09renlKaFJkQdIByAFBVV95cUxNWVRpQU9USXd1dEtBQUQzaFljQVlsNkhjVXlZWDhQTXZQcE8teTFfSFZLaGVqajJKbHZzSHMzaS1mRlZuY1ZGc1lJRjNERjhWNFlReUhEMW1UUGFOb2hnT0JwZ0tTMUJrSGE0QU1mNUFVVkpVRU9sbmVxa05RMTMzTjlJYk9JTmp0VXYwRE9LamRlMExCYjZDVHNMd0V1RUNxaGQ0dll3Ry1fa0tRSjB5N0M4WFRUWW9peUQ2eUhTM09renlKaFJkQQ?oc=5",
+   "summary": "Detenido un joven en Catalunya acusado de suplantar a más de 40 médicos para falsificar recetas    Diari de Tarragona",
+   "source": "Policía Nacional / Guardia Civil Málaga",
+   "time": "2026-11-20T18:58:45Z"
+  },
+  {
    "title": "Los especialistas de HM Hospitales.",
    "link": "https://www.malagahoy.es/malaga/hm-hospitales-recuerda-claves-protegerse-malaga_0_2008552379.html",
    "summary": "Los servicios de urgencias de sus centros sanitarios registran un incremento de la actividad asistencial impulsado por cuadros catarrales, faringoamigdalitis, gripe, COVID-19 y bronconeumonías\nHM Hospitales pone en marcha en Málaga una nueva Unidad d",
@@ -1130,11 +1487,25 @@
    "time": "2026-11-20T18:50:50Z"
   },
   {
+   "title": "Granada: Detenido tras una espectacular persecución por los tejados. Estaba buscado por dos tentativas de homicidio - Motril Digital",
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOMGdDXzNmcnNpQ01sRmZGRXYxRTNOV1FqUXdDRTFYMW1wZlNLaDJsaUoyTkNKejdGamJtdDl1UlJ6c2F4eU9nX1BobTFIQ0d5cExhVVNJbEZKUk1XNjRLbGJMWDVFbnU2bjVjQUdPS2k3a2tvUFQ4ZUNYSlMzNFV2WkprYWFmUHlZMURfYVRsOVZQbmpneWtMZGJvUGc2WDVpUHpqV1lzRmpXSGtYUG04Wm1MNDZJRmtDN2wwZUxleHl1ODdHa0ZaeWtLOWxkUHJSSnU4YVFRTUZSTWJK?oc=5",
+   "summary": "Granada: Detenido tras una espectacular persecución por los tejados. Estaba buscado por dos tentativas de homicidio    Motril Digital",
+   "source": "Policía Nacional / Guardia Civil Málaga",
+   "time": "2026-11-20T18:26:58Z"
+  },
+  {
    "title": "Imagen tomada con la serie Oppo Find X10",
    "link": "https://www.malagahoy.es/tecnologia/andaluces-rechazan-ia-generativa-fotos-movil_0_2008552377.html",
    "summary": "Un estudio de Oppo señala que el 66% de los usuarios en Andalucía no distingue el contenido sintético en redes sociales.\nSamsung Wallet cumple una década en España",
    "source": "Málaga Hoy",
    "time": "2026-11-20T18:19:39Z"
+  },
+  {
+   "title": "El Congreso Edufinet cierra su novena edición con más de 650 inscritos - Aula Magna",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOS29XZEIxTUdqWFcyNUc4UlRfZ2pKX1dSdmcyNXktVXluLXRpa1dhN0V1Wkg0dFhmVXU2anoyVVc0cW1KaFpzaTlnQU9tbFREREppSmxYWm1FYl84NVU4dnlxNU5QNzlnNGRybGdudndKdWFPM0U0NGZFX1ZDOHpDUThsWGxDQk1uOEFENmIwcjQ5ZEpwWXhVTElkbklLNVVZekE?oc=5",
+   "summary": "El Congreso Edufinet cierra su novena edición con más de 650 inscritos    Aula Magna",
+   "source": "Policía Nacional / Guardia Civil Málaga",
+   "time": "2026-11-20T18:13:34Z"
   },
   {
    "title": "Criminal clan in Almeria issues €50k reward for location of rival dubbed ‘Saul el Viejo’",
@@ -1148,6 +1519,13 @@
    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRG1qR25UTUNvNERJQ0wwZ25uNU53SHhNQmZreGpPOXRIdy1kbUxUdWNmMUFZS1B4YzNNcEViYVZoX25CYzRMUjZjQUs0c09zbVRLdzQxWXRGM3dobmNJMFJNZzNuanBPWmFRUG50cVh3a3FuSl9wRTFrRkpwTVY2TVBRcXBnbi1tY3ZxRUxfTHVYMjBMRTd2cFV5UXVmYTRVUWNrNFlQUXZ4cUVoT3UwMw?oc=5",
    "summary": "\"Popełniłem błędy\". Pedro Sanchez przeprasza Hiszpanów tuż przed wyborami    Wiadomości Onet",
    "source": "Polskie media – Hiszpania",
+   "time": "2026-11-20T18:11:23Z"
+  },
+  {
+   "title": "\"Popełniłem błędy\". Pedro Sanchez przeprasza Hiszpanów tuż przed wyborami - Wiadomości Onet",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRG1qR25UTUNvNERJQ0wwZ25uNU53SHhNQmZreGpPOXRIdy1kbUxUdWNmMUFZS1B4YzNNcEViYVZoX25CYzRMUjZjQUs0c09zbVRLdzQxWXRGM3dobmNJMFJNZzNuanBPWmFRUG50cVh3a3FuSl9wRTFrRkpwTVY2TVBRcXBnbi1tY3ZxRUxfTHVYMjBMRTd2cFV5UXVmYTRVUWNrNFlQUXZ4cUVoT3UwMw?oc=5",
+   "summary": "\"Popełniłem błędy\". Pedro Sanchez przeprasza Hiszpanów tuż przed wyborami    Wiadomości Onet",
+   "source": "Polskie media – Polacy w Hiszpanii",
    "time": "2026-11-20T18:11:23Z"
   },
   {
@@ -1165,13 +1543,6 @@
    "time": "2026-11-20T18:10:45Z"
   },
   {
-   "title": "Bosquet asume como Defensora del Pueblo Andaluz y promete ser el «último recurso» frente a la burocracia",
-   "link": "https://www.diariosur.es/andalucia/bosquet-asume-defensora-pueblo-andaluz-promete-ultimo-20261120190837-nt.html",
-   "summary": "",
-   "source": "Diario Sur",
-   "time": "2026-11-20T18:08:37Z"
-  },
-  {
    "title": "Una mujer vapeando en una imagen de archivo.",
    "link": "https://www.malagahoy.es/provincia/mancomunidad-recupera-1-140-kilos_0_2008551568.html",
    "summary": "La institución emprenderá una nueva campaña de recogida específica de cigarrillos electrónicos en 2027\nEl presidente de la Costa del Sol: \"Los europeos dirán que estamos locos, Marbella es la única ciudad de 150.000 habitantes sin tren\"",
@@ -1184,6 +1555,13 @@
    "summary": "The PSOE rose one point to 31.2%, its best vote-share estimate since the 2023 general election",
    "source": "The Spanish Eye",
    "time": "2026-11-20T17:59:01Z"
+  },
+  {
+   "title": "Honda podría preparar dos versiones del Civic Type R y anuncia los precios en España - Highmotor",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNa1hjdlNFUGJxeERqOFZDX1JJaDBnZFZvLWNyVTUzUUswZ0haMENFVTlPd3J3TzRZdUxCQnVSLXEyX3V1ZVo0VDdvQVVyd1A3WUpyRGJjNERFR005T2VrQnlhbnRjRWhaTGZhaGxZdE1WaHA4QzB1NFJMRHMtd3VrNlZEejFMRS0wODRONWgxZ2hpc0tJWEcycW82UTFHSzlEUEoxN0lDRDRpVGpu?oc=5",
+   "summary": "Honda podría preparar dos versiones del Civic Type R y anuncia los precios en España    Highmotor",
+   "source": "Polskie media – Hiszpania",
+   "time": "2026-11-20T17:56:41Z"
   },
   {
    "title": "Why have postal vote requests in Andalucia plummeted by 58% compared to the last general election?",
@@ -1235,6 +1613,13 @@
    "time": "2026-11-20T17:25:30Z"
   },
   {
+   "title": "La Guardia Civil registra una vivienda en Jerez en una operación contra una trama de combustible del narcotráfico - Andalucía Información",
+   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNRlBKeVlJeGJfRm9hYm94dF9yVzduYkZtM0xlSk1BQkw2RU51OGNrQkZudlotVDM1bUJtbE9rV3M2UzJDNkxTdkc4U0FrVF9mVHVMcVNYYTdQVTlYMDI3emNIMUE2TzhGWi1jYm5EXzF0cmszTGx5X2diT3dXSGY5Z1BzS0lUWHZMbFU5NHMwcWYxeGxjY2xQZ21MUkFyNE9sV0JubHNTclV5VFowb1AxT3ctUjY0ZkxmUi1HREVPMDZqZ1J5Q0JVUFpfbjFrMi1SamN3WDZrYk04TzUtdEhCaV9NWmJhUdIB5gFBVV95cUxNRlBKeVlJeGJfRm9hYm94dF9yVzduYkZtM0xlSk1BQkw2RU51OGNrQkZudlotVDM1bUJtbE9rV3M2UzJDNkxTdkc4U0FrVF9mVHVMcVNYYTdQVTlYMDI3emNIMUE2TzhGWi1jYm5EXzF0cmszTGx5X2diT3dXSGY5Z1BzS0lUWHZMbFU5NHMwcWYxeGxjY2xQZ21MUkFyNE9sV0JubHNTclV5VFowb1AxT3ctUjY0ZkxmUi1HREVPMDZqZ1J5Q0JVUFpfbjFrMi1SamN3WDZrYk04TzUtdEhCaV9NWmJhUQ?oc=5",
+   "summary": "La Guardia Civil registra una vivienda en Jerez en una operación contra una trama de combustible del narcotráfico    Andalucía Información",
+   "source": "Policía Nacional / Guardia Civil Málaga",
+   "time": "2026-11-20T17:20:07Z"
+  },
+  {
    "title": "Varias personas por el centro de Málaga.",
    "link": "https://www.malagahoy.es/malaga/malaga-superara-sevilla-provincia-poblada-andalucia-2050_0_2008551698.html",
    "summary": "La proyección prevé que la población del territorio malagueño crezca un 20,7 % al sumar alrededor de 370.000 nuevos residentes\nVuelta del tren Málaga Madrid: Adif ya inspecciona las vías y venden billetes a partir de 25 euros",
@@ -1268,13 +1653,6 @@
    "summary": "Rynek akcji Hiszpanii zamknął sesję spadkami. IBEX 35 stracił 1,57% Przez Investing.com    Investing.com Polska: Kursy walut, kryptowalut, notowania akcji",
    "source": "Polskie media – Hiszpania",
    "time": "2026-11-20T17:05:00Z"
-  },
-  {
-   "title": "Ciudad de la Justicia",
-   "link": "https://www.malagahoy.es/malaga/tsja-absuelve-tres-hombres-acusados-secuestro-malaga_0_2008551569.html",
-   "summary": "El tribunal andaluz acepta el recurso de la defensa y pone en cuestión el testimonio de la supuesta víctima\nDetenido en Fuengirola por difundir propaganda yihadista y usar la IA para adoctrinar",
-   "source": "Málaga Hoy",
-   "time": "2026-11-20T17:04:40Z"
   },
   {
    "title": "Cartel de la actuación de Sanz",
@@ -1326,6 +1704,20 @@
    "time": "2026-11-20T16:26:34Z"
   },
   {
+   "title": "La Guardia Civil detiene por la presunta comisión de delitos de terrorismo a cuatro personas en cuatro localidades - Confidencial Digital",
+   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOLW1yajRtM3FBblNRTlIwZjJhcS1JRzQxMHNMZFdnX18yOEZBQnIwUkFBVlRINXlFSEJoSUNfTHZrLTA4T09YMG9ubEwtVmlvQlJZcmFMRlI1ektBR2dOdmlXb200ckY2aW9tLUlpTy1hM1lSTXFSdXdkQjBvVHRBSG9kZkc4Y2lxdnRES0RreFk2Q0k2SnRBVU15WEJtTi1OT0p3ZFJNMUYwdzBwa0hpZGNKMnpvZHdrb2h2MUNfUlFhM0Exbkt2VlcyYnR0NWk5MDBZdFlVaWFiVHpMcm5ycNIB5gFBVV95cUxPQVpvQ1ZXanFyUmFXcmd6VzZ4UUNIQ1ZmOUtOOE5CeEpGenFaV2RkcEtYbUVyeUhnMHEyUkR5V2FiakNfbGlITjhiTFAtSTFvNTlBVUpLT3ludGxOdGlJVklWRXdMSVpXZlBneUNjd0VOdnd2WHhYTTNPZ25Pb095OF9pSXo3cnNGalJ2WnpOTmtOT3pTdmpZYksxU194NHJtU01UaTduSGtFbHhuYWlvVTF0cXJjSGR2MUw4NE5TVmZCanRPX1pzdGFiR25uS0U1aF9vMU5OMktrTmhCLVNZcUM0X1hSUQ?oc=5",
+   "summary": "La Guardia Civil detiene por la presunta comisión de delitos de terrorismo a cuatro personas en cuatro localidades    Confidencial Digital",
+   "source": "Policía Nacional / Guardia Civil Málaga",
+   "time": "2026-11-20T16:25:42Z"
+  },
+  {
+   "title": "Santi González: abogado de extranjería en Bilbao, detenido y acusado de organización criminal - Ecuador Etxea",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPODJyVk1veEpDQjR0di0tUlR0a3QxUnlUeEs2ZDhKWjR0VlI5SHQxcTFnNjVLUVVzeC1EN0RDRldEc0R0UzlTYkZiYlBMWXdFSWFKSDhDSWhBbXh2WjVlWkZVcmh3a2Z2d0Z6Qnk0WlBNVU9JcEhuRFhMNWdlU3JHaHRSQURuRWNTNUhna0FTTmYwMlZ3VVBMMW9hQVhwd3J1dzlMa2kyalh2NE5Lb2J6R3pTNUthdmFqMWtTOERB?oc=5",
+   "summary": "Santi González: abogado de extranjería en Bilbao, detenido y acusado de organización criminal    Ecuador Etxea",
+   "source": "Policía Nacional / Guardia Civil Málaga",
+   "time": "2026-11-20T16:20:10Z"
+  },
+  {
    "title": "EXCLUSIVE: Danish investor in Marbella luxury shopping centre is tied up and beaten in €12m home invasion days after Norwegian partner threatened to ‘destroy’ him",
    "link": "https://www.theolivepress.es/spain-news/2026/11/20/investor-suffers-marbella-home-invasion-amid-business-partner-row/",
    "summary": "Wealthy expat Daniel Bach and his girlfriend were tied up in their bedroom as masked intruders ransacked their villa in exclusive Zagaleta.",
@@ -1358,7 +1750,7 @@
    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWjR2bTQ1T2JFYlBLNEh4ZlZkWk9HOWNZb3RGcTdYRU9VVEF3cHUteHJWQzZ2ZlFwdXVqUlBtS2dzNjZ3NXdjU0tNdFU5d0RnaDFDbHJZQUozdXN5V3E2M05EbUhHOGhPSkRMYXpRT1NRY1Z5WGkxWWVvR21icHNVZ0JEd0d2ME4yT0x2aFlXb1p5dlBKS1daNXJCUkFGNXZfbTVmZlA5NXUwRWJtNWVlTmpn?oc=5",
    "summary": "Piękny gol Ebrimy Tunkary z rzutu wolnego na inaugurację mundialu U-17 [WIDEO]    FCBarca.com",
    "source": "Polskie media – Hiszpania",
-   "time": "2026-11-20T15:52:39Z"
+   "time": "2026-11-20T15:57:40Z"
   },
   {
    "title": "Subestación eléctrica y torres de alta tensión en Granada",
@@ -1389,25 +1781,18 @@
    "time": "2026-11-20T15:43:12Z"
   },
   {
-   "title": "Las imágenes del concierto de El Último de la Fila",
-   "link": "https://www.malagahoy.es/ocio/ultimo-fila-publica-directo-2026_0_2008551067.html",
-   "summary": "El trabajo, publicado este viernes 20 de noviembre, reúne 27 canciones de la gira de reencuentro de Manolo García y Quimi Portet, que congregó a más de 400.000 espectadores en 12 conciertos por España\nU2 atraviesa el espejo y vuelve a encontrar la lu",
-   "source": "Málaga Hoy",
-   "time": "2026-11-20T15:39:31Z"
-  },
-  {
-   "title": "Un pollo caído de un nido en una ola de calor se convierte en la primera águila imperial liberada en Málaga",
-   "link": "https://www.diariosur.es/malaga/pollo-caido-nido-ola-calor-convierte-primera-20261119162748-nt.html",
-   "summary": "",
-   "source": "Diario Sur",
-   "time": "2026-11-20T15:27:48Z"
-  },
-  {
    "title": "Francja - Hiszpania - H2H, forma, bezpośrednie pojedynki - Meczyki.pl",
    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1aMjJhZGJ0LTRrRGhBQ3Y2Z04yV0FwWjZ4X205ejBMWTE3czRTUnNualVHYUlhMkV6T0dGaHY1bUxuRUlxRk1lQnJ5TmxPSk1LQUlVcFp4RzNwYWxFNUp4NHF4a3JmcDVWcmRlcmQwX0RnNV9YcXc?oc=5",
    "summary": "Francja - Hiszpania - H2H, forma, bezpośrednie pojedynki    Meczyki.pl",
    "source": "Polskie media – Hiszpania",
    "time": "2026-11-20T15:25:47Z"
+  },
+  {
+   "title": "Más de 40 médicos suplantados: así han desmantelado una red de recetas falsas con origen en Figueres - La Ciutat",
+   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNM1NKVDJ5dl9tTUtBTVo4dGNRTGc3MlV5WkRfU0x1U2FwQ3FpYWRXN3ctVXgyd0RyRl9KZDNSYkl4YzF2d0V6OE5FRnNESlpHWGhDOUloVkhGa19yd3ZBTnFRSWQ5bFpSd2x2WEw5dFRRT2V3bFBNSGFZcEgwTnM4NDl5aE94bGtoMXVZbmpUREsySHZqWktPUGt3QWpkSHFrdXFsRl9uMHpwWlBQZnN3c3J3YVdIMGNhWGFjMDBTOVpkenB0QmQ2TGVjU3JMZnBVcmxMdGNxNTk5UdIB3wFBVV95cUxQVU9FWEx0RjN4WUdaLUJfaUp6bVdOT3JULW5rMk1BemVyZzN2MzJvUFZqUURGVXNqR2ktNnlaMEJOZHZWdGhjVXdvNmFCTEk0TUloQlM4T2hUd3kwVXgwNHgwUmRwTC1aME9zTGFSVHRqQ1B0VEJhY2p4amg5Z3d4MWhqM09xWW44OGI5RXM3eEhJV2pFUF94eUZpRS1yQnFEazdUSTR5bFZxN3BjcnVtTnEzSXVRODFxdFBmNEdUeGpUOFBxQ3U5R3ZadHJVZkg5eW55Rkh3dEVUWGtJZWRN?oc=5",
+   "summary": "Más de 40 médicos suplantados: así han desmantelado una red de recetas falsas con origen en Figueres    La Ciutat",
+   "source": "Policía Nacional / Guardia Civil Málaga",
+   "time": "2026-11-20T15:24:29Z"
   },
   {
    "title": "La Guardia Civil detiene a cuatro personas por presunto yihadismo, una de ellas en Donostia - Deia",
@@ -1459,11 +1844,18 @@
    "time": "2026-11-20T14:46:02Z"
   },
   {
-   "title": "Polideportivo malagueño: fin de semana marcado por el regreso de los equipos de baloncesto",
-   "link": "https://www.diariosur.es/deportes/mas-deportes/polideportivo-malagueno-fin-semana-marcado-regreso-equipos-20261117153937-nt.html",
-   "summary": "",
-   "source": "Diario Sur",
-   "time": "2026-11-20T14:39:37Z"
+   "title": "Detenidos cuatro presuntos yihadistas en Guipúzcoa, Barcelona, Málaga y Melilla - The Objective",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSk1zQms2VHRFMUFmajl4NXY4TXhvVFc5WFM1SjRlcGNiaDJMZ29oalNKUC1sV0FVc1J2cjVMN3g1WmM1NjQ5eU1uRlRhY2pmWDNrN1ZKNDB0X2tucEIxQnhhRzNJMUM0VHp5NU9ReVFsZWlIRjFST2NQcU1Gb04zNnRkX3VQaHpQR0NUT24zbjBUSnUwcGdDRGlkQUl1bzBZQnREZi0tN0NzeURsLVlnV1kyRzRVRzlJbDRKX2Y2YVFqenfSAcgBQVVfeXFMTjg2aUNXUWFZVU9FbThWN0dEakJNNV9ieU1PcVJ0U21rM1VMa0hlZzN5dWtZSzEwXzAtVm9ILUwyRngyQnhsZ1V3djBoR1AwTHBYbG5BUFI0T294ZXFmNkt1SXJFS051aVNJNko0RDE5ekI0WWNWdUFrMWlmZUlSZ01yZko0b0NBWHNTYkxBVV9XODlkX3NTTGw3NlVCZ1N3S2F5UFlHQ24xSU5peUo1TnNscGg0MGpNcjhvcWlSUDZybm84VENCQUU?oc=5",
+   "summary": "Detenidos cuatro presuntos yihadistas en Guipúzcoa, Barcelona, Málaga y Melilla    The Objective",
+   "source": "Policía Nacional / Guardia Civil Málaga",
+   "time": "2026-11-20T14:36:14Z"
+  },
+  {
+   "title": "Detenidos cuatro radicalizados en el yihadismo en Guipúzcoa, Barcelona, Málaga y Melilla - Telemadrid",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQLW0tTEd3eGhCZGFLVWNxZXhOdmJ5R1ptVmYwcktLWWY4TWNWU2swWGV4bXRHamZ3b2xiMVVJRVFpSUExeUZmd2E1QVA0WHRuY2dmRWFRdWQwbXVqTDExMVprUENlSTkwdUhXTThHbDdDLVA1UDhwOGEtRTdZTWw4ZUl5a0xqZjVXaHJHUHFDdnk0YnNBMGJFMGpONkMxYjFyLWFPOTZUT0l3QnpJU2fSAbMBQVVfeXFMTXMyU1pqWkxyMzVpRUNfelhDeEE0aUJ5WDllWmdtWm8wLXhxUGN3bVhzYlBnNmlxMU5SamlSaVcyNGdaM2ptMTU1RC10ZUxXLVlqMmVIVGZ3ZlBReGMtUUdFX0ppOUF5UGNYaGFwSF8tWnJPWjNWYWdGOTJTM3hQcFptaV94TUZ1NG0zUXFvQW9OSXZJcWI3Q3lwNmNuY2p5UmxKel91aDlFSTVkeUtFS1ZFT1E?oc=5",
+   "summary": "Detenidos cuatro radicalizados en el yihadismo en Guipúzcoa, Barcelona, Málaga y Melilla    Telemadrid",
+   "source": "Policía Nacional / Guardia Civil Málaga",
+   "time": "2026-11-20T14:31:00Z"
   },
   {
    "title": "Ten kraj przyciąga inwestorów pogodą i niskimi podatkami. „Hiszpania sprzed 6 lat” - Radio Zet",
@@ -1487,25 +1879,18 @@
    "time": "2026-11-20T14:26:47Z"
   },
   {
-   "title": "El Supremo exige a la JEC garantizar que 163.355 nacionalizados por la 'ley de nietos' no voten en las elecciones",
-   "link": "https://www.malagahoy.es/espana/elecciones/supremo-insta-jec-garantizar-163_0_2008550606.html",
-   "summary": "El Alto Tribunal mantiene la suspensión del derecho al sufragio aunque en estos momentos residan en España",
-   "source": "Málaga Hoy",
-   "time": "2026-11-20T14:16:37Z"
-  },
-  {
-   "title": "El Supremo exige a la JEC garantizar que 163.355 nacionalizados por la 'ley de nietos' no voten en las elecciones",
-   "link": "https://www.diariodesevilla.es/espana/elecciones/supremo-insta-jec-garantizar-163_0_2008550599.html",
-   "summary": "El Alto Tribunal mantiene la suspensión del derecho al sufragio aunque en estos momentos residan en España",
-   "source": "Málaga Hoy",
-   "time": "2026-11-20T14:16:36Z"
-  },
-  {
    "title": "Estate agents fear Marbella is ‘running out of land’ to build new homes on after years of breakneck construction",
    "link": "https://www.theolivepress.es/spain-news/2026/11/20/marbella-building-land-shortage-new-homes/",
    "summary": "The Leading Property Agents of Spain group which represents more than 100 firms raised the alarm with the council days after the plan came into force.",
    "source": "Olive Press",
    "time": "2026-11-20T14:15:00Z"
+  },
+  {
+   "title": "Detenido en Fuengirola por radicalización yihadista y acceder a contenidos de propaganda terrorista - 101TV",
+   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQb3ZWMXJveXcwSldxeWxTUVEza0pTdy01M09PMVQ4SFpqbDU1SWJ4d3lOVEVkWnRwTWlOSEFkbmIxQzVobmc0bHFWaWhzaDhNWi1GYTR0czBwM2IybTBaUGkwbEdqcDBMM1pPWVVrelJCU0c2RllNTHpick9TVjkyRzNVTHNXRVJWMnhWaGx1S1RwVDZtNXNWRm9iRW5WaVM1WmlEeFRTcHNjdzdjRjN3QnRTOWE0Z1lYRktmUkJ0MG1PUXVTb3FOcWxLUkt2SVFEZGlzag?oc=5",
+   "summary": "Detenido en Fuengirola por radicalización yihadista y acceder a contenidos de propaganda terrorista    101TV",
+   "source": "Policía Nacional / Guardia Civil Málaga",
+   "time": "2026-11-20T14:14:00Z"
   },
   {
    "title": "Mundial 2030: Vigo i Walencja czekają na pierwsze wizyty FIFA. Finał w Hiszpanii? - Stadiony.net",
@@ -1536,11 +1921,18 @@
    "time": "2026-11-20T14:10:44Z"
   },
   {
-   "title": "Funes: «Es importante que sepamos competir bien todo el encuentro»",
-   "link": "https://www.diariosur.es/malagacf/funes-malaga-osasuna-futbol-declaraciones-20261120131615-nt.html",
-   "summary": "",
-   "source": "Diario Sur",
-   "time": "2026-11-20T13:58:58Z"
+   "title": "Absueltos tres condenados por secuestro al no descartarse que la víctima lo simulara - Infobae",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQV2RNODBKbFZDU19UbjBfZ3J1ZE5HanNYVUZ4VTI4aDhTNS0tRmlyaTExQi16N2xHNVBIOWxieVlFNTBSNENRRnpKSlYwY1c0MERob2hyZS1WNkFyc3AyOXJrUy1tcmVpWTJIM3dMc3R1ZTc1b2tXRUczbnh3WVhLa0VyX3B6bnRpNFk3c0h5STlMZ0w1VTBXTkhROUx1RFZDWFVZN1NJWmEtRm02VmdZSE5sTnRrZ215RUEzamFWVXoyTW45NzNkckpuOXNpU0ZkY3fSAewBQVVfeXFMT3pYZl9oaURVZXY3MGQ1X2llb2JacmlnbWtYNV9xaDJpRlJZeVVmamwyTlNVLVl3Q3dza2NjNVNsOUtGZld3aXBuNDdhZW84SG13WFZDQ2x5NGFhWWd5ZGw2SzB5RDAzcVdvZG9lRmVaaXpiM2IwUFUzNEJ0ckhfQndTUmw0RXRnNVFGWG94alVhc0pTd0lfX1VzcnBiTXdVNzRpS0NiR3ozY2tlWUh3X2l4aWFaVERfcjZ2U1dDanVHV1AteGlfVWdQcFBZQW52cl9MdEwwVGRQSURXanpOd3B1ZTdfXzNSNV9sd2M?oc=5",
+   "summary": "Absueltos tres condenados por secuestro al no descartarse que la víctima lo simulara    Infobae",
+   "source": "Policía Nacional / Guardia Civil Málaga",
+   "time": "2026-11-20T14:03:00Z"
+  },
+  {
+   "title": "Tres detenidos, uno de ellos herido por arma blanca, en una pelea multitudinaria en la barriada de Los Asperones de Málaga - Canal Sur",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQTVOOXFRWV9rbVF5ZXpaQkcyTlBEblpteHNmMVFQS1k2OXJ2aFFDckdHeWhDSVJwZGswNzNrQjNPaWMyRnlVX1Y2Z0hfaTEtcXZOTkV5eU5FUENFZmNRRndqSHZ3QWdYem1rbXNvN2k4VlJKRVZ0SDhEQkFmTHVEMmozN0F3VF96cTA3NXFPc1dENTM5YnRXLXEyUzdkMkE?oc=5",
+   "summary": "Tres detenidos, uno de ellos herido por arma blanca, en una pelea multitudinaria en la barriada de Los Asperones de Málaga    Canal Sur",
+   "source": "Policía Nacional / Guardia Civil Málaga",
+   "time": "2026-11-20T14:00:00Z"
   },
   {
    "title": "Hyatt desembarca en la Costa en un proyecto con 133 residencias de lujo y 100 millones de inversión",
@@ -1585,6 +1977,13 @@
    "time": "2026-11-20T13:40:43Z"
   },
   {
+   "title": "Detenidos cuatro yihadistas por adoctrinar a menores con inteligencia artificial - Libertad Digital",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNeE5ORkxfWkVPb3pTYkZyenREdDl3VThmNzNMSnRuS09QUDJoeUxhWHRwM3Nxdlk5MzlkNGtzZnpmQ0hXUGwzbEdYZnZYUmRTdVVxc2dTaEJ4RTIxdWRXVHBneElsOGg4c0ZRNnNFaE9wZWd2Ni12enVQRHV2bDVOQzRLUDhFQzNDNkN5a1VfVHplcWMtLU1OZDF3Ym1IVEo0akNmczFBRk43c2Vvb3JNNG9hMk1NOHE5aExtR3A1Wl9JQ01GaDVMX01OV2JZaDFOWTlnQ3p30gHgAUFVX3lxTFBVTXZGOGZKRnhkRzJ2WnNXdWh1azdMSW5qb3llQnlLWWhkNkNPUUFGX3hTQS1iOWNNREE1emlPcTEyS0FYelk1SWljdHljVnVGdEJEN2FTelhyUHlFRDZvVnBfYmJmbmY3UTJKc3lCbkFvd3lOTmhZOEEyZmxQM2tfbVVRdXB0WFctVnNXZWpCU1pCS0pGamp0cGUtSVpZVm5OUWJlUjJlSWJSc1RiOV85VjNvdnhYeVF6WFlIaHBqUnRXblJhRk8xUEtNR25fVTRtZ0RUYmhQZkZXWUZ3QTA3?oc=5",
+   "summary": "Detenidos cuatro yihadistas por adoctrinar a menores con inteligencia artificial    Libertad Digital",
+   "source": "Policía Nacional / Guardia Civil Málaga",
+   "time": "2026-11-20T13:38:36Z"
+  },
+  {
    "title": "La Comisión de Trabajo de Mantenimiento de Instalaciones Hidráulicas de ASA Andalucía reunió en Málaga a profesionales de más de veinte entidades gestoras del agua",
    "link": "https://marbelladirecto.com/la-comision-de-trabajo-de-mantenimiento-de-instalaciones-hidraulicas-de-asa-andalucia-reunio-en-malaga-a-profesionales-de-mas-de-veinte-entidades-gestoras-del-agua/",
    "summary": "La Comisión Técnica de Mantenimiento de Instalaciones Hidráulicas de ASA Andalucía celebró una nueva sesión de trabajo en las instalaciones de la ETAP de El Atabal, gestionadas por la Empresa Municipal de Aguas de Málaga (EMASA), reuniendo a responsables y profesionales de mantenimiento procedentes",
@@ -1592,11 +1991,25 @@
    "time": "2026-11-20T13:38:27Z"
   },
   {
+   "title": "La sospecha de un farmacéutico de Barcelona permite destapar un fraude de 100 recetas falsas en toda España - El Periódico",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPUGJSRTlwb2ZBR2l2aXhVMFE0c1NxWjN3WHowQ1Q3eGpiSkpFNXFxUE9pQ0Z0c3pQMFA1bmJOMXJ1V1BaOTktNWtGWU1vNDVpaF84NzlXeW93R3BtdXVsSDVFQUs5U2M1ZDRYSjhOTmFPclJ3NjJPeFZhLUl1UmMtbEZvNlRVcU54ZW9qbXlrYXktQWJDU1RXUWdDTFJwY0hPdkJfY0dzamt3VzhkZFdDMGFsY2tzdEoxaFZ5RlAwVGNteEdHRThzYzl4ZEY0cGfSAc8BQVVfeXFMT1BiUkU5cG9mQUdpdml4VTBRNHNTcVozd1h6MENUN3hqYkpKRTVxcVBPaUNGdHN6UDBQNW5iTjFydVdQWjk5LTVrRllNbzQ1aWhfODc5V3lvd0dwbXV1bEg1RUFLOVNjNWQ0WEo4Tk5hT3JSdzYyT3hWYS1JdVJjLWxGbzZUVXFOeGVvam15a2F5LUFiQ1NUV1FnQ0xScGNIT3ZCX2NHc2prd1c4ZGRXQzBhbGNrc3RKMWhWeUZQMFRjbXhHR0U4c2M5eGRGNHBn?oc=5",
+   "summary": "La sospecha de un farmacéutico de Barcelona permite destapar un fraude de 100 recetas falsas en toda España    El Periódico",
+   "source": "Policía Nacional / Guardia Civil Málaga",
+   "time": "2026-11-20T13:37:35Z"
+  },
+  {
    "title": "Hiszpania: 120-metrowy baner nową fasadą stadionu Levante - Stadiony.net",
    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZVoyazdlX0s4WTZCcVhjclNkZUt5OGJXVXhseWFhV2xoYl90Qm1GbE5VRnQ3c0FyOThDanNuMEZoaUZrNktVOUcyMHI5amxhX3JvUVhhWExYN1paRTRITS1HOUwtS29FX3FWdTJ4dTFnMjFyelhjWVBsMy1mSlZISWtuTlFwb2prMENRV3Jva0Nzb255UW5kNGdZc2k?oc=5",
    "summary": "Hiszpania: 120-metrowy baner nową fasadą stadionu Levante    Stadiony.net",
    "source": "Polskie media – Hiszpania",
    "time": "2026-11-20T13:36:00Z"
+  },
+  {
+   "title": "Vox Málaga llama a votar «en defensa propia» para recuperar la seguridad - Diario Sur",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbWo0SzFTWl9aemFuT0NVdzFxeXpDUkxQT19HdWFNRWkwbEM0ZkMxdk55U1dfX0RBNHNEcEtBemRLdlctb3FIUlFxS21jQlZUZmdhQTI2dk9yQjlZS0dmZHhvb3FQaUFqTGR1S3RiQTRsdTF5RXduMDY1aExZSWVrT3ZEZE9INWxQQnQtWDRkSDJOSUUxbXFJLXN3eEJlTEJ5eVBCTGhFdE5GUnhpMUcwMjJhYWRkX1nSAbwBQVVfeXFMUFc5MDM5eVVZa0NwNzl6VEdqUDdkcFVENGdJYUJZelpNVDF1RmZFaUVQdzVlbjJ6ak1vdWVJa3VIaEZwaW4tamYzR2ItMTZlSW9QbVlZMVFnVDZKVWtPUjBxQ0o2NnhocTFIeG1vVHM3ZUQta3N4amgtMmsxOUpfVTM2eTFvWnM2ZnRUNVB0N0FSQjlmOUJ2ZC03RDhhOUJfVU0zQ214UkpvS1ZDZ2JsZXYtSVE5YndqbVMwdzY?oc=5",
+   "summary": "Vox Málaga llama a votar «en defensa propia» para recuperar la seguridad    Diario Sur",
+   "source": "Policía Nacional / Guardia Civil Málaga",
+   "time": "2026-11-20T13:35:05Z"
   },
   {
    "title": "Marbella destinará más de 40 millones de euros en seguridad y emergencias en 2027",
@@ -1620,6 +2033,13 @@
    "time": "2026-11-20T13:32:51Z"
   },
   {
+   "title": "Detenido en Fuengirola por difundir propaganda yihadista y usar la IA para adoctrinar - Málaga Hoy",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbXZlMW1ZN2lqYlNGSGVkRkxJUERvdUxsakpkeF9fQmhEdGFEQW10LTM0WTduTHBNdVozUkdhLU9VcXFEQjFiWlByaEJEZFhmeEdsZ3piVXFMMmZxSF9vQTdmT21mbjd5bHZBekFUUHdudEVmMUtnWVZUdEtFYVlIN2VHc3ExZWlGVzY0NWRhaXBrUVZnVXZPLWhFREZndzI3a0R3btIBqgFBVV95cUxNbWw4dkJscVo0Q0p1Ukk2TVUyM1JqdHAwXy1ZNG15N2xjclJkNXA5QUVYY1EwbEtvQ2dVdkpFWU4tLURRVmNrMXdKc1NoSHdGQWFNdDQwb1ltZGVGYndfR0FDNWUxNUtQd2pBRl9vU0JsQ2g2OTAzUENGZjk1dTlJRERMN0JYZDhmam9DSFJnUTFBWlhWX21TUVNDaXZGV3EyMHpKcUJabnFCdw?oc=5",
+   "summary": "Detenido en Fuengirola por difundir propaganda yihadista y usar la IA para adoctrinar    Málaga Hoy",
+   "source": "Policía Nacional / Guardia Civil Málaga",
+   "time": "2026-11-20T13:31:44Z"
+  },
+  {
    "title": "Darko Brasanac, en el banquillo de La Rosaleda",
    "link": "https://www.malagahoy.es/malaga_cf/brasanac-enemigo-malaga-cf_0_2008549905.html",
    "summary": "El serbio, ahora en el cuerpo técnico de Arrasate en Osasuna, conoce mejor que nadie al grueso de la plantilla y al técnico\nLa entrevista completa con Adrián Niño",
@@ -1634,6 +2054,13 @@
    "time": "2026-11-20T13:30:23Z"
   },
   {
+   "title": "12:50H | 20 NOVIEMBRE 2026 | HERRERA EN COPE EN MÁLAGA - COPE",
+   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPdFZJUEhCbkNNd01NZ1hSUV9NYVJkZkhrVFpHS2FEb0hBaG9sSzd5Ty1CM2w2S1lZMThlU3lSczFwX2thMW9YTGZNRm50MDdJMXVESGhtOUZQNnlMWU1uNFBhZUsyVDM3aWxGQ05tOWxIRi0xT095aUJsUmFmMUx6UHJIZ0pfRXZxNXdOSGJIdFhWWGVlb0ktRGZ0cHF4UkVXa25OSTFaWk9KdGtvVTd3M2NlbkMxYXNqTWljZVRORGhUZ1lLVkdLM0pjMG9WS0xGc1djdFhXak53bVF4c0lwdNIB5gFBVV95cUxQMjlLS1ltS3Fkal83bDI5ZV9HOElQWEIxRmJSV2pHZ2syOTBfdGZWV0lUUkVrWkRyNmQyQXBvOENlaFBhOG10WUVCZFZpanNUTDRQM1JDYjZIOGpMN0dWQ0g4OFpKY3FrZl9PWE5fUnF2ZWs5WDJKZmNadXpYY1hGOE4yNXFlT1k2NFBJc3hjM1RDb0tfenVYT0dwX3hPTi1qRGRaZ1A4b0ppS0d0TElQbGdQVDJGUEFQZHdlZXByQ0I4NUNMWUFibWZKVlQxQTdzS05fYWRYVm9ESGJYS0VvM0FjY1lwUQ?oc=5",
+   "summary": "12:50H | 20 NOVIEMBRE 2026 | HERRERA EN COPE EN MÁLAGA    COPE",
+   "source": "Policía Nacional / Guardia Civil Málaga",
+   "time": "2026-11-20T13:29:18Z"
+  },
+  {
    "title": "Francja - Hiszpania - statystyki meczu 28.03.2027 - Meczyki.pl",
    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5OSEpxOWRlc2hkV0NDM0NnZF95RndDS1JBNXFhODJCMUpmekpFSE1VT3QwNkh4SXRuYVZMOWZySV9MZ2M4THBQV3N3NGs2c1dfWHNaRU5uZU16MmRuVHRFY2I3Q3NTWWk1a2NsQXQ4VkFzUmpRQ09tdjdBVmM5Mjg?oc=5",
    "summary": "Francja - Hiszpania - statystyki meczu 28.03.2027    Meczyki.pl",
@@ -1641,11 +2068,18 @@
    "time": "2026-11-20T13:28:41Z"
   },
   {
-   "title": "El rey Felipe preside la conmemoración del 50 aniversario del Círculo de Empresarios Vascos.",
-   "link": "https://www.malagahoy.es/espana/rey-destaca-coraje-anadido-empresariado_0_2008550282.html",
-   "summary": "Felipe VI Felipe VI preside el 50º aniversario del Círculo de Empresarios Vascos y entrega un premio a José Domingo de Ampuero y Osma, presidente  no ejecutivo de Vicofan",
-   "source": "Málaga Hoy",
-   "time": "2026-11-20T13:23:21Z"
+   "title": "Un juzgado investiga a tres hombres tras la denuncia por una agresión sexual grupal a una joven en Málaga - Demócrata",
+   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxObHlGT2xSYW9GRlJhZkxtZlRFbFdnak9zTFVRblA0and2Z0VnZG0tN0JsOUVMcW9XSjAtdUxwM2xBb0pTZS1yNXRLZDVwQ2JhNEo4SW4zanFITkg3eHZPSml5UmZGaWE5TGNVb3Q4R0NxZjZ0WGJjZWVYekNXdVBJSGp4SzliVkRHclFwQS16V01KdW54b2xtLWpPSTVEWjB4UEx4OWQ2MFd3SFpFb3EzOXVjMzdzZnhZZURkSVB4eUR5MEZMdm1WMGFQeXFwWUtRWW5Ydng0Ym5KU0lkYWJn0gHfAUFVX3lxTE5seUZPbFJhb0ZGUmFmTG1mVEVsV2dqT3NMVVFuUDRqd3ZnRWdkbS03Qmw5RUxxb1dKMC11THAzbEFvSlNlLXI1dEtkNXBDYmE0SjhJbjNqcUhOSDd4dk9KaXlSZkZpYTlMY1VvdDhHQ3FmNnRYYmNlZVh6Q1d1UElIanhLOWJWREdyUXBBLXpXTUp1bnhvbG0tak9JNURaMHhQTHg5ZDYwV3dIWkVvcTM5dWMzN3NmeFllRGRJUHh5RHkwRkx2bVYwYVB5cXBZS1FZblh2eDRibkpTSWRhYmc?oc=5",
+   "summary": "Un juzgado investiga a tres hombres tras la denuncia por una agresión sexual grupal a una joven en Málaga    Demócrata",
+   "source": "Policía Nacional / Guardia Civil Málaga",
+   "time": "2026-11-20T13:25:09Z"
+  },
+  {
+   "title": "Amnistía Internacional denuncia 61 casos de uso excesivo de fuerza por parte de policías durante las manifestaciones del 11-N: “¡Cuidado, van a cargar!” - Infobae",
+   "link": "https://news.google.com/rss/articles/CBMiswJBVV95cUxOanBnM3FxdEtvc0poRWtqakZkT2pYSmlkRl9ac0RrOGwwYWJuZ0EyWnhKZzBWLUZJX3E3aHNqams3VzBUN2cwM1ZwS2FOek4zbFoxdm81UWNBUlFUX0FRalUwTEdORmFHbVAxejhTQV8zbWpvSnVNUEVWaURmY3g0TGpFX1NGMklHTEhIMU9Sdm03YzRaZWdUSkI5R3RpTS1ZYlZ3RjduakRUTlFvY3pYUnMzSzExTC13V2ZJdUxDY2RNeVRBaDlLWEttekRsajBUbDdTb3o0UGJ3UjFrWmpqUjRkWk9oZHZoVThUMTk2UjZYTWQzZEF2ZW8xMmRCV2h3LTRRYjJBdEZIR0VXV1FkNjVkQXk2MUxqakdGdEFrOHl6X2Y1N0ZBSVJVYV9DSHlXNVhV0gGzAkFVX3lxTE5qcGczcXF0S29zSmhFa2pqRmRPalhKaWRGX1pzRGs4bDBhYm5nQTJaeEpnMFYtRklfcTdoc2pqazdXMFQ3ZzAzVnBLYU56TjNsWjF2bzVRY0FSUVRfQVFqVTBMR05GYUdtUDF6OFNBXzNtam9KdU1QRVZpRGZjeDRMakVfU0YySUdMSEgxT1J2bTdjNFplZ1RKQjlHdGlNLVliVndGN25qRFROUW9jelhSczNLMTFMLXdXZkl1TENjZE15VEFoOUtYS216RGxqMFRsN1NvejRQYndSMWtaampSNGRaT2hkdmhVOFQxOTZSNlhNZDNkQXZlbzEyZEJXaHctNFFiMkF0RkhHRVdXUWQ2NWRBeTYxTGpqR0Z0QWs4eXpfZjU3RkFJUlVhX0NIeVc1WFU?oc=5",
+   "summary": "Amnistía Internacional denuncia 61 casos de uso excesivo de fuerza por parte de policías durante las manifestaciones del 11-N: “¡Cuidado, van a cargar!”    Infobae",
+   "source": "Policía Nacional / Guardia Civil Málaga",
+   "time": "2026-11-20T13:18:00Z"
   },
   {
    "title": "Model AI Claude wykrył dwa kandydaty na egzoplanety dla specjalisty w Hiszpanii — Nature - UA.NEWS",
@@ -1683,32 +2117,11 @@
    "time": "2026-11-20T12:59:45Z"
   },
   {
-   "title": "Mniej przedmiotów, więcej spokoju. Anna Lewandowska pokazuje dom w Hiszpanii - Budujemy Dom",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTFZZVFI0UXZaTEhLVldTREFnUFJ3YTZndU1nSngtOFJTUV9qVHBjMVdlR2t4Yng1OGNma2xtSTdOc0ZvcUtEMlNTOEo3UkYzcnJiSm9WTGJzM2JUaXoyaHdsSmhOby03a19yQkhXM1BFcFdlenZmS2FFZWhjMlNQT3pwV0FJdF9pX0ZEYm1SdGsyLXBscl9WajVSNFRRQQ?oc=5",
-   "summary": "Mniej przedmiotów, więcej spokoju. Anna Lewandowska pokazuje dom w Hiszpanii    Budujemy Dom",
-   "source": "Polskie media – Hiszpania",
-   "time": "2026-11-20T12:58:32Z"
-  },
-  {
-   "title": "Francja - Hiszpania - wynik meczu na żywo, przebieg live 28.03.2027. Rezultat końcowy - Meczyki.pl",
-   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9DR241WERDZEVqbF81dkZveWJLMW8tWGQ0TFNITWlvVTJqUWl0a0hfZHRQMmI3U1Zld2taVjRISVBqc29sU3QtTG43WkN1U2xZei16SWlDaUZzeWxYdUhFREpMMG1qN3RYMWtkUUdTMkE?oc=5",
-   "summary": "Francja - Hiszpania - wynik meczu na żywo, przebieg live 28.03.2027. Rezultat końcowy    Meczyki.pl",
-   "source": "Polskie media – Hiszpania",
-   "time": "2026-11-20T12:58:02Z"
-  },
-  {
    "title": "Dos personas observan los destrozos causados por los ataques rusos en Kiev.",
    "link": "https://www.malagahoy.es/mundo/zelenski-denuncia-misiles-racimo-nuevo_0_2008549988.html",
    "summary": "Al menos ocho personas han muerto en la respuesta del Kremlin a las acciones del Ejército ucraniano contra el puente de Crimea\nKallas califica de \"absurdas\" las exigencias rusas y vuelve a exigir un alto el fuego en Ucrania",
    "source": "Málaga Hoy",
    "time": "2026-11-20T12:57:23Z"
-  },
-  {
-   "title": "Dos de los investigados por agresión sexual grupal en Málaga hicieron tocamientos a la joven y el conductor la violó - El Español",
-   "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPVE5qcXBCblJLUXY0U2pLZUZtSlVkRDU3NHJwcXY1MUJrSmc1WnVtQWI2U1RmY3NGaHJQN01iRlpfTHdUOEtJaFlXemFzQmgxenM1YkYtWFg1WmRNT0JNd0NkYlBzeHdRV3I1OS1rUTRGckJRa1ZUd3MxMTAwR01uWkVjVnV2SjBHTzZhaVhTdDloOWswX0ZGaTFIMXBGLUtzcmc3ODNfSGZzckp4NVNDa1ZrYjBOOVdrSEJtdVVZVXRGUk9JSWZvVnAzZmE3clpXbjEzQW5LRkxjMncwa2x2Zi1xMGdLemFpaU1ramdyZnB0bkRDYTRTb3dn0gH6AUFVX3lxTE9UTmpxcEJuUktRdjRTaktlRm1KVWRENTc0cnBxdjUxQmtKZzVadW1BYjZTVGZjc0ZoclA3TWJGWl9Md1Q4S0loWVd6YXNCaDF6czViRi1YWDVaZE1PQk13Q2RiUHN4d1FXcjU5LWtRNEZyQlFrVlR3czExMDBHTW5aRWNWdXZKMEdPNmFpWFN0OWg5azBfRkZpMUgxcEYtS3NyZzc4M19IZnNySng1U0NrVmtiME45V2tIQm11VVlVdEZST0lJZm9WcDNmYTdyWlduMTNBbktGTGMydzBrbHZmLXEwZ0t6YWlpTWtqZ3JmcHRuRENhNFNvd2c?oc=5",
-   "summary": "Dos de los investigados por agresión sexual grupal en Málaga hicieron tocamientos a la joven y el conductor la violó    El Español",
-   "source": "Policía Nacional / Guardia Civil Málaga",
-   "time": "2026-11-20T12:54:35Z"
   },
   {
    "title": "WATCH: ‘Jihadists’ arrested on Costa del Sol and across Spain after FBI tip",
@@ -1753,13 +2166,6 @@
    "time": "2026-11-20T12:35:00Z"
   },
   {
-   "title": "Los trenes que chocaron en el accidente de Urda (Toledo)",
-   "link": "https://www.malagahoy.es/malaga/vuelta-tren-malaga-madrid-adif_0_2008548856.html",
-   "summary": "Las compañías cerraron la venta hasta el 13 de diciembre, a la espera de conocer cuándo podrá restablecerse la línea\nLa Abogacía pide más información a la Junta para personarse en la causa de Adamuz",
-   "source": "Málaga Hoy",
-   "time": "2026-11-20T12:33:33Z"
-  },
-  {
    "title": "Investigado por violación el conductor del coche donde se produjo la supuesta agresión sexual grupal a una joven",
    "link": "https://www.diariosur.es/sucesos/investigado-violacion-conductor-coche-produjo-supuesta-agresion-20261120133012-nt.html",
    "summary": "",
@@ -1781,34 +2187,6 @@
    "time": "2026-11-20T12:25:00Z"
   },
   {
-   "title": "Liga Narodów UEFA: wielkie hity w ćwierćfinałach. Francja - Hiszpania, Portugalia - Holandia - Stolica Sportu",
-   "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQYW9IaFlrZzZ2blcyYUhHUXRjOG9tWUc4eEpRZjdJY3NDUW03dDJiQ1pNalo4c2ZleTFvNm01NW1MN0FxZloyVWVHZzdXSFc3djVNZTJseHh2SUxWWWpjZFY4U0dBbC0xbXJoa3lMWlI0ZlBuLVZTdEFSb25qbkt6b2hGclJfU0tqdnpDcVh5RXZLM1hETkhJNk5HdU9Ua2RZMW1HNWpiNXVac0lPVEY2NjlnbFVMX3M0WjZSRFpTa003RHdlU2FOM0JfckQ2TWtVTGJiNkc4bnNSY2J4ZlFpbjNkZ2E0ZnF2Smp6bA?oc=5",
-   "summary": "Liga Narodów UEFA: wielkie hity w ćwierćfinałach. Francja - Hiszpania, Portugalia - Holandia    Stolica Sportu",
-   "source": "Polskie media – Hiszpania",
-   "time": "2026-11-20T12:24:00Z"
-  },
-  {
-   "title": "Poznaliśmy ćwierćfinały Ligi Narodów! - FCBarca.com",
-   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9xOVBrTjFtLS13RkFENU1GeTVjNlNWRHl1ZEJhZ1RIQjRRVVhJSHQ0SnZpOC1LN3hMSDNfZnBLR05mRC1SZ3JsaXlUMmdxdmNScW83eVRBTnN4bl9jVzczZ0s0ZF9URUFBbkgyd0dHNDByN3RQelhGRHA1Tkg?oc=5",
-   "summary": "Poznaliśmy ćwierćfinały Ligi Narodów!    FCBarca.com",
-   "source": "Polskie media – Hiszpania",
-   "time": "2026-11-20T12:20:32Z"
-  },
-  {
-   "title": "Ależ losowanie Ligi Narodów. Problem Hiszpanii, są potencjalni rywale Polski - Przegląd Sportowy",
-   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPWGhtVEtXQnBjcVpSRXozWlBTNHZXWTVqQmExUENER1Y0M0pBeUpXenQ1cDdHTVNpbnNSR1NxcE44OVFPcnFvSUZuclAxZ0dqYUVSTlNfUGFDaWRwMGpaRmRYTzdzSFQ2MVhDMjlpdjVZU1QtSlpCYTg4TjFwYUkzVTQ4OU4zd3luSy1MNGJzcWJFRWIxRUtRazh0Z29kVHVRU0FIMS1GUTNhQ0UzQ3ViY1Q2bHJDMGxHWHA1ODlqUEN2Q1Z0TU1weFd1NGNRWG1yTG5CY0FNM3JrNEF4RkFabTVB?oc=5",
-   "summary": "Ależ losowanie Ligi Narodów. Problem Hiszpanii, są potencjalni rywale Polski    Przegląd Sportowy",
-   "source": "Polskie media – Hiszpania",
-   "time": "2026-11-20T12:19:11Z"
-  },
-  {
-   "title": "Ależ losowanie Ligi Narodów. Problem Hiszpanii, są potencjalni rywale Polski - Przegląd Sportowy",
-   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPWGhtVEtXQnBjcVpSRXozWlBTNHZXWTVqQmExUENER1Y0M0pBeUpXenQ1cDdHTVNpbnNSR1NxcE44OVFPcnFvSUZuclAxZ0dqYUVSTlNfUGFDaWRwMGpaRmRYTzdzSFQ2MVhDMjlpdjVZU1QtSlpCYTg4TjFwYUkzVTQ4OU4zd3luSy1MNGJzcWJFRWIxRUtRazh0Z29kVHVRU0FIMS1GUTNhQ0UzQ3ViY1Q2bHJDMGxHWHA1ODlqUEN2Q1Z0TU1weFd1NGNRWG1yTG5CY0FNM3JrNEF4RkFabTVB?oc=5",
-   "summary": "Ależ losowanie Ligi Narodów. Problem Hiszpanii, są potencjalni rywale Polski    Przegląd Sportowy",
-   "source": "Polskie media – Polacy w Hiszpanii",
-   "time": "2026-11-20T12:19:11Z"
-  },
-  {
    "title": "Los 10 mejores cafés en grano de 2026: análisis comparativo y preguntas frecuentes",
    "link": "https://www.diariodesevilla.es/de_compras/cafes-grano_0_2008549134.html",
    "summary": "Descubre en esta guía los mejores cafés en grano de 2026 y sus características: variedades, tuestes, orígenes y perfiles aromáticos para conocer las diferencias entre cada tipo de café\nComparativa de las 10 mejores cafeteras automáticas y semiautomát",
@@ -1816,25 +2194,11 @@
    "time": "2026-11-20T12:18:54Z"
   },
   {
-   "title": "Moreno defiende que Ayuso \"ya aclaró\" que sus críticas iban sobre \"la etapa socialista en el Gobierno\" andaluz",
-   "link": "https://www.europapress.es/andalucia/noticia-moreno-defiende-ayuso-ya-aclaro-criticas-iban-etapa-socialista-gobierno-andaluz-20261120131851.html",
-   "summary": "El presidente de la Junta de Andalucía y del PP-A, Juanma Moreno, ha defendido este viernes que su homóloga en la Comunidad de Madrid, Isabel Díaz Ayuso, \"ya aclaró\" que las declaraciones que realizó el pasado domingo durante un mitin en Móstoles, sobre Andalucía cuando el PSOE-A gobernaba la Jun",
-   "source": "Europa Press Andalucía",
-   "time": "2026-11-20T12:18:51Z"
-  },
-  {
    "title": "WATCH: Cadiz fishing trawler returns to port with huge ‘narcolancha’ drug boat",
    "link": "https://www.thespanisheye.com/2026/11/20/watch-cadiz-fishing-trawler-returns-to-port-with-huge-narcolancha-drug-boat/",
    "summary": "'It went out fishing and came back with a narco boat'",
    "source": "The Spanish Eye",
    "time": "2026-11-20T12:18:42Z"
-  },
-  {
-   "title": "\"Wylosowało się\" za wcześnie. Skandal przed wyciągnięciem kulek - Eurosport Polska",
-   "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPR0JGVjlXS21NZDVZS29XRG5IZm9qTGMwQ0J4NVROTHZyR0pESlpXU0c5dktxRmtQR0pUYklFcjdXdFpKUjZ2b3lvdWFrMXZ3WEdJMXZzSERjVjNPeGlRd1o2amxYZnhTbE52Z3BwSUNOWWQyQWl2Um1ycWk2S0RiOFQ4ejNWd3BhbHdnM2E1c1VmWVR2eS13RTVSNjhQdWY3bklLbkxRSVhwU0tuLUhmel9hZ09LcGZGTlhNal9Nc0MtUnkyZDJZeURINHpQd0dQX0Z0MFVhSjZFQ09sOXd1NnFSU1ZhdzBoTXltbmJ3a2Vjb2pzYlhZaGxGSnlDNDJLRmpqWlFfaFVhQnRzVXlOeHlZREpQbWVwOXdGZg?oc=5",
-   "summary": "\"Wylosowało się\" za wcześnie. Skandal przed wyciągnięciem kulek    Eurosport Polska",
-   "source": "Polskie media – Hiszpania",
-   "time": "2026-11-20T12:16:00Z"
   },
   {
    "title": "Spain’s rental market hits crisis point as a dozen cities list just 30 or fewer available homes",
@@ -1858,32 +2222,11 @@
    "time": "2026-11-20T12:12:48Z"
   },
   {
-   "title": "Już po losowaniu. Będą hity w Lidze Narodów - SportoweFakty",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxONGN6aU95VVBrUUdzYzlmUXllbTJwb3EtODdNREhSdXpPR1pnWnRNM1JhbGRpdmRfUmpyWWpZNEpFR1QzR0tUME5ZOGRUcnJCbncyUXNvMm8tWnRMZC1jUXBhdTJGZmx0QTNpYVJCcVQteDZyUzQ4bTdVRDB3d2ZJNVlOZ0k3RTVJWmNldzlJNDlSMWc?oc=5",
-   "summary": "Już po losowaniu. Będą hity w Lidze Narodów    SportoweFakty",
-   "source": "Polskie media – Hiszpania",
-   "time": "2026-11-20T12:09:12Z"
-  },
-  {
    "title": "El Consejo Municipal de Infancia y Adolescencia de Marbella celebra una nueva sesión",
    "link": "https://marbelladirecto.com/el-consejo-municipal-de-infancia-y-adolescencia-de-marbella-celebra-una-nueva-sesion/",
    "summary": "La iniciativa ha tenido lugar con el fin de abordar cuestiones de interés para este sector de la población como la instalación de buzones escolares y un plan de trabajo del curso El Consejo Municipal de Infancia y Adolescencia ha celebrado una nueva sesión plenaria en el Centro Cultural Trapiche Gu",
    "source": "Marbella Directo",
    "time": "2026-11-20T12:08:56Z"
-  },
-  {
-   "title": "La Guardia Civil captura a un hombre en un control en la A-357 tras encontrar 425 gramos de cocaína en su coche - El Economista",
-   "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPekhXQVZLQWpqZm1QTlpWRmp0S1Z4OFMwWV94QWNhMzVYLXpodEhkb3JsYzhMY2N2TzRhMmRYV1ZMUlpOQnlfRURYU2N0OGo4V25hMEthM0EweDhrbWRBMEdOc2tiOGNyNkkya25lcUtoMWZWRzc2Z2JHTzgxbHlRNFF3TF9CTE14TEF5LWs4N1A4aHhTeGJUdnBQZkJsQTkzZ1gzY2lSQlZWSTdmOGFEcFVERS1ELVh5SlVScEZFT2FydXlLNnRLTENHdENFUjBnWk94WUk2M09kWFdJXzlJUnpPa3k4YXJpNXNVRHlpamV0cG8ydzVNNkVGRHFDMjE5YnFCb1FsQ3BYRDl00gH3AUFVX3lxTE5WaDRiaGRXZThNTktaZThmc0EyQ0JDWFRmRXBRdFdWV1JQODZoSHpyU0FiUDh4Ym8zLVFXN1VBOFV4ZXlWVi1ZOE5iVWxZcUpzM2pvV3ZHb25fWVVEaHJXUkFDTXN3SDZ6bDFBb2FyMFNXTXJBMTFHcG4zTzY0M2pzQm5fSzBQUlRoUDI4MUpLRkxjWF8ybENZbFZVajFUTElIbk03ZE1LWHlUN1pfYlo5cEhBTW03Y2FWZHloY0xSZnFSRFEtR3lOUFlJZlJXZ0daRDJsQzFsM1dhZGExSGRFVXVQZXVnMU5BMXN5NGRwblJqWElneDg?oc=5",
-   "summary": "La Guardia Civil captura a un hombre en un control en la A-357 tras encontrar 425 gramos de cocaína en su coche    El Economista",
-   "source": "Policía Nacional / Guardia Civil Málaga",
-   "time": "2026-11-20T12:06:57Z"
-  },
-  {
-   "title": "Hiszpania – Salezjańska parafia: obecność, która ożywia - ANS - Agenzia iNfo Salesiana",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOcFJaRWRHSUlEb2szY2Q0M05xamgxMEdraGYyb19SbnN1RDljNFJhMzZDcVVvb2xLRi1BNnBFak9oWkNJSHBhaW10Rzd2SlpncUpVM1dBY0ZTY3NXd1o5aFlGY21rZ1UxaE81TmxEOE9qNTJVazhWRFczRlNHUDlJX3FFbWNQV3ZBZERYbHEybGhlZG00TU1VQXZFaFUxQjdJc0k0Nkt0bUg?oc=5",
-   "summary": "Hiszpania – Salezjańska parafia: obecność, która ożywia    ANS - Agenzia iNfo Salesiana",
-   "source": "Polskie media – Hiszpania",
-   "time": "2026-11-20T12:03:43Z"
   },
   {
    "title": "1.140 kilos de vapers en el primer año de recogida de este residuo en la Costa del Sol",
@@ -1907,53 +2250,11 @@
    "time": "2026-11-20T11:53:41Z"
   },
   {
-   "title": "A330 MRTT+ dla Polski. Agencja Uzbrojenia może rozpocząć negocjacje z Airbusem - Rynek Lotniczy",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQMmJUc1Fjb21uSEd1M2tuMFlYSFFkTG9Ed0JPcVVYTEZjSUpySUY4Zk5jTzR5ZFRGeVdzbTZMSTkyR0tnQk9yc2xsSTRiU1ZYOTJUWGJ1OVl5cFhYRlV2T0s2YnRRNEpYU3JIZ19ReHg0emVJSE52N3ZHcjhyaGRzazYyalNqUU9FYVVZdWxKc0Ftb09waUEwYnBydmhnV0RpdVN0UVpRMFB1RHFSZzZmb0l2UWVRaWZZVnZ6ZmF3U3FkcFBvd2I4?oc=5",
-   "summary": "A330 MRTT+ dla Polski. Agencja Uzbrojenia może rozpocząć negocjacje z Airbusem    Rynek Lotniczy",
-   "source": "Polskie media – Hiszpania",
-   "time": "2026-11-20T11:52:14Z"
-  },
-  {
-   "title": "Iberia incrementa su oferta en Andalucía y Barcelona durante el primer trimestre de 2027",
-   "link": "https://www.europapress.es/economia/noticia-iberia-incrementa-oferta-andalucia-barcelona-primer-trimestre-2027-20261120124322.html",
-   "summary": "El Grupo Iberia incrementará su capacidad a Málaga, Sevilla, Jerez de la Frontera y Barcelona desde Madrid durante el primer trimestre de 2027, en un contexto marcado por actual cierre de la línea de alta velocidad entre Madrid y Andalucía, tras el accidente ferroviario en Urda (Toledo) del pasad",
-   "source": "Europa Press Andalucía",
-   "time": "2026-11-20T11:43:22Z"
-  },
-  {
    "title": "Revealed: Spain’s regions with best English proficiency as Andalucia ranks among lowest",
    "link": "https://www.thespanisheye.com/2026/11/20/revealed-spains-regions-with-best-english-proficiency-as-andalucia-ranks-among-lowest/",
    "summary": "Only the Canary Islands, Castilla-La Mancha and Extremadura scored lower.",
    "source": "The Spanish Eye",
    "time": "2026-11-20T11:42:10Z"
-  },
-  {
-   "title": "La selección española en el sorteo de la Nations League",
-   "link": "https://www.malagahoy.es/deportes/espana-medira-francia-zidane-cuartos_0_2008548946.html",
-   "summary": "Los de Luis de la Fuente jugarán la ida en casa, en Mestalla\nEspaña - Inglaterra (2-3): Cayó con orgullo y terminó con su racha de imbatibilidad",
-   "source": "Málaga Hoy",
-   "time": "2026-11-20T11:35:08Z"
-  },
-  {
-   "title": "El presidente de Unicaja ve \"mucho recorrido\" al banco y afirma que el mercado \"lo está reconociendo\"",
-   "link": "https://www.europapress.es/economia/finanzas-00340/noticia-presidente-unicaja-ve-mucho-recorrido-banco-afirma-mercado-reconociendo-20261120123353.html",
-   "summary": "El presidente de Unicaja, José Sevilla, ha afirmado que el banco tiene \"mucho recorrido\" en cuestión de negocio, al tiempo que ha subrayado que el mercado \"lo está reconociendo\" al ver la cotización en Bolsa de la acción.",
-   "source": "Europa Press Andalucía",
-   "time": "2026-11-20T11:33:53Z"
-  },
-  {
-   "title": "Znamy pary ćwierćfinałowe Ligi Narodów. Hiszpania zagra z Francją - MagiaPilki.pl",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOYWc5eEQtd01zaVd6eGdrQXVLV3JhUGdGQ3Z3c3Rtb1RIRHVONXVWenhGVTVVenBVTTFiRE1QNnl4akRZMVVqeHozdjlHV21tSWJ2YzFQWFBVd050X0NUMnNGLUZQcW9EaVB1NTFvY3M0VkpaalNvd19oMldWNlpVZWF2N0piSkhPZGpzMjk0SHJzNHREdG8w?oc=5",
-   "summary": "Znamy pary ćwierćfinałowe Ligi Narodów. Hiszpania zagra z Francją    MagiaPilki.pl",
-   "source": "Polskie media – Hiszpania",
-   "time": "2026-11-20T11:32:51Z"
-  },
-  {
-   "title": "Menopauza podstawą zwolnienia lekarskiego. Hiszpania zmienia prawo - Wykop",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOemRoNmFRWVJoLVBkNlhDeGJPRWlKSjNCU21wUExVMTE1Y1ZGVElmVmZad285ZGstN1BoVlFwZ1pqakYxMVJtQW5fVlRLdEN4RUZCb3lueXdGQWkyQlNWQ1FDQXIwZTB6WFNrNVFGa3dRT293eE85SV9CYkZfVFIxY0Z5WDdEVFR3RHQ1OG1fbXVyeEd2V0ZSWW9rbw?oc=5",
-   "summary": "Menopauza podstawą zwolnienia lekarskiego. Hiszpania zmienia prawo    Wykop",
-   "source": "Polskie media – Hiszpania",
-   "time": "2026-11-20T11:26:14Z"
   },
   {
    "title": "Hope for sight loss patients as Costa Blanca scientists find existing antidepressant could fast-track new eye treatments",
@@ -2005,16 +2306,9 @@
    "time": "2026-11-20T11:12:52Z"
   },
   {
-   "title": "Ter Stegen wróci do Hiszpanii? Valencia kontaktowała się z Barceloną - Sport1.pl",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdFNla09rc3E2dzE2VGJaZTVrQjlGeDJIa0ZHdGFWWUZvTUpQdVpkNWNDdkhOZ0ozXzBIcV9wYnNRY3NNXzFIUzJFNzhodi1RWldBV3pDY0ZGN1NDM0dSS1NpdTNMbllhaVNobjZ0NUswS0dubWxPOVhHX0ZhWFk3Qnh1LXA5UEpCT0ZCRHhR?oc=5",
-   "summary": "Ter Stegen wróci do Hiszpanii? Valencia kontaktowała się z Barceloną    Sport1.pl",
-   "source": "Polskie media – Hiszpania",
-   "time": "2026-11-20T11:09:43Z"
-  },
-  {
    "title": "Gavira comparte con Moreno pedir una auditoría de la línea AVE y entiende a quien se eche \"a temblar\" por viajar en tren",
    "link": "https://www.europapress.es/andalucia/noticia-gavira-comparte-moreno-pedir-auditoria-linea-ave-entiende-quien-eche-temblar-viajar-tren-20261120120123.html",
-   "summary": "El vicepresidente segundo y consejero de Turismo, Justicia, Desregulación y Administración Local de la Junta de Andalucía, Manuel Gavira (Vox), ha dicho este viernes que \"comparte\" con el presidente del Gobierno andaluz y del PP-A, Juanma Moreno, la petición de \"una auditoría\" sobre la situación de",
+   "summary": "El vicepresidente segundo y consejero de Turismo, Justicia, Desregulación y Administración Local de la Junta de Andalucía, Manuel Gavira (Vox), ha dicho este viernes que \"comparte\" con el presidente del Gobierno andaluz y del PP-A, Juanma Moreno, la petición de \"una auditoría\" sobre la situación",
    "source": "Europa Press Andalucía",
    "time": "2026-11-20T11:01:23Z"
   },
@@ -2054,39 +2348,11 @@
    "time": "2026-11-20T10:41:26Z"
   },
   {
-   "title": "Inteligentne słupki ostrzegą kierowców przed autami we mgle. Hiszpania wyda 2,75 mln euro - brd24.pl",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOeGNxM1RMTlFkRVF5QVRmREdMVkRmY0lpcUMyUGoweVVsQkhlLWNaREs2c0puR0Y4SjJRaGpZNU1Ldkx3WXhZQWo4TXowNlZlZXJLSTd0b0N5YlN3SnFpT3Rha0tJU0tsQ2dtcmJIT2tHcHUxeC1wcFBJeTgyUTBGWnNnSFZxckxiVmxRVGhHbGpKY3RVa3JMVkRqVnItdmdqSTRBb3VVdFdfOEpGWVpPcDRwamZkTV9IWmVHTg?oc=5",
-   "summary": "Inteligentne słupki ostrzegą kierowców przed autami we mgle. Hiszpania wyda 2,75 mln euro    brd24.pl",
-   "source": "Polskie media – Hiszpania",
-   "time": "2026-11-20T10:40:36Z"
-  },
-  {
-   "title": "La Guardia Civil detiene en Fuengirola un sospechoso de radicalización yihadista - El Español",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSUdFb1hBWmR1V2x1LVZmNFhpck1pQnhkR3FESUoyRi1aeWN1alFES3JLRVNBcUJDWjhhelJCNkhlWC1YQlVBQVpHSW5pbm55Z0xpdWVkNFQ3UktMYnY1Y08xaFJ5cWFKc3ZPbUkyNFdIVG40MlEtanlEYXpibTN5LWtXUlJ2TTdnZ3ZpRmV5Y1ByZERQSElRZWFuSUtPSkZvZFRRUktfYnVmazlyVldwc0pkeTJxdjhoTW50b2hsdVBrUWFlT1oxanlMUFFwdWdG0gHQAUFVX3lxTFBJR0VvWEFaZHVXbHUtVmY0WGlyTWlCeGRHcURJSjJGLVp5Y3VqUURLcktFU0FxQkNaOGF6UkI2SGVYLVhCVUFBWkdJbmlubnlnTGl1ZWQ0VDdSS0xidjVjTzFoUnlxYUpzdk9tSTI0V0hUbjQyUS1qeURhemJtM3kta1dSUnZNN2dndmlGZXljUHJkRFBISVFlYW5JS09KRm9kVFFSS19idWZrOXJWV3BzSmR5MnF2OGhNbnRvaGx1UGtRYWVPWjFqeUxQUXB1Z0Y?oc=5",
-   "summary": "La Guardia Civil detiene en Fuengirola un sospechoso de radicalización yihadista    El Español",
-   "source": "Policía Nacional / Guardia Civil Málaga",
-   "time": "2026-11-20T10:36:25Z"
-  },
-  {
-   "title": "La Guardia Civil detiene a cuatro personas en varios puntos de España por promover contenido del Daesh y Hamás para “adoctrinar con fines terroristas” - Infobae",
-   "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOWWJ1U1RoV0VGTkV6eFJyX2RVU1ZEWVJwNXdiVzN0alFvWTFXWXVKSTFGbzJlZVNzZnVHTkM1X3NMZmdmSVpjM2wzNDdQQmN3MTVQNnY1eGlvNlBVUW1jU3JJckdrdTJIa0hrNW1TUFRLemR4YWVVekVhOFhwUUo3bjlmSmRYNExiQ0J2bVBsY1JnWWdkUm80bzFSemhHQkUyaU9tdkZOUVVGa2E0MUNkbjAtZmNHWFJCczhFRG5rNnFOYXJEUm1SOV9rdEFQRi1sYXRlM1h5d2Z3cERqVXdGend6ejNULVI0ei1NQlJ5VjFBSk9Dc056UUswYnFUNjJNQzJYM1RxdnFEYXhaZnZKM0Vxa09Hajd1RWpJ0gG2AkFVX3lxTFBXMko1b3hPT0lyQzBhWlZoZ2pPcnZWM2FjdzBGN25zN2xFTVZBUHdSbDlCS0RaYUhzNmw5MjN6Y2F1ZjFfejhTUlNYX24tbUJ4Z251OHp1NlpIOFhLZnRTX2tkTXNaZlZWRU50X2t0bEVBNVhMdXFyOHBQR0RsSHFOTUt5U21vZmhLX3R6clpBTFgwZkY2eFJLd3VrZy1KUkozMUhUUE9BRm1MRy1ZaUNvZ3lhVkRrVE5EMmMzbDVpU1RRNFViS1M2Z2x6cFpkeERLNEs3dU1FWTdjZjd2Qk9IUUF0UzR0TjlvU3o2c1lZVGlza0I5RXA2elpPWVdoczJ3ZmQ4dmZsVVA5NFhmT2tJdmhick9kQzQ1ZnJXUWZKMnN4MTNHa3NtYzJKcG5wUjNmSGdJT3c?oc=5",
-   "summary": "La Guardia Civil detiene a cuatro personas en varios puntos de España por promover contenido del Daesh y Hamás para “adoctrinar con fines terroristas”    Infobae",
-   "source": "Policía Nacional / Guardia Civil Málaga",
-   "time": "2026-11-20T10:36:00Z"
-  },
-  {
    "title": "Elsa Pataky y Eusebio Poncela en 'El Homenaje'",
    "link": "https://www.malagahoy.es/television/skyshowtime-desaparece-plataforma-catalogo-queda_0_2008548305.html",
    "summary": "La criatura surgida entre la alianza de Paramount y Comcast, con producción propia española, se despedirá a finales de 2027\nTodo sobre ‘Nails’, la nueva comedia feminista de SkyShowtime\n'Matices', así es la serie que se estrena hoy en SkyShowtime",
    "source": "Málaga Hoy",
    "time": "2026-11-20T10:34:18Z"
-  },
-  {
-   "title": "Po groźnym wypadku w Hiszpanii Kowalczyk wraca! Debiut w Rally2 na Barbórce Cieszyńskiej - rallypl.com",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQaFAyamlnaktxRUF6U1BwU2FIWXMxWWxCN0g4NWljN2VRc3VWSV9uanNya254X21VcGJKUk53VE80NnU1MEs3bG1sY0RqTWFENllxS1BnTEFKUzJhSU5NNmE3ZDl6ZzZ1XzBtS1J0UjFGUU4ydkR4azlXMEdoOXdreGk2S3I0WkxCSzFKbHhvcUpST0VfX3p3end5MjBjOWFoV3NMa0lWRk00bXZv?oc=5",
-   "summary": "Po groźnym wypadku w Hiszpanii Kowalczyk wraca! Debiut w Rally2 na Barbórce Cieszyńskiej    rallypl.com",
-   "source": "Polskie media – Hiszpania",
-   "time": "2026-11-20T10:30:39Z"
   },
   {
    "title": "WATCH: Helicopter dramatically rescues injured ‘English-speaking climber’ from Costa Blanca mountain ridge after 15-metre plunge",
@@ -2096,46 +2362,11 @@
    "time": "2026-11-20T10:29:21Z"
   },
   {
-   "title": "Detenidos por la Guardia Civil cuatro radicalizados en el yihadismo en Guipúzcoa, Barcelona, Málaga y Melilla - El Confidencial",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdVpJSzZOaXpxOTgzUk5FWmF6OFRNMERBRmdrUXd6NXl5YW5lTFphVEtlcF9aQmNXTmFIbE9wS0NhNjNISlBaT3lrZ21odHFRMjF2OTloY1dpT1YtZmhKZ1BIRkRwU0xERjJqemNpLXRqUEJfdXFaQnYwSDBsWkZ1VlBlMlFqUTlxZ0FIVl9rdlJycDlRbXRBd1J5ZUdlRnRtbkJra0F1UWlwWWVuUXc?oc=5",
-   "summary": "Detenidos por la Guardia Civil cuatro radicalizados en el yihadismo en Guipúzcoa, Barcelona, Málaga y Melilla    El Confidencial",
-   "source": "Policía Nacional / Guardia Civil Málaga",
-   "time": "2026-11-20T10:26:00Z"
-  },
-  {
-   "title": "La Guardia Civil detiene en Fuengirola a un sospechoso de radicalización yihadista - Cadena SER",
-   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPVmExS1dxR2E5Q2hMZDJCM0xHVVVtVzhxR0hFN05xT21Tc2lGZ1FrVEVEeEw5Y0poTlYtNExYM2h5Z0x2WkRwcV9uVGVGOEhaZ0FYVlhXbnJhUmlIWGFzM0ZiWkdBYndYbWdma3ktSHhtanRkeTVQRXRPS3NDblM0X2dEdUowbEpDeTBvbW1HSDBoUENGZjA0eEpxYVFKRy1UbXk3VV95cnFxX1IyYXdUX2U0ZXFQb0ZxQkcwQjJqUGNLb2JUZFVGdnJCbjJJUzFnZnk0?oc=5",
-   "summary": "La Guardia Civil detiene en Fuengirola a un sospechoso de radicalización yihadista    Cadena SER",
-   "source": "Policía Nacional / Guardia Civil Málaga",
-   "time": "2026-11-20T10:25:15Z"
-  },
-  {
-   "title": "Detenidos en Barcelona, Guipúzcoa, Málaga y Melilla cuatro yihadistas que usaban la IA para la radicalización - El Periódico",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNczVWc3BhTnFOekpwRFFXd2R4Yi1yQ3VVaW5CWUpYWjJ4OWxSeXR6bldQMTdDNzc3VTg0QU53bWtMdXRvbXdZT1NCTUdtNWJOdkVpUjVnYkcwOXVnNW04bzkxeFd1dlgtOS1haV9zYmt1bzZSWUNGVV84b25uUVFzWVlWUFhyWVI2cVdRdmlVWG11VW51TE8xNUpuMDc2WG1RZEU1YjJ3?oc=5",
-   "summary": "Detenidos en Barcelona, Guipúzcoa, Málaga y Melilla cuatro yihadistas que usaban la IA para la radicalización    El Periódico",
-   "source": "Policía Nacional / Guardia Civil Málaga",
-   "time": "2026-11-20T10:22:54Z"
-  },
-  {
-   "title": "La Policía Nacional desarticula una trama que suplantó la identidad de 40 médicos para la obtención de recetas falsificadas - Malaga Actualidad",
-   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQaVh0bUFNdERWQXhQbjF4Q2FnUGlZUG00VmREd2lXYV8wSFNOYTM0Rktydm1nMVFBaXlPcW5Ycm5FWUd5MUptSmZyd25DZGpwemdlcWN1X0VKdUlyYkt2QmM3Q21OU1NSbGdvT25kVnQyUTdMU0RUTVhOb1h0ejhkd0hGV19kNEM0OGgzZUFOdTlrOGEzOE51eTVfZDlIS0hGRVJWYnh5MFpIM1JEWDNGT055NFdxZHBOZEh0VmJiRDhWZ1Zhakt2bGFIbkVFN3JLNGJ3QUIxVW1SUFJaN2FFOQ?oc=5",
-   "summary": "La Policía Nacional desarticula una trama que suplantó la identidad de 40 médicos para la obtención de recetas falsificadas    Malaga Actualidad",
-   "source": "Policía Nacional / Guardia Civil Málaga",
-   "time": "2026-11-20T10:22:00Z"
-  },
-  {
    "title": "El ADJ San Pedro gana en casa (5-2) y sigue líder e invicto en Segunda Andaluza",
    "link": "https://marbelladirecto.com/el-adj-san-pedro-gana-en-casa-5-2-y-sigue-lider-e-invicto-en-segunda-andaluza/",
    "summary": "El fútbol sala de San Pedro Alcántara continúa en pleno rodaje con tres clubes representando a la localidad: ADJ San Pedro, San Pedro Costa y Sampedreño. El fin de semana dejó la mejor noticia en la categoría senior masculina, con el ADJ San Pedro como protagonista. \n La entrada  El ADJ San Pedro g",
    "source": "Marbella Directo",
    "time": "2026-11-20T10:13:06Z"
-  },
-  {
-   "title": "Suplantan a más de 40 médicos para conseguir recetas falsas y vender drogas en ambientes de ocio - Cadena SER",
-   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNY2R0djFTLWw0alJwQzNhRjRiSllBYWxiOWdsakxVSmxFN1pyVmlBR01nOWVEQjJDSURKXzBTMmVwckJVVXpDQUJxNGEtUU5mby1fUnVFRnJNLXUtQURpN1ctWkV3Q1RZNTZYdVVvVUN1TmVuM0hqRWF2dGhrUmhlRmFROUlPc2tvcjVXcXBpT2oyZzJCdkozSWVVajZqVS1TOHlpS044NVRWdVlzUkhPMFo0dy1SNUphZ3E1MG5zaklpckxyQXJLUTBfUnlQTXhQZ1lxWFNrbVZtbU9TcV9oR0t6cnBmdw?oc=5",
-   "summary": "Suplantan a más de 40 médicos para conseguir recetas falsas y vender drogas en ambientes de ocio    Cadena SER",
-   "source": "Policía Nacional / Guardia Civil Málaga",
-   "time": "2026-11-20T10:12:40Z"
   },
   {
    "title": "Sando construirá el nuevo cuartel de la Guardia Civil de Alhaurín de la Torre",
@@ -2145,46 +2376,11 @@
    "time": "2026-11-20T10:09:25Z"
   },
   {
-   "title": "García critica \"el uso partidista\" de las víctimas de ETA \"contra Adelante\" por PP y Vox: \"Están nerviosos\"",
-   "link": "https://www.europapress.es/andalucia/noticia-garcia-critica-uso-partidista-victimas-eta-contra-adelante-pp-vox-estan-nerviosos-20261120110545.html",
-   "summary": "El portavoz de Adelante Andalucía, José Ignacio García, ha criticado a PP y Vox por \"la manipulación partidista\", que a su juicio, están realizando ambas formaciones de las víctimas de la banda terrorista ETA como parte de \"una campaña ridícula contra el partido\".",
-   "source": "Europa Press Andalucía",
-   "time": "2026-11-20T10:05:45Z"
-  },
-  {
-   "title": "Za cenę kawalerki w Warszawie można kupić całą hiszpańską wieś. W cenie są domy i hektary ziemi - PolsatNews.pl",
-   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPbjlqUG5Nd3I0bmVncVF3TVRBd09YRmc0SWlxZXBlQ0Uzc2lWRU9qNGl5cU11Y1NXNW5HMVBPMFd6dkJrYVBmSzZGYXlpenFGUGxUakczSV9TYVNlUXlFc1JzREJ6azhCelFYcVJPMlIxMjFWTU4taGdEV2tYQmI2dlI5amtMS1hTZWZIeGRhYTRwZXcwMmdQNkV3WnZkdUZsMER3MWRRMHlkenpxU0FubmRKejFhV1B4amIxak5ud0RKYS11MkZ0ejBNenh4eEI5RGFj?oc=5",
-   "summary": "Za cenę kawalerki w Warszawie można kupić całą hiszpańską wieś. W cenie są domy i hektary ziemi    PolsatNews.pl",
-   "source": "Polskie media – Hiszpania",
-   "time": "2026-11-20T09:53:00Z"
-  },
-  {
-   "title": "Primera RFEF: un derbi malagueño con dos dinámicas distintas y un mismo objetivo",
-   "link": "https://www.diariosur.es/deportes/futbol/primera-rfef/derbi-malagueno-dos-dinamicas-distintas-objetivo-20261119105237-nt.html",
-   "summary": "",
-   "source": "Diario Sur",
-   "time": "2026-11-20T09:52:37Z"
-  },
-  {
    "title": "Torrevieja expat turns dog mess into 'works of art' to shame irresponsible owners",
    "link": "https://www.surinenglish.com/spain/torrevieja-resident-turns-20261120000500-nt.html",
    "summary": "",
    "source": "Sur in English",
    "time": "2026-11-20T09:43:15Z"
-  },
-  {
-   "title": "Sánchez i Feijóo w pierwszej bezpośredniej debacie od prawie 600 dni - Euronews",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSzRzMi1aTUZtaW1pOHlBWFU1VlY5M0dfQldHb3NISXpBLVRBWV80aC1STnZUbUk0RWZrZkRpTUdfNlhJNTRzVm80U0pYdzlpbTk2bTlLcTE3NVljNXV3MjcwUFhnY2dBQXI2VDhaNFE3eW5kT25vSVlJSkpUdG1sZTNfUHlNNlFWY3F3OFRqU1JjZUhKNkItSVR0UHpZVUp2eFFValhzem45bEJlQUc4MVBMaG1ydzlP?oc=5",
-   "summary": "Sánchez i Feijóo w pierwszej bezpośredniej debacie od prawie 600 dni    Euronews",
-   "source": "Polskie media – Hiszpania",
-   "time": "2026-11-20T09:39:26Z"
-  },
-  {
-   "title": "La zambomba de Casa Gabriela, una de las más tradicionales.",
-   "link": "https://www.diariodejerez.es/jerez/guia-zambombas-sucedaneos-jerez-2026_0_2008435861.html",
-   "summary": "Jerez celebra desde el 20 de noviembre sus clásicas fiestas navideñas con infinidad de alternativas en distintos puntos de la ciudad\nDiputación y Federación Provincial de Peñas llevan la Navidad flamenca por la provincia",
-   "source": "Málaga Hoy",
-   "time": "2026-11-20T09:36:00Z"
   },
   {
    "title": "Aeropuerto de Málaga.",
@@ -2243,20 +2439,6 @@
    "time": "2026-11-20T08:50:23Z"
   },
   {
-   "title": "Spain’s PM Pedro Sanchez in fierce TV election debate clash with main opposition leader Feijoo",
-   "link": "https://www.theolivepress.es/spain-news/2026/11/20/spains-pm-sanchez-in-tv-election-deabte-with-rival-feijoo/",
-   "summary": "The pre-election showdown came as most opinion polls showing that Feijoo's Partido Popular and the far-right Vox party would get a majority in Congress.",
-   "source": "Olive Press",
-   "time": "2026-11-20T08:25:06Z"
-  },
-  {
-   "title": "WATCH: Woman, 73, dramatically rescued from ravine after five days missing near Cordoba",
-   "link": "https://www.theolivepress.es/spain-news/2026/11/20/missing-woman-73-dramatically-rescued-from-cordoba-ravine/",
-   "summary": "Maria Antonia C.Q. was rushed to hospital suffering from hypothermia after she spent several days exposed to the elements, police said.",
-   "source": "Olive Press",
-   "time": "2026-11-20T07:58:18Z"
-  },
-  {
    "title": "Sanchéz y Feijóo con María Casado",
    "link": "https://www.malagahoy.es/television/antena-3-cadena-favorita-seguir_0_2008547002.html",
    "summary": "Con 10,2 millones de espectadores ante la pantalla,  el público generalista se decantó por la cadena más vista a la hora del informativo nocturno y precisamente la que que menos horas de infoshow tiene en su parrilla\nSalió un miura y Sánchez no se in",
@@ -2276,13 +2458,6 @@
    "summary": "Odstawiony w kadrze, błyszczy w Hiszpanii. Polak znów trafił do siatki!    Sporten.com",
    "source": "Polskie media – Polacy w Hiszpanii",
    "time": "2026-11-20T07:39:08Z"
-  },
-  {
-   "title": "Adrián Niño: \"Confío mucho en los planes de Dios\"",
-   "link": "https://www.malagahoy.es/malaga_cf/video-adrian-nino-confio-planes-dios_8_2008544673.html",
-   "summary": "El delantero del Málaga CF analiza su salto de Segunda a Primera División\nLa entrevista completa con Adrián Niño",
-   "source": "Málaga Hoy",
-   "time": "2026-11-20T07:29:59Z"
   },
   {
    "title": "Malaga University lecturer Vicente Luis Mora wins National Book Award, joining a list of literary legends such as Faulkner and Roth",
@@ -2418,32 +2593,11 @@
    "time": "2026-11-19T22:32:51Z"
   },
   {
-   "title": "WATCH: Sanchez and Feijoo face off over rail crashes, housing and pensions in election debate",
-   "link": "https://www.thespanisheye.com/2026/11/19/watch-sanchez-and-feijoo-face-off-over-rail-crashes-housing-and-pensions-in-election-debate/",
-   "summary": "The prime minister and his conservative challenger clashed on Thursday night over housing, the cost of living and the state of public services",
-   "source": "The Spanish Eye",
-   "time": "2026-11-19T22:16:47Z"
-  },
-  {
    "title": "Marbella bate récord histórico de autónomos, que suponen uno de cada cinco empleos",
    "link": "https://www.diariosur.es/marbella/marbella-bate-record-historico-autonomos-suponen-cinco-20261119225731-nt.html",
    "summary": "La ciudad rebasa los 16.000 trabajadores por cuenta propia tras haber crecido más de 11 por ciento en los últimos tres años",
    "source": "Diario Sur – Marbella",
    "time": "2026-11-19T21:57:31Z"
-  },
-  {
-   "title": "Man, 76, killed by food delivery lorry on Malaga hospital grounds",
-   "link": "https://www.thespanisheye.com/2026/11/19/man-76-killed-by-food-delivery-lorry-on-malaga-hospital-grounds/",
-   "summary": "The collision happened at around 11.25am on Thursday",
-   "source": "The Spanish Eye",
-   "time": "2026-11-19T21:53:03Z"
-  },
-  {
-   "title": "Euthanasia cases surge 36% in Spain – but almost a third die while applying and waiting",
-   "link": "https://www.thespanisheye.com/2026/11/19/euthanasia-cases-surge-36-in-spain-but-almost-a-third-die-while-applying-and-waiting/",
-   "summary": "A total of 574 people received assisted dying in Spain in 2025, new figures from the Ministry of Health have shown. The figure is up from 423 recorded the previous year, representing a 36% year-on-year increase. Health authorities closed 1,219 cases during the year, including 167 that began before",
-   "source": "The Spanish Eye",
-   "time": "2026-11-19T21:48:44Z"
   },
   {
    "title": "Las tartas de queso más famosas en Japón se extienden por Málaga",
@@ -2495,13 +2649,6 @@
    "time": "2026-11-19T18:58:14Z"
   },
   {
-   "title": "Moroccan political activist is rushed to hospital after being stabbed ‘several times’ in Fuengirola",
-   "link": "https://www.theolivepress.es/spain-news/2026/11/19/reda-benzaza-morocco-activist-fuengirola/",
-   "summary": "Reda Benzaza, a former spokesman for the Moroccan Rif movement, was rushed to hospital in a critical condition after the horror attack.",
-   "source": "Olive Press",
-   "time": "2026-11-19T18:55:16Z"
-  },
-  {
    "title": "Ponad 20 stopni, palmy i święta jak z bajki. Jedna tradycja może zaskoczyć Polaków - Gazeta",
    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNV1hJNDdBZjhhXzhBdE9JYl9nMDFXZTBPTkJZczNIVWVuRkxjaXFVRFdXWkowM1BnUEZRVV9rcjBfYVZYaFBacWJMaEFZbnlMUUdIeGZiUEk4VUl2SlpBTUVYUWllOXlDYlZFTklPa3p0Z0M2RTZTek16LUJRc2Y5QnRidHZIUjZPZXZaX2l3eGttWWRYTnFpaEJ4dmxoQUZ4UWFzVWtTZGk2Tnd0d2llOTNR?oc=5",
    "summary": "Ponad 20 stopni, palmy i święta jak z bajki. Jedna tradycja może zaskoczyć Polaków    Gazeta",
@@ -2516,25 +2663,11 @@
    "time": "2026-11-19T18:43:47Z"
   },
   {
-   "title": "Isabel Sartorius lleva muchos años alejada de la vida pública.",
-   "link": "https://www.malagahoy.es/gente/familia-isabel-sartorius-cierra-filas_0_2008544509.html",
-   "summary": "La aristócrata vive en una residencia y padece una enfermedad neurocognitiva, aunque no le falta el cariño de los suyos\nEl delicado estado de salud de Isabel Sartorius, arropada y protegida por su familia\n\"He intentado dar a mi hija el orden que a mí",
-   "source": "Málaga Hoy",
-   "time": "2026-11-19T18:34:45Z"
-  },
-  {
    "title": "Precio de la luz: ¿A qué hora es más barata?",
    "link": "https://www.diariosur.es/economia/mibolsillo/precio-luz-viernes-20-noviembre-2026-mas-barato-20261116000000-nt.html",
    "summary": "",
    "source": "Diario Sur",
    "time": "2026-11-19T18:31:13Z"
-  },
-  {
-   "title": "Ostatni zespół tabeli nastraszył Hiszpanów! Yamal znów to zrobił - Meczyki.pl",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaDRhcURLUTVqOVRxdVR4UzJXV29Dd0RycGotU2xMekx1NzhxdlNUbmFlRDFEUzZRM3JlNG9xVDFtb3JzS3Q3ZDNUelJXMUhuOGJxT3E1RDJYSVhKUG5zdkhjUlFRVGZ4cElmQ2xYUldTY0pOaWRiWWhCMkNBeVF0NC1YdXI4SF9iVXVNNHVhQkhFNHQ3MEJINHlFa2tRUU1jSTZYbGlWbm8?oc=5",
-   "summary": "Ostatni zespół tabeli nastraszył Hiszpanów! Yamal znów to zrobił    Meczyki.pl",
-   "source": "Polskie media – Polacy w Hiszpanii",
-   "time": "2026-11-19T17:53:31Z"
   },
   {
    "title": "OSP denuncia que solo se ejecuta 1/3 del presupuesto del Ayuntamiento",
@@ -2558,25 +2691,18 @@
    "time": "2026-11-19T17:17:06Z"
   },
   {
+   "title": "Demonstracje rozlały się na cały kraj. Na ulice wyszło 550 tys. młodych. Dlaczego nie w Polsce? - Rzeczpospolita",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWkhVZWE5VnVCb05uM29Gd0w3NkFEZFpCZ2JkUk1sWVNnUTFLcm9YNEo4T3hHd0ltZllQR3N1RS1RSjFiclM2YXJ0UXVpTldRdnAyaHdUZUFOdEFZVVZ5UVZLT3ZOaXRKSU5lRTBOTkozbVhvbWdFVXFKWHBSRjJneGo2aHd6Yi03OXlacDdFWFhzNkxJbkJ2RWl3MHp3ZUxJNXQ2YkpYYjFldmxXTjVubXJsaU4zLUwzdy15RWNGRjFGZw?oc=5",
+   "summary": "Demonstracje rozlały się na cały kraj. Na ulice wyszło 550 tys. młodych. Dlaczego nie w Polsce?    Rzeczpospolita",
+   "source": "Polskie media – Polacy w Hiszpanii",
+   "time": "2026-11-19T17:00:00Z"
+  },
+  {
    "title": "Quirónsalud Marbella incorpora el primer láser ocular de España para corregir la visión en pacientes complejos",
    "link": "https://www.diariosur.es/marbella/quironsalud-marbella-incorpora-primer-laser-ocular-espana-20261119174952-nt.html",
    "summary": "El aparato permite examinar el ojo del paciente de forma milimétrica y tratar a pacientes que hasta ahora no tenían opciones con cirugía refractiva",
    "source": "Diario Sur – Marbella",
    "time": "2026-11-19T16:49:52Z"
-  },
-  {
-   "title": "WATCH: Sunny with a chance of firefighters – surprise ‘rain’ showers La Manga from a tower block balcony",
-   "link": "https://www.theolivepress.es/spain-news/2026/11/19/la-manga-murcia-firefights-rain-shower/",
-   "summary": "Passers-by, shops and parked cars were sprayed as a powerful jet of water shot out of the Torre Mangamar",
-   "source": "Olive Press",
-   "time": "2026-11-19T16:29:40Z"
-  },
-  {
-   "title": "Man, 76, dies in tragic accident after food truck runs him over at Malaga hospital",
-   "link": "https://www.theolivepress.es/spain-news/2026/11/19/man-76-dies-as-food-truck-runs-him-over-at-malaga-hospital/",
-   "summary": "The accident occurred at Malaga’s Children and Maternity hospital at around 11:25am on Wednesday.",
-   "source": "Olive Press",
-   "time": "2026-11-19T16:15:00Z"
   },
   {
    "title": "Malaga to have Europe's most powerful quantum computer, due to arrive on 14 December",
@@ -2619,167 +2745,6 @@
    "summary": "El programa abordará cuestiones como el trío de eclipses solares, la nanotecnología, los efectos especiales en el cine y la construcción de la mente y concluirá con el espectáculo ‘La Astrocopla’ La directora general de Cultura de Marbella, Carmen Díaz, ha presentado hoy la quinta edición de ‘Marci",
    "source": "Marbella Directo",
    "time": "2026-11-19T13:34:50Z"
-  },
-  {
-   "title": "The Granada village that's home to a unique 1,500-year-old carob tree",
-   "link": "https://www.surinenglish.com/andalucia/village-granada-home-20261118000500-nt.html",
-   "summary": "",
-   "source": "Sur in English",
-   "time": "2026-11-19T13:12:01Z"
-  },
-  {
-   "title": "Puesto de un mercado navideño en Málaga.",
-   "link": "https://www.malagahoy.es/la-farola/mercados-navidad-provincia-malaga-2026_0_2008541574.html",
-   "summary": "Algunos municipios de la provincia han adelantado parte de su programa de Navidad, que cuenta con estos mercadillos\nFechas de la inauguración de los alumbrados de Navidad de los municipios de Málaga en 2026",
-   "source": "Málaga Hoy",
-   "time": "2026-11-19T13:10:57Z"
-  },
-  {
-   "title": "los adornos que decorarán tu hogar para darle ese toque navideño y mágico que estas fiestas necesitan",
-   "link": "https://www.diariodesevilla.es/de_compras/luces-detalles-ideas-adornos-navidad-hogar_0_2008541037.html",
-   "summary": "Estos son los adornos perfectos para trasladar el espíritu navideño a tu casa y disfrutar de estas fiestas tan señaladas\nNo esperes a diciembre: ideas de regalo baratas para preparar la Navidad con antelación",
-   "source": "Málaga Hoy",
-   "time": "2026-11-19T12:52:59Z"
-  },
-  {
-   "title": "¿Qué aspirador de tapicerías comprar? Comparativa experta del 2026",
-   "link": "https://www.diariodesevilla.es/de_compras/aspirador-tapicerias_0_2006453880.html",
-   "summary": "Comparativa por potencia, eficacia y precio. Elige el modelo ideal para eliminar manchas en tu hogar y coche\nMejores aspiradores sin cable de 2026: ¿cuál comprar según tus necesidades?",
-   "source": "Málaga Hoy",
-   "time": "2026-11-19T12:51:00Z"
-  },
-  {
-   "title": "Kadra Brzęczka może trafić na potęgi na Euro. Biało-Czerwoni trafili do trzeciego koszyka - Polskie Radio 24",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTVR0Q3Awem1fRE5tQmRfMjBGdDN6SWM5bzZYUVRXMUR2TmdCWFg0blFNR19oZHNWbXJpUnVtZWM1dFJGY2tNSkxOcHl5NGx4b0lGamE1NV80QWcyMy1seVAxQThpWm9BdTdEWTQtUkhtTHduV1F4ZWk2WkFfNUJlN2hkYVR5enpDcjRwaThwU19ydlpyR0EwbS1oaXdBbkp5UzRWQkkxVnFzT0pBNG9OWldB?oc=5",
-   "summary": "Kadra Brzęczka może trafić na potęgi na Euro. Biało-Czerwoni trafili do trzeciego koszyka    Polskie Radio 24",
-   "source": "Polskie media – Polacy w Hiszpanii",
-   "time": "2026-11-19T12:45:46Z"
-  },
-  {
-   "title": "Un entrenador de CrossFit gana el Premio de Poesía Emilio Prados",
-   "link": "https://www.diariosur.es/culturas/libros/entrenador-crossfit-gana-premio-poesia-emilio-prados-20261119134432-nt.html",
-   "summary": "",
-   "source": "Diario Sur",
-   "time": "2026-11-19T12:44:32Z"
-  },
-  {
-   "title": "Una persona utiliza su ordenador.",
-   "link": "https://www.malagahoy.es/mundo/comision-europea-sufre-ciberataque-generado_0_2008541757.html",
-   "summary": "El Ejecutivo comunitario asegura que no hay evidencia de una brecha de datos y que la investigación continúa abierta\nLa UE discute su próximo presupuesto en una cumbre marcada por la energía y China",
-   "source": "Málaga Hoy",
-   "time": "2026-11-19T12:41:43Z"
-  },
-  {
-   "title": "La directora del Departamento de Salud Pública y Medio Ambiente de la Organización Mundial de la Salud (OMS), la española María Neira.",
-   "link": "https://www.malagahoy.es/sociedad/maria-neira-espanola-aspira-dirigir_0_2008541532.html",
-   "summary": "La doctora, una de los siete candidatos a dirigir el organismo, presenta su programa de acción\nLa OMS avisa de que el mundo está peor preparado para una pandemia que hace diez años",
-   "source": "Málaga Hoy",
-   "time": "2026-11-19T12:18:10Z"
-  },
-  {
-   "title": "Unicaja y ACEV renuevan su alianza financiera para más de 300 negocios de Vélez-Málaga",
-   "link": "https://www.diariosur.es/axarquia/velez-malaga/unicaja-acev-renuevan-alianza-financiera-300-negocios-20261119125706-nt.html",
-   "summary": "El pacto incorpora asesoramiento especializado, herramientas de gestión y productos en condiciones favorables a autónomos y profesionales",
-   "source": "Diario Sur – Axarquía",
-   "time": "2026-11-19T11:57:07Z"
-  },
-  {
-   "title": "Una persona sin hogar en una parada de autobús en Madrid.",
-   "link": "https://www.malagahoy.es/sociedad/tres-personas-hogar-sufrio-delitos_0_2008541158.html",
-   "summary": "Un estudio alerta del aumento de situaciones de violencia por aporofobia\nLa cifra de personas sin hogar alojadas en centros crece un 55% en dos años",
-   "source": "Málaga Hoy",
-   "time": "2026-11-19T11:46:11Z"
-  },
-  {
-   "title": "Miles de personas en el campo de refugiados rohinyás en el campamento Balukhali.",
-   "link": "https://www.malagahoy.es/mundo/tribunal-internacional-justicia-declara-birmania_0_2008541143.html",
-   "summary": "El máximo tribunal de Naciones Unidas concluye que actuó con la \"intención de destruir una parte sustancial\" de la minoría musulmana en su ofensiva militar de 2017",
-   "source": "Málaga Hoy",
-   "time": "2026-11-19T11:45:51Z"
-  },
-  {
-   "title": "Malaga hospital and health centres research ultra-early detection of lung cancer using AI",
-   "link": "https://www.surinenglish.com/lifestyle/health/clinico-teatinos-health-20261119000500-nt.html",
-   "summary": "",
-   "source": "Sur in English",
-   "time": "2026-11-19T11:24:48Z"
-  },
-  {
-   "title": "La mesa de expertos de Digitalización coloca como retos la comunicación, la retención de talento y reclama una estrategia común",
-   "link": "https://www.diariosur.es/andalucia/mesa-expertos-digitalizacion-coloca-retos-comunicacion-retencion-20261118054500-nt.html",
-   "summary": "",
-   "source": "Diario Sur",
-   "time": "2026-11-19T11:24:00Z"
-  },
-  {
-   "title": "Valencia police arrest two young men on suspicion of having logistical role in 'Blocus' riot group",
-   "link": "https://www.surinenglish.com/spain/valencia-police-arrest-two-young-men-suspicion-20261119122233-nt.html",
-   "summary": "",
-   "source": "Sur in English",
-   "time": "2026-11-19T11:22:34Z"
-  },
-  {
-   "title": "Rincón de la Victoria ofrece 75 plazas para el campamento de garantía alimentaria de Navidad",
-   "link": "https://www.diariosur.es/axarquia/rincon/rincon-victoria-ofrece-plazas-campamento-garantia-alimentaria-20261119121456-nt.html",
-   "summary": "La iniciativa está dirigida exclusivamente a menores de 3 a 12 años empadronados en el municipio que forman parte del Programa de Refuerzo de la Alimentación Infantil gestionado por los Servicios Sociales",
-   "source": "Diario Sur – Axarquía",
-   "time": "2026-11-19T11:15:26Z"
-  },
-  {
-   "title": "Malaga's Hospital Regional needs more palliative care beds",
-   "link": "https://www.surinenglish.com/lifestyle/health/calls-more-palliative-20261119000500-nt.html",
-   "summary": "",
-   "source": "Sur in English",
-   "time": "2026-11-19T11:12:59Z"
-  },
-  {
-   "title": "Un barrendero de Algarrobo devuelve 12.000 euros hallados en la basura pese a sus deudas: «¿Cuánto vale una conciencia tranquila?»",
-   "link": "https://www.diariosur.es/axarquia/barrendero-algarrobo-devuelve-12000-euros-hallados-basura-20261118185839-nt.html",
-   "summary": "Jairo Ariza Leal, empleado eventual bajo contrata municipal, termina noviembre sin empleo; dice que su familia le inculcó honestidad desde pequeño",
-   "source": "Diario Sur – Axarquía",
-   "time": "2026-11-19T11:12:02Z"
-  },
-  {
-   "title": "Los acabado más pulidos dan paso a diseños cromados, perlados, glaeado e incluso con glitter.",
-   "link": "https://www.diariodesevilla.es/wappissima/belleza/10-manicuras-navidad-elegantes-sofisticadas_0_2008539702.html",
-   "summary": "Desde diseños minimalistas a efectos glaseados, pasando por los clásicos navideños, estas propuestas en uñas marcarán un antes y un después en tus manicuras navideñas\nCómo llevar las uñas cortas en otoño: 12 manicuras originales y nada aburridas que",
-   "source": "Málaga Hoy",
-   "time": "2026-11-19T10:30:51Z"
-  },
-  {
-   "title": "Malaga province brawl at petrol station over whose turn it is sends two men to court for insults, injuries and vehicle damage",
-   "link": "https://www.surinenglish.com/malaga/mijas-fuengirola/brawl-petrol-station-20261119000500-nt.html",
-   "summary": "",
-   "source": "Sur in English",
-   "time": "2026-11-19T10:20:41Z"
-  },
-  {
-   "title": "Malaga street cleaner hands in 12,000 euros he found in a rubbish bin despite his own debts",
-   "link": "https://www.surinenglish.com/malaga/axarquia/street-cleaner-from-20261119000500-nt.html",
-   "summary": "",
-   "source": "Sur in English",
-   "time": "2026-11-19T10:14:32Z"
-  },
-  {
-   "title": "775,000-euros-a-week luxury mega-yacht moored in the port of Motril",
-   "link": "https://www.surinenglish.com/andalucia/costa-tropical/luxury-superyacht-which-20261119000500-nt.html",
-   "summary": "",
-   "source": "Sur in English",
-   "time": "2026-11-19T10:09:43Z"
-  },
-  {
-   "title": "Puente Romano opta por un antiguo directivo para tomar las riendas del complejo",
-   "link": "https://www.diariosur.es/marbella/puente-romano-opta-antiguo-directivo-tomar-riendas-20261118195814-nt.html",
-   "summary": "La empresa confía la dirección general al italiano Francesco Roccato, que ya se encargó en 2016 de la apertura de Nobu Hotel en Marbella",
-   "source": "Diario Sur – Marbella",
-   "time": "2026-11-19T09:45:31Z"
-  },
-  {
-   "title": "Xi, Trump y Putin se reúnen en Shenzhen (China)",
-   "link": "https://www.malagahoy.es/mundo/trump-aborda-putin-xi-guerras_0_2008540107.html",
-   "summary": "Los tres mandatarios abordan en Shenzhen (China) la guerra de Ucrania y el desarme nuclear\nXi recibe a Trump a pie de pista a su llegada a Shenzhen",
-   "source": "Málaga Hoy",
-   "time": "2026-11-19T09:42:18Z"
   },
   {
    "title": "Indignación por el carrusel navideño sobre la fuente del Rocío en Marbella",
