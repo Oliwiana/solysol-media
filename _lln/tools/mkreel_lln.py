@@ -72,6 +72,6 @@ for i in range(1, len(parts)):
     fc.append(f"{last}[{i}:v]xfade=transition=fade:duration={XF}:offset={off:.2f}{o}"); last = o
 subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *ins, "-f", "lavfi", "-t", str(off + 3.0), "-i", "anullsrc=r=44100:cl=stereo",
                 "-filter_complex", ";".join(fc), "-map", last, "-map", f"{len(parts)}:a", "-shortest", "-c:v", "libx264", "-preset", "veryfast",
-                "-crf", "21", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "96k", "-movflags", "+faststart", str(OUT / "reel.mp4")], check=True)
+                "-crf", "24", "-maxrate", "1300k", "-bufsize", "2600k", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "96k", "-movflags", "+faststart", str(OUT / "reel.mp4")], check=True)
 subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", "1.2", "-i", str(OUT / "reel.mp4"), "-frames:v", "1", "-q:v", "3", str(OUT / "reel-cover.jpg")], check=True)
 print("ok", OUT / "reel.mp4", f"{off + 3.0:.1f}s")
