@@ -405,5 +405,5 @@ def P_mafie(n, N):
              + '</div>' + src('MSW Hiszpanii (11.2025), El Debate, El Español, Vozpópuli, ARA (2025–2026).'))
     return frame(n, N, 'Zagadki kryminalne', inner)
 
-THEME_SEQ = ['light','light','green','light','light','light','light','red','light','light','light','light','light','light','red','light','light','noir','noir','light','light','light','green','light']
-PAGES = [P_cover, P_liczby, P_kalendarz, P_malaga, P_marbella, P_fue_est, P_dzieci, P_gordo, P_mit, P_pl_es, P_polska_wigilia, P_slodycze, P_prezenty, P_sylwester, P_ciekawostki, P_zagaleta, P_ap7, P_crime, P_mafie, P_praktycznie, P_slowniczek, P_quiz, P_konkurs, P_koniec]
+THEME_SEQ = ['light','light','green','light','light','light','light','red','light','light','light','light','light','light','red','light','light','noir','light','light','light','green','light']
+PAGES = [P_cover, P_liczby, P_kalendarz, P_malaga, P_marbella, P_fue_est, P_dzieci, P_gordo, P_mit, P_pl_es, P_polska_wigilia, P_slodycze, P_prezenty, P_sylwester, P_ciekawostki, P_zagaleta, P_ap7, P_crime, P_praktycznie, P_slowniczek, P_quiz, P_konkurs, P_koniec]
