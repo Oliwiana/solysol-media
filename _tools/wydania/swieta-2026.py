@@ -119,14 +119,15 @@ def P_gordo(n, N):
         ('1812', 'Pierwsze losowanie', 'Loteria świąteczna działa od ponad 200 lat – to jedna z najstarszych loterii na świecie.'),
         ('22.12', 'Dzień losowania', 'Od rana cały kraj ogląda transmisję w TVE. Wielu Hiszpanów uważa ten dzień za początek świąt.'),
         ('20 €', 'Décimo', 'Tyle kosztuje dziesiąta część losu. Pełny los (billete) to 10 décimos.')])
-    inner = (photo('xmas_loteria.jpg', 0, 10, 1080, 420, '50% 35%', style='none') +
-             f'<div style="position:absolute;left:0;right:0;top:10px;height:420px;background:linear-gradient(180deg,rgba(0,0,0,0) 30%,rgba(0,0,0,.75) 100%)"></div>'
-             f'<div style="position:absolute;left:64px;right:64px;top:290px;color:#fff">{kick("Tradycja · 22 grudnia", "#F2C14E")}{H("El Gordo – loteria, <i style=\'color:#F2C14E\'>którą żyje cały kraj</i>", 64, "#fff")}</div>'
-             f'<div style="position:absolute;right:30px;top:20px;font-size:13px;color:rgba(255,255,255,.85)">Obraz: Christian Franzen, ok. 1900 / Wikimedia Commons, domena publiczna</div>'
+    inner = (f'<div style="position:absolute;left:64px;top:70px;width:520px;color:#fff">{kick("Tradycja · 22 grudnia", "#F2C14E")}{H("El Gordo – loteria, <i style=\'color:#F2C14E\'>którą żyje cały kraj</i>", 66, "#fff")}'
+             f'<div style="font-size:20px;line-height:1.45;margin-top:16px;color:#F8E6E3">Tak ogłaszano główną wygraną ponad 100 lat temu – a emocje są te same.</div></div>'
+             f'<div style="position:absolute;left:610px;top:50px;width:410px;background:#F4ECDD;padding:14px 14px 40px;transform:rotate(2.5deg);box-shadow:0 18px 40px rgba(0,0,0,.4)"><img src="file://{PH}xmas_loteria.jpg" style="display:block;width:100%;height:330px;object-fit:cover;object-position:50% 50%;filter:sepia(.25)">'
+             f'<div style="position:absolute;left:16px;bottom:10px;font-size:14px;font-style:italic;color:#3A2A10">Ogłoszenie głównej wygranej, ok. 1900 r.</div></div>'
+             f'<div style="position:absolute;left:610px;top:450px;width:420px;font-size:12px;color:rgba(255,255,255,.75)">Fot. Christian Franzen / Wikimedia Commons, domena publiczna</div>'
              f'<div style="position:absolute;left:64px;top:470px;width:560px">{tl}'
              + p('<br>Los kupuje się w punktach <b>Loterías y Apuestas del Estado</b> – często wspólnie: z rodziną, w pracy albo w ulubionym barze. Gdy numer wygra, cieszy się cała ulica.', 20) + '</div>'
              f'<div style="position:absolute;left:666px;right:64px;top:470px">'
-             + box('Czy wiesz, że…', 'Wylosowane numery i kwoty nie są odczytywane, tylko <b>śpiewane</b> – robią to dzieci ze szkoły San Ildefonso w Madrycie.', RED)
+             + box('Czy wiesz, że…', 'Wylosowane numery i kwoty nie są odczytywane, tylko <b>śpiewane</b> – robią to dzieci ze szkoły San Ildefonso w Madrycie.', '#F2C14E', '#171513', '#8E1C22')
              + '<div style="height:16px"></div>'
              + box('El Gordo, czyli…', '„Gruby” – tak nazywa się główną nagrodę. Stąd potoczna nazwa całego losowania.', '#123D2B', '#fff', '#F2C14E')
              + '<div style="height:16px"></div>'
