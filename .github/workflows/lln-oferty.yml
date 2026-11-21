@@ -1,0 +1,24 @@
+name: LLN – oferty z rynku wtórnego
+on:
+  workflow_dispatch:
+    inputs:
+      query: { description: "Kryteria wyszukiwania (JSON, patrz _lln/tools/oferty.py)", required: true, default: "{}" }
+      name: { description: "Nazwa przebiegu (np. lln-najdrozsze-2211)", required: true }
+permissions:
+  contents: write
+concurrency: lln-oferty
+jobs:
+  oferty:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 1 }
+      - run: pip install requests pillow -q
+      - run: python3 _lln/tools/oferty.py '${{ github.event.inputs.query }}' /tmp/out
+      - run: |
+          cd /tmp/out
+          echo "${{ github.event.inputs.name }}" > NAME
+          git init -q -b oferty && git config user.name Oliwiana && git config user.email noreply@solysol.pl
+          git add -A && git commit -qm "oferty: ${{ github.event.inputs.name }}"
+          git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" oferty:oferty
