@@ -53,8 +53,11 @@ for lab in Q.get("features", []):
 data.append(("mls_search_features_search_type", "2" if Q.get("match", "all") == "all" else "1"))
 data.append(("mls_search_submit", "Wyszukaj"))
 r = S.post(BASE + "/wp-admin/admin-post.php", data=data, timeout=90, allow_redirects=True)
-res = r.text; print("wyniki:", r.url)
-qid = re.search(r"query_id=([0-9a-f-]{20,})", res)
+qid = re.search(r"query_id=([0-9a-f-]{20,})", r.url) or re.search(r"query_id=([0-9a-f-]{20,})", r.text)
+SORT = dict(data)["p_sorttype"]
+RES = lambda p: f"{BASE}/rynek-wtorny/?mls_search_performed=1&query_id={qid.group(1)}&page_num={p}&p_sorttype={SORT}"
+res = S.get(RES(1), timeout=60).text if qid else r.text
+print("wyniki:", RES(1) if qid else r.url)
 
 def cards(h):
     out = []
@@ -73,7 +76,7 @@ def cards(h):
 L = cards(res)
 for p in range(2, int(Q.get("pages", 3)) + 1):
     if not qid: break
-    L += cards(S.get(f"{BASE}/rynek-wtorny/?page_num={p}&query_id={qid.group(1)}", timeout=60).text); time.sleep(1)
+    L += cards(S.get(RES(p), timeout=60).text); time.sleep(1)
 seen = set(); L = [x for x in L if not (x["url"] in seen or seen.add(x["url"]))]
 print("ofert na liście:", len(L))
 
