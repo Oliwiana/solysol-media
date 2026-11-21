@@ -22,12 +22,12 @@ def P_liczby(n, N):
              g('20 €', 'kosztuje décimo, czyli los El Gordo', GOLD) + g('1812', 'rok pierwszego losowania loterii świątecznej') +
              g('12', 'winogron o północy w Sylwestra', GRN) + g('ok. 17°C', 'średnio w dzień w grudniu w Maladze', GOLD))
     short = ''.join(f'<div style="border-top:1px solid #CFC5B5;padding:8px 0"><div style="font-size:15px;font-weight:800;letter-spacing:.16em;color:{RED}">{a.upper()}</div><div style="{CG}font-size:23px;font-weight:600;line-height:1.15;margin-top:2px">{b}</div></div>' for a, b in [
-        ('03 · Kalendarz', 'Wszystkie ważne daty do 6.01'),
-        ('04 · Málaga', 'Calle Larios zapala święta'),
-        ('08 · Złota koperta', 'Czy masz szczęśliwy egzemplarz?'),
-        ('10 · Przepisy', 'Barszcz i dorada z hiszpańskiego targu'),
-        ('14 · Kto tu przylatywał?', 'Grace Kelly i Hefner w Marbelli'),
-        ('18 · Kryminalne', 'Złoto spod Heathrow'),
+        ('03 · Kto tu przylatywał?', 'Grace Kelly i Hefner w Marbelli'),
+        ('04 · Kalendarz', 'Wszystkie ważne daty do 6.01'),
+        ('09 · Złota koperta', 'Czy masz szczęśliwy egzemplarz?'),
+        ('10 · La Zagaleta', 'Kto naprawdę ją kupił?'),
+        ('13 · Bond w Marbelli', 'Connery i afera „Goldfinger”'),
+        ('15 · Kryminalne', 'Złoto spod Heathrow'),
         ('19 · Quiz', 'Kto w rodzinie wie najwięcej?')])
     inner = (f'<div style="position:absolute;left:64px;right:64px;top:56px">{kick("Na start")}{H("Święta w liczbach", 88)}{rule()}'
              f'<div style="display:grid;grid-template-columns:1fr 1fr;gap:26px 40px;width:560px">{stats}</div></div>'
@@ -717,5 +717,29 @@ def P_gordo1(n, N):
              + src('Loterías y Apuestas del Estado; Agencia Tributaria; El Debate, BBVA (2025); ustawa o PIT. Stan na 21.11.2026.'))
     return frame(n, N, 'Tradycje', inner)
 
-THEME_SEQ = ['light','light','green','light','light','light','light','red','light','light','light','light','red','yellow','green','light','noir','noir','light','light']
-PAGES = [P_cover, P_liczby, P_kalendarz, P_malaga, P_marbella, P_fue_est, P_dzieci, P_gordo1, P_pl_es, P_przepisy, P_slodycze, P_sylwester, P_ciekawostki, P_banus, P_gwiazdy, P_zagaleta, P_crime, P_zagadka, P_quiz, P_koniec]
+def P_bond(n, N):
+    tl = ''.join(f'<div style="display:grid;grid-template-columns:120px 1fr;gap:18px;padding:12px 0;border-top:1px solid #CFC5B5"><div style="{CG}font-size:32px;font-weight:700;color:{RED};line-height:1">{a}</div><div style="font-size:18px;line-height:1.42">{b}</div></div>' for a, b in [
+        ('wcześniej', 'Sean Connery latami mieszka w willi Malibú przy Puerto Banús.'),
+        ('1999', 'Sprzedaje ją za ok. 5,5 mln funtów i przenosi się na Bahamy.'),
+        ('potem', 'Na działce, gdzie wolno było postawić 5 domów, rosną 72 luksusowe mieszkania.'),
+        ('śledztwo', 'Nazwano je „Goldfinger” – od filmu o Bondzie z 1964 r. Sąd wyznacza Connery’emu i jego żonie 3,3 mln € kaucji.'),
+        ('finał', 'Sprawę wobec aktora umorzono – od początku zaprzeczał, że zrobił coś złego. Były burmistrz Marbelli dostał w 2016 r. rok więzienia.')])
+    stats = ''.join(f'<div style="text-align:center"><div style="{CG}font-size:56px;font-weight:700;line-height:1;color:#F2C14E">{a}</div><div style="font-size:15px;line-height:1.3;margin-top:6px;color:#fff">{b}</div></div>' for a, b in [
+        ('5 → 72', 'domy dozwolone → mieszkania zbudowane'), ('5,5 mln £', 'cena willi w 1999 r.'), ('3,3 mln €', 'kaucja dla Connery’ego i żony')])
+    inner = (photo('villa3.jpg', 0, 0, 1080, 520, '50% 60%')
+             + '<div style="position:absolute;left:0;right:0;top:0;height:520px;background:linear-gradient(180deg,rgba(0,0,0,.15) 20%,rgba(0,0,0,.85) 100%)"></div>'
+             + '<div style="position:absolute;right:30px;top:20px;font-size:13px;color:rgba(255,255,255,.9)">Zdjęcie ilustracyjne. Fot. Judith Browne / Unsplash</div>'
+             + '<div style="position:absolute;right:64px;top:70px;font-family:InterX,Inter,sans-serif;font-style:italic;font-weight:900;font-size:150px;line-height:1;color:rgba(242,193,78,.92);letter-spacing:-.04em">007</div>'
+             + f'<div style="position:absolute;left:64px;right:64px;top:290px;color:#fff">{kick("Na długie wieczory · Marbella", "#F2C14E")}{H("James Bond <i style=\'color:#F2C14E\'>kontra Marbella</i>", 84, "#fff")}'
+             + '<div style="font-size:20px;line-height:1.4;margin-top:8px;color:#F4ECDD">Willa, 72 mieszkania i śledztwo nazwane jak film o agencie 007.</div></div>'
+             + f'<div style="position:absolute;left:64px;right:64px;top:545px;background:#171513;padding:20px 10px;display:grid;grid-template-columns:1fr 1fr 1fr">{stats}</div>'
+             + f'<div style="position:absolute;left:64px;top:700px;width:560px">{tl}</div>'
+             + f'<div style="position:absolute;left:666px;right:64px;top:712px;border-left:5px solid {RED};padding:6px 0 6px 24px">'
+             + f'<div style="{CG}font-style:italic;font-size:40px;line-height:1.12">„Nie pozwolę, by sąsiedzi oglądali mnie w gaciach”</div>'
+             + f'<div style="font-size:15px;line-height:1.4;margin-top:12px;color:{MUT}">Tak Connery miał powiedzieć burmistrzowi Gilowi – według relacji byłego szefa urbanistyki Marbelli.</div></div>'
+             + wow('Connery nie został skazany', 'Sprawę wobec aktora umorzono.', 666, 990, 350, 2)
+             + src('The Olive Press (2010), SBS, The Local, Diario de Avisos (2016), Espinof, Trendencias.'))
+    return frame(n, N, 'Na długie wieczory', inner)
+
+THEME_SEQ = ['light','light','yellow','green','light','light','green','light','red','light','light','light','light','noir','noir','light','light','red','light','light']
+PAGES = [P_cover, P_liczby, P_banus, P_kalendarz, P_malaga, P_marbella, P_gwiazdy, P_fue_est, P_gordo1, P_zagaleta, P_pl_es, P_przepisy, P_bond, P_crime, P_zagadka, P_dzieci, P_sylwester, P_ciekawostki, P_quiz, P_koniec]
