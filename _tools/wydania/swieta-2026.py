@@ -47,7 +47,7 @@ def P_liczby(n, N):
 
 def P_kalendarz(n, N):
     rows = [('27.11', 'pt', 'Málaga · Fuengirola', 'Włączenie świateł. W Maladze o 18:30, potem koncert El Kanki.'),
-            ('28.11', 'sob', 'Málaga', 'Rusza mapping na wieży katedry – 19:00, 20:30, 22:00.'),
+            ('28.11', 'sob', 'Málaga', 'Rusza mapping (pokaz świetlny wyświetlany na budynku) na wieży katedry – 19:00, 20:30, 22:00.'),
             ('1.12', 'wt', 'Estepona', 'Światła, kolędy pastorales, churros z czekoladą i flashmob.'),
             ('7–8.12', 'pn–wt', 'Andaluzja', 'Dzień Konstytucji (przeniesiony z niedzieli) i Niepokalane Poczęcie – dwa dni wolne.'),
             ('ok. 21.12', '', 'Fuengirola', 'Ostatnie dni jarmarku na Plaza de la Constitución.'),
@@ -72,11 +72,11 @@ def P_malaga(n, N):
              f'<div style="position:absolute;left:64px;top:690px;width:580px;columns:2;column-gap:30px">'
              + dc('Święta na Costa del Sol zaczynają się w Maladze. W piątek 27.11 o 18:30 przy wejściu na calle Larios zapalą się świąteczne światła – w centrum to w sumie 2,8 mln lampek LED. Zaraz potem darmowy koncert El Kanki.')
              + p('Główna atrakcja to pokaz światła i muzyki „Natividad de Luz” – lampki nad ulicą zmieniają się w rytm muzyki. Pokazy trwają do 4.01, trzy razy wieczorem, poza 24 i 31.12.', 20)
-             + p('Od 28.11 warto podejść też pod katedrę: na jej wieży wyświetlany jest mapping – barwne obrazy na kamiennej fasadzie.', 20)
+             + p('Od 28.11 warto podejść też pod katedrę: na jej wieży wyświetlany jest mapping (pokaz świetlny z projektorów) – barwne obrazy na kamiennej fasadzie.', 20)
              + '</div>'
              f'<div style="position:absolute;left:690px;right:64px;top:690px">'
              + f'<div style="background:{GRN};color:#fff;padding:24px 26px"><div style="font-size:15px;font-weight:800;letter-spacing:.2em;color:#F2C14E">POKAZY NA LARIOS</div><div style="{CG}font-size:40px;font-weight:600;margin-top:6px">18:30 · 20:30 · 22:00</div><div style="font-size:18px;opacity:.9">codziennie do 4.01, bez 24 i 31.12</div>'
-             + f'<div style="height:1px;background:rgba(255,255,255,.3);margin:16px 0"></div><div style="font-size:15px;font-weight:800;letter-spacing:.2em;color:#F2C14E">MAPPING NA KATEDRZE</div><div style="{CG}font-size:40px;font-weight:600;margin-top:6px">19:00 · 20:30 · 22:00</div><div style="font-size:18px;opacity:.9">od 28.11</div></div>'
+             + f'<div style="height:1px;background:rgba(255,255,255,.3);margin:16px 0"></div><div style="font-size:15px;font-weight:800;letter-spacing:.2em;color:#F2C14E">MAPPING (POKAZ ŚWIETLNY) NA KATEDRZE</div><div style="{CG}font-size:40px;font-weight:600;margin-top:6px">19:00 · 20:30 · 22:00</div><div style="font-size:18px;opacity:.9">od 28.11</div></div>'
              + pull('W centrum Malagi zaświeci 2,8 mln lampek.')
              + '</div>' + src('Ayuntamiento de Málaga; que.es; malagaes.com; marbella-sanpedro.com. Stan na 18.11.2026.'))
     return frame(n, N, 'Málaga', inner)
@@ -482,7 +482,7 @@ def P_banus(n, N):
 def P_mapa(n, N):
     towns = [('Estepona', '1.12', 'światła, kolędy, churros'), ('Marbella', 'wkrótce', '3,8 mln lampek z San Pedro'), ('Mijas', 'wkrótce', ''),
              ('Fuengirola', '27.11', '2 771 512 lampek'), ('Benalmádena', 'wkrótce', ''), ('Torremolinos', 'wkrótce', ''),
-             ('Málaga', '27.11', 'Calle Larios i mapping na katedrze'), ('Nerja', 'wkrótce', '')]
+             ('Málaga', '27.11', 'Calle Larios i mapping (pokaz świetlny) na katedrze'), ('Nerja', 'wkrótce', '')]
     pts = [(120 + i * 120, 670 - i * 44) for i in range(len(towns))]
     path = 'M0,710 ' + ' '.join(f'L{x},{y}' for x, y in pts) + ' L1080,325'
     svg = (f'<svg style="position:absolute;left:0;top:0" width="1080" height="1350" viewBox="0 0 1080 1350">'
