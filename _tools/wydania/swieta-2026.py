@@ -115,24 +115,28 @@ def P_fue_est(n, N):
     return frame(n, N, 'Fuengirola · Estepona', inner)
 
 def P_gordo(n, N):
-    tl = ''.join(f'<div style="display:grid;grid-template-columns:120px 1fr;gap:18px;padding:18px 0;border-top:1px solid #CFC5B5"><div style="{CG}font-size:44px;font-weight:600;color:{RED}">{a}</div><div><b style="font-size:24px">{b}</b><div style="font-size:21px;line-height:1.4;color:{MUT}">{c}</div></div></div>' for a, b, c in [
+    tl = ''.join(f'<div style="display:grid;grid-template-columns:120px 1fr;gap:18px;padding:13px 0;border-top:1px solid #CFC5B5"><div style="{CG}font-size:42px;font-weight:600;color:{RED}">{a}</div><div><b style="font-size:23px">{b}</b><div style="font-size:19px;line-height:1.38;color:{MUT}">{c}</div></div></div>' for a, b, c in [
         ('1812', 'Pierwsze losowanie', 'Loteria świąteczna działa od ponad 200 lat – to jedna z najstarszych loterii na świecie.'),
-        ('22.12', 'Dzień losowania', 'Od rana cały kraj ogląda transmisję w TVE. Wielu Hiszpanów uważa ten dzień za początek świąt.'),
+        ('22.12', 'Dzień losowania', 'Od rana cały kraj ogląda transmisję w TVE. Dla wielu to początek świąt.'),
         ('20 €', 'Décimo', 'Tyle kosztuje dziesiąta część losu. Pełny los (billete) to 10 décimos.')])
+    stats = ''.join(f'<div style="text-align:center;border-right:1px solid rgba(255,255,255,.2);padding:0 8px"><div style="{CG}font-size:48px;font-weight:700;line-height:1;color:#F2C14E">{a}</div><div style="font-size:16px;line-height:1.3;margin-top:6px;color:#fff">{b}</div></div>' for a, b in [
+        ('400 000 €', 'wygrana na jedno décimo'), ('328 000 €', 'na rękę – 20% podatku od nadwyżki ponad 40 000 €'), ('2 000 €', 'mniej – w punkcie sprzedaży, od tej kwoty – w BBVA lub CaixaBank'), ('3 mies.', 'na odbiór – potem wygrana przepada')])
     inner = (f'<div style="position:absolute;left:64px;top:70px;width:520px;color:#fff">{kick("Tradycja · 22 grudnia", "#F2C14E")}{H("El Gordo – loteria, <i style=\'color:#F2C14E\'>którą żyje cały kraj</i>", 66, "#fff")}'
              f'<div style="font-size:20px;line-height:1.45;margin-top:16px;color:#F8E6E3">Tak ogłaszano główną wygraną ponad 100 lat temu – a emocje są te same.</div></div>'
              f'<div style="position:absolute;left:610px;top:50px;width:410px;background:#F4ECDD;padding:14px 14px 40px;transform:rotate(2.5deg);box-shadow:0 18px 40px rgba(0,0,0,.4)"><img src="file://{PH}xmas_loteria.jpg" style="display:block;width:100%;height:330px;object-fit:cover;object-position:50% 50%;filter:sepia(.25)">'
              f'<div style="position:absolute;left:16px;bottom:10px;font-size:14px;font-style:italic;color:#3A2A10">Ogłoszenie głównej wygranej, ok. 1900 r.</div></div>'
              f'<div style="position:absolute;left:610px;top:450px;width:420px;font-size:12px;color:rgba(255,255,255,.75)">Fot. Christian Franzen / Wikimedia Commons, domena publiczna</div>'
-             f'<div style="position:absolute;left:64px;top:470px;width:560px">{tl}'
-             + p('<br>Los kupuje się w punktach <b>Loterías y Apuestas del Estado</b> – często wspólnie: z rodziną, w pracy albo w ulubionym barze. Gdy numer wygra, cieszy się cała ulica.', 20) + '</div>'
-             f'<div style="position:absolute;left:666px;right:64px;top:470px">'
+             f'<div style="position:absolute;left:64px;top:478px;width:560px">{tl}'
+             + f'<div style="margin-top:14px;background:#F2C14E;color:#171513;padding:18px 22px;transform:rotate(-1deg)"><div style="font-size:14px;font-weight:800;letter-spacing:.2em;color:#8E1C22">REKORD WSZECH CZASÓW</div><div style="font-size:19px;line-height:1.42;margin-top:4px">W 2011 r. najwyższy w historii Gordo trafił w całości do Grañén i okolic w Aragonii. W wiosce <b>Sodeto</b> (ok. 240 mieszkańców) los miał prawie każdy.</div></div></div>'
+             + f'<div style="position:absolute;left:666px;right:64px;top:478px">'
              + box('Czy wiesz, że…', 'Wylosowane numery i kwoty nie są odczytywane, tylko <b>śpiewane</b> – robią to dzieci ze szkoły San Ildefonso w Madrycie.', '#F2C14E', '#171513', '#8E1C22')
-             + '<div style="height:16px"></div>'
-             + box('El Gordo, czyli…', '„Gruby” – tak nazywa się główną nagrodę. Stąd potoczna nazwa całego losowania.', '#123D2B', '#fff', '#F2C14E')
-             + '<div style="height:16px"></div>'
-             + box('Uwaga', 'Duże wygrane są w Hiszpanii opodatkowane. Szczegóły sprawdź na stronie Loterías y Apuestas del Estado.', SAND, INKK, RED)
-             + '</div>' + src('Loterías y Apuestas del Estado; RTVE. Stan na 18.11.2026.'))
+             + '<div style="height:14px"></div>'
+             + box('El Gordo, czyli…', '„Gruby” – tak nazywa się główną nagrodę. Los kupuje się często wspólnie: w pracy, z rodziną albo w ulubionym barze.', '#123D2B', '#fff', '#F2C14E')
+             + '</div>'
+             + f'<div style="position:absolute;left:64px;right:64px;top:980px;background:#4A0F13;padding:16px 22px 14px;box-shadow:0 14px 30px rgba(0,0,0,.3)"><div style="font-size:15px;font-weight:800;letter-spacing:.22em;color:#F2C14E;margin-bottom:12px">WYGRAŁEŚ GORDO? TAK TO DZIAŁA</div>'
+             + f'<div style="display:grid;grid-template-columns:repeat(4,1fr)">{stats}</div>'
+             + f'<div style="font-size:16px;line-height:1.4;color:#F8E6E3;margin-top:12px;border-top:1px solid rgba(255,255,255,.2);padding-top:10px"><b style="color:#fff">Polak też może wygrać</b> – liczy się los, nie paszport. Jeśli jesteś rezydentem podatkowym w Polsce, wygraną powyżej 2280 zł trzeba wykazać także w polskim PIT. Przed odbiorem warto zapytać doradcę podatkowego.</div></div>'
+             + src('Loterías y Apuestas del Estado; Agencia Tributaria; El Debate, BBVA (2025); Público (2011); ustawa o PIT. Stan na 21.11.2026.'))
     return frame(n, N, 'Tradycje', inner)
 
 def P_mit(n, N):
