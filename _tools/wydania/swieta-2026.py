@@ -24,16 +24,16 @@ def P_liczby(n, N):
     short = ''.join(f'<div style="border-top:1px solid #CFC5B5;padding:8px 0"><div style="font-size:15px;font-weight:800;letter-spacing:.16em;color:{RED}">{a.upper()}</div><div style="{CG}font-size:23px;font-weight:600;line-height:1.15;margin-top:2px">{b}</div></div>' for a, b in [
         ('03 · Kalendarz', 'Wszystkie ważne daty do 6.01'),
         ('04 · Málaga', 'Calle Larios zapala święta'),
-        ('09 · Złota koperta', 'Czy masz szczęśliwy egzemplarz?'),
-        ('11 · Przepisy', 'Barszcz i dorada z hiszpańskiego targu'),
-        ('15 · Kto tu przylatywał?', 'Grace Kelly i Hefner w Marbelli'),
-        ('19 · Kryminalne', 'Złoto spod Heathrow'),
-        ('22 · Bingo', 'Bingo Polaka w Hiszpanii')])
+        ('08 · Złota koperta', 'Czy masz szczęśliwy egzemplarz?'),
+        ('10 · Przepisy', 'Barszcz i dorada z hiszpańskiego targu'),
+        ('13 · Kto tu przylatywał?', 'Grace Kelly i Hefner w Marbelli'),
+        ('17 · Kryminalne', 'Złoto spod Heathrow'),
+        ('18 · Quiz', 'Kto w rodzinie wie najwięcej?')])
     inner = (f'<div style="position:absolute;left:64px;right:64px;top:56px">{kick("Na start")}{H("Święta w liczbach", 88)}{rule()}'
              f'<div style="display:grid;grid-template-columns:1fr 1fr;gap:26px 40px;width:560px">{stats}</div></div>'
              f'<div style="position:absolute;left:668px;right:64px;top:206px">{hdr("W numerze", 34)}{short}</div>'
              + photo('x_hp2.jpg', 0, 790, 1080, 460, '50% 42%')
-             + f'<div style="position:absolute;right:64px;top:740px;width:400px;background:{RED};color:#fff;padding:26px 28px;box-shadow:0 18px 40px rgba(0,0,0,.25)"><div style="font-size:15px;font-weight:800;letter-spacing:.22em;color:#F7D9A0">CZY WIESZ, ŻE…</div><div style="{CG}font-size:30px;line-height:1.2;margin-top:8px">Hiszpańskie święta trwają do 6 stycznia – najważniejszy dzień dla dzieci to Trzech Króli.</div></div>'
+             + f'<div style="position:absolute;right:64px;top:740px;width:400px;background:{RED};color:#fff;padding:26px 28px;box-shadow:0 18px 40px rgba(0,0,0,.25)"><div style="font-size:15px;font-weight:800;letter-spacing:.22em;color:#F7D9A0">CZY WIESZ, ŻE…</div><div style="{CG}font-size:30px;line-height:1.2;margin-top:8px">Hiszpańskie święta trwają do 6 stycznia – najważniejszy dla dzieci jest dzień Trzech Króli.</div></div>'
              + f'<div style="position:absolute;left:56px;top:985px;width:450px;transform:rotate(-4deg);background:#FBF3DC;border:2px solid #C99A2E;box-shadow:0 18px 40px rgba(0,0,0,.45);padding:14px 16px;font-family:Inter;color:#3A2A10">'
              + f'<div style="display:flex;justify-content:space-between;font-size:11px;font-weight:800;letter-spacing:.14em;color:#8E1C22"><span>LOTERÍA NACIONAL</span><span>DÉCIMO</span></div>'
              + f'<div style="font-size:11px;font-weight:700;letter-spacing:.06em;margin-top:2px;white-space:nowrap">SORTEO EXTRAORDINARIO DE NAVIDAD · 22 DE DICIEMBRE</div>'
@@ -124,7 +124,7 @@ def P_gordo(n, N):
         ('22.12', 'Dzień losowania', 'Od rana cały kraj ogląda transmisję w TVE. Dla wielu to początek świąt.'),
         ('20 €', 'Décimo', 'Tyle kosztuje dziesiąta część losu. Pełny los (billete) to 10 décimos.')])
     stats = ''.join(f'<div style="text-align:center;border-right:1px solid rgba(255,255,255,.2);padding:0 8px"><div style="{CG}font-size:48px;font-weight:700;line-height:1;color:#F2C14E">{a}</div><div style="font-size:16px;line-height:1.3;margin-top:6px;color:#fff">{b}</div></div>' for a, b in [
-        ('400 000 €', 'wygrana na jedno décimo'), ('328 000 €', 'na rękę – 20% podatku od nadwyżki ponad 40 000 €'), ('2 000 €', 'mniej – w punkcie sprzedaży, od tej kwoty – w BBVA lub CaixaBank'), ('3 mies.', 'na odbiór – potem wygrana przepada')])
+        ('400 000 €', 'wygrana na jedno décimo'), ('328 000 €', 'na rękę – 20% podatku od nadwyżki ponad 40 000 €'), ('2 000 €', 'do tej kwoty odbiór w punkcie sprzedaży, powyżej – w BBVA lub CaixaBank'), ('3 mies.', 'na odbiór – potem wygrana przepada')])
     inner = (f'<div style="position:absolute;left:64px;top:70px;width:520px;color:#fff">{kick("Tradycja · 22 grudnia", "#F2C14E")}{H("El Gordo – loteria, <i style=\'color:#F2C14E\'>którą żyje cały kraj</i>", 66, "#fff")}'
              f'<div style="font-size:20px;line-height:1.45;margin-top:16px;color:#F8E6E3">Tak ogłaszano główną wygraną ponad 100 lat temu – a emocje są te same.</div></div>'
              f'<div style="position:absolute;left:610px;top:50px;width:410px;background:#F4ECDD;padding:14px 14px 40px;transform:rotate(2.5deg);box-shadow:0 18px 40px rgba(0,0,0,.4)"><img src="file://{PH}xmas_loteria.jpg" style="display:block;width:100%;height:330px;object-fit:cover;object-position:50% 50%;filter:sepia(.25)">'
@@ -135,7 +135,7 @@ def P_gordo(n, N):
              + f'<div style="position:absolute;left:666px;right:64px;top:478px">'
              + box('Czy wiesz, że…', 'Wylosowane numery i kwoty nie są odczytywane, tylko <b>śpiewane</b> – robią to dzieci ze szkoły San Ildefonso w Madrycie.', '#F2C14E', '#171513', '#8E1C22')
              + '<div style="height:14px"></div>'
-             + box('El Gordo, czyli…', '„Gruby” – tak nazywa się główną nagrodę. Los kupuje się często wspólnie: w pracy, z rodziną albo w ulubionym barze.', '#123D2B', '#fff', '#F2C14E')
+             + box('El Gordo, czyli…', '„Gruby” – tak nazywa się główna nagroda. Los kupuje się często wspólnie: w pracy, z rodziną albo w ulubionym barze.', '#123D2B', '#fff', '#F2C14E')
              + '</div>'
              + f'<div style="position:absolute;left:64px;right:64px;top:980px;background:#4A0F13;padding:16px 22px 14px;box-shadow:0 14px 30px rgba(0,0,0,.3)"><div style="font-size:15px;font-weight:800;letter-spacing:.22em;color:#F2C14E;margin-bottom:12px">WYGRAŁEŚ GORDO? TAK TO DZIAŁA</div>'
              + f'<div style="display:grid;grid-template-columns:repeat(4,1fr)">{stats}</div>'
@@ -180,7 +180,7 @@ def P_slodycze(n, N):
     cards = ''.join(f'<div>{""}<img src="file://{PH}{a}" style="width:300px;height:300px;object-fit:cover;border-radius:50%;border:6px solid #F2C14E;display:block;margin:0 auto"><div style="font-size:12px;color:{MUT};margin-top:4px">{E(d)}</div>{hdr(b, 38, RED)}<div style="font-size:20px;line-height:1.45">{E(c)}</div></div>' for a, b, c, d in items)
     more = ''.join(f'<div style="border-top:1px solid #CFC5B5;padding:12px 0;display:grid;grid-template-columns:230px 1fr;gap:16px"><div style="{CG}font-size:28px;font-weight:600;color:{GRN}">{a}</div><div style="font-size:19px;line-height:1.4">{b}</div></div>' for a, b in [
         ('Polvorones', 'Kruche ciasteczka z migdałami, które rozsypują się w ustach. Najsłynniejsze pochodzą z Estepy w prowincji Sewilla.'),
-        ('Mantecados', 'Krewni polvorones – na smalcu, często cynamonowe lub cytrynowe.'),
+        ('Mantecados', 'Kuzyni polvorones – na smalcu, często cynamonowe lub cytrynowe.'),
         ('Pestiños', 'Andaluzyjskie smażone ciasteczka w miodzie, z nutą anyżu.'),
         ('Mazapán', 'Marcepan – najbardziej znany jest ten z Toledo.')])
     inner = (f'<div style="position:absolute;left:64px;right:64px;top:56px">{kick("Na słodko")}{H("Co Hiszpanie <i style=\'color:"+RED+"\'>jedzą na święta</i>", 78)}{rule()}'
@@ -200,7 +200,7 @@ def P_ciekawostki(n, N):
              ('Fasolka w cieście', 'Kto w rosconie trafi na fasolkę, zwyczajowo płaci za ciasto w przyszłym roku.'),
              ('Winogrona w puszce', 'Przed Sylwestrem sklepy sprzedają 12 obranych winogron w puszce – łatwiej zdążyć.'),
              ('Czerwona bielizna', 'W Sylwestra wiele osób zakłada czerwoną bieliznę – ma przynieść szczęście w nowym roku.'),
-             ('Zegar z Puerta del Sol', 'Północ cała Hiszpania odlicza z telewizją, która pokazuje zegar na Puerta del Sol w Madrycie.'),
+             ('Zegar z Puerta del Sol', 'O północy cała Hiszpania odlicza przed telewizorem – z zegarem na Puerta del Sol w Madrycie.'),
              ('Śpiewane numery', 'W El Gordo dzieci ze szkoły San Ildefonso śpiewają wylosowane numery.'),
              ('Prima aprilis w grudniu', '28.12 to Día de los Inocentes – dzień żartów, także w mediach.')]
     cc = ''.join(f'<div style="display:flex;gap:16px;padding:17px 0;border-top:1px solid #CFC5B5"><div style="{CG}font-size:52px;font-weight:600;color:{[RED, GRN, GOLD][i % 3]};line-height:.9;min-width:56px">{i+1}</div><div><div style="font-size:23px;font-weight:700">{E(a)}</div><div style="font-size:20px;line-height:1.4;color:#4A443D;margin-top:3px">{E(b)}</div></div></div>' for i, (a, b) in enumerate(facts))
@@ -211,7 +211,7 @@ def P_ciekawostki(n, N):
 def P_sylwester(n, N):
     inner = (photo('xmas_uvas.jpg', 0, 0, 536, 520, '50% 80%') + photo('x_rosc.jpg', 544, 0, 536, 520, '50% 45%')
              + f'<div style="position:absolute;left:536px;top:0;width:8px;height:520px;background:{GOLD}"></div>'
-             + f'<div style="position:absolute;left:64px;right:64px;top:440px;background:{PAPER};padding:26px 30px 6px;box-shadow:0 -10px 30px rgba(0,0,0,.12)">{kick("Sylwester · Trzech Króli")}{H("Winogrona, cava <i style=\'color:"+RED+"\'>i trzech króli</i>", 66)}</div>'
+             + f'<div style="position:absolute;left:64px;right:64px;top:440px;background:{PAPER};padding:26px 30px 6px;box-shadow:0 -10px 30px rgba(0,0,0,.12)">{kick("Sylwester · Trzech Króli")}{H("Winogrona, cava <i style=\'color:"+RED+"\'>i Trzech Króli</i>", 66)}</div>'
              + f'<div style="position:absolute;left:64px;top:650px;width:440px">{hdr("31.12 – Nochevieja", 38, RED)}'
              + dc('O północy Hiszpanie zjadają 12 winogron – po jednym przy każdym uderzeniu zegara. Każde to szczęście na jeden miesiąc.', RED)
              + p('W Maladze wspólne odliczanie odbywa się na <b>Plaza de la Constitución</b>. Potem toast cavą.', 20)
@@ -380,7 +380,7 @@ def P_zagaleta(n, N):
              + f'<div style="position:absolute;left:64px;right:64px;top:360px;color:#fff">{kick("Na długie wieczory · Benahavís", "#F2C14E")}{H("Kto naprawdę kupił <i style=\'color:#F2C14E\'>La Zagaletę?</i>", 80, "#fff")}</div>'
              + f'<div style="position:absolute;right:30px;top:22px;font-size:13px;color:rgba(255,255,255,.9)">Zdjęcie ilustracyjne. Fot. Max Harlynking / Unsplash</div>'
              + f'<div style="position:absolute;left:64px;top:640px;width:560px">'
-             + dc('Na wybrzeżu krąży plotka, że ktoś wykupił wszystkie działki w najbardziej ekskluzywnym osiedlu Europy. Prawda jest mniej filmowa, ale równie ciekawa.')
+             + dc('Na wybrzeżu krąży plotka, że ktoś wykupił wszystkie działki w jednym z najbardziej ekskluzywnych osiedli Europy. Prawda jest mniej filmowa, ale równie ciekawa.')
              + p('W grudniu 2024 r. zagraniczny fundusz przejął 100% spółki, która zarządza La Zagaletą i ma tam wolne grunty. Kwoty transakcji nie ujawniono.', 20)
              + p('Prywatne wille i działki nadal należą do swoich właścicieli – i dalej są w sprzedaży. Działki o pow. 4–13 tys. m² kosztują w ofertach zwykle 3–5,5 mln €.', 20)
              + pull('Nie kupiono domów – kupiono spółkę i jej ziemię.', GRN)
@@ -463,7 +463,7 @@ def P_banus(n, N):
         ('👑', 'Juan Carlos i Zofia', 'przyszli król i królowa Hiszpanii'),
         ('✈️', 'Hugh Hefner', 'przyleciał prywatnym Boeingiem 707'),
         ('🎬', 'Roman Polański i Aga Chan', 'reżyser i przywódca duchowy ismailitów'),
-        ('❤️', 'Christiaan Barnard', 'kardiochirurg, autor pierwszego przeszczepu serca'),
+        ('❤️', 'Christiaan Barnard', 'kardiochirurg, autor pierwszego przeszczepu serca u człowieka'),
         ('🎤', 'Julio Iglesias', 'młody piosenkarz śpiewał dla gości')])
     inner = (FIX
              + f'<div style="position:absolute;inset:0;background:radial-gradient(ellipse 70% 50% at 70% 20%,rgba(255,236,170,.55),transparent 70%)"></div>'
@@ -540,10 +540,10 @@ def P_los(n, N):
     rules = ''.join(f'<div style="display:flex;gap:18px;padding:15px 0;border-top:1px solid #CFC5B5"><div style="{CG}font-size:50px;font-weight:600;color:{RED};line-height:.85;min-width:40px">{i}</div><div><div style="font-size:21px;font-weight:700">{E(a)}</div><div style="font-size:18px;line-height:1.42;color:#4A443D;margin-top:3px">{b}</div></div></div>' for i, (a, b) in enumerate([
         ('Kupuj w oficjalnym punkcie', 'Administración de Loterías ma logo Loterías y Apuestas del Estado. Décimo z takiego punktu to jedyny „pełnoprawny” los.'),
         ('Participación z baru – sprawdź', 'To udział w décimo, które kupił bar lub klub. Na kartce muszą być numer, kwota i dane tego, kto ją wydał. Zachowaj ją jak gotówkę.'),
-        ('Zrób zdjęcie losu', 'Przód i tył. Gdy zgubisz décimo, wygrana przepada – zdjęcie pomaga przynajmniej udowodnić, że był Twój.'),
+        ('Zrób zdjęcie losu', 'Przód i tył. Décimo jest na okaziciela – zdjęcie przyda się przy zgłoszeniu kradzieży albo przy wspólnym losie z rodziną czy w pracy.'),
         ('Sprawdzaj tylko w oficjalnych źródłach', 'Wyniki są na stronie i w aplikacji Loterías y Apuestas del Estado. Uważaj na SMS-y „wygrałeś” z linkiem.')], 1))
     terms = ''.join(f'<div style="padding:12px 0;border-top:1px solid rgba(255,255,255,.22)"><div style="{CG}font-size:30px;font-weight:600;color:#F2C14E">{a}</div><div style="font-size:18px;line-height:1.4;color:#fff">{E(b)}</div></div>' for a, b in [
-        ('Pedrea', '„grad kamieni” – setki drobnych wygranych po 100 € na décimo'),
+        ('Pedrea', '„grad kamieni” – prawie 1800 drobnych wygranych po 100 € na décimo'),
         ('Reintegro', 'zwrot 20 €, gdy ostatnia cyfra zgadza się z Gordo'),
         ('Terminación', 'końcówka numeru – wiele osób szuka „swojej” daty'),
         ('El Niño', 'druga szansa: loteria 6 stycznia, w dzień Trzech Króli')])
@@ -555,7 +555,7 @@ def P_los(n, N):
              + f'<div style="position:absolute;left:64px;right:64px;top:1040px;background:linear-gradient(135deg,#E9C66B,#B8892B 55%,#F2D58A);color:#171513;padding:22px 28px 22px 150px;transform:rotate(-1deg);box-shadow:0 18px 40px rgba(0,0,0,.3)">'
              + f'<div style="position:absolute;left:28px;top:50%;transform:translateY(-50%);width:96px;height:66px;background:#F7E2A4;border:2px solid #8C6A1F"><div style="position:absolute;left:0;right:0;top:0;height:0;border-left:46px solid transparent;border-right:46px solid transparent;border-top:36px solid #D9B456"></div><div style="position:absolute;left:36px;top:26px;width:22px;height:22px;border-radius:50%;background:#8E1C22"></div></div>'
              + f'<div style="font-size:15px;font-weight:800;letter-spacing:.22em;color:#8E1C22">SZCZĘŚLIWY EGZEMPLARZ</div>'
-             + f'<div style="{CG}font-size:34px;font-weight:700;line-height:1.1;margin-top:4px">Sprawdź, czy w Twoim numerze jest złota koperta</div>'
+             + f'<div style="{CG}font-size:34px;font-weight:700;line-height:1.1;margin-top:4px">Sprawdź, czy w Twoim egzemplarzu jest złota koperta</div>'
              + f'<div style="font-size:18px;line-height:1.4;margin-top:6px">W kilku losowo wybranych drukowanych egzemplarzach wkleiliśmy prawdziwe décimo na El Gordo 22.12. Znalazłeś? Los jest Twój – pochwal się na <b>@solysol.pl</b>!</div></div>'
              + src('Loterías y Apuestas del Estado – regulamin Sorteo Extraordinario de Navidad i Sorteo del Niño; Policía Nacional (ostrzeżenia o oszustwach). Stan na 21.11.2026.'))
     return frame(n, N, 'Tradycje', inner)
@@ -569,19 +569,19 @@ def P_przepisy(n, N):
                 f'<div style="{CG}font-style:italic;font-size:21px;color:{MUT};margin:4px 0 10px">{sub}</div>'
                 f'<div style="font-size:13px;font-weight:800;letter-spacing:.2em;color:{c}">SKŁADNIKI</div><ul style="font-size:18px;line-height:1.4;padding-left:20px;margin:6px 0 10px">{ii}</ul>'
                 f'<div style="font-size:13px;font-weight:800;letter-spacing:.2em;color:{c}">KROK PO KROKU</div><ol style="font-size:18px;line-height:1.45;padding-left:22px;margin:6px 0 0">{ss}</ol></div>')
-    r1 = rec('Barszcz z remolacha', 'bez kiszenia od tygodnia', '40 MIN',
-             ['1 kg buraków gotowanych (remolacha cocida)', '1,5 l bulionu warzywnego', '2 ząbki czosnku, 2 liście laurowe, 4 ziela', '3–4 łyżki octu z wina (vinagre de vino)', 'sól, pieprz, szczypta cukru, majeranek'],
-             ['Buraki zetrzyj, wrzuć do bulionu z przyprawami.', 'Gotuj 15 min, nie dopuść do mocnego wrzenia.', 'Przecedź, dopraw octem, czosnkiem i cukrem.', 'Odstaw na noc – smak się pogłębi.'], RED)
+    r1 = rec('Barszcz bez zakwasu', 'z gotowanych buraków z supermarketu', '40 MIN',
+             ['1 kg buraków gotowanych (remolacha cocida)', '1,5 l bulionu warzywnego', '2 ząbki czosnku, 2 liście laurowe, 4 ziarna ziela angielskiego', '3–4 łyżki octu z wina (vinagre de vino)', 'sól, pieprz, szczypta cukru, majeranek'],
+             ['Buraki zetrzyj, wrzuć do bulionu z czosnkiem i przyprawami.', 'Gotuj 15 min, nie dopuść do mocnego wrzenia.', 'Przecedź, dopraw octem, solą, pieprzem, cukrem i majerankiem.', 'Najlepszy następnego dnia – smak się pogłębi.'], RED)
     r2 = rec('Dorada zamiast karpia', 'polska Wigilia, andaluzyjska ryba', '35 MIN',
-             ['2 dorady (poproś o oczyszczenie w pescadería)', '2 cytryny, 4 ząbki czosnku', 'oliwa, sól gruboziarnista', 'gałązka rozmarynu lub tymianku', '2 ziemniaki w plastrach'],
-             ['Ziemniaki ułóż w naczyniu, polej oliwą.', 'Rybę natnij, w środek włóż cytrynę i zioła.', 'Piecz ok. 20–25 min w 200°C.', 'Podawaj z zieloną sałatą i cytryną.'], GRN)
+             ['2 dorady (poproś na stoisku rybnym o oczyszczenie)', '2 cytryny, 4 ząbki czosnku', 'oliwa, sól gruboziarnista', 'gałązka rozmarynu lub tymianku', '2 ziemniaki w cienkich plastrach'],
+             ['Ziemniaki ułóż w naczyniu, polej oliwą, piecz 10 min.', 'Rybę natnij, w środek włóż cytrynę i zioła.', 'Połóż rybę na ziemniakach, piecz 20–25 min w 200°C.', 'Podawaj z zieloną sałatą i cytryną.'], GRN)
     r3 = rec('Ajoblanco', 'chłodnik z Malagi – na zimną przystawkę', '15 MIN',
-             ['150 g obranych migdałów (almendra marcona)', '2 kromki czerstwego chleba bez skórki', '1 ząbek czosnku, 100 ml oliwy', '2 łyżki octu z sherry, 600 ml zimnej wody', 'winogrona do podania'],
+             ['150 g obranych migdałów (almendra marcona)', '2 kromki czerstwego chleba bez skórki', '1 ząbek czosnku, 100 ml oliwy', '2 łyżki octu sherry (vinagre de Jerez), sól', '600 ml zimnej wody, winogrona do podania'],
              ['Chleb namocz w wodzie, odciśnij.', 'Zmiksuj migdały, chleb, czosnek i wodę na gładko.', 'Wlewaj oliwę, dopraw octem i solą.', 'Schłodź, podaj z winogronami.'], GOLD)
     inner = (f'<div style="position:absolute;left:64px;right:64px;top:56px">{kick("Wigilia po hiszpańsku · przepisy")}{H("Polski stół <i style=\'color:"+RED+"\'>z hiszpańskiego targu</i>", 76)}'
              f'<div style="font-size:21px;line-height:1.45;margin-top:12px;color:#4A443D">Nie ma karpia i zakwasu na barszcz? Trzy przepisy ze składników z każdego supermarketu i targu na wybrzeżu.</div>{rule()}'
              f'<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:30px">{r1}{r2}{r3}</div></div>'
-             + wow('Uszka ratunkowe', 'Suszonych grzybów szukaj jako <b>setas deshidratadas</b> – najczęściej boletus. W polskich sklepach na wybrzeżu bywa też gotowy zakwas.', 64, 1075, 952, -1)
+             + wow('Na uszka i zakwas', 'Suszonych grzybów szukaj jako <b>setas deshidratadas</b> – najczęściej boletus. W polskich sklepach na wybrzeżu bywa też gotowy zakwas.', 64, 1075, 952, -1)
              + src('Przepisy redakcji Sol y Sól. Ajoblanco – tradycyjna potrawa prowincji Málaga.'))
     return frame(n, N, 'Przepisy', inner)
 
@@ -651,7 +651,7 @@ def P_horoskop(n, N):
 def P_bingo(n, N):
     cells = ['Ktoś pyta „a u was jest śnieg?”', 'Kupiłeś décimo w barze', 'Jadłeś turrón przed obiadem', 'Kolacja zaczęła się po 22:00', 'Zapomniałeś, że 8.12 jest wolne',
              'Szukałeś barszczu w 3 sklepach', 'Plaża 25 grudnia', 'Dałeś się nabrać 28.12', 'Śpiewałeś villancico', 'Ktoś mówi „feliz Navidad” do psa',
-             'Polska paczka z pierogami', 'Zdjęcie przy Calle Larios', '★ FELIZ NAVIDAD ★', 'Kurtka puchowa przy 18°C', 'Video-Wigilia z rodziną w Polsce',
+             'Polska paczka z pierogami', 'Zdjęcie przy Calle Larios', '★ FELIZ NAVIDAD ★', 'Kurtka puchowa przy 18°C', 'Wigilia przez wideo z rodziną w Polsce',
              'Roscón z figurką w zębach', 'Korek na A-7 w drodze na światła', 'Hiszpan próbuje powiedzieć „Wesołych Świąt”', 'Choinka na balkonie z widokiem na morze', 'Cava zamiast szampana',
              'Kolejka po los', 'Winogrona się nie zmieściły', 'Ktoś zjadł wszystkie polvorones', 'Opłatek przywieziony w walizce', 'Trzej Królowie przynieśli więcej niż Mikołaj']
     cc = ''.join(f'<div style="height:146px;display:flex;align-items:center;justify-content:center;text-align:center;padding:10px;font-size:{22 if i == 12 else 18}px;line-height:1.25;font-weight:{800 if i == 12 else 600};'
@@ -683,5 +683,35 @@ def P_zakupy(n, N):
              + wow('Ostatni dzwonek', 'Polskie sklepy na wybrzeżu mają przed świętami największy ruch. Karpia, śledzie i pierogi zamawiaj z wyprzedzeniem – najpóźniej w połowie grudnia.', 64, 1085, 952, -1))
     return frame(n, N, 'Do wycięcia', inner)
 
-THEME_SEQ = ['light','light','green','light','light','light','light','red','light','light','light','light','light','red','yellow','green','light','noir','noir','light','light','yellow','green','light']
-PAGES = [P_cover, P_liczby, P_kalendarz, P_malaga, P_marbella, P_fue_est, P_dzieci, P_gordo, P_los, P_pl_es, P_przepisy, P_slodycze, P_sylwester, P_ciekawostki, P_banus, P_gwiazdy, P_zagaleta, P_crime, P_zagadka, P_slowniczek, P_quiz, P_bingo, P_konkurs, P_koniec]
+def P_gordo1(n, N):
+    facts = ''.join(f'<div style="border-top:2px solid #F2C14E;padding-top:10px"><div style="{CG}font-size:46px;font-weight:700;line-height:1;color:#F2C14E">{a}</div><div style="font-size:18px;line-height:1.35;margin-top:6px;color:#fff">{b}</div></div>' for a, b in [
+        ('1812', 'pierwsze losowanie – jedna z najstarszych loterii świata'), ('22.12', 'losowanie od rana na żywo w TVE – dla wielu początek świąt'), ('20 €', 'décimo, czyli 1/10 losu – tyle kosztuje „los na Gordo”')])
+    tips = ''.join(f'<div style="display:flex;gap:14px;padding:10px 0;border-top:1px solid rgba(255,255,255,.22)"><div style="{CG}font-size:38px;font-weight:600;color:#F2C14E;line-height:.9;min-width:26px">{i}</div><div style="font-size:18px;line-height:1.4;color:#fff"><b>{a}</b> {b}</div></div>' for i, (a, b) in enumerate([
+        ('Kupuj w oficjalnym punkcie.', 'Administración de Loterías ma logo Loterías y Apuestas del Estado.'),
+        ('Participación z baru?', 'To udział w décimo baru lub klubu – na kartce muszą być numer, kwota i dane wystawcy.'),
+        ('Wyniki tylko z oficjalnych źródeł.', 'Uważaj na SMS-y „wygrałeś” z linkiem.')], 1))
+    words = ''.join(f'<div style="padding:9px 0;border-top:1px solid rgba(255,255,255,.22)"><span style="{CG}font-size:28px;font-weight:600;color:#F2C14E">{a}</span><div style="font-size:17px;line-height:1.35;color:#fff">{b}</div></div>' for a, b in [
+        ('Pedrea', 'prawie 1800 drobnych wygranych po 100 € na décimo'), ('Reintegro', 'zwrot 20 €, gdy ostatnia cyfra zgadza się z Gordo'), ('El Niño', 'druga szansa – loteria 6 stycznia')])
+    stats = ''.join(f'<div style="text-align:center;border-right:1px solid rgba(255,255,255,.2);padding:0 8px"><div style="{CG}font-size:42px;font-weight:700;line-height:1;color:#F2C14E">{a}</div><div style="font-size:15px;line-height:1.3;margin-top:6px;color:#fff">{b}</div></div>' for a, b in [
+        ('400 000 €', 'wygrana na jedno décimo'), ('328 000 €', 'na rękę – 20% podatku od nadwyżki ponad 40 000 €'), ('2 000 €', 'do tej kwoty odbiór w punkcie, powyżej – w banku'), ('3 mies.', 'na odbiór – potem wygrana przepada')])
+    inner = (f'<div style="position:absolute;left:64px;top:60px;width:560px;color:#fff">{kick("Tradycja · 22 grudnia", "#F2C14E")}{H("El Gordo – loteria, <i style=\'color:#F2C14E\'>którą żyje cały kraj</i>", 60, "#fff")}'
+             f'<div style="font-size:19px;line-height:1.45;margin-top:14px;color:#F8E6E3">„Gruby” – tak nazywa się główna nagroda. Los kupuje się często wspólnie: w pracy, z rodziną albo w ulubionym barze.</div></div>'
+             f'<div style="position:absolute;left:660px;top:44px;width:356px;background:#F4ECDD;padding:12px 12px 36px;transform:rotate(2.5deg);box-shadow:0 18px 40px rgba(0,0,0,.4)"><img src="file://{PH}xmas_loteria.jpg" style="display:block;width:100%;height:240px;object-fit:cover;filter:sepia(.25)">'
+             f'<div style="position:absolute;left:14px;bottom:9px;font-size:13px;font-style:italic;color:#3A2A10">Ogłoszenie głównej wygranej, ok. 1900 r.</div></div>'
+             f'<div style="position:absolute;left:660px;top:360px;width:370px;font-size:11px;color:rgba(255,255,255,.75)">Fot. Christian Franzen / Wikimedia Commons, domena publiczna</div>'
+             f'<div style="position:absolute;left:64px;right:64px;top:400px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:26px">{facts}</div>'
+             f'<div style="position:absolute;left:64px;top:560px;width:560px"><div style="font-size:15px;font-weight:800;letter-spacing:.2em;color:#F2C14E;margin-bottom:6px">JAK KUPIĆ BEZPIECZNIE</div>{tips}</div>'
+             f'<div style="position:absolute;left:666px;right:64px;top:560px"><div style="font-size:15px;font-weight:800;letter-spacing:.2em;color:#F2C14E;margin-bottom:6px">SŁÓWKA Z LOSOWANIA</div>{words}</div>'
+             + f'<div style="position:absolute;left:64px;right:64px;top:858px;background:#4A0F13;padding:16px 20px 12px;box-shadow:0 14px 30px rgba(0,0,0,.3)"><div style="font-size:15px;font-weight:800;letter-spacing:.22em;color:#F2C14E;margin-bottom:10px">WYGRAŁEŚ? TAK TO DZIAŁA</div>'
+             + f'<div style="display:grid;grid-template-columns:repeat(4,1fr)">{stats}</div>'
+             + f'<div style="font-size:15px;line-height:1.4;color:#F8E6E3;margin-top:10px;border-top:1px solid rgba(255,255,255,.2);padding-top:8px"><b style="color:#fff">Polak też może wygrać.</b> Rezydent podatkowy w Polsce wygraną powyżej 2280 zł wykazuje także w polskim PIT – przed odbiorem zapytaj doradcę podatkowego.</div></div>'
+             + f'<div style="position:absolute;left:64px;right:64px;top:1112px;background:linear-gradient(135deg,#E9C66B,#B8892B 55%,#F2D58A);color:#171513;padding:14px 24px 14px 130px;transform:rotate(-1deg);box-shadow:0 18px 40px rgba(0,0,0,.3)">'
+             + f'<div style="position:absolute;left:24px;top:50%;transform:translateY(-50%);width:84px;height:58px;background:#F7E2A4;border:2px solid #8C6A1F"><div style="position:absolute;left:0;right:0;top:0;height:0;border-left:40px solid transparent;border-right:40px solid transparent;border-top:32px solid #D9B456"></div><div style="position:absolute;left:31px;top:22px;width:20px;height:20px;border-radius:50%;background:#8E1C22"></div></div>'
+             + f'<div style="font-size:14px;font-weight:800;letter-spacing:.22em;color:#8E1C22">SZCZĘŚLIWY EGZEMPLARZ</div>'
+             + f'<div style="{CG}font-size:28px;font-weight:700;line-height:1.1;margin-top:2px">Sprawdź, czy w Twoim egzemplarzu jest złota koperta</div>'
+             + f'<div style="font-size:16px;line-height:1.35;margin-top:4px">W kilku losowo wybranych drukowanych egzemplarzach wkleiliśmy prawdziwe décimo na El Gordo 22.12. Znalazłeś? Los jest Twój – pochwal się na <b>@solysol.pl</b>!</div></div>'
+             + src('Loterías y Apuestas del Estado; Agencia Tributaria; El Debate, BBVA (2025); ustawa o PIT. Stan na 21.11.2026.'))
+    return frame(n, N, 'Tradycje', inner)
+
+THEME_SEQ = ['light','light','green','light','light','light','light','red','light','light','light','red','yellow','green','light','noir','noir','light','green','light']
+PAGES = [P_cover, P_liczby, P_kalendarz, P_malaga, P_marbella, P_fue_est, P_dzieci, P_gordo1, P_pl_es, P_przepisy, P_sylwester, P_ciekawostki, P_banus, P_gwiazdy, P_zagaleta, P_crime, P_zagadka, P_quiz, P_konkurs, P_koniec]
