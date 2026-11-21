@@ -24,11 +24,11 @@ def P_liczby(n, N):
     short = ''.join(f'<div style="border-top:1px solid #CFC5B5;padding:8px 0"><div style="font-size:15px;font-weight:800;letter-spacing:.16em;color:{RED}">{a.upper()}</div><div style="{CG}font-size:23px;font-weight:600;line-height:1.15;margin-top:2px">{b}</div></div>' for a, b in [
         ('03 · Kalendarz', 'Wszystkie ważne daty do 6.01'),
         ('04 · Mapa świąt', 'Kiedy zapalają światła na wybrzeżu'),
-        ('11 · Złota koperta', 'Czy masz szczęśliwy egzemplarz?'),
-        ('15 · Przepisy', 'Barszcz i dorada z hiszpańskiego targu'),
-        ('21 · Kto tu przylatywał?', 'Grace Kelly i Hefner w Marbelli'),
-        ('26 · Kryminalne', 'Złoto spod Heathrow'),
-        ('30 · Bingo', 'Bingo Polaka w Hiszpanii')])
+        ('10 · Złota koperta', 'Czy masz szczęśliwy egzemplarz?'),
+        ('13 · Przepisy', 'Barszcz i dorada z hiszpańskiego targu'),
+        ('18 · Kto tu przylatywał?', 'Grace Kelly i Hefner w Marbelli'),
+        ('23 · Kryminalne', 'Złoto spod Heathrow'),
+        ('26 · Bingo', 'Bingo Polaka w Hiszpanii')])
     inner = (f'<div style="position:absolute;left:64px;right:64px;top:56px">{kick("Na start")}{H("Święta w liczbach", 88)}{rule()}'
              f'<div style="display:grid;grid-template-columns:1fr 1fr;gap:26px 40px;width:560px">{stats}</div></div>'
              f'<div style="position:absolute;left:668px;right:64px;top:206px">{hdr("W numerze", 34)}{short}</div>'
@@ -58,10 +58,14 @@ def P_kalendarz(n, N):
             ('31.12', 'czw', 'Nochevieja', '12 winogron o północy. W Maladze na Plaza de la Constitución.'),
             ('5.01', 'wt', 'Cabalgata de Reyes', 'Wieczorne pochody Trzech Króli w miastach.'),
             ('6.01', 'śr', 'Reyes', 'Dzień wolny i prezenty dla dzieci.')]
-    rr = ''.join(f'<div style="display:grid;grid-template-columns:170px 1fr;gap:24px;padding:17px 0;border-top:1px solid #CFC5B5">'
+    rr = ''.join(f'<div style="display:grid;grid-template-columns:170px 1fr;gap:24px;padding:8px 0;border-top:1px solid #CFC5B5">'
                  f'<div><span style="{CG}font-size:40px;font-weight:600;color:{RED if i % 2 == 0 else GRN};line-height:1">{a}</span> <span style="font-size:15px;color:{MUT};letter-spacing:.1em">{b.upper()}</span></div>'
                  f'<div><div style="font-size:15px;font-weight:800;letter-spacing:.18em;color:{GOLD};text-transform:uppercase">{E(c)}</div><div style="font-size:21px;line-height:1.35;margin-top:2px">{E(d)}</div></div></div>' for i, (a, b, c, d) in enumerate(rows))
     inner = f'<div style="position:absolute;left:64px;right:64px;top:56px">{kick("Kalendarz świąt")}{H("Daty, których <i style=\'color:"+RED+"\'>nie przegap</i>", 80)}{rule()}{rr}</div>'
+    inner += (f'<div style="position:absolute;left:64px;right:64px;top:1118px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px">'
+              + f'<div style="background:{SAND};padding:12px 16px"><div style="font-size:13px;font-weight:800;letter-spacing:.18em;color:{RED}">112</div><div style="font-size:17px;line-height:1.35;margin-top:4px">Numer alarmowy – działa też po angielsku.</div></div>'
+              + f'<div style="background:{SAND};padding:12px 16px"><div style="font-size:13px;font-weight:800;letter-spacing:.18em;color:{RED}">APTEKA DYŻURNA</div><div style="font-size:17px;line-height:1.35;margin-top:4px"><i>Farmacia de guardia</i> – lista dyżurów na drzwiach każdej apteki.</div></div>'
+              + f'<div style="background:{SAND};padding:12px 16px"><div style="font-size:13px;font-weight:800;letter-spacing:.18em;color:{RED}">SZOPKA W RATUSZU</div><div style="font-size:17px;line-height:1.35;margin-top:4px">Málaga: ponad 400 figur na dziedzińcu ratusza (Patio de Banderas).</div></div>' + '</div>')
     return frame(n, N, 'Kalendarz', inner)
 
 def P_malaga(n, N):
@@ -679,5 +683,5 @@ def P_zakupy(n, N):
              + wow('Ostatni dzwonek', 'Polskie sklepy na wybrzeżu mają przed świętami największy ruch. Karpia, śledzie i pierogi zamawiaj z wyprzedzeniem – najpóźniej w połowie grudnia.', 64, 1085, 952, -1))
     return frame(n, N, 'Do wycięcia', inner)
 
-THEME_SEQ = ['light','light','green','light','light','light','light','light','light','red','light','light','light','light','light','green','light','light','light','red','yellow','green','light','light','noir','noir','light','light','light','yellow','green','light']
-PAGES = [P_cover, P_liczby, P_kalendarz, P_mapa, P_malaga, P_marbella, P_fue_est, P_szopki, P_dzieci, P_gordo, P_los, P_mit, P_pl_es, P_polska_wigilia, P_przepisy, P_zakupy, P_slodycze, P_prezenty, P_sylwester, P_ciekawostki, P_banus, P_gwiazdy, P_zagaleta, P_ap7, P_crime, P_zagadka, P_praktycznie, P_slowniczek, P_quiz, P_bingo, P_konkurs, P_koniec]
+THEME_SEQ = ['light','light','green','light','light','light','light','light','red','light','light','light','light','light','light','light','red','yellow','green','light','light','noir','noir','light','light','yellow','green','light']
+PAGES = [P_cover, P_liczby, P_kalendarz, P_mapa, P_malaga, P_marbella, P_fue_est, P_dzieci, P_gordo, P_los, P_pl_es, P_polska_wigilia, P_przepisy, P_slodycze, P_prezenty, P_sylwester, P_ciekawostki, P_banus, P_gwiazdy, P_zagaleta, P_ap7, P_crime, P_zagadka, P_slowniczek, P_quiz, P_bingo, P_konkurs, P_koniec]
