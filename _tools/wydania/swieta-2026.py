@@ -61,7 +61,7 @@ def P_kalendarz(n, N):
     rr = ''.join(f'<div style="display:grid;grid-template-columns:170px 1fr;gap:24px;padding:8px 0;border-top:1px solid #CFC5B5">'
                  f'<div><span style="{CG}font-size:40px;font-weight:600;color:{RED if i % 2 == 0 else GRN};line-height:1">{a}</span> <span style="font-size:15px;color:{MUT};letter-spacing:.1em">{b.upper()}</span></div>'
                  f'<div><div style="font-size:15px;font-weight:800;letter-spacing:.18em;color:{GOLD};text-transform:uppercase">{E(c)}</div><div style="font-size:21px;line-height:1.35;margin-top:2px">{E(d)}</div></div></div>' for i, (a, b, c, d) in enumerate(rows))
-    inner = f'<div style="position:absolute;left:64px;right:64px;top:56px">{kick("Kalendarz świąt")}{H("Daty, których <i style=\'color:"+RED+"\'>nie przegap</i>", 80)}{rule()}{rr}</div>'
+    inner = f'<div style="position:absolute;left:64px;right:64px;top:56px">{kick("Kalendarz świąt")}{H("Daty, których <i style=\'color:"+RED+"\'>nie możesz przegapić</i>", 70)}{rule()}{rr}</div>'
     inner += (f'<div style="position:absolute;left:64px;right:64px;top:1118px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px">'
               + f'<div style="background:{SAND};padding:12px 16px"><div style="font-size:13px;font-weight:800;letter-spacing:.18em;color:{RED}">112</div><div style="font-size:17px;line-height:1.35;margin-top:4px">Numer alarmowy – działa też po angielsku.</div></div>'
               + f'<div style="background:{SAND};padding:12px 16px"><div style="font-size:13px;font-weight:800;letter-spacing:.18em;color:{RED}">APTEKA DYŻURNA</div><div style="font-size:17px;line-height:1.35;margin-top:4px"><i>Farmacia de guardia</i> – lista dyżurów na drzwiach każdej apteki.</div></div>'
