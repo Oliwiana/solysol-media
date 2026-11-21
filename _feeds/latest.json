@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-21T13:13:25Z",
+ "checked": "2026-11-21T13:15:41Z",
  "sources": [
   {
    "name": "The Spanish Eye",
@@ -29,7 +29,7 @@
    "name": "Málaga Hoy",
    "ok": true,
    "feed": "https://www.malagahoy.es/rss/",
-   "count": 122,
+   "count": 121,
    "newest": "2026-11-21T13:02:51Z",
    "error": null
   },
@@ -133,15 +133,15 @@
    "name": "Policía Nacional / Guardia Civil Málaga",
    "ok": true,
    "feed": "https://news.google.com/rss/search?q=(%22Polic%C3%ADa+Nacional%22+OR+%22Guardia+Civil%22)+M%C3%A1laga+when:1d&hl=es&gl=ES&ceid=ES:es",
-   "count": 40,
-   "newest": "2026-11-21T12:41:21Z",
+   "count": 15,
+   "newest": "2026-11-21T11:41:33Z",
    "error": null
   },
   {
    "name": "Polskie media – Hiszpania",
    "ok": true,
    "feed": "https://news.google.com/rss/search?q=(Hiszpania+OR+Hiszpanii+OR+Malaga+OR+Maladze+OR+Marbella+OR+Marbelli+OR+%22Costa+del+Sol%22+OR+Andaluzja+OR+Andaluzji)+when:1d&hl=pl&gl=PL&ceid=PL:pl",
-   "count": 35,
+   "count": 57,
    "newest": "2026-11-21T13:02:00Z",
    "error": null
   },
@@ -213,6 +213,13 @@
    "time": "2026-11-21T13:02:00Z"
   },
   {
+   "title": "Marc Márquez no logra frenar a Bezzecchi y se jugará el título desde la segunda plaza",
+   "link": "https://www.laopiniondemalaga.es/deportes/2026/11/21/marc-marquez-logra-frenar-bezzecchi-136696453.html",
+   "summary": "Resultado más que satisfactorio para Marc Márquez en la jornada en la que puede conquistar su décima corona mundial. El piloto de Cervera partirá segundo en parrilla tanto al sprint como en la carrera dominical, tras quedarse a cuatro décimas de la referencia de Marco Bezzecchi, quien puso un 1:37.2",
+   "source": "La Opinión de Málaga",
+   "time": "2026-11-21T13:01:19Z"
+  },
+  {
    "title": "ATP Finals, en directo: Carlos Alcaraz - Ben Shelton",
    "link": "https://www.laopiniondemalaga.es/deportes/2026/11/21/atp-finals-directo-carlos-alcaraz-136696367.html",
    "summary": "El tenista murciano Carlos Alcaraz y el estadounidense Ben Shelton se citan este sábado en las semifinales de las Finales ATP de Turín, un sexto enfrentamiento entre dos jugadores que buscan su primer título en el torneo y que tienen en común a Juan Carlos Ferrero, antiguo entrenador del español y a",
@@ -243,9 +250,16 @@
   {
    "title": "Moreno pide echar el \"resto\" en esta semana y afirma que España necesita un gobierno que se \"tome en serio\" al campo",
    "link": "https://www.europapress.es/andalucia/noticia-moreno-pide-echar-resto-semana-afirma-espana-necesita-gobierno-tome-serio-campo-20261121135015.html",
-   "summary": "El presidente del PP de Andalucía y de la Junta, Juanma Moreno, ha pedido este sábado \"echar el resto\" en la última semana de campaña electoral por los comicios generales del 29 de noviembre para hacer posible el \"cambio político\" en España, apuntando que se necesita un gobierno de la nación que",
+   "summary": "CABRA (CÓRDOBA), 21 (EUROPA PRESS)\n\n   El presidente del PP de Andalucía y de la Junta, Juanma Moreno, ha pedido este sábado \"echar el resto\" en la última semana de campaña electoral por los comicios generales del 29 de noviembre para hacer posible el \"cambio político\" en España, apuntando que se ne",
    "source": "Europa Press Andalucía",
    "time": "2026-11-21T12:50:15Z"
+  },
+  {
+   "title": "Tak Aneta Kręglicka urządziła swój apartament. Miss Świata '89 mieszka w Warszawie - Gazeta Pomorska",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPQUp0dEVYZjlRbkVpVUZNa2NRNWZFZVhBM1hBSFlyY2EtZ3JWUDhkWllIZWhpbFZMTGQ3cVJkSmt1ZVlSZ0FBM3JXMEVLT2tBcGkyVVpSVmdxa0Y3bDJVM3dwdHplUjQyNzBsTkxJd2UwQ0w0U1B5dHdBd0Y0OEg2c05BajlDNk5xd3VZcEtILTZ0eE91WUMwRW5GQlpfNm0xb0V5cEI1cWk2MXhab0o5dlhuMWt5YkhWQk5QNnZ0VG1JNUtCWUVGN2RFQQ?oc=5",
+   "summary": "Tak Aneta Kręglicka urządziła swój apartament. Miss Świata '89 mieszka w Warszawie    Gazeta Pomorska",
+   "source": "Polskie media – Hiszpania",
+   "time": "2026-11-21T12:49:14Z"
   },
   {
    "title": "WATCH: Car destroyed by fire in Malaga Airport car park",
@@ -269,18 +283,18 @@
    "time": "2026-11-21T12:43:00Z"
   },
   {
-   "title": "Cerca de 50 caravanistas celebran en Puente Genil el encuentro 'Viajeros sin Rumbo' - Diario Córdoba",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQeUREVGV1OHI0M0llSjh4Wmt6cDV5bjRmQ1RtRC1NNW0xMDc4YzRaZ3dNWThTZWV6Rzd1WUxENlowSjJUaXNIU28wWHlDbGRLbUFMNmpIeFptYlVJTG1ERnQwVVVrODJpU2tocGZHZlY1cGZDX3lMZ0RLX1UwMVdMeWlCT2ZCQURydzVpNWlWYTQwQW1yT2lPc3Y1RjlpZUZ6ZWFJ0gGoAUFVX3lxTE1tbF9vQ0FyZGRqRzhhemxmbzJzblg0S1cwVW43MHQ1Vkt4MTZBZkhUY2VwcXNFcUNLd0E1bmRQUEM1b2dEOG1HRGV1RjhBaC1ZMi1XUmRBYUxQMzJGWW5Oamg1Yy1XeWNtelNyT2NZcWR4ZkltOThFaXJUbDFSUEdQczFTUkpsaGY4TVhoX1d3ZWd2X19LMFEyZjd6WUM0cU9SSGN2QmRJcQ?oc=5",
-   "summary": "Cerca de 50 caravanistas celebran en Puente Genil el encuentro 'Viajeros sin Rumbo'    Diario Córdoba",
-   "source": "Policía Nacional / Guardia Civil Málaga",
-   "time": "2026-11-21T12:41:21Z"
-  },
-  {
    "title": "Calero, ante la Real Sociedad.",
    "link": "https://www.malagahoy.es/malaga_cf/fernando-calero-no-entrena-osasuna_0_2008555718.html",
    "summary": "El central\nno se ejercitó con el grupo por una sobrecarga en sus músculos isquiotibiales\nNombres propios del Osasuna-Málaga",
    "source": "Málaga Hoy",
    "time": "2026-11-21T12:36:54Z"
+  },
+  {
+   "title": "Znamy wyjściowe jedenastki na mecz Alaves – Deportivo La Coruña (21.11.2026) - Piłkarski Świat",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPOU1CMVZwajNwcFVpU08yLWQ1dG5pOWt4cG4zR1gxaXFrc3gwUmQ3NTJ2dFQ0NG8xQTBIaVZ5QVNYZXRVS3hWMGJvRDhMbGN2RzlrLWJxcmc1aTJkU04wc1RNb21nSDN1eV9obDBmYXgxb2REYVhSa0RjbWRvcGZKM0N0dVJmVUp1?oc=5",
+   "summary": "Znamy wyjściowe jedenastki na mecz Alaves – Deportivo La Coruña (21.11.2026)    Piłkarski Świat",
+   "source": "Polskie media – Hiszpania",
+   "time": "2026-11-21T12:33:45Z"
   },
   {
    "title": "El Frente Amplio propone más árboles y energía solar para combatir el calor extremo en Málaga",
@@ -381,13 +395,6 @@
    "time": "2026-11-21T11:59:36Z"
   },
   {
-   "title": "La Guardia Civil intercepta dos embarcaciones con ocho inmigrantes que cruzaban el Estrecho desde Ceuta - Europa Sur",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQREFNWllQb05TMTlSTXFaVWRXbjJxMDJDRERaVGc4a2lkalVjamxYTWxNaDJiS0l4UDFIRC1JMHlUZm5VTnpFZHctYlJUUWNFMkh2cFotalVjcUdiLWdpdktSNFZYSlFvUUpPd1l0RUVBTW1NWW5BWHFFTThzbUstcS1iN29heFo2Tlh2M01lYXBHNm1yNzR6NUdYMFlySFp3UWd4TkgwbHF0V2NZX3Qtb3N4N0t5MU3SAbwBQVVfeXFMTllFdTVCWVJ4RDlfVGpJVTI3MUtYMXZoUjJwWlYwenZmTGRKSzhXa0o4U2VsNWdDTUtWX0RBMVpuYVV2b3psTzNyTUwyak42dW9iXzFpaWxFZWtoX3d0WFVHRWc1WVpleXoyWTBKSEZDU1F3RFBKckRoWWlCcXM4ajZ0b0liWFJWbXhLYkNPeXJDTjgwWmw0b3hPbnczcWJ1TDBrRW5sTklScll0XzlkdFRLeGxLNG9HWEowREw?oc=5",
-   "summary": "La Guardia Civil intercepta dos embarcaciones con ocho inmigrantes que cruzaban el Estrecho desde Ceuta    Europa Sur",
-   "source": "Policía Nacional / Guardia Civil Málaga",
-   "time": "2026-11-21T11:55:28Z"
-  },
-  {
    "title": "Costa del Sol gang linked to string of shootings probed over Starlink sabotage attacks that hit Ukraine’s drones – as boss ‘hides out in Russia’",
    "link": "https://www.theolivepress.es/spain-news/2026/11/21/costa-del-sol-starlink-sabotage-russia-ukraine/",
    "summary": "The ‘Dalton Clan’ is being probed over arson attacks across Europe on Starlink stations, which provide the internet link the Ukrainian army relies on to fly drones.",
@@ -410,7 +417,7 @@
   },
   {
    "title": "¿Quién dejó las maletas que desataron el caos en Málaga? Dos falsas alarmas, un misterio y una incógnita sin respuesta - Cadena SER",
-   "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNbWZNWTFoOFBmeDViMTBOeGVUbWtGdVUtM295Smw4OFhJczVUWnVNcTBFM3F5VkhaUEhJUlJraG9xSU1nNmJ1YVRuNThEQkFpOE5EUUlJV1dsME5JTm4ycnFQY3U1NDM1T2hmNWk1NFlmVkRidnJjR0hVNlZCcldvbDczQzMtV256cUYtVWpCdWxfZW94bExuMVRYVXI3UjVfWjBmVmJXSHA0WWJkeXl3MjR1OUp6d3VFYzdqTTJxY2tsN3RxVmhxb1lNa3NqQ2pzc1drYXdINXhVb011WDFoVVBuSHk3cURlbzdZNUdsZGlnMy1CVnBHSXdleldqaFHSAZMCQVVfeXFMTWNISkNyTHVUVU9odHNFX1p3WDhNcTZrTmVpTDBFZm55S19ENk9UOTZZWk5EYVR0c1dkMUFiWF93WllzdU5QRjdRc0lnSWhpaUVHM3JiVUF3Q0Z1bFVQenYwcVFxcGF5Y2NSZjRQb1RJQlFIZ2xuY0RKN1BTYUNKako3bTJSNmNyZG9jemlIQlhLU2ZJZ2VVczktaXAxdEhLZE5JQUJwbnQ5cGVhREp4aE45SEZlMTdRMDhpM0xPM3R1ZDFYbXFDZTVfcWUtb0p3ZW1FTVQzdzJoQjVSMzAyQkVXcWtkR0xGbUlyc0dQRWJCcHllUlM2TVpZc1RISzRFakEtMHdWMTNiUXl5QzAyRmZOdU0?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNY0hKQ3JMdVRVT2h0c0VfWndYOE1xNmtOZWlMMEVmbnlLX0Q2T1Q5NllaTkRhVHRzV2QxQWJYX3daWXN1TlBGN1FzSWdJaGlpRUczcmJVQXdDRnVsVVB6djBxUXFwYXljY1JmNFBvVElCUUhnbG5jREo3UFNhQ0pqSjdtMlI2Y3Jkb2N6aUhCWEtTZklnZVVzOS1pcDF0SEtkTklBQnBudDlwZWFESnhoTjlIRmUxN1EwOGkzTE8zdHVkMVhtcUNlNV9xZS1vSndlbUVNVDN3MmhCNVIzMDJCRVdxa2RHTEZtSXJzR1BFYkJweWVSUzZNWllzVEhLNEVqQS0wd1YxM2JReXlDMDJGZk51TdIBkwJBVV95cUxNY0hKQ3JMdVRVT2h0c0VfWndYOE1xNmtOZWlMMEVmbnlLX0Q2T1Q5NllaTkRhVHRzV2QxQWJYX3daWXN1TlBGN1FzSWdJaGlpRUczcmJVQXdDRnVsVVB6djBxUXFwYXljY1JmNFBvVElCUUhnbG5jREo3UFNhQ0pqSjdtMlI2Y3Jkb2N6aUhCWEtTZklnZVVzOS1pcDF0SEtkTklBQnBudDlwZWFESnhoTjlIRmUxN1EwOGkzTE8zdHVkMVhtcUNlNV9xZS1vSndlbUVNVDN3MmhCNVIzMDJCRVdxa2RHTEZtSXJzR1BFYkJweWVSUzZNWllzVEhLNEVqQS0wd1YxM2JReXlDMDJGZk51TQ?oc=5",
    "summary": "¿Quién dejó las maletas que desataron el caos en Málaga? Dos falsas alarmas, un misterio y una incógnita sin respuesta    Cadena SER",
    "source": "Policía Nacional / Guardia Civil Málaga",
    "time": "2026-11-21T11:41:33Z"
@@ -435,6 +442,13 @@
    "summary": "",
    "source": "Diario Sur",
    "time": "2026-11-21T11:36:01Z"
+  },
+  {
+   "title": "Florentino Pérez i José Mourinho całkowicie zgodni. Real Madryt zabezpieczył przyszłość gwiazdy - Transfery.info",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOSXQtZkd1ck5ZZmJnUmNBUUtXa1dwTTFzalhsM241V2p5blo5M3BEbjlVYkljVV9DX3hPN21zb2FlZXJVanpaakVHTFZfZXp5UTVuZDVOczdBdlhjUk15YjhXTlJUZk9ETjlnRDc1cFBQZ04waWVCaVlMV3lhUjV2WGk2RjcxNXVvUjkxN292VzRqNlBzckdzanVlcFhPdU5oUDREb3Z1UU1jaDFnc3R2d05vemxENDVXSFdwa3VhN0hyQnM0Y1hUbE0wc3lxS3dEcEE?oc=5",
+   "summary": "Florentino Pérez i José Mourinho całkowicie zgodni. Real Madryt zabezpieczył przyszłość gwiazdy    Transfery.info",
+   "source": "Polskie media – Hiszpania",
+   "time": "2026-11-21T11:35:17Z"
   },
   {
    "title": "Manolo Sarria junto a su hermano, en una imagen reciente",
@@ -486,13 +500,6 @@
    "time": "2026-11-21T11:12:10Z"
   },
   {
-   "title": "Encuentran el cadáver de un hombre en una cueva de la Fuente del Avellano - Ideal",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZ1pJNmw5aHJacnNCdk0yckw2VUF3ekJvTVBHdFkxbVo0cGNGeXpZNkdUdmVPLUVuc1dxdVFrTWF0VDM2bmNPY09JRWN1b0I3ZEQwVXFOd2FnV3dkUXlHVTdqczBFdS1hUkxkU0k5cnJsVDNJY1c0dERMQWpzZDFoV19SV00xRDlRdVh1Zm1UZzNSU2tqSzVGcmpqRi1zYXkxMi1HYVln0gGmAUFVX3lxTE1nWkk2bDloclpyc0J2TTJyTDZVQXd6Qm9NUEd0WTFtWjRwY0Z5elk2R1R2ZU8tRW5zV3F1UWtNYXRUMzZuY09jT0lFY3VvQjdkRDBVcU53YWdXd2RReUdVN2pzMEV1LWFSTGRTSTlycmxUM0ljVzR0RExBanNkMWhXX1JXTTFEOVF1WHVmbVRnM1JTa2pLNUZyampGLXNheTEyLUdhWWc?oc=5",
-   "summary": "Encuentran el cadáver de un hombre en una cueva de la Fuente del Avellano    Ideal",
-   "source": "Policía Nacional / Guardia Civil Málaga",
-   "time": "2026-11-21T11:08:12Z"
-  },
-  {
    "title": "Ilurco mira a Estados Unidos, Brasil y Oriente Medio en su plan de exportación de depósitos de agua prefabricados",
    "link": "https://www.europapress.es/andalucia/malaga-00356/noticia-ilurco-mira-estados-unidos-brasil-oriente-medio-plan-exportacion-depositos-agua-prefabricados-20261121120048.html",
    "summary": "La empresa Ilurco, especializada en la producción e instalación de depósitos metálicos prefabricados para el almacenamiento de agua, tiene las miras puestas en Estados Unidos, en Brasil y en Oriente Medio en un plan de exportación que ya le hace estar en una veintena de países con una extensión geog",
@@ -512,13 +519,6 @@
    "summary": "El repunte de llegadas de inmigrantes a las islas Canarias en las últimas semanas ha puesto en evidencia las dificultades a las que se enfrentan las fuerzas de seguridad para tratar de contener la salida de embarcaciones en África occidental. Tanto España como la Unión Europea (UE) han reforzado en",
    "source": "La Opinión de Málaga",
    "time": "2026-11-21T11:00:39Z"
-  },
-  {
-   "title": "Feijóo llama al PP a no bajar la guardia ante una plaza de toros de Valencia desbordada: \"Heridos son todavía más peligrosos\"",
-   "link": "https://www.laopiniondemalaga.es/nacional/2026/11/21/feijoo-buscara-desbordar-hoy-plaza-136693059.html",
-   "summary": "Desafiando a Sabina y a los versos de Félix Grande (al lugar donde has sido feliz no debieras tratar de volver), el PP ha regresado este sábado a la plaza de toros de Valencia, tierra santa para los populares, que desde la década de los 80 han celebrado en esta arena grandes mitines que han precedid",
-   "source": "La Opinión de Málaga",
-   "time": "2026-11-21T10:55:37Z"
   },
   {
    "title": "Estos son los puntos de Andalucía donde puedes vacunarte sin cita este sábado",
@@ -554,6 +554,27 @@
    "summary": "'Al cielo con ella' es cancelado de manera abrupta aunque la cadena ha rectificado y asegura que Henar tendrá un nuevo formato\n¿Quién es Henar Álvarez?  Su programa en TVE salta hoy a La 1 con Shakira\nEl apuro del mal olor que percibe Juan y Medio en",
    "source": "Málaga Hoy",
    "time": "2026-11-21T10:40:55Z"
+  },
+  {
+   "title": "OFICJALNIE: Tych meczów w eliminacjach EURO 2028 nie zobaczymy - Transfery.info",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMHJKQlVQUEJXaE41anJZM2NSd2FlU1F2eEl3VWRMYTBlTUtkdnU4SXh2YnppU3JGdVlsV2IxcWZrekRwQnQ1Q2I0MENJV2d4UmVmREhjNEVIZ2VMY3ZGdnFYS0ZsTHQyaVo3cjFTRUZzSUtLQVZobkZzVWMyUFBQMDBja0pmSmNHVERuUDlxTmNaOXItRXFpV0pqcGJYU1FWQmlvZzZR?oc=5",
+   "summary": "OFICJALNIE: Tych meczów w eliminacjach EURO 2028 nie zobaczymy    Transfery.info",
+   "source": "Polskie media – Hiszpania",
+   "time": "2026-11-21T10:34:19Z"
+  },
+  {
+   "title": "Barcelona przedłużyła kontrakt z Xavim Espartem. Umowa do 2030 roku - Piłkarski Świat",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTEtBVnRxUExFZTJlZjc0VmhEbE5Remc2Ry16ck53RWdSZWpXb0tpY2VTSkVxTGRzNGZGSTBYbkpPdlV4ZV9OM3M1SWwyckZ2WUJiaDNXbzQxZEN3Sm1pU0dOWnJjbGdER25tMDZ4enhzTmV4cjVvdmJmWTZIQjVqWVZMVUdIR281Wm84TkppcFRhWmo5aENqc1BB?oc=5",
+   "summary": "Barcelona przedłużyła kontrakt z Xavim Espartem. Umowa do 2030 roku    Piłkarski Świat",
+   "source": "Polskie media – Hiszpania",
+   "time": "2026-11-21T10:32:00Z"
+  },
+  {
+   "title": "Desvelado el misterio de la nueva furgoneta de la DGT - Highmotor",
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA0VE05WC1FTjdOQWdfMFl3c180RHlqSmVLbTVkR09Xb0o4TWNhakJlLWRqTVRCUU1DNTlOYlNVRWVPTlRXcm8telQxSkR5clRuNzBoQ1lJMDlDQXRka0c3dFUtX2pvN3p5cFNoQUpQVkxuRmVVTERaSEln?oc=5",
+   "summary": "Desvelado el misterio de la nueva furgoneta de la DGT    Highmotor",
+   "source": "Polskie media – Hiszpania",
+   "time": "2026-11-21T10:27:15Z"
   },
   {
    "title": "MINI logra 3 años récord de ventas en España - Highmotor",
@@ -654,20 +675,6 @@
    "time": "2026-11-21T09:29:51Z"
   },
   {
-   "title": "La Guardia Civil encuentra dos cabezas de muflones en el maletero de un cazador furtivo de Granada - Ideal",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUF9FUHB6aUsycUloQXZCZ0pMZlJTWE1lZEl1MkdoZEZLTlZFcWNXY1BPZjI1QUlta096MC1oTlctb2FLYjFhUmpWek9weGs4ZEFpTlZQMnVCTlVyVkkxd281TWVSc1hQLXpiSnMxQjBGeVVBaVV3dFNVUFpidnd0RjEtZjdPdklKY1gzYWJ6cFVqRnZoaDRObTFlamZVdFQwLWRFd3ZzTk1oNWtyTlHSAa4BQVVfeXFMT1BfRVBwemlLMnFJaEF2QmdKTGZSU1hNZWRJdTJHaGRGS05WRXFjV2NQT2YyNUFJbWtPejAtaE5XLW9hS2IxYVJqVnpPcHhrOGRBaU5WUDJ1Qk5VclZJMXdvNU1lUnNYUC16YkpzMUIwRnlVQWlVd3RTVVBaYnZ3dEYxLWY3T3ZJSmNYM2FienBVakZ2aGg0Tm0xZWpmVXRUMC1kRXd2c05NaDVrck5R?oc=5",
-   "summary": "La Guardia Civil encuentra dos cabezas de muflones en el maletero de un cazador furtivo de Granada    Ideal",
-   "source": "Policía Nacional / Guardia Civil Málaga",
-   "time": "2026-11-21T09:25:23Z"
-  },
-  {
-   "title": "Actuación de la Guardia Civil contra un furtivo de Granada - Ideal",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQa01GUmpjaHUydGN4Vm43VWlIQlRWNGYyLVJvUmRQd0R2V0Z3OWZ4ZXQwX0Zubi0zclNHVURERDR2bVNRV2NCcFVBS2hjWlVId2FNSHZUSEFpYTJSeXVKYmlwNTQyd1FTQXlJQWdRODg4NmJST0NMUGZpckdsSjhfRVdEQVJCelNLeEtDMkxkc1R3cFc4UUFNWVhtMNIBmwFBVV95cUxQa01GUmpjaHUydGN4Vm43VWlIQlRWNGYyLVJvUmRQd0R2V0Z3OWZ4ZXQwX0Zubi0zclNHVURERDR2bVNRV2NCcFVBS2hjWlVId2FNSHZUSEFpYTJSeXVKYmlwNTQyd1FTQXlJQWdRODg4NmJST0NMUGZpckdsSjhfRVdEQVJCelNLeEtDMkxkc1R3cFc4UUFNWVhtMA?oc=5",
-   "summary": "Actuación de la Guardia Civil contra un furtivo de Granada    Ideal",
-   "source": "Policía Nacional / Guardia Civil Málaga",
-   "time": "2026-11-21T09:25:15Z"
-  },
-  {
    "title": "Spain could become ‘invisible’ in Brussels and Washington under a prime minister who refuses to learn English",
    "link": "https://www.theolivepress.es/spain-news/2026/11/21/spain-invisible-english-feijoo/",
    "summary": "Spain risks sliding from key European powerbroker to an 'invisible' backbencher.",
@@ -675,11 +682,11 @@
    "time": "2026-11-21T09:21:22Z"
   },
   {
-   "title": "La Guardia Civil desmantela dos plantaciones de marihuana en el interior de una vivienda de Encinas Reales - ABC",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOYUg4dEwtZEJZZmhpQ1RuYVRYbDFMblZrak1BRkYxMGRiNlhnX2RlRkxVdkRMVFJFeHNrZjZ1aS1hWnptb0hjQy1faEw1UjFUek8wSTBuZUdaeFpfSWlWbGJHcHRwMklCVTBnWjl6VnJCaVEwR05lLTQzNFRoWEF4bE5pMThoQjdlZDhtNW9nWFpvRU5sMVdiVEdsbnBYdVB2dUlLaXFIX29kYlFqX2dlQTJuVkFQVkRuS3NpMjU3Z3RpM0cwbF9F0gHMAUFVX3lxTE15YmR3RjFBaDBPRUZoZ251bkw5THg4U0FMNFY2SkdPRzhIMjZOUGpabkhwZkpkakpRVlZLb2RZTGhXMThETjBRMzRuWkRpU1FENkhMOUJPc1pGUEtSdmdJeDVRaTFiZ0JPOEFqNU5kb2RKYnJuNk82V0daZmpnbVY5c0E4LUdjdFU3a283dkFzSnVoRmlPYm16QTBvUmhSSVAtZ1BFZV9jVWdFTDluVDVrbllNQzZnSnJZc2VVRmJDNjJGRThfeTRZR2pEaA?oc=5",
-   "summary": "La Guardia Civil desmantela dos plantaciones de marihuana en el interior de una vivienda de Encinas Reales    ABC",
-   "source": "Policía Nacional / Guardia Civil Málaga",
-   "time": "2026-11-21T09:16:17Z"
+   "title": "Andreas Christensen może opuścić mecz Barcelony z Villarrealem - Piłkarski Świat",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVUZkSE9nRnNhdmJjQWdEVDRNMFNwenhBQzJ0TWNOcDBoTk1IWVdVTnIyaExTLTFua2xxX1doNHFpNGlQLU42ZnAwVWtrX2ZiQTBEb2k2MGE2ZjhadFdFY292eUZ1d3NLWndWVVgyQkFFbW9SdDFWMkVQdXdfdlQ1SFU3M29HWTZ1dlMxVG1hNGxRc242?oc=5",
+   "summary": "Andreas Christensen może opuścić mecz Barcelony z Villarrealem    Piłkarski Świat",
+   "source": "Polskie media – Hiszpania",
+   "time": "2026-11-21T09:16:46Z"
   },
   {
    "title": "Condenado a cuatro años de prisión por violar a un menor que conoció por la red social Grindr en Granada",
@@ -689,18 +696,18 @@
    "time": "2026-11-21T09:00:04Z"
   },
   {
-   "title": "Muere una mujer de 61 años intoxicada por un escape de gas en una vivienda de Ronda, en la provincia de Málaga - El MIRA",
-   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOR3ZCc1JpbnJQZ0hIU185amhyR0t4UVpoc2RTek5wanp2NEtmLXltcGlJOWQ5dEJtczhYTkotU3BkRDlqU2E5Vm1iTVJzNEZvQnJveGFmb0p0dERYSGl2MnVsWDk2TnZUOEdyTjYyT0pPVnVOUFdVeHdveUNVUzItaDFyN3FCaUw1NldCeTY1UEpGVjl5Q1U2Rmh2UGhBQW5vbk0yTEdKbURkeVZWWEh2TUxzSjZOTlVpRktpWXNWOFZ3V3hmRVNkbEd5UVdSZXRYZ3gw?oc=5",
-   "summary": "Muere una mujer de 61 años intoxicada por un escape de gas en una vivienda de Ronda, en la provincia de Málaga    El MIRA",
-   "source": "Policía Nacional / Guardia Civil Málaga",
-   "time": "2026-11-21T08:40:32Z"
-  },
-  {
    "title": "Dos afectados por inhalación de humo tras un incendio en el interior de una vivienda en Carmona (Sevilla)",
    "link": "https://www.europapress.es/andalucia/sevilla-00357/noticia-dos-afectados-inhalacion-humo-incendio-interior-vivienda-carmona-sevilla-20261121093901.html",
    "summary": "Efectivos del Consorcio de Prevención, Extinción de Incendios y Salvamento (CPEIS) de la Provincia de Sevilla han intervenido durante la madrugada de este sábado en un incendio declarado en una vivienda ubicada en la urbanización Pino Grande, perteneciente al término municipal de Carmona y ubicad",
    "source": "Europa Press Andalucía",
    "time": "2026-11-21T08:39:01Z"
+  },
+  {
+   "title": "Opel i Leapmotor: nowy kompaktowy SUV segmentu C od 2028 roku - Moto Magazyn",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUUt5MTNPUTJxekg3ejBDTDVpN25wVWZ5WENCTFNpc1JmcUhlN0F5M3lhSTNCOFJEM0hLeXhTcW51b2tSeXMyNl80M1dPSldjZVhzb0tVS1FlRDhZZlJTSWZEUkcxaEpUd1BuYTUzN0F3NFRkNkVfVl9ZTkFIbkdDWHFPbUFvdGplUm1YVzNvREtDV2FBdWNkbHBubw?oc=5",
+   "summary": "Opel i Leapmotor: nowy kompaktowy SUV segmentu C od 2028 roku    Moto Magazyn",
+   "source": "Polskie media – Hiszpania",
+   "time": "2026-11-21T08:38:10Z"
   },
   {
    "title": "El abogado Santi González es detenido en Bilbao acusado de favorecer la inmigración irregular - BilbaoHiria",
@@ -766,11 +773,25 @@
    "time": "2026-11-21T08:09:00Z"
   },
   {
+   "title": "Fatalna końcówka Barcelony, mnóstwo stresu! Co też robił Garcia?! - Meczyki.pl",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPR242R2FtdnVKUTVIcGE2OUpMOGJBMUpsRmdUVmFpdXk4enpDQjh2Q2hyQVpPLUZGNDQxQjc5VVI1VXNYSVM2Z0pIbExTUkYtbUo2a2kwUXgxWFZDMkdibEZ0RUNETHY2UEVnUjhSRXpCbG1oLXpFSnMwNWpJRVhVRmZPRnR5RzdLTEh2SW12WUtkT292S1UyRTlOVDBQNnllSUczWEM3bnVSLXVldHc?oc=5",
+   "summary": "Fatalna końcówka Barcelony, mnóstwo stresu! Co też robił Garcia?!    Meczyki.pl",
+   "source": "Polskie media – Hiszpania",
+   "time": "2026-11-21T08:04:20Z"
+  },
+  {
    "title": "El plato Origen, vencedor del Cinco Jotas Challenge",
    "link": "https://www.malagahoy.es/gente/receta-cinco-jotas-triunfado-san_0_2008554961.html",
    "summary": "La mexicana Luciana Abbud vence en el Cinco Jotas Challenge 2026 con el plato Origen, nido de patata con huevo y salsa de chorizo 100% ibérico\nLa 'sagrada' nueva imagen navideña de Cinco Jotas\nLa visión desde Texas del jamón onubense y este menú para",
    "source": "Málaga Hoy",
    "time": "2026-11-21T08:04:08Z"
+  },
+  {
+   "title": "Real Madryt – Celta Vigo sędzia. Kto sędziuje to spotkanie? (21.11.2026) - Piłkarski Świat",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0wOEk5cHpSaVBBcWtuZ0JNaEJCWEI4cy1fSzE1QWlvOFlkRVNOaDAxUEJ4ci1VbUdwMVV2cGUyWUpmNnk0cG80OWxSN0VvTVduQUpmRzQtZ1hHYTI3N3NnNElyTnJhQ0RIYl9SUHBkcUZ2SEEzbnJhQ0lGUFo4VDg?oc=5",
+   "summary": "Real Madryt – Celta Vigo sędzia. Kto sędziuje to spotkanie? (21.11.2026)    Piłkarski Świat",
+   "source": "Polskie media – Hiszpania",
+   "time": "2026-11-21T07:59:57Z"
   },
   {
    "title": "80 proc. energii z OZE. Hiszpania zmienia zasady dla wielkich odbiorców prądu - Farmer.pl",
@@ -813,6 +834,13 @@
    "summary": "Partido correspondiente a la jornada 9 de Liga Endesa, última antes de la ventana\nEvans, a Burgos",
    "source": "Málaga Hoy",
    "time": "2026-11-21T07:00:39Z"
+  },
+  {
+   "title": "Espanyol wygrał z Athletikiem Bilbao. Roberto Fernández przesądził o wyniku - Piłkarski Świat",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMTFETnVYeThzcjF5WXl5SmN4UjFEMzBBX1JHM1pmY2NDTUNJOFVYVHdTRDdKaFVrVnpFX1JleHVCV1IxTE9Ua0ZXbzNoODZxX05HQjh0Zy1GeWd1N1lDRDB5VWdxV3RFaFhLa3IzUVpHNUxOZi1aY1hLVWtOSjZGMGtaRjZ4dTJUUXI4Y2xPWWZwQjZyZDYtLWQ0VmE1NlRrbEdkeQ?oc=5",
+   "summary": "Espanyol wygrał z Athletikiem Bilbao. Roberto Fernández przesądził o wyniku    Piłkarski Świat",
+   "source": "Polskie media – Hiszpania",
+   "time": "2026-11-21T06:45:00Z"
   },
   {
    "title": "La banda municipal de Málaga, en una imagen.",
@@ -932,6 +960,13 @@
    "summary": "El Unicaja busca llegar a la ventana con balance positivo en la ACB y sin perder terreno en la carrera por la Copa, en una pista que históricamente se ha indigestado y ante un rival que acumula siete derrotas seguidas\nEn caída libre",
    "source": "Málaga Hoy",
    "time": "2026-11-21T05:44:55Z"
+  },
+  {
+   "title": "Real Madryt – Celta Vigo: zapowiedź meczu 13. kolejki La Liga - Piłkarski Świat",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOcWViOC14eG5oeGJoMDFqWHhwZGd1czlQaThWdzFyaDdhOXplbjJvMTZqLVlxYS1feHFISEthbEVpTlNwa1FUM2Nhb1hpd0M5TXZySTRLVTJZak5vWE9hR0w4ZV9FYllTOU5ZWGkyLXhDck9NOEN3NU1XQVcwVzVaQmZZY0JQNUlfWDRieGtB?oc=5",
+   "summary": "Real Madryt – Celta Vigo: zapowiedź meczu 13. kolejki La Liga    Piłkarski Świat",
+   "source": "Polskie media – Hiszpania",
+   "time": "2026-11-21T05:38:00Z"
   },
   {
    "title": "La periodista Ángeles Lucas, fotografiada hace unas semanas en su ciudad natal, Sevilla.",
@@ -1137,6 +1172,13 @@
    "time": "2026-11-21T01:47:42Z"
   },
   {
+   "title": "Reprezentacja Wietnamu do lat 17 dokonała czegoś, czego nie udało się dokonać Włochom, Hiszpanii, Francji i Holandii. - Vietnam.vn",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQb05CWHJtblBLbWdpc1lnQXkyS09EQkRCSjN2Z19ibHdyTWVwZ0tsZFpKZV9Ia3l5bHNxTEtoZlFUNkZjOU9CM1A1SE4yamQxUUhKZEFiQzVac2Q2RjhPbFZ3clpzWWZJUFBlSTY0SmdpSXpTYjJTLWdxeHFZaXE3ME1lZDJaSy1fOWhJNWhScGNDaFN3eFNtV2toald0RW4weDVRMlNB?oc=5",
+   "summary": "Reprezentacja Wietnamu do lat 17 dokonała czegoś, czego nie udało się dokonać Włochom, Hiszpanii, Francji i Holandii.    Vietnam.vn",
+   "source": "Polskie media – Hiszpania",
+   "time": "2026-11-21T00:31:43Z"
+  },
+  {
    "title": "Frente al autoritarismo, Europa",
    "link": "https://www.diariosur.es/opinion/frente-autoritarismo-europa-20261121220528-nt.html",
    "summary": "",
@@ -1172,11 +1214,18 @@
    "time": "2026-11-21T00:00:00Z"
   },
   {
-   "title": "Detienen a un abogado vizcaíno por favorecer la inmigración irregular - El Correo",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSjBKMGxnaE9oVmVvdDZrS2xnaHM2UGZhYmlKMVJtd2JyYVFXd1JhYm5vbkJHanZkd1VtblpHbzdPYzV2MGVxRjdHYXNTZVlaTFFrUXJsb29obTFTd2lacUU0NklJVWRXR0FMT3RPUnU2UUdVY1hKT3gyamtrczQyQjdTcjVoN3VnMVU2TmQtbU00bWVmVWk5NnhOT3VacDduZ0dycEhJblZvMUhOcFROTFlpVdIBuAFBVV95cUxNT2FvR25LTXpvejl6NlpKWmlTenVqWnlKZHl1dHdpR1lybC1HRy1VQWxyUzNRdzVCc19JZ25RT0E4S0xKWXcybG9fOEowUVdfbzRoamoyTUVxb3hQZ2JiM0NPMDhWZC1tZ3h1SHBrNHlBeUpRR1U0TE9uLVhpV1lNdXp0aE8yVDZ2MEYwOU5JZ0VmOVJKZE1hb2FBZDhndDdHaVlwVDlRSGxxVTRidUVELTduYk1aRjJI?oc=5",
-   "summary": "Detienen a un abogado vizcaíno por favorecer la inmigración irregular    El Correo",
-   "source": "Policía Nacional / Guardia Civil Málaga",
-   "time": "2026-11-20T23:08:24Z"
+   "title": "Dzisiejsze okładki - RealMadryt.pl",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ENTlYRjR4UlJqRnRlZVNCQ1ZCUjByQUFJR1dVRkJKSjA0UXBCRUZvQ0VsMGtubWpLNzd0ZjdxZE1yRXlRT1FTN3JVWGM0OU9Id1JxV0ttSFBQS0d5WmVibXMwSHNGOE0?oc=5",
+   "summary": "Dzisiejsze okładki    RealMadryt.pl",
+   "source": "Polskie media – Hiszpania",
+   "time": "2026-11-20T23:28:10Z"
+  },
+  {
+   "title": "Wyłoniono cztery pary ćwierćfinałowe Ligi Narodów. - Vietnam.vn",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9QOEp0NlVFQUUxaEdpN1BFOTZiNlJRT2ppbDJJMTBqdzNVUG9oanVabUN2RC0wTFp2TE5URnFUX01VS3V5azJEQTVscFl2OTlKT0NIQVpRM1lqMXk4eFIxSG5xNmhsdGJkdGV6MzVLVEdZekd3?oc=5",
+   "summary": "Wyłoniono cztery pary ćwierćfinałowe Ligi Narodów.    Vietnam.vn",
+   "source": "Polskie media – Hiszpania",
+   "time": "2026-11-20T23:26:49Z"
   },
   {
    "title": "Woman, 61, dies after gas leak at home in Ronda",
@@ -1319,11 +1368,18 @@
    "time": "2026-11-20T20:46:25Z"
   },
   {
-   "title": "Muere una mujer de 61 años intoxicada por un escape de gas en una vivienda de Ronda (Málaga) - Europa Press",
-   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPU2I3QkRfZ3VOcTB0OVliZnVrYTJGU3M1M3VHTTdOUHhDNVRoZS1TQ3VkQmRvTDhXbHJ6RFlVbThxNGxCNlZFSVU5Rkh0c3F2dUxXOHloLVpYT21xYS1DMWROM3ROdGt5ajRvYWJOYmhvSkQxeC1WYVNGVXJ5c252N0R5aEJfd1AyY1F4eWQ4VlFBZ3Z4ay1TaVlVYWNvZzJwNThjWWVWM256MzJfbm1qMktoUVJydjhJSWdQWUI3MzVoV1pzTDZmRzB5OGJZS3ZGSG53VVRLbUw?oc=5",
-   "summary": "Muere una mujer de 61 años intoxicada por un escape de gas en una vivienda de Ronda (Málaga)    Europa Press",
-   "source": "Policía Nacional / Guardia Civil Málaga",
-   "time": "2026-11-20T20:35:24Z"
+   "title": "Real Madryt ogłosił trzecią prolongatę w tym tygodniu. Courtois zostaje do 2028 roku - Sport1.pl",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQYzNqYXl1NFdwMWIxOHhMNUFtSTNibTc0UEN4TkQ3enpTSmh5blRjZEVIR0VSc1JJLUxUTnYzU3g0RWh6RXRIMTdpWk1yeU9CUkdQUldKeEI2dkZSemdCVXdRazFFdkR1N3RlRVljcW0yWi1GdWhJYWxsMFQwWTlvVGFJUG9oLVpGcWJLcVdpcDRVWnRrMDA5bzZwNEd2ZWg4YzNn?oc=5",
+   "summary": "Real Madryt ogłosił trzecią prolongatę w tym tygodniu. Courtois zostaje do 2028 roku    Sport1.pl",
+   "source": "Polskie media – Hiszpania",
+   "time": "2026-11-20T20:35:13Z"
+  },
+  {
+   "title": "Hiszpanie sami ograniczają sprzedaż bakłażanów. Zakaz obejmie całą Andaluzję - Warzywa.pl",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaVJ6bWJrT3RhS2pfVHd4cGFZZzN0ZW5Rb0hJY192ZklnWlJ3M2J6aUM5SnFNWGJfV0lQeGNOYTAxWHRoaDlWN0kxaUpxTU9BeDJiY3hVVFgyUmNHLUh4eE1EaXZVcGZnMmtvQmhUa0JqRndzWHQ5VDJuUkVtc21YVU53MzZiazJZZ3pPNC1hcE1LdGItNE56OUdaUVRDb1FyWEZIM09HSVRfR2M3eVR5QmxB?oc=5",
+   "summary": "Hiszpanie sami ograniczają sprzedaż bakłażanów. Zakaz obejmie całą Andaluzję    Warzywa.pl",
+   "source": "Polskie media – Hiszpania",
+   "time": "2026-11-20T20:34:05Z"
   },
   {
    "title": "El regreso de lo analógico: el trompo, las canicas o los cromos vuelven, y triunfan",
@@ -1338,6 +1394,13 @@
    "summary": "\"Estoy muy feliz y lo más importante, allá donde lo cuento, la gente también lo está. Es alegría para un barrio entero\", ha afirmado el vendedor, Ricardo Robles\nMálaga superará a Sevilla como la provincia más poblada de Andalucía en 2050",
    "source": "Málaga Hoy",
    "time": "2026-11-20T20:26:17Z"
+  },
+  {
+   "title": "Klęska urodzaju spadła na Hiszpanię. Czy w sklepach będzie taniej? - TOK FM",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSjVzRHRxb3ZrWkQzaTFBRTlXd2t4dTZFVDg4MXJBZGVpWHdTZVVyblZ3WEpfOThiVmdCUjgxem1Uc1V1ZUNuWUt0X3dJbmtvX0YyaEFla2NMczR3VzF5X0ZUdWhRWkNhSEU4ckZhR1Q5Q2paQ1BwTVdKZFJ5ZlM0Z0J3MmxZbXAzNTJnWlFfay1BSlBmUjZSWm5CMjE?oc=5",
+   "summary": "Klęska urodzaju spadła na Hiszpanię. Czy w sklepach będzie taniej?    TOK FM",
+   "source": "Polskie media – Hiszpania",
+   "time": "2026-11-20T20:19:07Z"
   },
   {
    "title": "Inauguración del alumbrado de la Navidad de Jerez con los niños de la asociación 'Por una Sonrisa'.",
@@ -1355,7 +1418,7 @@
   },
   {
    "title": "Dyżur konsularny w Casetas (Saragossa) 24 listopada 2026 r. - Gov.pl",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPR0RqaVZFS241YTF1S2RZRmQ1UTVwcVNvb3g1V2dtY09XTVlNSFZlaE1PLU1kTENrX2RkR2E3M2IxQ3dUQVRiMFJJdHJ4WlE3SzJEUF9QcjA5MDlQOWl2ZFZNSU5kcFJiMU40WDR5TGVHNjFlVWNoWjg0anFXMmtyZEQ3eGN3NGtRem5oZW5VUzdKU3BK?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRE0zUmYzdVljZGlFX25FSXVYeGdwMnhwUHBXUUc1TG9zU24wUmpXazgtZmhzYURnYnNwdDBOdWhtTnlVVjcxdTFmamJ3YWVwLW9DcG82T2hzcGNpMm9rT0dPbGJQRGRQbm92RVBIRGtXZFRNNzAyX29RMUJsUzJPRDFFekNGMkxWTmtHODkzWXlsclZG?oc=5",
    "summary": "Dyżur konsularny w Casetas (Saragossa) 24 listopada 2026 r.    Gov.pl",
    "source": "Polskie media – Hiszpania",
    "time": "2026-11-20T20:07:08Z"
@@ -1529,13 +1592,6 @@
    "time": "2026-11-20T18:11:23Z"
   },
   {
-   "title": "Imagen orientativa del producto afectado.",
-   "link": "https://www.malagahoy.es/andalucia/consumo-alerta-huevos-eroski-posible-salmonella-andalucia_0_2008552281.html",
-   "summary": "La advertencia afecta a lotes de huevos frescos de gallinas criadas en suelo de tamaños M, L y XL, comercializados en envases de seis, doce y 18 unidades \nLa Aesan pide a los consumidores que no los ingieran y comprueba su retirada de los establecimi",
-   "source": "Málaga Hoy",
-   "time": "2026-11-20T18:11:13Z"
-  },
-  {
    "title": "England fans slapped with ticket ban for anti-Catholic chants in Madrid – after Thomas Tuchel warned players about Spanish racism",
    "link": "https://www.theolivepress.es/spain-news/2026/11/20/england-fans-catholic-chants-racism/",
    "summary": "Pockets of the travelling contingent were heard singing ‘F*** the Pope and the IRA’ during the Three Lions’ 3-2 win over world champions Spain.",
@@ -1653,6 +1709,13 @@
    "summary": "Rynek akcji Hiszpanii zamknął sesję spadkami. IBEX 35 stracił 1,57% Przez Investing.com    Investing.com Polska: Kursy walut, kryptowalut, notowania akcji",
    "source": "Polskie media – Hiszpania",
    "time": "2026-11-20T17:05:00Z"
+  },
+  {
+   "title": "Ranking 2026: los 6 vehículos de 9 plazas con menor coste de mantenimiento para flotas profesionales - Highmotor",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWWI3WHZiV05LRkJDNzI0QThCUzJ0a3dKNF9HZGl2WTd2T2hCSkkwaElWaFFQRkE4S3E5bkI3UlhyZHVid2N3d2l4a0ZFQWprWFZpTFVXSVVaMlZFWW1DenJ3dVJUR0JlQ3Bmb1cteVdOM1JpbE5mcVZ6YWhfejBYQUpwS0hyOHdaNXFwc3RYRktkeV9DRVlZd1VWOWdnVkM4UFItbGlUUllSRHYydUEtZGFoZTRfNl9NVzJfT2Rn?oc=5",
+   "summary": "Ranking 2026: los 6 vehículos de 9 plazas con menor coste de mantenimiento para flotas profesionales    Highmotor",
+   "source": "Polskie media – Hiszpania",
+   "time": "2026-11-20T16:50:28Z"
   },
   {
    "title": "Cartel de la actuación de Sanz",
@@ -1837,6 +1900,13 @@
    "time": "2026-11-20T14:55:00Z"
   },
   {
+   "title": "83-letni Julio Iglesias oskarżony o molestowanie seksualne. Odpowiada: \"nigdy nie znęcałem się nad żadną kobietą\" - Radio ESKA",
+   "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQUUhXelVROEZ0YTFobDRUUmtEWnNncVQ0QTRMUUhWRk1Pcjg1WnhHZENSNmp3bzNuTU5EcGpiWHBSVlk3eHZYS2VneUZiOHp3OWtTNnBqSEI2OFhEcnQwR3JrUXRUbWQ1eE12b3psenNLYnF6RzJNazQ1MDVfWXlLMGIzdlpiMk5JUzVWcU9kTFAyN0l5QkF1aDZHNHhQblNuOWVRM1RJR0FPa3FLVXJDS3FXa0llR2o5Rl91ckNXcGJNOGZTWDhTTlFBeWFiOFlKWmtTNzVQNmd6RnRpdFV2b185d0VReE9QdGFEOHVNUlNkeEZZdC03bmRXc2ZvUQ?oc=5",
+   "summary": "83-letni Julio Iglesias oskarżony o molestowanie seksualne. Odpowiada: \"nigdy nie znęcałem się nad żadną kobietą\"    Radio ESKA",
+   "source": "Polskie media – Hiszpania",
+   "time": "2026-11-20T14:51:00Z"
+  },
+  {
    "title": "Maja Chwalińska doceniona przez WTA jako jedyna polska tenisistka - Wyniki na żywo",
    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOTGZwc2MwV3JoNVBaaVJWU2EyajdUVTFtRlF6TzJWSVRVWmp4RkI5RlJsWC1iYjhZQjFoMTBqNE02ekdBaTZCaXdIeWJQOVVtbW1xVGFDRVlPWjQ4aXVxT1J2c3JralVYZGN3RWFsVU9OTzNWWWxrV3R1Ymg0ekduU2xXaXdwYVY2bmZ1VlIwbzdqejhEMEdsUlo4bU1YZFBocnYzMU40ZkRsOXFpMlRCRkx3SGpPLS11TEYwbkxDS0VyR1FhM2ZCLXdPM21ud0NOaG5DX2ROS3BVUEhkcndRVnF3?oc=5",
    "summary": "Maja Chwalińska doceniona przez WTA jako jedyna polska tenisistka    Wyniki na żywo",
@@ -1921,20 +1991,6 @@
    "time": "2026-11-20T14:10:44Z"
   },
   {
-   "title": "Absueltos tres condenados por secuestro al no descartarse que la víctima lo simulara - Infobae",
-   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQV2RNODBKbFZDU19UbjBfZ3J1ZE5HanNYVUZ4VTI4aDhTNS0tRmlyaTExQi16N2xHNVBIOWxieVlFNTBSNENRRnpKSlYwY1c0MERob2hyZS1WNkFyc3AyOXJrUy1tcmVpWTJIM3dMc3R1ZTc1b2tXRUczbnh3WVhLa0VyX3B6bnRpNFk3c0h5STlMZ0w1VTBXTkhROUx1RFZDWFVZN1NJWmEtRm02VmdZSE5sTnRrZ215RUEzamFWVXoyTW45NzNkckpuOXNpU0ZkY3fSAewBQVVfeXFMT3pYZl9oaURVZXY3MGQ1X2llb2JacmlnbWtYNV9xaDJpRlJZeVVmamwyTlNVLVl3Q3dza2NjNVNsOUtGZld3aXBuNDdhZW84SG13WFZDQ2x5NGFhWWd5ZGw2SzB5RDAzcVdvZG9lRmVaaXpiM2IwUFUzNEJ0ckhfQndTUmw0RXRnNVFGWG94alVhc0pTd0lfX1VzcnBiTXdVNzRpS0NiR3ozY2tlWUh3X2l4aWFaVERfcjZ2U1dDanVHV1AteGlfVWdQcFBZQW52cl9MdEwwVGRQSURXanpOd3B1ZTdfXzNSNV9sd2M?oc=5",
-   "summary": "Absueltos tres condenados por secuestro al no descartarse que la víctima lo simulara    Infobae",
-   "source": "Policía Nacional / Guardia Civil Málaga",
-   "time": "2026-11-20T14:03:00Z"
-  },
-  {
-   "title": "Tres detenidos, uno de ellos herido por arma blanca, en una pelea multitudinaria en la barriada de Los Asperones de Málaga - Canal Sur",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQTVOOXFRWV9rbVF5ZXpaQkcyTlBEblpteHNmMVFQS1k2OXJ2aFFDckdHeWhDSVJwZGswNzNrQjNPaWMyRnlVX1Y2Z0hfaTEtcXZOTkV5eU5FUENFZmNRRndqSHZ3QWdYem1rbXNvN2k4VlJKRVZ0SDhEQkFmTHVEMmozN0F3VF96cTA3NXFPc1dENTM5YnRXLXEyUzdkMkE?oc=5",
-   "summary": "Tres detenidos, uno de ellos herido por arma blanca, en una pelea multitudinaria en la barriada de Los Asperones de Málaga    Canal Sur",
-   "source": "Policía Nacional / Guardia Civil Málaga",
-   "time": "2026-11-20T14:00:00Z"
-  },
-  {
    "title": "Hyatt desembarca en la Costa en un proyecto con 133 residencias de lujo y 100 millones de inversión",
    "link": "https://www.diariosur.es/marbella/hyatt-desembarca-costa-proyecto-133-residencias-lujo-20261120144546-nt.html",
    "summary": "",
@@ -1975,6 +2031,13 @@
    "summary": "Investigados tres hombres por una presunta agresión sexual grupal a una joven en Málaga    La Vanguardia",
    "source": "Policía Nacional / Guardia Civil Málaga",
    "time": "2026-11-20T13:40:43Z"
+  },
+  {
+   "title": "Przystanek Historia: sportowe emocje splatały się z dramatyczną rzeczywistością - eKutno",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMDZEakh2TzMtc3lYVEJocTZxbHdCQVNUV0Y0SjllNldPNW1fSmtpQVdTZ243MjVueUNfaTgxbkJQYkhaaUk2eWNickRGeG1ZRVFuN05GQk9OTlN0a0JqS2ZiRXl2OHhYZVluSGlzM0JPdHN5VVBaYlpuZGdhWVFodUMxN3pvM2duOE5FNUFfbVBOVHFPbEJ3bE1xR2pZb2F5MjhJTElKaFNtWFlJSzJ3MTVmbjB5aVB5ZlV6bW9yd3Q?oc=5",
+   "summary": "Przystanek Historia: sportowe emocje splatały się z dramatyczną rzeczywistością    eKutno",
+   "source": "Polskie media – Hiszpania",
+   "time": "2026-11-20T13:40:38Z"
   },
   {
    "title": "Detenidos cuatro yihadistas por adoctrinar a menores con inteligencia artificial - Libertad Digital",
@@ -2068,25 +2131,18 @@
    "time": "2026-11-20T13:28:41Z"
   },
   {
-   "title": "Un juzgado investiga a tres hombres tras la denuncia por una agresión sexual grupal a una joven en Málaga - Demócrata",
-   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxObHlGT2xSYW9GRlJhZkxtZlRFbFdnak9zTFVRblA0and2Z0VnZG0tN0JsOUVMcW9XSjAtdUxwM2xBb0pTZS1yNXRLZDVwQ2JhNEo4SW4zanFITkg3eHZPSml5UmZGaWE5TGNVb3Q4R0NxZjZ0WGJjZWVYekNXdVBJSGp4SzliVkRHclFwQS16V01KdW54b2xtLWpPSTVEWjB4UEx4OWQ2MFd3SFpFb3EzOXVjMzdzZnhZZURkSVB4eUR5MEZMdm1WMGFQeXFwWUtRWW5Ydng0Ym5KU0lkYWJn0gHfAUFVX3lxTE5seUZPbFJhb0ZGUmFmTG1mVEVsV2dqT3NMVVFuUDRqd3ZnRWdkbS03Qmw5RUxxb1dKMC11THAzbEFvSlNlLXI1dEtkNXBDYmE0SjhJbjNqcUhOSDd4dk9KaXlSZkZpYTlMY1VvdDhHQ3FmNnRYYmNlZVh6Q1d1UElIanhLOWJWREdyUXBBLXpXTUp1bnhvbG0tak9JNURaMHhQTHg5ZDYwV3dIWkVvcTM5dWMzN3NmeFllRGRJUHh5RHkwRkx2bVYwYVB5cXBZS1FZblh2eDRibkpTSWRhYmc?oc=5",
-   "summary": "Un juzgado investiga a tres hombres tras la denuncia por una agresión sexual grupal a una joven en Málaga    Demócrata",
-   "source": "Policía Nacional / Guardia Civil Málaga",
-   "time": "2026-11-20T13:25:09Z"
-  },
-  {
-   "title": "Amnistía Internacional denuncia 61 casos de uso excesivo de fuerza por parte de policías durante las manifestaciones del 11-N: “¡Cuidado, van a cargar!” - Infobae",
-   "link": "https://news.google.com/rss/articles/CBMiswJBVV95cUxOanBnM3FxdEtvc0poRWtqakZkT2pYSmlkRl9ac0RrOGwwYWJuZ0EyWnhKZzBWLUZJX3E3aHNqams3VzBUN2cwM1ZwS2FOek4zbFoxdm81UWNBUlFUX0FRalUwTEdORmFHbVAxejhTQV8zbWpvSnVNUEVWaURmY3g0TGpFX1NGMklHTEhIMU9Sdm03YzRaZWdUSkI5R3RpTS1ZYlZ3RjduakRUTlFvY3pYUnMzSzExTC13V2ZJdUxDY2RNeVRBaDlLWEttekRsajBUbDdTb3o0UGJ3UjFrWmpqUjRkWk9oZHZoVThUMTk2UjZYTWQzZEF2ZW8xMmRCV2h3LTRRYjJBdEZIR0VXV1FkNjVkQXk2MUxqakdGdEFrOHl6X2Y1N0ZBSVJVYV9DSHlXNVhV0gGzAkFVX3lxTE5qcGczcXF0S29zSmhFa2pqRmRPalhKaWRGX1pzRGs4bDBhYm5nQTJaeEpnMFYtRklfcTdoc2pqazdXMFQ3ZzAzVnBLYU56TjNsWjF2bzVRY0FSUVRfQVFqVTBMR05GYUdtUDF6OFNBXzNtam9KdU1QRVZpRGZjeDRMakVfU0YySUdMSEgxT1J2bTdjNFplZ1RKQjlHdGlNLVliVndGN25qRFROUW9jelhSczNLMTFMLXdXZkl1TENjZE15VEFoOUtYS216RGxqMFRsN1NvejRQYndSMWtaampSNGRaT2hkdmhVOFQxOTZSNlhNZDNkQXZlbzEyZEJXaHctNFFiMkF0RkhHRVdXUWQ2NWRBeTYxTGpqR0Z0QWs4eXpfZjU3RkFJUlVhX0NIeVc1WFU?oc=5",
-   "summary": "Amnistía Internacional denuncia 61 casos de uso excesivo de fuerza por parte de policías durante las manifestaciones del 11-N: “¡Cuidado, van a cargar!”    Infobae",
-   "source": "Policía Nacional / Guardia Civil Málaga",
-   "time": "2026-11-20T13:18:00Z"
-  },
-  {
-   "title": "Model AI Claude wykrył dwa kandydaty na egzoplanety dla specjalisty w Hiszpanii — Nature - UA.NEWS",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOWnBNS2pFeVZhQm15NG9OZzRic0V0TG1yUmFqWFJVSENkd0dRZmdnT1J4UWxxVjJjbUFNeXc2ZnVodjdBejB4SzZuZGR0cndUSmlSSkVKSVJiR21qb3ZJZHBic2hDTlpaQ3NWeXdVM0NJczhRMlpiQndJcDBNd0xCVjlCamVuYlM0cTl4Y3BjSlBfNjkzUnBBUXpFTm04SlFZbjFFR09KbU1lbF9lczhsQ19oS3E0dGhHaHRXbA?oc=5",
-   "summary": "Model AI Claude wykrył dwa kandydaty na egzoplanety dla specjalisty w Hiszpanii — Nature    UA.NEWS",
+   "title": "Thibaut Courtois przedłużył kontrakt z Realem Madryt do 2028 roku - Mecze24.pl",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQmVFT1BYUGtLQUtkVURLTzdwQU9wZ0FfVDFSX3lScGJjT3BoSTk2cFBRYVhiblVjQjVoNThPaVgweUNCTWZUeDFHRXVlRmRTQkFvMEt6RVJkMU1adUloU2JsVDcxU3lRV2MxUzhRR3pfY3RKNmVmNmN2dWN0ZU50VVB2UDFzVVNkSV9yajc3NlNyaEdRWkQtbGZzVlBib3RzbkE?oc=5",
+   "summary": "Thibaut Courtois przedłużył kontrakt z Realem Madryt do 2028 roku    Mecze24.pl",
    "source": "Polskie media – Hiszpania",
-   "time": "2026-11-20T13:15:54Z"
+   "time": "2026-11-20T13:23:35Z"
+  },
+  {
+   "title": "Wielki hit w ćwierćfinale Ligi Narodów! Już po losowaniu. Powtórka z półfinału mundialu - Super Express",
+   "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQNEhTMDRzSkVjRWZ4ZHlVQVEyVmdYN0xvN2FNU1Q4bDVHeDZiY3JwMVBlTjBEbGlkdkpOTGI4c0JzQ3puTWFQbFRlNXZ5NE9MRUh2Rk1BS1I3d3M3eW9lWlJFTGlMdGNaU0RCS1JnRHNqS1Z0dE1HZHI4TlR5WktkQ0dQMGExMGt0NHUwMkxIdjBvU1FxakwxLWtCYmJXOWtOdmdRRGhJeEp4ck1DVVdFSWJmUVpzdHpEWXpNS0FTTm1OR3NwWmFrNm1RamlpeUMtN2s3enVLNDZKQVN4M3ZoWlJWa0ZtallRNkZn?oc=5",
+   "summary": "Wielki hit w ćwierćfinale Ligi Narodów! Już po losowaniu. Powtórka z półfinału mundialu    Super Express",
+   "source": "Polskie media – Hiszpania",
+   "time": "2026-11-20T13:20:00Z"
   },
   {
    "title": "The Costa Blanca makes way for its latest luxury hotel as bulldozers flatten old seafront hostels in Torrevieja",
@@ -2304,13 +2360,6 @@
    "summary": "Gibraltar is asking European authorities to remove incorrect border records that could make residents of the Rock appear to have overstayed in the Schengen area, even while they were back home or in the UK. The Gibraltar government received 895 emails about incorrect entries in the EU’s Entry/Exit",
    "source": "The Spanish Eye",
    "time": "2026-11-20T11:12:52Z"
-  },
-  {
-   "title": "Gavira comparte con Moreno pedir una auditoría de la línea AVE y entiende a quien se eche \"a temblar\" por viajar en tren",
-   "link": "https://www.europapress.es/andalucia/noticia-gavira-comparte-moreno-pedir-auditoria-linea-ave-entiende-quien-eche-temblar-viajar-tren-20261120120123.html",
-   "summary": "El vicepresidente segundo y consejero de Turismo, Justicia, Desregulación y Administración Local de la Junta de Andalucía, Manuel Gavira (Vox), ha dicho este viernes que \"comparte\" con el presidente del Gobierno andaluz y del PP-A, Juanma Moreno, la petición de \"una auditoría\" sobre la situación",
-   "source": "Europa Press Andalucía",
-   "time": "2026-11-20T11:01:23Z"
   },
   {
    "title": "Los doctores Manrique Pascual, Francisco Miralles, Walter Orlandi y Harold Almonte,",
