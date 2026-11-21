@@ -597,15 +597,24 @@ def P_gwiazdy(n, N):
         ('lata 60.', 'Do hotelu zjeżdżają gwiazdy kina i arystokracja. Marbella staje się adresem z kolorowych pism.'),
         ('1974', 'Hohenlohe poznaje padla w Acapulco i buduje w Marbelli <b>dwa pierwsze korty w Hiszpanii</b>.'),
         ('dziś', 'Hiszpania to padlowa potęga, a kolacje wigilijne i bale sylwestrowe w klubie wciąż przyciągają gości.')])
-    pic = (f'<div style="position:absolute;right:56px;top:430px;width:410px;background:#fff;padding:14px 14px 46px;transform:rotate(2deg);box-shadow:0 22px 44px rgba(0,0,0,.4)"><img src="file://{PH}mrb0.jpg" style="display:block;width:100%;height:330px;object-fit:cover;object-position:50% 50%"><div style="position:absolute;left:16px;bottom:12px;font-size:15px;font-style:italic;color:#3A2A10">Marbella i góra La Concha o zachodzie słońca</div></div>'
-           f'<div style="position:absolute;right:64px;top:850px;width:400px;font-size:12px;color:{MUT};text-align:right">Fot. Simon Hermans / Unsplash</div>')
+    pic = (f'<div style="position:absolute;right:56px;top:420px;width:410px;background:#fff;padding:12px 12px 40px;transform:rotate(2deg);box-shadow:0 22px 44px rgba(0,0,0,.4)"><img src="file://{PH}mc_fasada.jpg" style="display:block;width:100%;height:270px;object-fit:cover;object-position:50% 40%"><div style="position:absolute;left:14px;bottom:11px;font-size:14px;font-style:italic;color:#3A2A10">Marbella Club dziś</div></div>'
+           f'<div style="position:absolute;right:40px;top:690px;width:220px;background:#F4ECDD;padding:9px 9px 30px;transform:rotate(-4deg);box-shadow:0 18px 36px rgba(0,0,0,.45)"><img src="file://{PH}mc_vintage.jpg" style="display:block;width:100%;height:150px;object-fit:cover;filter:sepia(.2)"><div style="position:absolute;left:11px;bottom:8px;font-size:12px;font-style:italic;color:#3A2A10">Ogrody hotelu dawniej</div></div>'
+           '')
     inner = (f'<div style="position:absolute;left:64px;right:64px;top:56px">{kick("Na długie wieczory · Marbella")}{H("Święta <i style=\'color:"+RED+"\'>z gwiazdami</i>", 100)}'
              f'<div style="{CG}font-style:italic;font-size:32px;line-height:1.25;margin-top:16px;color:#4A443D">Jak jeden hotel zrobił z rybackiej wioski adres dla Hollywood – i przy okazji przywiózł do Hiszpanii padla.</div>{rule()}'
              f'<div style="font-size:15px;font-weight:800;letter-spacing:.22em;color:{GOLD};margin:6px 0 12px">KTO TU BYWAŁ</div>{guests}</div>'
              + f'<div style="position:absolute;left:64px;top:420px;width:{520 if pic else 952}px">{tl}</div>'
              + pic
-             + wow('Padel przyjechał z Meksyku', 'Grę wymyślono w Acapulco. Rok po kortach w Marbelli padel trafił do Argentyny – a dziś w Hiszpanii grają w niego miliony.', 64, 1075, 952, -1)
-             + src('Euro Weekly News (2024), Engel & Völkers, marbellaclub.com, LTA, International Padel Federation, andalucia.com, Red Bull.'))
+             + f'<div style="position:absolute;left:64px;right:64px;top:950px;display:grid;grid-template-columns:520px 1fr;gap:28px;align-items:center;border-top:1px solid rgba(255,255,255,.25);padding-top:16px">'
+             + '<svg width="520" height="120" viewBox="0 0 520 120"><path d="M0,40 C90,52 170,60 260,62 S430,58 520,44 L520,120 L0,120 Z" fill="#2E5E4A"/><path d="M0,40 C90,52 170,60 260,62 S430,58 520,44" fill="none" stroke="#7FB59A" stroke-width="2"/>'
+             + '<text x="260" y="104" text-anchor="middle" font-family="Cormorant Garamond,serif" font-style="italic" font-size="18" fill="#9FC7B3">Morze Śródziemne</text>'
+             + '<circle cx="70" cy="47" r="6" fill="#fff"/><text x="4" y="28" text-anchor="start" font-family="Inter,sans-serif" font-size="14" font-weight="700" fill="#fff">Puerto Banús</text>'
+             + '<circle cx="275" cy="62" r="10" fill="#F2C14E" stroke="#0f2a1f" stroke-width="3"/><text x="275" y="38" text-anchor="middle" font-family="Inter,sans-serif" font-size="15" font-weight="800" fill="#F2C14E">MARBELLA CLUB</text>'
+             + '<circle cx="455" cy="52" r="6" fill="#fff"/><text x="515" y="30" text-anchor="end" font-family="Inter,sans-serif" font-size="14" font-weight="700" fill="#fff">Marbella – stare miasto</text>'
+             + '<path d="M290,78 L440,70" stroke="#F2C14E" stroke-width="1.5" stroke-dasharray="4 4"/><text x="365" y="90" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" fill="#F2C14E">ok. 3,3 km</text></svg>'
+             + '<div style="font-size:17px;line-height:1.45;color:#fff"><b style="color:#F2C14E">Gdzie to jest?</b> Złota Mila (Milla de Oro), Bulevar Príncipe Alfonso von Hohenlohe – między starym miastem Marbelli a Puerto Banús, przy samej plaży. Z lotniska w Maladze ok. 35 min autem.</div></div>'
+             + wow('Padel przyjechał z Meksyku', 'Grę wymyślono w Acapulco. Rok po kortach w Marbelli padel trafił do Argentyny – a dziś w Hiszpanii grają w niego miliony.', 64, 1095, 952, -1)
+             + src('zdjęcia J. Hitchcock (CC BY 2.0), Univ. de Zaragoza (CC BY-SA 2.0) / Wikimedia Commons; Euro Weekly News, marbellaclub.com, Michelin, LTA, FIP, andalucia.com.'))
     return frame(n, N, 'Na długie wieczory', inner)
 
 
@@ -742,4 +751,4 @@ def P_bond(n, N):
     return frame(n, N, 'Na długie wieczory', inner)
 
 THEME_SEQ = ['light','light','yellow','green','light','light','green','light','red','light','light','light','light','noir','noir','light','light','red','light','light']
-PAGES = [P_cover, P_liczby, P_banus, P_kalendarz, P_malaga, P_marbella, P_gwiazdy, P_fue_est, P_gordo1, P_zagaleta, P_pl_es, P_przepisy, P_bond, P_crime, P_zagadka, P_dzieci, P_sylwester, P_ciekawostki, P_quiz, P_koniec]
+PAGES = [P_cover, P_liczby, P_banus, P_kalendarz, P_malaga, P_marbella, P_gwiazdy, P_fue_est, P_gordo1, P_zagaleta, P_pl_es, P_przepisy, P_bond, P_crime, P_zagadka, P_ap7, P_sylwester, P_ciekawostki, P_quiz, P_koniec]
