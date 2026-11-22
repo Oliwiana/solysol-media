@@ -40,7 +40,7 @@ def map_svg(W, E, S, N, w, labels=True, highlight=None, pin_r=17, towns=True, la
     if towns:
         for name, lon, lat, dx, dy in [("SOTOGRANDE",-5.285,36.290,14,62),("ESTEPONA",-5.146,36.427,-40,-26),("MARBELLA",-4.885,36.510,-60,-26),("FUENGIROLA",-4.625,36.540,-40,-26),("BENALMÁDENA",-4.52,36.600,-150,-26),("MÁLAGA",-4.42,36.715,-50,-26),("NERJA",-3.876,36.745,-30,-26)]:
             x, y = f(lon, lat)
-            if 0 < x < w and not any(abs(f(a["lon"],a["lat"])[0]-(x+dx+70))<110 and abs(f(a["lon"],a["lat"])[1]-(y+dy))<40 for a in APTS):
+            if name not in D.get("hide_towns", []) and 0 < x < w and not any(abs(f(a["lon"],a["lat"])[0]-(x+dx+70))<110 and abs(f(a["lon"],a["lat"])[1]-(y+dy))<40 for a in APTS):
                 s.append(f'<circle cx="{x:.0f}" cy="{y-4:.0f}" r="3.5" fill="{MUTED}"/>')
                 s.append(f'<text x="{x+dx:.0f}" y="{y+dy:.0f}" font-family="JetBrains Mono" font-size="{17*label_scale:.0f}" letter-spacing="3" fill="{MUTED}">{name}</text>')
         x, y = f(W0+0.06, N0-0.03)
@@ -170,7 +170,7 @@ fb = f'''
   <div style="font-size:29px;font-weight:300;color:#cfd6e4;margin-top:20px">{D["fbsub"]}</div>
 </div>
 <div style="position:absolute;left:0;top:600px;width:1200px;height:600px;overflow:hidden;border-top:1px solid #26365c;border-bottom:1px solid #26365c">
-  <div style="position:absolute;top:-20px">{fm}</div>
+  <div style="position:absolute;top:{D.get("fb_map_top",-20)}px">{fm}</div>
 </div>
 <div style="position:absolute;left:84px;right:84px;top:1228px;display:grid;grid-template-columns:repeat(7,1fr);gap:12px">{fthumbs}</div>
 <div style="position:absolute;left:84px;right:84px;bottom:42px;display:flex;justify-content:space-between;font:400 22px JetBrains Mono;letter-spacing:5px"><span>● COSTA DEL SOL</span><span style="color:{ACC}">LLNMARBELLA.COM</span><span>+48 882 819 306</span></div>
