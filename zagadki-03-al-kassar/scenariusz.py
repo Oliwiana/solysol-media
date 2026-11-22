@@ -1,50 +1,42 @@
 # Scenariusz Zagadki #3 – tekst dla lektora (liczby słownie). Rozdziały: (część, tytuł, akapity)
 CH = [
 (1,"Otwarcie",[
-"Siódmy czerwca dwa tysiące siódmego roku. Lotnisko w Madrycie. Z samolotu wysiada mężczyzna, którego media od lat nazywają Księciem Marbelli. Przyleciał na ważne spotkanie w interesach. Zamiast partnerów czeka na niego hiszpańska policja.",
-"Ludzie, z którymi miał robić interesy, nie są tymi, za kogo się podawali. Klienci, którym przez ponad rok obiecywał broń, pracowali dla amerykańskiej agencji antynarkotykowej DEA.",
-"To historia o białej rezydencji w Marbelli, o statku porwanym na Morzu Śródziemnym i o zamówieniu na ponad dwanaście tysięcy sztuk broni, które nigdy nie wyruszyło w drogę.",
+"Siódmy czerwca dwa tysiące siódmego roku. Lotnisko Barajas w Madrycie. Z samolotu z Malagi wysiada starszy, elegancki mężczyzna. Myśli, że leci dopiąć wielki interes. W hali przylotów czeka na niego hiszpańska policja. A obok stoi agent amerykańskiej agencji antynarkotykowej DEA.",
+"Zatrzymany to Monzer al-Kassar. Urodzony w Syrii handlarz bronią, od lat mieszkaniec Marbelli. Prasa w Europie nazywała go Księciem Marbelli.",
+"Dziś opowiemy, jak człowiek, którego hiszpański sąd kiedyś uniewinnił, wpadł w pułapkę zastawioną we własnym salonie.",
 "To Sol i Sól i „Zagadki Costa del Sol”. Odcinek trzeci. Książę Marbelli."]),
-(1,"Książę z białego pałacu",[
-"Monzer al-Kassar urodził się w tysiąc dziewięćset czterdziestym piątym roku w Syrii. Na Costa del Sol mieszka przez wiele lat. W Marbelli ma rezydencję, którą amerykańscy dziennikarze opisują jako biały pałac.",
-"Za wystawne życie media nadają mu przydomek, który zostanie z nim na zawsze. Książę Marbelli.",
-"Zdaniem redakcji trudno o lepszą scenografię. Marbella tamtych lat to jachty w porcie, przyjęcia do rana i dyskrecja, o którą nikt nie musiał prosić.",
-"Oficjalnie al-Kassar jest biznesmenem. Dla amerykańskich śledczych to handlarz bronią. Jego nazwisko pada w dochodzeniach w sprawie afery Iran-Contras, tajnego handlu bronią, który w latach osiemdziesiątych wstrząsnął Waszyngtonem.",
-"Ale najgłośniejsza sprawa w jego życiu zaczyna się na morzu."]),
-(1,"Statek na Morzu Śródziemnym",[
-"Październik tysiąc dziewięćset osiemdziesiątego piątego roku. Czterech uzbrojonych mężczyzn z Frontu Wyzwolenia Palestyny porywa włoski statek wycieczkowy Achille Lauro, płynący u wybrzeży Egiptu.",
-"Na pokładzie są setki pasażerów. Jeden z nich, starszy Amerykanin, zostaje zastrzelony, a jego ciało porywacze wyrzucają za burtę. Świat ogląda to w wiadomościach.",
-"Kilka lat później hiszpańscy śledczy stawiają pytanie: skąd porywacze mieli broń? W tysiąc dziewięćset dziewięćdziesiątym drugim roku al-Kassar zostaje zatrzymany w Hiszpanii. Zarzut brzmi: dostarczenie karabinów i granatów ludziom, którzy porwali statek."]),
-(2,"Proces w Madrycie",[
-"Proces zaczyna się w tysiąc dziewięćset dziewięćdziesiątym piątym roku w Madrycie. Prokuratura oskarża go między innymi o piractwo.",
-"W marcu zapada wyrok. Uniewinniony. Sąd uznaje, że dowodów jest za mało.",
-"Powiedzmy to wyraźnie: w sprawie Achille Lauro Monzer al-Kassar został uniewinniony i z tej sprawy wyszedł jako człowiek niewinny.",
-"Wraca do Marbelli. Do białej rezydencji. Do życia, za które dostał swój przydomek. Zdaniem redakcji to moment, w którym Książę Marbelli mógł uwierzyć, że nikt go już nie dosięgnie."]),
+(1,"Pałac nad morzem",[
+"Monzer al-Kassar urodził się w tysiąc dziewięćset czterdziestym piątym roku w Syrii. Po latach w Europie osiada z rodziną w Marbelli. To czasy, kiedy na wybrzeże zjeżdżają szejkowie, gwiazdy kina i ludzie, którzy nie lubią pytań o źródło pieniędzy.",
+"Kassar kupuje okazałą białą rezydencję i nadaje jej nazwę Palacio de Mifadil. Nazwa ma podobno łączyć hiszpański z arabskim i znaczyć mniej więcej: pałac mojej cnoty.",
+"Wystawne życie, goście, przyjęcia. Stąd przydomek. Ale dla śledczych z kilku krajów to nazwisko oznacza coś zupełnie innego. Handel bronią na skalę międzynarodową. W latach osiemdziesiątych jego nazwisko pojawia się nawet w amerykańskiej aferze Iran-Contras. To skandal, w którym ludzie z otoczenia administracji Ronalda Reagana potajemnie sprzedawali broń Iranowi, a pieniądze kierowali do nikaraguańskich partyzantów.",
+"Kassar nigdy nie zostaje za to skazany. Mieszka spokojnie nad morzem. Puerto Banús działa od tysiąc dziewięćset siedemdziesiątego roku, w porcie cumują jachty z całego świata, a wielkie majątki są tu codziennością. Na razie Książę jest dla miasta po prostu bogatym cudzoziemcem."]),
+(2,"Statek i oskarżenie",[
+"Siódmy października tysiąc dziewięćset osiemdziesiątego piątego roku. Palestyńskie komando porywa na Morzu Śródziemnym włoski statek wycieczkowy Achille Lauro. Ginie jeden z pasażerów. Świat jest w szoku.",
+"Kilka lat później hiszpański sędzia śledczy Baltasar Garzón stawia Kassarowi zarzuty. Lista jest długa: piractwo, zabójstwo, przetrzymywanie ludzi. Według śledczych Syryjczyk miał dostarczyć porywaczom broń. On sam wszystkiemu zaprzecza. W czerwcu tysiąc dziewięćset dziewięćdziesiątego drugiego roku Kassar zostaje zatrzymany w Hiszpanii. W areszcie spędza ponad rok. Potem wychodzi za kaucją i czeka na proces."]),
+(2,"Uniewinniony",[
+"Proces odbywa się w Madrycie na początku tysiąc dziewięćset dziewięćdziesiątego piątego roku. Jednym ze świadków oskarżenia jest agent DEA, który od lat śledzi Syryjczyka.",
+"W marcu zapada wyrok. Kassar zostaje uniewinniony. Sąd uznaje, że dowodów jest za mało. Książę wraca do Marbelli.",
+"Zdaniem redakcji to właśnie ten moment jest kluczem do całej historii. Kassar wychodzi z sądu przekonany, że jest nietykalny. A po drugiej stronie oceanu ktoś zapamiętuje tę porażkę na długo."]),
 (2,"Klienci z dżungli",[
-"Mija ponad dziesięć lat. Jest luty dwa tysiące szóstego roku. Amerykańska agencja DEA rozpoczyna tajną operację. Jej celem jest Monzer al-Kassar.",
-"Do gry wchodzi dwóch informatorów. Udają przedstawicieli FARC, kolumbijskiej partyzantki, którą Stany Zjednoczone uznają za organizację terrorystyczną. Mają jedno zadanie. Kupić broń.",
-"Przez ponad rok rozmawiają z al-Kassarem przez telefon, wymieniają maile i spotykają się osobiście. Każda rozmowa jest nagrywana. Każde słowo trafi potem na salę sądową."]),
-(2,"Rozmowy w białym pałacu",[
-"W lutym dwa tysiące siódmego roku dochodzi do spotkania w domu al-Kassara w Marbelli. Kilka kilometrów od plaż, na których turyści opalają się w zimowym słońcu.",
-"Lista, o której rozmawiają, jest długa. Według ustaleń, które potem potwierdziła ława przysięgłych, chodzi o ponad dwanaście tysięcy sztuk broni. Tysiące karabinów maszynowych. Granatniki. Pociski ziemia–powietrze, którymi można strącać śmigłowce. I miliony sztuk amunicji.",
-"Według prokuratury broń miała trafić do partyzantów, którzy chcieli jej użyć przeciwko amerykańskim śmigłowcom i obywatelom.",
-"Al-Kassar obiecuje też tony materiałów wybuchowych i instruktorów z Libanu. Na konta w Hiszpanii i w Libanie trafia ponad czterysta tysięcy dolarów zaliczki.",
-"Pieniądze płyną z kont kontrolowanych przez DEA. Pułapka się zamyka."]),
-(3,"Lotnisko w Madrycie",[
-"Czerwiec dwa tysiące siódmego roku. Al-Kassar wsiada do samolotu do Madrytu. Siódmego czerwca hiszpańska policja zatrzymuje go na lotnisku. Tego samego dnia, w ramach tej samej operacji, zatrzymani zostają dwaj inni podejrzani.",
-"Amerykanie żądają ekstradycji. Hiszpania się zgadza, ale stawia warunek: Stany Zjednoczone nie będą domagać się kary śmierci.",
-"Trzynastego czerwca dwa tysiące ósmego roku Książę Marbelli leci do Nowego Jorku. Tym razem nie na przyjęcie."]),
-(3,"Proces w Nowym Jorku",[
-"Proces przed sądem federalnym na Manhattanie trwa trzy tygodnie. Prowadzi go sędzia Jed Rakoff. Przysięgli słuchają nagrań z rozmów, które przez ponad rok zbierali informatorzy.",
-"Dwudziestego listopada dwa tysiące ósmego roku zapada werdykt. Winny we wszystkich pięciu punktach. Wśród nich spisek w celu zabicia obywateli amerykańskich i spisek w celu zdobycia pocisków przeciwlotniczych.",
-"Winnym zostaje uznany także jego wspólnik, Luis Felipe Moreno Godoy. Obrońcy zapowiadają apelację."]),
+"Rok dwa tysiące szósty. Amerykańska DEA uruchamia operację, której celem jest jeden człowiek. Kassar.",
+"Do jego otoczenia trafiają dwaj informatorzy. Przedstawiają się jako wysłannicy kolumbijskiej partyzantki FARC, uznanej przez Stany Zjednoczone za organizację terrorystyczną. Chcą kupić broń. Dużo broni.",
+"Kassar nie wie, że obaj pracują dla Amerykanów. Rozmowy trwają miesiącami. Rosną kwoty, rośnie zaufanie.",
+"Spotkania odbywają się między innymi w Bejrucie, ale przede wszystkim w rezydencji w Marbelli. W tym samym salonie, w którym Książę przyjmował gości. Część rozmów jest nagrywana."]),
+(3,"Zamówienie",[
+"Lista, o której mowa w aktach amerykańskiej prokuratury, robi wrażenie. Ponad dwanaście tysięcy sztuk broni. Karabiny maszynowe, granatniki, przeciwlotnicze rakiety. Miliony sztuk amunicji. Do tego materiały wybuchowe, instruktorzy, a nawet propozycja wysłania tysiąca ludzi do walki.",
+"Według prokuratury broń miała posłużyć do zestrzeliwania amerykańskich helikopterów w Kolumbii. Na konta w Hiszpanii i Libanie płynie zaliczka. Ponad czterysta tysięcy dolarów.",
+"Jest tylko jeden problem. Klienci z dżungli nie istnieją. Pieniądze pochodzą z kont DEA."]),
+(3,"Pułapka zamyka się",[
+"Żeby domknąć transakcję, trzeba się spotkać jeszcze raz. Kassar zgadza się przylecieć z Malagi do Madrytu. I tak wracamy na lotnisko Barajas, siódmego czerwca dwa tysiące siódmego roku.",
+"Tego samego dnia w Rumunii zostają zatrzymani dwaj jego współpracownicy. Jesienią hiszpański sąd zgadza się na ekstradycję. Pod jednym warunkiem: Kassarowi nie grozi kara śmierci ani dożywocie bez prawa do zwolnienia.",
+"Trzynastego czerwca dwa tysiące ósmego roku Książę Marbelli leci do Nowego Jorku. Tym razem w asyście amerykańskich agentów."]),
 (3,"Wyrok",[
-"Luty dwa tysiące dziewiątego roku. Sąd wymierza Monzerowi al-Kassarowi trzydzieści lat więzienia. Jego wspólnik dostaje dwadzieścia pięć lat.",
-"Al-Kassar ma wtedy sześćdziesiąt trzy lata. Zdaniem redakcji to w praktyce wyrok na resztę życia."]),
+"Dwudziesty listopada dwa tysiące ósmego roku. Sąd federalny na Manhattanie. Po trzytygodniowym procesie ława przysięgłych uznaje Kassara za winnego wszystkich pięciu zarzutów. Wśród nich spisek w celu zabijania obywateli Stanów Zjednoczonych, spisek w celu zdobycia rakiet przeciwlotniczych, wspieranie organizacji terrorystycznej i pranie pieniędzy. Przysięgli naradzają się zaledwie sześć godzin.",
+"Dwudziesty czwarty lutego dwa tysiące dziewiątego roku sędzia Jed Rakoff wymierza karę. Trzydzieści lat więzienia i przepadek całego majątku. Jego chilijski współpracownik, Luis Felipe Moreno Godoy, dostaje dwadzieścia pięć lat."]),
 (3,"Epilog",[
-"W Marbelli zostały wspomnienia przyjęć, biała rezydencja na zdjęciach w archiwach i przydomek, który przetrwał dłużej niż wolność jego właściciela.",
-"Zdaniem redakcji to jedna z tych historii, które pokazują drugą twarz Costa del Sol. Za fasadą luksusowych apartamentów i jachtów toczyły się rozmowy, o których turyści nie mieli pojęcia.",
-"To były „Zagadki Costa del Sol”. Jeśli chcecie kolejną historię, zostawcie łapkę w górę i zasubskrybujcie kanał. W następnym odcinku: Costa del Crime. Jak hiszpańskie wybrzeże stało się kryjówką brytyjskich gangsterów. Premiera w niedzielę, trzynastego grudnia, o osiemnastej.",
+"W dwa tysiące dwudziestym roku, w czasie pandemii, Kassar prosi o zwolnienie ze względów humanitarnych. Sąd odmawia. Według dostępnych informacji wciąż przebywa w amerykańskim więzieniu federalnym. Wyjść może na początku lat trzydziestych, jako człowiek po osiemdziesiątce.",
+"A biały pałac w Marbelli? Stoi w mieście, które od dekad przyciąga ludzi bogatych i ciekawskich. Zdaniem redakcji to jedna z tych historii, w których najbardziej zdradliwy okazał się nie sąd ani policja, ale własna pewność siebie.",
+"To były „Zagadki Costa del Sol”. Jeśli chcecie kolejną historię, zostawcie łapkę w górę i zasubskrybujcie kanał. W następnym odcinku, w niedzielę trzynastego grudnia, opowiemy, jak wybrzeże stało się kryjówką brytyjskich gangsterów. Costa del Crime.",
 "Sol i Sól. Wszystko, co ważne na Costa del Sol. Do usłyszenia w niedzielę o osiemnastej."]),
 ]
 def part(n): return "\n\n".join(p for c in CH if c[0]==n for p in c[2])
