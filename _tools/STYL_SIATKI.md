@@ -17,3 +17,4 @@ Cel: profil ma wyglądać jak jeden magazyn, nie jak zbiór różnych szablonów
 10. Rytm siatki: co TRZECIA okładka Sol y Sól (karuzela, artykuł, okładka reela) w stylu barwna, reszta noir. Zdjęcie do barwnej musi być jasne i nasycone (niebo, morze, światła) – nigdy czarno-białe.
 11. Seria „Gwiazdy na Costa del Sol” (soboty 18:00) – okładka ZAWSZE barwna. Zdjęć znanych osób nie pobieramy: na okładce i slajdach zostaje miejsce (ramka „ZDJĘCIE – DODA REDAKCJA”), Oliwia wstawia je w Canvie.
 12. Barwna – maks. 3 akcenty na okładce: tytuł + JEDNA ramka (box1 albo box2) + pieczęć. Obie ramki naraz tylko na okładkach serii/wydań. Pasek „more” tylko przy seriach.
+13. Jak ustalić, czy Twój post ma być barwny: sprawdź w db 2 poprzednie posty Sol y Sól (wg publishAt, kind post/reel). Jeśli żaden z nich nie ma barwnej okładki („barwna” w polu why) – zrób barwną i dopisz w why „Okładka: barwna”.
