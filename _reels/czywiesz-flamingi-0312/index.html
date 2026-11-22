@@ -1,0 +1,100 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><style>
+@font-face{font-family:T;src:url(file:///home/claude/tools/node_modules/@fontsource/special-elite/files/special-elite-latin-ext-400-normal.woff2)}
+@font-face{font-family:T;src:url(file:///home/claude/tools/node_modules/@fontsource/special-elite/files/special-elite-latin-400-normal.woff2)}
+@font-face{font-family:I;font-weight:900;src:url(file:///home/claude/tools/node_modules/@fontsource/inter/files/inter-latin-ext-900-normal.woff2)}
+@font-face{font-family:I;font-weight:900;src:url(file:///home/claude/tools/node_modules/@fontsource/inter/files/inter-latin-900-normal.woff2)}
+@font-face{font-family:I;font-weight:800;src:url(file:///home/claude/tools/node_modules/@fontsource/inter/files/inter-latin-ext-800-normal.woff2)}
+@font-face{font-family:I;font-weight:800;src:url(file:///home/claude/tools/node_modules/@fontsource/inter/files/inter-latin-800-normal.woff2)}
+@font-face{font-family:I;font-weight:600;src:url(file:///home/claude/tools/node_modules/@fontsource/inter/files/inter-latin-ext-600-normal.woff2)}
+@font-face{font-family:I;font-weight:600;src:url(file:///home/claude/tools/node_modules/@fontsource/inter/files/inter-latin-600-normal.woff2)}
+@font-face{font-family:O;font-weight:600;src:url(file:///home/claude/tools/node_modules/@fontsource/oswald/files/oswald-latin-ext-600-normal.woff2)}
+@font-face{font-family:O;font-weight:600;src:url(file:///home/claude/tools/node_modules/@fontsource/oswald/files/oswald-latin-600-normal.woff2)}
+@font-face{font-family:S;font-style:italic;font-weight:500;src:url(file:///home/claude/tools/node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-ext-500-italic.woff2)}
+@font-face{font-family:S;font-style:italic;font-weight:500;src:url(file:///home/claude/tools/node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-500-italic.woff2)}
+@font-face{font-family:S;font-weight:600;src:url(file:///home/claude/tools/node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-ext-600-normal.woff2)}
+@font-face{font-family:S;font-weight:600;src:url(file:///home/claude/tools/node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-600-normal.woff2)}
+html,body{margin:0;width:1080px;height:1920px;overflow:hidden;background:#2a1e14;font-family:I}
+#board{position:absolute;inset:-60px;background:#2a1e14}
+#board:before{content:"";position:absolute;inset:0;opacity:.35;background-image:radial-gradient(#000 1px,transparent 1.6px);background-size:7px 7px}
+.pol{position:absolute;left:110px;top:330px;width:840px;padding:24px 24px 84px;background:#efe6d2;box-shadow:8px 18px 36px rgba(0,0,0,.65);opacity:0}
+.pol .w{width:840px;height:640px;overflow:hidden;position:relative;background:#111}
+.pol img{position:absolute;left:0;top:0;width:100%;height:100%;object-fit:cover;filter:grayscale(1) contrast(1.15) brightness(.95)}
+.pol .l{position:absolute;left:30px;bottom:24px;font-family:T;font-size:34px;color:#1d1a16}
+.pin{position:absolute;width:28px;height:28px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#ff6b5a,#a3150c);box-shadow:2px 4px 6px rgba(0,0,0,.6);left:50%;top:-12px;margin-left:-14px;z-index:2}
+.c{position:absolute;opacity:0}
+.paper{background:#efe6d2;color:#1d1a16;box-shadow:6px 14px 30px rgba(0,0,0,.6);font-family:T;padding:30px 38px}
+.big{font-family:I;font-weight:900;line-height:1}
+.tag{white-space:nowrap;background:#f2e35b;color:#171513;font-weight:900;font-size:48px;padding:12px 26px;box-shadow:6px 12px 24px rgba(0,0,0,.5)}
+.stamp{font-family:I;font-weight:900;border:8px solid;padding:6px 26px;letter-spacing:.06em;border-radius:8px;background:rgba(239,230,210,.9)}
+#vig{position:absolute;z-index:300;inset:0;background:radial-gradient(ellipse at 50% 42%,transparent 50%,rgba(0,0,0,.75) 100%)}
+#top{position:absolute;z-index:300;left:0;right:0;top:0;height:300px;background:linear-gradient(180deg,rgba(0,0,0,.75),transparent)}
+#brand{position:absolute;z-index:301;left:64px;top:160px;font-family:S;font-weight:600;font-size:44px;letter-spacing:.08em;color:#efe6d2}
+#brand i{color:#f2e35b;font-style:italic}
+#kind{position:absolute;z-index:301;right:150px;top:166px;background:#5b7cff;color:#fff;font-weight:800;font-size:28px;letter-spacing:.12em;padding:8px 16px}
+#cap{position:absolute;z-index:400;left:60px;right:150px;top:1250px;background:rgba(12,9,6,.8);border-radius:18px;padding:22px 20px;text-align:center;font-weight:900;font-size:64px;line-height:1.12;color:#fff;text-shadow:0 4px 0 #000;text-transform:uppercase;letter-spacing:-.01em;opacity:0}
+#cr{position:absolute;z-index:301;left:22px;top:330px;writing-mode:vertical-rl;transform:rotate(180deg);color:#efe6d2;font-size:14px;font-weight:600;letter-spacing:.08em;opacity:.55;white-space:nowrap}
+/* hook */
+#hook{position:absolute;z-index:600;inset:0;background:#0d0d0f;color:#f4f1ea}
+#hook .bg{position:absolute;inset:0;background-size:cover;background-position:center;filter:grayscale(1) contrast(1.15) brightness(.78)}
+#hook .tint{position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,10,20,.55),rgba(8,10,20,.35) 40%,rgba(8,10,20,.93) 72%)}
+#hook .scrap{position:absolute;right:160px;top:290px;background:#efe9dc;padding:14px 14px 40px;box-shadow:0 18px 40px rgba(0,0,0,.55);transform:rotate(5deg)}
+#hook .scrap img{display:block;width:400px;height:290px;object-fit:cover;filter:grayscale(1) contrast(1.1)}
+.lab{display:inline-block;font-family:I;font-weight:600;font-size:40px;line-height:1.05;padding:6px 14px 8px}
+.blue{background:#5b7cff;color:#fff}.yel{background:#f2e35b;color:#2f45c9}
+.h{font-family:O;font-weight:600;font-size:132px;line-height:.98;letter-spacing:-.025em;margin:22px 0 26px}
+.h u{text-decoration-thickness:7px;text-underline-offset:12px}
+.h em{font-family:S;font-style:italic;font-weight:500;letter-spacing:-.01em;font-size:1.04em}
+#end{position:absolute;z-index:500;inset:0;background:rgba(10,8,6,.88);opacity:0}
+#endc{position:absolute;left:90px;right:150px;top:620px;background:#f2e35b;color:#171513;padding:56px 50px;text-align:center;box-shadow:0 24px 50px rgba(0,0,0,.6)}
+</style></head><body>
+<div id=board></div>
+<div id=shots></div>
+<div id=cards></div>
+<div id=vig></div><div id=top></div>
+<div id=brand>SOL <i>y</i> SÓL</div><div id=kind>CZY WIESZ</div>
+<div id=cap></div>
+<div id=cr>FOT. WIKIMEDIA COMMONS (CC BY / CC BY-SA / CC0) – AUTORZY W OPISIE · ZDJĘCIA ILUSTRACYJNE OPISANE</div>
+<div id=end><div id=endc><div style="font-family:S;font-style:italic;font-weight:500;font-size:60px">Obserwuj</div><div class=big style="font-size:104px;margin:14px 0 20px">@solysol.pl</div><div style="font-weight:800;font-size:34px;letter-spacing:.04em">Costa del Sol po polsku</div></div></div>
+<div id=hook><div class=bg style="background-image:url(img/p00.jpg)"></div><div class=tint></div>
+<svg style="position:absolute;inset:0;opacity:.2;mix-blend-mode:overlay" width=1080 height=1920><filter id=n><feTurbulence type=fractalNoise baseFrequency=.9 numOctaves=3 stitchTiles=stitch /></filter><rect width=100% height=100% filter=url(#n) /></svg>
+<div style="position:absolute;left:64px;top:160px;font-family:S;font-weight:600;font-size:44px;letter-spacing:.08em">SOL <i style="color:#f2e35b">y</i> SÓL</div>
+<div class=scrap><img src=img/p01.jpg></div>
+<div style="position:absolute;left:64px;right:150px;top:800px">
+<span class="lab yel" id=snd>🔊 włącz dźwięk</span>
+<h1 class=h><u>35 000</u> par<br>flamingów<br><em>i to nie</em><br>w Afryce</h1>
+<span class="lab blue">Czy wiesz</span> <span class="lab yel">Fuente de Piedra · 2026</span></div>
+<div style="position:absolute;left:64px;top:1500px;font-family:I;font-weight:600;font-size:18px;opacity:.55">Fot. Warren Garst (CC BY-SA 4.0), Andrzej Otrębski (CC BY-SA 3.0) / Wikimedia Commons</div>
+</div>
+<script>
+const SH=[[0, "p00.jpg", 1100, 718], [0, "p01.jpg", 1100, 825], [2.9, "p02.jpg", 1100, 733], [4.3, "p03.jpg", 1100, 941], [5.8, "p04.jpg", 1100, 619], [7.6, "p05.jpg", 1100, 732], [8.8, "p06.jpg", 1100, 171], [11.0, "p07.jpg", 1100, 823], [13.25, "p08.jpg", 1100, 171], [15.45, "p09.jpg", 1100, 734], [18.1, "p10.jpg", 1100, 732], [20.1, "p11.jpg", 1100, 668], [22.4, "p12.jpg", 1100, 733], [24.9, "p13.jpg", 1100, 550], [27.2, "p14.jpg", 1100, 734], [29.55, "p15.jpg", 732, 1100], [31.2, "p16.jpg", 1086, 1100], [32.6, "p17.jpg", 1100, 734], [34.4, "p18.jpg", 1100, 734], [35.95, "p19.jpg", 1100, 733], [37.15, "p20.jpg", 1100, 733], [38.9, "p21.jpg", 1100, 734], [40.35, "p22.jpg", 1100, 619], [42.95, "p23.jpg", 1100, 541], [45.45, "p24.jpg", 1100, 550], [47.0, "p25.jpg", 1100, 733], [47.7, "p26.jpg", 791, 1100], [49.25, "p27.jpg", 880, 1100], [51.15, "p28.jpg", 1100, 733], [53.0, "p29.jpg", 1100, 734], [55.5, "p30.jpg", 842, 1100]], PH=[[["35 000", 0.0, 1.52, 1], ["par", 1.68, 1.84, 0], ["flamingów.", 1.92, 2.8, 1]], [["I", 2.96, 3.04, 0], ["to", 3.12, 3.2, 0], ["nie", 3.28, 3.36, 0], ["w", 3.44, 3.48, 0], ["Afryce.", 3.52, 4.16, 1]], [["W", 4.32, 4.36, 0], ["prowincji", 4.4, 4.88, 0], ["Malaga.", 4.96, 5.52, 1]], [["Laguna", 5.84, 6.24, 0], ["Fuente", 6.32, 6.72, 1], ["de", 6.76, 6.8, 1], ["Piedra,", 6.96, 7.52, 1]], [["pod", 7.64, 7.76, 0], ["Antequerą.", 7.84, 8.64, 1]], [["Największa", 8.8, 9.4, 1], ["laguna", 9.44, 9.84, 0], ["Andaluzji", 9.92, 10.48, 0]], [["prawie", 10.83, 11.08, 0], ["1400", 11.2, 12.2, 1], ["hektarów.", 12.24, 13.2, 1]], [["Zwykle", 13.28, 13.68, 0], ["ma", 13.76, 13.84, 0], ["ledwie", 13.96, 14.16, 0], ["0,5 m", 14.32, 14.8, 1], ["wody.", 14.88, 15.36, 0]], [["Ale", 15.52, 15.68, 0], ["w", 15.72, 15.76, 0], ["marcu", 15.84, 16.16, 0], ["tego", 16.24, 16.4, 0], ["roku", 16.48, 16.72, 0]], [["ponad", 17.15, 17.36, 0], ["metr.", 17.44, 17.84, 1]], [["I", 18.16, 18.24, 0], ["tu", 18.4, 18.64, 0], ["robi", 18.72, 18.96, 0], ["się", 19.0, 19.12, 0], ["ciekawie.", 19.2, 19.96, 1]], [["Wiosną", 20.16, 20.64, 0], ["zagnieździło", 20.68, 21.28, 0], ["się", 21.32, 21.44, 0], ["35 177", 21.52, 24.16, 1], ["par.", 24.32, 24.88, 1]], [["Najwięcej", 24.96, 25.44, 1], ["od", 25.52, 25.6, 0], ["początku", 25.68, 26.08, 0], ["liczenia,", 26.16, 26.72, 0]], [["od", 26.8, 26.88, 0], ["1984.", 26.96, 29.52, 1]], [["Wykluło", 29.6, 30.0, 0], ["się", 30.04, 30.16, 0], ["15 500", 30.24, 31.68, 1], ["piskląt.", 31.76, 32.56, 1]], [["To", 32.6, 32.64, 0], ["największa", 32.72, 33.28, 1], ["kolonia", 33.36, 33.68, 1], ["flamingów", 33.76, 34.24, 0]], [["na", 34.28, 34.32, 0], ["Półwyspie", 34.4, 34.88, 0], ["Iberyjskim.", 34.92, 35.92, 0]], [["Ale", 36.0, 36.08, 0], ["to", 36.16, 36.24, 0], ["nie", 36.32, 36.4, 0], ["koniec.", 36.48, 36.96, 0]], [["Od", 37.2, 37.36, 0], ["40", 37.44, 38.08, 1], ["lat", 38.16, 38.32, 0]], [["pisklęta", 38.4, 38.96, 0], ["dostają", 39.0, 39.36, 0], ["obrączki.", 39.44, 40.24, 1]], [["Ponad", 40.4, 40.64, 0], ["21 000", 40.8, 42.08, 1], ["ptaków.", 42.24, 42.88, 1]], [["Zauważono", 43.04, 43.6, 0], ["je", 43.68, 43.76, 0], ["w", 43.8, 43.84, 0], ["23", 43.92, 44.72, 1], ["krajach.", 44.8, 45.4, 1]], [["Od", 45.52, 45.6, 0], ["Gwinei", 45.68, 46.08, 1], ["Bissau", 46.16, 46.64, 1]], [["aż", 46.72, 46.8, 0], ["po", 46.88, 46.96, 0], ["Cypr.", 47.04, 47.68, 1]], [["A", 47.71, 47.73, 0], ["co", 47.76, 47.84, 0], ["trzecia", 47.92, 48.24, 1], ["obserwacja?", 48.32, 49.12, 0]], [["Tutaj,", 49.28, 49.76, 1], ["w", 49.8, 49.84, 0], ["Fuente", 49.92, 50.24, 1], ["de", 50.28, 50.32, 1], ["Piedra.", 50.4, 51.0, 1]], [["Zdaniem", 51.2, 51.52, 0], ["redakcji", 51.6, 52.08, 0], ["najbardziej", 52.37, 52.96, 0], ["różowy", 53.04, 53.44, 1], ["powód,", 53.52, 53.88, 0]], [["by", 53.92, 54.0, 0], ["zjechać", 54.08, 54.4, 0], ["w", 54.48, 54.56, 0], ["głąb", 54.61, 54.8, 0], ["lądu.", 54.88, 55.52, 0]], [["Widziałeś", 55.56, 56.0, 0], ["je", 56.04, 56.08, 0], ["na", 56.12, 56.16, 0], ["żywo?", 56.24, 56.8, 1]], [["Napisz", 56.88, 57.2, 0], ["w", 57.24, 57.28, 0], ["komentarzu.", 57.39, 58.16, 1]]], LB=["", "", "zdjęcie ilustracyjne", "mapa · Europa", "Laguna Fuente de Piedra", "El Torcal · okolice Antequery", "Laguna Fuente de Piedra", "Laguna Fuente de Piedra", "Laguna Fuente de Piedra", "zdjęcie ilustracyjne", "zdjęcie ilustracyjne", "zdjęcie ilustracyjne", "zdjęcie ilustracyjne", "zdjęcie ilustracyjne", "zdjęcie ilustracyjne", "zdjęcie ilustracyjne", "zdjęcie ilustracyjne", "zdjęcie ilustracyjne", "zdjęcie ilustracyjne", "zdjęcie ilustracyjne", "zdjęcie ilustracyjne · obrączkowanie", "zdjęcie ilustracyjne · obrączkowanie", "zdjęcie ilustracyjne", "mapa · Morze Śródziemne", "zdjęcie ilustracyjne", "zdjęcie ilustracyjne", "Laguna Fuente de Piedra", "zdjęcie ilustracyjne", "zdjęcie ilustracyjne", "zdjęcie ilustracyjne", "zdjęcie ilustracyjne"];
+const E=(a,b,t)=>{let x=Math.max(0,Math.min(1,(t-a)/b));return x*x*(3-2*x)};
+const ROT=[-3,2.5,-1.5,3,-2.5,1.5,-3.5,2];
+const sh=document.getElementById('shots');
+SH.forEach((s,i)=>{if(i<2)return;const d=document.createElement('div');d.className='pol';d.id='s'+i;d.dataset.r=ROT[i%8];d.dataset.x=((i*37)%50)-25;
+d.innerHTML='<div class=pin></div><div class=w><img src="img/'+s[1]+'"></div><div class=l>'+LB[i]+'</div>';sh.appendChild(d)});
+const CARDS=[{"a": 3.5, "b": 4.25, "cls": "stamp", "css": "left:300px;top:680px;color:#c0281b;font-size:80px", "r": -8, "s0": 2, "h": "NIE AFRYKA"}, {"a": 4.4, "b": 5.75, "cls": "tag", "css": "left:360px;top:940px", "r": -4, "h": "MÁLAGA · ANDALUZJA"}, {"a": 5.9, "b": 7.55, "cls": "paper", "pin": 1, "css": "left:80px;top:920px;width:560px", "r": -2, "h": "<div style=\"font-size:30px;opacity:.7\">laguna · prowincja Malaga</div><div class=big style=\"font-size:62px;margin-top:8px\">FUENTE<br>DE PIEDRA</div>"}, {"a": 7.7, "b": 8.7, "cls": "tag", "css": "left:440px;top:760px", "r": 3, "h": "→ ANTEQUERA"}, {"a": 9.0, "b": 13.15, "cls": "paper", "pin": 1, "css": "left:90px;top:900px;width:520px;text-align:center", "r": -3, "h": "<div class=big style=\"font-size:110px\">≈1400</div><div style=\"font-size:36px\">hektarów · największa<br>laguna Andaluzji</div>"}, {"a": 13.4, "b": 15.4, "cls": "paper", "pin": 1, "css": "left:440px;top:920px;width:440px;text-align:center", "r": 3, "h": "<div class=big style=\"font-size:110px\">~0,5 m</div><div style=\"font-size:34px\">tyle zwykle ma wody</div>"}, {"a": 15.6, "b": 18.0, "cls": "paper", "pin": 1, "css": "left:90px;top:900px;width:500px;text-align:center", "r": -2, "h": "<div style=\"font-size:34px\">marzec 2026</div><div class=big style=\"font-size:120px;color:#c0281b\">101 cm</div>"}, {"a": 20.2, "b": 29.45, "cls": "paper", "pin": 1, "css": "left:80px;top:860px;width:700px;text-align:center", "r": -1.5, "s0": 1.15, "cnt": [35177, 3.1], "h": "<div class=\"big n\" style=\"font-size:150px\">0</div><div style=\"font-size:38px;margin-top:6px\">par lęgowych · wiosna 2026</div>"}, {"a": 25.0, "b": 29.45, "cls": "stamp", "css": "left:250px;top:760px;color:#c0281b;font-size:62px", "r": 9, "s0": 2.2, "h": "REKORD OD 1984"}, {"a": 29.7, "b": 32.5, "cls": "paper", "pin": 1, "css": "left:420px;top:900px;width:480px;text-align:center", "r": 3, "h": "<div class=big style=\"font-size:120px\">15 500</div><div style=\"font-size:38px\">piskląt</div>"}, {"a": 32.7, "b": 35.85, "cls": "paper", "pin": 1, "css": "left:90px;top:890px;width:580px;text-align:center;background:#1d1a16;color:#efe6d2", "r": -2, "h": "<div class=big style=\"font-size:120px;color:#f2e35b\">Nr 1</div><div style=\"font-size:36px\">kolonia flamingów<br>na Półwyspie Iberyjskim</div>"}, {"a": 37.3, "b": 40.25, "cls": "paper", "pin": 1, "css": "left:390px;top:910px;width:510px;text-align:center", "r": 2.5, "h": "<div class=big style=\"font-size:84px\">1986 → 2026</div><div style=\"font-size:36px;margin-top:8px\">40 lat obrączkowania</div>"}, {"a": 40.5, "b": 42.85, "cls": "paper", "pin": 1, "css": "left:90px;top:910px;width:520px;text-align:center", "r": -3, "h": "<div class=big style=\"font-size:116px\">21 000+</div><div style=\"font-size:34px\">piskląt z obrączką</div>"}, {"a": 43.1, "b": 47.6, "cls": "paper", "pin": 1, "css": "left:460px;top:880px;width:430px;text-align:center", "r": 3, "h": "<div class=big style=\"font-size:130px\">23</div><div style=\"font-size:40px\">kraje</div>"}, {"a": 45.6, "b": 47.6, "cls": "tag", "css": "left:90px;top:1070px;font-size:42px", "r": -3, "h": "GWINEA BISSAU → CYPR"}, {"a": 47.8, "b": 51.1, "cls": "paper", "pin": 1, "css": "left:90px;top:900px;width:540px;text-align:center", "r": -2, "h": "<div class=big style=\"font-size:120px\">1 / 3</div><div style=\"font-size:34px\">obserwacji – z powrotem<br>w Fuente de Piedra</div>"}, {"a": 51.25, "b": 55.45, "cls": "paper", "pin": 1, "css": "left:120px;top:940px;width:640px;text-align:center;background:#1d1a16;color:#f2e35b", "r": -1.5, "h": "<div class=big style=\"font-size:54px;letter-spacing:.04em\">ZDANIEM REDAKCJI</div>"}, {"a": 55.6, "b": 58.2, "cls": "tag", "css": "left:200px;top:990px;font-size:52px", "r": -3, "h": "NAPISZ W KOMENTARZU ↓"}];
+const cd=document.getElementById('cards');
+CARDS.forEach((c,i)=>{const d=document.createElement('div');d.className='c '+(c.cls||'');d.id='c'+i;d.style.cssText=c.css+';transform:rotate('+(c.r||0)+'deg)';d.dataset.r=c.r||0;d.innerHTML=(c.pin?'<div class=pin></div>':'')+c.h;cd.appendChild(d)});
+function fmt(n){return n.toString().replace(/\B(?=(\d{3})+(?!\d))/g,' ')}
+window.setT=function(t){
+ document.getElementById('board').style.transform='scale('+(1.02+0.02*Math.sin(t*.2))+')';
+ // hook
+ const hk=document.getElementById('hook');hk.style.opacity=1-E(2.7,0.25,t);hk.style.display=t>3?'none':'block';
+ hk.querySelector('.bg').style.transform='scale('+(1.05+0.03*t)+')';document.getElementById('snd').style.opacity=Math.floor(t*2.5)%2?0.55:1;
+ // shots
+ for(let i=2;i<SH.length;i++){const el=document.getElementById('s'+i);const a=SH[i][0],b=(i+1<SH.length?SH[i+1][0]:99);
+  if(t<a-0.01||t>b+0.45){el.style.opacity=0;continue}
+  const k=E(a,0.28,t);const out=E(b+0.15,0.3,t);el.style.opacity=k*(1-out);
+  el.style.transform='translate('+el.dataset.x+'px,'+(-30*(1-k))+'px) rotate('+el.dataset.r+'deg) scale('+(1.12-0.12*k)+')';el.style.zIndex=i;
+  const p=Math.max(0,Math.min(1,(t-a)/Math.max(1,(b-a)+0.4)));const im=el.querySelector('img');
+  const dir=i%2?1:-1;im.style.transform='scale('+(1.06+0.12*p)+') translate('+(dir*28*(p-.5))+'px,'+(-14*(p-.5))+'px)'}
+ // cards
+ CARDS.forEach((c,i)=>{const el=document.getElementById('c'+i);if(t<c.a||t>c.b+0.3){el.style.opacity=0;return}
+  const k=E(c.a,0.3,t),o=E(c.b,0.3,t);el.style.opacity=k*(1-o);el.style.transform='rotate('+el.dataset.r+'deg) scale('+((c.s0||1.2)-((c.s0||1.2)-1)*k)+')';el.style.zIndex=100;
+  if(c.cnt){const n=el.querySelector('.n');const q=E(c.a,c.cnt[1],t);n.textContent=fmt(Math.round(c.cnt[0]*q))}});
+ // captions
+ const cap=document.getElementById('cap');let ph=null;if(t>2.9)for(const p of PH){if(t>=p[0][1]-0.05&&t<=p[p.length-1][2]+0.3)ph=p}
+ if(!ph||t>58.3){cap.style.opacity=0}else{cap.style.opacity=1;cap.innerHTML=ph.map(w=>'<span style="display:'+(t>=w[1]-0.03?'inline':'none')+';color:'+(w[3]?'#f2e35b':'#fff')+'">'+w[0]+'</span>').join(' ')}
+ const en=document.getElementById('end');en.style.opacity=E(58.3,0.4,t);document.getElementById('endc').style.transform='translateY('+(60*(1-E(58.3,0.4,t)))+'px)';
+};
+</script></body></html>
