@@ -1,0 +1,17 @@
+name: fetch
+on:
+  workflow_dispatch:
+    inputs:
+      url: {description: "URL", required: true}
+      name: {description: "Nazwa pliku w _tts", required: true}
+permissions: {contents: write}
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: mkdir -p _tts && curl -sfL -o "_tts/${{ inputs.name }}" "${{ inputs.url }}" && ls -la _tts
+      - run: |
+          git config user.name Oliwiana; git config user.email noreply@solysol.pl
+          git add _tts; git commit -m "fetch ${{ inputs.name }}" || true
+          for i in 1 2 3; do git pull --rebase -q && git push && break; sleep 5; done
