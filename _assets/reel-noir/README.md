@@ -1,6 +1,7 @@
 # Reel NOIR – wzór (reel o Bondzie, 53 s)
 
 - wzor-bond.mp4 – gotowy wzór: hak 6 s (duży napis + pytanie lektora), potem historia na zdjęciach (Ken Burns, zmiana co 2–4 s), napisy słowo po słowie, podkład _assets/zagadki/noir-bed.mp3 (~0.3 pod lektorem), na końcu „Obserwuj @solysol.pl”.
+- ZASADA OD 22.11.2026 (Oliwia): każdy film Sol y Sól (reele IG, Shorty YT) wygląda jak wzor-bond.mp4, ale z WIĘKSZĄ liczbą zdjęć – min. 20 różnych zdjęć, zmiana ujęcia co 1,5–2,5 s, żadne dłużej niż 3 s.
 - hook.html – plansza haka 1080×1920 (styl _tools/noir.py: czarno-białe zdjęcie, ziarno, Oswald z podkreśleniem, kursywa Cormorant, etykiety niebieska #5b7cff i żółta #f2e35b).
 - index9.html + rend9.js – animacja HTML renderowana klatka po klatce (puppeteer-core) – dostosuj teksty, zdjęcia i czasy do transkrypcji lektora.
 - cover.html – okładka reela (= hak).
