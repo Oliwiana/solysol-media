@@ -1,0 +1,116 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><style>
+@font-face{font-family:O;font-weight:600;src:url(file:///home/claude/tools/node_modules/@fontsource/oswald/files/oswald-latin-600-normal.woff2)}
+@font-face{font-family:O;font-weight:600;src:url(file:///home/claude/tools/node_modules/@fontsource/oswald/files/oswald-latin-ext-600-normal.woff2);unicode-range:U+0100-024F,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:O;font-weight:700;src:url(file:///home/claude/tools/node_modules/@fontsource/oswald/files/oswald-latin-700-normal.woff2)}
+@font-face{font-family:O;font-weight:700;src:url(file:///home/claude/tools/node_modules/@fontsource/oswald/files/oswald-latin-ext-700-normal.woff2);unicode-range:U+0100-024F,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:S;font-style:italic;font-weight:500;src:url(file:///home/claude/tools/node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-500-italic.woff2)}
+@font-face{font-family:S;font-style:italic;font-weight:500;src:url(file:///home/claude/tools/node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-ext-500-italic.woff2);unicode-range:U+0100-024F,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:S;font-weight:600;src:url(file:///home/claude/tools/node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-600-normal.woff2)}
+@font-face{font-family:S;font-weight:600;src:url(file:///home/claude/tools/node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-ext-600-normal.woff2);unicode-range:U+0100-024F,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:I;font-weight:700;src:url(file:///home/claude/tools/node_modules/@fontsource/inter/files/inter-latin-700-normal.woff2)}
+@font-face{font-family:I;font-weight:700;src:url(file:///home/claude/tools/node_modules/@fontsource/inter/files/inter-latin-ext-700-normal.woff2);unicode-range:U+0100-024F,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:I;font-weight:500;src:url(file:///home/claude/tools/node_modules/@fontsource/inter/files/inter-latin-500-normal.woff2)}
+@font-face{font-family:I;font-weight:500;src:url(file:///home/claude/tools/node_modules/@fontsource/inter/files/inter-latin-ext-500-normal.woff2);unicode-range:U+0100-024F,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}
+html,body{margin:0;width:1080px;height:1920px;overflow:hidden;background:#0b0b0d;color:#f4f1ea}
+.sh{position:absolute;inset:0;overflow:hidden;opacity:0}
+.sh img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:contrast(1.12) brightness(.8)}
+#tint{position:absolute;inset:0;background:linear-gradient(180deg,rgba(6,8,14,.55) 0%,rgba(6,8,14,.12) 22%,rgba(6,8,14,.1) 45%,rgba(6,8,14,.75) 70%,rgba(6,8,14,.92) 100%)}
+#vig{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 45%,rgba(0,0,0,0) 45%,rgba(0,0,0,.6) 100%)}
+.grain{position:absolute;inset:-40px;opacity:.2;mix-blend-mode:overlay}
+.brand{position:absolute;left:64px;top:156px;font-family:S;font-weight:600;font-size:38px;letter-spacing:.08em}
+.brand i{color:#f2e35b;font-style:italic}
+.lab{display:inline-block;font-family:I;font-weight:700;font-size:34px;line-height:1.05;padding:7px 15px 9px;letter-spacing:-.01em}
+.blue{background:#5b7cff;color:#fff}.yel{background:#f2e35b;color:#2f45c9}
+#tag{position:absolute;right:150px;top:156px}
+#cap{position:absolute;left:70px;right:150px;top:1180px;text-align:center;font-family:O;font-weight:700;font-size:84px;line-height:1.04;text-transform:uppercase;letter-spacing:-.005em;text-shadow:0 4px 18px rgba(0,0,0,.8)}
+#cap span{display:inline-block;margin:0 .12em}
+.ov{position:absolute;opacity:0}
+.big{font-family:O;font-weight:700;font-size:210px;line-height:.9;letter-spacing:-.03em;text-shadow:0 8px 30px rgba(0,0,0,.6)}
+.stamp{font-family:O;font-weight:700;font-size:96px;letter-spacing:.04em;padding:6px 26px;border:9px solid currentColor;border-radius:10px;text-transform:uppercase;mix-blend-mode:normal}
+.red{color:#e0412f}.grn{color:#3fb56a}
+.scrap{position:absolute;background:#efe9dc;padding:14px 14px 44px;box-shadow:0 18px 40px rgba(0,0,0,.55)}
+.scrap img{display:block;filter:grayscale(1) contrast(1.1);object-fit:cover}
+#hook{position:absolute;inset:0}
+.h{font-family:O;font-weight:600;font-size:124px;line-height:.98;letter-spacing:-.025em;margin:26px 0 0}
+.h u{text-decoration-thickness:7px;text-underline-offset:12px}
+.h em{font-family:S;font-style:italic;font-weight:500;letter-spacing:-.01em;font-size:1.04em}
+#board{position:absolute;left:70px;right:150px;top:470px;background:#efe9dc;color:#1b1a17;padding:40px 44px 46px;box-shadow:0 24px 60px rgba(0,0,0,.6);transform:rotate(-1.2deg)}
+#board h3{margin:0 0 20px;font-family:O;font-weight:700;font-size:70px;letter-spacing:.04em}
+.row{font-family:I;font-weight:700;font-size:40px;line-height:1.15;margin-top:24px;position:relative;min-height:120px}
+.row small{display:block;font-weight:500;font-size:26px;opacity:.65;margin-top:6px}
+.row .stamp{display:inline-block;margin-top:14px;font-size:54px;padding:2px 16px;border-width:6px;transform:rotate(-6deg)}
+#cr{position:absolute;left:64px;bottom:40px;font-family:I;font-weight:500;font-size:19px;opacity:.6;max-width:820px}
+#ill{position:absolute;left:64px;top:214px;font-family:I;font-weight:500;font-size:21px;opacity:.65;letter-spacing:.04em}
+#end{position:absolute;inset:0;background:#0b0b0d;opacity:0;text-align:center}
+</style></head><body>
+<div id=shots></div>
+<div id=tint></div><div id=vig></div>
+<svg class=grain width=1160 height=2000><filter id=n><feTurbulence type=fractalNoise baseFrequency=.9 numOctaves=3 stitchTiles=stitch/></filter><rect width=100% height=100% filter=url(#n)/></svg>
+<div class=brand id=brand>SOL <i>y</i> SÓL</div>
+<div id=tag><span class="lab blue">Czy wiesz</span></div>
+<div id=ill>zdjęcia ilustracyjne</div>
+
+<div id=hook>
+ <div class=scrap style="left:600px;top:330px;transform:rotate(5deg)"><img src="img/hook.jpg" style="width:300px;height:280px"></div>
+ <div style="position:absolute;left:64px;right:150px;top:760px">
+  <span class="lab yel" style="font-size:40px">▶ włącz dźwięk</span>
+  <h1 class=h>Z plaży<br>widać <u>Afrykę</u>.<br><em>Ale nie</em><br>codziennie.</h1>
+  <div style="margin-top:30px"><span class="lab blue" style="font-size:38px">Czy wiesz</span> <span class="lab yel" style="font-size:38px">Estepona</span></div>
+ </div>
+</div>
+
+<div class=ov id=oEst style="left:64px;top:600px"><span class="lab yel" style="font-size:44px">Estepona · plaża</span></div>
+<div class=ov id=oMar style="left:64px;top:600px"><span class="lab yel" style="font-size:44px">Na horyzoncie: Maroko</span></div>
+<div class=ov id=o14 style="left:64px;top:560px"><div class=big>≈14 km</div><div class="lab yel" style="margin-top:14px">Europa – Afryka w najwęższym miejscu</div></div>
+<div class=ov id=o60 style="left:64px;top:560px"><div class=big>60+ km</div><div class="lab yel" style="margin-top:14px">Estepona → Dżebel Musa</div></div>
+<div class=ov id=o842 style="left:64px;top:560px"><div class=big>842 m</div><div class="lab yel" style="margin-top:14px">wysokość Dżebel Musa</div></div>
+<div class=ov id=oCurv style="left:64px;top:600px"><span class="lab yel" style="font-size:44px">Szczyt ponad krzywizną Ziemi</span></div>
+<div class=ov id=oNerja style="left:64px;top:600px"><span class="lab yel" style="font-size:44px">Nerja · Balcón de Europa</span></div>
+<div class=ov id=oRif style="left:64px;top:600px"><span class="lab yel" style="font-size:44px">Góry Rif · Maroko</span></div>
+<div class=ov id=oQ style="left:64px;top:560px"><div class=big style="font-size:150px">Dlaczego<br>nie zawsze?</div></div>
+<div class=ov id=sMgla style="left:170px;top:640px;transform:rotate(-7deg)"><div class="stamp red">mgiełka</div></div>
+<div class=ov id=oLev style="left:64px;top:600px"><span class="lab yel" style="font-size:44px">Levante – wiatr ze wschodu</span></div>
+<div class=ov id=oPyl style="left:64px;top:600px"><span class="lab yel" style="font-size:44px">Pył znad Sahary</span></div>
+<div class=ov id=sCal style="left:170px;top:640px;transform:rotate(-7deg)"><div class="stamp red">calima</div></div>
+<div class=ov id=sZn style="left:120px;top:640px;transform:rotate(-6deg)"><div class="stamp red">Afryka znika</div></div>
+<div class=ov id=oWiatr style="left:64px;top:560px"><div class=big style="font-size:150px">wiatr<br>zachodni</div><div class="lab yel" style="margin-top:14px">= najlepsza szansa, by zobaczyć Afrykę</div></div>
+
+<div id=cap></div>
+<div id=cr></div>
+<div id=end>
+ <div style="position:absolute;left:70px;right:150px;top:640px">
+  <div style="font-family:S;font-weight:600;font-size:110px;letter-spacing:.08em">SOL <i style="color:#f2e35b">y</i> SÓL</div>
+  <div style="font-family:S;font-style:italic;font-size:54px;opacity:.85;margin-top:10px">Costa del Sol po polsku</div>
+  <div style="margin-top:70px"><span class="lab yel" style="font-size:64px;padding:12px 28px">@solysol.pl</span></div>
+  <div style="font-family:O;font-weight:600;font-size:58px;margin-top:60px;line-height:1.1">Obserwuj – więcej<br>takich historii z wybrzeża</div>
+ </div>
+</div>
+<script>
+const SH=__SHOTS__, W=__WORDS__, CR=__CREDITS__, END=45.6;
+const KEY=new Set('afrykę afryka esteponie estepony poranek maroko czternastu kilometrów sześćdziesiąt osiemset dżebel musa krzywiznę ziemi nerji rif codziennie mgiełkę lewante wschodu sahary calima znika zachodni pył'.split(' '));
+const box=document.getElementById('shots');
+SH.forEach((s,i)=>{const d=document.createElement('div');d.className='sh';d.id='s'+i;d.innerHTML='<img src="img/'+String(i).padStart(2,'0')+'.jpg" style="object-position:'+s[2]+'">';box.appendChild(d)});
+// phrases: break on punctuation or max 4 words
+const PH=[];let cur=[];W.forEach((w,i)=>{cur.push(w);const last=/[.,?:!]$/.test(w[0])||w[0]=='–';if(last||cur.length>=4){PH.push(cur);cur=[]}});if(cur.length)PH.push(cur);
+const E=(a,b,t)=>{let x=Math.max(0,Math.min(1,(t-a)/b));return x*x*(3-2*x)};
+const OV=[['oEst',3.0,4.8],['oMar',8.3,10.0],['o14',12.8,16.25],['o60',16.4,20.45],['o842',20.6,24.05],['oCurv',24.15,26.75],['oNerja',26.8,28.55],['oRif',29.0,30.6],['oQ',30.7,32.3],['sMgla',33.85,34.6],['oLev',35.0,36.5],['oPyl',36.55,38.3],['sCal',38.65,39.9],['sZn',40.2,41.8],['oWiatr',43.45,45.5]];
+function setT(t){
+ const hook=document.getElementById('hook');hook.style.opacity=1-E(2.3,0.25,t);
+ document.getElementById('tag').style.opacity=E(2.3,0.3,t);
+ let k=0;for(let i=0;i<SH.length;i++)if(t>=SH[i][1])k=i;
+ for(let i=0;i<SH.length;i++){const el=document.getElementById('s'+i);const a=SH[i][1],b=i+1<SH.length?SH[i+1][1]:END+3;
+  let op=0;if(i==k)op=1;else if(i==k-1)op=1-E(SH[k][1],0.18,t);el.style.opacity=op;
+  if(op>0){const p=(t-a)/(b-a+0.2);const z=1.06+0.12*p;const dx=(i%2?1:-1)*30*(p-.5);const dy=(i%3-1)*24*(p-.5);el.firstChild.style.transform='translate('+dx+'px,'+dy+'px) scale('+z+')'}}
+ for(const [id,a,b] of OV){const el=document.getElementById(id);const v=E(a,0.22,t)*(1-E(b-0.2,0.2,t));el.style.opacity=v;
+  if(id[0]=='s'){el.style.transform=el.style.transform.replace(/ scale\([^)]*\)/,'')+' scale('+(1.5-0.5*E(a,0.18,t))+')'}}
+ // captions
+ const c=document.getElementById('cap');let p=null;for(const q of PH){if(t>=q[0][1]-0.05&&t<=q[q.length-1][2]+0.3)p=q}
+ const hide=t<2.35||t>END;c.style.opacity=(p&&!hide)?1:0;
+ c.style.top='1180px';
+ if(p&&!hide)c.innerHTML=p.filter(w=>w[0]!='–').map(w=>{const on=t>=w[1]-0.04;const key=KEY.has(w[0].toLowerCase().replace(/[.,?:!]/g,''));return '<span style="opacity:'+(on?1:0)+';color:'+(key?'#f2e35b':'#fff')+'">'+w[0].replace(/[.,:]$/,'')+'</span>'}).join('');
+ const cr=CR[t<2.9?0:k];document.getElementById('cr').textContent='Fot. '+cr.author.replace(/\s+/g,' ')+' / Wikimedia Commons, '+cr.license;
+ const en=document.getElementById('end');en.style.opacity=E(END,0.35,t);
+ document.getElementById('ill').style.opacity=t<2.35?0:.65;
+}
+setT(0);
+</script></body></html>
