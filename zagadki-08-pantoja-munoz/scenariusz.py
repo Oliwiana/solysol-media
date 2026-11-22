@@ -14,7 +14,7 @@ CH = [
 "W tym samym czasie, w dwa tysiące trzecim roku, Muñoz związuje się z Isabel Pantoją, jedną z najpopularniejszych piosenkarek w Hiszpanii.",
 "Zdaniem redakcji to moment, w którym polityka Marbelli przenosi się z sesji rady miasta na okładki kolorowych magazynów. Ale nas interesuje nie romans, tylko to, co później ustalił sąd. Bo w aktach tej sprawy pojawią się konta, firmy i pieniądze z ratusza."]),
 (2,"Malaya",[
-"Dwa tysiące szósty rok. Rusza operacja Malaya, największe śledztwo korupcyjne w historii Marbelli. W tym samym roku zatrzymany zostaje także Julián Muñoz.",
+"Dwa tysiące szósty rok. Rusza operacja Malaya, największe śledztwo korupcyjne w historii Marbelli. W tym samym roku zatrzymany zostaje także Julián Muñoz. W kwietniu rząd w Madrycie rozwiązuje radę miasta, pierwszy raz w historii hiszpańskiej demokracji.",
 "Śledczy przyglądają się majątkowi byłego burmistrza i temu, skąd pochodzą jego pieniądze.",
 "Pytanie brzmi: gdzie te pieniądze trafiły? I tu w sprawie pojawia się nazwisko jego partnerki."]),
 (2,"Sprawa prania pieniędzy",[
@@ -29,7 +29,7 @@ CH = [
 "Dwudziesty pierwszy listopada dwa tysiące czternastego roku, wczesny ranek. Isabel Pantoja zgłasza się do więzienia dla kobiet w Alcalá de Guadaíra pod Sewillą.",
 "Grzywnę spłaca w ratach. Na początku marca dwa tysiące szesnastego roku opuszcza je na stałe, na warunkowym zwolnieniu."]),
 (3,"Wyroki burmistrza",[
-"Dla Juliána Muñoza to nie koniec. Ma wyroki w kilku sprawach związanych z ratuszem w Marbelli, w tym w głównym procesie Malaya.",
+"Dla Juliána Muñoza to nie koniec. W październiku dwa tysiące trzynastego roku zapada wyrok w głównym procesie Malaya. Skazanych zostaje pięćdziesiąt trzy osoby, wśród nich także były burmistrz. Ma wyroki w kilku sprawach związanych z ratuszem w Marbelli.",
 "W maju dwa tysiące szesnastego roku przechodzi do systemu półotwartego. W dwa tysiące dwudziestym pierwszym roku dostaje warunkowe zwolnienie ze względu na ciężką chorobę.",
 "Dwudziestego czwartego września dwa tysiące dwudziestego czwartego roku Julián Muñoz umiera w szpitalu w Marbelli. Miał siedemdziesiąt sześć lat."]),
 (3,"Epilog",[
