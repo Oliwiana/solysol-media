@@ -16,3 +16,15 @@ def thumb(photo,pos,l1,l2,box,seal,ep):
 <div style="position:absolute;right:40px;bottom:30px;font-family:IN;font-weight:800;font-size:26px;letter-spacing:.1em;color:#fff">SOL <span style="color:#F2C14E">y</span> SÓL</div>
 </body></html>"""
 open('t1.html','w').write(thumb('banus.jpg','60% 50%','James Bond<br>kontra','Marbella','72 apartamenty zamiast willi',['AFERA','Goldfinger','ŚLEDZTWO'],'ODC. 1'))
+E=[('02','mrb_ayto4.jpg','50% 50%','Dzień bez<br>burmistrza','Afera Malaya','Rada miasta rozwiązana',['ROK','2006','MARBELLA']),
+('03','villa3.jpg','50% 50%','Książę<br>Marbelli','al-Kassar','Handlarz bronią w willi',['ODC.','kryminał','PRAWDZIWY']),
+('04','sun0.jpg','50% 50%','Costa<br>del Crime','gangsterzy z Anglii','Raj dla zbiegów',['LATA','70–80','BEZ EKSTRADYCJI']),
+('05','ban2.jpg','50% 60%','Noc otwarcia<br>Puerto Banús','1970','Gwiazdy w jednym porcie',['GOŚCIE','z Hollywood','I KSIĄŻĘTA']),
+('06','x_palacio_mrb.jpg','50% 50%','Król Fahd<br>i Marbella','saudyjski pałac','Miliony w mieście',['LATA','80.','MARBELLA']),
+('07','mrb0.jpg','50% 50%','Jesús Gil<br>i Marbella','jego królestwo','Władza bez granic',['BURMISTRZ','1991–2002','MARBELLA']),
+('08','mrb3.jpg','50% 50%','Miłość,<br>władza','i wyrok','Pantoja i Muñoz',['SPRAWA','Malaya','CZ. 2']),
+('09','mrbaer.jpg','50% 50%','Ballena<br>Blanca','pralnia pieniędzy','Pieniądze z całego świata',['ROK','2005','ŚLEDZTWO']),
+('10','villa4.jpg','50% 50%','Król<br>jet setu','Adnan Khashoggi','Jacht, przyjęcia, Marbella',['LATA','80.','JET SET']),
+('11','port.jpg','50% 50%','Nocne łodzie<br>w Cieśninie','narcolanchas','Przemyt nocą',['DZIŚ','Gibraltar','CIEŚNINA'])]
+for n,ph,pos,l1,l2,box,seal in E:
+    open(f'z{n}.html','w').write(thumb(ph,pos,l1,l2,box,seal,'ODC. '+str(int(n))))

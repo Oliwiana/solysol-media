@@ -35,3 +35,6 @@ Każdy temat przed produkcją: fakty potwierdzone w 2 źródłach; nazwiska tylk
 - Z każdego odcinka 4–5 pionowych klipów 30–50 s (YouTube Shorts + reels IG/FB + TikTok), każdy z hakiem-pytaniem w pierwszych 2 s, napisami słowo po słowie i muzyką noir.
 - Robione z lektora i plansz długiego odcinka (bez nowego nagrania – oszczędność kredytów ElevenLabs).
 - Do Redakcji jako osobne posty „pending” (posts/zagadki-NN-short1…5, kind "reel"); Oliwia akceptuje jeden dziennie. Na YouTube wgrane jako prywatne Shorty – upublicznia je codzienne zadanie po publikacji reela na IG.
+
+## Miniatury YouTube (od 22.11.2026)
+- Kolorowe miniatury 1280×720: _assets/youtube/miniatury/zagadki-NN.jpg (generator _tools/yt_thumb.py). Przy wgrywaniu odcinka ustaw miniaturę z tego folderu. Bez zdjęć znanych osób – tylko miejsca.
