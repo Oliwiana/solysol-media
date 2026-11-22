@@ -7,15 +7,15 @@ CH = [
 (1,"Restauracja, która runęła",[
 "Jesús Gil y Gil urodził się w tysiąc dziewięćset trzydziestym trzecim roku w El Burgo de Osma, w prowincji Soria. Młodo zaczyna robić interesy w budownictwie.",
 "I tu pierwsza mroczna karta. W czerwcu tysiąc dziewięćset sześćdziesiątego dziewiątego roku w Los Ángeles de San Rafael pod Segowią zawala się restauracja zbudowana przez jego firmę. Ginie pięćdziesiąt osiem osób.",
-"Okazuje się, że budowano bez architekta i bez projektu. Gil zostaje skazany na pięć lat więzienia. Po półtora roku wychodzi na wolność dzięki ułaskawieniu generała Franco.",
+"Okazuje się, że budowano bez architekta i bez projektu. Gil zostaje skazany na pięć lat więzienia. Po półtora roku wychodzi na wolność dzięki ułaskawieniu generała Franco. Rodzinom ofiar wypłacono odszkodowania, według biografów rzędu czterystu milionów peset.",
 "Zdaniem redakcji to zdanie, które warto zapamiętać. Bo ten sam schemat, budować szybko i martwić się przepisami później, wróci w tej historii jeszcze nie raz."]),
 (1,"Prezes i showman",[
 "W tysiąc dziewięćset osiemdziesiątym siódmym roku Gil zostaje prezesem Atlético Madryt. Klub pod jego rządami zdobywa Puchar Króla, a w sezonie tysiąc dziewięćset dziewięćdziesiąt pięć, dziewięćdziesiąt sześć także mistrzostwo Hiszpanii.",
-"Gil kłóci się z sędziami, z dziennikarzami, z politykami. Ma własny program w telewizji.",
+"Gil rządzi klubem twardą ręką. W tysiąc dziewięćset dziewięćdziesiątym drugim roku Atlético staje się spółką akcyjną, a on sam razem z rodziną przejmuje w niej zdecydowaną większość. W tym samym roku zamyka klubową szkółkę młodzieżową. W sezonie tysiąc dziewięćset dziewięćdziesiąt dziewięć, dwa tysiące zespół spada z ligi.", "Gil kłóci się z sędziami, z dziennikarzami, z politykami. Ma własny program w telewizji.",
 "W tysiąc dziewięćset dziewięćdziesiątym pierwszym roku zakłada własną partię. Grupo Independiente Liberal. W skrócie GIL. Jak jego nazwisko."]),
 (2,"Miasto w jego rękach",[
 "Wybory w maju tysiąc dziewięćset dziewięćdziesiątego pierwszego roku. GIL zdobywa w Marbelli absolutną większość. Nowy burmistrz obiecuje porządek i inwestycje. Ruszają budowy.",
-"Wielu mieszkańców jest zachwyconych. GIL wygrywa także kolejne wybory, w tysiąc dziewięćset dziewięćdziesiątym piątym i w tysiąc dziewięćset dziewięćdziesiątym dziewiątym roku. Partia zdobywa też władzę w innych miastach na wybrzeżu.",
+"Wielu mieszkańców jest zachwyconych. GIL wygrywa także kolejne wybory, w tysiąc dziewięćset dziewięćdziesiątym piątym i w tysiąc dziewięćset dziewięćdziesiątym dziewiątym roku. Partia zdobywa też władzę w innych miastach na wybrzeżu. W sąsiedniej Esteponie burmistrzem zostaje jego syn.",
 "Ale za fasadą dzieje się coś innego. Grunty rolne zmieniają się w działki budowlane. Powstają budynki bez wymaganych pozwoleń. A kasa miasta zaczyna świecić pustkami."]),
 (2,"Koszulki za miliony",[
 "Pierwsza sprawa, która go dosięgnie, brzmi niewinnie. Koszulki. Piłkarze Atlético grają z napisem Marbella na piersi. Za tę reklamę miasto płaci klubowi, którego prezesem jest burmistrz. Czterysta pięćdziesiąt milionów peset.",
