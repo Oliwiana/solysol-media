@@ -1,0 +1,99 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><style>
+@font-face{font-family:T;src:url(file:///home/claude/tools/node_modules/@fontsource/special-elite/files/special-elite-latin-ext-400-normal.woff2)}
+@font-face{font-family:T;src:url(file:///home/claude/tools/node_modules/@fontsource/special-elite/files/special-elite-latin-400-normal.woff2)}
+@font-face{font-family:I;font-weight:900;src:url(file:///home/claude/tools/node_modules/@fontsource/inter/files/inter-latin-ext-900-normal.woff2)}
+@font-face{font-family:I;font-weight:900;src:url(file:///home/claude/tools/node_modules/@fontsource/inter/files/inter-latin-900-normal.woff2)}
+@font-face{font-family:I;font-weight:600;src:url(file:///home/claude/tools/node_modules/@fontsource/inter/files/inter-latin-ext-600-normal.woff2)}
+@font-face{font-family:I;font-weight:600;src:url(file:///home/claude/tools/node_modules/@fontsource/inter/files/inter-latin-600-normal.woff2)}
+@font-face{font-family:I;font-weight:400;src:url(file:///home/claude/tools/node_modules/@fontsource/inter/files/inter-latin-ext-400-normal.woff2)}
+@font-face{font-family:I;font-weight:400;src:url(file:///home/claude/tools/node_modules/@fontsource/inter/files/inter-latin-400-normal.woff2)}
+@font-face{font-family:O;font-weight:600;src:url(file:///home/claude/tools/node_modules/@fontsource/oswald/files/oswald-latin-ext-600-normal.woff2)}
+@font-face{font-family:O;font-weight:600;src:url(file:///home/claude/tools/node_modules/@fontsource/oswald/files/oswald-latin-600-normal.woff2)}
+@font-face{font-family:S;font-style:italic;font-weight:500;src:url(file:///home/claude/tools/node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-ext-500-italic.woff2)}
+@font-face{font-family:S;font-style:italic;font-weight:500;src:url(file:///home/claude/tools/node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-500-italic.woff2)}
+@font-face{font-family:S;font-weight:600;src:url(file:///home/claude/tools/node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-ext-600-normal.woff2)}
+@font-face{font-family:S;font-weight:600;src:url(file:///home/claude/tools/node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-600-normal.woff2)}
+html,body{margin:0;width:1080px;height:1920px;overflow:hidden;background:#0d0d0f;color:#f4f1ea;font-family:I}
+.ph{position:absolute;inset:-60px;background-size:cover;background-position:center;filter:grayscale(1) contrast(1.2) brightness(.74);opacity:0;will-change:transform}
+#shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(6,8,16,.7) 0%,rgba(6,8,16,.15) 22%,rgba(6,8,16,.1) 50%,rgba(6,8,16,.85) 74%,rgba(6,8,16,.95) 100%)}
+#vig{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 45%,transparent 45%,rgba(0,0,0,.7) 100%)}
+.grain{position:absolute;inset:0;opacity:.2;mix-blend-mode:overlay}
+#top{position:absolute;left:0;right:0;top:0;display:flex;justify-content:space-between;padding:160px 150px 0 64px;font-weight:600;font-size:24px;letter-spacing:.22em}
+#top .b{font-family:S;font-weight:600;font-size:36px;letter-spacing:.08em}#top .b i{color:#f2e35b;font-style:italic}
+.e{position:absolute;opacity:0}
+.paper{background:#efe6d2;color:#1d1a16;box-shadow:6px 14px 30px rgba(0,0,0,.6);font-family:T}
+.pin{position:absolute;width:26px;height:26px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#ff6b5a,#a3150c);box-shadow:2px 4px 6px rgba(0,0,0,.6);left:50%;top:-12px;margin-left:-13px}
+.stamp{font-weight:900;border:9px solid #d9301f;color:#e0392a;padding:8px 30px;letter-spacing:.05em;border-radius:10px;font-size:76px}
+.tag{background:#f2e35b;color:#171513;font-weight:900;font-size:52px;padding:12px 26px;box-shadow:6px 12px 24px rgba(0,0,0,.5)}
+.lab{display:inline-block;font-weight:600;font-size:38px;line-height:1.05;padding:6px 14px 8px}
+.blue{background:#5b7cff;color:#fff}.yel{background:#f2e35b;color:#2f45c9}
+#cap{position:absolute;left:70px;right:150px;bottom:440px;text-align:center;font-weight:900;font-size:68px;line-height:1.12;text-transform:uppercase;letter-spacing:-.01em}
+#cap span{background:rgba(10,10,12,.78);padding:4px 14px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+#cap b{color:#f2e35b;font-weight:900}
+#cr{position:absolute;left:18px;top:600px;writing-mode:vertical-rl;font-size:17px;letter-spacing:.12em;opacity:.55;text-transform:uppercase}
+#hook{position:absolute;inset:0}
+.h{font-family:O;font-weight:600;font-size:150px;line-height:.96;letter-spacing:-.025em;margin:26px 0 0}
+.h u{text-decoration-thickness:8px;text-underline-offset:14px}
+.h em{font-family:S;font-style:italic;font-weight:500;font-size:1.04em;color:#f2e35b}
+#end{position:absolute;inset:0;background:#0b0c10;opacity:0;text-align:center}
+.town{font-size:54px;margin:8px 0;opacity:0}
+.town b{font-family:I;font-weight:900;color:#c0281b}
+</style></head><body>
+<div id=photos></div>
+<div id=shade></div><div id=vig></div>
+<svg class=grain width=1080 height=1920><filter id=n><feTurbulence type=fractalNoise baseFrequency=.9 numOctaves=3 stitchTiles=stitch /></filter><rect width=100% height=100% filter=url(#n) /></svg>
+<div id=top><span class=b>SOL <i>y</i> SÓL</span><span>TEMAT TYGODNIA</span></div>
+<div id=cr>Fot. Wikimedia Commons – zdjęcia ilustracyjne</div>
+
+<div id=cards style="position:absolute;inset:0;transform:scale(.92);transform-origin:60px 300px">
+<div class=e id=c1 style="left:70px;top:400px"><div style="font-family:T;font-size:56px;color:#f2e35b">styczeń 2026<br>Policía Nacional</div><div style="font-family:O;font-weight:600;font-size:260px;line-height:.95;margin-top:10px">4</div><div style="font-family:O;font-weight:600;font-size:84px;line-height:1">zatrzymanych</div><div id=c1b style="font-family:S;font-style:italic;font-size:56px;opacity:0;margin-top:10px">obywatele Chile</div></div>
+<div class="e paper" id=c2 style="left:90px;top:460px;width:880px;padding:40px 44px;transform:rotate(1.5deg)"><div class=pin></div><div style="font-size:30px;opacity:.7">według śledczych:</div><div style="font-size:56px;line-height:1.22;margin-top:12px">kobieta dzwoniła do furtek i sprawdzała, gdzie nie pali się światło</div></div>
+<div class=e id=c3 style="left:80px;top:520px;width:880px;text-align:center"><div class=tag style="display:inline-block;transform:rotate(-3deg);font-size:60px">2 PRZEZ MUR</div><div id=c3b style="opacity:0;margin-top:40px"><div class=tag style="display:inline-block;transform:rotate(2deg);font-size:60px;background:#efe6d2">1 CZEKA W AUCIE</div></div></div>
+<div class="e paper" id=c4 style="left:130px;top:360px;width:800px;padding:36px 44px 30px;transform:rotate(-1.5deg)"><div class=pin></div><div style="font-size:30px;opacity:.7">co najmniej</div><div style="font-family:I;font-weight:900;font-size:150px;line-height:1">10 <span style="font-size:70px">włamań</span></div>
+<div class=town id=w0>✕ Málaga</div><div class=town id=w1>✕ Mijas</div><div class=town id=w2>✕ Nerja</div></div>
+<div class="e paper" id=c5 style="left:110px;top:460px;width:840px;padding:44px;transform:rotate(-2deg);text-align:center"><div class=pin></div><div style="font-size:34px;opacity:.7">kilka dni wcześniej · Guardia Civil</div><div style="font-family:I;font-weight:900;font-size:150px;line-height:1;margin-top:12px">5</div><div style="font-size:50px">zatrzymanych</div><div style="font-size:40px;margin-top:14px;color:#c0281b">Marbella · Mijas</div></div>
+<div class=e id=c6 style="left:80px;top:560px;width:880px;text-align:center"><div class=tag style="display:inline-block;transform:rotate(-2deg)">ŚLEDZILI OFIARY<br>AŻ POD DOM</div><div style="font-family:T;font-size:44px;margin-top:30px">tak twierdzą śledczy</div></div>
+<div class="e stamp" id=c7 style="left:110px;top:560px;transform:rotate(-8deg);font-size:84px">LATEKSOWE<br>MASKI<br>I PERUKI</div>
+<div class=e id=c8 style="left:0;right:140px;top:400px;text-align:center"><div class="lab yel">październik 2026</div><div style="font-family:O;font-weight:600;font-size:300px;line-height:.9;letter-spacing:-.03em;margin-top:20px">34</div><div style="font-family:O;font-weight:600;font-size:80px">zatrzymanych</div><div class=paper style="display:inline-block;padding:16px 30px;font-size:44px;margin-top:24px;transform:rotate(-1.5deg)">z 8 band · luksusowe zegarki</div></div>
+<div class="e paper" id=c9 style="left:120px;top:500px;width:820px;padding:40px 48px;transform:rotate(1.5deg)"><div class=pin></div><div style="font-size:32px;opacity:.7">jeden z napadów:</div><div style="font-size:58px;line-height:1.25;margin-top:10px">turystę zaatakowano pod jego własnymi drzwiami</div></div>
+<div class=e id=c10 style="left:0;right:140px;top:430px;text-align:center"><div style="font-family:T;font-size:44px">najdroższy odzyskany zegarek</div><div style="font-family:O;font-weight:600;font-size:200px;line-height:1;letter-spacing:-.03em;margin-top:20px;color:#f2e35b">450 000 €</div><div class=stamp style="display:inline-block;transform:rotate(-5deg);font-size:64px;margin-top:30px">I WIĘCEJ</div></div>
+<div class="e paper" id=c11 style="left:110px;top:380px;width:840px;padding:40px 48px;transform:rotate(-1.5deg)"><div class=pin></div><div style="font-size:34px;opacity:.75">Przed świętami policja radzi:</div><div style="font-size:52px;line-height:1.35;margin-top:14px"><div class=town id=k0 style="font-size:52px">✕ nie chwal się wyjazdem w sieci</div><div class=town id=k1 style="font-size:52px">✓ sąsiad opróżnia skrzynkę</div><div class=town id=k2 style="font-size:52px">✕ klucze pod wycieraczką</div></div></div>
+</div><div id=cap></div>
+
+<div id=hook><div style="position:absolute;left:64px;right:150px;top:560px">
+<span class="lab yel">🔊 włącz dźwięk</span>
+<h1 class=h>Ktoś<br>zadzwonił<br>do <u>furtki</u><br>i <em>odszedł?</em></h1>
+<div style="margin-top:34px"><span class="lab blue">Temat tygodnia</span> <span class="lab yel">Costa del Sol · 2026</span></div></div>
+<div style="position:absolute;left:64px;bottom:440px;font-size:22px;opacity:.6">zdjęcie ilustracyjne · Wikimedia Commons</div></div>
+
+<div id=end><div style="position:absolute;left:60px;right:140px;top:600px">
+<div style="font-family:S;font-weight:600;font-size:64px;letter-spacing:.1em">SOL <i style="color:#f2e35b">y</i> SÓL</div>
+<div style="font-family:O;font-weight:600;font-size:118px;margin-top:40px">@solysol.pl</div>
+<div style="font-family:S;font-style:italic;font-size:56px;margin-top:30px;opacity:.9">więcej takich historii z wybrzeża</div>
+<div style="margin-top:60px"><span class="lab blue" style="font-size:44px">Obserwuj</span></div></div></div>
+
+<script src=data.js></script><script>
+const P=window.PHOTOS; // [{src,start,end,kb:[x0,y0,s0,x1,y1,s1]}]
+const box=document.getElementById('photos');
+P.forEach((p,i)=>{const d=document.createElement('div');d.className='ph';d.id='p'+i;d.style.backgroundImage=`url(${p.src})`;if(p.pos)d.style.backgroundPosition=p.pos;box.appendChild(d)});
+const W=window.WORDS; // [text,start,end]
+// chunks
+const CH=[];let cur=[];W.forEach((w,i)=>{if(w[0]==='–')return;cur.push(i);const br=/[.?!,:]$/.test(w[0])||cur.length>=3;if(br){CH.push(cur);cur=[]}});if(cur.length)CH.push(cur);
+const CARDS=window.CARDS; // [id,start,end]
+const cl=(x,a,b)=>Math.max(a,Math.min(b,x));
+const ease=x=>x<.5?2*x*x:1-Math.pow(-2*x+2,2)/2;
+function fade(t,s,e,f=.35){return cl((t-s)/f,0,1)*cl((e-t)/f,0,1)}
+window.setT=function(t){
+ P.forEach((p,i)=>{const el=document.getElementById('p'+i);const o=fade(t,p.start,p.end,.4);el.style.opacity=o;if(o>0){const k=cl((t-p.start)/(p.end-p.start),0,1);const [x0,y0,s0,x1,y1,s1]=p.kb||[0,0,1.05,-20,-30,1.18];el.style.transform=`translate(${x0+(x1-x0)*k}px,${y0+(y1-y0)*k}px) scale(${s0+(s1-s0)*k})`}});
+ CARDS.forEach(([id,s,e,sub])=>{const el=document.getElementById(id);const o=fade(t,s,e,.3);el.style.opacity=o;const pop=cl((t-s)/.35,0,1);const base=el.dataset.tr??(el.dataset.tr=el.style.transform||'');el.style.transform=base+` scale(${1.12-0.12*ease(pop)})`;
+   if(sub)sub.forEach(([sid,st])=>{document.getElementById(sid).style.opacity=cl((t-st)/.25,0,1)})});
+ const hk=document.getElementById('hook');hk.style.opacity=t<2.25?1:cl(1-(t-2.25)/.3,0,1);
+ document.getElementById('end').style.opacity=cl((t-window.END)/.4,0,1);
+ // captions
+ const cap=document.getElementById('cap');let html='';
+ if(t>=2.45&&t<window.END){let ci=-1;for(let c=0;c<CH.length;c++){const a=W[CH[c][0]][1],b=(c+1<CH.length?W[CH[c+1][0]][1]:99);if(t>=a-0.05&&t<b)ci=c}
+  if(ci>=0){html='<span>'+CH[ci].map(i=>t>=W[i][1]-0.03?`<b>${W[i][0]}</b>`:W[i][0]).join(' ')+'</span>'}}
+ cap.innerHTML=html;
+ document.getElementById('top').style.opacity=t<2.25?0:1;
+}
+</script></body></html>
