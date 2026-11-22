@@ -80,16 +80,12 @@ write(f'{N:02d}', f'''{mast(N, INK, 'rgba(23,21,19,.25)')}
 open(f'{out}/fb.html', 'w').write(open(f'{out}/01.html').read().replace(f'>1/{N}<', '><').replace('PRZESUŃ  →', 'WSZYSTKIE WIADOMOŚCI W OPISIE'))
 # okładka IG w stylu siatki (zdjęcie u góry, ciemny dół, jedno hasło) – spis zostaje na FB
 if not G:
-    t0 = items[0]
-    write('01', f'''<img src="file://{PH}{d["photo"]}" style="position:absolute;left:0;top:0;width:100%;height:900px;object-fit:cover;object-position:{d.get("pos","50% 50%")};-webkit-mask-image:linear-gradient(180deg,#000 62%,transparent 100%)">
-<div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(23,21,19,.78) 0%,rgba(23,21,19,.05) 20%,rgba(23,21,19,.15) 40%,rgba(23,21,19,.92) 62%,{INK} 80%)"></div>
-{mast(1)}
-<div style="position:absolute;right:64px;top:170px;width:230px;height:230px;border-radius:50%;background:{ORG};transform:rotate(9deg);display:flex;flex-direction:column;align-items:center;justify-content:center;color:#171513;box-shadow:0 16px 34px rgba(0,0,0,.45);outline:3px dashed rgba(246,241,232,.9);outline-offset:-16px">
-<div style="font-family:Anton,Oswald,sans-serif;font-size:120px;line-height:.9">{len(items)}</div><div style="font-weight:900;font-style:italic;font-size:27px;line-height:1;text-transform:uppercase;margin-top:6px">spraw</div><div style="font-size:15px;font-weight:700;letter-spacing:.14em;margin-top:6px">{'WYDANIE 8:00' if ED[2]=='PORANEK' else 'WYDANIE 19:00'}</div></div>
-<div style="position:absolute;right:70px;top:640px;font-size:15px;color:rgba(246,241,232,.7)">{esc(d.get("credit",""))}</div>
-<div style="position:absolute;left:70px;right:70px;top:680px">{tag(ED[0] + ' na wybrzeżu · ' + DATE[:5])}
-<div style="{CG}font-size:74px;font-weight:500;line-height:1.02;margin-top:24px">{esc(t0["title"])}</div>
-<div style="font-size:28px;line-height:1.42;margin-top:20px;color:#E6DED1">{esc(t0["town"])} – i jeszcze {len(items)-1} {'inne sprawy' if 2<=(len(items)-1)%10<=4 and not 12<=(len(items)-1)%100<=14 else 'innych spraw'} z wybrzeża. Przesuń.</div></div>
-<div style="position:absolute;right:66px;bottom:138px;width:100px;height:100px;border-radius:50%;background:{ORG};display:flex;align-items:center;justify-content:center;color:#171513;font-size:54px;font-weight:700">→</div>
-{foot('PRZESUŃ  →')}''')
+    # okładka w stylu NOIR (od 22.11.2026)
+    t0 = items[0]; NO = {}
+    exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'noir.py')).read(), NO)
+    k = len(items) - 1
+    rest = 'inne sprawy' if 2 <= k % 10 <= 4 and not 12 <= k % 100 <= 14 else ('inna sprawa' if k == 1 else 'innych spraw')
+    open(f'{out}/01.html', 'w').write(NO['cover'](f'file://{PH}{d["photo"]}', d.get('pos', '50% 50%'), d.get('credit', ''),
+        [(ED[0] + ' na wybrzeżu · ' + DATE[:5], 'blue'), (f'{len(items)} ' + ('sprawy' if 2 <= len(items) % 10 <= 4 and not 12 <= len(items) % 100 <= 14 else 'spraw') + ' · wydanie ' + ('8:00' if ED[2] == 'PORANEK' else '19:00'), 'yel')],
+        esc(t0['title']), f'{t0["town"]} – i jeszcze {k} {rest} z wybrzeża.', f'1/{N} · Przesuń →', 'solysol.pl'))
 print('ok', N, 'slajdów')
