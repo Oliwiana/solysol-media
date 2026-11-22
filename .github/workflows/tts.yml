@@ -1,0 +1,29 @@
+name: tts
+on:
+  workflow_dispatch:
+    inputs:
+      text: {description: "Tekst", required: true}
+      voice: {description: "Glos piper, np. pl_PL-gosia-medium", required: true, default: "pl_PL-gosia-medium"}
+      name: {description: "Nazwa pliku", required: true}
+permissions: {contents: write}
+jobs:
+  tts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install piper-tts
+      - name: voice
+        run: |
+          V="${{ inputs.voice }}"; L=${V%%-*}; LANG2=${L%%_*}; REST=${V#*-}; SPK=${REST%-*}; Q=${REST##*-}
+          B=https://huggingface.co/rhasspy/piper-voices/resolve/main/$LANG2/$L/$SPK/$Q
+          curl -sL -o v.onnx $B/$V.onnx; curl -sL -o v.onnx.json $B/$V.onnx.json; curl -sL -o MODEL_CARD $B/MODEL_CARD
+          ls -la
+      - name: speak
+        run: |
+          mkdir -p _tts
+          printf '%s' "${{ inputs.text }}" | python -m piper -m v.onnx -f "_tts/${{ inputs.name }}.wav" --sentence-silence 0.35
+          cp MODEL_CARD "_tts/${{ inputs.name }}.MODEL_CARD.txt"
+      - run: |
+          git config user.name Oliwiana; git config user.email noreply@solysol.pl
+          git add _tts; git commit -m "tts ${{ inputs.name }}" || true
+          for i in 1 2 3; do git pull --rebase -q && git push && break; sleep 5; done
