@@ -5,6 +5,7 @@ on:
       text: {description: "Tekst", required: true}
       voice: {description: "Glos piper, np. pl_PL-gosia-medium", required: true, default: "pl_PL-gosia-medium"}
       name: {description: "Nazwa pliku", required: true}
+      args: {description: "Dodatkowe opcje piper", required: false, default: ""}
 permissions: {contents: write}
 jobs:
   tts:
@@ -21,7 +22,7 @@ jobs:
       - name: speak
         run: |
           mkdir -p _tts
-          printf '%s' "${{ inputs.text }}" | python -m piper -m v.onnx -f "_tts/${{ inputs.name }}.wav" --sentence-silence 0.35
+          printf '%s' "${{ inputs.text }}" | python -m piper -m v.onnx -f "_tts/${{ inputs.name }}.wav" --sentence-silence 0.35 ${{ inputs.args }}
           cp MODEL_CARD "_tts/${{ inputs.name }}.MODEL_CARD.txt"
       - run: |
           git config user.name Oliwiana; git config user.email noreply@solysol.pl
