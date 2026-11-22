@@ -23,16 +23,17 @@ def cover(photo_url, pos='50% 50%', credit='', head='', teaser='', desk='', mast
     return f"""<!doctype html><html><head><meta charset=utf-8><style>{FONTS}*{{box-sizing:border-box;margin:0}}html,body{{width:1080px;height:1350px;overflow:hidden;font-family:IN,sans-serif;background:#0A1422;color:#FAF7F2}}</style></head><body>
 <div style="position:absolute;inset:0;background:url('{photo_url}') {pos}/cover;filter:saturate(1.15)"></div>
 <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,20,34,.72) 0%,rgba(10,20,34,.25) 26%,rgba(10,20,34,.12) 45%,rgba(10,20,34,.5) 62%,rgba(10,20,34,.92) 80%,#0A1422 100%)"></div>
+<div style="position:absolute;inset:0;box-shadow:inset 0 0 180px rgba(0,0,0,.45)"></div>
 <div style="position:absolute;left:64px;right:64px;top:40px;text-align:center">
 <div style="display:flex;justify-content:space-between;font-size:16px;font-weight:600;letter-spacing:.18em;padding-bottom:12px;border-bottom:1px solid rgba(250,247,242,.5)"><span>{_h.escape(mast)}</span><span>{_h.escape(date)}</span><span>SOLYSOL.PL</span></div>
 <div style="{CG}font-size:140px;font-weight:600;line-height:1;letter-spacing:.1em;margin-top:20px;padding-left:.1em;text-shadow:0 4px 24px rgba(0,0,0,.35)">SOL Y SÓL</div>
 <div style="font-size:18px;font-weight:600;letter-spacing:.42em;margin-top:8px;padding-left:.42em">COSTA DEL SOL PO POLSKU</div></div>
 <div style="position:absolute;left:64px;top:{btop}px">{bx}</div>{sl}
-<div style="position:absolute;right:30px;top:{htop-40}px;font-size:13px;opacity:.8">{_h.escape(credit)}</div>
+<div style="position:absolute;right:64px;bottom:44px;font-size:12px;opacity:.6">{_h.escape(credit)}</div>
 <div style="position:absolute;left:50px;right:50px;top:{htop}px;text-align:center">
 <div style="font-size:17px;font-weight:600;letter-spacing:.24em;color:{acc}">{desk}</div>
-<div style="{CG}font-size:{hsize}px;font-weight:600;line-height:.98;margin-top:12px">{head}</div>
-<div style="font-size:24px;margin-top:16px;line-height:1.35">{teaser}</div></div>
+<div style="{CG}font-size:{hsize}px;font-weight:600;line-height:.98;margin-top:12px;text-shadow:0 4px 22px rgba(0,0,0,.55)">{head}</div>
+<div style="font-size:24px;margin:18px auto 0;line-height:1.35;max-width:820px;opacity:.92">{teaser}</div></div>
 {('<div style="position:absolute;left:64px;right:64px;top:1150px;border-top:1px solid rgba(250,247,242,.45);padding-top:18px;display:flex;gap:30px">' + low + '</div>') if low else ''}
-<div style="position:absolute;left:64px;right:64px;bottom:22px;display:flex;justify-content:space-between;font-size:13px;letter-spacing:.16em;opacity:.75"><span>PRZESUŃ  →</span><span>SOLYSOL.PL</span></div>
+<div style="position:absolute;left:64px;right:64px;bottom:20px;display:flex;justify-content:space-between;font-size:13px;letter-spacing:.16em;opacity:.75"><span>PRZESUŃ  →</span><span>SOLYSOL.PL</span></div>
 </body></html>"""

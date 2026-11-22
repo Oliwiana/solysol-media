@@ -16,3 +16,4 @@ Cel: profil ma wyglądać jak jeden magazyn, nie jak zbiór różnych szablonów
 9. Nowy styl **barwna** (_tools/barwna.py, funkcja cover): KOLOROWE pełne zdjęcie, duża winieta SOL Y SÓL, granatowa i żółta ramka, czerwona pieczęć, tytuł Cormorant ze złotą kursywą – jak okładka wydania specjalnego „Święta 2026”. Wzór: _assets/canva/wzor-barwna.png.
 10. Rytm siatki: co TRZECIA okładka Sol y Sól (karuzela, artykuł, okładka reela) w stylu barwna, reszta noir. Zdjęcie do barwnej musi być jasne i nasycone (niebo, morze, światła) – nigdy czarno-białe.
 11. Seria „Gwiazdy na Costa del Sol” (soboty 18:00) – okładka ZAWSZE barwna. Zdjęć znanych osób nie pobieramy: na okładce i slajdach zostaje miejsce (ramka „ZDJĘCIE – DODA REDAKCJA”), Oliwia wstawia je w Canvie.
+12. Barwna – maks. 3 akcenty na okładce: tytuł + JEDNA ramka (box1 albo box2) + pieczęć. Obie ramki naraz tylko na okładkach serii/wydań. Pasek „more” tylko przy seriach.
