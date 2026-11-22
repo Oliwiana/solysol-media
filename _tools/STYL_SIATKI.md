@@ -18,3 +18,21 @@ Cel: profil ma wyglądać jak jeden magazyn, nie jak zbiór różnych szablonów
 11. Seria „Gwiazdy na Costa del Sol” (soboty 18:00) – okładka ZAWSZE barwna. Zdjęć znanych osób nie pobieramy: na okładce i slajdach zostaje miejsce (ramka „ZDJĘCIE – DODA REDAKCJA”), Oliwia wstawia je w Canvie.
 12. Barwna – maks. 3 akcenty na okładce: tytuł + JEDNA ramka (box1 albo box2) + pieczęć. Obie ramki naraz tylko na okładkach serii/wydań. Pasek „more” tylko przy seriach.
 13. Jak ustalić, czy Twój post ma być barwny: sprawdź w db 2 poprzednie posty Sol y Sól (wg publishAt, kind post/reel). Jeśli żaden z nich nie ma barwnej okładki („barwna” w polu why) – zrób barwną i dopisz w why „Okładka: barwna”.
+
+## SIATKA PRZEMYŚLANA (od 23.11.2026, prośba Oliwii) – ZASTĘPUJE pkt 10 i 13
+Profil IG ma 3 kolumny. Publikujemy w stałym rytmie trójek: ▶ REEL → ❐ KARUZELA → ▶ REEL.
+Efekt w siatce: lewa i prawa kolumna = same filmiki (ciemne, noir), środkowa kolumna = same karuzele (KOLOROWE, styl barwna).
+- WSZYSTKIE karuzele Sol y Sól = okładka BARWNA. WSZYSTKIE okładki reeli = NOIR (ciemne, czarno-białe).
+- Tydzień = 9 postów w feedzie = 3 pełne rzędy:
+  pon 12:00 ▶ reel (Short z podcastu „Zagadki” przerobiony na reel IG/FB/TikTok)
+  pon 19:00 ❐ Poradnik
+  wt 19:00 ▶ Temat tygodnia
+  śr 19:00 ▶ Teoria/Czy wiesz
+  czw 12:00 ❐ Gdzie w ten weekend (przeniesione z piątku)
+  pt 19:00 ▶ Czy wiesz (przeniesione z czwartku)
+  sob 12:00 ▶ Gwiazdy na Costa del Sol – reel
+  sob 18:00 ❐ Gwiazdy na Costa del Sol – karuzela
+  nd 18:00 ▶ Podcast „Zagadki” – reel
+- Relacje (story), YouTube i Shorts YT nie liczą się do siatki.
+- Odrzucony post trzeba zastąpić postem TEGO SAMEGO typu, inaczej siatka się przesunie.
+- Podgląd siatki: zakładka „Plan” w aplikacji Redakcja (sekcja „Podgląd profilu Instagram”).
