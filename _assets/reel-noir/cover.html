@@ -1,0 +1,33 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><style>
+@font-face{font-family:T;src:url(file:///home/claude/tools/node_modules/@fontsource/special-elite/files/special-elite-latin-ext-400-normal.woff2)}
+@font-face{font-family:T;src:url(file:///home/claude/tools/node_modules/@fontsource/special-elite/files/special-elite-latin-400-normal.woff2)}
+@font-face{font-family:I;font-weight:900;src:url(file:///home/claude/tools/node_modules/@fontsource/inter/files/inter-latin-ext-900-normal.woff2)}
+@font-face{font-family:I;font-weight:900;src:url(file:///home/claude/tools/node_modules/@fontsource/inter/files/inter-latin-900-normal.woff2)}
+@font-face{font-family:I;font-weight:800;src:url(file:///home/claude/tools/node_modules/@fontsource/inter/files/inter-latin-ext-800-normal.woff2)}
+@font-face{font-family:I;font-weight:800;src:url(file:///home/claude/tools/node_modules/@fontsource/inter/files/inter-latin-800-normal.woff2)}
+@font-face{font-family:CG;font-style:italic;font-weight:600;src:url(file:///home/claude/tools/node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-ext-600-italic.woff2)}
+@font-face{font-family:CG;font-style:italic;font-weight:600;src:url(file:///home/claude/tools/node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-600-italic.woff2)}
+html,body{margin:0;width:1080px;height:1920px;overflow:hidden;background:#2a1e14;font-family:I}
+#board{position:absolute;left:0;top:0;width:1080px;height:4400px;transform-origin:540px 0;
+background:#2a1e14}
+#board:before{content:"";position:absolute;inset:0;opacity:.35;background-image:radial-gradient(#000 1px,transparent 1.6px);background-size:7px 7px}
+.e{position:absolute;opacity:0}
+.pin{position:absolute;width:26px;height:26px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#ff6b5a,#a3150c);box-shadow:2px 4px 6px rgba(0,0,0,.6);left:50%;top:-12px;margin-left:-13px}
+.paper{background:#efe6d2;color:#1d1a16;box-shadow:6px 14px 30px rgba(0,0,0,.6);font-family:T}
+.stamp{font-family:I;font-weight:900;border:8px solid;padding:6px 26px;letter-spacing:.06em;border-radius:8px;mix-blend-mode:multiply}
+#vig{position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at 50% 45%,transparent 50%,rgba(0,0,0,.75) 100%)}
+#top{position:absolute;left:0;right:0;top:0;height:200px;background:linear-gradient(180deg,rgba(0,0,0,.7),transparent);display:flex;justify-content:space-between;align-items:flex-start;padding:62px 64px 0;box-sizing:border-box;color:#efe6d2;font-weight:800;font-size:24px;letter-spacing:.22em}
+</style></head><body style="background:#2a1e14">
+<div style="position:absolute;inset:0;opacity:.35;background-image:radial-gradient(#000 1px,transparent 1.6px);background-size:7px 7px"></div>
+<svg width=1080 height=1920 style="position:absolute;left:0;top:0"><path d="M300 700 C 500 900, 700 800, 820 1010" stroke="#c0281b" stroke-width=5 fill=none/><path d="M820 1010 C 700 1250, 400 1200, 300 1330" stroke="#c0281b" stroke-width=5 fill=none/></svg>
+<div class=paper style="position:absolute;left:70px;top:600px;width:560px;padding:20px 20px 74px;transform:rotate(-5deg)"><div class=pin></div><img src=bw.jpg style="width:100%;display:block"><div style="position:absolute;left:24px;bottom:22px;font-size:32px">Puerto Banús, 1999</div></div>
+<div class=paper style="position:absolute;left:640px;top:960px;width:360px;padding:26px;text-align:center;transform:rotate(6deg);background:#c0281b;color:#fff"><div class=pin></div><div style="font-family:I;font-weight:900;font-size:120px;line-height:1"><s style="opacity:.55;font-size:70px">5</s> 72</div><div style="font-size:25px;white-space:nowrap">domów → apartamentów</div></div>
+<div class=paper style="position:absolute;left:110px;top:1180px;width:860px;height:300px;background:#c9a96a;transform:rotate(1.5deg)"><div class=pin></div><div style="position:absolute;left:40px;top:34px;font-size:38px">AKTA SPRAWY · MARBELLA</div>
+<div class=stamp style="position:absolute;left:90px;top:110px;color:#8a1a10;font-size:110px;transform:rotate(-5deg)">GOLDFINGER</div></div>
+<div id=vig></div>
+<div id=top><span style="font-family:CG;font-style:italic;letter-spacing:.06em;font-size:46px;font-weight:600">SOL <span style="color:#F6C343">y</span> SÓL</span><span style="margin-top:14px">ZAGADKA KRYMINALNA</span></div>
+<div style="position:absolute;left:64px;top:230px;transform:rotate(-2deg);background:#F6C343;color:#171513;font-weight:800;font-size:38px;padding:12px 26px;border-radius:10px;box-shadow:8px 8px 0 #c0281b">🔊 WŁĄCZ DŹWIĘK</div>
+<div style="position:absolute;left:64px;right:40px;top:330px;font-weight:900;font-size:94px;line-height:.98;letter-spacing:-.02em;text-transform:uppercase;color:#efe6d2">James Bond<br><span style="color:#F6C343">kontra Marbella</span></div>
+<div style="position:absolute;left:0;right:0;bottom:0;height:330px;background:#F6C343;padding:52px 64px;box-sizing:border-box"><div style="font-weight:900;font-size:66px;line-height:1;text-transform:uppercase;color:#171513">5 domów.<br>72 apartamenty.</div><div style="font-family:CG;font-style:italic;font-weight:600;font-size:42px;margin-top:16px;color:#171513">Co kryje śledztwo „Goldfinger”?</div></div>
+<div style="position:absolute;right:20px;top:700px;writing-mode:vertical-rl;color:#efe6d2;font-size:15px;font-weight:800;letter-spacing:.12em;opacity:.6">FOT. KALLERNA / WIKIMEDIA COMMONS, CC BY-SA 4.0 · ZDJĘCIE ILUSTRACYJNE</div>
+</body></html>
