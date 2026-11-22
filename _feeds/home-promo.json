@@ -21,5 +21,20 @@
   "youtube": "",
   "image": "https://raw.githubusercontent.com/Oliwiana/solysol-media/main/zagadki-02-malaya/miniatura-yt.jpg",
   "link": "https://solysol.pl/"
- }
+ },
+ "upcoming": [
+  {
+   "active": false,
+   "publishAt": "2026-12-27T18:00:00+01:00",
+   "badge": "Nowy odcinek",
+   "kicker": "Podcast · Zagadki Costa del Sol #6",
+   "title": "Król Fahd i saudyjska Marbella",
+   "text": "Pałac podobny do Białego Domu na Złotej Mili, minaret nad Marbellą i dwór liczący tysiące osób. Miasto liczyło miliony dziennie – a w 2026 roku saudyjska rodzina królewska ma zapłacić Marbelli około 30 mln euro.",
+   "note": "Nowy odcinek co niedzielę o 18:00",
+   "ssf_id": "zagadki-06-krol-fahd",
+   "youtube": "",
+   "image": "https://raw.githubusercontent.com/Oliwiana/solysol-media/main/zagadki-06-krol-fahd/miniatura-yt.jpg",
+   "link": "https://solysol.pl/"
+  }
+ ]
 }
