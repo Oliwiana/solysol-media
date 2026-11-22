@@ -3,7 +3,7 @@
 CH = [
 (1,"Otwarcie",[
 "Szesnasty kwietnia dwa tysiące trzynastego roku. Sąd okręgowy w Maladze ogłasza wyrok w sprawie, o której mówi cała Hiszpania. Wśród skazanych są jedna z najbardziej znanych piosenkarek w kraju i były burmistrz Marbelli.",
-"Sąd ogłasza wyrok. Ona: dwa lata więzienia za pranie pieniędzy. On: łącznie siedem lat więzienia.",
+"Ona: dwa lata więzienia za pranie pieniędzy. On: łącznie siedem lat więzienia.",
 "To historia, w której miłość, władza i pieniądze z ratusza splotły się tak mocno, że rozplątał je dopiero sąd. Opowiadamy ją wyłącznie na podstawie wyroków i dokumentów.",
 "To Sol i Sól i „Zagadki Costa del Sol”. Odcinek ósmy. Pantoja i Muñoz."]),
 (1,"Człowiek Gila",[
@@ -14,7 +14,7 @@ CH = [
 "W tym samym czasie, w dwa tysiące trzecim roku, Muñoz związuje się z Isabel Pantoją, jedną z najpopularniejszych piosenkarek w Hiszpanii.",
 "Zdaniem redakcji to moment, w którym polityka Marbelli przenosi się z sesji rady miasta na okładki kolorowych magazynów. Ale nas interesuje nie romans, tylko to, co później ustalił sąd. Bo w aktach tej sprawy pojawią się konta, firmy i pieniądze z ratusza."]),
 (2,"Malaya",[
-"Dwa tysiące szósty rok. Rusza operacja Malaya, największe śledztwo korupcyjne w historii Marbelli. W tym samym roku zatrzymany zostaje także Julián Muñoz. W kwietniu rząd w Madrycie rozwiązuje radę miasta, pierwszy raz w historii hiszpańskiej demokracji.",
+"Dwa tysiące szósty rok. Rusza operacja Malaya, największe śledztwo korupcyjne w historii Marbelli. W kwietniu rząd w Madrycie rozwiązuje radę miasta, pierwszy raz w historii hiszpańskiej demokracji. Kilka miesięcy później zatrzymany zostaje także Julián Muñoz.",
 "Śledczy przyglądają się majątkowi byłego burmistrza i temu, skąd pochodzą jego pieniądze.",
 "Pytanie brzmi: gdzie te pieniądze trafiły? I tu w sprawie pojawia się nazwisko jego partnerki."]),
 (2,"Sprawa prania pieniędzy",[
@@ -34,7 +34,7 @@ CH = [
 "Dwudziestego czwartego września dwa tysiące dwudziestego czwartego roku Julián Muñoz umiera w szpitalu w Marbelli. Miał siedemdziesiąt sześć lat."]),
 (3,"Epilog",[
 "Zdaniem redakcji ta historia pokazuje, jak długo trwa rozliczanie korupcji. Od pierwszych zatrzymań do wyjścia ostatnich skazanych z więzienia minęło kilkanaście lat.",
-"I pokazuje coś jeszcze. Pieniądze z ratusza nie znikają. Trafiają na konta, do firm i do domów. A sąd potrafi je tam znaleźć, nawet jeśli ich właściciele są na pierwszych stronach gazet.",
+"I pokazuje coś jeszcze. Pieniądze z ratusza nie znikają. Trafiają na konta, do firm i do domów. A sąd potrafi je tam znaleźć, nawet jeśli w sprawie występują ludzie z pierwszych stron gazet.",
 "W następnym odcinku zostajemy przy brudnych pieniądzach. Operacja Ballena Blanca, czyli pralnia pieniędzy w Marbelli. Premiera w niedzielę, siedemnastego stycznia, o osiemnastej.",
 "Jeśli lubicie takie historie, zostawcie łapkę w górę i zasubskrybujcie kanał.",
 "Sol i Sól. Wszystko, co ważne na Costa del Sol."]),
