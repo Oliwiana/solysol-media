@@ -2,16 +2,16 @@
 CH = [
 (1,"Otwarcie",[
 "Drugi sierpnia tysiąc dziewięćset siedemdziesiątego roku. Ciepła noc na Costa del Sol. Między Marbellą a San Pedro Alcántara, na wybrzeżu, które jeszcze niedawno było prawie puste, stoi nowe, białe miasteczko z portem.",
-"Na nabrzeże schodzą się goście. Tysiąc siedemset osób. Książę Monako Rainier i księżna Grace. Aga Chan. Wydawca „Playboya” Hugh Hefner. Reżyser Roman Polański. Chirurg Christiaan Barnard, który kilka lat wcześniej przeszczepił pierwsze ludzkie serce. Dla gości śpiewa młody Julio Iglesias.",
+"Na nabrzeże schodzą się goście. Tysiąc siedemset osób. Książę Monako Rainier i księżna Grace. Aga Chan. Wydawca „Playboya” Hugh Hefner. Reżyser Roman Polański. Chirurg Christiaan Barnard, który kilka lat wcześniej przeprowadził pierwszy na świecie przeszczep ludzkiego serca. Dla gości śpiewa młody Julio Iglesias.",
 "Jak to się stało, że jedna noc w małym porcie zrobiła z Marbelli adres, który zna cały świat? I kim był człowiek, który to wszystko zbudował?",
 "To Sol i Sól i „Zagadki Costa del Sol”. Odcinek piąty. Noc otwarcia Puerto Banús."]),
 (1,"Budowniczy reżimu",[
 "Nazywał się José Banús. Urodził się w tysiąc dziewięćset szóstym roku w Katalonii, w małej miejscowości La Masó pod Tarragoną. Wcześnie skończył szkołę i zaczął pracować u ojca, który był budowlańcem.",
 "W Hiszpanii generała Franco Banús robi wielką karierę. Jego firma dostaje państwowe kontrakty. Razem z bratem Juanem buduje między innymi drogi dojazdowe do Doliny Poległych pod Madrytem, monumentalnego pomnika dyktatury. Bywa nazywany budowniczym reżimu.",
-"Na początku lat sześćdziesiątych Banús kupuje ogromny teren na zachód od Marbelli. Wzgórza, pola, kawałek wybrzeża. Nazywa ten projekt Andalucía la Nueva, czyli Nowa Andaluzja. Dziś to dzielnica Nueva Andalucía.",
+"Na przełomie lat pięćdziesiątych i sześćdziesiątych Banús kupuje ogromny teren na zachód od Marbelli. Wzgórza, pola, kawałek wybrzeża. Nazywa ten projekt Andalucía la Nueva, czyli Nowa Andaluzja. Dziś to dzielnica Nueva Andalucía.",
 "Ale wille i pola golfowe to dla niego za mało. Banús chce czegoś, czego na tym wybrzeżu jeszcze nie ma. Portu dla jachtów najbogatszych ludzi świata."]),
 (1,"Książę i projektant z Hollywood",[
-"W tej historii pojawia się postać, którą słuchacze Sol i Sól już znają. Książę Alfonso de Hohenlohe, twórca hotelu Marbella Club. To on w tysiąc dziewięćset sześćdziesiątym szóstym roku przedstawia Banúsowi projektanta z Beverly Hills. Noldiego Schrecka.",
+"W tej historii pojawia się jeszcze jeden książę. Książę Alfonso de Hohenlohe, twórca hotelu Marbella Club. To on w tysiąc dziewięćset sześćdziesiątym szóstym roku przedstawia Banúsowi projektanta z Beverly Hills. Noldiego Schrecka.",
 "Zamiast wieżowców nad wodą Schreck proponuje coś odwrotnego. Białe, niskie domy, wąskie uliczki, balkony z kwiatami. Port, który wygląda jak stara śródziemnomorska wioska rybacka, choć powstaje od zera.",
 "Zdaniem redakcji to był genialny ruch. Bogaci goście nie chcieli kolejnego betonowego kurortu. Chcieli Andaluzji z pocztówki, tylko z miejscem dla jachtu pod oknem."]),
 (2,"Dwa otwarcia",[
