@@ -6,4 +6,4 @@
 - cover.html – okładka reela (= hak).
 - Czcionki @fontsource: zawsze subsety latin + latin-ext (inaczej psuje się „ś”).
 - Lektor: ElevenLabs creative_generate_speech, eleven_v4, voice mGixAdrjHFNdj6tN93zP, generations_count 1, flow K4uEgqHMS67vXeFy9jZA; pobieranie przez workflow fetch.yml; transkrypcja creative_transcribe_audio na znaczniki czasu. Marka czytana „Sol i Sól”.
-- Plik < 4 MB? Nie musi – automat publikacji przyjmuje do 4 MB z aplikacji; jeśli większy, przekoduj (crf 26).
+- Gotowy reel musi mieć < 4 MB (automat publikacji czyta z aplikacji maks. 4 MB): ffmpeg -c:v libx264 -crf 28 -preset veryfast, ewentualnie 720×1280, audio aac 128k.
