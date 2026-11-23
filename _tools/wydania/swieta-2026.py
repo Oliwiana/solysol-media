@@ -756,7 +756,7 @@ def P_banus(n, N):  # wersja 23.11 – okładka z Instagrama + teksty + podcast 
     K = '#171513'
     guests = ''.join(f'<div style="padding:9px 0;border-top:1.5px solid rgba(23,21,19,.22)"><div style="font-size:20px;font-weight:800">{E(b)}</div><div style="font-size:16px;line-height:1.3;color:#3A3020">{E(c)}</div></div>' for b, c in [
         ('Książę Rainier i Grace Kelly', 'para książęca Monako'), ('Juan Carlos i Zofia', 'przyszli król i królowa Hiszpanii'),
-        ('Hugh Hefner', 'przyleciał prywatnym Boeingiem 707'), ('Roman Polański i Aga Chan', 'reżyser i przywódca duchowy ismailitów'),
+        ('Hugh Hefner', 'przyleciał prywatnym Boeingiem 707'), ('Roman Polański · Aga Chan IV', 'reżyser filmowy · przywódca duchowy ismailitów'),
         ('Christiaan Barnard', 'autor pierwszego przeszczepu serca'), ('Julio Iglesias', 'młody piosenkarz śpiewał dla gości')])
     facts = ''.join(f'<div style="display:flex;gap:12px;align-items:flex-start;margin-top:10px"><div style="flex:none;width:30px;height:30px;border-radius:50%;background:{K};color:#F2C14E;font-weight:900;font-size:16px;display:flex;align-items:center;justify-content:center">{i}</div><div style="font-size:18px;line-height:1.38">{t}</div></div>' for i, t in [
         (1, 'Port otwarto oficjalnie w maju 1970 r., a wielkie przyjęcie odbyło się <b>2 sierpnia</b>.'),
