@@ -46,7 +46,7 @@ def P_liczby(n, N):
     return frame(n, N, 'Na start', inner)
 
 def P_kalendarz(n, N):
-    rows = [('27.11', 'pt', 'Málaga · Fuengirola', 'Włączenie świateł. W Maladze o 18:30, potem koncert El Kanki.'),
+    rows = [('27.11', 'pt', 'Málaga · Fuengirola', 'Włączenie świateł. W Maladze o 18:30, potem koncert El Kanka.'),
             ('28.11', 'sob', 'Málaga', 'Rusza mapping (pokaz świetlny wyświetlany na budynku) na wieży katedry – 19:00, 20:30, 22:00.'),
             ('1.12', 'wt', 'Estepona', 'Światła, kolędy pastorales, churros z czekoladą i flashmob.'),
             ('7–8.12', 'pn–wt', 'Andaluzja', 'Dzień Konstytucji (przeniesiony z niedzieli) i Niepokalane Poczęcie – dwa dni wolne.'),
@@ -74,7 +74,7 @@ def P_malaga(n, N):
              f'<div style="position:absolute;left:64px;right:64px;top:430px;color:#fff">{kick("Temat numeru · Málaga", "#F2C14E")}{H("Calle Larios <i style=\'color:#F2C14E\'>zapala święta</i>", 86, "#fff")}</div>'
              f'<div style="position:absolute;right:30px;top:22px;font-size:13px;color:rgba(255,255,255,.85)">Fot. Hernán Piñera / Wikimedia Commons, CC BY-SA 2.0</div>'
              f'<div style="position:absolute;left:64px;top:690px;width:580px;columns:2;column-gap:30px">'
-             + dc('Święta na Costa del Sol zaczynają się w Maladze. W piątek 27.11 o 18:30 przy wejściu na calle Larios zapalą się świąteczne światła – w centrum to w sumie 2,8 mln lampek LED. Zaraz potem darmowy koncert El Kanki.')
+             + dc('Święta na Costa del Sol zaczynają się w Maladze. W piątek 27.11 o 18:30 przy wejściu na calle Larios zapalą się świąteczne światła – w centrum to w sumie 2,8 mln lampek LED. Zaraz potem darmowy koncert El Kanka.')
              + p('Główna atrakcja to pokaz światła i muzyki „Natividad de Luz” – lampki nad ulicą zmieniają się w rytm muzyki. Pokazy trwają do 4.01, trzy razy wieczorem, poza 24 i 31.12.', 20)
              + p('Od 28.11 warto podejść też pod katedrę: na jej wieży wyświetlany jest mapping (pokaz świetlny z projektorów) – barwne obrazy na kamiennej fasadzie.', 20)
              + '</div>'
