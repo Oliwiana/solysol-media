@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-23T13:22:29Z",
+ "checked": "2026-11-23T13:26:22Z",
  "sources": [
   {
    "name": "The Spanish Eye",
@@ -47,7 +47,7 @@
    "feed": null,
    "count": 0,
    "newest": null,
-   "error": "https://www.areacostadelsol.com/feed/: RemoteDisconnected Remote end closed connection without response"
+   "error": "https://www.areacostadelsol.com/feed/: ParseError mismatched tag: line 1, column 166"
   },
   {
    "name": "Marbella Directo",
@@ -133,8 +133,8 @@
    "name": "Policía Nacional / Guardia Civil Málaga",
    "ok": true,
    "feed": "https://news.google.com/rss/search?q=(%22Polic%C3%ADa+Nacional%22+OR+%22Guardia+Civil%22)+M%C3%A1laga+when:1d&hl=es&gl=ES&ceid=ES:es",
-   "count": 8,
-   "newest": "2026-11-23T09:29:43Z",
+   "count": 21,
+   "newest": "2026-11-23T13:22:52Z",
    "error": null
   },
   {
@@ -149,7 +149,7 @@
    "name": "Polskie media – Polacy w Hiszpanii",
    "ok": true,
    "feed": "https://news.google.com/rss/search?q=(Polacy+OR+Polak+OR+Polka)+(Hiszpanii+OR+Hiszpania)+when:2d&hl=pl&gl=PL&ceid=PL:pl",
-   "count": 29,
+   "count": 31,
    "newest": "2026-11-23T09:56:00Z",
    "error": null
   },
@@ -163,6 +163,13 @@
   }
  ],
  "items": [
+  {
+   "title": "El Ayuntamiento de Málaga establece un dispositivo especial de seguridad para la Navidad - Malaga Actualidad",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZmtkRXdwY1RQQmhZYm5qVWVscFg4emlENERscmJFSTBUSVNySkJEZ1k0clBlbzlEYzh0ZngzNHFTbXFCVm5heDVkTTRlVXZhb2I3NlkzVWpyM2doMUhPd2Y4MTdOaWo1dklQVlY2amJCSVNnVmc3TGpIVjVLaVktMnBxUUJsbUw3TzhJeGFkWnRmU3hWOEpocGhSNmN5aEkyY2ZhVE1RZ0FHeTZZX3J4aUxUNzYzV3BlNnBSNEM4cHFhd29oYTJKSkk4dkJxanhaTVE?oc=5",
+   "summary": "El Ayuntamiento de Málaga establece un dispositivo especial de seguridad para la Navidad    Malaga Actualidad",
+   "source": "Policía Nacional / Guardia Civil Málaga",
+   "time": "2026-11-23T13:22:52Z"
+  },
   {
    "title": "Málaga se prepara para un descenso de los termómetros en los últimos días de noviembre.",
    "link": "https://www.malagahoy.es/malaga/malaga-descenso-temperaturas-lluvias-final-noviembre_0_2008568340.html",
@@ -225,6 +232,13 @@
    "summary": "Por pedir el voto antes del inicio de la campaña, por lo que el secretario de los socialistas malagueños exige al Partido Popular que \"deje de hacer trampas\"\nLa Diócesis de Málaga pide a las cofradías \"neutralidad\" y que no sean \"utilizadas con fines",
    "source": "Málaga Hoy",
    "time": "2026-11-23T13:06:04Z"
+  },
+  {
+   "title": "Operativo de seguridad en Navidad: drones y 1.300 refuerzos de Policía Local - Cadena SER",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPaS1VUjNZNTF2SHlpX2JLSTRJQ0ZkV0RZM3VwWXg3VFdrTUR3RXFjNXhKLU5RV3pTZGdXcmpseVVodmpVMUhnZ0RSVEJJd2ktYWZrdzR4cjRkVXc1UVRHLUMwNlNEdzdySFZFcjZEMkoyY0VIeFA4ZW12MjZMMGowc3MzSUZ2WEVmRnRPQlVkc1pYa24zbjNXRFQxd2lFU2VybTRIQjVuVldMRXlvOVJZSzBwWlFMbXZjVEdaOTBMeUotMXpQRUxiTw?oc=5",
+   "summary": "Operativo de seguridad en Navidad: drones y 1.300 refuerzos de Policía Local    Cadena SER",
+   "source": "Policía Nacional / Guardia Civil Málaga",
+   "time": "2026-11-23T13:05:19Z"
   },
   {
    "title": "Los centros de datos sondean a Google, Amazon y grandes eléctricas para que se unan a su batalla en el Supremo para tumbar ya el decreto del Gobierno",
@@ -561,6 +575,13 @@
    "summary": "Elige la cafetera automática y/o semiautomática perfecta para ti gracias a esta guía\nEl mejor robot aspirador para tu casa en 2026: potencia, autonomía y opiniones",
    "source": "Málaga Hoy",
    "time": "2026-11-23T12:16:00Z"
+  },
+  {
+   "title": "La Policía Nacional arresta a cuatro individuos por fraude online que supera los 150.000 euros - Nuevaradio",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNY3JVUzgxMWVoNElzZUg0RktpeFBDYjZwMlFDNnRlcFdEd3VOQUZaaDhrM3AxcE1sdlR3aXFCT3A0ZmRXa09YQnBtclpPWUhqZjNtNllQbnc2enRvRDNXZ0tSSlc0cXJSbE5UMDE4YzlKcHZ5WU9EUFlHZF9mU3k0RjVVWlhQcnJnZ2JnS3dWWU5LcjNTU1ltbnAtaTNJQ0pXX1pTbXU5dEZIalNOYThKR2RkdUVGZG82dFNzaGpOcVQzNnN3Tm01UnlLU2tiQQ?oc=5",
+   "summary": "La Policía Nacional arresta a cuatro individuos por fraude online que supera los 150.000 euros    Nuevaradio",
+   "source": "Policía Nacional / Guardia Civil Málaga",
+   "time": "2026-11-23T12:15:44Z"
   },
   {
    "title": "La economía malagueña acelera más de lo previsto y crecerá este año un 3,4%, dejando atrás la media andaluza",
@@ -976,6 +997,13 @@
    "time": "2026-11-23T09:55:44Z"
   },
   {
+   "title": "Najstarsza mieszkanka Hiszpanii ma 113 lat. Jest uzależniona od jednej rzeczy - Ofeminin",
+   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQMy1GOXdWRHJtUjI4NjdyU0dIUzBOVnNkOGZSSnJ0eHpqYU1rOG1CQ01CamxvRms2cHd2bW1RREVDc0N5VnFpVmJJN2FLc3lQajRkcWVLVjJCLUVpZWNsMEM1ejNGSXF2LWN0NmEtWmZ0NE5Dclo1MUVhRjVFbm5HRHlGTmhYOVpDQXJCM1owbE9MMjVEZkY5SzFtVWtWVFFqeTV2eWhFVzhQUkxqOGFwSU02ZGlqMVpYLWs0dnRuN0txblBRMDMyMVVjSGFmTUJmamNWXw?oc=5",
+   "summary": "Najstarsza mieszkanka Hiszpanii ma 113 lat. Jest uzależniona od jednej rzeczy    Ofeminin",
+   "source": "Polskie media – Polacy w Hiszpanii",
+   "time": "2026-11-23T09:55:44Z"
+  },
+  {
    "title": "Dwa nowe hiszpańskie hotele w ofercie Apartamentos 3000 - KarloBag.eu",
    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZkctcGVGcENZRWhNVy1pOTZoUXJSR3hSMjE0TVRyaWEtbDFYXy1LeVhLbXdJVFM4ZlVzcUR0M19iYjgwODU4LUxGUXUySkpzOV9fcEFNVTRWMTBval83dE82VzNLZDVITW1RMGhkVkpUXzEyYXFnSVZfMGhBeFlkOEc5OEVRQXdlbVcyYXN2UDdVa0Y1TWQtd3c0b19UM3AtQW1IMkFwWlFQNDVER3pQY0FJUWN5RWhiWWc?oc=5",
    "summary": "Dwa nowe hiszpańskie hotele w ofercie Apartamentos 3000    KarloBag.eu",
@@ -1054,7 +1082,7 @@
   },
   {
    "title": "La Policía Nacional investiga una falsa alarma por aviso de bomba en la T2 del Aeropuerto de Málaga - Andalucía Información",
-   "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOelY3M3dXWWtKYmt5VlkyWmtXQ25uMTRrYlQ1WkY4bFotcWk4akJrTzJGa1FtN1ZaTmFtNGRIYnRpbGRfUzdSWXBZZWhoaDB3VUd1czJNQnVIRHJMWmx6ZTY4NWo1cTRDSXN1aVBadzgzQ1d2M0pUVHFnRzA5dFllTjhGSkFlUmw1ejBCVktBN1RhMWIwNkZhczBFcVh2UEJNNFlxZEpHeC03MG5lWjM1SmtRWnJfODVyWHR5c3B1SDZRUElwcDVwaVRxcVhPRnIxM0lGYjhGbnRTejRaaTUxMWk3dEtRQndkWUY1QU9R0gHzAUFVX3lxTE5YTnRvajBDcE4wTGRpTElUbkJfcXhGZEhCQVNHSFBzTzlxUUUtNnlDX1g4RTBGeTQ5MHgwaERKZWowaEpfTWthc3BFMGJwR3g1M2FQNHVPbW4tS2xrVnBqSWdoMk52d0FEQktyVkthVXlJcG1KOXFGTUNFUGkzNkdTa2Q0N2NwVGZtUExFRjBMMTA5MzFPLVdqWlV2R3RpQXN0MVoydHYzQjZLRERRY0hCTFJkTzlTdnp0T2pRNElOclhQSzRwaWNpdG9GdElscjNzMFpmLVg2NUJITXhnUnNjT2RNcXhERlJwUUFGQ2lGd3ZGdw?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOWE50b2owQ3BOMExkaUxJVG5CX3F4RmRIQkFTR0hQc085cVFFLTZ5Q19YOEUwRnk0OTB4MGhESmVqMGhKX01rYXNwRTBicEd4NTNhUDR1T21uLUtsa1ZwaklnaDJOdndBREJLclZLYVV5SXBtSjlxRk1DRVBpMzZHU2tkNDdjcFRmbVBMRUYwTDEwOTMxTy1XalpVdkd0aUFzdDFaMnR2M0I2S0REUWNIQkxSZE85U3Z6dE9qUTRJTnJYUEs0cGljaXRvRnRJbHIzczBaZi1YNjVCSE14Z1JzY09kTXF4REZScFFBRkNpRnd2RnfSAfMBQVVfeXFMTlhOdG9qMENwTjBMZGlMSVRuQl9xeEZkSEJBU0dIUHNPOXFRRS02eUNfWDhFMEZ5NDkweDBoREplajBoSl9Na2FzcEUwYnBHeDUzYVA0dU9tbi1LbGtWcGpJZ2gyTnZ3QURCS3JWS2FVeUlwbUo5cUZNQ0VQaTM2R1NrZDQ3Y3BUZm1QTEVGMEwxMDkzMU8tV2paVXZHdGlBc3QxWjJ0djNCNktERFFjSEJMUmRPOVN2enRPalE0SU5yWFBLNHBpY2l0b0Z0SWxyM3MwWmYtWDY1QkhNeGdSc2NPZE1xeERGUnBRQUZDaUZ3dkZ3?oc=5",
    "summary": "La Policía Nacional investiga una falsa alarma por aviso de bomba en la T2 del Aeropuerto de Málaga    Andalucía Información",
    "source": "Policía Nacional / Guardia Civil Málaga",
    "time": "2026-11-23T09:29:43Z"
@@ -1118,7 +1146,7 @@
   {
    "title": "Las pernoctaciones hoteleras en Andalucía se elevan un 3,9% en octubre y supera las 5,4 millones",
    "link": "https://www.europapress.es/andalucia/noticia-pernoctaciones-hoteleras-andalucia-elevan-39-octubre-supera-54-millones-20261123101423.html",
-   "summary": "Las pernoctaciones en establecimientos hoteleros en Andalucía subieron un 3,9% en octubre en comparación con el mismo mes del año anterior hasta sumar un total de 5.452.361 pernoctaciones y encadena ocho meses de crecimiento, según los datos publicados por el Instituto Nacional de Estadística (IN",
+   "summary": "Las pernoctaciones en establecimientos hoteleros en Andalucía subieron un 3,9% en octubre en comparación con el mismo mes del año anterior hasta sumar un total de 5.452.361 pernoctaciones y encadena ocho meses de crecimiento, según los datos publicados por el Instituto Nacional de Estadística (INE).",
    "source": "Europa Press Andalucía",
    "time": "2026-11-23T09:14:23Z"
   },
@@ -1156,6 +1184,13 @@
    "summary": "José Antonio Villodres está al frente de Don Animal, en Rincón de la Victoria, un negocio con 25 empleados que tiene en proyecto crecer con un hospital veterinario",
    "source": "Diario Sur – Axarquía",
    "time": "2026-11-23T09:09:34Z"
+  },
+  {
+   "title": "Una amenaza de bomba en el aeropuerto de Málaga moviliza a los Tédax de madrugada - La Opinión de Málaga",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMkdPQXU0SVZ1R0pJa3dDR2VqOGVTcHBweWtVU0doTWJRWHJvRTE5RDZZLTIzXzlOcHFrdzdrSTNCS21FOEJXdUMydUVzZEpWQ3VWMjE0UXUwYzdTa0c5UVlRbHNuRGp1QzAxXzgydEVjaDlLUmpGWC1weXJIcy1mNEZSbG40VVF1cW4yOFpLT1liNGkxS0F0UXFOUUlseWxjMkVZY1RyN01CZ9IBrwFBVV95cUxNMGk1ZWlQRDZEbUFXZlFFZjVEaWlyUy1WNFBIcDNXWXIxaXR6akxvS3pfVUxVYnVvMmRSaGJLMWVyaEFUZ3NYcTMzcUVIVDhpNzdrUWFBdlVJTWVYVzhvMThYV2E0cDhTN01BLTFjVGVkWklkVl9PUzhJMDNSbS10VlpOQkxZOWdHcGsxVVo1dWNXVTRFb1FGbk1iSkpuNS1YYWI4T3laZXhmZzRXZ0Fr?oc=5",
+   "summary": "Una amenaza de bomba en el aeropuerto de Málaga moviliza a los Tédax de madrugada    La Opinión de Málaga",
+   "source": "Policía Nacional / Guardia Civil Málaga",
+   "time": "2026-11-23T09:06:00Z"
   },
   {
    "title": "Horrific death at Costa Blanca roundabout with electric wheelchair user in her mid-70s crushed by cement lorry",
@@ -1249,10 +1284,24 @@
    "time": "2026-11-23T08:28:00Z"
   },
   {
+   "title": "Falsa alarma por una amenaza de bomba en la T2 del aeropuerto de Málaga - 101TV",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNa201bnpVMXZIZjFiTE5vNGljVGp0c2pzbU5WbFhpVmVNWlExZElxU0NWWlNLdHhtaWdCb2tkcGNJbGp0TG1rX2lENWZuZFdPTV9IWTZNQTh5N21zTV9wMTVqTkJoZVRJQVRvRTNTNFNMSjVQeDVqX296WURucXV6RHg3WmhFbGFkMTJIeXI5YkJvSThoaUp2V0hBNThLamhfN2c?oc=5",
+   "summary": "Falsa alarma por una amenaza de bomba en la T2 del aeropuerto de Málaga    101TV",
+   "source": "Policía Nacional / Guardia Civil Málaga",
+   "time": "2026-11-23T08:28:00Z"
+  },
+  {
    "title": "Falsa alarma tras un aviso de bomba en la Terminal 2 del aeropuerto de Málaga",
    "link": "https://www.diariosur.es/sucesos/falsa-alarma-tras-aviso-bomba-aeropuerto-malaga-20261123092703-nt.html",
    "summary": "",
    "source": "Diario Sur",
+   "time": "2026-11-23T08:27:03Z"
+  },
+  {
+   "title": "Falsa alarma tras un aviso de bomba en la Terminal 2 del aeropuerto de Málaga - Diario Sur",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSFVJMEl6VWMzQldZYzB4U292aE0tWUVzUHZhakF2bzE4bnlBenZvMjNyTzZsaHRNZ09zeGJtQ1B1ODAyUHpRSkN0STJOcENFcmxjbERXcnpkaHM4U1dFRVljdGFEZnNlRFEzV0JkV1RKU3hCRDRNVlAtLVNGTktyc3V0V1c2SkYzb1AzMlZ4aThSUWliUDM3OUF0N3NwUjZfWm5PbE5B0gGrAUFVX3lxTE5xR2l0aVdtaVNBbE5sRlFDa1VWR3dzX0lTT2FKUzZsdHROUmpCWllndElld0VoZjhLZVJFeGZMRHRPYl82akFxdjZ6Q2VZVWdNYzZMZzNaTHgtdEpuTUtGa05PbEM5YVBvdGUwcFk3d2N0MXg4cFpuZV9KYmlJOHRNLTN5Z2ltYVVpTUl0eksxODZOQTNLajNZajlHYlVxaWlrb3pMWU5tT21OMA?oc=5",
+   "summary": "Falsa alarma tras un aviso de bomba en la Terminal 2 del aeropuerto de Málaga    Diario Sur",
+   "source": "Policía Nacional / Guardia Civil Málaga",
    "time": "2026-11-23T08:27:03Z"
   },
   {
@@ -1312,6 +1361,13 @@
    "time": "2026-11-23T08:20:31Z"
   },
   {
+   "title": "Una falsa amenaza de bomba pone en alerta al Aeropuerto de Málaga durante la madrugada - Área Costa del Sol",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQLTgxRzUyVi1yVkRGYjNDQ2tGMnhIR0ZwdXFNcmMybFlXMlhBbVZSUUNvU2VRWDJfNm9JSjRxODhjNU5MNTc2bldBb0tHTHp0ZUs1azNMYVVQWENHcU0tTG5BakU4YkFPWEZINWl1Q3BLbjJ6WDhWQmcwb2xRdkFsaFFqWUlKRnRRWnZHUTB1WExUUEVsOVItMGhB?oc=5",
+   "summary": "Una falsa amenaza de bomba pone en alerta al Aeropuerto de Málaga durante la madrugada    Área Costa del Sol",
+   "source": "Policía Nacional / Guardia Civil Málaga",
+   "time": "2026-11-23T08:12:56Z"
+  },
+  {
    "title": "Wybory w Hiszpanii 29 listopada: jak ochronić proces wyborczy - Euronews",
    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbDhYQTc3eDRtUU40S1JFMzk0Z3ZQbWJra2NOdWFHbWtzcnVLcGVNbFowM3BDZjNyS1hESnhMOTd3S0Zrd3pNOGRfZ1BnQnV5bW45VHZRVTVuQ3dOTno1VHN3YlR0dF9LbThFNEdvakhlenVGbmM2S3cwdWQ2RzQ2SDBaSHFKQkhmV2xKTzM1YV83aGRjVWdieXhQWTY0S2RHb1BRQXBRd2VVVVJZUXlCcjVvdw?oc=5",
    "summary": "Wybory w Hiszpanii 29 listopada: jak ochronić proces wyborczy    Euronews",
@@ -1366,6 +1422,13 @@
    "summary": "Lewandowski jak Messi. Polak za chwilę zakończy swój sezon?    Mistrzowie Polski",
    "source": "Polskie media – Polacy w Hiszpanii",
    "time": "2026-11-23T07:44:04Z"
+  },
+  {
+   "title": "Desactivan la búsqueda de Isabelle, que estaba desaparecida desde el sábado en Málaga - AZ Costa del Sol",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdjRtbF95elJTdm9qVVlndHVJZjZfS2Y0MjdIN0RuQTU3eGZTM2pEbWd2NnpBY1dBdzYxRTdnWlpUaXJnQU9Fc2l4bTNQUEIyMnN0WlJyMW5QQjNtUGFrRU5JNmNsenVvZU43Q21zb0cwTUM3V2lYZ1NSeU9VS2NGbXNwVFJKcUVVTjM2QkVXbm9zWWtJN3VEYkZIWi1MLXhHS1FqNXYwYTQteUFibFZ1VVFvMmMxQ2NpSllUMkFGMDRDSHFMbFVUdw?oc=5",
+   "summary": "Desactivan la búsqueda de Isabelle, que estaba desaparecida desde el sábado en Málaga    AZ Costa del Sol",
+   "source": "Policía Nacional / Guardia Civil Málaga",
+   "time": "2026-11-23T07:32:53Z"
   },
   {
    "title": "Estimamción del voto andaluz. Fuente: Centra",
@@ -1809,6 +1872,13 @@
    "time": "2026-11-22T22:05:48Z"
   },
   {
+   "title": "Muere el bebé que cayó desde la ventana de un primer piso en Castellón - La Opinión de Málaga",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPR3Rhcml6dmhsOWIwNlc0cTNmb1JSZzNEc29kWDdCSUtaSDByWTVKa25VZHhOS0I3YWZtZktxV3FQSWgxX0FhY2NlRHE1cVl5Mk9qUWVDWGVJLVVUMm05MThSUmdoVktXelNaZjYwRnNZR1FXNXd6YnU4S0ZQTFVOZXRhWkRXcHVvX0VEVlFBSUZuYWZUaHlVM2JYUnY3R2R3QTVR0gGjAUFVX3lxTE9HdGFyaXp2aGw5YjA2VzRxM2ZvUlJnM0Rzb2RYN0JJS1pIMHJZNUprblVkeE5LQjdhZm1mS3FXcVBJaDFfQWFjY2VEcTVxWXkyT2pRZUNYZUktVVQybTkxOFJSZ2hWS1d6U1pmNjBGc1lHUVc1d3pidThLRlBMVU5ldGFaRFdwdW9fRURWUUFJRm5hZlRoeVUzYlhSdjdHZHdBNVE?oc=5",
+   "summary": "Muere el bebé que cayó desde la ventana de un primer piso en Castellón    La Opinión de Málaga",
+   "source": "Policía Nacional / Guardia Civil Málaga",
+   "time": "2026-11-22T21:58:40Z"
+  },
+  {
    "title": "Carlos Alcaraz completes his collection with ATP Finals title over Alexander Zverev",
    "link": "https://www.surinenglish.com/sport/carlos-alcaraz-completes-his-collection-with-atp-20261122225324-nt.html",
    "summary": "",
@@ -1886,6 +1956,20 @@
    "time": "2026-11-22T21:26:11Z"
   },
   {
+   "title": "El dolor de Inmaculada, viuda del capitán Jerónimo, muerto mientras perseguía al narco: \"Este Gobierno ruin ha sido incapaz de costear el funeral de mi marido\" - El Mundo",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE40YWc5bVpfVVJxRHdYMHUyX0hKUnFGRVBPLTFyY2ROLTlSSHlZZm9QVGdqV0ZWZlhBWVVBSWNaME5sajV5VXlrSnNvWHdLUlhBNTB5VURfRFZ6UkJTNFNMYkkyaXZkaFkwQndDVzBQSmpHUjJ4amdpWW9zTdIBe0FVX3lxTE40YWc5bVpfVVJxRHdYMHUyX0hKUnFGRVBPLTFyY2ROLTlSSHlZZm9QVGdqV0ZWZlhBWVVBSWNaME5sajV5VXlrSnNvWHdLUlhBNTB5VURfRFZ6UkJTNFNMYkkyaXZkaFkwQndDVzBQSmpHUjJ4amdpWW9zTQ?oc=5",
+   "summary": "El dolor de Inmaculada, viuda del capitán Jerónimo, muerto mientras perseguía al narco: \"Este Gobierno ruin ha sido incapaz de costear el funeral de mi marido\"    El Mundo",
+   "source": "Policía Nacional / Guardia Civil Málaga",
+   "time": "2026-11-22T21:17:50Z"
+  },
+  {
+   "title": "«Es cuestión de tiempo» que la DZ Mafia, la mayor trama criminal de Francia, se instale en la Costa del Sol - 101TV",
+   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPaUQwcjlkeFVYQXJnN2pMd3BOdmc3R3F0T21Id0tWZFp5VWZvanJuRjBKQmduYzRLX3U0OEhrMjJ2UE54cDI3NndHZTFDeThWMGFOWDJkYndFYVRRbnhWM1QwOXh5R3RYTlF3N1pwaExaczliNlNaRzdEZXRIMGRjb2xONVBsQV9CaVRvWmVCaE1xQVM1ODJYSU4xRUwzb1hqODhZZ3lCRVRNSmJ4NmgweUJKWEcteWdqR1lvSksyS1B2TGF1U1pxb2hzRE55b1hkZWhaYXo0WTRGZw?oc=5",
+   "summary": "«Es cuestión de tiempo» que la DZ Mafia, la mayor trama criminal de Francia, se instale en la Costa del Sol    101TV",
+   "source": "Policía Nacional / Guardia Civil Málaga",
+   "time": "2026-11-22T21:15:00Z"
+  },
+  {
    "title": "Ewa Pajor z golem i asystą. Wysokie zwycięstwo Barcelony - www.polsatsport.pl",
    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPTjFQdjVZWjYyRzhGZS1tZHlDcDZuQlozZDhMMXRUSXp3WU4yb21LaWZFU25GaVdYX0doX01iUVZQRjNtQUhUMDVBcy1RMU9sZEZLbVYyQ1VTWWNzbG9mS2l0cXdUOGwtVF9ZTGlTZUNyREZDUWxvZXZqRGlVSzhTZmpsRUpYVDVpYUNyb2luRlNuYlA5QWlkbUdpYVBtX2hSbzFGMk05NA?oc=5",
    "summary": "Ewa Pajor z golem i asystą. Wysokie zwycięstwo Barcelony    www.polsatsport.pl",
@@ -1919,6 +2003,13 @@
    "summary": "",
    "source": "Sur in English",
    "time": "2026-11-22T21:03:37Z"
+  },
+  {
+   "title": "El crimen organizado preocupa: unanimidad para que Málaga sea Zona de Especial Singularidad Policial - Diario Sur",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQbnZWYTVsc3pMTjUzNXVvbU8xTDVSMmZiNDFVQXhvNXo4QW9mbUZkSTNQX0lDTXdjWDdSN2dSWEkxaEs5cHpiXzBVZXo4S0x3NGN3N2xsdU9XOXN4SDVodWpXQjF4Z1JjbUFZRWR1dDNxYWpaNnprbnhyVFFrWUNLbHJiSm5vaTlwX0RQT2VlTEpENmZic0NPcFdsRExPeXduY1NNZmRWS1BfLU10cGxOU0VRTzhIOUY1R3Z1UkJn0gHDAUFVX3lxTFB4RTBvLVJtZi00NTU1LWhXX3hRVV80Y3NWSjAxX25lR2N0eGxKWHA4aGVEUVVfQVU3UVdvNnZWRGxNSUVhdFAxYXdHLUhYT2NZTUgtU080WE14RUoyTC1CbXNpV2x2QUZuSFFhV2xRdXRLNlZpRUpSVm1xdy12QW8wcUo3SFBsVjF5RUlyR1p1b2Z0T0UyR1RJeE1kb0FyT0plRDlreFFKRnlFSm5oNWlXQWV2Uk5Ed2ZPNnNLM055N2VRdw?oc=5",
+   "summary": "El crimen organizado preocupa: unanimidad para que Málaga sea Zona de Especial Singularidad Policial    Diario Sur",
+   "source": "Policía Nacional / Guardia Civil Málaga",
+   "time": "2026-11-22T21:00:04Z"
   },
   {
    "title": "Marbella invertirá 37 millones en planes para espacios públicos, instalaciones y regeneración urbana",
@@ -2208,6 +2299,13 @@
    "time": "2026-11-22T16:24:20Z"
   },
   {
+   "title": "Detenido un hombre tras la muerte de una mujer en Albacete - La Opinión de Málaga",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPR3pZQ2xrVzF0VWxrcnUwb211WkhJOE9IRVRGUjYyV1VpY3lqVC0yVHhoQ3pRXzlNbVVoeTJRbVk4RVpIUU9SekRUZ01sSmkyM09INVh2MV9URzRUdTBxR0RJc3lPTEM1eFRLMm9LajJGd3VGR1VHVUFoejU1Y0lUR1E2OEVLUjBZbDY4WkJRU2s2OWhkZy01WGZSeVZMWDlNSW5rWjVHUdIBrAFBVV95cUxNczZnNk1lYnVOSnVSNUdyOWtJRHVMUVlNT2hIemRQak52ZWpvM0RBbnBZSjRDOUd1N0M2SktqV0tCZEhfYnlVcXZJd0JvM0VFUVRNSHo3Tksxc0JXU2x4MnNlMTM3RXp0Um91TVpveFBlZVE2MzMxYV9YeUVQQjU1RldfU1RHRU5QS0lVSkQxeV9FcElvUkV3cVdjbmFJeXFHQUxGUXpqRzgxTVc0?oc=5",
+   "summary": "Detenido un hombre tras la muerte de una mujer en Albacete    La Opinión de Málaga",
+   "source": "Policía Nacional / Guardia Civil Málaga",
+   "time": "2026-11-22T16:03:07Z"
+  },
+  {
    "title": "Irrumpe armado con un cuchillo y gas pimienta en el centro de salud de El Palo para exigir diazepam",
    "link": "https://www.diariosur.es/sucesos/irrumpe-armado-cuchillo-gas-pimienta-centro-salud-20261118134732-nt.html",
    "summary": "",
@@ -2446,13 +2544,6 @@
    "time": "2026-11-22T06:23:00Z"
   },
   {
-   "title": "Cati Schiff en su  obrador de Fuengirola.",
-   "link": "https://www.malagahoy.es/marbella/cati-schiff-pastelera-chef-formo_0_2008557774.html",
-   "summary": "Se crio en La Hacienda, el restaurante de su padre que lució dos estrellas Michelin, al que sucedió y permaneció abierto 42 años\nSu obrador sirve a hoteles, restaurantes y eventos de la Costa",
-   "source": "Málaga Hoy",
-   "time": "2026-11-22T06:09:03Z"
-  },
-  {
    "title": "Polacy kupują nieruchomości w Hiszpanii. Costa del Sol wciąż kusi - Biznes Wprost",
    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOSTJXSXp1RURWNmZhTzU3emx1QkFmd2lHYTVQT1pQVVBLYy1GUTgwaXpWTWp6THRQUldRZkZaY0QtUDB1M3Fwd25MYU1YTW1uaGl0UGN2QjJUaXd6OGI1RkhhTGwzTVNVQUczYTMzdHpzLUxiU09jSHc2RXZQbmQ0OW9zeGRoaFJiREdRUXctZER6N3hkcUZNZlZuWHdtc0NpdVdHOWZ1TlBYbThwSkNfaXhxcmZKSGty0gGrAUFVX3lxTE5aNWJGbzljdzVrcDhCUUlXRmlRZllqNDBoaGNDRTFmeW5RakdUYjNBaXNzLVA2RDh6OGRxa01oTHhRUnRidnBzSUxPaHh4R0hDbUNvV3RPNmpvREdCNUVNQVEyX0xKZGF6dGp4d1plcWN6VG05Y3hTdnlNMmtDbFQ1N1N4bDlCUkZPX1FweXZaSkRkX2tWWC1YVkpYUDNMWGdaSDRWbFpVaG9ORQ?oc=5",
    "summary": "Polacy kupują nieruchomości w Hiszpanii. Costa del Sol wciąż kusi    Biznes Wprost",
@@ -2486,6 +2577,13 @@
    "summary": "Nacida y afincada en el municipio malagueño de Alhaurín el Grande, llega a todos los rincones de España y exporta hacia 30 países\nAceitunas Bravo, de un pequeño almacén familiar en Málaga a exportar hacia 30 países",
    "source": "Málaga Hoy",
    "time": "2026-11-22T05:59:17Z"
+  },
+  {
+   "title": "¿De dónde era la Farola?",
+   "link": "https://www.malagahoy.es/malaga/nombre-malaga_0_2008545648.html",
+   "summary": "Ahora que la ciudad ya no puede pertenecer a los malagueños, a lo mejor lo más honesto es empezar a denominarla de otra manera, rebautizarla para que sus nuevos dueños se sientan más a gusto\nEl derecho a vivir en Málaga",
+   "source": "Málaga Hoy",
+   "time": "2026-11-22T05:53:09Z"
   },
   {
    "title": "Składy na mecz Hiszpania - Republika Zielonego Przylądka. Gwiazdy na murawie - Meczyki.pl",
@@ -2549,6 +2647,13 @@
    "summary": "Składy na mecz Hiszpania - Portugalia. Absolutny hit mistrzostw świata    Meczyki.pl",
    "source": "Polskie media – Polacy w Hiszpanii",
    "time": "2026-11-22T02:39:43Z"
+  },
+  {
+   "title": "Hiszpania czekała na to 16 lat. Wreszcie się udało - Meczyki.pl",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNVTVlaHdnOFVDM25pQU9Wb0lzSXJicmVUZGI2NkxUMkFlcDV3aFNYUkVkMzhZZndLQUFTWnRoTzdSNS1fUUJma3g1YzRDWk5ocW1udlI3cU9iYmlyY1JpWnBIOV93MjVXVTNyUDliWnFFdTZtX1NnOTA0WEd5X2RnN0U4Y0g0RjFXa3ZYYk1xaGlHQjFXWVg2R3VOUm5aQQ?oc=5",
+   "summary": "Hiszpania czekała na to 16 lat. Wreszcie się udało    Meczyki.pl",
+   "source": "Polskie media – Polacy w Hiszpanii",
+   "time": "2026-11-21T22:47:17Z"
   },
   {
    "title": "Składy na mecz Anglia - Hiszpania. Mistrzowie świata wracają do gry - Meczyki.pl",
