@@ -1,0 +1,271 @@
+{
+ "kicker": "ILE KUPISZ ZA… · 7 BUDŻETÓW",
+ "title1": "Ile kupisz",
+ "title2": "na Costa del Sol?",
+ "subtitle": "7 budżetów, 7 prawdziwych ofert. Od 249 tys. do 6 mln €.",
+ "fbsub": "Od La Duquesy po Benalmádenę. Od 249 tys. do 6 mln €.",
+ "storysub": "Od 249 tys. do 6 mln €",
+ "reel_hook": "Od 249 tys. do 6 mln € – 7 prawdziwych ofert",
+ "note": "Ceny ofertowe z 23.11.2026, rynek wtórny. Kupujący nie płaci prowizji biura.<br>Do ceny dochodzi ok. 9–11% podatków i opłat.",
+ "contact": "Podaj swój budżet – wyślemy pełne opisy, plany i zdjęcia. Po polsku, od pierwszej wiadomości po klucze.",
+ "reel_imgs": {
+  "6": "/home/claude/lln/ile/6b.jpg",
+  "7": "/home/claude/lln/ile/7b.jpg",
+  "2": "/home/claude/lln/ile/r2.jpg",
+  "5": "/home/claude/lln/ile/r5.jpg"
+ },
+ "items": [
+  {
+   "n": 1,
+   "img": "/home/claude/lln/ile/1.jpg",
+   "lon": -5.232,
+   "lat": 36.356,
+   "area": "La Duquesa · Manilva",
+   "short": "La Duquesa",
+   "typ": "Penthouse",
+   "title": "Taras większy <em>niż mieszkanie</em>",
+   "price": "249 tys. €",
+   "stats": [
+    [
+     "Sypialnie",
+     "2"
+    ],
+    [
+     "Powierzchnia",
+     "65 m²"
+    ],
+    [
+     "Solarium",
+     "67 m²"
+    ],
+    [
+     "Cena",
+     "249 tys. €"
+    ]
+   ],
+   "bullets": [
+    "Ważna licencja turystyczna – gotowy pod wynajem",
+    "Plaża 6 minut pieszo, blisko portu La Duquesa",
+    "Umeblowany, wspólny basen, miejsce w garażu"
+   ]
+  },
+  {
+   "n": 2,
+   "img": "/home/claude/lln/ile/2.jpg",
+   "lon": -4.582,
+   "lat": 36.567,
+   "area": "Carvajal · Fuengirola",
+   "short": "Fuengirola",
+   "typ": "Apartament",
+   "title": "Widok na morze <em>i plażę</em>",
+   "price": "395 tys. €",
+   "stats": [
+    [
+     "Sypialnie",
+     "2"
+    ],
+    [
+     "Powierzchnia",
+     "86 m²"
+    ],
+    [
+     "Taras",
+     "20 m²"
+    ],
+    [
+     "Cena",
+     "395 tys. €"
+    ]
+   ],
+   "bullets": [
+    "Kilka minut pieszo do plaży",
+    "Obok stacji kolejki – Málaga i lotnisko bez auta",
+    "Miejsce na 2 auta i komórka lokatorska"
+   ]
+  },
+  {
+   "n": 3,
+   "img": "/home/claude/lln/ile/3.jpg",
+   "lon": -4.858,
+   "lat": 36.512,
+   "area": "Río Real · Marbella",
+   "short": "Río Real",
+   "typ": "Penthouse",
+   "title": "Jacuzzi na dachu, <em>golf pod oknem</em>",
+   "price": "595 tys. €",
+   "stats": [
+    [
+     "Sypialnie",
+     "2"
+    ],
+    [
+     "Powierzchnia",
+     "104 m²"
+    ],
+    [
+     "Tarasy",
+     "107 m²"
+    ],
+    [
+     "Cena",
+     "595 tys. €"
+    ]
+   ],
+   "bullets": [
+    "Prywatny taras na dachu z jacuzzi",
+    "Widok na morze, góry i pole golfowe",
+    "5 minut pieszo do plaży i promenady do Marbelli"
+   ]
+  },
+  {
+   "n": 4,
+   "img": "/home/claude/lln/ile/4.jpg",
+   "lon": -5.11,
+   "lat": 36.437,
+   "area": "El Padrón · Estepona",
+   "short": "Estepona",
+   "typ": "Willa",
+   "title": "Wolnostojąca willa <em>z basenem</em>",
+   "price": "879 tys. €",
+   "stats": [
+    [
+     "Sypialnie",
+     "4"
+    ],
+    [
+     "Powierzchnia",
+     "263 m²"
+    ],
+    [
+     "Działka",
+     "941 m²"
+    ],
+    [
+     "Cena",
+     "879 tys. €"
+    ]
+   ],
+   "bullets": [
+    "950 m do plaży, 3 km do centrum Estepony",
+    "Prywatny basen i strefa grillowa 60 m²",
+    "Opłata wspólnoty tylko 228 € rocznie"
+   ]
+  },
+  {
+   "n": 5,
+   "img": "/home/claude/lln/ile/5.jpg",
+   "lon": -4.553,
+   "lat": 36.583,
+   "area": "Torrequebrada · Benalmádena",
+   "short": "Benalmádena",
+   "typ": "Willa",
+   "title": "Panorama <em>od morza po góry</em>",
+   "price": "1,45 mln €",
+   "stats": [
+    [
+     "Sypialnie",
+     "5"
+    ],
+    [
+     "Powierzchnia",
+     "410 m²"
+    ],
+    [
+     "Lotnisko",
+     "ok. 15 min"
+    ],
+    [
+     "Cena",
+     "1,45 mln €"
+    ]
+   ],
+   "bullets": [
+    "Prywatny basen ze słoną wodą",
+    "Dolne piętro jako osobne mieszkanie z wejściem",
+    "Szkoły międzynarodowe ok. 5 minut autem"
+   ]
+  },
+  {
+   "n": 6,
+   "img": "/home/claude/lln/ile/6.jpg",
+   "lon": -4.965,
+   "lat": 36.505,
+   "area": "Nueva Andalucía · Marbella",
+   "short": "Nueva Andalucía",
+   "typ": "Willa",
+   "title": "Pierwsza linia <em>pola golfowego</em>",
+   "price": "2,995 mln €",
+   "stats": [
+    [
+     "Sypialnie",
+     "3–4"
+    ],
+    [
+     "Powierzchnia",
+     "364 m²"
+    ],
+    [
+     "Basen",
+     "15 m"
+    ],
+    [
+     "Cena",
+     "2,995 mln €"
+    ]
+   ],
+   "bullets": [
+    "Podgrzewany basen infinity z widokiem na La Conchę",
+    "Bezpośrednie wyjście na pole golfowe",
+    "Piwniczka na wino na setki butelek"
+   ]
+  },
+  {
+   "n": 7,
+   "img": "/home/claude/lln/ile/7.jpg",
+   "lon": -5.034,
+   "lat": 36.465,
+   "area": "Los Flamingos",
+   "short": "Los Flamingos",
+   "typ": "Willa",
+   "title": "Nowoczesna rezydencja <em>przy samym golfie</em>",
+   "price": "6 mln €",
+   "stats": [
+    [
+     "Sypialnie",
+     "6"
+    ],
+    [
+     "Powierzchnia",
+     "722 m²"
+    ],
+    [
+     "Działka",
+     "2577 m²"
+    ],
+    [
+     "Cena",
+     "6 mln €"
+    ]
+   ],
+   "bullets": [
+    "Pierwsza linia pola golfowego",
+    "Widok na golf i morze, prywatny basen",
+    "8 łazienek, garaż i parking na kilka aut"
+   ]
+  }
+ ],
+ "offs": {
+  "2": [
+   -270,
+   70
+  ],
+  "5": [
+   -200,
+   160
+  ],
+  "1": [
+   28,
+   -75
+  ]
+ }
+}
