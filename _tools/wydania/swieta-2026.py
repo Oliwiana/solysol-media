@@ -25,10 +25,10 @@ def P_liczby(n, N):
         ('03 · Kto tu przylatywał?', 'Grace Kelly i Hefner w Marbelli'),
         ('04 · Kalendarz', 'Wszystkie ważne daty do 6.01'),
         ('09 · Złota koperta', 'Czy masz szczęśliwy egzemplarz?'),
-        ('10 · La Zagaleta', 'Kto naprawdę ją kupił?'),
-        ('13 · Bond w Marbelli', 'Connery i afera „Goldfinger”'),
-        ('15 · Kryminalne', 'Złoto spod Heathrow'),
-        ('19 · Quiz', 'Kto w rodzinie wie najwięcej?')])
+        ('13 · Hemingway', 'Urodziny z fajerwerkami pod Malagą'),
+        ('15 · Bond w Marbelli', 'Connery i afera „Goldfinger”'),
+        ('17 · Kryminalne', 'Złoto spod Heathrow'),
+        ('23 · Quiz', 'Kto w rodzinie wie najwięcej?')])
     inner = (f'<div style="position:absolute;left:64px;right:64px;top:56px">{kick("Na start")}{H("Święta w liczbach", 88)}{rule()}'
              f'<div style="display:grid;grid-template-columns:1fr 1fr;gap:26px 40px;width:560px">{stats}</div></div>'
              f'<div style="position:absolute;left:668px;right:64px;top:206px">{hdr("W numerze", 34)}{short}</div>'
@@ -752,3 +752,77 @@ def P_bond(n, N):
 
 THEME_SEQ = ['light','light','yellow','green','light','light','green','light','red','light','light','light','light','noir','noir','light','light','red','light','light']
 PAGES = [P_cover, P_liczby, P_banus, P_kalendarz, P_malaga, P_marbella, P_gwiazdy, P_fue_est, P_gordo1, P_zagaleta, P_pl_es, P_przepisy, P_bond, P_crime, P_zagadka, P_ap7, P_sylwester, P_ciekawostki, P_quiz, P_koniec]
+
+# ---------- 4 nowe historie (23.11.2026): gwiazdy i miejsca ----------
+def _story(n, N, img, pos, credit, kicker, title, lead, paras, quote, qc, nums, boxt, boxx, srcs, small=None):
+    nn = ''.join(f'<div style="border-top:2px solid {c};padding-top:10px"><div style="{CG}font-size:46px;font-weight:600;line-height:1;color:{c}">{a}</div><div style="font-size:16px;line-height:1.3;margin-top:4px;color:{MUT}">{b}</div></div>' for a, b, c in nums)
+    sm = ''
+    if False and small:
+        f, cp, cr = small
+        sm = (f'<div style="background:#fff;padding:9px 9px 34px;box-shadow:0 14px 30px rgba(0,0,0,.25);transform:rotate(2deg);margin-top:16px;position:relative">'
+              f'<img src="file://{PH}{f}" style="display:block;width:100%;height:118px;object-fit:cover"><div style="position:absolute;left:12px;bottom:8px;font-size:14px;font-style:italic;color:#3A2A10">{E(cp)}</div></div>')
+        srcs = srcs + ' Fot. obok: ' + cr.replace('Fot. ', '') + '.'
+    inner = (photo(img, 0, 0, 1080, 600, pos)
+             + '<div style="position:absolute;left:0;right:0;top:0;height:600px;background:linear-gradient(180deg,rgba(0,0,0,.3) 0%,rgba(0,0,0,0) 30%,rgba(0,0,0,.05) 50%,rgba(0,0,0,.82) 100%)"></div>'
+             + f'<div style="position:absolute;left:64px;right:64px;top:360px;color:#fff">{kick(kicker, "#F2C14E")}{H(title, 80, "#fff")}</div>'
+             + f'<div style="position:absolute;right:30px;top:22px;font-size:13px;color:rgba(255,255,255,.9)">{E(credit)}</div>'
+             + f'<div style="position:absolute;left:64px;top:640px;width:560px">' + dc(lead) + ''.join(p(x, 20) for x in paras) + pull(quote, qc) + '</div>'
+             + f'<div style="position:absolute;left:670px;right:64px;top:630px"><div style="display:grid;grid-template-columns:1fr;gap:10px">{nn}</div>'
+             + '<div style="height:14px"></div>' + box(boxt, boxx, SAND, INKK, RED) + sm + '</div>'
+             + src(srcs))
+    return frame(n, N, 'Na długie wieczory', inner)
+
+def P_hemingway(n, N):
+    return _story(n, N, 'hem_consula.jpg', '50% 45%', 'La Cónsula w Churrianie. Fot. Daniel Capilla / Wikimedia Commons, CC BY-SA 4.0',
+        'Na długie wieczory · Málaga', 'Hemingway <i style="color:#F2C14E">i urodziny z fajerwerkami</i>',
+        'Latem 1959 r. Ernest Hemingway zamieszkał pod Malagą. Przyjechał do pracy – a zapamiętano go z najgłośniejszej imprezy tamtego lata.',
+        ['1 maja zszedł z transatlantyku w Algeciras. Magazyn „Life” zamówił u niego reportaż o rywalizacji dwóch matadorów – Antonia Ordóñeza i Luisa Miguela Dominguína.',
+         'Zamieszkał w posiadłości La Cónsula w Churrianie, u amerykańskich przyjaciół. 21 lipca skończył 60 lat: szampan z Francji, jedzenie z Londynu, orkiestra i strzelnica jak na jarmarku.',
+         'Fajerwerki podpaliły palmę i z Malagi musiała przyjechać straż pożarna.'],
+        'Reportaż z tamtego lata wyszedł jako książka dopiero w 1985 r.', GRN,
+        [('1959', 'lato Hemingwaya na Costa del Sol', RED), ('60', 'urodziny świętowane w La Cónsuli', GRN), ('1985', 'wydanie książki „Niebezpieczne lato”', GOLD)],
+        'Gdzie to jest dziś?', 'W La Cónsuli działa szkoła hotelarska. Tablica przypomina o tamtych urodzinach.',
+        'El Español (2021), andalucia.com, Meer, Open Plaques.',
+        ('hem_ronda.jpg', 'Arena w Rondzie', 'Fot. Andreas Tille / Wikimedia Commons, CC BY-SA 3.0'))
+
+def P_pezespada(n, N):
+    return _story(n, N, 'pez_vint.jpg', '50% 45%', 'Hotel Pez Espada w latach 60. Fot. Biblioteca Fac. Empresa y Gestión Pública, Univ. de Zaragoza / Wikimedia Commons, CC BY-SA 2.0',
+        'Na długie wieczory · Torremolinos', 'Pez Espada – <i style="color:#F2C14E">hotel gwiazd</i>',
+        'Zanim Torremolinos stało się kurortem, był tu jeden hotel, o którym pisały kolorowe pisma. Nazywał się Miecznik.',
+        ['31 maja 1959 r. przy plaży La Carihuela otwarto Pez Espada – pierwszy luksusowy, pięciogwiazdkowy hotel w miejscowości.',
+         'Bywali tu m.in. Anthony Quinn, Ingrid Bergman, Elizabeth Taylor, Sophia Loren i Ava Gardner. W 1964 r. przyjechał Frank Sinatra, który kręcił w wąwozie El Chorro „Ekspres von Ryana”.',
+         'Na hotelowej scenie śpiewali Julio Iglesias, Raphael i Massiel.'],
+        'Zdaniem redakcji – to tu Costa del Sol nauczyła się blichtru.', RED,
+        [('1959', 'otwarcie hotelu przy La Carihueli', RED), ('6 → 50+', 'hoteli w Torremolinos: 6 lat przed i 6 lat po otwarciu', GRN), ('5*', 'pierwszy luksusowy hotel w miejscowości', GOLD)],
+        'Można tam zajrzeć?', 'Hotel działa do dziś przy Avenida Salvador Allende 11 – z wyjściem prosto na plażę.',
+        'Wikipedia (Hotel Pez Espada), andalucia.com, Archivo Histórico Provincial de Málaga, Andalucía Destino de Cine.',
+        ('pez_vint2.jpg', 'Promenada przy hotelu', 'Fot. Biblioteca Univ. de Zaragoza / Wikimedia Commons, CC BY-SA 2.0'))
+
+def P_andersen(n, N):
+    return _story(n, N, 'and_port.jpg', '50% 50%', 'Port w Maladze, rycina z XIX w. Gustave Doré / Wikimedia Commons, CC BY 2.0',
+        'Na długie wieczory · Málaga', 'Andersen: <i style="color:#F2C14E">tu byłem najszczęśliwszy</i>',
+        'Autor „Królowej Śniegu” i „Brzydkiego kaczątka” podróżował po całej Hiszpanii. Najlepszą recenzję wystawił Maladze.',
+        ['W październiku 1862 r. Hans Christian Andersen przypłynął statkiem do Malagi z przyjacielem Jonasem Collinem. Miasto było udekorowane na przyjazd królowej Izabeli II.',
+         'Zatrzymał się przy Alamedzie, oglądał katedrę z jedną wieżą – La Manquitę – i zachwycił się Cmentarzem Angielskim.',
+         'W książce „W Hiszpanii” (1863) napisał, że w żadnym hiszpańskim mieście nie czuł się tak szczęśliwy i tak u siebie.'],
+        'Zdaniem redakcji – najlepsza recenzja w historii Malagi.', GRN,
+        [('1862', 'podróż Andersena po Hiszpanii', RED), ('1863', 'wydanie książki „W Hiszpanii”', GRN), ('1', 'wieża katedry – dlatego „La Manquita”', GOLD)],
+        'Śladami pisarza', 'Pomnik Andersena z brązu siedzi przy Plaza de la Marina. Cmentarz Angielski można zwiedzać – to najstarszy protestancki cmentarz w Hiszpanii.',
+        'andalucia.com, Vozpópuli, OkDiario, Baetica (Univ. de Málaga).',
+        ('and_cem.jpg', 'Cmentarz Angielski', 'Fot. NatalieMaynor / Wikimedia Commons, CC BY 2.0'))
+
+def P_fahd(n, N):
+    return _story(n, N, 'fahd_mez.jpg', '50% 40%', 'Meczet Króla Abdulaziza w Marbelli. Fot. Zarateman / Wikimedia Commons, CC0',
+        'Na długie wieczory · Marbella', 'Król Fahd i <i style="color:#F2C14E">Biały Dom na Złotej Mili</i>',
+        'Gdy przylatywał król Arabii Saudyjskiej, Marbella liczyła zyski w milionach dziennie. Do dziś przy Złotej Mili stoi jego pałac.',
+        ['Pałac Mar-Mar powstał na początku lat 80. Biała fasada i kolumny – prasa pisała, że to mała wersja Białego Domu. Obok wille, lądowisko dla helikopterów, a nawet klinika.',
+         'W 1981 r. ukończono meczet Króla Abdulaziza – pierwszy minaret na Costa del Sol.',
+         'Latem 2002 r. z królem przyleciało ok. 400 osób, a według różnych relacji dwór rósł nawet do 3 tys. W hotelach rezerwowano setki pokoi.'],
+        'Kilka tygodni lata znaczyło dla wielu firm więcej niż cały sezon.', RED,
+        [('1981', 'otwarcie meczetu przy Złotej Mili', RED), ('ok. 3 tys.', 'osób dworu w szczycie wizyty (według relacji)', GRN), ('ok. 30 mln €', 'ma zapłacić miastu saudyjska spółka za nowy plan (2026)', GOLD)],
+        'Co dziś?', 'Król zmarł w 2005 r. Jego imię nosi w Marbelli ulica i ogród, a w 2026 r. miasto zatwierdziło rozbudowę saudyjskiego kompleksu.',
+        'The Irish Times (1999), Dawn/dpa, Hello!, AP (2002), Arab News, andalucia.com, Euro Weekly News, The Olive Press (2026).',
+        ('fahd_mila.jpg', 'Złota Mila dziś', 'Fot. Zarateman / Wikimedia Commons, CC0'))
+
+PAGES = [P_cover, P_liczby, P_banus, P_kalendarz, P_malaga, P_marbella, P_gwiazdy, P_fue_est, P_gordo1, P_zagaleta, P_pl_es, P_przepisy, P_hemingway, P_pezespada, P_bond, P_crime, P_zagadka, P_fahd, P_ap7, P_andersen, P_sylwester, P_ciekawostki, P_quiz, P_koniec]
+THEME_SEQ = ['light','light','yellow','green','light','light','green','light','red','light','light','light','light','light','light','noir','noir','light','light','light','light','red','light','light']
