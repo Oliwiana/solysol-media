@@ -751,6 +751,39 @@ def P_bond(n, N):
     return frame(n, N, 'Na długie wieczory', inner)
 
 THEME_SEQ = ['light','light','yellow','green','light','light','green','light','red','light','light','light','light','noir','noir','light','light','red','light','light']
+
+def P_banus(n, N):  # wersja 23.11 – okładka z Instagrama + teksty + podcast na YouTube
+    K = '#171513'
+    guests = ''.join(f'<div style="padding:9px 0;border-top:1.5px solid rgba(23,21,19,.22)"><div style="font-size:20px;font-weight:800">{E(b)}</div><div style="font-size:16px;line-height:1.3;color:#3A3020">{E(c)}</div></div>' for b, c in [
+        ('Książę Rainier i Grace Kelly', 'para książęca Monako'), ('Juan Carlos i Zofia', 'przyszli król i królowa Hiszpanii'),
+        ('Hugh Hefner', 'przyleciał prywatnym Boeingiem 707'), ('Roman Polański i Aga Chan', 'reżyser i przywódca duchowy ismailitów'),
+        ('Christiaan Barnard', 'autor pierwszego przeszczepu serca'), ('Julio Iglesias', 'młody piosenkarz śpiewał dla gości')])
+    facts = ''.join(f'<div style="display:flex;gap:12px;align-items:flex-start;margin-top:10px"><div style="flex:none;width:30px;height:30px;border-radius:50%;background:{K};color:#F2C14E;font-weight:900;font-size:16px;display:flex;align-items:center;justify-content:center">{i}</div><div style="font-size:18px;line-height:1.38">{t}</div></div>' for i, t in [
+        (1, 'Port otwarto oficjalnie w maju 1970 r., a wielkie przyjęcie odbyło się <b>2 sierpnia</b>.'),
+        (2, 'Wygląda jak stara rybacka wioska – a <b>zbudowano go od zera</b> w 1970 r.'),
+        (3, 'Nazwa pochodzi od nazwiska budowniczego – <b>José Banúsa</b>.')])
+    inner = (FIX
+             + '<div style="position:absolute;inset:0;background:radial-gradient(ellipse 70% 50% at 70% 20%,rgba(255,236,170,.55),transparent 70%)"></div>'
+             + f'<div style="position:absolute;left:54px;top:60px;width:470px;background:#fff;padding:12px 12px 12px;transform:rotate(-2.5deg);box-shadow:0 22px 44px rgba(0,0,0,.35)"><img src="file://{PH}banus_ig.jpg" style="display:block;width:100%;height:auto"></div>'
+             + f'<div style="position:absolute;left:66px;top:676px;font-size:12px;color:#3A3020">Okładka z @solysol.pl · fot. ABC Television / Wikimedia Commons, domena publiczna</div>'
+             + f'<div style="position:absolute;left:570px;right:56px;top:66px">'
+             + f'<div style="display:inline-block;transform:rotate(-2deg);background:{K};color:#F2C14E;font-family:InterX;font-style:italic;font-weight:900;font-size:22px;padding:8px 16px;border-radius:9px">NA DŁUGIE WIECZORY</div>'
+             + f'<div style="font-family:InterX;font-style:italic;font-weight:900;font-size:56px;line-height:.95;letter-spacing:-.02em;color:{K};text-transform:uppercase;margin-top:14px">Noc, która zrobiła Marbellę legendą</div>'
+             + f'<div style="{CG}font-style:italic;font-size:28px;line-height:1.2;color:{K};margin-top:12px">1700 gości, książęta i Hefner – najsłynniejsza impreza w historii wybrzeża</div>'
+             + f'<p style="font-size:19px;line-height:1.48;margin:14px 0 0"><b>2 sierpnia 1970 r.</b> José Banús wydał przyjęcie na otwarcie swojego portu pod Marbellą. Hefner przyleciał własnym Boeingiem, a do stołów usiadły dwie pary książęce.</p>'
+             + f'<div style="font-family:InterX;font-style:italic;font-weight:900;font-size:22px;color:{K};text-transform:uppercase;margin:16px 0 4px">Na liście gości</div>{guests}</div>'
+             + f'<div style="position:absolute;left:64px;top:720px;width:470px"><div style="font-family:InterX;font-style:italic;font-weight:900;font-size:24px;color:{K};text-transform:uppercase">Warto wiedzieć</div>{facts}</div>'
+             + f'<div style="position:absolute;right:56px;top:560px;width:150px;height:150px;border-radius:50%;background:{K};color:#F2C14E;display:none"></div>'
+             # podcast
+             + f'<div style="position:absolute;left:54px;right:54px;top:1000px;background:{K};color:#fff;padding:24px 28px;display:grid;grid-template-columns:1fr 168px;gap:24px;align-items:center;transform:rotate(-.6deg);box-shadow:0 18px 36px rgba(0,0,0,.3)">'
+             + '<div><div style="display:flex;align-items:center;gap:12px"><div style="width:46px;height:32px;border-radius:8px;background:#E62117;display:flex;align-items:center;justify-content:center"><div style="width:0;height:0;border-left:15px solid #fff;border-top:9px solid transparent;border-bottom:9px solid transparent;margin-left:4px"></div></div>'
+             + '<div style="font-family:InterX;font-style:italic;font-weight:900;font-size:28px;color:#F2C14E;text-transform:uppercase">Posłuchaj: Zagadki Costa del Sol</div></div>'
+             + '<div style="font-size:19px;line-height:1.45;margin-top:10px">Nasz podcast o tajemnicach, aferach i gwiazdach wybrzeża – z lektorem i setkami zdjęć. <b style="color:#F2C14E">Nowy odcinek w każdą niedzielę o 18:00</b> na YouTube, a krótkie Shorty – codziennie.</div>'
+             + '<div style="font-size:17px;line-height:1.4;margin-top:8px;color:#E8DFC9">Cała historia tej nocy: <b style="color:#fff">odcinek #5 – niedziela 20.12, godz. 18:00</b>. Szukaj: <b style="color:#fff">youtube.com/@solysolpl</b></div></div>'
+             + f'<div style="text-align:center"><img src="file://{PH}qr_yt.png" style="width:150px;height:150px;display:block;margin:0 auto;border-radius:6px"><div style="font-size:12px;letter-spacing:.14em;margin-top:6px;color:#F2C14E">ZESKANUJ</div></div></div>'
+             + src('Archivo Histórico Provincial de Málaga (Junta de Andalucía), andalucia.com, Olive Press (2020), Terra Meridiana, puerto-banus.com.'))
+    return frame(n, N, 'Na długie wieczory', inner)
+
 PAGES = [P_cover, P_liczby, P_banus, P_kalendarz, P_malaga, P_marbella, P_gwiazdy, P_fue_est, P_gordo1, P_zagaleta, P_pl_es, P_przepisy, P_bond, P_crime, P_zagadka, P_ap7, P_sylwester, P_ciekawostki, P_quiz, P_koniec]
 
 # ---------- 4 nowe historie (23.11.2026): gwiazdy i miejsca ----------
