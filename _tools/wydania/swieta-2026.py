@@ -97,7 +97,7 @@ def P_marbella(n, N):
              + pull('Cztery wielkie anioły i świetlny las.', GRN)
              + f'<div style="display:grid;grid-template-columns:1fr 1fr;gap:18px 26px">{nums}</div>'
              + '<div style="height:22px"></div>'
-             + box('Kiedy włączenie świateł?', 'Ratusz jeszcze nie podał daty. Damy znać od razu, gdy ją ogłosi.', SAND, INKK, RED)
+             + box('Kiedy włączenie świateł?', 'Datę podamy na solysol.pl i @solysol.pl, gdy ogłosi ją ratusz.', SAND, INKK, RED)
              + '</div>' + wow('Nie wiedziałeś?', 'Plac powstał w <b>1485 r.</b>, tuż po zdobyciu miasta przez Królów Katolickich. Ratusz stoi tu od 1568 r.', 530, 1010, 486, 1.5) + f'<div style="position:absolute;left:530px;right:64px;bottom:84px;font-size:13px;color:{MUT}">Źródła: Ayuntamiento de Marbella; Marbella Directo; La Noción; Al Sol de la Costa (11.2026); Wikipedia. Stan na 21.11.2026.</div>')
     return frame(n, N, 'Marbella', inner)
 
@@ -257,7 +257,7 @@ def P_quiz(n, N):
     score = ''.join(f'<div style="flex:1;text-align:center;padding:20px 10px;background:{bg};color:#fff"><div style="{CG}font-size:40px;font-weight:600">{a}</div><div style="font-size:17px;margin-top:4px">{b}</div></div>' for a, b, bg in [
         ('0–4 pkt', 'turysta na start', '#2B2926'), ('5–7 pkt', 'prawie Andaluzyjczyk', '#1F5C3F'), ('8–10 pkt', 'prawdziwy malagueño!', '#B8860B')])
     inner = (f'<div style="position:absolute;left:64px;right:64px;top:56px">{kick("Zagrajcie razem")}{H("Quiz dla <i style=\'color:"+RED+"\'>całej rodziny</i>", 82)}'
-             f'<div style="font-size:21px;color:{MUT};margin-top:10px">Dzieci odpowiadają na pytania 1–5, dorośli na 6–10. Kto zbierze więcej punktów? Napiszcie wynik w komentarzu 👇</div>{rule()}'
+             f'<div style="font-size:21px;color:{MUT};margin-top:10px">Dzieci odpowiadają na pytania 1–5, dorośli na 6–10. Kto zbierze więcej punktów? Pochwalcie się wynikiem na @solysol.pl!</div>{rule()}'
              f'<div style="display:grid;grid-template-columns:1fr 1fr;gap:30px">{col("DLA DZIECI", "🧒", kids, 1, "#F2C14E")}{col("DLA DOROSŁYCH", "🧑", adults, 6, "#1F5C3F")}</div>'
              f'<div style="display:flex;gap:10px;margin-top:22px">{score}</div>'
              f'<div style="margin-top:14px;background:{SAND};padding:14px 22px;font-size:18px;transform:rotate(180deg);text-align:center">Odpowiedzi: 1b · 2b · 3b · 4a · 5a · 6a · 7b · 8a · 9a · 10b</div></div>')
@@ -270,8 +270,8 @@ def P_koniec(n, N):
              f'<div style="{CG}font-style:italic;font-size:46px;color:#F2C14E">¡Feliz Navidad!</div>'
              f'<div style="{CG}font-size:120px;font-weight:600;line-height:1">Wesołych Świąt</div>'
              f'<div style="font-size:26px;line-height:1.5;margin-top:20px">życzy redakcja Sol y Sól</div>'
-             f'<div style="font-size:23px;line-height:1.5;margin-top:26px;color:#E9E1D2">Daty z Marbelli i kolejnych miejscowości dopiszemy, gdy ratusze je ogłoszą.<br>Codziennie o <b>8:00</b> i <b>19:00</b> – wydania z wybrzeża.</div>'
-             f'<div style="display:flex;justify-content:center;gap:16px;margin-top:34px;font-size:19px;font-weight:800;letter-spacing:.16em"><span style="background:{RED};padding:15px 20px">🔔 OBSERWUJ @SOLYSOL.PL</span><span style="border:2px solid #FAF7F2;padding:13px 20px">ZAPISZ · UDOSTĘPNIJ</span></div></div>'
+             f'<div style="font-size:23px;line-height:1.5;margin-top:26px;color:#E9E1D2">Nowości z wybrzeża – codziennie na <b>solysol.pl</b> i <b>@solysol.pl</b>.<br>Podcast „Zagadki Costa del Sol” – w każdą niedzielę o <b>18:00</b> na YouTube.</div>'
+             f'<div style="display:flex;justify-content:center;gap:16px;margin-top:34px;font-size:19px;font-weight:800;letter-spacing:.16em"><span style="background:{RED};padding:15px 20px">🔔 OBSERWUJ @SOLYSOL.PL</span><span style="border:2px solid #FAF7F2;padding:13px 20px">SOLYSOL.PL</span></div></div>'
              f'<div style="position:absolute;right:30px;top:24px;font-size:13px;color:rgba(255,255,255,.85)">Fot. Bogdan Migulski / Wikimedia Commons, CC BY 2.0</div>')
     return page(GARL + inner, '#08180F', '#FAF7F2')
 
@@ -290,7 +290,7 @@ def P_dzieci(n, N):
              + f'<div style="position:absolute;left:666px;right:64px;top:510px">'
              + box('Pamiętaj', 'W Hiszpanii najważniejszy dzień dla dzieci to <b>6 stycznia</b>. Wiele rodzin daje drobny prezent 25.12, a główny – od Króli.', RED)
              + '<div style="height:16px"></div>'
-             + box('Daty w Twojej gminie', 'Wioski Mikołaja, pokazy świateł i cabalgaty gminy ogłaszają zwykle na przełomie listopada i grudnia. Podamy je w wydaniach o 8:00 i 19:00.', SAND, INKK, RED)
+             + box('Daty w Twojej gminie', 'Wioski Mikołaja, pokazy świateł i cabalgaty gminy ogłaszają zwykle na przełomie listopada i grudnia. Na bieżąco podajemy je na solysol.pl i @solysol.pl.', SAND, INKK, RED)
              + '</div>' + wow('Od ponad 100 lat', 'Pochód Trzech Króli przechodzi przez Málagę od <b>1923 r.</b> Ostatnio jechało w nim 13 wozów, a w tłum poleciały tony cukierków i żelków.', 64, 1040, 952, -1)
              + src('Ayuntamiento de Málaga (malaga.eu, 2025–2026); Vozpópuli; ayuntamientos gmin Costa del Sol. Stan na 21.11.2026.'))
     return frame(n, N, 'Dla rodzin', inner)
@@ -393,7 +393,7 @@ def P_zagaleta(n, N):
 
 def P_ap7(n, N):
     nums = ''.join(f'<div style="border-top:2px solid {c};padding-top:12px"><div style="{CG}font-size:56px;font-weight:600;line-height:1;color:{c}">{a}</div><div style="font-size:18px;font-weight:700;margin-top:6px">{b}</div><div style="font-size:16px;line-height:1.35;color:{MUT};margin-top:2px">{d}</div></div>' for a, b, d, c in [
-        ('11 233', 'nowych mieszkań na sprzedaż', '14 gmin wybrzeża, III kw. 2026 – co piąte w Hiszpanii', RED),
+        ('11 233', 'nowych apartamentów na sprzedaż', '14 gmin wybrzeża, III kw. 2026 – co piąte w Hiszpanii', RED),
         ('ok. 120 tys.', 'aut dziennie na A-7', 'między Málagą a Marbellą', GRN),
         ('40 682', 'aut dziennie na płatnej AP-7', 'rekord 2025, latem opłata +63%', GOLD),
         ('70+', 'pól golfowych', 'najwięcej w kontynentalnej Europie', RED)])
@@ -573,13 +573,13 @@ def P_przepisy(n, N):
                     f'<div style="{CG}font-size:30px;font-weight:700;line-height:1.05;color:{RED};margin-top:4px">{E(b)}</div>'
                     f'<div style="font-size:16px;line-height:1.38;margin-top:6px;color:#4A443D">{E(c)}</div></div>' for a, b, c in swaps)
     steps = ''.join(f'<div style="display:flex;gap:12px;padding:6px 0"><div style="{CG}font-size:30px;font-weight:700;color:{RED};line-height:.9;min-width:22px">{i}</div><div style="font-size:17px;line-height:1.4">{t}</div></div>' for i, t in enumerate([
-        'Zetrzyj 1 kg gotowanych buraków, wrzuć do 1,5 l bulionu z 2 ząbkami czosnku, liściem laurowym i zielem.',
+        'Zetrzyj 1 kg gotowanych buraków, wrzuć do 1,5 l bulionu z 2 ząbkami czosnku, liściem laurowym i zielem angielskim.',
         'Gotuj 15 min, nie dopuszczając do mocnego wrzenia.',
         'Przecedź. Dopraw 3–4 łyżkami octu winnego, solą, pieprzem, cukrem i majerankiem.',
         'Najlepszy następnego dnia – z uszkami albo w kubku.'], 1))
     inner = (photo('fish0.jpg', 0, 0, 1080, 470, '50% 55%')
              + '<div style="position:absolute;left:0;right:0;top:0;height:470px;background:linear-gradient(180deg,rgba(0,0,0,.05) 25%,rgba(0,0,0,.78) 100%)"></div>'
-             + '<div style="position:absolute;right:30px;top:20px;font-size:13px;color:rgba(255,255,255,.9)">Zdjęcie ilustracyjne. Fot. Keesha\'s Kitchen / Unsplash</div>'
+             + '<div style="position:absolute;right:30px;top:20px;font-size:13px;color:rgba(255,255,255,.9)">Zdjęcie ilustracyjne. Fot. Keesha’s Kitchen / Unsplash</div>'
              + f'<div style="position:absolute;left:64px;right:64px;top:250px;color:#fff">{kick("Wigilia po hiszpańsku", "#F2C14E")}{H("Karpia nie ma? <i style=\'color:#F2C14E\'>Jest dorada</i>", 76, "#fff")}'
              + '<div style="font-size:20px;line-height:1.4;margin-top:10px;color:#F4ECDD">Ściąga na zakupy: co kupić na hiszpańskim targu, żeby na stole było po polsku.</div></div>'
              + f'<div style="position:absolute;left:64px;right:64px;top:505px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px">{cards}</div>'
@@ -620,7 +620,7 @@ def P_gwiazdy(n, N):
 
 def P_zagadka(n, N):
     fld = ''.join(f'<div style="display:grid;grid-template-columns:170px 1fr;padding:9px 0;border-bottom:1px dashed rgba(27,23,20,.35)"><span style="font-weight:800;font-size:15px;letter-spacing:.12em;color:#7A5B3A">{a}</span><span style="font-size:20px;color:#1b1714">{b}</span></div>' for a, b in [
-        ('DATA', '26.11.1983, godz. 06:40'), ('MIEJSCE', 'magazyn Brink\'s-Mat przy lotnisku Heathrow'), ('SPRAWCY', 'sześciu uzbrojonych mężczyzn'),
+        ('DATA', '26.11.1983, godz. 06:40'), ('MIEJSCE', 'magazyn Brink’s-Mat przy lotnisku Heathrow'), ('SPRAWCY', 'sześciu uzbrojonych mężczyzn'),
         ('PLAN', 'ok. 3 mln £ w gotówce'), ('ŁUP', '6800 sztabek złota, ok. 3 ton – 26 mln £')])
     tl = ''.join(f'<div style="display:grid;grid-template-columns:150px 1fr;gap:18px;padding:13px 0;border-top:1px solid #CFC5B5"><div style="{CG}font-size:34px;font-weight:600;color:{RED};line-height:1">{a}</div><div style="font-size:19px;line-height:1.42">{E(b)}</div></div>' for a, b in [
         ('1986', 'Kenneth Noye zostaje skazany za paserstwo złota z napadu – 14 lat więzienia. Część sztabek przetopiono.'),
@@ -632,11 +632,11 @@ def P_zagadka(n, N):
              + f'<div style="position:absolute;left:64px;right:64px;top:350px;background:#E8D9BC;color:#1b1714;padding:26px 30px 22px;transform:rotate(1deg);box-shadow:0 20px 40px rgba(0,0,0,.45)">'
              + f'<div style="position:absolute;left:0;top:-30px;width:230px;height:32px;background:#E8D9BC;border-radius:10px 10px 0 0"></div>'
              + f'<div style="font-size:15px;font-weight:800;letter-spacing:.24em;color:#9E2B25">AKTA · LONDYN – KADYKS</div>'
-             + f'<div style="{CG}font-size:46px;font-weight:600;line-height:1.05;margin:6px 0 10px">Sprawa Brink\'s-Mat</div>{fld}'
+             + f'<div style="{CG}font-size:46px;font-weight:600;line-height:1.05;margin:6px 0 10px">Sprawa Brink’s-Mat</div>{fld}'
              + f'<div style="position:absolute;right:30px;top:40px;border:4px solid #9E2B25;color:#9E2B25;font-weight:900;font-size:30px;letter-spacing:.12em;padding:6px 16px;transform:rotate(-10deg)">NIEROZWIĄZANA</div></div>'
              + f'<div style="position:absolute;left:64px;right:64px;top:770px">{tl}</div>'
              + f'<div style="position:absolute;left:64px;right:64px;top:1110px;border:2px dashed {RED};padding:16px 22px;font-size:20px;line-height:1.4"><b style="color:{RED}">TWOJA KOLEJ, DETEKTYWIE:</b> gdzie podziała się reszta złota? Napisz nam swoją teorię w wiadomości – najciekawsze pokażemy na @solysol.pl.</div>'
-             + src('Wikipedia (Brink\'s-Mat robbery, Kenneth Noye), BBC, CBC, History Hit, World History Edu, Evening Standard, Daily Mirror.'))
+             + src('Wikipedia (Brink’s-Mat robbery, Kenneth Noye), BBC, CBC, History Hit, World History Edu, Evening Standard, Daily Mirror.'))
     return frame(n, N, 'Zagadki kryminalne', inner)
 
 
@@ -730,17 +730,17 @@ def P_bond(n, N):
     tl = ''.join(f'<div style="display:grid;grid-template-columns:120px 1fr;gap:18px;padding:12px 0;border-top:1px solid #CFC5B5"><div style="{CG}font-size:32px;font-weight:700;color:{RED};line-height:1">{a}</div><div style="font-size:18px;line-height:1.42">{b}</div></div>' for a, b in [
         ('wcześniej', 'Sean Connery latami mieszka w willi Malibú przy Puerto Banús.'),
         ('1999', 'Sprzedaje ją za ok. 5,5 mln funtów i przenosi się na Bahamy.'),
-        ('potem', 'Na działce, gdzie wolno było postawić 5 domów, rosną 72 luksusowe mieszkania.'),
+        ('potem', 'Na działce, gdzie wolno było postawić 5 domów, rosną 72 luksusowe apartamenty.'),
         ('śledztwo', 'Nazwano je „Goldfinger” – od filmu o Bondzie z 1964 r. Sąd wyznacza Connery’emu i jego żonie 3,3 mln € kaucji.'),
         ('finał', 'Sprawę wobec aktora umorzono – od początku zaprzeczał, że zrobił coś złego. Były burmistrz Marbelli dostał w 2016 r. rok więzienia.')])
     stats = ''.join(f'<div style="text-align:center"><div style="{CG}font-size:56px;font-weight:700;line-height:1;color:#F2C14E">{a}</div><div style="font-size:15px;line-height:1.3;margin-top:6px;color:#fff">{b}</div></div>' for a, b in [
-        ('5 → 72', 'domy dozwolone → mieszkania zbudowane'), ('5,5 mln £', 'cena willi w 1999 r.'), ('3,3 mln €', 'kaucja dla Connery’ego i żony')])
+        ('5 → 72', 'domy dozwolone → apartamenty zbudowane'), ('5,5 mln £', 'cena willi w 1999 r.'), ('3,3 mln €', 'kaucja dla Connery’ego i żony')])
     inner = (photo('villa3.jpg', 0, 0, 1080, 520, '50% 60%')
              + '<div style="position:absolute;left:0;right:0;top:0;height:520px;background:linear-gradient(180deg,rgba(0,0,0,.15) 20%,rgba(0,0,0,.85) 100%)"></div>'
              + '<div style="position:absolute;right:30px;top:20px;font-size:13px;color:rgba(255,255,255,.9)">Zdjęcie ilustracyjne. Fot. Judith Browne / Unsplash</div>'
              + '<div style="position:absolute;right:64px;top:70px;font-family:InterX,Inter,sans-serif;font-style:italic;font-weight:900;font-size:150px;line-height:1;color:rgba(242,193,78,.92);letter-spacing:-.04em">007</div>'
              + f'<div style="position:absolute;left:64px;right:64px;top:290px;color:#fff">{kick("Na długie wieczory · Marbella", "#F2C14E")}{H("James Bond <i style=\'color:#F2C14E\'>kontra Marbella</i>", 84, "#fff")}'
-             + '<div style="font-size:20px;line-height:1.4;margin-top:8px;color:#F4ECDD">Willa, 72 mieszkania i śledztwo nazwane jak film o agencie 007.</div></div>'
+             + '<div style="font-size:20px;line-height:1.4;margin-top:8px;color:#F4ECDD">Willa, 72 apartamenty i śledztwo nazwane jak film o agencie 007.</div></div>'
              + f'<div style="position:absolute;left:64px;right:64px;top:545px;background:#171513;padding:20px 10px;display:grid;grid-template-columns:1fr 1fr 1fr">{stats}</div>'
              + f'<div style="position:absolute;left:64px;top:700px;width:560px">{tl}</div>'
              + f'<div style="position:absolute;left:666px;right:64px;top:712px;border-left:5px solid {RED};padding:6px 0 6px 24px">'
@@ -822,7 +822,7 @@ def P_pezespada(n, N):
     return _story(n, N, 'pez_vint.jpg', '50% 45%', 'Hotel Pez Espada w latach 60. Fot. Biblioteca Fac. Empresa y Gestión Pública, Univ. de Zaragoza / Wikimedia Commons, CC BY-SA 2.0',
         'Na długie wieczory · Torremolinos', 'Pez Espada – <i style="color:#F2C14E">hotel gwiazd</i>',
         'Zanim Torremolinos stało się kurortem, był tu jeden hotel, o którym pisały kolorowe pisma. Nazywał się Miecznik.',
-        ['31 maja 1959 r. przy plaży La Carihuela otwarto Pez Espada – pierwszy luksusowy, pięciogwiazdkowy hotel w miejscowości.',
+        ['31 maja 1959 r. przy plaży La Carihuela otwarto hotel Pez Espada – pierwszy luksusowy, pięciogwiazdkowy hotel w miejscowości.',
          'Bywali tu m.in. Anthony Quinn, Ingrid Bergman, Elizabeth Taylor, Sophia Loren i Ava Gardner. W 1964 r. przyjechał Frank Sinatra, który kręcił w wąwozie El Chorro „Ekspres von Ryana”.',
          'Na hotelowej scenie śpiewali Julio Iglesias, Raphael i Massiel.'],
         'Zdaniem redakcji – to tu Costa del Sol nauczyła się blichtru.', RED,
@@ -840,13 +840,13 @@ def P_andersen(n, N):
          'W książce „W Hiszpanii” (1863) napisał, że w żadnym hiszpańskim mieście nie czuł się tak szczęśliwy i tak u siebie.'],
         'Zdaniem redakcji – najlepsza recenzja w historii Malagi.', GRN,
         [('1862', 'podróż Andersena po Hiszpanii', RED), ('1863', 'wydanie książki „W Hiszpanii”', GRN), ('1', 'wieża katedry – dlatego „La Manquita”', GOLD)],
-        'Śladami pisarza', 'Pomnik Andersena z brązu siedzi przy Plaza de la Marina. Cmentarz Angielski można zwiedzać – to najstarszy protestancki cmentarz w Hiszpanii.',
+        'Śladami pisarza', 'Siedzącego Andersena z brązu znajdziesz przy Plaza de la Marina. Cmentarz Angielski można zwiedzać – to najstarszy protestancki cmentarz w Hiszpanii.',
         'andalucia.com, Vozpópuli, OkDiario, Baetica (Univ. de Málaga).',
         ('and_cem.jpg', 'Cmentarz Angielski', 'Fot. NatalieMaynor / Wikimedia Commons, CC BY 2.0'))
 
 def P_fahd(n, N):
     return _story(n, N, 'fahd_mez.jpg', '50% 40%', 'Meczet Króla Abdulaziza w Marbelli. Fot. Zarateman / Wikimedia Commons, CC0',
-        'Na długie wieczory · Marbella', 'Król Fahd i <i style="color:#F2C14E">Biały Dom na Złotej Mili</i>',
+        'Na długie wieczory · Marbella', 'Król Fahd <i style="color:#F2C14E">i Biały Dom na Złotej Mili</i>',
         'Gdy przylatywał król Arabii Saudyjskiej, Marbella liczyła zyski w milionach dziennie. Do dziś przy Złotej Mili stoi jego pałac.',
         ['Pałac Mar-Mar powstał na początku lat 80. Biała fasada i kolumny – prasa pisała, że to mała wersja Białego Domu. Obok wille, lądowisko dla helikopterów, a nawet klinika.',
          'W 1981 r. ukończono meczet Króla Abdulaziza – pierwszy minaret na Costa del Sol.',
