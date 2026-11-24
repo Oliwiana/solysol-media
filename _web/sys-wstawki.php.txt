@@ -13,8 +13,8 @@ function sys_wst_dir() {
 
 /* Jednorazowo: zapis plików (czcionka, naklejki) do uploads + tag „pilne” na wpisie o 10% IVA. */
 add_action( 'init', function () {
-	if ( get_option( 'sys_wst_v' ) === '3' ) { return; }
-	if ( in_array( get_option( 'sys_wst_v' ), array( '1', '2' ), true ) ) { do_action( 'litespeed_purge_all' ); update_option( 'sys_wst_v', '3', false ); return; }
+	if ( get_option( 'sys_wst_v' ) === '4' ) { return; }
+	if ( in_array( get_option( 'sys_wst_v' ), array( '1', '2', '3' ), true ) ) { do_action( 'litespeed_purge_all' ); update_option( 'sys_wst_v', '4', false ); return; }
 	list( $dir ) = sys_wst_dir();
 	wp_mkdir_p( $dir );
 	$files = array(
@@ -27,7 +27,7 @@ add_action( 'init', function () {
 	$q = new WP_Query( array( 's' => '10% IVA', 'posts_per_page' => 1, 'post_status' => 'publish' ) );
 	if ( $q->have_posts() ) { wp_set_post_tags( $q->posts[0]->ID, array( 'pilne' ), true ); }
 	do_action( 'litespeed_purge_all' );
-	update_option( 'sys_wst_v', '3', false );
+	update_option( 'sys_wst_v', '4', false );
 } );
 
 function sys_wst_pilne() {
@@ -109,16 +109,33 @@ section.ew .ew-lnk{color:#BFB6A7!important}
 </style>';
 }
 
+
+function sys_wst_social( $cls ) {
+	$l = array(
+		array( 'Instagram', 'https://www.instagram.com/solysol.pl/', '<path d="M12 2.2c3.2 0 3.6 0 4.8.1 1.2.1 1.8.2 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.4 1.1.4 2.2.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 1.2-.2 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1.1.4-2.2.4-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-1.2-.1-1.8-.2-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.4-.4-1.1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8c.1-1.2.2-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1.1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2zm0 4.8a5 5 0 100 10 5 5 0 000-10zm0 8.2a3.2 3.2 0 110-6.4 3.2 3.2 0 010 6.4zm5.2-9.6a1.2 1.2 0 100 2.4 1.2 1.2 0 000-2.4z"/>' ),
+		array( 'TikTok', 'https://www.tiktok.com/@solysol.pl', '<path d="M16.6 2c.3 2.2 1.6 3.6 3.9 3.8v2.6c-1.4.1-2.6-.3-3.9-1.1v5.9c0 7.5-8.2 9.8-11.5 4.5-2.1-3.4-.8-9.4 6-9.6v2.8c-.5.1-1.1.2-1.6.4-1.5.5-2.4 1.5-2.2 3.2.5 3.3 6.5 4.3 6-2.2V2h3.3z"/>' ),
+		array( 'YouTube', 'https://www.youtube.com/channel/UCPBIudLpycyg6tsZh-dS2UQ', '<path d="M23 7.2c-.3-1-1-1.8-2-2C19.2 4.7 12 4.7 12 4.7s-7.2 0-9 .5c-1 .2-1.8 1-2 2C.5 9 .5 12 .5 12s0 3 .5 4.8c.3 1 1 1.8 2 2 1.8.5 9 .5 9 .5s7.2 0 9-.5c1-.2 1.8-1 2-2 .5-1.8.5-4.8.5-4.8s0-3-.5-4.8zM9.7 15.1V8.9l6 3.1-6 3.1z"/>' ),
+		array( 'Facebook', 'https://www.facebook.com/profile.php?id=100071729581834', '<path d="M22 12a10 10 0 10-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.3v7A10 10 0 0022 12z"/>' ),
+	);
+	$h = '';
+	foreach ( $l as $x ) {
+		$h .= '<a class="wst-soc-a" href="' . esc_url( $x[1] ) . '" target="_blank" rel="noopener" aria-label="' . $x[0] . '"><svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor" aria-hidden="true">' . $x[2] . '</svg>' . ( $cls === 'wst-soc-f' ? '<span>' . $x[0] . '</span>' : '' ) . '</a>';
+	}
+	return '<span class="' . $cls . '">' . ( $cls === 'wst-soc-f' ? '<b>Obserwuj nas</b>' : '' ) . $h . '</span>';
+}
+
 function sys_wst_logo_css() {
-	return '<style id="sys-wst-logo">.wm .wst-sun-o{display:inline-block;width:.78em;height:.78em;border-radius:50%;vertical-align:-.04em;margin:0 .03em;background:radial-gradient(circle,#D8622B 36%,transparent 40%) 0 0/.12em .12em,radial-gradient(circle at 40% 35%,#F08A4B,#B8401C)}.wm .wst-y{font-style:italic;text-transform:none;color:#D9622B;letter-spacing:0;margin:0 .3em 0 .26em;font-size:.82em}</style>';
+	return '<style id="sys-wst-logo">.wm .wst-sun-o{display:inline-block;width:.78em;height:.78em;border-radius:50%;vertical-align:-.04em;margin:0 .03em;background:radial-gradient(circle,#D8622B 36%,transparent 40%) 0 0/.12em .12em,radial-gradient(circle at 40% 35%,#F08A4B,#B8401C)}.wst-soc-t{display:inline-flex;gap:12px;align-items:center;margin-left:16px;padding-left:16px;border-left:1px solid rgba(255,255,255,.25)}.wst-soc-t .wst-soc-a{display:inline-flex;color:inherit;opacity:.85}.wst-soc-t .wst-soc-a:hover{opacity:1;color:#F08A4B}.wst-soc-f{display:flex;flex-wrap:wrap;gap:22px;align-items:center;padding:22px 0;margin:10px 0 6px;border-top:1px solid rgba(127,127,127,.25);font:500 14px Inter,system-ui,sans-serif}.wst-soc-f b{font-weight:700;letter-spacing:.14em;text-transform:uppercase;font-size:12px;color:#D9622B}.wst-soc-f .wst-soc-a{display:inline-flex;gap:8px;align-items:center;color:inherit;text-decoration:none}.wst-soc-f .wst-soc-a:hover{color:#D9622B}.wm .wst-y{font-style:italic;text-transform:none;color:#D9622B;letter-spacing:0;margin:0 .3em 0 .26em;font-size:.82em}</style>';
 }
 
 add_action( 'template_redirect', function () {
 	if ( is_admin() || wp_doing_ajax() || is_feed() ) { return; }
 	$front = is_front_page();
 	ob_start( function ( $html ) use ( $front ) {
-		if ( strpos( $html, 'sys-wst-logo' ) !== false ) { return $html; }
+		if ( strpos( $html, 'sys-wst-logo' ) !== false || strpos( $html, '</html>' ) === false ) { return $html; }
 		$html = str_replace( 'SOL Y S<span class="o">', 'S<span class="wst-sun-o"></span>L<span class="wst-y">y</span>S<span class="o">', $html );
+		$html = preg_replace( '#(<div class="tr">.*?)(</div>)#s', '$1' . sys_wst_social( 'wst-soc-t' ) . '$2', $html, 1 );
+		$html = preg_replace( '#<div class="legal">#', sys_wst_social( 'wst-soc-f' ) . '<div class="legal">', $html, 1 );
 		$css  = sys_wst_logo_css() . ( $front ? sys_wst_css() : '' );
 		$html = preg_replace( '#</head>#', $css . '</head>', $html, 1 );
 		if ( ! $front ) { return $html; }
