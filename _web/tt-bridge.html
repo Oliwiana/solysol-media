@@ -1,0 +1,6 @@
+<!doctype html><html><head><meta charset=utf-8><meta name=robots content=noindex><title>bridge</title></head><body style="font:16px sans-serif;padding:40px">
+<button id=o style="font-size:22px;padding:20px">Otwórz TikTok Studio</button><pre id=l></pre>
+<script>
+var w=null;document.getElementById('o').onclick=function(){w=window.open('https://www.tiktok.com/tiktokstudio/upload','ttstudio');};
+async function sendFile(url,name,type){var b=await (await fetch(url)).arrayBuffer();w.postMessage({tt:1,name:name,type:type||'video/mp4',buf:b},'https://www.tiktok.com',[b]);return 'sent '+name;}
+</script></body></html>
