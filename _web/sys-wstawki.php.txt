@@ -77,7 +77,7 @@ section.ew .ew-cover::before{content:"";width:118%;aspect-ratio:1;left:-34%;top:
 section.ew .ew-cover img{position:relative;z-index:1;transform:rotate(-3deg);box-shadow:0 24px 50px rgba(0,0,0,.45)}
 section.ew .ew-cover::after{content:"";position:absolute;z-index:2;right:-38px;bottom:-14px;width:90px;height:100px;background:url(' . $url . '/cytryna.webp) center/contain no-repeat;transform:rotate(-10deg);filter:drop-shadow(3px 5px 0 rgba(0,0,0,.25))}
 section.ew .ew-k{color:#D9622B!important}
-section.ew h2{color:#F2ECE0!important}
+section.ew h2{color:#F2ECE0!important;font-size:clamp(40px,5vw,66px)!important;line-height:1.04!important}
 section.ew h2 i{color:#F2ECE0;background:linear-gradient(transparent 60%,#D9622B 60%,#D9622B 90%,transparent 90%)}
 section.ew p{color:#BFB6A7!important}
 section.ew .ew-btn{background:#D9622B!important;color:#fff!important;border-color:#D9622B!important}
