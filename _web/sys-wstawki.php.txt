@@ -13,7 +13,8 @@ function sys_wst_dir() {
 
 /* Jednorazowo: zapis plików (czcionka, naklejki) do uploads + tag „pilne” na wpisie o 10% IVA. */
 add_action( 'init', function () {
-	if ( get_option( 'sys_wst_v' ) === '1' ) { return; }
+	if ( get_option( 'sys_wst_v' ) === '2' ) { return; }
+	if ( get_option( 'sys_wst_v' ) === '1' ) { do_action( 'litespeed_purge_all' ); update_option( 'sys_wst_v', '2', false ); return; }
 	list( $dir ) = sys_wst_dir();
 	wp_mkdir_p( $dir );
 	$files = array(
@@ -25,7 +26,8 @@ add_action( 'init', function () {
 	foreach ( $files as $n => $d ) { file_put_contents( $dir . '/' . $n, base64_decode( $d ) ); }
 	$q = new WP_Query( array( 's' => '10% IVA', 'posts_per_page' => 1, 'post_status' => 'publish' ) );
 	if ( $q->have_posts() ) { wp_set_post_tags( $q->posts[0]->ID, array( 'pilne' ), true ); }
-	update_option( 'sys_wst_v', '1', false );
+	do_action( 'litespeed_purge_all' );
+	update_option( 'sys_wst_v', '2', false );
 } );
 
 function sys_wst_pilne() {
