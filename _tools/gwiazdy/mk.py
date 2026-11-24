@@ -1,5 +1,5 @@
 import json
-C='/home/claude/solysol-media/_photos/commons/'
+C='/tmp/sm/_photos/commons/'
 def cr(p, ilu=False):
     c=[x for x in json.load(open(C+p.split('/')[0]+'/credits.json')) if x['file']==p.split('/')[1]][0]
     s=f"Fot. {c['author']} / Wikimedia Commons, {c['license']}"
@@ -75,13 +75,13 @@ P[4]=dict(ep=4,date='19.12.2026',cover=dict(photo='teatro-del-soho-malaga/01.jpg
  box1=['CZY WIESZ, ŻE…','Od ponad 20 lat prowadzi tron Matki Bożej w procesji'],box2=['KTO TU WRÓCIŁ?','BANDERAS U SIEBIE','teatr na calle Córdoba'],
  framenote='Antonio Banderas (zdjęcie z licencją)',more=more(4)),
  slides=[
- dict(kicker='MÁLAGA · MIASTO RODZINNE',head='Hollywood, <i>a potem powrót</i>',frame='Antonio Banderas – zdjęcie z licencją',
+ dict(kicker='MÁLAGA · MIASTO RODZINNE',head='Hollywood, <i>a potem powrót</i>',photo='gibralfaro-m-laga-vista/01.jpg',credit=cr('gibralfaro-m-laga-vista/01.jpg',True),pos='50% 50%',
   body=['<b>Antonio Banderas</b> urodził się i wychował w Maladze. Zrobił karierę w Hollywood, ale do rodzinnego miasta wraca nie tylko na wakacje.',
         'W listopadzie 2019 r. otworzył tu własny teatr, a co roku w Niedzielę Palmową jest w centrum Málagi – w procesji.']),
  dict(kicker='15 LISTOPADA 2019',head='Teatr <i>w dawnym kinie</i>',photo='teatro-del-soho-malaga/01.jpg',credit=cr('teatro-del-soho-malaga/01.jpg'),pos='50% 40%',
   body=['<b>Teatro del Soho CaixaBank</b> powstał w odnowionym dawnym kinie. Ma <b>ponad 800 miejsc</b>.',
         'Na otwarcie Banderas wystawił musical „<b>A Chorus Line</b>” – współreżyserował i zagrał w nim Zacha. Dyrektorem artystycznym został Lluís Pasqual. Po Maladze spektakl ruszył do Bilbao, Barcelony i Madrytu.']),
- dict(kicker='NIEDZIELA PALMOWA',head='Tron, dzwonek <i>i pierwsza świeca</i>',frame='Banderas w procesji Lágrimas y Favores (zdjęcie z licencją)',
+ dict(kicker='NIEDZIELA PALMOWA',head='Tron, dzwonek <i>i pierwsza świeca</i>',photo='semana-santa-malaga/04.jpg',credit=cr('semana-santa-malaga/04.jpg',True),pos='50% 40%',
   body=['Banderas jest <b>mayordomo</b> tronu Matki Bożej w bractwie <b>Lágrimas y Favores</b>. Procesja wychodzi w <b>Niedzielę Palmową</b> z parafii <b>San Juan Bautista</b>.',
         'Zapala pierwszą świecę na tronie, a potem dzwonkiem prowadzi niosących go mężczyzn. Robi to od <b>ponad 20 lat</b> – w 2024 r. procesję odwołano przez deszcz.']),
  dict(type='numbers',kicker='W LICZBACH',head='Banderas i Málaga <i>w 4 liczbach</i>',rows=[['2019','otwarcie Teatro del Soho CaixaBank'],['800+','miejsc na widowni'],['20+','lat jako mayordomo w Niedzielę Palmową'],['4','miasta trasy „A Chorus Line”: Málaga, Bilbao, Barcelona, Madryt']]),
@@ -94,7 +94,7 @@ P[5]=dict(ep=5,date='26.12.2026',cover=dict(photo='plaza-de-la-marina-malaga/05.
  box1=['CZY WIESZ, ŻE…','Jego słowa o Maladze wyryto na cokole pomnika'],box2=['KTO TU MIESZKAŁ?','BAŚNIOPISARZ Z DANII','jesień 1862'],
  framenote='Hans Christian Andersen (portret, domena publiczna)',more=more(5)),
  slides=[
- dict(kicker='JESIEŃ 1862',head='Statkiem <i>do Málagi</i>',frame='Hans Christian Andersen – portret archiwalny',
+ dict(kicker='JESIEŃ 1862',head='Statkiem <i>do Málagi</i>',photo='malaga-port-19th-century/01.jpg',credit=cr('malaga-port-19th-century/01.jpg',True),pos='50% 50%',
   body=['Jesienią <b>1862 r.</b> do Málagi przypływa statkiem <b>Hans Christian Andersen</b> – autor „Brzydkiego kaczątka” i „Małej syrenki”, który podróżuje po Hiszpanii.',
         'Zatrzymuje się w <b>Fonda del Oriente</b>, hotelu z widokiem na <b>Alamedę</b>. Z okna obserwuje życie ulicy – i to ono zachwyca go bardziej niż zabytki.']),
  dict(kicker='CO NAPISAŁ',head='„Tak szczęśliwy <i>i tak u siebie”</i>',photo='alameda-principal-malaga/05.jpg',credit=cr('alameda-principal-malaga/05.jpg'),pos='50% 50%',
@@ -107,5 +107,5 @@ P[5]=dict(ep=5,date='26.12.2026',cover=dict(photo='plaza-de-la-marina-malaga/05.
  dict(type='where',head='Andersen <i>w Maladze dziś</i>',photo='cementerio-ingles-malaga/01.jpg',credit=cr('cementerio-ingles-malaga/01.jpg'),pos='50% 50%',y=600,
   rows=[['POMNIK','Plaza de la Marina – siedzący Andersen, na cokole jego słowa o Maladze. Autor: José María Córdoba'],['ALAMEDA','Alameda Principal – tu stał jego hotel Fonda del Oriente'],['CMENTARZ','Cementerio Inglés – „mały raj”, który odwiedził w 1862 r.'],['ZDANIEM REDAKCJI','Zrób zdjęcie obok Andersena – plac jest między portem a centrum']]),
  dict(type='cta',sub='To ostatni odcinek pierwszej serii – kolejne gwiazdy już w przygotowaniu',eps=[[a,b,False] for a,b in EPS[:4]],ey=780,note=NOTE)])
-for k,v in P.items(): json.dump(v,open(f'ep{k}.json','w'),ensure_ascii=False,indent=1)
+for k,v in P.items(): json.dump(v,open(f'/tmp/g/ep{k}.json','w'),ensure_ascii=False,indent=1)
 print('ok')
