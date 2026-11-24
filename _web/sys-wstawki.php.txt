@@ -13,8 +13,8 @@ function sys_wst_dir() {
 
 /* Jednorazowo: zapis plików (czcionka, naklejki) do uploads + tag „pilne” na wpisie o 10% IVA. */
 add_action( 'init', function () {
-	if ( get_option( 'sys_wst_v' ) === '2' ) { return; }
-	if ( get_option( 'sys_wst_v' ) === '1' ) { do_action( 'litespeed_purge_all' ); update_option( 'sys_wst_v', '2', false ); return; }
+	if ( get_option( 'sys_wst_v' ) === '3' ) { return; }
+	if ( in_array( get_option( 'sys_wst_v' ), array( '1', '2' ), true ) ) { do_action( 'litespeed_purge_all' ); update_option( 'sys_wst_v', '3', false ); return; }
 	list( $dir ) = sys_wst_dir();
 	wp_mkdir_p( $dir );
 	$files = array(
@@ -27,7 +27,7 @@ add_action( 'init', function () {
 	$q = new WP_Query( array( 's' => '10% IVA', 'posts_per_page' => 1, 'post_status' => 'publish' ) );
 	if ( $q->have_posts() ) { wp_set_post_tags( $q->posts[0]->ID, array( 'pilne' ), true ); }
 	do_action( 'litespeed_purge_all' );
-	update_option( 'sys_wst_v', '2', false );
+	update_option( 'sys_wst_v', '3', false );
 } );
 
 function sys_wst_pilne() {
@@ -109,11 +109,19 @@ section.ew .ew-lnk{color:#BFB6A7!important}
 </style>';
 }
 
+function sys_wst_logo_css() {
+	return '<style id="sys-wst-logo">.wm .wst-sun-o{display:inline-block;width:.78em;height:.78em;border-radius:50%;vertical-align:-.04em;margin:0 .03em;background:radial-gradient(circle,#D8622B 36%,transparent 40%) 0 0/.12em .12em,radial-gradient(circle at 40% 35%,#F08A4B,#B8401C)}.wm .wst-y{font-style:italic;text-transform:none;color:#D9622B;letter-spacing:0;margin:0 .3em 0 .26em;font-size:.82em}</style>';
+}
+
 add_action( 'template_redirect', function () {
-	if ( ! is_front_page() || is_admin() || wp_doing_ajax() ) { return; }
-	ob_start( function ( $html ) {
-		if ( strpos( $html, 'sys-wstawki' ) !== false ) { return $html; }
-		$html = str_replace( '</head>', sys_wst_css() . '</head>', $html );
+	if ( is_admin() || wp_doing_ajax() || is_feed() ) { return; }
+	$front = is_front_page();
+	ob_start( function ( $html ) use ( $front ) {
+		if ( strpos( $html, 'sys-wst-logo' ) !== false ) { return $html; }
+		$html = str_replace( 'SOL Y S<span class="o">', 'S<span class="wst-sun-o"></span>L<span class="wst-y">y</span>S<span class="o">', $html );
+		$css  = sys_wst_logo_css() . ( $front ? sys_wst_css() : '' );
+		$html = preg_replace( '#</head>#', $css . '</head>', $html, 1 );
+		if ( ! $front ) { return $html; }
 		$p = strpos( $html, '</header>' );
 		if ( $p !== false ) { $html = substr_replace( $html, '</header>' . sys_wst_pilne(), $p, 9 ); }
 		$html = preg_replace( '#(<section class="curios">\s*<div class="wrap">\s*<div class="sechead">.*?</div>)#s', '$1' . sys_wst_czywiesz(), $html, 1 );
