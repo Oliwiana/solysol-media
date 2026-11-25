@@ -1,0 +1,74 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><style>
+@font-face{font-family:T;src:url(file:///home/claude/tools/node_modules/@fontsource/special-elite/files/special-elite-latin-ext-400-normal.woff2)}
+@font-face{font-family:T;src:url(file:///home/claude/tools/node_modules/@fontsource/special-elite/files/special-elite-latin-400-normal.woff2)}
+@font-face{font-family:I;font-weight:900;src:url(file:///home/claude/tools/node_modules/@fontsource/inter/files/inter-latin-ext-900-normal.woff2)}
+@font-face{font-family:I;font-weight:900;src:url(file:///home/claude/tools/node_modules/@fontsource/inter/files/inter-latin-900-normal.woff2)}
+@font-face{font-family:I;font-weight:800;src:url(file:///home/claude/tools/node_modules/@fontsource/inter/files/inter-latin-ext-800-normal.woff2)}
+@font-face{font-family:I;font-weight:800;src:url(file:///home/claude/tools/node_modules/@fontsource/inter/files/inter-latin-800-normal.woff2)}
+@font-face{font-family:CG;font-style:italic;font-weight:600;src:url(file:///home/claude/tools/node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-ext-600-italic.woff2)}
+html,body{margin:0;width:1080px;height:1920px;overflow:hidden;background:#2a1e14;font-family:I}
+#board{position:absolute;left:0;top:0;width:1080px;height:6000px;transform-origin:540px 0;background:#2a1e14}
+#board:before{content:"";position:absolute;inset:0;opacity:.35;background-image:radial-gradient(#000 1px,transparent 1.6px);background-size:7px 7px}
+.e{position:absolute;opacity:0}
+.pin{position:absolute;width:26px;height:26px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#ff6b5a,#a3150c);box-shadow:2px 4px 6px rgba(0,0,0,.6);left:50%;top:-12px;margin-left:-13px}
+.paper{background:#efe6d2;color:#1d1a16;box-shadow:6px 14px 30px rgba(0,0,0,.6);font-family:T}
+.stamp{font-family:I;font-weight:900;border:8px solid;padding:6px 26px;letter-spacing:.06em;border-radius:8px;mix-blend-mode:multiply}
+.big{font-family:I;font-weight:900;line-height:1.05}
+#vig{position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at 50% 45%,transparent 50%,rgba(0,0,0,.75) 100%)}
+#top{position:absolute;left:0;right:0;top:0;height:200px;background:linear-gradient(180deg,rgba(0,0,0,.7),transparent);display:flex;justify-content:space-between;align-items:flex-start;padding:62px 64px 0;box-sizing:border-box;color:#efe6d2;font-weight:800;font-size:24px;letter-spacing:.22em}
+
+#grain{position:absolute;inset:0;pointer-events:none;opacity:.10;mix-blend-mode:overlay}
+#flash{position:absolute;inset:0;background:#fff;opacity:0;pointer-events:none}
+#light{position:absolute;inset:0;pointer-events:none;background:radial-gradient(circle at 50% 40%,rgba(255,220,150,.10),transparent 55%)}
+#year{position:absolute;left:150px;top:128px;font-family:T;font-size:66px;color:#F6C343;text-shadow:0 6px 18px rgba(0,0,0,.8);letter-spacing:.02em}
+#yearl{position:absolute;left:66px;top:152px;color:#efe6d2;font-weight:800;font-size:18px;letter-spacing:.3em;opacity:.7}
+#tl{position:absolute;left:64px;right:64px;top:1800px;height:4px;background:rgba(239,230,210,.25)}
+#tlf{position:absolute;left:0;top:0;height:4px;background:#F6C343;width:0}
+#tld{position:absolute;top:-9px;width:22px;height:22px;border-radius:50%;background:#F6C343;box-shadow:0 0 18px #F6C343;margin-left:-11px;left:0}
+.tlt{position:absolute;top:20px;color:#efe6d2;font-weight:800;font-size:20px;letter-spacing:.12em;opacity:.7}
+#intro{position:absolute;inset:0;background:#0b0806;display:flex;flex-direction:column;justify-content:center;align-items:center}
+.iw{font-family:I;font-weight:900;font-size:150px;line-height:1.02;letter-spacing:-.02em;opacity:0;text-transform:uppercase}
+#isub{font-family:T;color:#efe6d2;font-size:40px;margin-top:40px;opacity:0;letter-spacing:.08em}
+.clip{background:#e9e2cf;color:#141210;box-shadow:6px 14px 30px rgba(0,0,0,.6);clip-path:polygon(0 3%,6% 0,14% 2%,25% 0,38% 3%,52% 0,66% 2%,80% 0,92% 3%,100% 1%,98% 30%,100% 60%,97% 100%,85% 97%,70% 100%,55% 97%,40% 100%,25% 97%,10% 100%,0 97%,2% 60%,0 30%)}
+.red{position:absolute;background:#111;height:40px}
+#cap .w{display:inline-block;opacity:0;margin:0 .12em}
+</style></head><body>
+<div id=board>
+<svg width=1080 height=6000 style="position:absolute;left:0;top:0">
+<path id=s1 d="M540 760 C 760 950, 300 1050, 540 1240" stroke="#c0281b" stroke-width=4 fill=none />
+<path id=s2 d="M540 1640 C 300 1800, 780 1850, 540 1960" stroke="#c0281b" stroke-width=4 fill=none />
+<path id=s3 d="M540 2450 C 800 2600, 300 2650, 540 2760" stroke="#c0281b" stroke-width=4 fill=none />
+<path id=s4 d="M540 3260 C 300 3400, 780 3450, 300 3560" stroke="#c0281b" stroke-width=4 fill=none />
+<path id=s5 d="M500 4120 C 800 4250, 300 4300, 540 4420" stroke="#c0281b" stroke-width=4 fill=none />
+<path id=s6 d="M540 4960 C 300 5080, 760 5120, 540 5200" stroke="#c0281b" stroke-width=4 fill=none />
+</svg>
+<div class=e id=t1 style="left:90px;top:420px;font-family:T;font-size:80px;color:#efe6d2;letter-spacing:.06em"></div>
+<div class=e id=t2 style="left:96px;top:520px;font-family:T;font-size:46px;color:#F6C343"></div>
+<div class="e paper" id=pa style="left:520px;top:620px;width:440px;padding:16px 16px 64px;transform:rotate(4deg)"><div class=pin></div><img src=ayto.jpg style="width:100%;display:block;filter:grayscale(1) contrast(1.1)"><div style="position:absolute;left:20px;bottom:18px;font-size:28px">Ratusz Marbelli</div></div>
+<div class="e paper" id=ca style="left:70px;top:880px;width:520px;padding:40px;transform:rotate(-2.5deg)"><div class=pin></div><div style="font-size:32px;opacity:.8">Radny z ugrupowania GIL</div><div class=big style="font-size:58px;margin-top:8px">JULIÁN MUÑOZ</div><div style="font-size:30px;margin-top:10px">u boku burmistrza Jesúsa Gila</div></div>
+<div class="e paper" id=cb style="left:140px;top:1240px;width:800px;padding:44px;transform:rotate(1.5deg)"><div class=pin></div><div style="font-size:34px;opacity:.8">2 maja 2002 r.</div><div class=big style="font-size:84px;margin-top:8px">BURMISTRZ</div><div style="font-size:32px;margin-top:10px">Gil odchodzi po wyroku – fotel przejmuje Muñoz</div></div>
+<div class="e stamp" id=stb style="left:520px;top:1500px;color:#8a1a10;font-size:64px;transform:rotate(-7deg)">MARBELLA</div>
+<div class="e paper" id=cc style="left:60px;top:1900px;width:560px;padding:40px;transform:rotate(-3deg)"><div class=pin></div><div style="font-size:32px;opacity:.8">2003</div><div class=big style="font-size:56px;margin-top:6px">ROMANS<br>Z GWIAZDĄ</div><div style="font-size:30px;margin-top:10px">Isabel Pantoja – gwiazda hiszpańskiej piosenki</div></div>
+<div class="e" id=cd style="left:540px;top:2250px;transform:rotate(4deg);background:#F6C343;color:#171513;font-weight:900;font-size:46px;padding:14px 26px;box-shadow:6px 12px 24px rgba(0,0,0,.5)">BURMISTRZ JEST ŻONATY</div>
+<div class="e clip" id=nw style="left:620px;top:1800px;width:400px;padding:34px 30px 40px;transform:rotate(5deg)"><div style="font-family:CG;font-style:italic;font-weight:600;font-size:30px;border-bottom:3px solid #141210;padding-bottom:8px">wydanie specjalne</div><div class=big style="font-size:74px;margin-top:14px">SKANDAL</div><div style="font-family:CG;font-style:italic;font-weight:600;font-size:38px;line-height:1.1;margin-top:8px">Burmistrz i gwiazda – kraj nie mówi o niczym innym</div></div><div class="e stamp" id=sto style="mix-blend-mode:normal;background:rgba(239,230,210,.92);left:250px;top:2440px;color:#8a1a10;font-size:76px;transform:rotate(-8deg)">ODWOŁANY · 13.08.2003</div>
+<div class="e paper" id=fold style="left:150px;top:2760px;width:780px;height:500px;background:#c9a96a;transform:rotate(1.5deg);border-radius:0 18px 0 0"><div class=pin></div><div style="position:absolute;left:44px;top:44px;font-size:44px">AKTA SPRAWY</div><div style="position:absolute;left:44px;top:110px;font-size:30px;opacity:.75">operacja MALAYA · Marbella</div><div style="position:absolute;left:44px;bottom:44px;font-size:30px;opacity:.75">największa afera ratusza w Hiszpanii</div><div style="position:absolute;left:44px;top:198px;font-size:32px;line-height:54px">• zarzuty: łapówki<br>• licencje budowlane<br>• pranie pieniędzy</div><div class=red id=r1 style="left:40px;top:206px;width:620px"></div><div class=red id=r2 style="left:40px;top:260px;width:520px"></div><div class=red id=r3 style="left:40px;top:314px;width:580px"></div></div>
+<div class="e stamp" id=stz style="left:200px;top:2930px;color:#8a1a10;font-size:88px;transform:rotate(-6deg)">ZATRZYMANY</div>
+<div class="e" id=dz style="left:560px;top:3130px;transform:rotate(-3deg);background:#F6C343;color:#171513;font-weight:900;font-size:50px;padding:14px 26px;box-shadow:6px 12px 24px rgba(0,0,0,.5)">19.07.2006</div>
+<div class="e paper" id=pc style="left:60px;top:3560px;width:380px;padding:16px 16px 60px;transform:rotate(-4deg)"><div class=pin></div><img src=court.jpg style="width:100%;display:block;filter:grayscale(1)"><div style="position:absolute;left:18px;bottom:16px;font-size:24px">Sąd w Maladze</div></div>
+<div class="e paper" id=cw style="left:440px;top:3600px;width:580px;padding:40px;transform:rotate(-2deg)"><div class=pin></div><div style="font-size:32px;opacity:.8">16 kwietnia 2013 r.</div><div class=big style="font-size:84px;margin-top:8px;color:#c0281b">7 LAT</div><div style="font-size:32px;margin-top:8px">za pranie pieniędzy</div></div>
+<div class="e" id=pt style="left:120px;top:3960px;transform:rotate(-3deg);background:#F6C343;color:#171513;font-weight:900;font-size:46px;padding:14px 26px;box-shadow:6px 12px 24px rgba(0,0,0,.5)">PANTOJA: 2 LATA · 2014 – WIĘZIENIE</div>
+<div class="e paper" id=pe style="left:600px;top:4420px;width:400px;padding:16px;transform:rotate(4deg)"><div class=pin></div><img src=euro.jpg style="width:100%;display:block"></div>
+<div class="e paper" id=cl style="left:70px;top:4440px;width:560px;padding:40px;transform:rotate(2deg)"><div class=pin></div><div style="font-size:32px;opacity:.8">kolejne procesy</div><div class=big style="font-size:52px;margin-top:8px">ŁAPÓWKI<br>DEFRAUDACJA<br>NIELEGALNE<br>LICENCJE</div></div>
+<div class="e stamp" id=sts style="mix-blend-mode:normal;background:rgba(239,230,210,.92);left:300px;top:4760px;color:#8a1a10;font-size:84px;transform:rotate(-8deg)">SKAZANY</div>
+<div class="e paper" id=fin style="left:160px;top:5200px;width:760px;padding:44px;transform:rotate(-1.5deg);text-align:center"><div class=pin></div><div style="font-size:36px;opacity:.8">24 września 2024 r.</div><div class=big style="font-size:64px;margin-top:10px">ZMARŁ W MARBELLI</div><div style="font-size:34px;margin-top:10px">miał 76 lat</div></div>
+</div>
+<div id=vig></div><div id=light></div><canvas id=grain width=540 height=960 style="width:1080px;height:1920px"></canvas>
+<div id=yearl>ROK</div><div id=year>1991</div>
+<div id=tl><div id=tlf></div><div id=tld></div><div class=tlt style="left:0">1991</div><div class=tlt style="right:0">2024</div></div>
+<div id=top><span style="font-family:CG;font-style:italic;letter-spacing:.06em;font-size:46px;font-weight:600">SOL <span style="color:#F6C343">y</span> SÓL</span><span style="margin-top:14px">ZAGADKA KRYMINALNA</span></div>
+<div id=cap style="position:absolute;left:40px;right:40px;top:1500px;background:rgba(12,9,6,.82);border-radius:18px;padding:22px 20px;text-align:center;font-family:I;font-weight:900;font-size:58px;line-height:1.14;color:#fff;text-shadow:0 4px 0 #000,0 0 24px rgba(0,0,0,.9);text-transform:uppercase;letter-spacing:-.01em;opacity:0"></div>
+<div id=end class=e style="left:0;right:0;bottom:0;height:330px;background:#F6C343;padding:50px 64px;box-sizing:border-box"><div style="font-weight:900;font-size:70px;line-height:1;text-transform:uppercase;color:#171513">Burmistrz<br>i gwiazda</div><div style="font-family:CG;font-style:italic;font-weight:600;font-size:40px;margin-top:14px">Cała afera Malaya: Zagadki Costa del Sol #2 na YouTube</div></div>
+<div style="position:absolute;right:20px;top:640px;writing-mode:vertical-rl;color:#efe6d2;font-size:15px;font-weight:800;letter-spacing:.12em;opacity:.6">FOT. WIKIMEDIA COMMONS: KALLERNA, MIWIPEDIA CC BY-SA 4.0 · BERICHT, ZARATEMAN CC0 · ZDJĘCIA ILUSTRACYJNE</div>
+<div id=intro><div class=iw id=i1 style="color:#efe6d2">Burmistrz.</div><div class=iw id=i2 style="color:#F6C343">Gwiazda.</div><div class=iw id=i3 style="color:#e0321f">Afera.</div><div id=isub>MARBELLA · 1991–2024</div></div>
+<div id=flash></div>
+<script>/*JS*/</script></body></html>
