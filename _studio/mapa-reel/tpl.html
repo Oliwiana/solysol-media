@@ -1,0 +1,90 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><style>
+@font-face{font-family:CG;src:url(package/files/cormorant-garamond-latin-ext-700-normal.woff2)}
+@font-face{font-family:CG;src:url(package/files/cormorant-garamond-latin-700-normal.woff2)}
+@font-face{font-family:CGi;src:url(package/files/cormorant-garamond-latin-ext-700-italic.woff2)}
+@font-face{font-family:CGi;src:url(package/files/cormorant-garamond-latin-700-italic.woff2)}
+@font-face{font-family:I;font-weight:900;src:url(file:///home/claude/tools/node_modules/@fontsource/inter/files/inter-latin-ext-900-normal.woff2)}
+@font-face{font-family:I;font-weight:900;src:url(file:///home/claude/tools/node_modules/@fontsource/inter/files/inter-latin-900-normal.woff2)}
+@font-face{font-family:I;font-weight:800;src:url(file:///home/claude/tools/node_modules/@fontsource/inter/files/inter-latin-ext-800-normal.woff2)}
+@font-face{font-family:I;font-weight:800;src:url(file:///home/claude/tools/node_modules/@fontsource/inter/files/inter-latin-800-normal.woff2)}
+@font-face{font-family:I;font-weight:500;src:url(file:///home/claude/tools/node_modules/@fontsource/inter/files/inter-latin-ext-500-normal.woff2)}
+@font-face{font-family:I;font-weight:500;src:url(file:///home/claude/tools/node_modules/@fontsource/inter/files/inter-latin-500-normal.woff2)}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#161412;color:#F4EFE7;font-family:I}
+#bg{position:absolute;inset:-60px;background:url(aerial.jpg) center/cover}
+#bgd{position:absolute;inset:0;background:linear-gradient(180deg,rgba(22,20,18,.55),rgba(22,20,18,.82) 45%,#161412 78%)}
+#top{position:absolute;top:70px;left:64px;right:64px;display:flex;justify-content:space-between;align-items:center}
+.logo{font:700 48px CG;letter-spacing:.14em}.logo i{font-family:CGi;color:#E07F45;letter-spacing:0;margin:0 4px}
+.pill{background:#E07F45;color:#161412;font-weight:800;font-size:24px;letter-spacing:.16em;padding:12px 20px}
+#map{position:absolute;left:40px;top:190px;width:1000px;height:820px}
+.city{font-weight:800;font-size:28px;letter-spacing:.12em;fill:#F4EFE7}
+.rl{font-weight:900;font-size:30px}
+#num{position:absolute;left:64px;right:64px;top:1010px}
+.k{font-family:CGi;color:#E9884B}
+.big{font:700 210px/0.9 CG;color:#E9884B;letter-spacing:-.01em}
+.h{font:700 76px/1.02 CG}
+.p{font-weight:500;font-size:40px;line-height:1.35;color:#E8E1D8}
+.st{position:absolute;border-radius:50%;background:#E07F45;color:#161412;display:flex;flex-direction:column;align-items:center;justify-content:center;border:4px dashed #16141277;text-align:center}
+.tape{position:absolute;background:#F2D36B;color:#161412;font-weight:900;font-size:44px;padding:14px 26px;box-shadow:0 8px 20px #0007;white-space:nowrap}
+.stamp{position:absolute;font-weight:900;border:8px solid #E0321F;color:#E0321F;padding:6px 26px;border-radius:10px;letter-spacing:.06em;background:rgba(22,20,18,.6)}
+.sc{position:absolute;left:64px;right:64px;top:1010px;opacity:0}
+#cap{position:absolute;left:70px;right:70px;top:1560px;text-align:center;font-weight:800;font-size:46px;line-height:1.25;text-shadow:0 3px 12px rgba(0,0,0,.9);opacity:0}
+#cap .w{display:inline-block;margin:0 .12em}
+#foot{position:absolute;bottom:80px;left:64px;right:64px;display:flex;justify-content:space-between;font-weight:800;font-size:24px;letter-spacing:.18em;color:#cfc6bb}
+#bar{position:absolute;left:0;bottom:0;height:8px;background:#E07F45;width:0}
+#grain{position:absolute;inset:0;opacity:.07;mix-blend-mode:overlay;width:1080px;height:1920px}
+#wipe{position:absolute;left:0;right:0;height:1920px;background:#E07F45;top:1920px}
+#intro{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;padding:0 64px;background:rgba(22,20,18,.6)}
+.iw{font:700 128px/1.0 CG;opacity:0;margin:10px 0}
+#credit{position:absolute;left:64px;bottom:40px;font-size:17px;color:#8d857c}
+
+#lowgrad{position:absolute;left:0;right:0;bottom:0;height:560px;background:linear-gradient(180deg,transparent,rgba(12,10,8,.92) 55%);pointer-events:none}
+#chap{position:absolute;left:64px;top:150px;display:flex;align-items:center;gap:16px;font-weight:800;font-size:22px;letter-spacing:.24em;color:#F4EFE7;opacity:0}
+#chap b{color:#E07F45;font-size:22px}#chapl{height:3px;background:#E07F45;width:0}
+#maptag{position:absolute;right:64px;top:160px;font-weight:800;font-size:18px;letter-spacing:.2em;color:#cfc6bb;border:2px solid #cfc6bb66;padding:8px 14px;opacity:0}
+#endc{position:absolute;inset:0;background:#161412;display:flex;flex-direction:column;align-items:center;justify-content:center;opacity:0}
+#endc .lg{font:700 150px CG;letter-spacing:.12em}#endc .lg i{font-family:CGi;color:#E07F45;letter-spacing:0;margin:0 10px}
+#endc .ln{width:0;height:4px;background:#E07F45;margin:34px 0}
+#endc .tg{font-family:CGi;font-size:54px;color:#E8E1D8}
+#endc .hd{margin-top:50px;font-weight:800;font-size:34px;letter-spacing:.2em;color:#E07F45}
+</style></head><body>
+<div id=bg></div><div id=bgd></div>
+<svg id=map viewBox="0 0 1000 820">
+ <defs><linearGradient id=sea x1=0 y1=0 x2=0 y2=1><stop offset=0 stop-color="#1d3346"/><stop offset=1 stop-color="#0f1c27"/></linearGradient>
+ <filter id=gl><feGaussianBlur stdDeviation=4 result=b /><feMerge><feMergeNode in=b /><feMergeNode in=SourceGraphic /></feMerge></filter></defs>
+ <g id=mapg opacity=0>
+ <path id=seaP fill="url(#sea)" opacity=.85 />
+ <path id=coast d="" stroke="#7fb3d5" stroke-width=3 fill=none opacity=.7 />
+ <text x=600 y=800 class=city style="fill:#7fb3d5;font-size:24px;opacity:.7">MORZE ŚRÓDZIEMNE</text>
+ <!-- A-7 near coast -->
+ <path id=a7 d="" stroke="#E07F45" stroke-width=12 fill=none stroke-linecap=round />
+ <!-- AP-7 inland -->
+ <path id=ap7 d="" stroke="#F2D36B" stroke-width=12 fill=none stroke-linecap=round />
+ <!-- train dashed -->
+ <path id=tr d="" stroke="#ffffff" stroke-width=6 stroke-dasharray="18 14" fill=none opacity=0 />
+ <g id=cars7></g><g id=carsp></g><g id=blds></g><g id=golf></g>
+ <g id=cities></g>
+ <g id=lab7 opacity=0><rect x=170 y=600 width=210 height=54 rx=8 fill="#E07F45"/><text x=186 y=638 class=rl fill="#161412">A-7 · 0 €</text></g>
+ <g id=labp opacity=0><rect x=230 y=340 width=250 height=54 rx=8 fill="#F2D36B"/><text x=246 y=378 class=rl fill="#161412">AP-7 · PŁATNA</text></g>
+ <g id=labt opacity=0><rect x=200 y=690 width=300 height=54 rx=8 fill="#fff"/><text x=216 y=728 class=rl fill="#161412">POCIĄG: BRAK</text></g>
+ </g>
+</svg>
+<div id=s1 class=sc><div class=h style="font-size:150px">Korek <span class=k>do 2046<br>roku?</span></div><div style="margin-top:30px;font-weight:800;font-style:italic;font-size:44px">Tak dziś wygląda dojazd na Costa del Sol</div></div>
+<div id=s2 class=sc><div class=pill style="display:inline-block">A-7 · DARMOWA</div><div class=big id=n2 style="margin-top:26px">0</div><div class=h>aut <span class=k>dziennie</span></div><div class=p style="margin-top:12px">na odcinku Málaga – Marbella</div></div>
+<div id=s3 class=sc><div class=pill style="display:inline-block;background:#F2D36B">AP-7 · PŁATNA</div><div class=big id=n3 style="margin-top:26px">0</div><div class=h>aut dziennie – <span class=k>rekord 2025</span></div><div class=st id=st3 style="width:300px;height:300px;right:0;top:-40px;transform:rotate(-8deg)"><b style="font-size:96px;line-height:1">+63%</b><span style="font-weight:800;font-size:24px;letter-spacing:.1em">OPŁATA LATEM</span></div></div>
+<div id=s4 class=sc><div class=pill style="display:inline-block">NOWE APARTAMENTY</div><div class=big id=n4 style="margin-top:26px">0</div><div class=h>na sprzedaż w <span class=k>14 gminach</span></div><div class=tape id=tp4 style="right:0;top:60px;transform:rotate(-4deg)">CO PIĄTY W HISZPANII</div></div>
+<div id=s5 class=sc><div class=pill style="display:inline-block;background:#fff">POCIĄG WZDŁUŻ WYBRZEŻA</div><div class=h style="font-size:150px;margin-top:20px">Brak.</div>
+ <div class=p id=l51 style="margin-top:14px">Studium – dopiero <b>IV 2027</b></div><div class=p id=l52>Budowa – <b>ponad 6,5 mld €</b></div><div class=p id=l53>Pieniądze – <span class=k style="font-size:52px">brak</span></div></div>
+<div id=s6 class=sc><div class=pill style="display:inline-block">MIĘDZY A-7 A AP-7</div><div class=big id=n6 style="margin-top:26px">70+</div><div class=h style="margin-top:20px">pól golfowych – <span class=k>najwięcej w kontynentalnej Europie</span></div><div class="stamp" id=st6 style="right:0;top:-10px;font-size:64px;transform:rotate(-8deg)">MIEJSCA BRAK</div></div>
+<div id=s7 class=sc><div class=pill style="display:inline-block;background:#F2D36B">DARMOWA AP-7?</div><div class=h style="font-size:150px;margin-top:20px">Rząd: <span class=k>„nie”</span></div><div class=p>Koncesje trwają do:</div>
+ <div class=st id=b71 style="width:330px;height:330px;left:80px;top:-560px;transform:rotate(-8deg)"><b style="font-size:104px">2046</b></div><div class=st id=b72 style="width:330px;height:330px;left:480px;top:-500px;background:#F2D36B;transform:rotate(6deg)"><b style="font-size:104px">2054</b></div></div>
+<div id=s8 class=sc style="top:620px"><div class=pill style="display:inline-block">ZDANIEM REDAKCJI</div><div class=h style="font-size:104px;margin-top:30px">Bez pociągu korki będą rosły <span class=k>szybciej niż drogi.</span></div></div>
+<div id=s9 class=sc style="top:620px"><div class=h style="font-size:110px">Kupujesz dom?</div><div class=p style="font-size:50px;margin-top:24px">Sprawdź, ile naprawdę jedziesz w godzinach szczytu.</div><div class=pill style="display:inline-block;margin-top:50px;font-size:40px;padding:20px 30px">OBSERWUJ @SOLYSOL.PL</div></div>
+<div id=intro><div class=iw id=i1>120 000 <span class=k>aut dziennie.</span></div><div class=iw id=i2>Zero <span class=k>pociągów.</span></div><div class=iw id=i3 style="color:#E9884B">Koncesja do 2046.</div></div>
+<div id=lowgrad></div><div id=chap><b id=chapn>01</b><span id=chapl></span><span id=chapt></span></div><div id=maptag>MAPA POGLĄDOWA</div><div id=top><div class=logo>SOL<i>y</i>SÓL</div><div class=pill>CZY WIESZ, ŻE…</div></div>
+<div id=cap></div>
+<div id=foot><span>COSTA DEL SOL</span><span>SOLYSOL.PL</span></div>
+<div id=credit>Fot. Mike McBey / Wikimedia Commons, CC BY 2.0 · mapa poglądowa · źródła: Brains RE, Savills, El Debate, El Español, El Independiente, Esdiario, Olive Press, EWN</div>
+<div id=endc><div class=lg>SOL<i>y</i>SÓL</div><div class=ln id=endl></div><div class=tg>Magazyn dla Polaków na Costa del Sol</div><div class=hd>@SOLYSOL.PL</div></div><canvas id=grain width=540 height=960></canvas>
+<div id=wipe></div><div id=bar></div>
+<script>/*JS*/</script></body></html>
