@@ -26,7 +26,10 @@ em{{font-style:italic;color:{ACC}}}
       padding:0 64px;font:400 22px 'JetBrains Mono';letter-spacing:7px;color:{INK};background:{NAVY}}}
 .foot .mid{{color:{ACC}}}"""
 
+import re as _re
+def DASH(b): return _re.sub(r'–(?![^<]*>)', '<span style="font-family:\'Cormorant Garamond\'">–</span>', b)
 def page(body, w, h):
+    body = DASH(body)
     return f'<!doctype html><html><head><meta charset="utf-8">{FONTS}<style>{CSS} body{{width:{w}px;height:{h}px}}</style></head><body>{body}</body></html>'
 
 def foot(i, mid="PRZESUŃ →"):

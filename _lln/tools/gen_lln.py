@@ -85,7 +85,10 @@ em{{font-style:italic;color:{ACC}}}
 def foot(i, mid="PRZESUŃ →"):
     return f'<div class="foot"><span>● COSTA DEL SOL</span><span class="mid">{mid}</span><span>{i:02d} / 10</span></div>'
 
+import re as _re
+def DASH(b): return _re.sub(r'–(?![^<]*>)', '<span style="font-family:\'Cormorant Garamond\'">–</span>', b)
 def page(body, w=1080, h=1350):
+    body = DASH(body)
     return f'<!doctype html><html><head><meta charset="utf-8">{FONTS}<style>{CSS} body{{width:{w}px;height:{h}px}}</style></head><body>{body}</body></html>'
 
 slides = []
@@ -117,6 +120,7 @@ for i, a in enumerate(APTS, start=2):
   <img src="file://{a["img"]}" style="width:100%;height:100%;object-fit:cover">
   <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(15,26,51,.55) 0%,rgba(15,26,51,0) 28%,rgba(15,26,51,0) 70%,{NAVY} 100%)"></div>
   <div style="position:absolute;left:60px;top:52px;background:rgba(15,26,51,.82);padding:14px 18px 12px;border-radius:6px" class="kick">{a["n"]:02d} / 07 · {a["area"].upper()}</div>
+  {f'<div style="position:absolute;right:60px;top:52px;background:rgba(15,26,51,.82);padding:12px 16px 10px;border-radius:6px;font:400 18px JetBrains Mono;letter-spacing:4px;color:#f3efe6">{a["badge"]}</div>' if a.get("badge") else ""}
 </div>
 <div style="position:absolute;right:66px;top:560px;width:300px;border-radius:10px;overflow:hidden;border:1px solid #33456d;box-shadow:0 10px 30px rgba(0,0,0,.35)">{mini}</div>
 <div class="pad" style="position:absolute;top:640px;left:0;width:760px">
@@ -179,7 +183,8 @@ fb = f'''
 print("ok")
 
 # ---- relacje 1080x1920 ----
-def spage(b): return f'<!doctype html><html><head><meta charset="utf-8">{FONTS}<style>{CSS} body{{width:1080px;height:1920px}}</style></head><body>{b}</body></html>'
+def spage(b):
+    b = DASH(b); return f'<!doctype html><html><head><meta charset="utf-8">{FONTS}<style>{CSS} body{{width:1080px;height:1920px}}</style></head><body>{b}</body></html>'
 sfoot=lambda t:f'<div style="position:absolute;left:0;right:0;bottom:120px;text-align:center;font:400 24px JetBrains Mono;letter-spacing:7px;color:{INK}">{t}</div>'
 sm=map_svg(W0, E0, S0, N0, 1080)
 (OUT/"st00.html").write_text(spage(f'''<div class="pad" style="padding-top:230px"><div class="kick">{D["kicker"]}</div>
