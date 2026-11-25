@@ -8,7 +8,8 @@
 #     {"t":"map","lon":-4.82,"lat":36.50,"name":"Los Monteros","sub":"Marbella · pierwsza linia plaży"},
 #     {"t":"stats","items":[["6","sypialni"],["1229","m²"],["260","m² tarasów"]],"title":"W liczbach"},
 #     {"t":"shot","photo":"…","label":"SALON","title":"Okna <em>na ogród</em>"},
-#     {"t":"end","kicker","title1","title2","text","price":""}]}
+#     {"t":"end","kicker","title1","title2","text","price":""}],
+#   "audio":"lektor.mp3" (opcjonalnie), "music":"_assets/music/<plik>.mp3" (opcjonalnie), "music_volume":0.22}
 # Bezpieczna strefa: tekst między y 260 a 1480 i 70 px od lewej / 150 px od prawej (UI Reels). Kursywa = akcent pomarańczowy.
 import json, sys, os, subprocess, asyncio, math
 from pathlib import Path
@@ -166,8 +167,20 @@ for i in range(1, len(parts)):
     fc.append(f"{last}[{i}:v]xfade=transition=fade:duration={XF}:offset={off:.2f}{o}"); last = o
 total = off + parts[-1][1]
 AUD = ["-f", "lavfi", "-t", str(total), "-i", "anullsrc=r=44100:cl=stereo"]; AF = ""
+NP = len(parts)
 if D.get("audio"):
-    AUD = ["-i", D["audio"]]; AF = f";[{len(parts)}:a]adelay={int(D.get('audio_delay', 0.3)*1000)}:all=1,loudnorm=I=-16:TP=-1.5,apad[aout]"
+    AUD = ["-i", D["audio"]]; AF = f";[{NP}:a]adelay={int(D.get('audio_delay', 0.3)*1000)}:all=1,loudnorm=I=-16:TP=-1.5,apad[aout]"
+# muzyka pod lektorem: zapętlona, cicha, automatycznie ściszana, gdy mówi lektor (sidechain), wyciszenie na końcu
+MUS = D.get("music")
+if MUS:
+    AUD += ["-stream_loop", "-1", "-i", MUS]; mi = NP + 1; mv = D.get("music_volume", 0.22)
+    if D.get("audio"):
+        AF = (f";[{NP}:a]adelay={int(D.get('audio_delay', 0.3)*1000)}:all=1,loudnorm=I=-16:TP=-1.5,apad,asplit=2[v1][v2]"
+              f";[{mi}:a]atrim=0:{total:.2f},volume={mv},afade=t=in:d=0.8,afade=t=out:st={max(total-2.0,0):.2f}:d=2[m0]"
+              f";[m0][v1]sidechaincompress=threshold=0.03:ratio=6:attack=20:release=400[mduck]"
+              f";[mduck][v2]amix=inputs=2:duration=first:normalize=0,alimiter=limit=0.95[aout]")
+    else:
+        AF = f";[{mi}:a]atrim=0:{total:.2f},volume={mv*2.5},afade=t=in:d=0.8,afade=t=out:st={max(total-2.0,0):.2f}:d=2,loudnorm=I=-16:TP=-1.5[aout]"
 subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *ins, *AUD,
                 "-filter_complex", ";".join(fc) + AF, "-map", last, "-map", "[aout]" if AF else f"{len(parts)}:a", "-t", str(total), "-c:v", "libx264", "-preset", "veryfast",
                 "-crf", "25", "-maxrate", "1000k", "-bufsize", "2000k", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "96k", "-movflags", "+faststart", str(OUT / "reel.mp4")], check=True)
