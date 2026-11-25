@@ -57,7 +57,7 @@ for si, s in enumerate(SC):
         n = 26
         for f in range(n + 1):
             e = 1 - (1 - f / n) ** 3; v = s["from"] + (s["to"] - s["from"]) * e
-            num = f'{int(round(v)):,}'.replace(",", " ")
+            num = f'{v:.{s["decimals"]}f}'.replace(".", ",") if s.get("decimals") else f'{int(round(v)):,}'.replace(",", " ")
             bg = f'<div style="position:absolute;inset:0;background:url(\'file://{s["photo"]}\') center/cover;opacity:.28"></div>' if s.get("photo") else ""
             pages[f"s{si}_{f:02d}"] = page(bg + f'<div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(15,26,51,.55),{NAVY} 70%)"></div>' + bar(k) + f'''
 <div class="top"><span>{TAG}</span><span>{k+1:02d} / {NF:02d}</span></div>
@@ -149,6 +149,13 @@ for pi, (kind, si, data, dur) in enumerate(plan):
             zi += 1; n = int(dur0 * FPS); o = TMP / f"p{si:02d}_{j}.mp4"
             z = f"'min(1+0.12*on/{n},1.12)'" if zi % 2 else f"'max(1.12-0.12*on/{n},1.0)'"
             fade = "fade=in:st=0.1:d=0.35:alpha=1," if j == 0 else ""
+            if ph.endswith(".mp4"):  # klip AI (ruch kamery) zamiast zdjęcia; zwalniamy, gdy klip krótszy niż scena
+                cl = float(subprocess.run(["ffprobe","-v","error","-show_entries","format=duration","-of","csv=p=0",ph],capture_output=True,text=True).stdout or 5)
+                sl = max(1.0, dur0 / cl)
+                enc(["-i", ph, "-loop", "1", "-t", str(dur0), "-i", str(TMP / f"s{si}.png"), "-filter_complex",
+                     f"[0:v]setpts={sl:.3f}*PTS,scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps={FPS}[bg];"
+                     f"[1:v]format=rgba,{fade}null[ov];[bg][ov]overlay=0:0", "-t", str(dur0), "-an"], o)
+                parts.append((o, dur0)); continue
             enc(["-i", ph, "-loop", "1", "-t", str(dur0), "-i", str(TMP / f"s{si}.png"), "-filter_complex",
                  f"[0:v]scale=1188:2112:force_original_aspect_ratio=increase,crop=1188:2112,zoompan=z={z}:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d={n}:s=1080x1920:fps={FPS}[bg];"
                  f"[1:v]format=rgba,{fade}null[ov];[bg][ov]overlay=0:0", "-t", str(dur0)], o)
