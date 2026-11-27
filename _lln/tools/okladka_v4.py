@@ -12,9 +12,9 @@ em{{font-style:italic;color:{A}}}</style></head><body>
 <div style="position:absolute;inset:0;background:url('file://{c["photo"]}') {c.get("pos","50% 50%")}/cover;filter:saturate(1.05) contrast(1.04)"></div>
 <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(15,26,51,.97) 0%,rgba(15,26,51,.88) 10%,rgba(15,26,51,.25) 19%,rgba(15,26,51,0) 27%,rgba(15,26,51,0) {c.get("g1",44)}%,rgba(15,26,51,.78) {c.get("g2",58)}%,rgba(15,26,51,.985) {c.get("g3",70)}%,{N} 100%)"></div>
 {'<div style="position:absolute;left:0;right:0;top:0;height:230px;background:linear-gradient(180deg,#0f1a33 75%,rgba(15,26,51,0))"></div>' if c.get("topsolid") else ""}
-<div style="position:absolute;left:56px;right:56px;top:268px;bottom:236px;border:1.5px solid rgba(243,239,230,.38)"></div>
-<div style="position:absolute;left:0;right:0;top:236px;text-align:center"><span style="background:transparent;padding:0 26px;font:500 23px 'JetBrains Mono';letter-spacing:10px;color:#fff;text-shadow:0 2px 16px rgba(0,0,0,.55)">LLN&nbsp;MARBELLA</span></div>
-<div style="position:absolute;right:92px;top:304px;display:flex;align-items:center;gap:12px;font:500 20px 'JetBrains Mono';letter-spacing:6px;color:#fff;text-shadow:0 2px 12px rgba(0,0,0,.6)">
+<div style="position:absolute;left:56px;right:56px;top:326px;bottom:236px;border:1.5px solid rgba(243,239,230,.38)"></div>
+<div style="position:absolute;left:0;right:0;top:292px;text-align:center"><span style="background:transparent;padding:0 26px;font:500 23px 'JetBrains Mono';letter-spacing:10px;color:#fff;text-shadow:0 2px 16px rgba(0,0,0,.55)">LLN&nbsp;MARBELLA</span></div>
+<div style="position:absolute;right:92px;top:358px;display:flex;align-items:center;gap:12px;font:500 20px 'JetBrains Mono';letter-spacing:6px;color:#fff;text-shadow:0 2px 12px rgba(0,0,0,.6)">
 <span style="display:inline-flex;width:46px;height:46px;border-radius:50%;border:1.5px solid rgba(255,255,255,.85);align-items:center;justify-content:center;padding-left:4px;font-size:16px">▶</span>{c.get("badge","FILM")}</div>
 <div style="position:absolute;left:80px;right:80px;top:{c.get("top",1190)}px;text-align:center">
 <div style="display:flex;align-items:center;justify-content:center;gap:22px;font:500 24px 'JetBrains Mono';letter-spacing:8px;color:{A}">
