@@ -153,7 +153,7 @@ for pi, (kind, si, data, dur) in enumerate(plan):
                 cl = float(subprocess.run(["ffprobe","-v","error","-show_entries","format=duration","-of","csv=p=0",ph],capture_output=True,text=True).stdout or 5)
                 sl = max(1.0, dur0 / cl)
                 enc(["-i", ph, "-loop", "1", "-t", str(dur0), "-i", str(TMP / f"s{si}.png"), "-filter_complex",
-                     f"[0:v]setpts={sl:.3f}*PTS,scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps={FPS}[bg];"
+                     f"[0:v]setpts={sl:.3f}*PTS,scale={int(1080*SC[si].get('vz',1))}:{int(1920*SC[si].get('vz',1))}:force_original_aspect_ratio=increase,crop=1080:1920:(iw-1080)/2:(ih-1920)*{SC[si].get('vy',0.5)},fps={FPS}[bg];"
                      f"[1:v]format=rgba,{fade}null[ov];[bg][ov]overlay=0:0", "-t", str(dur0), "-an"], o)
                 parts.append((o, dur0)); continue
             enc(["-i", ph, "-loop", "1", "-t", str(dur0), "-i", str(TMP / f"s{si}.png"), "-filter_complex",
