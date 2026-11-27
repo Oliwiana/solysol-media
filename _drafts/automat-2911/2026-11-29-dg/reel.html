@@ -1,0 +1,143 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><style>
+@font-face{font-family:CG;src:url(file:///home/claude/tools/node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-ext-700-normal.woff2)}
+@font-face{font-family:CG;src:url(file:///home/claude/tools/node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-700-normal.woff2)}
+@font-face{font-family:CGi;src:url(file:///home/claude/tools/node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-ext-700-italic.woff2)}
+@font-face{font-family:CGi;src:url(file:///home/claude/tools/node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-700-italic.woff2)}
+@font-face{font-family:I;font-weight:900;src:url(file:///home/claude/tools/node_modules/@fontsource/inter/files/inter-latin-ext-900-normal.woff2)}
+@font-face{font-family:I;font-weight:900;src:url(file:///home/claude/tools/node_modules/@fontsource/inter/files/inter-latin-900-normal.woff2)}
+@font-face{font-family:I;font-weight:800;src:url(file:///home/claude/tools/node_modules/@fontsource/inter/files/inter-latin-ext-800-normal.woff2)}
+@font-face{font-family:I;font-weight:800;src:url(file:///home/claude/tools/node_modules/@fontsource/inter/files/inter-latin-800-normal.woff2)}
+@font-face{font-family:I;font-weight:500;src:url(file:///home/claude/tools/node_modules/@fontsource/inter/files/inter-latin-ext-500-normal.woff2)}
+@font-face{font-family:I;font-weight:500;src:url(file:///home/claude/tools/node_modules/@fontsource/inter/files/inter-latin-500-normal.woff2)}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#161412;color:#F4EFE7;font-family:I}
+.bg{position:absolute;inset:-70px;background-size:cover;background-position:center;opacity:0}
+#bgd{position:absolute;inset:0;background:linear-gradient(180deg,rgba(22,20,18,.78),rgba(22,20,18,.62) 35%,rgba(22,20,18,.8) 62%,#161412 86%)}
+#top{position:absolute;top:70px;left:64px;right:64px;display:flex;justify-content:space-between;align-items:center}
+.logo{font:700 48px CG;letter-spacing:.14em}.logo i{font-family:CGi;color:#E07F45;letter-spacing:0;margin:0 4px}
+.pill{background:#E07F45;color:#161412;font-weight:800;font-size:24px;letter-spacing:.16em;padding:12px 20px;display:inline-block}
+.k{font-family:CGi;color:#E9884B}
+.h{font:700 96px/1.0 CG}
+.big{font:700 200px/0.9 CG;color:#E9884B}
+.p{font-weight:500;font-size:40px;line-height:1.35;color:#E8E1D8}
+.sc{position:absolute;left:64px;right:64px;opacity:0}
+.card{position:absolute;background:#F4EFE7;padding:16px 16px 70px;box-shadow:0 18px 40px rgba(0,0,0,.6);opacity:0}
+.card img{display:block;width:100%;height:100%;object-fit:cover}
+.card .cl{position:absolute;left:20px;bottom:18px;color:#161412;font-weight:800;font-size:26px;letter-spacing:.06em}
+.card .tp{position:absolute;top:-22px;left:50%;margin-left:-70px;width:140px;height:44px;background:rgba(242,211,107,.85);transform:rotate(-4deg)}
+.tape{position:absolute;background:#F2D36B;color:#161412;font-weight:900;font-size:42px;padding:14px 26px;box-shadow:0 8px 20px #0007;white-space:nowrap;opacity:0}
+.stamp{position:absolute;font-weight:900;border:8px solid #E0321F;color:#E0321F;padding:6px 26px;border-radius:10px;letter-spacing:.06em;background:rgba(22,20,18,.55);opacity:0}
+#cap{position:absolute;left:70px;right:70px;top:1540px;text-align:center;font-weight:800;font-size:48px;line-height:1.25;text-shadow:0 3px 12px rgba(0,0,0,.95),0 0 30px rgba(0,0,0,.8);opacity:0}
+#cap .w{display:inline-block;margin:0 .12em}
+#foot{position:absolute;bottom:100px;left:64px;right:64px;display:flex;justify-content:space-between;font-weight:800;font-size:24px;letter-spacing:.18em;color:#cfc6bb}
+#bar{position:absolute;left:0;bottom:0;height:8px;background:#E07F45;width:0}
+#grain{position:absolute;inset:0;opacity:.07;mix-blend-mode:overlay;width:1080px;height:1920px}
+#wipe{position:absolute;left:0;right:0;height:1920px;background:#E07F45;top:1920px}
+#chap{position:absolute;left:64px;top:160px;display:flex;align-items:center;gap:16px;font-weight:800;font-size:22px;letter-spacing:.24em;opacity:0}
+#chap b{color:#E07F45}#chapl{height:3px;background:#E07F45;width:0}
+#credit{position:absolute;left:64px;right:64px;bottom:28px;font-size:16px;color:#9d958c;letter-spacing:.02em}
+#map{position:absolute;left:40px;top:230px;width:1000px;height:760px;opacity:0}
+.city{font-weight:800;font-size:30px;letter-spacing:.12em;fill:#F4EFE7}
+#intro{position:absolute;left:64px;right:64px;top:560px}
+.iw{font:700 130px/1.02 CG;opacity:0;margin:8px 0}
+#cover{position:absolute;inset:0;background:#161412}
+#cover .bgc{position:absolute;inset:0;background:url(concha.jpg) center/cover;filter:saturate(1.1)}
+#cover .gr{position:absolute;inset:0;background:linear-gradient(180deg,rgba(22,20,18,.35),rgba(22,20,18,.1) 30%,rgba(22,20,18,.85) 62%,#161412)}
+#endc{position:absolute;inset:0;background:#161412;display:flex;flex-direction:column;align-items:center;justify-content:center;opacity:0}
+#endc .lg{font:700 150px CG;letter-spacing:.12em}#endc .lg i{font-family:CGi;color:#E07F45;letter-spacing:0;margin:0 10px}
+#endc .ln{width:0;height:4px;background:#E07F45;margin:34px 0}
+#endc .tg{font-family:CGi;font-size:54px;color:#E8E1D8}
+#endc .hd{margin-top:50px;font-weight:800;font-size:34px;letter-spacing:.2em;color:#E07F45}
+</style></head><body>
+<div class=bg id=b0 style="background-image:url(concha.jpg)"></div>
+<div class=bg id=b1 style="background-image:url(view.jpg)"></div>
+<div class=bg id=b2 style="background-image:url(pinsapo.jpg)"></div>
+<div class=bg id=b3 style="background-image:url(pardo.jpg)"></div>
+<div class=bg id=b4 style="background-image:url(boisserie.jpg)"></div>
+<div class=bg id=b5 style="background-image:url(ojen2.jpg)"></div>
+<div id=bgd></div>
+
+<div id=intro><div class=iw id=i1>Czerwiec <span class=k>1970.</span></div><div class=iw id=i2>Góry nad <span class=k>Marbellą.</span></div><div class=iw id=i3 style="color:#F2D36B">Charles de Gaulle.</div></div>
+
+<svg id=map viewBox="0 0 1000 760">
+ <defs><linearGradient id=sea x1=0 y1=0 x2=0 y2=1><stop offset=0 stop-color="#1d3346"/><stop offset=1 stop-color="#0f1c27"/></linearGradient></defs>
+ <path d="M0 560 C 200 600, 380 590, 520 610 S 820 650, 1000 640 L1000 760 L0 760 Z" fill="url(#sea)" opacity=.9 />
+ <path d="M0 560 C 200 600, 380 590, 520 610 S 820 650, 1000 640" stroke="#7fb3d5" stroke-width=3 fill=none />
+ <path id=mt d="M150 470 L260 300 L330 380 L430 180 L520 330 L600 250 L720 430 L800 470 Z" fill="#3a4a2e" opacity=.85 stroke="#7ED957" stroke-width=3 />
+ <text x=330 y=470 class=city style="fill:#b7d98a;font-size:26px">SIERRA BLANCA</text>
+ <path id=road d="M520 600 C 560 520, 620 470, 640 380 C 600 330, 520 300, 470 230" stroke="#F2D36B" stroke-width=7 stroke-dasharray="14 10" fill=none />
+ <circle cx=520 cy=600 r=13 fill="#F4EFE7" stroke="#161412" stroke-width=4 /><text x=470 y=660 class=city>MARBELLA</text>
+ <g id=gOj opacity=0><circle cx=660 cy=380 r=12 fill="#F4EFE7" stroke="#161412" stroke-width=4 /><text x=690 y=390 class=city>OJÉN</text></g>
+ <g id=gJu opacity=0><path d="M470 230 m0 0 c-26 -40 -40 -56 -40 -78 a40 40 0 0 1 80 0 c0 22 -14 38 -40 78z" fill="#E07F45" stroke="#161412" stroke-width=4 /><circle cx=470 cy=152 r=14 fill="#161412"/>
+  <rect x=520 y=110 width=300 height=56 rx=8 fill="#E07F45"/><text x=540 y=148 style="font-weight:900;font-size:30px;fill:#161412">JUANAR · 1970</text></g>
+ <text x=640 y=730 class=city style="fill:#7fb3d5;font-size:22px;opacity:.8">MORZE ŚRÓDZIEMNE</text>
+</svg>
+<div class="card" id=cOj style="left:80px;top:1010px;width:420px;height:360px;transform:rotate(-5deg)"><div class=tp></div><img src=ojen.jpg><div class=cl>OJÉN</div></div>
+<div class="card" id=cPi style="left:560px;top:1000px;width:420px;height:360px;transform:rotate(4deg)"><div class=tp></div><img src=pinsapo.jpg><div class=cl>SIERRA BLANCA</div></div>
+<div class=tape id=t69 style="left:120px;top:1000px;transform:rotate(-3deg)">1969 – KONIEC PREZYDENTURY</div>
+
+<div class=sc id=s2 style="top:330px"><div class=pill>PARADOR NACIONAL · 1970</div><div class=h style="font-size:84px;margin-top:40px">Generał pracuje nad<br>wspomnieniami</div><div class=h style="font-size:150px;margin-top:40px;color:#F2D36B;font-family:CGi">„Pamiętniki<br>nadziei”</div><div class=p style="margin-top:24px;font-style:italic">Mémoires d'espoir</div></div>
+
+<div class=sc id=s3 style="top:300px"><div class=pill style="background:#F2D36B">MADRYT</div><div class=big id=n3 style="margin-top:30px">8</div><div class=h>czerwca <span class=k>1970</span></div><div class=p style="margin-top:16px">spotkanie z generałem Franco</div></div>
+<div class="card" id=cPa style="left:200px;top:960px;width:680px;height:340px;transform:rotate(-3deg)"><div class=tp></div><img src=pardo.jpg><div class=cl>PAŁAC EL PARDO</div></div>
+<div class=stamp id=stP style="left:560px;top:880px;font-size:64px;transform:rotate(-9deg)">EL PARDO</div>
+
+<div class=sc id=s4 style="top:300px"><div class=tape id=tT style="position:relative;display:inline-block;transform:rotate(-3deg)">TOM I – 1970</div><div class=big id=n4 style="margin-top:40px;font-size:180px">9.11.1970</div><div class=p style="margin-top:44px">generał umiera w Colombey-les-Deux-Églises</div><div class=p id=l4 style="margin-top:10px;color:#F2D36B;font-weight:800">kolejne tomy – niedokończone</div></div>
+<div class="card" id=cBo style="left:180px;top:1000px;width:700px;height:360px;transform:rotate(3deg)"><div class=tp></div><img src=boisserie.jpg><div class=cl>LA BOISSERIE, COLOMBEY</div></div>
+
+<div class=sc id=s5 style="top:330px"><div class=pill>DZIŚ</div><div class=h style="font-size:120px;margin-top:30px">Refugio<br><span class=k>de Juanar</span></div><div class=p style="margin-top:20px">dawny parador – dziś hotel w górach nad Ojén</div>
+ <div id=op style="margin-top:60px;opacity:0"><div class=pill style="background:#F2D36B">ZDANIEM REDAKCJI</div><div class=h style="font-size:72px;margin-top:24px">Jedno z najpiękniejszych miejsc na <span class=k>jesienny spacer.</span></div></div></div>
+
+<div id=chap><b id=chapn>01</b><span id=chapl></span><span id=chapt></span></div>
+<div id=top><div class=logo>SOL<i>y</i>SÓL</div><div class=pill>CZY WIESZ, ŻE…</div></div>
+<div id=cap></div>
+<div id=foot><span>COSTA DEL SOL</span><span>SOLYSOL.PL</span></div>
+<div id=credit>Zdjęcia ilustracyjne, Wikimedia Commons: Zarateman (CC0), Ziegler175 (CC BY-SA 3.0), K. Ziarnek/Kenraiz (CC BY-SA 4.0), Calapito (PD), WertGar (CC0), Carlos Delgado (CC BY-SA 3.0), Gzen92 (CC BY-SA 4.0) · mapa poglądowa</div>
+<canvas id=grain width=540 height=960></canvas>
+<div id=endc><div class=lg>SOL<i>y</i>SÓL</div><div class=ln id=endl></div><div class=tg>Magazyn dla Polaków na Costa del Sol</div><div class=hd>@SOLYSOL.PL</div></div>
+<div id=wipe></div><div id=bar></div>
+<div id=cover><div class=bgc></div><div class=gr></div>
+ <div style="position:absolute;top:70px;left:64px;right:64px;display:flex;justify-content:space-between;align-items:center"><div class=logo>SOL<i>y</i>SÓL</div><div class=pill>CZY WIESZ, ŻE…</div></div>
+ <div style="position:absolute;left:64px;right:64px;top:1080px"><div class=pill style="background:#F2D36B">OJÉN · CZERWIEC 1970</div><div style="font:700 150px/0.95 CG;margin-top:30px">Ostatnie lato<br><span class=k>generała</span></div><div class=p style="margin-top:26px;font-weight:800">De Gaulle w górach nad Marbellą</div></div>
+ <div style="position:absolute;bottom:80px;left:64px;right:64px;display:flex;justify-content:space-between;font-weight:800;font-size:24px;letter-spacing:.18em;color:#cfc6bb"><span>COSTA DEL SOL</span><span>SOLYSOL.PL</span></div></div>
+<script>
+const OFF=1.6, VEND=49.74, DUR=OFF+VEND+2.8;
+const P=[[0,2.31,"Czerwiec 1970 roku."],[2.65,5.82,"Do górskiego schroniska nad <y>Marbellą</y> przyjeżdża niezwykły gość."],[6.14,6.91,"<y>Charles de Gaulle.</y>"],[7.29,10.12,"Rok wcześniej generał odszedł z urzędu prezydenta Francji."],[10.44,11.60,"Teraz szuka ciszy."],[11.99,14.00,"Razem z żoną Yvonne wybiera <y>Juanar</y> –"],[14.21,17.34,"dawne schronisko wysoko w <y>Sierra Blanca,</y> nad miasteczkiem Ojén."],[17.69,19.20,"Wtedy to państwowy parador."],[19.52,21.36,"Generał pracuje tu nad wspomnieniami –"],[21.62,22.83,"<y>„Pamiętnikami nadziei”.</y>"],[23.17,24.80,"Ósmego czerwca jedzie do Madrytu."],[25.08,27.52,"W pałacu <y>El Pardo</y> spotyka się z generałem Franco."],[27.83,30.62,"Pierwszy tom wspomnień ukazuje się jeszcze tego samego roku."],[30.94,35.92,"Ale <y>9 listopada 1970</y> generał umiera w swoim domu w Colombey."],[36.25,38.10,"Kolejnych tomów nie zdąży dokończyć."],[38.45,40.09,"<y>Juanar</y> przyjmuje gości do dziś –"],[40.30,41.48,"jako hotel w górach."],[41.85,46.12,"Zdaniem redakcji: to jedno z najpiękniejszych miejsc na jesienny spacer nad Marbellą."],[46.49,47.83,"Obserwuj Sol y Sól –"],[48.14,49.57,"więcej historii z wybrzeża."]];
+const S=[0,7.29,17.69,23.17,27.83,38.45,46.49]; // scene starts (voice time); S[6]=end card
+const CH=['','PRZYJAZD','WSPOMNIENIA','MADRYT','JESIEŃ','DZIŚ'];
+const E=(a,b,t)=>{let x=Math.max(0,Math.min(1,(t-a)/b));return x*x*(3-2*x)};const $=id=>document.getElementById(id);
+function pop(id,a,t,sc0,rot,out){const el=$(id);const k=E(a,0.35,t)*(out!==undefined?1-E(out-0.35,0.35,t):1);el.style.opacity=k;el.style.transform='rotate('+rot+'deg) scale('+(sc0+(1-sc0)*E(a,0.35,t))+')'}
+function scene(id,a,b,t){const el=$(id);const out=E(b-0.35,0.35,t);el.style.opacity=t>=a-0.05?1-out:0;el.style.transform='translateY('+(-50*out)+'px)';let n=0;for(const ch of el.children){if(ch.id==='op')continue;const k=E(a+0.08*n,0.45,t);ch.style.opacity=k;ch.style.transform=(ch.dataset.r||'')+' translateY('+(46*(1-k))+'px)';n++}}
+function caps(t){const c=$('cap');let p=null;for(const q of P){if(t>=q[0]&&t<=q[1]+0.2)p=q}
+ if(!p||t<S[1]-0.05||t>=S[6]){c.style.opacity=0;return}
+ const words=p[2].split(' ');const span=Math.max(0.4,p[1]-p[0]);let tot=words.reduce((a,w)=>a+w.replace(/<\/?y>/g,'').length+2,0),acc=0,html='',yl=false;
+ for(const w of words){if(w.includes('<y>'))yl=true;const cl=w.replace(/<\/?y>/g,'');const ta=p[0]+span*0.92*acc/tot;acc+=cl.length+2;const k=E(ta,0.12,t);const act=t>=ta&&t<p[0]+span*0.92*acc/tot+0.05;
+  html+='<span class=w style="opacity:'+k+';transform:translateY('+(12*(1-k))+'px);color:'+(act?'#E9884B':(yl?'#F2D36B':'#F4EFE7'))+'">'+cl+'</span>';if(w.includes('</y>'))yl=false}
+ c.innerHTML=html;c.style.opacity=E(p[0],0.15,t)}
+function grain(T){const cv=$('grain'),x=cv.getContext('2d');const im=x.createImageData(540,960);let r=Math.floor(T*30)*9301+49297;for(let i=0;i<im.data.length;i+=4){r=(r*1103515245+12345)&0x7fffffff;const v=r>>23&255;im.data[i]=im.data[i+1]=im.data[i+2]=v;im.data[i+3]=255}x.putImageData(im,0,0)}
+const BG=[[0,'b0'],[S[1],'b1'],[S[2],'b2'],[S[3],'b3'],[S[4],'b4'],[S[5],'b5']];
+window.setT=function(T){const t=T-OFF;
+ $('cover').style.opacity=1-E(OFF-0.25,0.25,T);$('cover').style.display=T>OFF?'none':'block';
+ let hits=[S[3]+1.9,S[1]+2.0];let sh=0;for(const h of hits){const d=t-h;if(d>=0&&d<0.3)sh+=(1-d/0.3)*10*Math.sin(d*90)}
+ BG.forEach(([a,id],i)=>{const b=i<5?BG[i+1][0]:S[6];const el=$(id);const v=E(a-0.4,0.5,t)*(1-E(b-0.1,0.5,t));el.style.opacity=v;const u=(t-a)/(b-a);el.style.transform='scale('+(1.05+0.12*u)+') translate('+(-15*u)+'px,'+sh+'px)'});
+ $('b1').style.opacity=parseFloat($('b1').style.opacity)*0.55;
+ ['i1','i2','i3'].forEach((id,n)=>{const el=$(id);const k=E([0.1,2.65,6.1][n],0.2,t);el.style.opacity=k*(1-E(S[1]-0.4,0.4,t));el.style.transform='scale('+(1.3-0.3*k)+')'});
+ // scene 1 map
+ const mv=E(S[1],0.5,t)*(1-E(S[2]-0.4,0.4,t));$('map').style.opacity=mv;$('map').style.transform='translateX('+sh+'px)';
+ $('gOj').setAttribute('opacity',E(S[1]+0.3,0.3,t));$('gJu').setAttribute('opacity',E(11.99+0.6,0.3,t));
+ const rd=$('road');rd.style.clipPath='inset(0 0 '+(100*(1-E(11.99,1.2,t)))+'% 0)';
+ pop('t69',S[1]+2.0,t,1.6,-3,11.99);pop('cOj',12.2,t,1.25,-5,S[2]);pop('cPi',14.3,t,1.25,4,S[2]);
+ scene('s2',S[2],S[3],t);scene('s3',S[3],S[4],t);scene('s4',S[4],S[5],t);scene('s5',S[5],S[6],t);
+ $('op').style.opacity=E(41.85,0.4,t);
+ {const k=E(S[3]+0.2,1.0,t);$('n3').textContent=Math.max(1,Math.round(8*k));}
+ pop('cPa',25.0,t,1.2,-3,S[4]);pop('stP',25.6,t,2.2,-9,S[4]);
+ pop('cBo',31.2,t,1.2,3,S[5]);$('l4').style.opacity=E(36.25,0.4,t);
+ {const el=$('n4');el.style.opacity=E(30.9,0.4,t);}
+ caps(t);grain(T);
+ let ci=0;for(let i=1;i<=5;i++)if(t>=S[i])ci=i;const cv=ci>=1&&t<S[6];$('chap').style.opacity=cv?1:0;$('chapn').textContent=String(ci).padStart(2,'0')+' / 05';$('chapt').textContent=CH[ci]||'';$('chapl').style.width=(60*E(S[ci]||0,0.5,t))+'px';
+ let wy=1920;for(const w of [S[2]-0.45,S[4]-0.45]){const d=t-w;if(d>=0&&d<0.9){wy=d<0.45?1920*(1-E(w,0.45,t)):-1920*E(w+0.45,0.45,t)}}$('wipe').style.top=wy+'px';
+ const ec=E(S[6],0.5,t);$('endc').style.opacity=ec;$('endl').style.width=(420*E(S[6]+0.3,0.6,t))+'px';
+ $('bar').style.width=(100*Math.min(1,T/DUR))+'%';
+ $('credit').style.opacity=(t>=0&&t<S[6])?1:0;}
+setT(0);
+</script></body></html>

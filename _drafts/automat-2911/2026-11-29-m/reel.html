@@ -1,0 +1,121 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><style>
+@font-face{font-family:T;src:url(file:///home/claude/tools/node_modules/@fontsource/special-elite/files/special-elite-latin-ext-400-normal.woff2)}
+@font-face{font-family:T;src:url(file:///home/claude/tools/node_modules/@fontsource/special-elite/files/special-elite-latin-400-normal.woff2)}
+@font-face{font-family:I;font-weight:900;src:url(file:///home/claude/tools/node_modules/@fontsource/inter/files/inter-latin-ext-900-normal.woff2)}
+@font-face{font-family:I;font-weight:900;src:url(file:///home/claude/tools/node_modules/@fontsource/inter/files/inter-latin-900-normal.woff2)}
+@font-face{font-family:I;font-weight:800;src:url(file:///home/claude/tools/node_modules/@fontsource/inter/files/inter-latin-ext-800-normal.woff2)}
+@font-face{font-family:I;font-weight:800;src:url(file:///home/claude/tools/node_modules/@fontsource/inter/files/inter-latin-800-normal.woff2)}
+@font-face{font-family:CG;font-style:italic;font-weight:700;src:url(file:///home/claude/tools/node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-ext-700-italic.woff2)}
+@font-face{font-family:CG;font-style:italic;font-weight:700;src:url(file:///home/claude/tools/node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-700-italic.woff2)}
+@font-face{font-family:CGn;font-weight:700;src:url(file:///home/claude/tools/node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-ext-700-normal.woff2)}
+@font-face{font-family:CGn;font-weight:700;src:url(file:///home/claude/tools/node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-700-normal.woff2)}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#1c140d;font-family:I}
+#board{position:absolute;left:0;top:0;width:1080px;height:8200px;transform-origin:540px 0;background:#2a1e14}
+#board:before{content:"";position:absolute;inset:0;opacity:.35;background-image:radial-gradient(#000 1px,transparent 1.6px);background-size:7px 7px}
+.e{position:absolute;opacity:0}
+.pin{position:absolute;width:26px;height:26px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#ffb27a,#c0561a);box-shadow:2px 4px 6px rgba(0,0,0,.6);left:50%;top:-12px;margin-left:-13px;z-index:2}
+.cal{width:400px;background:#efe6d2;box-shadow:6px 14px 30px rgba(0,0,0,.65);text-align:center;color:#1d1a16}
+.cal .m{background:#E07F45;color:#1d1a16;font-weight:900;font-size:34px;letter-spacing:.2em;padding:18px 0 14px}
+.cal .d{font:700 230px/1 CGn;padding:8px 0 0}
+.cal .w{font-family:T;font-size:34px;padding:0 0 26px;letter-spacing:.06em}
+.pol{background:#efe6d2;padding:16px 16px 64px;box-shadow:6px 14px 30px rgba(0,0,0,.6)}
+.pol img{display:block;width:100%;height:100%;object-fit:cover;filter:sepia(.15) contrast(1.05)}
+.pol .cl{position:absolute;left:20px;bottom:16px;font-family:T;font-size:26px;color:#1d1a16}
+.hd{left:70px;width:880px;color:#efe6d2}
+.hd .a{font-family:T;font-size:40px;color:#F6C343;letter-spacing:.04em}
+.hd .b{font-weight:900;font-size:70px;line-height:1.02;text-transform:uppercase;margin-top:10px}
+.hd .c{font:700 50px/1.15 CG;font-style:italic;color:#E9884B;margin-top:12px}
+.stamp{font-weight:900;border:8px solid;padding:6px 26px;letter-spacing:.06em;border-radius:8px;background:rgba(239,230,210,.9)}
+.tape{background:#F6C343;color:#171513;font-weight:900;font-size:44px;padding:14px 26px;box-shadow:6px 12px 24px rgba(0,0,0,.5);white-space:nowrap}
+#vig{position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at 50% 45%,transparent 50%,rgba(0,0,0,.75) 100%)}
+#top{position:absolute;left:0;right:0;top:0;height:220px;background:linear-gradient(180deg,rgba(0,0,0,.75),transparent);display:flex;justify-content:space-between;align-items:flex-start;padding:62px 64px 0;color:#efe6d2;font-weight:800;font-size:24px;letter-spacing:.22em}
+#grain{position:absolute;inset:0;pointer-events:none;opacity:.10;mix-blend-mode:overlay}
+#flash{position:absolute;inset:0;background:#fff;opacity:0;pointer-events:none}
+#light{position:absolute;inset:0;pointer-events:none;background:radial-gradient(circle at 50% 40%,rgba(255,200,140,.12),transparent 55%)}
+#cnt{position:absolute;left:64px;top:170px;font-family:T;font-size:60px;color:#F6C343;text-shadow:0 6px 18px rgba(0,0,0,.8)}
+#cntl{position:absolute;left:66px;top:148px;color:#efe6d2;font-weight:800;font-size:18px;letter-spacing:.3em;opacity:.7}
+#cap{position:absolute;left:40px;right:40px;top:1530px;background:rgba(12,9,6,.84);border-radius:18px;padding:22px 20px;text-align:center;font-weight:900;font-size:54px;line-height:1.14;color:#fff;text-transform:uppercase;letter-spacing:-.01em;opacity:0}
+#cap .w{display:inline-block;margin:0 .12em}
+#intro{position:absolute;inset:0;background:#0b0806;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}
+.iw{font-weight:900;font-size:130px;line-height:1.02;letter-spacing:-.02em;opacity:0;text-transform:uppercase}
+#isub{font-family:T;color:#efe6d2;font-size:40px;margin-top:40px;opacity:0;letter-spacing:.08em}
+#credit{position:absolute;right:14px;top:300px;writing-mode:vertical-rl;color:#efe6d2;font-size:15px;font-weight:800;letter-spacing:.1em;opacity:.6;max-height:1150px}
+#endc{position:absolute;inset:0;background:#0b0806;display:flex;flex-direction:column;align-items:center;justify-content:center;opacity:0}
+#endc .lg{font:700 150px CGn;letter-spacing:.12em;color:#efe6d2}#endc .lg i{font-family:CG;font-style:italic;color:#E07F45;letter-spacing:0;margin:0 10px}
+#endc .ln{width:0;height:4px;background:#E07F45;margin:34px 0}
+#endc .tg{font:700 54px CG;font-style:italic;color:#E8E1D8}
+#endc .hd2{margin-top:50px;font-weight:800;font-size:34px;letter-spacing:.2em;color:#E07F45}
+#cta{position:absolute;left:0;right:0;bottom:0;height:420px;background:#F6C343;padding:56px 64px;opacity:0}
+#cover{position:absolute;inset:0;background:#0b0806}
+</style></head><body>
+<div id=board>
+<svg width=1080 height=8200 style="position:absolute;left:0;top:0" id=strs></svg>
+<div id=secs></div>
+</div>
+<div id=vig></div><div id=light></div><canvas id=grain width=540 height=960 style="width:1080px;height:1920px"></canvas>
+<div id=cntl>DATA</div><div id=cnt>01 / 06</div>
+<div id=top><span style="font:700 46px CG;font-style:italic;letter-spacing:.06em">SOL <span style="color:#F6C343">y</span> SÓL</span><span style="margin-top:14px">KALENDARZ ŚWIĄT</span></div>
+<div id=cap></div>
+<div id=credit>ZDJĘCIA ILUSTRACYJNE · WIKIMEDIA COMMONS: GAB416 CC BY-SA 3.0 ES · CH. FRANZEN PD · TAMORLAN CC BY 3.0 · LOBO PD · J.E. PRADES BEL CC BY 4.0 · MAXIMO88 CC BY-SA 4.0</div>
+<div id=cta><div style="font-weight:900;font-size:70px;line-height:1;text-transform:uppercase;color:#171513">Zapisz<br>ten kalendarz</div><div style="font:700 44px CG;font-style:italic;margin-top:18px;color:#171513">i wyślij komuś, kto spędza święta na wybrzeżu</div><div style="font-weight:800;font-size:28px;letter-spacing:.2em;margin-top:20px;color:#8a3a10">@SOLYSOL.PL</div></div>
+<div id=intro><div class=iw id=i1 style="color:#efe6d2">Prawie</div><div class=iw id=i2 style="color:#F6C343">miesiąc</div><div class=iw id=i3 style="color:#E07F45">świąt.</div><div id=isub>6 DAT · GRUDZIEŃ – STYCZEŃ</div></div>
+<div id=endc><div class=lg>SOL<i>y</i>SÓL</div><div class=ln id=endl></div><div class=tg>Magazyn dla Polaków na Costa del Sol</div><div class=hd2>@SOLYSOL.PL</div></div>
+<div id=flash></div>
+<div id=cover>
+ <div style="position:absolute;inset:0;background:url(larios.jpg) center/cover;filter:brightness(.45) saturate(1.1)"></div>
+ <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(11,8,6,.5),rgba(11,8,6,.2) 30%,rgba(11,8,6,.92) 60%,#0b0806)"></div>
+ <div style="position:absolute;top:62px;left:64px;right:64px;display:flex;justify-content:space-between;color:#efe6d2;font-weight:800;font-size:24px;letter-spacing:.22em"><span style="font:700 46px CG;font-style:italic;letter-spacing:.06em">SOL <span style="color:#F6C343">y</span> SÓL</span><span style="margin-top:14px">PRZYZIEMNE</span></div>
+ <div class=cal style="position:absolute;right:80px;top:420px;transform:rotate(5deg);width:330px"><div class=pin></div><div class=m>GRUDZIEŃ</div><div class=d style="font-size:190px">6</div><div class=w>dat do zapisania</div></div>
+ <div style="position:absolute;left:64px;right:64px;top:1040px;color:#efe6d2"><div style="font-family:T;font-size:44px;color:#F6C343">kalendarz 2026/27</div><div style="font-weight:900;font-size:120px;line-height:.98;text-transform:uppercase;margin-top:16px">Święta<br>po hiszpańsku</div><div style="font:700 60px CG;font-style:italic;color:#E9884B;margin-top:20px">6 dat, które musisz znać</div></div>
+</div>
+<script>
+const OFF=1.6, VEND=55.0, DUR=OFF+VEND+2.6;
+const P=[[0,2.26,"Święta w Hiszpanii trwają prawie miesiąc."],[2.57,5.18,"Oto <y>sześć dat,</y> które warto zapisać w kalendarzu."],[5.62,6.04,"<y>Jeden.</y>"],[6.34,7.06,"8 grudnia –"],[7.33,8.97,"święto Niepokalanego Poczęcia."],[9.23,9.83,"<y>Dzień wolny.</y>"],[10.20,12.70,"W tym roku wolny jest też poniedziałek, <y>7 grudnia.</y>"],[13.00,14.39,"Szykuje się długi weekend."],[14.79,15.14,"<y>Dwa.</y>"],[15.38,16.51,"22 grudnia –"],[16.77,18.03,"losowanie <y>El Gordo.</y>"],[18.33,22.71,"Dzieci ze szkoły San Ildefonso śpiewają wygrane numery, a cała Hiszpania słucha."],[23.11,23.42,"<y>Trzy.</y>"],[23.67,25.78,"24 grudnia to <y>Nochebuena</y> –"],[26.00,27.36,"wielka rodzinna kolacja."],[27.65,28.56,"25 grudnia –"],[28.75,30.44,"Boże Narodzenie i dzień wolny."],[30.78,31.17,"<y>Cztery.</y>"],[31.39,32.56,"28 grudnia –"],[32.78,33.81,"<y>Dzień Niewiniątek.</y>"],[34.06,35.60,"To hiszpański prima aprilis."],[35.79,37.47,"Nie wierz wtedy w każdą wiadomość."],[37.80,38.15,"<y>Pięć.</y>"],[38.40,38.99,"Sylwester."],[39.26,42.31,"O północy 12 uderzeń zegara i <y>12 winogron</y> –"],[42.49,43.98,"po jednym na każde uderzenie."],[44.34,44.75,"<y>Sześć.</y>"],[44.96,45.76,"6 stycznia –"],[45.95,46.61,"<y>Trzech Króli.</y>"],[46.83,48.46,"To wtedy dzieci dostają prezenty."],[48.70,51.10,"Dzień wcześniej wieczorem ulicami przechodzą parady."],[51.39,55.0,"Zapisz ten kalendarz i wyślij go komuś, kto spędza święta na wybrzeżu."]];
+const S=[0,5.62,14.79,23.11,30.78,37.80,44.34,51.39,55.0]; // S[7]=CTA, S[8]=end
+const D=[null,
+ {m:'GRUDZIEŃ',d:'8',w:'wtorek',img:'catedral.jpg',il:'Málaga, katedra',a:'8.12 · święto',b:'Inmaculada',c:'Niepokalane Poczęcie – dzień wolny',st:'WOLNE',stc:'#8a1a10',tape:'+ PON. 7.12 – DŁUGI WEEKEND',stT:9.3,tpT:10.5},
+ {m:'GRUDZIEŃ',d:'22',w:'wtorek',img:'loteria.jpg',il:'losowanie – ilustracja archiwalna',a:'22.12 · losowanie',b:'El Gordo',c:'dzieci z San Ildefonso śpiewają numery',st:'LOTERÍA',stc:'#8a1a10',tape:'TEATRO REAL · MADRYT',stT:16.9,tpT:18.6},
+ {m:'GRUDZIEŃ',d:'24',w:'czwartek',img:'turron.jpg',il:'turrón',a:'24.12 wieczór · 25.12 święto',b:'Nochebuena',c:'wielka rodzinna kolacja',st:'25.12 WOLNE',stc:'#8a1a10',tape:'NAVIDAD – 25.12, PIĄTEK',stT:28.8,tpT:26.1},
+ {m:'GRUDZIEŃ',d:'28',w:'poniedziałek',img:'',il:'',a:'28.12',b:'Día de los Inocentes',c:'hiszpański prima aprilis',st:'ŻART!',stc:'#8a1a10',tape:'NIE WIERZ WE WSZYSTKO',stT:34.2,tpT:35.9},
+ {m:'GRUDZIEŃ',d:'31',w:'czwartek',img:'uvas.jpg',il:'12 winogron',a:'31.12 · północ',b:'Nochevieja',c:'12 uderzeń zegara – 12 winogron',st:'12 UVAS',stc:'#8a1a10',tape:'PO JEDNYM NA UDERZENIE',stT:40.8,tpT:42.5},
+ {m:'STYCZEŃ',d:'6',w:'środa',img:'roscon.jpg',il:'roscón de Reyes',a:'6.01 · święto',b:'Trzech Króli',c:'prezenty dla dzieci – parady 5.01 wieczorem',st:'PREZENTY',stc:'#8a1a10',tape:'5.01 – CABALGATA',stT:47.0,tpT:48.8}];
+const Y=i=>260+(i-1)*1250;
+let html='';for(let i=1;i<=6;i++){const d=D[i],y=Y(i);
+ html+=`<div class="e cal" id=k${i} style="left:70px;top:${y}px;transform:rotate(${i%2?-3:3}deg)"><div class=pin></div><div class=m>${d.m}</div><div class=d>${d.d}</div><div class=w>${d.w}</div></div>`;
+ if(d.img)html+=`<div class="e pol" id=p${i} style="left:510px;top:${y+40}px;width:460px;height:400px;transform:rotate(${i%2?4:-4}deg)"><div class=pin></div><img src=${d.img}><div class=cl>${d.il}</div></div>`;
+ else html+=`<div class="e pol" id=p${i} style="left:510px;top:${y+40}px;width:440px;padding:34px;transform:rotate(4deg);clip-path:polygon(0 3%,6% 0,14% 2%,25% 0,38% 3%,52% 0,66% 2%,80% 0,92% 3%,100% 1%,98% 30%,100% 60%,97% 100%,85% 97%,70% 100%,55% 97%,40% 100%,25% 97%,10% 100%,0 97%,2% 60%,0 30%)"><div style="font:700 30px CG;font-style:italic;border-bottom:3px solid #141210;padding-bottom:8px;color:#141210">wiadomość dnia</div><div style="font-weight:900;font-size:66px;margin-top:14px;color:#141210;line-height:1">SENSACJA!</div><div style="font:700 36px CG;font-style:italic;line-height:1.1;margin-top:10px;color:#141210">…a może tylko żart? Sprawdź datę.</div></div>`;
+ html+=`<div class="e hd" id=h${i} style="top:${y+600}px"><div class=a>${d.a}</div><div class=b>${d.b}</div><div class=c>${d.c}</div></div>`;
+ html+=`<div class="e stamp" id=s${i} style="left:${i==5?520:560}px;top:${y+400}px;color:${d.stc};border-color:${d.stc};font-size:64px;transform:rotate(-8deg)">${d.st}</div>`;
+ html+=`<div class="e tape" id=t${i} style="left:${i%2?90:150}px;top:${y+930}px;transform:rotate(${i%2?-2:2}deg)">${d.tape}</div>`;}
+document.getElementById('secs').innerHTML=html;
+let sv='';for(let i=1;i<6;i++){const y=Y(i)+1020,y2=Y(i+1)+20;sv+=`<path id=r${i} d="M${i%2?380:700} ${y} C ${i%2?800:300} ${y+80}, ${i%2?250:820} ${y2-120}, ${i%2?270:270} ${y2}" stroke="#c0281b" stroke-width=4 fill=none />`}
+document.getElementById('strs').innerHTML=sv;
+const E=(a,b,t)=>{let x=Math.max(0,Math.min(1,(t-a)/b));return x*x*(3-2*x)};const $=id=>document.getElementById(id);
+function pop(id,a,t,sc0){const el=$(id);const k=E(a,0.35,t);el.style.opacity=k;const base=el.dataset.tr||(el.dataset.tr=el.style.transform||'');el.style.transform=base+' scale('+(sc0+(1-sc0)*k)+')'}
+function str(id,a,dur,t){const p=$(id);const L=p.getTotalLength();p.style.strokeDasharray=L;p.style.strokeDashoffset=L*(1-E(a,dur,t))}
+let HITS=[];
+function cam(t){let y=0;for(let i=1;i<=6;i++){if(t>=S[i]-0.6){const prev=i==1?0:-(Y(i-1)-300);y=prev+(-(Y(i)-300)-prev)*E(S[i]-0.6,0.8,t)}}
+ let sh=0;for(const h of HITS){const d=t-h;if(d>=0&&d<0.3)sh+=(1-d/0.3)*14*Math.sin(d*90)}
+ const z=1.02+0.02*Math.sin(t*0.22),r=0.4*Math.sin(t*0.17);$('board').style.transformOrigin='540px '+(-y+960)+'px';$('board').style.transform='translate('+(sh*0.6)+'px,'+(y+sh)+'px) scale('+z+') rotate('+r+'deg)';
+ let f=0;for(const h of HITS){const d=t-h;if(d>=0&&d<0.25)f=Math.max(f,0.16*(1-d/0.25))}$('flash').style.opacity=f}
+function caps(t){const c=$('cap');let p=null;for(const q of P){if(t>=q[0]&&t<=q[1]+0.2)p=q}
+ if(!p||t<S[1]-0.1||t>=S[7]){c.style.opacity=0;return}
+ const words=p[2].split(' ');const span=Math.max(0.4,p[1]-p[0]);let tot=words.reduce((a,w)=>a+w.replace(/<\/?y>/g,'').length+2,0),acc=0,html='',yl=false;
+ for(const w of words){if(w.includes('<y>'))yl=true;const cl=w.replace(/<\/?y>/g,'');const ta=p[0]+span*0.92*acc/tot;acc+=cl.length+2;const k=E(ta,0.12,t);const act=t>=ta&&t<p[0]+span*0.92*acc/tot+0.05;
+  html+='<span class=w style="opacity:'+k+';transform:translateY('+(12*(1-k))+'px) scale('+(act?1.06:1)+');color:'+(yl?'#F6C343':(act?'#E9884B':'#efe6d2'))+'">'+cl+'</span>';if(w.includes('</y>'))yl=false}
+ c.innerHTML=html;c.style.opacity=E(p[0],0.15,t)}
+function grain(T){const cv=$('grain'),x=cv.getContext('2d');const im=x.createImageData(540,960);let r=Math.floor(T*30)*9301+49297;for(let i=0;i<im.data.length;i+=4){r=(r*1103515245+12345)&0x7fffffff;const v=r>>23&255;im.data[i]=im.data[i+1]=im.data[i+2]=v;im.data[i+3]=255}x.putImageData(im,0,0);$('light').style.opacity=0.85+0.15*Math.sin(T*7.3)*Math.sin(T*3.1)}
+window.setT=function(T){const t=T-OFF;
+ $('cover').style.opacity=1-E(OFF-0.25,0.25,T);$('cover').style.display=T>OFF?'none':'block';
+ HITS=[0.1,0.9,1.7];for(let i=1;i<=6;i++)HITS.push(D[i].stT);
+ cam(t);caps(t);grain(T);
+ ['i1','i2','i3'].forEach((id,n)=>{const el=$(id);const k=E([0.1,0.9,1.7][n],0.18,t);el.style.opacity=k;el.style.transform='scale('+(1.6-0.6*k)+')'});
+ $('isub').style.opacity=E(2.6,0.4,t);const io=E(S[1]-0.5,0.5,t);$('intro').style.opacity=1-io;$('intro').style.display=io>=1?'none':'flex';
+ for(let i=1;i<=6;i++){pop('k'+i,S[i],t,1.12);pop('p'+i,S[i]+0.5,t,1.15);const h=$('h'+i);const k=E(S[i]+0.9,0.4,t);h.style.opacity=k;h.style.transform='translateY('+(30*(1-k))+'px)';pop('s'+i,D[i].stT,t,2.3);pop('t'+i,D[i].tpT,t,1.5);if(i<6)str('r'+i,S[i+1]-0.9,0.6,t);if(i<6){const fo=1-E(S[i+1]-0.2,0.5,t);for(const id of ['t'+i,'s'+i,'h'+i]){$(id).style.opacity=parseFloat($(id).style.opacity)*fo}}}
+ let ci=1;for(let i=1;i<=6;i++)if(t>=S[i])ci=i;$('cnt').textContent=String(ci).padStart(2,'0')+' / 06';const cv=t>=S[1]&&t<S[7]?1:0;$('cnt').style.opacity=cv;$('cntl').style.opacity=cv*.7;
+ const ct=E(S[7],0.4,t);$('cta').style.opacity=ct*(1-E(S[8],0.4,t));$('cta').style.transform='translateY('+(80*(1-ct))+'px)';
+ const ec=E(S[8],0.5,t);$('endc').style.opacity=ec;$('endl').style.width=(420*E(S[8]+0.3,0.6,t))+'px';
+ $('credit').style.opacity=t>=S[1]&&t<S[8]?0.6:0;}
+setT(0);
+</script></body></html>
